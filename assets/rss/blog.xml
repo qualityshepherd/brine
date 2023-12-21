@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>SPLOG</title>
-  <link>https://qualityshepherd.github.io/splog</link>
+  <link>https://brine.dev</link>
   <description>A simple, single page, blog written in vanilla js that supports markdown, rss, podcasts and deploys to github pages (github.io).</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 21 Dec 2023 14:29:10 GMT</lastBuildDate>
-  <atom:link href="https://qualityshepherd.github.io/splog/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Thu, 21 Dec 2023 15:00:04 GMT</lastBuildDate>
+  <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Sun, 01 Oct 2023 06:00:00 GMT</pubDate>
     <title>A TTRPG Manifesto</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=a_ttrpg_manifesto</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=a_ttrpg_manifesto</guid>
+    <link>https://brine.dev/#post?s=a_ttrpg_manifesto</link>
+    <guid>https://brine.dev/#post?s=a_ttrpg_manifesto</guid>
     <description><![CDATA[<p>We are exploring different approaches to TTRPGs. Through play we have come to value:</p>
 <ul>
 <li>A shared understanding of a world over rules</li>
@@ -24,8 +24,8 @@
   <item>
     <pubDate>Sat, 08 Jul 2023 06:00:00 GMT</pubDate>
     <title>How To Hexcrawl</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=how_to_hexcrawl</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=how_to_hexcrawl</guid>
+    <link>https://brine.dev/#post?s=how_to_hexcrawl</link>
+    <guid>https://brine.dev/#post?s=how_to_hexcrawl</guid>
     <description><![CDATA[<p><em>v1.1</em></p>
 <p>Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also <a href="https://casadeocio.itch.io/hexcrawls-rule">published a pdf</a></p>
 <h3 id="proceedures">PROCEEDURES</h3>
@@ -223,8 +223,8 @@
   <item>
     <pubDate>Mon, 16 Jan 2023 07:00:00 GMT</pubDate>
     <title>FKR</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=fkr</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=fkr</guid>
+    <link>https://brine.dev/#post?s=fkr</link>
+    <guid>https://brine.dev/#post?s=fkr</guid>
     <description><![CDATA[<p><strong>FKR</strong> (Free Kriegsspiel Roleplaying) is an approach to playing tabletop roleplaying games. Its popular catchphrase, <em>"play worlds not rules"</em> , is as reasonable as any catchphrase. Play requires the following:</p>
 <ol>
 <li>A shared understanding of a world.</li>
@@ -242,8 +242,8 @@
   <item>
     <pubDate>Thu, 09 Jun 2022 06:00:00 GMT</pubDate>
     <title>The Frost Spire - Part 4</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part4</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part4</guid>
+    <link>https://brine.dev/#post?s=the_frost_spire-part4</link>
+    <guid>https://brine.dev/#post?s=the_frost_spire-part4</guid>
     <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>I PUNCH IT!</strong></p>
 <p>It's PCs vs Polar Bear… my money is on the <em>bed</em>. Don't lose your hand!</p>
 <p><strong>The Frost Spire</strong></p>
@@ -265,8 +265,8 @@
   <item>
     <pubDate>Sun, 05 Jun 2022 06:00:00 GMT</pubDate>
     <title>The Frost Spire - Part 3</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part3</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part3</guid>
+    <link>https://brine.dev/#post?s=the_frost_spire-part3</link>
+    <guid>https://brine.dev/#post?s=the_frost_spire-part3</guid>
     <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>I PUNCH IT!</strong></p>
 <p>While ascending the Frost Spire, the crew come upon a ~roadblock~ knight in non-shining armor. As Wrath would tell you, returning from the dead is easy compared to climbing an ice tower in full plate. But the crew ties a rope around him and schleps him along (lest be stuck waiting for his slow-ass). Revenants--come to find out--like throwing rocks and punching things… who knew :shrug:</p>
 <p><strong>The Frost Spire</strong></p>
@@ -289,8 +289,8 @@
   <item>
     <pubDate>Sun, 29 May 2022 06:00:00 GMT</pubDate>
     <title>The Frost Spire - Part 2</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part2</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part2</guid>
+    <link>https://brine.dev/#post?s=the_frost_spire-part2</link>
+    <guid>https://brine.dev/#post?s=the_frost_spire-part2</guid>
     <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>Oh no! He's hot!</strong></p>
 <p>A frozen sea is no place for a himbo… I mean, if there is nobody around to gaze lovingly into the eyes; strong jawline and moonstruck mustache of a handsome man… is he really handsome? Oh, and there's some wolves or something… whatever. Now MOVE! You're blocking his moonlight.</p>
 <p><strong>The Frost Spire</strong></p>
@@ -312,8 +312,8 @@
   <item>
     <pubDate>Sun, 22 May 2022 06:00:00 GMT</pubDate>
     <title>The Frost Spire - Part 1</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part1</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part1</guid>
+    <link>https://brine.dev/#post?s=the_frost_spire-part1</link>
+    <guid>https://brine.dev/#post?s=the_frost_spire-part1</guid>
     <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" />The Arson Crew™ find themselves in the middle of an old fey tale. "The Ice Prince" is legend. A prince lives who travels the seas in a castle of ice; his wives feasting on children who misbehave.</p>
 <p><strong>The Frost Spire</strong></p>
 <p>Long ago, when the world was new an elf king was banished and tossed into the sea. His hatred was so great, and so cold, that it froze the water into a spire of ice and he was cursed to drift forever, bringing winter to the world.</p>
@@ -333,8 +333,8 @@
   <item>
     <pubDate>Thu, 12 May 2022 06:00:00 GMT</pubDate>
     <title>Accidental FKR</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=accidental_fkr</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=accidental_fkr</guid>
+    <link>https://brine.dev/#post?s=accidental_fkr</link>
+    <guid>https://brine.dev/#post?s=accidental_fkr</guid>
     <description><![CDATA[<p>My game has been unintentionally <em>molting</em> toward <strong>FKR</strong>. It started before ever hearing the term. It just kinda happened and I continue to enjoy its inherent permission for further mutations.</p>
 <p>During a hiatus from D&amp;D 5E, I found myself reading other game systems; exploring their rules (or lack thereof) and ideas. Honestly, I hadn't put together that I wanted to run another system. I was just being curious. Bits and pieces of various systems started to click; most notably, <a href="https://dungeon-world.com">Dungeon World</a>.</p>
 <p>Hilariously, I've never run Dungeon World; nor do I have interest in doing so. I don't find it to be a particularly compelling game, but rather a fantastic GM reference! Just reading it changed the way I run games. It also illuminated my want of a different ruleset: something simpler; more inclusive. I didn't need to look very far (even if I did)… DW lead me right to <a href="https://johnharper.itch.io/world-of-dungeons">World of Dungeons (WoDu)</a>.</p>
@@ -345,8 +345,8 @@
   <item>
     <pubDate>Wed, 16 Feb 2022 07:00:00 GMT</pubDate>
     <title>D66 Spark Table Generator</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=d66_spark_table_generator</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=d66_spark_table_generator</guid>
+    <link>https://brine.dev/#post?s=d66_spark_table_generator</link>
+    <guid>https://brine.dev/#post?s=d66_spark_table_generator</guid>
     <description><![CDATA[<p>I've been playing around with <strong>spark tables</strong>; a concept taken from <a href="https://www.bastionland.com">Chris McDowall</a>. The concept is quite simple: given two numbered tables/lists of evocative words, roll on both, and use the words together to spark an idea.</p>
 <p>This is lovely… but I wanted to create tables specific to my games/worlds, and was struggling to come up with evocative words. THUS, <strong>a spark table to <em>generate</em> spark tables was born!</strong></p>
 <p><break></p>
@@ -440,8 +440,8 @@
   <item>
     <pubDate>Wed, 12 Jan 2022 07:00:00 GMT</pubDate>
     <title>Delve of the Handsome Repeater</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=delve_of_the_handosme_repeater</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=delve_of_the_handosme_repeater</guid>
+    <link>https://brine.dev/#post?s=delve_of_the_handosme_repeater</link>
+    <guid>https://brine.dev/#post?s=delve_of_the_handosme_repeater</guid>
     <description><![CDATA[<p><a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater"><img src="assets/images/dothr-630x500.png" alt="center" /></a></p>
 <p>I like adventure modules. I especially like the newer ones… that are <em>actually</em> modular. Short, open-ended adventures that are trivial to drop into any campaign. Scanable; easy to grok. This is thankfully becoming the norm; fighting against the epic walls-of-text, and endless lore from modules of yore. This is what I want and what <em>I want to write</em>.</p>
 <p><break></p>
@@ -452,8 +452,8 @@
   <item>
     <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
     <title>On Vancian Magic</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=on_vancian_magic</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=on_vancian_magic</guid>
+    <link>https://brine.dev/#post?s=on_vancian_magic</link>
+    <guid>https://brine.dev/#post?s=on_vancian_magic</guid>
     <description><![CDATA[<p>When writing my <a href="#post?s=a_magic_system">magic system</a> for <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>, I had two goals: keep it simple and <em>somewhat</em> logical. Towards simplicity, I reused the existing game mechanics: <code>2d6</code>, <code>attributes</code> and <code>level</code>. I also considered using Necropraxis' fabulous <a href="https://www.necropraxis.com/2013/11/01/spell-dice">spell dice</a> but simplicity won out.</p>
 <p>Making the system logical took a lot more thought.</p>
 <p>Several people describe my magic system as <em>Vancian</em> (ie. spells must be prepared daily; have a fixed purpose and finite usage). <strong>I did not set out to make my system specifically <em>non-Vancian</em></strong>. This is good because when I think about it, it really is quite Vancian… but with <em>twists.</em></p>
@@ -466,8 +466,8 @@
   <item>
     <pubDate>Sat, 04 Dec 2021 07:00:00 GMT</pubDate>
     <title>I Published a Thing</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=i_published_a_thing</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=i_published_a_thing</guid>
+    <link>https://brine.dev/#post?s=i_published_a_thing</link>
+    <guid>https://brine.dev/#post?s=i_published_a_thing</guid>
     <description><![CDATA[<p><a href="https://casadeocio.itch.io/beasts-barrows"><img src="assets/images/bnb-630x500.png" alt="center" /></a></p>
 <p>I didn't set out to write a system… I swear. It just <em>happened</em>.</p>
 <p>Here's how it goes:</p>
@@ -491,8 +491,8 @@
   <item>
     <pubDate>Sun, 12 Sep 2021 06:00:00 GMT</pubDate>
     <title>Beasts &amp; Barrows</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=beasts_and_barrows</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=beasts_and_barrows</guid>
+    <link>https://brine.dev/#post?s=beasts_and_barrows</link>
+    <guid>https://brine.dev/#post?s=beasts_and_barrows</guid>
     <description><![CDATA[<p>by <a href="https://brine.dev">brine</a> - <version><em>v 1.0</em></version></p>
 <p><strong>Beasts & Barrows</strong> is an uncomplicated fantasy role-playing game (RPG) for 2-5 players + Game Maestro (GM). It steals blatantly from John Harper's <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> and shares the same <a href="http://apocalypse-world.com/pbta">PbtA</a> core mechanic (<code>2d6</code>). <del>YOU ARE FORBIDDEN TO HACK THIS!</del></p>
 <p><strong>Beasts & Barrows (B&B)</strong> values:</p>
@@ -793,8 +793,8 @@
   <item>
     <pubDate>Sun, 25 Jul 2021 06:00:00 GMT</pubDate>
     <title>Skills and Special Abilities</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=skills_and_special_abilities</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=skills_and_special_abilities</guid>
+    <link>https://brine.dev/#post?s=skills_and_special_abilities</link>
+    <guid>https://brine.dev/#post?s=skills_and_special_abilities</guid>
     <description><![CDATA[<p><em>v 1.3</em></p>
 <p>In <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>, <code>Skills and Special Abilities</code> help define a character's class. They map directly to the classic classes: <strong>Cleric, Fighter, Mage, Ranger & Thief</strong>; but they can also be bent to accommodate custom classes… like <a href="assets/images/chars/benedict_sandaries.pdf">Alchemist</a> or <a href="assets/images/chars/black_jenny.pdf">Road Agent</a>. The following details how these rules have evolved in my games.</p>
 <p><break></p>
@@ -843,8 +843,8 @@
   <item>
     <pubDate>Sun, 04 Jul 2021 06:00:00 GMT</pubDate>
     <title>Black Jenny and her Gang of Miscreant Sons</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=black_jenny_and_her_gang_of_miscreant_sons</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=black_jenny_and_her_gang_of_miscreant_sons</guid>
+    <link>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</link>
+    <guid>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</guid>
     <description><![CDATA[<p>I like to weave pre-written modules into my campaigns (parts of them, anyway). The different tones and ideas keep my players guessing and oftentimes end up becoming part of our lore. Case in point: when I threw <a href="http://dungeonofsigns.blogspot.com/2012/08/prison-of-hated-pretender-pdf.html">Prison of the Hated Pretender</a> into my longrunning campaign. I had previously run it as a one-shot when one of my players was unavailable. It ended in a TPK 🙄.</p>
 <p><break></p>
 <p>Being the benevolent GM that I am, I decided to bring my campaign party back to this setting and witness their one-shot character's dead, broken bodies. They also found out that the Pretender… HAS ESCAPED! In search of his crown, he immediately sought out… <em>Black Jenny</em>.</p>
@@ -879,8 +879,8 @@
   <item>
     <pubDate>Sun, 02 May 2021 06:00:00 GMT</pubDate>
     <title>A Magic System</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=a_magic_system</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=a_magic_system</guid>
+    <link>https://brine.dev/#post?s=a_magic_system</link>
+    <guid>https://brine.dev/#post?s=a_magic_system</guid>
     <description><![CDATA[<p><em>v 1.6</em></p>
 <blockquote>
   <p>The door to magic is closed for most; some few may find it ajar; <em>fewer still</em> may pick the door's lock altogether. Aptitude for the craft is is not unusual but is often misinterpreted. Great magic requires <em>constant practice</em>. The best magi are not always the most gifted; just <em>persistent</em>.</p>
@@ -915,8 +915,8 @@
   <item>
     <pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
     <title>S1E24 Shot Through The Heart And You're To Blame</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</guid>
+    <link>https://brine.dev/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</link>
+    <guid>https://brine.dev/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" /><strong>THE SEASON 1 FINALE IS HERE!</strong> <code>No spoilers</code> but Death returns… good luck, crew!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -932,8 +932,8 @@
   <item>
     <pubDate>Sun, 06 Dec 2020 07:00:00 GMT</pubDate>
     <title>S1E23 Eat Your Heart Out</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e23-eat_your_heart_out</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e23-eat_your_heart_out</guid>
+    <link>https://brine.dev/#post?s=s1e23-eat_your_heart_out</link>
+    <guid>https://brine.dev/#post?s=s1e23-eat_your_heart_out</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Are three McMuffins better than one? We find out in this episode! Also, <em>what's with the bowl of fish?</em> Yulia meets The Lady of Light and gets the answers to her heart's desires.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -949,8 +949,8 @@
   <item>
     <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
     <title>S1E22 Meddling Kids</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e22-meddling-kids</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e22-meddling-kids</guid>
+    <link>https://brine.dev/#post?s=s1e22-meddling-kids</link>
+    <guid>https://brine.dev/#post?s=s1e22-meddling-kids</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The Scooby crew break into <strong>The Temple of the Lady of Light</strong>. McMuffin concocts a <em>cunning plan</em> to dress up as delivery men, while Yulia battles an evil broom closet!</p>
 <p><em>Sidebar: we tweaked the audio in this episode… should be a bit better :shrug:</em></p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
@@ -967,8 +967,8 @@
   <item>
     <pubDate>Sun, 15 Nov 2020 00:00:00 GMT</pubDate>
     <title>S1E21 Let Sleeping Salt Circles Lie</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e21-let_sleeping_salt_circles_lie</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e21-let_sleeping_salt_circles_lie</guid>
+    <link>https://brine.dev/#post?s=s1e21-let_sleeping_salt_circles_lie</link>
+    <guid>https://brine.dev/#post?s=s1e21-let_sleeping_salt_circles_lie</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Gorath and Yulia walk into a mirror… but are instead whisked away by a rift in time. They meet a nice man inside a salt circle… nothing to see here.</p>
 <p>This episode was part side quest; part DLT (McMuffin's aunt) origin story; and part one-shot via <a href="http://www.lotfp.com/RPG/products/tower-of-the-stargazer">LotFP's Tower of the Stargazer</a>.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
@@ -985,8 +985,8 @@
   <item>
     <pubDate>Sun, 01 Nov 2020 06:00:00 GMT</pubDate>
     <title>S1E20 Burning Down the House</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e20-burning_down_the_house</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e20-burning_down_the_house</guid>
+    <link>https://brine.dev/#post?s=s1e20-burning_down_the_house</link>
+    <guid>https://brine.dev/#post?s=s1e20-burning_down_the_house</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Watch out, you might get what you're after<br>
 cool Birdy, that lighter's getting lighter<br>
 this voodoo… looks a lot like me<br>
@@ -1005,8 +1005,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
     <title>S1E19 Closet Full of Skeletons</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e19-closet_full_of_skeletons</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e19-closet_full_of_skeletons</guid>
+    <link>https://brine.dev/#post?s=s1e19-closet_full_of_skeletons</link>
+    <guid>https://brine.dev/#post?s=s1e19-closet_full_of_skeletons</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />We all have skeletons in our closets…</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1022,8 +1022,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
     <title>S1E18 Attack of the Color Guard</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e18-attack_of_the_color_guard</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e18-attack_of_the_color_guard</guid>
+    <link>https://brine.dev/#post?s=s1e18-attack_of_the_color_guard</link>
+    <guid>https://brine.dev/#post?s=s1e18-attack_of_the_color_guard</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" /><strong>This color guard has teeth!</strong> The Crew face off with <em>Louie Bluie</em> and his colorful friends… <em>honestly the cat statue may have given them more of a problem</em> 🤔</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1039,8 +1039,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 04 Oct 2020 06:00:00 GMT</pubDate>
     <title>S1E17 Never Trust a Cat Statue</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e17-never_trust_a_cat_statue</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e17-never_trust_a_cat_statue</guid>
+    <link>https://brine.dev/#post?s=s1e17-never_trust_a_cat_statue</link>
+    <guid>https://brine.dev/#post?s=s1e17-never_trust_a_cat_statue</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew execute their <em>cunning plan</em> and snoop around the <strong>The Temple of the Lady of Light</strong>. And they would have gotten away with it too <em>if it wasn't for that pesky cat statue</em>.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1056,8 +1056,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 30 Aug 2020 06:00:00 GMT</pubDate>
     <title>S1E16 Chillin' with the Tanpire</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e16-chillin_with_the_tanpire</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e16-chillin_with_the_tanpire</guid>
+    <link>https://brine.dev/#post?s=s1e16-chillin_with_the_tanpire</link>
+    <guid>https://brine.dev/#post?s=s1e16-chillin_with_the_tanpire</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Our heroes navigate the mirror plane back to Malik Maxwell's (aka _The Tanpire). They rest up; have some funky dreams; do a little snooping; ask _all_ the questions; and formulate a plan!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1073,8 +1073,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 16 Aug 2020 06:00:00 GMT</pubDate>
     <title>S1E15 Little Orc's Room</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e15-little_orcs_room</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e15-little_orcs_room</guid>
+    <link>https://brine.dev/#post?s=s1e15-little_orcs_room</link>
+    <guid>https://brine.dev/#post?s=s1e15-little_orcs_room</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Gorath visits the <em>little orc's room</em> and then he crew travels through the mirror plane, looking for Malik's house. They meet some shiny ravens…</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1090,8 +1090,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 09 Aug 2020 06:00:00 GMT</pubDate>
     <title>S1E14 The Mirror Plane</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e14-the_mirror_plane</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e14-the_mirror_plane</guid>
+    <link>https://brine.dev/#post?s=s1e14-the_mirror_plane</link>
+    <guid>https://brine.dev/#post?s=s1e14-the_mirror_plane</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Welcome to the <em>Mirror Plane</em>! The crew meet a shiny spider…</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1107,8 +1107,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 02 Aug 2020 06:00:00 GMT</pubDate>
     <title>S1E13 The Return of Naven Mag</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e13-the_return_of_naven_mag</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e13-the_return_of_naven_mag</guid>
+    <link>https://brine.dev/#post?s=s1e13-the_return_of_naven_mag</link>
+    <guid>https://brine.dev/#post?s=s1e13-the_return_of_naven_mag</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Naven Mag returns! The crew find themselves back in <em>The Time Wizard's</em> tower. More delicious tea; more <em>complicated</em>. They also fine out that <em>they can mirrorwalk</em>!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1124,8 +1124,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 26 Jul 2020 06:00:00 GMT</pubDate>
     <title>S1E12 Black Dog</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e12-black_dog</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e12-black_dog</guid>
+    <link>https://brine.dev/#post?s=s1e12-black_dog</link>
+    <guid>https://brine.dev/#post?s=s1e12-black_dog</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Malik and the crew take on a <strong>Black Dog</strong>… then go for a swim in the <strong>Infinity Fountain</strong>.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1141,8 +1141,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 14 Jun 2020 06:00:00 GMT</pubDate>
     <title>S1E11 Malik Maxwell</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e11-malik_maxwell</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e11-malik_maxwell</guid>
+    <link>https://brine.dev/#post?s=s1e11-malik_maxwell</link>
+    <guid>https://brine.dev/#post?s=s1e11-malik_maxwell</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew visit the home of Malik Maxwell: noted, local business man and borrower of magic books and expensive booze collector. And they tell him <em>every. thing.</em>.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1158,8 +1158,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 24 May 2020 06:00:00 GMT</pubDate>
     <title>S1E10 Sister Malora - Lady of Light High Priestess</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</guid>
+    <link>https://brine.dev/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</link>
+    <guid>https://brine.dev/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In this episode we learn about orc mating rituals when Gorath presents a dead dog to Yulia :shrug:. They meet with Sister Malora, the Hight Priestess of the Lady of Light. And they tell here <em>every. thing.</em></p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1175,8 +1175,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 10 May 2020 06:00:00 GMT</pubDate>
     <title>S1E9 Cloud City</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e9-cloud_city</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e9-cloud_city</guid>
+    <link>https://brine.dev/#post?s=s1e9-cloud_city</link>
+    <guid>https://brine.dev/#post?s=s1e9-cloud_city</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew lands in Cloud City! Gorath is being followed by a Black Dog; they run into <em>Little Baby Drekel</em>; and they learn about a murder mystery…</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1192,8 +1192,8 @@ burning down the house</p>
   <item>
     <pubDate>Sun, 03 May 2020 06:00:00 GMT</pubDate>
     <title>S1E8 Is That a Musket In Your Pocket?</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e8-is_that_a_musket_in_your_pocket</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e8-is_that_a_musket_in_your_pocket</guid>
+    <link>https://brine.dev/#post?s=s1e8-is_that_a_musket_in_your_pocket</link>
+    <guid>https://brine.dev/#post?s=s1e8-is_that_a_musket_in_your_pocket</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The Toucan crew is back on the board with Santo but but make an emergency landing. Not for more beer (though 🤔) but because of a storm. They build a fire right by an Owl Bear nest and McMuffin realizes <em>he has a musket</em> and he's not afraid to use it!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>,
 rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
@@ -1210,8 +1210,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 19 Apr 2020 06:00:00 GMT</pubDate>
     <title>S1E6 A Debt for the Dead - Part 1</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e6-a_debt_for_the_dead_part_1</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e6-a_debt_for_the_dead_part_1</guid>
+    <link>https://brine.dev/#post?s=s1e6-a_debt_for_the_dead_part_1</link>
+    <guid>https://brine.dev/#post?s=s1e6-a_debt_for_the_dead_part_1</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew fly through a stitch in time and find themselves… well… dead… <em>again</em>. We are also introduced to delicious <em>Breakfast Donuts</em>!</p>
 <p>This is a one-ish shot that I wrote for the <a href="https://www.dungeoncontest.com/opdc-2020">2020 One Page Dungeon Contest</a> and slipped it into our campaign (so sneaky). It's called <a href="https://brine.dev/#post?s=one_page_dungeon_contest">a Debt for the Dead</a>. It turned out to be a ton of fun, and <em>marked</em> the entire campaign FOREVAH! Looking at it today, I can see why it wasn't well received by the judges :) I really hate doing <em>print work</em> and it shows. Still… fun stuff!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
@@ -1228,8 +1228,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Tue, 14 Apr 2020 06:00:00 GMT</pubDate>
     <title>A Debt for the Dead</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=a_debt_for_the_dead</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=a_debt_for_the_dead</guid>
+    <link>https://brine.dev/#post?s=a_debt_for_the_dead</link>
+    <guid>https://brine.dev/#post?s=a_debt_for_the_dead</guid>
     <description><![CDATA[<p>I like <em>one page dungeons</em>. My current campaign started with <a href="https://dndeed.tumblr.com/post/145693588517/tower-of-the-time-wizard-my-penultimate-winning">Andrew Harshman's</a> one pager… and it sparked almost a year of play so far. One page dungeons are great for one-shots, drop in locations or even just a source to steal from.</p>
 <p><break></p>
 <p>So when the 2020 contest came up, I decided to write my own. I <em>thoroughly</em> play tested it… <em>once</em>… but it ended up being really fun (isn't it always fun to kill your players' characters?) and it now too, plays a large part in my current campaign.</p>
@@ -1239,8 +1239,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 12 Apr 2020 06:00:00 GMT</pubDate>
     <title>S1E5 Death and McMuffin</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e5-death_and_mcmuffin</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e5-death_and_mcmuffin</guid>
+    <link>https://brine.dev/#post?s=s1e5-death_and_mcmuffin</link>
+    <guid>https://brine.dev/#post?s=s1e5-death_and_mcmuffin</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In order to save his parents, our <em>reluctant sailor</em>, McMuffin dies and bargains with Death!</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1256,8 +1256,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 15 Mar 2020 06:00:00 GMT</pubDate>
     <title>S1E2 Hissy Fit</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e2-hissy-fit</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e2-hissy-fit</guid>
+    <link>https://brine.dev/#post?s=s1e2-hissy-fit</link>
+    <guid>https://brine.dev/#post?s=s1e2-hissy-fit</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew travel by balloon to McMufin's home town of ~Hissy Fit~ <strong>Hsifilet</strong>.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1273,8 +1273,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 08 Mar 2020 07:00:00 GMT</pubDate>
     <title>S1E1 A Balloon for Gorath</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s1e1-a_balloon_for_gorath</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e1-a_balloon_for_gorath</guid>
+    <link>https://brine.dev/#post?s=s1e1-a_balloon_for_gorath</link>
+    <guid>https://brine.dev/#post?s=s1e1-a_balloon_for_gorath</guid>
     <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In this first episode of <strong>Season 1</strong>, we meet McMuffin's pet toucan, <strong>Birdie</strong>; which has <em>somehow</em> always been sitting on his shoulder? Whatever. We are also introduced to <strong>Santo Regulus Dumont</strong>; a professional drinker and aeronaut hobbyist.</p>
 <p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
 <p><break></p>
@@ -1290,8 +1290,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 23 Feb 2020 07:00:00 GMT</pubDate>
     <title>S0E4 Tower of the Time Wizard</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s0e4-tower_of_the_time_wizard</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e4-tower_of_the_time_wizard</guid>
+    <link>https://brine.dev/#post?s=s0e4-tower_of_the_time_wizard</link>
+    <guid>https://brine.dev/#post?s=s0e4-tower_of_the_time_wizard</guid>
     <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />Today on GorathCast…</p>
 <p>Season 0 ends with the party selling some loot and makes the transition to… <em>season 1</em>!</p>
 <p><break></p>
@@ -1307,8 +1307,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 09 Feb 2020 07:00:00 GMT</pubDate>
     <title>S0E3 Tower of the Time Wizard</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s0e3-tower_of_the_time_wizard</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e3-tower_of_the_time_wizard</guid>
+    <link>https://brine.dev/#post?s=s0e3-tower_of_the_time_wizard</link>
+    <guid>https://brine.dev/#post?s=s0e3-tower_of_the_time_wizard</guid>
     <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />Death becomes us! The 3rd floor puzzles the party and the 4th… well… it's complected.</p>
 <p><break></p>
 <h3 id="cast">Cast</h3>
@@ -1323,8 +1323,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 26 Jan 2020 07:00:00 GMT</pubDate>
     <title>S0E2 Tower of the Time Wizard</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s0e2-tower_of_the_time_wizard</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e2-tower_of_the_time_wizard</guid>
+    <link>https://brine.dev/#post?s=s0e2-tower_of_the_time_wizard</link>
+    <guid>https://brine.dev/#post?s=s0e2-tower_of_the_time_wizard</guid>
     <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />The players make it to the 2nd floor of the tower and <strong>[SPOILER]</strong> <em>go ham</em> on… well… the A-Team and make delicious <em>slumgullion</em>.</p>
 <p><break></p>
 <h3 id="cast">Cast</h3>
@@ -1339,8 +1339,8 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
   <item>
     <pubDate>Sun, 19 Jan 2020 07:00:00 GMT</pubDate>
     <title>S0E1 Tower of the Time Wizard</title>
-    <link>https://qualityshepherd.github.io/splog/#post?s=s0e1-tower_of_the_time_wizard</link>
-    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e1-tower_of_the_time_wizard</guid>
+    <link>https://brine.dev/#post?s=s0e1-tower_of_the_time_wizard</link>
+    <guid>https://brine.dev/#post?s=s0e1-tower_of_the_time_wizard</guid>
     <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />This was the very first session of what was <em>supposed to be</em> just a oneshot… but would become a full campaign. <a href="assets/images/tower_of_the_time_wizard.pdf">Tower of the Time Wizard</a> is a fun, one-page, dungeon, written by Andrew Harshman. In this 3 part podcast, we run Andrew's one-pager using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> ruleset.</p>
 <p><break></p>
 <p>This was my first time running <em>WoDu</em>, and so we take a good amount of time talking about characters and rules.</p>

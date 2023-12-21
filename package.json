@@ -1,12 +1,12 @@
 {
   "name": "brine",
-  "description": "Playing worlds & podcasting...",
+  "description": "Welcome to my world...",
   "version": "1.0.0",
   "author": "brine",
   "license": "MIT",
   "main": "index.html",
   "splog": {
-    "url": "https://qualityshepherd.github.io/splog",
+    "url": "https://brine.dev",
     "pathToIndex": "./src/data/siteIndex.json",
     "pathToPostsFolder": "./assets/posts",
     "pathToRssFolder": "./assets/rss",
