@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Gargoyle",
+    "stats": {
+      "ar": "2",
+      "at": "claw/bite: 2d6"
+    },
+    "description": "Defend the castle! These lurkers are straight up dicks and rarely stray far from the abode of their maker. They are strong, stout and <b>impervious to non-magical attacks</b>. If you find yourself asking 'did that statue just move?', you're probably already dead.",
+    "tags": "small, flight",
+    "image": "assets/images/monsters/gargoyle.png"
+  },
+  {
+    "name": "Lamp Boy",
+    "stats": {
+      "ar": "0",
+      "at": "they do not fight"
+    },
+    "description": "It's probably best that these little guys are mute. I mean, do you really want to know why they have silver coins for eyes? Or where their real eyes are? SPOILER: they fuel the lamp that lights their way. They have no answers. They were sent to fetch you and that's what they'll do. That's all they do. Oh, and careful... you break one, you become one.",
+    "tags": "small, fae, marked, tracker",
+    "image": "assets/images/monsters/lamp_boy2.png"
+  },
+  {
+    "name": "Fallen Priest",
+    "stats": {
+      "ar": "1",
+      "at": "2d6+1 mace; spells: 2d6"
+    },
+    "description": "A Fallen Priests can no longer heal, so they often do the <i>'other thing'</i>. They tend to turn to dark magic; often summoning and/or trapping a demon to do their bidding. Priests don't fall on a whim... there's a story there.",
+    "tags": "medium, priest, fighter",
+    "image": "assets/images/monsters/fallen_priest.png"
+  },
+  {
+    "name": "Bear",
+    "stats": {
+      "ar": "0",
+      "at": "2D6 bite/claw/maul"
+    },
+    "description": "Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",
+    "tags": "large, strong, quick, reach, perceptive",
+    "image": "assets/images/monsters/bear.png"
+  },
+  {
+    "name": "Black Dog",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 bite/claws"
+    },
+    "description": "That dark thing you see out of the corner of your eye and then it's gone. The <b>frightening howl/scratching</b> you hear in the stillness of the night. That feeling of being watched... that's a Black Dog and brother, you better hope you never get a better look. If you find yourself staring into those crimson eyes... you are <b title='only a marked target can see a Black Dog'>marked</b> and only you can see it. Black Dogs are smart, patient and lethal. Dibs on your boots!",
+    "tags": "medium, fast, fae, invisible, marked, howl",
+    "image": "assets/images/monsters/black_dog.png"
+  },
+  {
+    "name": "Dragon Vine",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 poison thorns"
+    },
+    "description" : "Creepy crawly vines that are razor sharp and stronger than you'd expect. You may only notice them after they've <b>grappled</b> you... and then there's the <b>poison</b>. I mean, you'll probably survive?",
+    "tags": "large, plant, swarm",
+    "image": "assets/images/monsters/dragon_vine.png"
+  },
+  {
+    "name": "Hippogriff",
+    "stats": {
+      "ar": "1",
+      "at": "2d6 beak/claws"
+    },
+    "description": "Part horse; part eagle. These things are fast, strong and <b>perceptive</b>. It's a good thing their dumb as a bag of rocks or we'd all be working for them. As for riding one: bowing is not a bad idea... but you first!",
+    "tags": "large, fast, flight, fighter",
+    "image": "assets/images/monsters/hippogriff.png"
+  },
+  {
+    "name": "Treant",
+    "stats": {
+      "ar": "2",
+      "at": "3d6 bludgeoning limbs"
+    },
+    "description" : "Old and tall and thick of bark<br> walk amidst the tree-lined dark<br> strong and slow and forest-born<br> Treants anger quick, we warn<br> if to woods with axe ye go<br> know the Treants be thy foe",
+    "tags": "huge, slow, fire-bad",
+    "image": "assets/images/monsters/treant.png"
+  },
+  {
+    "name": "Road Agent",
+    "stats": {
+      "ar": "1",
+      "at": "1d6 shiv"
+    },
+    "description" : "When times get tough; the tough get stealing! We all gotta eat... but some actually enjoy this line of work. <i>Is that a shiv in your pocket or...</i>",
+    "tags": "medium, sneaky, opportunistic, pack, she-cut-me",
+    "image": "assets/images/monsters/road_agent.png"
+  },
+  {
+    "name": "Dragon",
+    "stats": {
+      "ar": "5",
+      "at": "5D6 bite/claw/tail, 9D6 breath"
+    },
+    "description": "This <b title='can turn fails into partial success 2x day'>legendary</b> winged reptile is at best, unpredictable. It might swallow you whole or cook you first with its <b>fiery breath</b>. It may not consider you a threat and completely ignore you. Who knows... They sleep: lightly when recovering; deeply when allowing the food supply to flourish. Straight up fucking carnage when awake. How's your cardio?",
+    "tags": "huge, terrifying, mythic, clever, flyby, lucky, hoarder",
+    "image": "assets/images/monsters/dragon.png"
+  },
+  {
+    "name": "Ooze",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 corrosive touch"
+    },
+    "description" : "How do you kill a pile of goo? A great, squishy pile of goo? Stick it with a non-magical weapon and <b>watch the metal corrode</b>. Cut it in half and <b title='fragmentation: cutting a foe in half creates TWO foes'>now you've got TWO problems!</b> Get too close and <b title='attacks ignore armor'>your armor will not save you</b>. These things ooze around dungeons and pour through the smallest of openings. Yeah... good luck with that.",
+    "tags": "medium, slow, fragmentation, magical-damage-only",
+    "image": "assets/images/monsters/ooze.png"
+  },
+  {
+    "name": "Troll",
+    "stats": {
+      "ar": "1",
+      "at": "2d6+2 great club"
+    },
+    "description": "Tall. Like, real tall. Tall when they're born. Tall kids. Ugly, nasty, smelly creatures whose primary stance is hate. If you're able to kill one, better burn every part of it... the small chunks will <b title='severed limbs grow back'>regenerate</b>; the larger chunks <b title='fragmentation: cutting a foe in half creates TWO foes'>turn into another troll</b>. Only thing worse than a troll is two trolls. ",
+    "tags": "large, slow, regenerate",
+    "image": "assets/images/monsters/troll.png"
+  },
+  {
+    "name": "Redcap",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 razor"
+    },
+    "description" : "Hey little guy: what's with the red hat? Wait... is that... blood? Redcaps are malicious little bastards and you'll never see just one... in fact, you won't see them at all. They are <b>invisible</b> unless they let you see them or you are <b title='only a marked target can see them'>marked</b>. Once they outnumber you, out come the razors... fresh blood for their caps!",
+    "tags": "small, fae, invisible, quick, sneaky, pack",
+    "image": "assets/images/monsters/redcap.png"
+  },
+  {
+    "name": "Dryad",
+    "stats": {
+      "ar": "1 (barkskin)",
+      "at": "2d6 shillelagh/bow or spells"
+    },
+    "description" : "Married to the woods, these <b>charming</b> creatures will make you feel all squishy inside... and if you fuck with them, they'll make you squishy on the outside too. Unrequited love is tough... <i>but hey... maybe they'll change?</i> SUCKER! They will always <b title='into one tree and out another'>tree-walk</b> away and break your heart.",
+    "tags": "medium, fae, fire-bad, darkvision, tree-walk",
+    "image": "assets/images/monsters/dryad.png"
+  },
+  {
+    "name": "Dybbuk",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 brain scoop"
+    },
+    "description" : "<b title='impervious to non-magical attacks; cold to the touch'>Incorporeal</b> and <b>frightening</b>, this dislocated soul is on a mission, and is looking for the perfect host to <b>possess</b>. A fresh corpse might do... less bothersome than the living; but any port in a storm. If its plan does not suit your own, best get thee to an exorcist, pronto. They don't attack the body; but rather <b>scoop out the unhelpful parts of your brain</b> and move in.",
+    "tags": "medium, undead, possession",
+    "image": "assets/images/monsters/dybbuk.png"
+  },
+  {
+    "name": "Mirror-Self",
+    "stats": {
+      "ar": "?",
+      "at": "?d6 mirror blade"
+    },
+    "description" : "Step foot in the mirror plane and you increase its population by <i>two</i>. A <b title='they have/know everything you have/know; if you're right handed, they're lefties; if you're good, they're evil'>mirror version of yourself</b> now inhabits this gloomy, greyscaped world... <i>and it wants out!</i> If you are killed by your mirror-self, it is then free to leave the plane and assume your place in the real world. I mean, if you're a total dick, you're mirror-self is cool... so this is a good thing?",
+    "tags": "you-sized, mirror-plane, doppelganger",
+    "image": "assets/images/monsters/mirror-self.png"
+  },
+  {
+    "name": "Wendigo",
+    "stats": {
+      "ar": "1",
+      "at": "2d6 bite/claws + save vs insatiable hunger"
+    },
+    "description" : "Wendigo look like someone took a skull with antlers and staked it through a desiccated, leather bag of bones. A sudden chill proceeds their appearance... which is good 'cause they <b title='take cloud form and ride the wind to a location they can see'>wind walk</b>. On first sight, even the most stout adventurer may find themselves <b>frightened</b>. Did I mention that they're <b>cannibals</b>? They eat their kills and if you somehow survive their bite, enjoy that <b>insatiable hunger</b>. Victims will devour every scrap of food on their person... and then attempt to devour a person.",
+    "tags": "medium, fast, cannibal, insatiable-hunger",
+    "image": "assets/images/monsters/wendigo.png"
+  },
+  {
+    "name": "Mimic",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 pseudopod/bite"
+    },
+    "description" : "Oooh... a chest! Let's open it and AAAAAGGGGGHHHH! That friendly looking door; that chest full of coins; that child's play toy? Yeah, those are all mimics. Originally created by magi to protect their loot, these <b>shapeshifters</b> evolved and now <b title='divide or split into two parts'>reproduce via fission</b>. They secrete a sticky, glue-like substance that sticks to anything that touches it. That combined with their natural strength make them uncanny <b>grapplers</b>. And watch out for the right hook from that <b title='an arm-like projection'>pseudopod</b>. Nasty.",
+    "tags": "medium, slow",
+    "image": "assets/images/monsters/mimic.png"
+  },
+  {
+    "name": "Thunderhead",
+    "stats": {
+      "ar": "0",
+      "at": "4d6 lightning"
+    },
+    "description" : "Awww... look at that pretty cloud. It looks kinda like... like an anvil? Wait... is it moving against the wind? Thunderheads look like clouds but are closer to huge, whispey dragons. They eat rain clouds (causing drought) and breath lightning. Outside of their shape, they are indistinguishable from clouds until they strike; forming a face to dispense intense voltage. Unlike conventional lightning, Thunderheads can strike the same place any number of times.",
+    "tags": "huge, slow, incorporeal, magical, lightning",
+    "image": "assets/images/monsters/thunderhead.png"
+  },
+  {
+    "name": "The Minotaur",
+    "stats": {
+      "ar": "1",
+      "at": "3d6+2 great axe; 2d6 gore + save vs knocked prone"
+    },
+    "description" : "The Minotaur's mortal bellow can be heard for miles; and let's hope it's that far away! Once you hear it grunting and gasping, it's caught your scent, and you're in the zone: the threat zone. Now you get to find out: is it more man or bull? If he goes with axe first: man; if he gores you: bull. If you fall prone look out for those hooves! These things are pretty dumb but have a knack for traversing labyrinths... who knew?",
+    "tags": "large, fast, aggressive, fighter, gore",
+    "image": "assets/images/monsters/minotaur.png"
+  },
+  {
+    "name": "Bristled Boar",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 tusks + save vs knocked prone"
+    },
+    "description" : "Angry. Damn angry. Seething! That shrill squeal tells the tale. Speaking of tales; that cute little squiggly tail... is attached to a wild, shaggy killer! Foaming jaws and piercing tusks. They gore; they knock you on your ass and some swear they can hear it laugh. Lies... nobody survives to spread rumors like that.",
+    "tags": "medium, fast, aggressive, gore, pack",
+    "image": "assets/images/monsters/bristled_boar.png"
+  },
+  {
+    "name": "Viscid Worm",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 corrode per round"
+    },
+    "description" : "You wouldn't be the first to hurl at the sight of a viscid worm. These bulbous, glutinous creatures might have any sort of thing stuck to it; in any state of decay. Once something is stuck to it, it's stuck for life. Luckily, the natural adhesive they secrete is also corrosive, and digestive, so that's typically not a very long time. Seriously gross... yet, kind of weirdly adorable?",
+    "tags": "large, slow, sticky, corrosive",
+    "image": "assets/images/monsters/viscid_worm.png"
+  },
+  {
+    "name": "Prying Peacock",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 talon"
+    },
+    "description" : "Gregarious extroverts that are eager to impress. They will fan their train, unveiling innumerable, <b title='save vs charmed'>captivating eyes</b> and pose for applause. They are also delicious! But be warned the curse of the eyes: attackers are cursed and will roll disadvantage on their next roll. Tell me more about my eyes....",
+    "tags": "small, fast, flight",
+    "image": "assets/images/monsters/peacock.png"
+  },
+  {
+    "name": "Garish Shadow",
+    "stats": {
+      "ar": "0",
+      "at": "1d6 health drain"
+    },
+    "description" : "What a ham. These shadows hate to wait... um... in the shadows. They love to go off script and play to the spotlight. And they will ONLY be upstaged by silver/magic weapons, or a priest with turn. Anything less and you might get a chance to be <i>their</i> stand-in. Boy, when you die at the palace... you really DIE at the palace.",
+    "tags": "medium, magical, drain",
+    "image": "assets/images/monsters/shadow.png"
+  },
+  {
+    "name": "Nightgaunt",
+    "stats": {
+      "ar": "0",
+      "at": "2d6 talons; dream drop"
+    },
+    "description" : "Have you ever fallen awake from a dream? You were were in the clutches of a Nightgaunt. They come upon their victims with nearly silent wings. A portent of dread just before cold talons grapple and pull.  If remembered at all, these encounters become a hazy jumble of inhuman laughter, a whisper of wings and a cold numbness. What you'll never forget is the terror and helplessness as they carry you away; dropping you into dreams. Don't let the bedbugs bite!",
+    "tags": "medium, grapple, magical, dreams",
+    "image": "assets/images/monsters/nightgaunt.png"
+  },
+  {
+    "name": "Murder of Ravens",
+    "stats": {
+      "ar": "0",
+      "at": "2d6 beak/claw"
+    },
+    "description" : "A single raven himself is not only hoarse, but off-putting to all the senses. A hundred-strong murder is a thousand times worse. Blinding black wings raking and bludgeoning everything it its path. And if it be YOU in their path, you may get a literal understanding of the term <i>death by a thousand cuts.</i>",
+    "tags": "medium, fast, flight, swarm",
+    "image": "assets/images/monsters/murder_of_ravens.png"
+  }
+]

@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>SPLOG</title>
+  <link>https://qualityshepherd.github.io/splog</link>
+  <description>A simple, single page, blog written in vanilla js that supports markdown, rss, podcasts and deploys to github pages (github.io).</description>
+  <language>en-us</language>
+  <lastBuildDate>Thu, 21 Dec 2023 14:29:10 GMT</lastBuildDate>
+  <atom:link href="https://qualityshepherd.github.io/splog/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Sun, 01 Oct 2023 06:00:00 GMT</pubDate>
+    <title>A TTRPG Manifesto</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=a_ttrpg_manifesto</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=a_ttrpg_manifesto</guid>
+    <description><![CDATA[<p>We are exploring different approaches to TTRPGs. Through play we have come to value:</p>
+<ul>
+<li>A shared understanding of a world over rules</li>
+<li>Table trust over systems</li>
+<li>Immersion over character sheets</li>
+<li>Conversation and negotiation over procedures</li>
+</ul>
+<p>That is, while there is value in the elements on the right, we value the elements on the left more.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sat, 08 Jul 2023 06:00:00 GMT</pubDate>
+    <title>How To Hexcrawl</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=how_to_hexcrawl</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=how_to_hexcrawl</guid>
+    <description><![CDATA[<p><em>v1.1</em></p>
+<p>Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also <a href="https://casadeocio.itch.io/hexcrawls-rule">published a pdf</a></p>
+<h3 id="proceedures">PROCEEDURES</h3>
+<h4 id="morning">Morning</h4>
+<ol>
+<li>Roll weather</li>
+<li>Consume food/water</li>
+<li>Break or sustain camp</li>
+<li>Choose a travel direction and pace</li>
+<li>Roll navigation</li>
+</ol>
+<h4 id="day">Day</h4>
+<ol>
+<li>GM describes points of interest (POIs)/changing weather/terrain/landmarks…</li>
+<li>Roll random encounters once per hex</li>
+<li>Roll navigation on direction change</li>
+<li>Exploring or hunting takes 1/2 day travel time</li>
+<li>Foraging can be done en route when not on roads but requires a slowed pace</li>
+</ol>
+<h4 id="night">Night</h4>
+<ol>
+<li>Make camp</li>
+<li>Consume food/water</li>
+<li>Stand watch</li>
+<li>Roll encounter</li>
+</ol>
+<h3 id="travel">TRAVEL</h3>
+<p>Hexes are 6 miles. PCs can travel 3 hexes per day at a normal pace; 4 if moving quickly or mounted. Mountains or swamps slow the party to 1 hex per day. Pushing further risks fatigue.</p>
+<table>
+<thead>
+<tr>
+<th id="type" style="text-align:left;">Type</th>
+<th id="distance/time" style="text-align:left;">Distance/Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">Mapping</td>
+<td style="text-align:left;">1/2 hex per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Hunting</td>
+<td style="text-align:left;">1/2 day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Exploring</td>
+<td style="text-align:left;">1/2 day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel swamp/mountains</td>
+<td style="text-align:left;">1 hex per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel normal</td>
+<td style="text-align:left;">3 hexes per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel forced/mounted</td>
+<td style="text-align:left;">4 hexes per day</td>
+</tr>
+</tbody>
+</table>
+<p><break></p>
+<h4 id="weather">Weather</h4>
+<p>Roll 2d6: the leftmost die is type of weather, the other severity.</p>
+<table>
+<thead>
+<tr>
+<th id="weather" style="text-align:left;">Weather</th>
+<th id="severity" style="text-align:left;">Severity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1. Rain/fog/snow</td>
+<td style="text-align:left;">1. Epic</td>
+</tr>
+<tr>
+<td style="text-align:left;">2. Storm</td>
+<td style="text-align:left;">2. Severe</td>
+</tr>
+<tr>
+<td style="text-align:left;">3. Wind</td>
+<td style="text-align:left;">3. Harsh</td>
+</tr>
+<tr>
+<td style="text-align:left;">4. Unusual Hot/cold</td>
+<td style="text-align:left;">4. Moderate</td>
+</tr>
+<tr>
+<td style="text-align:left;">5. Cloudy</td>
+<td style="text-align:left;">5. Mild</td>
+</tr>
+<tr>
+<td style="text-align:left;">6. Clear</td>
+<td style="text-align:left;">6. Pleasant</td>
+</tr>
+</tbody>
+</table>
+<h4 id="navigation">Navigation</h4>
+<p>Skip navigation rolls when following a road/river/compass/spell/landmark on clear day.</p>
+<table>
+<thead>
+<tr>
+<th id="d6" style="text-align:left;">D6</th>
+<th id="effect" style="text-align:left;">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Loop back to point of departure</td>
+</tr>
+<tr>
+<td style="text-align:left;">2-3</td>
+<td style="text-align:left;">Veer one sextant left of intended destination</td>
+</tr>
+<tr>
+<td style="text-align:left;">4-5</td>
+<td style="text-align:left;">Veer one sextant right of intended destination</td>
+</tr>
+<tr>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Arrive at intended destination</td>
+</tr>
+</tbody>
+</table>
+<h4 id="discovery">Discovery</h4>
+<p>PCs discover POIs in the sextants they traverse. Eg. if the party is traveling NW through a hex and there's a POI in sextants 2 or 5, they should discover it.</p>
+<pre>
+    _6_
+  5/   \1
+  4\___/2
+     3
+</pre>
+<p>POIs might also be discovered if the PCs:</p>
+<ul>
+<li>See smoke/light/landmark</li>
+<li>Hear noises</li>
+<li>Smell something</li>
+<li>Observe evidence of it</li>
+<li>Explore the sextant</li>
+</ul>
+<blockquote>
+  <p>PCs can see 3 miles of flat terrain and 1 hex per 50' of elevation (tree/hill/cliff)</p>
+</blockquote>
+<h4 id="fatigue">Fatigue</h4>
+<p>PCs risk fatigue from lack sleep/food/water, forced travel, heavy burden, miserable conditions or injury. Consuming food/water and resting a day in comfort and safety cures fatigue.</p>
+<table>
+<thead>
+<tr>
+<th id="level" style="text-align:left;">Level</th>
+<th id="effect" style="text-align:left;">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Disadvantaged skill rolls</td>
+</tr>
+<tr>
+<td style="text-align:left;">2</td>
+<td style="text-align:left;">Speed halved</td>
+</tr>
+<tr>
+<td style="text-align:left;">3</td>
+<td style="text-align:left;">Disadvantaged attacks</td>
+</tr>
+<tr>
+<td style="text-align:left;">4</td>
+<td style="text-align:left;">Drop all bulky items</td>
+</tr>
+<tr>
+<td style="text-align:left;">5</td>
+<td style="text-align:left;">Speed = 0</td>
+</tr>
+<tr>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Death</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tips">TIPS</h3>
+<ol>
+<li>Everything's a dungeon… including the wilderness. Anything you'd put in a dungeon can be adapted for the wilderness.</li>
+<li>Less is more. If a rule isn't fun, ditch it.</li>
+<li>have 2-3 POIs per hex and some <em>roving</em> POIs (ie. encounters) to call upon. Eg. a traveler; a caravan; a knight on a quest; a messenger; the sisters of the bountiful earth foraging for morrells…</li>
+<li>POIs should offer <em>choices and opportunities</em>. Eg. a stronghold of 40 fighters might: be joined; leveraged into finding a McGuffin; fight for sport; rise up against a common enemy; fight the PCs…</li>
+<li>The world is your obstacle. The bridge is washed out; the road just ends; this forest is cursed; so many rivers to cross…</li>
+<li>Offer roses for the PCs to smell. POIs should include wondrous things. Eg. a field of all 4 leaf clovers; a tree with hundreds of ribbons tied to it, each with a wish…</li>
+<li>Telegraph threats and/or leave their traces. Eg. enemy scouts; a storm; displaced animals/people; hundreds of odd footprints…</li>
+<li>Is there something hunting/tracking the PCs?</li>
+</ol>]]></description>
+  </item>
+  <item>
+    <pubDate>Mon, 16 Jan 2023 07:00:00 GMT</pubDate>
+    <title>FKR</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=fkr</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=fkr</guid>
+    <description><![CDATA[<p><strong>FKR</strong> (Free Kriegsspiel Roleplaying) is an approach to playing tabletop roleplaying games. Its popular catchphrase, <em>"play worlds not rules"</em> , is as reasonable as any catchphrase. Play requires the following:</p>
+<ol>
+<li>A shared understanding of a world.</li>
+<li>A Game Maestro trusted to represent "the world", and adjudicate player actions and their consequences.</li>
+<li>One or more players who control a character and play the world set before them.</li>
+<li>Play is a conversation. The GM describes a situation; the player describes what their character does. Outcomes are negotiated together and add to the emerging narrative.</li>
+</ol>
+<p>That's it. Everything else is a preference for accomplishing these requirements. Some considerations:</p>
+<ul>
+<li><strong>Rules</strong> tend to be <em>lite</em> but there is no "correct" amount. Rules should effectively be <em>"invisible"</em> and not hinder play.</li>
+<li>Roll <strong>dice</strong> when it makes sense or not at all.</li>
+<li>There are no FKR <strong>systems</strong>. Any system <em>might</em> be used in an FKR game. No system; a mashup of multiple systems; a coin flip… this is up to you and your table.</li>
+</ul>]]></description>
+  </item>
+  <item>
+    <pubDate>Thu, 09 Jun 2022 06:00:00 GMT</pubDate>
+    <title>The Frost Spire - Part 4</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part4</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part4</guid>
+    <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>I PUNCH IT!</strong></p>
+<p>It's PCs vs Polar Bear… my money is on the <em>bed</em>. Don't lose your hand!</p>
+<p><strong>The Frost Spire</strong></p>
+<p>Long ago, when the world was new an elf king was banished and tossed into the sea. His hatred was so great, and so cold, that it froze the water into a spire of ice and he was cursed to drift forever, bringing winter to the world.</p>
+<p><em>But sometimes, he hungers for the blood of bad children…</em></p>
+<p><a href="https://swordfishislands.itch.io/the-frost-spire">The Frost Spire</a> by Jacob Hurst</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="https://casadeocio.itch.io/1420-bnb">1420</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Cool Shade Beneath Midday Sun (Shade)</strong> - Stealthy, Expert Survivalist, Perceptive</li>
+<li><strong>The Fighter</strong> - Tough, Deadly, Fighter</li>
+<li><strong>Checkers Obmih</strong> - Healer, Tough, Fighter, Strong</li>
+<li><strong>Wrath</strong> - Deadly, Penitent, Strong, Fighter</li>
+<li><strong>Brine</strong> - your <em>friendly</em> Game Maestro</li>
+</ul>
+<audio controls src="https://archive.org/download/the_frost_spire-part3/the_frost_spire-part4.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 05 Jun 2022 06:00:00 GMT</pubDate>
+    <title>The Frost Spire - Part 3</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part3</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part3</guid>
+    <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>I PUNCH IT!</strong></p>
+<p>While ascending the Frost Spire, the crew come upon a ~roadblock~ knight in non-shining armor. As Wrath would tell you, returning from the dead is easy compared to climbing an ice tower in full plate. But the crew ties a rope around him and schleps him along (lest be stuck waiting for his slow-ass). Revenants--come to find out--like throwing rocks and punching things… who knew :shrug:</p>
+<p><strong>The Frost Spire</strong></p>
+<p>Long ago, when the world was new an elf king was banished and tossed into the sea. His hatred was so great, and so cold, that it froze the water into a spire of ice and he was cursed to drift forever, bringing winter to the world.</p>
+<p><em>But sometimes, he hungers for the blood of bad children…</em></p>
+<p><a href="https://swordfishislands.itch.io/the-frost-spire">The Frost Spire</a> by Jacob Hurst</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="https://casadeocio.itch.io/1420-bnb">1420</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Cool Shade Beneath Midday Sun (Shade)</strong> - Stealthy, Expert Survivalist, Perceptive</li>
+<li><strong>The Fox</strong> - Deadly, Stealthy, Perceptive, Allusive</li>
+<li><strong>The Fighter</strong> - Tough, Deadly, Fighter</li>
+<li><strong>Checkers Obmih</strong> - Healer, Tough, Fighter, Strong</li>
+<li><strong>Wrath</strong> - Deadly, Penitent, Strong, Fighter</li>
+<li><strong>Brine</strong> - your <em>friendly</em> Game Maestro</li>
+</ul>
+<audio controls src="https://archive.org/download/the_frost_spire-part3/the_frost_spire-part3.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 29 May 2022 06:00:00 GMT</pubDate>
+    <title>The Frost Spire - Part 2</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part2</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part2</guid>
+    <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" /><strong>Oh no! He's hot!</strong></p>
+<p>A frozen sea is no place for a himbo… I mean, if there is nobody around to gaze lovingly into the eyes; strong jawline and moonstruck mustache of a handsome man… is he really handsome? Oh, and there's some wolves or something… whatever. Now MOVE! You're blocking his moonlight.</p>
+<p><strong>The Frost Spire</strong></p>
+<p>Long ago, when the world was new an elf king was banished and tossed into the sea. His hatred was so great, and so cold, that it froze the water into a spire of ice and he was cursed to drift forever, bringing winter to the world.</p>
+<p><em>But sometimes, he hungers for the blood of bad children…</em></p>
+<p><a href="https://swordfishislands.itch.io/the-frost-spire">The Frost Spire</a> by Jacob Hurst</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="https://casadeocio.itch.io/1420-bnb">1420</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Cool Shade Beneath Midday Sun (Shade)</strong> - Stealthy, Expert Survivalist, Perceptive</li>
+<li><strong>The Fox</strong> - Deadly, Stealthy, Perceptive, Allusive</li>
+<li><strong>The Fighter</strong> - Tough, Deadly, Fighter</li>
+<li><strong>Checkers Obmih</strong> - Healer, Tough, Fighter, Strong</li>
+<li><strong>Brine</strong> - your <em>friendly</em> Game Maestro</li>
+</ul>
+<audio controls src="https://archive.org/download/the_frost_spire-part3/the_frost_spire-part2.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 22 May 2022 06:00:00 GMT</pubDate>
+    <title>The Frost Spire - Part 1</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part1</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=the_frost_spire-part1</guid>
+    <description><![CDATA[<p><img src="assets/images/frost_spire.png" alt="thumb" />The Arson Crew™ find themselves in the middle of an old fey tale. "The Ice Prince" is legend. A prince lives who travels the seas in a castle of ice; his wives feasting on children who misbehave.</p>
+<p><strong>The Frost Spire</strong></p>
+<p>Long ago, when the world was new an elf king was banished and tossed into the sea. His hatred was so great, and so cold, that it froze the water into a spire of ice and he was cursed to drift forever, bringing winter to the world.</p>
+<p><em>But sometimes, he hungers for the blood of bad children…</em></p>
+<p><a href="https://swordfishislands.itch.io/the-frost-spire">The Frost Spire</a> by Jacob Hurst</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="https://casadeocio.itch.io/1420-bnb">1420</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Cool Shade Beneath Midday Sun (Shade)</strong> - Stealthy, Expert Survivalist, Perceptive</li>
+<li><strong>The Fox</strong> - Deadly, Stealthy, Perceptive, Allusive</li>
+<li><strong>The Fighter</strong> - Tough, Deadly, Fighter</li>
+<li><strong>Brine</strong> - your <em>friendly</em> Game Maestro</li>
+</ul>
+<audio controls src="https://archive.org/download/the_frost_spire-part3/the_frost_spire-part1.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Thu, 12 May 2022 06:00:00 GMT</pubDate>
+    <title>Accidental FKR</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=accidental_fkr</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=accidental_fkr</guid>
+    <description><![CDATA[<p>My game has been unintentionally <em>molting</em> toward <strong>FKR</strong>. It started before ever hearing the term. It just kinda happened and I continue to enjoy its inherent permission for further mutations.</p>
+<p>During a hiatus from D&amp;D 5E, I found myself reading other game systems; exploring their rules (or lack thereof) and ideas. Honestly, I hadn't put together that I wanted to run another system. I was just being curious. Bits and pieces of various systems started to click; most notably, <a href="https://dungeon-world.com">Dungeon World</a>.</p>
+<p>Hilariously, I've never run Dungeon World; nor do I have interest in doing so. I don't find it to be a particularly compelling game, but rather a fantastic GM reference! Just reading it changed the way I run games. It also illuminated my want of a different ruleset: something simpler; more inclusive. I didn't need to look very far (even if I did)… DW lead me right to <a href="https://johnharper.itch.io/world-of-dungeons">World of Dungeons (WoDu)</a>.</p>
+<p>There are a number of things in WoDu that changed my game forever (<code>2d6</code> &amp; <code>Die of Fate</code> come to mind) but in terms of FKR, it was <em>the holes</em>. <em>What do these Skills do? How do rituals work? Decipher?</em> The old GM in me would have thought: <em>"okay, I need to figure out all this shit before we play"</em>. But thanks to my exploration of other rulesets, I was able to give myself permission to put these questions to <em>my group</em>. My players really took to this inclusive approach to rule creation. It's very likely why we've been playing for so long (going on 3 years)! Lighter rules also lead to less character sheet-gazing and more creativity. I was hooked!</p>
+<p>Two years later, I published some of these <em>house rules</em> as <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>. But shortly thereafter, even BnB started feeling heavy to me. So with an inspiring nudge from <a href="https://jasontocci.itch.io/2400">2400</a>, I took another step and revamped them into their new, unfinished form: <a href="https://casadeocio.itch.io/1420-bnb">1420 Beasts & Barrows</a>. The most notable differences being the lack of stats and d6 dice pool skills. This new ruleset is currently peculating with my regular crew.</p>
+<p>For the record, I have no desire to debate what is/isn't FKR. I am not an authority; nor do I wish to be. I purposely refrained from explaining it or linking it to anything here. I prefer its definition to remain elusive and open. I find my game jives with the idea of FKR more than other rpg philosophies (for lack of a better term). YMMV.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Wed, 16 Feb 2022 07:00:00 GMT</pubDate>
+    <title>D66 Spark Table Generator</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=d66_spark_table_generator</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=d66_spark_table_generator</guid>
+    <description><![CDATA[<p>I've been playing around with <strong>spark tables</strong>; a concept taken from <a href="https://www.bastionland.com">Chris McDowall</a>. The concept is quite simple: given two numbered tables/lists of evocative words, roll on both, and use the words together to spark an idea.</p>
+<p>This is lovely… but I wanted to create tables specific to my games/worlds, and was struggling to come up with evocative words. THUS, <strong>a spark table to <em>generate</em> spark tables was born!</strong></p>
+<p><break></p>
+<h2 id="instructions">INSTRUCTIONS</h2>
+<ol>
+<li>Roll <code>2d6</code>: the die landing closest to you (real dice) or leftmost (dice bot) is the first digit (<code>10s</code>); the other die is the second digit (<code>1s</code>)</li>
+<li>If you roll doubles, roll again and use both results</li>
+<li>Use the result(s) to think of a <em>spark word</em></li>
+<li>Record each word on a similarly numbered d66 table (or as many as you want)</li>
+<li>If stuck, roll for another spark, or re-roll until you spark something</li>
+<li>Once you have your own spark tables, roll 2d6 on each and mash the two words together to generate ideas</li>
+</ol>
+<p><em>HINT: if using the doubles rule (#2), make sure those words are fairly generic as to mash well with others.</em></p>
+<h2 id="d66sparktablegenerator">D66 SPARK TABLE GENERATOR</h2>
+<pre><code>11 smell
+12 size/importance
+13 condition
+14 worth/merit
+15 atmospheric condition
+16 crop
+21 emotion
+22 object
+23 food
+24 profession
+25 sound
+26 feeling
+31 happy word
+32 liquid
+33 color
+34 constructed landmark
+35 natural landmark
+36 lifestyle quality
+41 made from
+42 meaning of life
+43 crime
+44 organization
+45 body shape/type/size
+46 element
+51 problem
+52 building
+53 scary word
+54 furniture
+55 group(ing)
+56 event
+61 attraction
+62 art
+63 economic issue/boon
+64 animal
+65 cloud description
+66 mystical
+</code></pre>
+<h2 id="examples">Examples</h2>
+<pre><code>11. spirit       pirates      head          fluffy
+12. roadrunner   orgy         mob           sugar
+13. drought      caustic      dance         egg
+14. soil         dungeon      bubbles       boom
+15. desk         festivities  poison        lake
+16. barrow       sulfur       table         bounty
+21. toxic        taco         luxury        rainbow
+22. kiva         perfume      brimstone     monastery
+23. thunder      scared       bounty-hunter guards
+24. library      blood        arroyo        bacon
+25. bridge       iron         chocolate     kidnap
+26. haze         badger       fire          missing
+31. hanging-tree dark         graveyard     runes
+32. tavern       dreams       vagrant       happy
+33. rascal       rumble       concert       sick
+34. temple       shadows      anger         mine
+35. burning      shaken       poor          meat
+36. crushed      cairn        brain         paper
+41. horn         frozen       gateway       balloons
+42. tower        pig          finger        copper
+43. mundane      joyful       theft         tattoo
+44. hunched      stretched    cat           alchemist
+45. cooks        ice          balmy         love
+46. vast         embezzlement explosion     famous
+51. law          statue       abandoned     relic
+52. gods         hate         destitute     inoperable
+53. expanding    kitten       atomic        skeletons
+54. peyote       ghostly      affluent      erupting
+55. shortage     grand        priest        fundraiser
+56. silver       lanky        hostile       victory
+61. crystal      numb         water         virtuous
+62. mill         fountain     music         drunk
+63. opulent      gold         infestation   glowing
+64. cult         broken       treasure      cave
+65. long         silk         blight        stable
+66. sunny        death        soft          birth
+</code></pre>]]></description>
+  </item>
+  <item>
+    <pubDate>Wed, 12 Jan 2022 07:00:00 GMT</pubDate>
+    <title>Delve of the Handsome Repeater</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=delve_of_the_handosme_repeater</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=delve_of_the_handosme_repeater</guid>
+    <description><![CDATA[<p><a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater"><img src="assets/images/dothr-630x500.png" alt="center" /></a></p>
+<p>I like adventure modules. I especially like the newer ones… that are <em>actually</em> modular. Short, open-ended adventures that are trivial to drop into any campaign. Scanable; easy to grok. This is thankfully becoming the norm; fighting against the epic walls-of-text, and endless lore from modules of yore. This is what I want and what <em>I want to write</em>.</p>
+<p><break></p>
+<p>Thus, <a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater">Delve of the Handsome Repeater</a> was born. This is my <em>hat</em> tossed into the ring of an ever-growing list of newer adventures.</p>
+<p>To be honest: I find dungeons and dungeon crawls boring; mega dungeons <em>mega</em> boring. So it's only fitting that my first published module (more or less) should be a dungeon ¯_(ツ)_/¯. I hoped writing one would open my eyes to the GLORRY THAT IS DUNGEON CRAWLING! Spoiler… it didn't.</p>
+<p>Anyway, here it is. It was fun to write and fun to play… I hope others find it enjoyable.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate>
+    <title>On Vancian Magic</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=on_vancian_magic</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=on_vancian_magic</guid>
+    <description><![CDATA[<p>When writing my <a href="#post?s=a_magic_system">magic system</a> for <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>, I had two goals: keep it simple and <em>somewhat</em> logical. Towards simplicity, I reused the existing game mechanics: <code>2d6</code>, <code>attributes</code> and <code>level</code>. I also considered using Necropraxis' fabulous <a href="https://www.necropraxis.com/2013/11/01/spell-dice">spell dice</a> but simplicity won out.</p>
+<p>Making the system logical took a lot more thought.</p>
+<p>Several people describe my magic system as <em>Vancian</em> (ie. spells must be prepared daily; have a fixed purpose and finite usage). <strong>I did not set out to make my system specifically <em>non-Vancian</em></strong>. This is good because when I think about it, it really is quite Vancian… but with <em>twists.</em></p>
+<p><break></p>
+<p>First twist: preparation. It's silly to expect magi to prepare spells every day. It <em>does</em> make sense that spells are learned, practiced and <em>mastered</em>. We see this in Harry Potter; the kids all practicing enunciation and wand flicking. But this leans more toward <em>practice</em> than preparation. It's also logical that magi have a limited number of spells they've <em>mastered</em>. This number increases as their experience increases. <strong>I want players thinking of creative ways to use the spells they have</strong>.</p>
+<p><em>Spellbooks</em>. What dolt-of-a-mage cannot memorize a few spells? Must they write them all down in a book? If they're without that book, can they no longer cast a spell? Lame. No. But books <em>are</em> quite useful. <strong>Magi can read and cast <em>unfamiliar</em> spells from scrolls and books</strong>, but it takes more time (a turn). It also incentivizes <em>scroll hunts</em>. Fun!</p>
+<p>Which leads us to usage. It's ridiculous that a mage would forget a spell after casting it. Same goes for it vanishing from their spellbook. No. That's crazytown. The twist here is that casting spells takes a physical toll. A mage can safely cast spells, based on their stamina (<code>con</code>), and have it scale with their experience (<code>hd</code>). This could have also been level but I feel like <code>hd</code> is a bit closer to health… same diff. <strong>Cast all the spells you want… but it will eventually hurt</strong>.</p>
+<p>Lastly, we have <em>spells with a fixed purpose</em>. Spell authors will have a lot to say about this. But a few twists can keep them simple and allow for more creative usage. I love <strong>levelless spells</strong>. I can see an argument that spell level denotes complexity or whatever… but I prefer to let a mage learn whatever spell they like. I also added <a href="#spellTags?t=enhancement">enhancement spells</a>. Spells that enhance a target spell but cost an extra spell slot. This helps keep spells simple and flexible.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sat, 04 Dec 2021 07:00:00 GMT</pubDate>
+    <title>I Published a Thing</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=i_published_a_thing</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=i_published_a_thing</guid>
+    <description><![CDATA[<p><a href="https://casadeocio.itch.io/beasts-barrows"><img src="assets/images/bnb-630x500.png" alt="center" /></a></p>
+<p>I didn't set out to write a system… I swear. It just <em>happened</em>.</p>
+<p>Here's how it goes:</p>
+<ol>
+<li>run a oneshot to play around with <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a></li>
+<li>the players; the system; the characters… they all click and it's fun</li>
+<li>a campaign begins!</li>
+<li>during your campaign, start hacking bits of the system to the tastes of yourself and your players
+<break></li>
+<li>players don't like the magic system? <a href="/#post?s=a_magic_system">write your own</a></li>
+<li>hack even more stuff in the second year of your campaign</li>
+<li>struggle to explain all the hacks to new players</li>
+<li>write it all down</li>
+<li>fine… I'll publish it 🙄</li>
+</ol>
+<p><strong>NOTE:</strong> _there's no <code>10. profit</code></p>
+<p>Personally, I wish people would publish fewer systems and publish more adventures. But here I am…. publishing a system. But it's funny with systems: they're <em>personal</em>. <strong>Finding a system that suits your style and hacking off the bits that get in the way should be second nature to a GM</strong>. Continue hacking to the point where it requires a new telling of the rules? Congratulations! You're now a publisher.</p>
+<p>I <em>do</em> plan on writing &amp; publishing adventures. Time will tell what other little distractions I'll encounter along the way.</p>
+<p>Stay tuned…</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 12 Sep 2021 06:00:00 GMT</pubDate>
+    <title>Beasts &amp; Barrows</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=beasts_and_barrows</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=beasts_and_barrows</guid>
+    <description><![CDATA[<p>by <a href="https://brine.dev">brine</a> - <version><em>v 1.0</em></version></p>
+<p><strong>Beasts & Barrows</strong> is an uncomplicated fantasy role-playing game (RPG) for 2-5 players + Game Maestro (GM). It steals blatantly from John Harper's <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> and shares the same <a href="http://apocalypse-world.com/pbta">PbtA</a> core mechanic (<code>2d6</code>). <del>YOU ARE FORBIDDEN TO HACK THIS!</del></p>
+<p><strong>Beasts & Barrows (B&B)</strong> values:</p>
+<ul>
+<li><strong>role-play:</strong> rules and mechanics emphasize and encourage role-play</li>
+<li><strong>simplicity:</strong> less math; less rules; more fun</li>
+<li><strong>show, don't tell:</strong> don't <em>tell</em> me your alignment… <em>show</em> me your alignment; don't <em>tell</em> me you attack; <em>describe</em> your attack</li>
+<li><strong>flexibility:</strong> running existing adventures from <em>any</em> system is trivial</li>
+</ul>
+<p><break></p>
+<div class="pagebreak"></div>
+<h3 id="charactercreation">Character Creation</h3>
+<p><strong>What kind of character sounds fun to play?</strong> Rolling a new character takes <em>ones of minutes</em>. This question will likely take the longest to answer. Here are some classic examples but you are free to create your own:</p>
+<ul>
+<li><strong>Warrior:</strong> strong and good with the stabby stab</li>
+<li><strong>Thief:</strong> nimble and sneaky sneaksters</li>
+<li><strong>Mage:</strong> smart and full of arcaney goodness</li>
+<li><strong>Priest:</strong> wise and has a direct line to the gods</li>
+</ul>
+<blockquote>
+  <p>Outside of the <em>classic classes</em>, players are encouraged to create their own by making clever use of the existing <code>Skills and Abilities</code>. For example an <strong>Alchemist</strong> might require <code>Lore</code> and create their potions via <code>Rituals</code>?</p>
+</blockquote>
+<p><strong>What race is your character?</strong> Human? Elf? Orc? While there are no statistical bonuses for race, they can add flavor to a character through role-play.</p>
+<blockquote>
+  <p>The <em>exception that proves the rule</em>: GMs may allow PCs to have <code>darkvision</code> or an additional <code>language</code>, provided the player offers sound reasoning to do so.</p>
+</blockquote>
+<p><strong>What <code>Attributes</code> does your character have?</strong> Roll <code>2d6</code> for each of the following six character <code>Attributes</code> and assign the results in any order you wish.</p>
+<ul>
+<li><strong>strength (<code>str</code>):</strong> for melee attacks; climbing; lifting</li>
+<li><strong>dexterity (<code>dex</code>):</strong> for ranged attacks; stealth; dodging</li>
+<li><strong>intelligence (<code>int</code>):</strong> for casting mage spells; memory; deduction</li>
+<li><strong>wisdom (<code>wis</code>):</strong> for casting cleric spells; perception; searching</li>
+<li><strong>charisma (<code>cha</code>):</strong> for persuasion; deception; intimidation</li>
+<li><strong>constitution (<code>con</code>):</strong> for additional HD; physical fortitude; resist poisons;</li>
+</ul>
+<p>On a:</p>
+<ul>
+<li><strong>2</strong> the value is -1</li>
+<li><strong>3-6</strong> the value is 0</li>
+<li><strong>7-9</strong> the value is +1</li>
+<li><strong>10-11</strong>, the value is +2</li>
+<li><strong>12</strong>, the value is +3.</li>
+</ul>
+<blockquote>
+  <p>Note: <strong>B&B</strong> only makes use of <strong>modifiers</strong> (eg. <code>+2</code>); not the number rolled.</p>
+</blockquote>
+<p><strong>Choose two <code>Skills</code> and two <code>Abilities</code>:</strong></p>
+<h4 id="skills">Skills</h4>
+<p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing), they roll <em>advantage</em> (<code>3d6</code> keeping the highest 2) <code>+ mod</code>.</p>
+<ul>
+<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
+<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
+<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
+<li><strong>Decipher:</strong> <code>+int</code>: attempt to discern patterns in texts, symbols or numbers</li>
+<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>Hit Die (HD)</code> to the party when resting/rolling <code>Hit Points (HP)</code>; heal <code>1d6+level HP</code> with your touch.</li>
+<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
+<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
+<li><strong>Survival:</strong> <code>+con/wis</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
+<li><strong>Sway:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
+</ul>
+<h4 id="abilities">Abilities</h4>
+<p>Add additional flavor to a class. The word <em>attempt</em> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
+<ul>
+<li><strong>Backstab:</strong> +3 damage from concealment</li>
+<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
+<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells at will</li>
+<li><strong><a href="http://lvh.me:4242/#spells">Cast</a>:</strong> cast level-less magical spells (see <code>Magic</code>)</li>
+<li><strong>Connected:</strong> you seem to have an acquaintance in every town</li>
+<li><strong>Hardy:</strong> +6 <code>HP</code></li>
+<li><strong>Linguist:</strong> you are fluent in all civilized languages</li>
+<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
+<li><strong>Penitent:</strong> when you take damage and embrace the pain, take advantage on your next roll</li>
+<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
+<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
+<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
+<li><strong>Scout:</strong> with you on point, your party covers more ground; you always spot targets before they spot you</li>
+<li><strong>Shield:</strong> when you wear no armor or shield, your faith protects you and grants you 2 armor</li>
+<li><strong>Shift:</strong> take the shape of an animal whose blood you've tasted (successful <code>con</code> roll to revert)</li>
+<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
+<li><strong>Slay:</strong> +2 melee damage</li>
+<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
+<li><strong>Tough:</strong> +1 armor</li>
+<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
+<li><strong>Versed:</strong> you share secret signs, speech and signals with your brethren</li>
+<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
+<li><strong>Volley:</strong> +2 ranged damage</li>
+<li><strong>Wild:</strong> converse with and attempt to command animals</li>
+</ul>
+<p><strong>Can your character take a hit?</strong> You start with 1 Hit Die (<code>d6</code>) + additional hit dice equal to your <code>con</code>. <strong>Roll all your hit dice and keep a number equal to your level</strong> to determine your <code>HP</code>. For example, a 1st level PC with +1 con would roll <code>2d6</code> and keep the higher of the two.</p>
+<p>When you rest in <code>comfort and safety</code>, and consume food/drink, you may reroll your <code>HP</code>. This is the amount of damage you can suffer before you take your <code>Last Breath</code>. You add additional hit dice if you: are attended by a healer; rest in a spiritual place.</p>
+<blockquote>
+  <p>A player may choose to reroll <code>HP</code> and find their PC now has <em>less</em> <code>HP</code>. We all have bad days. Are they sick? Did they stay up drinking all night?</p>
+</blockquote>
+<div class="pagebreak"></div>
+<h3 id="magic">Magic</h3>
+<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
+<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
+<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
+<blockquote>
+  <p>Each time you level up, you may swap mastered spells for new ones.</p>
+</blockquote>
+<h4 id="scrolls">Scrolls</h4>
+<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
+<blockquote>
+  <p>It is wise to identify a spell before casting it!</p>
+</blockquote>
+<h4 id="enhancements">Enhancements</h4>
+<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
+<h4 id="mishaps">Mishaps</h4>
+<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
+<p>An example mishap table:</p>
+<ol>
+<li>the target reflects the spell back at caster</li>
+<li><code>1d6+lvl</code> damage to the caster</li>
+<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
+<li>the spell affects the party in some way (depending on the spell)</li>
+<li>the caster turns blue</li>
+<li>nothing happens… <em>lucky you!</em></li>
+</ol>
+<h3 id="playingthegame">Playing the Game</h3>
+<p><strong>Narrate your character's actions</strong>. Eg. instead of saying: <em>I attack with my sword</em>; say things like: <em>with my sword drawn; stained with the blood and entrails of the orc at my feet; I charge the last remaining orc, smiting it with both hands and all the might left in me</em>… _or something less dramatic :) . Don't _say_ you do a thing; <em>describe</em> how you do a thing.</p>
+<p><strong>Not all actions require a roll</strong>. Say what your character does and the GM will handle the rest.</p>
+<p><strong>When you attempt something risky</strong>, sum <code>2d6</code> and add one of your skill modifiers, based on the action you’re taking. (The GM will tell you some of the possible consequences before you roll, so you can decide if it’s worth the risk or if you want to revise your action).</p>
+<ul>
+<li><strong>2(snake eyes) is a critical failure</strong>: shit hits the fan.</li>
+<li><strong>3-6 is a miss</strong>: things don’t go well and the risk turns out badly.</li>
+<li><strong>7-9 is a partial success</strong>: you do it but at a cost, compromise, retribution, retaliation, harm, etc.</li>
+<li><strong>10-11 is a full success</strong>: you do it without complications.</li>
+<li><strong>12 (boxcars) is a critical success</strong>: you do it perfectly to some extra benefit.</li>
+</ul>
+<blockquote>
+  <p>A miss or a partial success might incur an enemy attack; damage; an additional threat; a lost item/resource/opportunity; a disadvantage; an unwelcome truth. They add to the role-play and can amp up the tension in a scene.</p>
+</blockquote>
+<h4 id="dieoffate">Die of Fate</h4>
+<p><strong>Sometimes the GM will roll the <code>die of fate</code> to see how a situation unfolds</strong>. Low numbers are ill-fortune; high numbers are good fortune. The die of fate might be rolled to establish the weather, indicate a random NPC’s general attitude, to determine if a wandering monster appears, or the moral of a monster. The GM may also roll the die of fate if the PCs take some action for which sheer chance is the only factor in the outcome. <strong>You will roll this often!</strong></p>
+<div class="pagebreak"></div>
+<h3 id="gear">Gear</h3>
+<p><strong>You have <code>12+con</code> inventory slots</strong>. Items you can hold in one hand take one slot; items that might require two hands to hold take two slots. One slot examples: worn armor/clothes (two slots if carried); a few daggers; a bag containing 250 coins. Two slot examples: martial/great weapons; large shields; animal trap; wine casks. When carrying more items than you have slots, you are <code>encumbered</code> (disadvantage on rolls involving physicality).</p>
+<blockquote>
+  <p>Inventory slots are meant to be more <em>concept than rule</em>. The intent is to remind players of the <em>useful</em> items their PCs are carrying, while providing a reasonable amount they are <em>able</em> to carry.</p>
+</blockquote>
+<p><strong>You start with <code>2d6*10</code> silver coins…</strong></p>
+<ul>
+<li><strong>Light Weapon</strong> (10s): <code>d6</code>. May be wielded as a secondary weapon, <em>allowing you to reroll damage once per attack</em>. Includes daggers, short swords, and hand axes.</li>
+<li><strong>Martial Weapon</strong> (30s): <code>d6+1</code>. Must be wielded in main hand. Includes long swords, hammers, axes, spears etc.</li>
+<li><strong>Great Weapon</strong> (40s): <code>d6+2</code> damage. Uses two hands. Includes two-handed swords, battle-axes and pole arms.</li>
+<li><strong>Shortbow</strong> (10s): d6. Also slings etc.</li>
+<li><strong>Bow</strong> (30s): <code>d6+1</code>. Also crossbows, pistols etc.</li>
+<li><strong>Heavy Bow/Gun</strong> (50s): <code>d6+2</code> Damage if firing from a <em>stationary position</em>. Includes crossbows and muskets.</li>
+<li><strong>Light Armor</strong> (30s): Armor 1 (subtracted from damage taken).</li>
+<li><strong>Full Armor</strong> (60s): Armor 2. Always has a helm. Makes it very hard to run, move quietly, swim, leap etc.</li>
+<li><strong>Shield</strong> (10s): +1 Armor.</li>
+<li><strong>Backpack</strong> (2s): Can hold 12 items up to 40lbs.</li>
+<li><strong>Adventuring Gear</strong> (2s each): 20ft Rope, Iron Spike, Chalk, Parchment, Flint/Steel, Torches (4), Tent, Dice, Caltrops (slows pursuers), Bandages, Travel Rations, Waterskin, Wineskin.</li>
+<li><strong>Tools</strong> (5s each): Crowbar, Hatchet, Animal Trap, Lockpicks, Pen &amp; Pot of Ink, Fishing Pole, Shovel, Grappling Hook, Pickaxe, Collapsible Pole.</li>
+<li><strong>Occult Items</strong> (10s each): Quicksilver (per dose), Pouch of Bone Dust, Vial of Holy Water (one use), Vial of Blood, Ritual Incense and Oils.</li>
+<li><strong>Fancy Items</strong> (20s each): Mirror, Lantern, Spyglass, Sand Timer, Board Game, Elaborate Clothes, Holy Symbols and other charms.</li>
+<li><strong>Fire Oil</strong> (20s per flask): Sets an area on fire (<code>d6+1</code> damage/round for 3 rounds unless extinguished). Fills a lantern 10 times.</li>
+<li><strong>Boats:</strong> Rowboat (50s) to Galley (200,000s).</li>
+<li><strong>Carts:</strong> Cart (30s) to Wagon (100s).</li>
+<li><strong>Taverns:</strong> 1s to Sleep, 1s to Eat, 1s to Get Drunk.</li>
+<li><strong>Property:</strong> House (1,000s) to Manor (100,000).</li>
+<li><strong>Horses:</strong> Mule (30s), Horse (100s), Warhorse (1,000s).</li>
+</ul>
+<h3 id="hirelings">Hirelings</h3>
+<p>Cost per day</p>
+<ul>
+<li><strong>Torch Bearer</strong> (2s): 3HP, Knife.</li>
+<li><strong>Guide</strong> (5s): 6HP, Knife, Lantern, Rope.</li>
+<li><strong>Armsman</strong> (20s): 12HP, Spear, Shield, Light Armor.</li>
+<li><strong>Expert</strong> (20s): 6HP, Skill 4, Dagger, Bow.</li>
+<li><strong>Champion</strong> (60s): 18HP, Full Armor, Halberd, Sword, Shield, Dagger.</li>
+</ul>
+<h3 id="levels">Levels</h3>
+<p><em>As you level up you get rewards according to the table below…</em></p>
+<table>
+<thead>
+<tr>
+<th id="level" style="text-align:center;">level</th>
+<th id="hd" style="text-align:center;">hd</th>
+<th id="skills" style="text-align:center;">skills</th>
+<th id="attributes" style="text-align:center;">attributes</th>
+<th id="abils" style="text-align:center;">abils</th>
+<th id="damage" style="text-align:center;">damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1+con</td>
+<td style="text-align:center;">1+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B&B</strong> uses <strong>Milestones</strong> to measure a player character's development. The GM sets a goal(s) for the PCs to accomplish before they can reach the next level. Each level should be twice as hard to achieve (give or take). Milestones might include:</p>
+<ul>
+<li>merely surviving their first encounter</li>
+<li>obtaining a MacGuffin</li>
+<li>completing a quest</li>
+<li>defeating a boss</li>
+<li>failures… always a formidable teacher</li>
+</ul>
+<h3 id="lastbreath">Last Breath</h3>
+<p>When a PC's <code>HP</code> drops to 0, they must roll <code>2d6+con</code>:</p>
+<p>On a:</p>
+<ul>
+<li><strong>6-</strong>: you're dead; roll a new character :rip:</li>
+<li><strong>7-9:</strong> you will meet <strong>Death</strong> and bargain for your life. SPOILER: <em>Death can be a dick!</em></li>
+<li><strong>10+:</strong> you feel like hammered shit… but you're alive</li>
+</ul>
+<h3 id="truenames">True Names</h3>
+<p>True names have power; knowing a true name gives you power over <em>the named</em>. Calling to someone by their <code>True Name</code> gives them advantage on <code>Last Breath</code> rolls.</p>
+<div class="pagebreak"></div>
+<h3 id="gms">GMs</h3>
+<p>The following are friendly suggestions for GMing <strong>B&B</strong>. As always, do what's right for you or your players.</p>
+<ul>
+<li><strong>Initiative:</strong> The coolest part of <code>Initiative</code>… is saying <strong>roll initiative!</strong> Given a group of reasonable size (2-5 PCs), <em>cinematic jump cuts</em> (camera-like jumps between players/situations; that follow the narrative) are a great alternative. It also works well with a split party.</li>
+<li><strong>Splitting the Party:</strong> ALWAYS split the party. It's a hoot.</li>
+<li><strong>Balancing Encounters:</strong> Don't do it! PCs should be smart enough to know when they're outmatched. If not, there's always <code>Last Breath</code>. Outside of that, rolling new characters is a snap in <strong>B&B</strong> :)</li>
+<li><strong>Magic Items:</strong> resist issuing +1 <em>to hit</em> items; rather give +1 to damage or something more situational</li>
+</ul>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 25 Jul 2021 06:00:00 GMT</pubDate>
+    <title>Skills and Special Abilities</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=skills_and_special_abilities</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=skills_and_special_abilities</guid>
+    <description><![CDATA[<p><em>v 1.3</em></p>
+<p>In <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>, <code>Skills and Special Abilities</code> help define a character's class. They map directly to the classic classes: <strong>Cleric, Fighter, Mage, Ranger & Thief</strong>; but they can also be bent to accommodate custom classes… like <a href="assets/images/chars/benedict_sandaries.pdf">Alchemist</a> or <a href="assets/images/chars/black_jenny.pdf">Road Agent</a>. The following details how these rules have evolved in my games.</p>
+<p><break></p>
+<h3 id="skills">Skills</h3>
+<blockquote>
+  <p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing) they can roll <em>advantage</em> (<code>3d6</code> &amp; keep the highest 2) <code>+ mod</code> instead of a regular roll.</p>
+</blockquote>
+<ul>
+<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
+<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
+<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
+<li><strong>Decipher:</strong> <code>+wis</code>: discern a thing; attempt to understand or interpret</li>
+<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>hd</code> to the party when resting/rolling <code>hp</code>; heal <code>1d6+level hp</code> with your touch.</li>
+<li><strong>Leadership:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
+<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
+<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
+<li><strong>Survival:</strong> <code>+con</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
+</ul>
+<h3 id="specialabilities">Special Abilities</h3>
+<blockquote>
+  <p>These abilities can add additional flavor to a class. The word <code>attempt</code> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
+</blockquote>
+<ul>
+<li><strong>Backstab:</strong> +3 damage from concealment</li>
+<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
+<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells</li>
+<li><strong>Command:</strong> attempt to command any spirit, demon, etc.</li>
+<li><strong>Cure:</strong> attempt to neutralize poisons or remove curses</li>
+<li><strong>Hardy:</strong> +6 hp</li>
+<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
+<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
+<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
+<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
+<li><strong>Scout:</strong> with you on point, your party can move quicker, cover more ground and spot targets before they spot you</li>
+<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
+<li><strong>Slay:</strong> +2 melee damage</li>
+<li><strong>Summon:</strong> summon a spirit you know by its true name</li>
+<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
+<li><strong>Tough:</strong> +1 armor</li>
+<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
+<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
+<li><strong>Volley:</strong> +2 ranged damage</li>
+<li><strong>Wild:</strong> converse with and attempt to command animals; some classes (eg. Druids) use this to <em>shapeshift</em></li>
+</ul>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 04 Jul 2021 06:00:00 GMT</pubDate>
+    <title>Black Jenny and her Gang of Miscreant Sons</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=black_jenny_and_her_gang_of_miscreant_sons</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=black_jenny_and_her_gang_of_miscreant_sons</guid>
+    <description><![CDATA[<p>I like to weave pre-written modules into my campaigns (parts of them, anyway). The different tones and ideas keep my players guessing and oftentimes end up becoming part of our lore. Case in point: when I threw <a href="http://dungeonofsigns.blogspot.com/2012/08/prison-of-hated-pretender-pdf.html">Prison of the Hated Pretender</a> into my longrunning campaign. I had previously run it as a one-shot when one of my players was unavailable. It ended in a TPK 🙄.</p>
+<p><break></p>
+<p>Being the benevolent GM that I am, I decided to bring my campaign party back to this setting and witness their one-shot character's dead, broken bodies. They also found out that the Pretender… HAS ESCAPED! In search of his crown, he immediately sought out… <em>Black Jenny</em>.</p>
+<p><strong>The Hated Pretender and Black Jenny are now NPCs in my world.</strong> From the module, we know Jenny's name; the name of her gang, and that she stole the crown of the Hated Pretender. Thus, I had to flesh her out a bit. This is what I came up with…</p>
+<h3 id="thegang">The Gang</h3>
+<p>Jenny's "sons" are neither boys nor related to her by blood. Street urchins with promise; she recruits them, trains them and puts them to work. All mentions of her <em>Miscreant Sons</em> are met with a collective groan from the girls. It is safer to pose as <em>sons than daughters</em>; so they look the other way… <em>but hate it</em>.</p>
+<ul>
+<li><p><strong>Black Jenny</strong> - <em>road agent</em></p>
+<blockquote>
+  <p><code>hd5(+2con); ac+2; at2d6(+2dex/0str): 2d6(+1 daggers)</code></p>
+  <p>She has dark hair and black leather armor. A string of onyx gemstones around her neck. She wants to retire… in a <em>black tower</em>.</p>
+</blockquote></li>
+<li><p><strong>Natty</strong> - <em>thief</em></p>
+<blockquote>
+  <p><code>hd3; ac0; at1d6(+2dex/0str): 1d6(bow +1/daggers); lock picks/backstab;</code></p>
+  <p>The oldest of the girls at 14, it's getting more and more difficult to play the role of a "son". She wears her long, red hair in a <em>boys style</em>; frumpy clothes and is quick to pick a pocket.</p>
+</blockquote></li>
+<li><p><strong>Lunara</strong> - <em>alchemist</em></p>
+<blockquote>
+  <p><code>hd3; ac0; at1d6: 1d6(+1 pistols/darts); ritual/lore</code></p>
+  <p>She sports a blonde bowl cut and a tunic with multiple burn marks. Through rituals, she is able to concoct healing potions, gunpowder and an <em>exploding</em> paralysis potion. She wears a leather satchel full of glass vials.</p>
+</blockquote></li>
+<li><p><strong>Peregrine</strong> - <em>ranger</em></p>
+<blockquote>
+  <p><code>hd3(+2con); ac0; at1d6(+1str): bite/claws;</code></p>
+  <p>She is a <em>skin-walker</em> and can shapeshift into a falcon. She has a number of tattoos and spiked, dark hair. She always attacks in falcon form.</p>
+</blockquote></li>
+</ul>
+<h3 id="tactics">Tactics</h3>
+<p>The gang will attempt to get an edge by having <strong>Peregrine</strong> drop a paralysis vial on targets. Those that remain moving will get the same potion via a dart from <strong>Lunara</strong>. Otherwise, they will turn to <strong>Natty's</strong> stealth or ability to <em>obtain</em> things…</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 02 May 2021 06:00:00 GMT</pubDate>
+    <title>A Magic System</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=a_magic_system</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=a_magic_system</guid>
+    <description><![CDATA[<p><em>v 1.6</em></p>
+<blockquote>
+  <p>The door to magic is closed for most; some few may find it ajar; <em>fewer still</em> may pick the door's lock altogether. Aptitude for the craft is is not unusual but is often misinterpreted. Great magic requires <em>constant practice</em>. The best magi are not always the most gifted; just <em>persistent</em>.</p>
+  <p><strong>Magic is dangerous</strong>; spells go poorly and the consequences can be… severe.</p>
+</blockquote>
+<p><break></p>
+<h3 id="mechanics">Mechanics</h3>
+<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
+<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
+<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
+<p>When you level up, you may swap mastered spells for new ones.</p>
+<h3 id="scrolls">Scrolls</h3>
+<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
+<p>It is wise to identify a spell before casting it!</p>
+<h3 id="enhancements">Enhancements</h3>
+<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
+<h3 id="mishaps">Mishaps</h3>
+<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
+<p>An example mishap table:</p>
+<ol>
+<li>the target reflects the spell back at caster</li>
+<li>1d6 damage to the caster</li>
+<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
+<li>the spell affects the party in some way (depending on the spell)</li>
+<li>the caster turns blue</li>
+<li>nothing happens… <em>lucky</em></li>
+</ol>
+<h3 id="addendum">Addendum</h3>
+<p>Presented as an alternate/additional magic system for <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>.</p>
+<p>I have a <a href="/#spells">growing list of spells</a> and/or allow players to create their own.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
+    <title>S1E24 Shot Through The Heart And You're To Blame</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e24-shot_through_the_heart_and_youre_to_blame</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" /><strong>THE SEASON 1 FINALE IS HERE!</strong> <code>No spoilers</code> but Death returns… good luck, crew!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e24-shot_through_the_heart_and_youre_to_blame.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 06 Dec 2020 07:00:00 GMT</pubDate>
+    <title>S1E23 Eat Your Heart Out</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e23-eat_your_heart_out</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e23-eat_your_heart_out</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Are three McMuffins better than one? We find out in this episode! Also, <em>what's with the bowl of fish?</em> Yulia meets The Lady of Light and gets the answers to her heart's desires.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e23-eat_your_heart_out.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+    <title>S1E22 Meddling Kids</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e22-meddling-kids</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e22-meddling-kids</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The Scooby crew break into <strong>The Temple of the Lady of Light</strong>. McMuffin concocts a <em>cunning plan</em> to dress up as delivery men, while Yulia battles an evil broom closet!</p>
+<p><em>Sidebar: we tweaked the audio in this episode… should be a bit better :shrug:</em></p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e22-meddling_kids.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 15 Nov 2020 00:00:00 GMT</pubDate>
+    <title>S1E21 Let Sleeping Salt Circles Lie</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e21-let_sleeping_salt_circles_lie</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e21-let_sleeping_salt_circles_lie</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Gorath and Yulia walk into a mirror… but are instead whisked away by a rift in time. They meet a nice man inside a salt circle… nothing to see here.</p>
+<p>This episode was part side quest; part DLT (McMuffin's aunt) origin story; and part one-shot via <a href="http://www.lotfp.com/RPG/products/tower-of-the-stargazer">LotFP's Tower of the Stargazer</a>.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e21-let_sleeping_salt_circles_lie.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 01 Nov 2020 06:00:00 GMT</pubDate>
+    <title>S1E20 Burning Down the House</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e20-burning_down_the_house</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e20-burning_down_the_house</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Watch out, you might get what you're after<br>
+cool Birdy, that lighter's getting lighter<br>
+this voodoo… looks a lot like me<br>
+burning down the house</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e19-closet_full_of_skeletons.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
+    <title>S1E19 Closet Full of Skeletons</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e19-closet_full_of_skeletons</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e19-closet_full_of_skeletons</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />We all have skeletons in our closets…</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e19-closet_full_of_skeletons.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
+    <title>S1E18 Attack of the Color Guard</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e18-attack_of_the_color_guard</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e18-attack_of_the_color_guard</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" /><strong>This color guard has teeth!</strong> The Crew face off with <em>Louie Bluie</em> and his colorful friends… <em>honestly the cat statue may have given them more of a problem</em> 🤔</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e18-attack_of_the_color_guard.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 04 Oct 2020 06:00:00 GMT</pubDate>
+    <title>S1E17 Never Trust a Cat Statue</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e17-never_trust_a_cat_statue</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e17-never_trust_a_cat_statue</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew execute their <em>cunning plan</em> and snoop around the <strong>The Temple of the Lady of Light</strong>. And they would have gotten away with it too <em>if it wasn't for that pesky cat statue</em>.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e17-never_trust_a_cat_statue.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 30 Aug 2020 06:00:00 GMT</pubDate>
+    <title>S1E16 Chillin' with the Tanpire</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e16-chillin_with_the_tanpire</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e16-chillin_with_the_tanpire</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Our heroes navigate the mirror plane back to Malik Maxwell's (aka _The Tanpire). They rest up; have some funky dreams; do a little snooping; ask _all_ the questions; and formulate a plan!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e16-chillin_with_the_tanpire.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 16 Aug 2020 06:00:00 GMT</pubDate>
+    <title>S1E15 Little Orc's Room</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e15-little_orcs_room</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e15-little_orcs_room</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Gorath visits the <em>little orc's room</em> and then he crew travels through the mirror plane, looking for Malik's house. They meet some shiny ravens…</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e15-little_orcs_room.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 09 Aug 2020 06:00:00 GMT</pubDate>
+    <title>S1E14 The Mirror Plane</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e14-the_mirror_plane</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e14-the_mirror_plane</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Welcome to the <em>Mirror Plane</em>! The crew meet a shiny spider…</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e14-the_mirror_plane.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 02 Aug 2020 06:00:00 GMT</pubDate>
+    <title>S1E13 The Return of Naven Mag</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e13-the_return_of_naven_mag</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e13-the_return_of_naven_mag</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Naven Mag returns! The crew find themselves back in <em>The Time Wizard's</em> tower. More delicious tea; more <em>complicated</em>. They also fine out that <em>they can mirrorwalk</em>!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e13-the_return_of_naven_mag.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 26 Jul 2020 06:00:00 GMT</pubDate>
+    <title>S1E12 Black Dog</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e12-black_dog</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e12-black_dog</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />Malik and the crew take on a <strong>Black Dog</strong>… then go for a swim in the <strong>Infinity Fountain</strong>.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e12-black_dog.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 14 Jun 2020 06:00:00 GMT</pubDate>
+    <title>S1E11 Malik Maxwell</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e11-malik_maxwell</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e11-malik_maxwell</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew visit the home of Malik Maxwell: noted, local business man and borrower of magic books and expensive booze collector. And they tell him <em>every. thing.</em>.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e11-malik_maxwell.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 24 May 2020 06:00:00 GMT</pubDate>
+    <title>S1E10 Sister Malora - Lady of Light High Priestess</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e10-sister_malora-lady_of_light_high_priestess</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In this episode we learn about orc mating rituals when Gorath presents a dead dog to Yulia :shrug:. They meet with Sister Malora, the Hight Priestess of the Lady of Light. And they tell here <em>every. thing.</em></p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e10-sister_malora-lady_of_light_high_priestess.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 10 May 2020 06:00:00 GMT</pubDate>
+    <title>S1E9 Cloud City</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e9-cloud_city</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e9-cloud_city</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew lands in Cloud City! Gorath is being followed by a Black Dog; they run into <em>Little Baby Drekel</em>; and they learn about a murder mystery…</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e9-cloud_city.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 03 May 2020 06:00:00 GMT</pubDate>
+    <title>S1E8 Is That a Musket In Your Pocket?</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e8-is_that_a_musket_in_your_pocket</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e8-is_that_a_musket_in_your_pocket</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The Toucan crew is back on the board with Santo but but make an emergency landing. Not for more beer (though 🤔) but because of a storm. They build a fire right by an Owl Bear nest and McMuffin realizes <em>he has a musket</em> and he's not afraid to use it!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>,
+rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e8-is_that_a_musket_in_your_pocket.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 19 Apr 2020 06:00:00 GMT</pubDate>
+    <title>S1E6 A Debt for the Dead - Part 1</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e6-a_debt_for_the_dead_part_1</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e6-a_debt_for_the_dead_part_1</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew fly through a stitch in time and find themselves… well… dead… <em>again</em>. We are also introduced to delicious <em>Breakfast Donuts</em>!</p>
+<p>This is a one-ish shot that I wrote for the <a href="https://www.dungeoncontest.com/opdc-2020">2020 One Page Dungeon Contest</a> and slipped it into our campaign (so sneaky). It's called <a href="https://brine.dev/#post?s=one_page_dungeon_contest">a Debt for the Dead</a>. It turned out to be a ton of fun, and <em>marked</em> the entire campaign FOREVAH! Looking at it today, I can see why it wasn't well received by the judges :) I really hate doing <em>print work</em> and it shows. Still… fun stuff!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e6-a_debt_for_the_dead-part_1.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Tue, 14 Apr 2020 06:00:00 GMT</pubDate>
+    <title>A Debt for the Dead</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=a_debt_for_the_dead</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=a_debt_for_the_dead</guid>
+    <description><![CDATA[<p>I like <em>one page dungeons</em>. My current campaign started with <a href="https://dndeed.tumblr.com/post/145693588517/tower-of-the-time-wizard-my-penultimate-winning">Andrew Harshman's</a> one pager… and it sparked almost a year of play so far. One page dungeons are great for one-shots, drop in locations or even just a source to steal from.</p>
+<p><break></p>
+<p>So when the 2020 contest came up, I decided to write my own. I <em>thoroughly</em> play tested it… <em>once</em>… but it ended up being really fun (isn't it always fun to kill your players' characters?) and it now too, plays a large part in my current campaign.</p>
+<p>Anyway, here 'tis… let me know if you end up running it!</p>
+<p><a href="assets/images/a_dept_for_the_dead.pdf"><img src="assets/images/a_dept_for_the_dead.png" alt="full" /></a></p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 12 Apr 2020 06:00:00 GMT</pubDate>
+    <title>S1E5 Death and McMuffin</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e5-death_and_mcmuffin</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e5-death_and_mcmuffin</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In order to save his parents, our <em>reluctant sailor</em>, McMuffin dies and bargains with Death!</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e5-death_and_mcmuffin.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 15 Mar 2020 06:00:00 GMT</pubDate>
+    <title>S1E2 Hissy Fit</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e2-hissy-fit</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e2-hissy-fit</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />The crew travel by balloon to McMufin's home town of ~Hissy Fit~ <strong>Hsifilet</strong>.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e2-hissy_fit.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 08 Mar 2020 07:00:00 GMT</pubDate>
+    <title>S1E1 A Balloon for Gorath</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s1e1-a_balloon_for_gorath</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s1e1-a_balloon_for_gorath</guid>
+    <description><![CDATA[<p><img src="assets/images/season1_thumb.png" alt="thumb" />In this first episode of <strong>Season 1</strong>, we meet McMuffin's pet toucan, <strong>Birdie</strong>; which has <em>somehow</em> always been sitting on his shoulder? Whatever. We are also introduced to <strong>Santo Regulus Dumont</strong>; a professional drinker and aeronaut hobbyist.</p>
+<p><strong>World of Brine</strong> is an <em>actual play</em>, rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons (WoDu)</a> ruleset.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s1e9-cloud_city/s1e1-a_balloon_for_gorath.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 23 Feb 2020 07:00:00 GMT</pubDate>
+    <title>S0E4 Tower of the Time Wizard</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s0e4-tower_of_the_time_wizard</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e4-tower_of_the_time_wizard</guid>
+    <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />Today on GorathCast…</p>
+<p>Season 0 ends with the party selling some loot and makes the transition to… <em>season 1</em>!</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s0e2-tower_of_the_time_wizard/s0e4-tower_of_the_time_wizard.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 09 Feb 2020 07:00:00 GMT</pubDate>
+    <title>S0E3 Tower of the Time Wizard</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s0e3-tower_of_the_time_wizard</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e3-tower_of_the_time_wizard</guid>
+    <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />Death becomes us! The 3rd floor puzzles the party and the 4th… well… it's complected.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s0e2-tower_of_the_time_wizard/s0e3-tower_of_the_time_wizard.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 26 Jan 2020 07:00:00 GMT</pubDate>
+    <title>S0E2 Tower of the Time Wizard</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s0e2-tower_of_the_time_wizard</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e2-tower_of_the_time_wizard</guid>
+    <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />The players make it to the 2nd floor of the tower and <strong>[SPOILER]</strong> <em>go ham</em> on… well… the A-Team and make delicious <em>slumgullion</em>.</p>
+<p><break></p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s0e2-tower_of_the_time_wizard/s0e2-tower_of_the_time_wizard.mp3"></audio>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 19 Jan 2020 07:00:00 GMT</pubDate>
+    <title>S0E1 Tower of the Time Wizard</title>
+    <link>https://qualityshepherd.github.io/splog/#post?s=s0e1-tower_of_the_time_wizard</link>
+    <guid>https://qualityshepherd.github.io/splog/#post?s=s0e1-tower_of_the_time_wizard</guid>
+    <description><![CDATA[<p><img src="assets/images/season0_thumb.jpg" alt="thumb" />This was the very first session of what was <em>supposed to be</em> just a oneshot… but would become a full campaign. <a href="assets/images/tower_of_the_time_wizard.pdf">Tower of the Time Wizard</a> is a fun, one-page, dungeon, written by Andrew Harshman. In this 3 part podcast, we run Andrew's one-pager using the <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> ruleset.</p>
+<p><break></p>
+<p>This was my first time running <em>WoDu</em>, and so we take a good amount of time talking about characters and rules.</p>
+<p>Also, apologies for the excessive echo in this session… we fixed this in subsequent sessions. WOOPS!</p>
+<h3 id="cast">Cast</h3>
+<ul>
+<li><strong>Yulia</strong> - human cleric</li>
+<li><strong>Gorath</strong> - orc fighter</li>
+<li><strong>McMuffin</strong> - human reluctant sailor</li>
+<li><strong>Brine</strong> - your <em>friendly</em> GM</li>
+</ul>
+<audio controls src="https://archive.org/download/s0e2-tower_of_the_time_wizard/s0e1-tower_of_the_time_wizard.mp3"></audio>]]></description>
+  </item>
+</channel>
+</rss>

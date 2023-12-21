@@ -1,0 +1,47 @@
+{
+  "name": "brine",
+  "description": "Playing worlds & podcasting...",
+  "version": "1.0.0",
+  "author": "brine",
+  "license": "MIT",
+  "main": "index.html",
+  "splog": {
+    "url": "https://qualityshepherd.github.io/splog",
+    "pathToIndex": "./src/data/siteIndex.json",
+    "pathToPostsFolder": "./assets/posts",
+    "pathToRssFolder": "./assets/rss",
+    "maxPosts": "12"
+  },
+  "standard": {
+    "globals": [
+      "location"
+    ]
+  },
+  "scripts": {
+    "pretty": "standard --fix",
+    "pack": "webpack",
+    "build:index": "./node_modules/.bin/babel-node src/lib/genr8Index.js",
+    "rss:blog": "./node_modules/.bin/babel-node src/lib/genr8Blog.js",
+    "rss:pod": "./node_modules/.bin/babel-node src/lib/genr8Pod.js",
+    "start": "npm run build:index && npm run rss:blog && npm run rss:pod && npm run pack",
+    "server": "http-server -p 4242",
+    "restart": "npm start; npm run server"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-object-rest-spread": "^7.22.15",
+    "http-server": "^14.1.1",
+    "showdown": "^2.1.0",
+    "standard": "^17.1.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.0",
+    "sitemap-webpack-plugin": "^1.1.1"
+  }
+}
