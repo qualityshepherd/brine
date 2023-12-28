@@ -66,7 +66,26 @@ The Jailers stand at attention in the prisons long entrance. Their runes' flicke
 need to flesh out the Hag, Kalg  and what she'll tell Hergest... how will he gain entrance?
 
 
-**Twilight Sands** were named for an enchanting phenomenon that occurs at dusk and dawn; when the sun's rays bathe the coastline in a soft, warm light; casting long, enchanting shadows to the horizon. The sand is fine, pale gold, and shimmers like crushed pearls.
+**Twilight Sands** were named for an enchanting phenomenon that occurs at dusk and dawn; when the sun's rays bathe the dunes in a soft, warm light; casting long, enchanting shadows to the horizon. The sand is fine, pale gold, and shimmers like crushed pearls.
+
+xxxx. The Mirage Merchant | Encounter
+A caravan camped near the Twilight Sands; A merchant sells trinkets that magical effects in twilight.
+
+xxxx. Runes in the Dunes | Wonder
+At dawn, rune-like patterns form in the sand.
+
+xxxx. Duskwalkers | Encounter
+Beings tied to the twilight hours. They are elusive and enigmatic, but some have been known to offer guidance or powerful magical gifts to those who prove themselves worthy.
+
+xxxx. The Tilted Tower |
+The structure is said to guide lost souls to their final resting place, but it has long been abandoned. Inside, the adventurers encounter restless spirits seeking redemption or release.
+
+xxxx. Sandits | Encounter
+These bandits employ a magic stone that creates a magical sandstorm when water is poured on it. More water; more storm. They create a storm and attack.
+
+xxxx. Shadow Walker | Encounter
+A robed woman sits cross legged in the sand. He's waiting for the sun to either come out or be at the right moment so she can shadowalk to a specific place. Without the sun, there is no shadow; at the right time, she will walk into a shadow, through a disorianting maze of darkeness and out of another shadow that she has seen and knows the angle of at specific moments. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works for a price.
+
 
 **Duskby** is situated in a sheltered valley, surrounded by rolling hills and woodlands. The village is bordered by farmlands, orchards, and small, scattered groves, which contributes to its self-sufficiency. While safe and harmonious, it remains somewhat isolated due to its limited trade connections. Its residents are content with the simplicity and closeness of their community.
 
