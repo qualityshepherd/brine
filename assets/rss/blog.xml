@@ -5,7 +5,7 @@
   <link>https://brine.dev</link>
   <description>A simple, single page, blog written in vanilla js that supports markdown, rss, podcasts and deploys to github pages (github.io).</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 21 Dec 2023 16:11:49 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 03 Jan 2024 13:41:58 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Sun, 01 Oct 2023 06:00:00 GMT</pubDate>
@@ -207,18 +207,7 @@
 <td style="text-align:left;">Death</td>
 </tr>
 </tbody>
-</table>
-<h3 id="tips">TIPS</h3>
-<ol>
-<li>Everything's a dungeon… including the wilderness. Anything you'd put in a dungeon can be adapted for the wilderness.</li>
-<li>Less is more. If a rule isn't fun, ditch it.</li>
-<li>have 2-3 POIs per hex and some <em>roving</em> POIs (ie. encounters) to call upon. Eg. a traveler; a caravan; a knight on a quest; a messenger; the sisters of the bountiful earth foraging for morrells…</li>
-<li>POIs should offer <em>choices and opportunities</em>. Eg. a stronghold of 40 fighters might: be joined; leveraged into finding a McGuffin; fight for sport; rise up against a common enemy; fight the PCs…</li>
-<li>The world is your obstacle. The bridge is washed out; the road just ends; this forest is cursed; so many rivers to cross…</li>
-<li>Offer roses for the PCs to smell. POIs should include wondrous things. Eg. a field of all 4 leaf clovers; a tree with hundreds of ribbons tied to it, each with a wish…</li>
-<li>Telegraph threats and/or leave their traces. Eg. enemy scouts; a storm; displaced animals/people; hundreds of odd footprints…</li>
-<li>Is there something hunting/tracking the PCs?</li>
-</ol>]]></description>
+</table>]]></description>
   </item>
   <item>
     <pubDate>Mon, 16 Jan 2023 07:00:00 GMT</pubDate>

@@ -99,6 +99,10 @@ A robed woman sits cross legged in the sand. He's waiting for the sun to either 
 
 ## HEXES
 
+xxxx. Hops Farm |
+Harlan Grove produces the most prestigious hops in the entire region. Francis and Catherine Harlan have become quite famous to those in the trade and their hops are the secret for all the best ales.
+
+
 xxxx Classic Traveler | Wonder
 A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as **Malfas**. Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
 
