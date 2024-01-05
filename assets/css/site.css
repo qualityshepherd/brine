@@ -67,9 +67,26 @@ body {
   background-color: var(--bg);
 }
 
+header {
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+header img {
+  margin: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
 main {
   min-height: 420px;
   padding: 0 15px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
 }
 
 #hamburger {
@@ -85,6 +102,7 @@ nav #links {
   display: none;
   font-weight: 500;
   background-color: var(--bg-darker);
+  padding: 0 15px 15px 0;
   z-index: 1;
 }
 
