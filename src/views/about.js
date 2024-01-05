@@ -3,9 +3,7 @@ const about = {
     return `
       <h2>About</h2>
 
-      <div id="about">
-      <a href="https://github.com/qualityshepherd/splog">Splog</a> is a simple, single page, markdown blog app written in vanilla js...
-      </div>
+      Howdy. I'm brine. I'm a blabby nerd that lives in the desert. Contact me: <a href='&#109;a&#105;l&#116;o&#58;m%65%4&#48;b&#114;&#105;n%65&#46;%64e&#118;'>me&#64;brine&#46;d&#101;v</a>
     `
   }
 }
