@@ -2,7 +2,7 @@
 title: On Vancian Magic
 date: 2021-12-28
 description: Some twists to make Vancian magic more palatable
-tags: blather, bnb, rules, magic
+tags: words, bnb, rules, magic
 ---
 
 When writing my [magic system](#post?s=a_magic_system) for [Beasts & Barrows](https://casadeocio.itch.io/beasts-barrows), I had two goals: keep it simple and _somewhat_ logical. Towards simplicity, I reused the existing game mechanics: `2d6`, `attributes` and `level`. I also considered using Necropraxis' fabulous [spell dice](https://www.necropraxis.com/2013/11/01/spell-dice) but simplicity won out.

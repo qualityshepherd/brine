@@ -2,7 +2,7 @@
 title: A Necromancer
 date: 2023-12-29
 description:
-tags: blather
+tags: words
 ---
 
  ## Nekros Manteia
