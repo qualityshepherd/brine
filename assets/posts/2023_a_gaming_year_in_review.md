@@ -13,7 +13,7 @@ I am a forever GM. I have run way more games than I've played. In 2023 that chan
 
 ### 2. New Games
 
-The ~~game~~ toolset of the year for me was [Named](https://wightbred.itch.io/named. I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--`Names`. While similar to tags, for my money, they add more juice. I see them as things people call your character... or whisper behind their back. This is a small but important distinction; YMMV.
+The ~~game~~ toolset of the year for me was [Named](https://wightbred.itch.io/named). I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--`Names`. While similar to tags, for my money, they add more juice. I see them as things people call your character... or whisper behind their back. This is a small but important distinction; YMMV.
 
 More interesting still is how Named handles advancement through `Reflections`. At the end of a session, the table talks about what each character did in the game. Did they earn a new Name? Did a name not fit or need changing? It's easily the best advancement system I've ever seen... and now it's mine; MINE! :D
 
