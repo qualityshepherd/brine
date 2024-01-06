@@ -144,6 +144,10 @@ nav #links {
   text-decoration: none;
 }
 
+.center {
+  text-align: center;
+}
+
 .small, .date {
   margin: 15px;
   font-size: 90%;
