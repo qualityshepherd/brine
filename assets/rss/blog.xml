@@ -5,8 +5,18 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 06 Jan 2024 15:30:33 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 11 Jan 2024 15:34:48 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Thu, 11 Jan 2024 07:00:00 GMT</pubDate>
+    <title>Rando - An Imagination Spark Generator</title>
+    <link>https://brine.dev/#post?s=rando-an_imagination_spark_generator</link>
+    <guid>https://brine.dev/#post?s=rando-an_imagination_spark_generator</guid>
+    <description><![CDATA[<p>I love me some random generators but mine were showing my neglect and kinda all over the place. My friend <a href="https://wightbred.itch.io/">Wightbred</a> turned me onto <a href="https://www.drivethrurpg.com/product/125685/The-GameMasters-Apprentice-Base-Deck">GM's Apprentice Cards</a>, which inspired me to refactor and extend my own generators into a single web app. Thus, <a href="https://rando.brine.dev">Rando</a> was born.</p>
+<p>Thanks to feedback from Wightbred and others, I've been able to turn Rando into a surprisingly useful tool. I was able to incorporate all the things I use for my games. I now find myself using it for everything: prep, GM &amp; Player prompts and even prompts to feed ChatGPT. And while I do not <em>solo [new verb]</em> myself, I am told that it works well for Solo Play too.</p>
+<p>Give it a spin!</p>
+<p><a href="https://rando.brine.dev"><img src="assets/images/rando.webp" alt="center" /></a></p>]]></description>
+  </item>
   <item>
     <pubDate>Fri, 05 Jan 2024 07:00:00 GMT</pubDate>
     <title>2023 - A Gaming Year in Review</title>
@@ -16,7 +26,7 @@
 <h3 id="1playinggames">1. Playing Games</h3>
 <p>I am a forever GM. I have run way more games than I've played. In 2023 that changed and I found myself playing a LOT more. It really opened my mind to various games and play-styles, and helped hone what I want in a game. This was definitely the biggest revelation and the reason for the rest of the list. If I was going to list a new year's resolution, it would have to be to just play more games. Here's hoping!</p>
 <h3 id="2newgames">2. New Games</h3>
-<p>The <del>game</del> toolset of the year for me was <a href="https://wightbred.itch.io/named">Named</a>. I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--<code>Names</code>. While similar to tags, for my money, they add more juice. I see them as things people call your character… or whisper behind their back. This is a small but important distinction; YMMV.</p>
+<p>The <del>game</del> toolset of the year for me was <a href="https://wightbred.itch.io/named-toolkit">Named</a>. I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--<code>Names</code>. While similar to tags, for my money, they add more juice. I see them as things people call your character… or whisper behind their back. This is a small but important distinction; YMMV.</p>
 <p>More interesting still is how Named handles advancement through <code>Reflections</code>. At the end of a session, the table talks about what each character did in the game. Did they earn a new Name? Did a name not fit or need changing? It's easily the best advancement system I've ever seen… and now it's mine; MINE! :D</p>
 <p>I was fortunate to get the full hat-trick with Named. I played it, <a href="https://playworldspodcast.com/#tags?t=skypirates-of-jotnaar">podcasted it</a> and contributed to a setting for it: <a href="https://wightbred.itch.io/skypirates-of-jotnaar">Skypirates of Jotnaar</a> (that is REALLY cool if I do say so myself).</p>
 <p>Honorable mention for Dr. Paul's <a href="https://www.lulu.com/shop/paul-jennings-and-kitty-hiraeth/palaeolithic-voyages/paperback/product-kpmy8y.html">Palaeolithic Voyages</a>. You can keep your +1 swords; just gimme a good rock and some flint! I really wanna play more of this system.</p>
