@@ -5,8 +5,39 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 11 Jan 2024 15:34:48 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jan 2024 17:17:48 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Thu, 11 Jan 2024 07:00:00 GMT</pubDate>
+    <title>On Magical Magic</title>
+    <link>https://brine.dev/#post?s=on_magical_magic</link>
+    <guid>https://brine.dev/#post?s=on_magical_magic</guid>
+    <description><![CDATA[<p>Magic is hard. My search for a magic system that feels <em>magical</em>, ongoing for years, has seen little gain. The word itself--magic--has magical effects. Just the mention of the word elicits eyerolls from all my friends. </p>
+<p>vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.</p>
+<h2 id="spells">SPELLS</h2>
+<ul>
+<li>spells</li>
+<li>promises</li>
+<li>rituals</li>
+<li>summoning</li>
+</ul>
+<h2 id="dice">DICE</h2>
+<ul>
+<li>high/low</li>
+<li>odd/even</li>
+<li>total</li>
+<li>doubles</li>
+<li>order (even); chaos (odd)</li>
+</ul>
+<h2 id="injuries">INJURIES</h2>
+<ol>
+<li>bruise</li>
+<li>bloody</li>
+<li>broken</li>
+</ol>
+<p>Okay, I'm working on my magic system. Wait… don't run away… :D</p>
+<p><strong>On Magic Unbalance</strong> A mage casts a spell; rolls and fails. They may push forward and succeed but it creates a magical imbalance. The tarot card they draw becomes a symbol of this obligation and they carry it until the damage is repaired. No mage can carry more than three.</p>]]></description>
+  </item>
   <item>
     <pubDate>Thu, 11 Jan 2024 07:00:00 GMT</pubDate>
     <title>Rando - An Imagination Spark Generator</title>

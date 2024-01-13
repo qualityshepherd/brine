@@ -132,6 +132,16 @@
   },
   {
     "meta": {
+      "title": "On Magical Magic",
+      "date": "2024-1-11",
+      "tags": "magic",
+      "slug": "on_magical_magic"
+    },
+    "markdown": "---\ntitle: On Magical Magic\ndate: 2024-1-11\ntags: magic\ndescription:\n---\n\nMagic is hard. My search for a magic system that feels _magical_, ongoing for years, has seen little gain. The word itself--magic--has magical effects. Just the mention of the word elicits eyerolls from all my friends. \n\nvocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.\n\n## SPELLS\n- spells\n- promises\n- rituals\n- summoning\n\n## DICE\n- high/low\n- odd/even\n- total\n- doubles\n- order (even); chaos (odd)\n\n## INJURIES\n1. bruise\n2. bloody\n3. broken\n\n\n\nOkay, I'm working on my magic system. Wait... don't run away... :D\n\n**On Magic Unbalance** A mage casts a spell; rolls and fails. They may push forward and succeed but it creates a magical imbalance. The tarot card they draw becomes a symbol of this obligation and they carry it until the damage is repaired. No mage can carry more than three.",
+    "html": "<p>Magic is hard. My search for a magic system that feels <em>magical</em>, ongoing for years, has seen little gain. The word itself--magic--has magical effects. Just the mention of the word elicits eyerolls from all my friends. </p>\n<p>vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.</p>\n<h2 id=\"spells\">SPELLS</h2>\n<ul>\n<li>spells</li>\n<li>promises</li>\n<li>rituals</li>\n<li>summoning</li>\n</ul>\n<h2 id=\"dice\">DICE</h2>\n<ul>\n<li>high/low</li>\n<li>odd/even</li>\n<li>total</li>\n<li>doubles</li>\n<li>order (even); chaos (odd)</li>\n</ul>\n<h2 id=\"injuries\">INJURIES</h2>\n<ol>\n<li>bruise</li>\n<li>bloody</li>\n<li>broken</li>\n</ol>\n<p>Okay, I'm working on my magic system. Wait… don't run away… :D</p>\n<p><strong>On Magic Unbalance</strong> A mage casts a spell; rolls and fails. They may push forward and succeed but it creates a magical imbalance. The tarot card they draw becomes a symbol of this obligation and they carry it until the damage is repaired. No mage can carry more than three.</p>"
+  },
+  {
+    "meta": {
       "title": "On Vancian Magic",
       "date": "2021-12-28",
       "description": "Some twists to make Vancian magic more palatable",
