@@ -11,7 +11,7 @@ import config from '../../package'
   let feed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Brine | Playing Worlds & Podcasting</title>
+  <title>Brine | Playing Worlds &amp; Podcasting</title>
   <link>${config.splog.url}</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
