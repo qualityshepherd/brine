@@ -5,12 +5,12 @@ import config from '../../package'
 const pod = {
   title: 'World of Brine',
   link: 'https://brine.dev',
-  description: 'An actual play fantasy rpg podcast... https://brine.dev',
+  description: 'An actual play ttrpg podcast...',
   image: 'https://brine.dev/assets/images/season1.png',
   author: 'brine',
   explicit: 'true',
   email: 'me@brine.dev',
-  podUrl: 'https://brine.dev/assets/rss/pod.xml'
+  podRss: 'https://brine.dev/assets/rss/pod.xml'
 }; // required ;
 
 /**
@@ -36,7 +36,7 @@ xmlns:podcast="https://podcastindex.org/namespace/1.0"
 xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>${pod.title}</title>
-  <link>${pod.url}</link>
+  <link>${pod.link}</link>
   <description>${pod.description}</description>
   <language>en-us</language>
   <itunes:image href="${pod.image}" />
@@ -58,11 +58,11 @@ xmlns:atom="http://www.w3.org/2005/Atom">
     feed += `
   <item>
     <title>${podcast.meta.title}</title>
-    <link>${pod.url}/#post?s=${podcast.meta.slug}</link>
+    <link>${pod.link}/#post?s=${podcast.meta.slug}</link>
     <description>${podcast.meta.description}</description>
     <enclosure url="${podcast.html.match(audioRegExp)[1]}" type="audio/mpeg" length="1024"></enclosure>
     <pubDate>${new Date(podcast.meta.date).toUTCString()}</pubDate>
-    <guid>${pod.url}/#post?s=${podcast.meta.slug}</guid>
+    <guid>${pod.link}/#post?s=${podcast.meta.slug}</guid>
     <itunes:image href="${getImage(podcast)}" />
  </item>`
   })

@@ -8,12 +8,6 @@ const post = {
       return post.meta.slug === params.get('s')
     })
 
-    // override webpage description with the page description
-    if(post.meta.description) {
-      document.querySelector("meta[property='og:description']").setAttribute("content", post.meta.description)
-      document.querySelector('meta[name="description"]').setAttribute("content", post.meta.description)
-    }
-
     return `
         <div class="post">
           <a href="#post?s=${post.meta.slug}" aria-label="post-title"><h2 class="post-title">${post.meta.title}</h2></a>
