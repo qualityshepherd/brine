@@ -142,6 +142,11 @@ nav #links {
   max-width: 100%;
   height: auto;
   text-decoration: none;
+  border-radius: 15px
+}
+
+[alt="round"] {
+  clip-path: circle()
 }
 
 .center {
@@ -182,6 +187,15 @@ nav #links {
   padding: 15px;
   border: none;
   border-radius: 15px
+}
+
+.social img {
+  opacity: .33;
+  width: 50px;
+  padding: 10px 10px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
 }
 
 audio {

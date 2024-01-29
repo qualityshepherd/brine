@@ -5,38 +5,57 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 15 Jan 2024 17:20:16 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 29 Jan 2024 19:45:25 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
-    <pubDate>Thu, 11 Jan 2024 07:00:00 GMT</pubDate>
-    <title>On Magical Magic</title>
-    <link>https://brine.dev/#post?s=on_magical_magic</link>
-    <guid>https://brine.dev/#post?s=on_magical_magic</guid>
-    <description><![CDATA[<p>Magic is hard. My search for a magic system that feels <em>magical</em>, ongoing for years, has seen little gain. The word itself--magic--has magical effects. Just the mention of the word elicits eyerolls from all my friends. </p>
-<p>vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.</p>
-<h2 id="spells">SPELLS</h2>
+    <pubDate>Mon, 22 Jan 2024 07:00:00 GMT</pubDate>
+    <title>Glimmerwood Forest</title>
+    <link>https://brine.dev/#post?s=glimmerwood_forest</link>
+    <guid>https://brine.dev/#post?s=glimmerwood_forest</guid>
+    <description><![CDATA[<p><img src="assets/images/whipping_tree.webp" alt="round" /></p>
+<p><em>v1.0</em></p>
 <ul>
-<li>spells</li>
-<li>promises</li>
-<li>rituals</li>
-<li>summoning</li>
+<li>prison of dangerous books</li>
+<li>cult is praying for weather change but god is not listening… PRAY HARDER</li>
+<li>the druid is sleeping in the grove somewhere/how</li>
 </ul>
-<h2 id="dice">DICE</h2>
-<ul>
-<li>high/low</li>
-<li>odd/even</li>
-<li>total</li>
-<li>doubles</li>
-<li>order (even); chaos (odd)</li>
-</ul>
-<h2 id="injuries">INJURIES</h2>
+<p><a href="assets/images/glimmerwood_forest_map.webp"><img src="assets/images/glimmerwood_forest_map.webp" alt="thumb" /></a>
+Glimmerwood Forest is a popular shortcut for those without fear of the forest. It can halve travel time between Emberford (<code>0709</code>) and the northern villages. The increase in traffic has also increased the population.</p>
+<p>But thunderstorms ravage Glimmerwood Forest. These storms target only the forest, leaving the surrounding areas dry and peaceful. Paths made treacherous by the rains impede travel and hunting. Those who try report seeing ghastly apparitions.</p>
+<p>In the heart of the forest, words cut into an ancient, gnarled tree; a spell. Is this the reason for the storms or solution to them?</p>
+<h3 id="rumors">RUMORS</h3>
 <ol>
-<li>bruise</li>
-<li>bloody</li>
-<li>broken</li>
+<li><strong>The Whipping Tree</strong> (<code>0502</code>) carries the blood of those punished upon it. It whispers when the storms rage; casting the spell cut into it.</li>
+<li>That witch and her filthy coven are behind these storms.</li>
+<li><strong>The Green Lady</strong> is a beautiful, green temptress. She stalks the forest, "calling" to the hunters.</li>
+<li>Cloaked figures perform rituals in the <strong>Lost Druid's Grove</strong> (<code>0902</code>); deep within Glimmerwood. The grove was once home to a powerful druid who vanished centuries ago.</li>
+<li>Paths in Glimmerwood are said to shift and change directions, leading wanderers into the heart of the forest.</li>
+<li><strong>The Ghost Herd</strong> is a spectral herd of elk that roams Glimmerwood.</li>
 </ol>
-<p>Okay, I'm working on my magic system. Wait… don't run away… :D</p>
-<p><strong>On Magic Unbalance</strong> A mage casts a spell; rolls and fails. They may push forward and succeed but it creates a magical imbalance. The tarot card they draw becomes a symbol of this obligation and they carry it until the damage is repaired. No mage can carry more than three.</p>]]></description>
+<h3 id="encounters">ENCOUNTERS</h3>
+<ol>
+<li>A mudslide threatens to envelope the PCs</li>
+<li>The Ghost Herd threatens to trample the PCs</li>
+<li>A distressed hunter stuck in quicksand</li>
+<li>Unearthed graves; disturbed by the rains</li>
+<li>Apparitions haunt the PCs until their graves are restored</li>
+<li>The Green Lady calls to the PCs</li>
+</ol>
+<h3 id="notables">NOTABLES</h3>
+<p><strong>George & Astrid Duskwood</strong> <code>Innkeepers, Silversmith, Ambitious</code> - George is a retired silversmith. His new bride Astrid and her son are building the first inn in the area; the first permanent structure of any kind(<code>0608</code>). They are hoping to establish a village here. The rains are delaying most of their shipments.</p>
+<p><strong>Ceridwen</strong> <code>Cartographer, Woodworker, Big Thinker</code> - She carefully maps the forest, intending to sell them to a logging enterprise in Emberford. While she waits out the storms in her tent, she carves intricate wooden figures. She's currently working a piece she took from the Whipping Tree.</p>
+<p><strong>Rowan Bramblethorn</strong> <code>Hunter, Worthy, Determined</code> - He lives in the forest and will be helpful to those who show respect. He is close with Nyx, or at least thinks so.</p>
+<p><strong>Kelsia</strong> <code>Trapper, Mentor, Materialistic</code> - She is only a threat to forest furbearers, and takes great pride in <em>the artistry</em> of trapping. She travels with her nephew, Orion, teaching him the trade. She is careful to leave "offerings" outside Witch Ailmar's desolate brugh.</p>
+<p><strong>The Witch Ailmar</strong> <code>Witch, Herbalist, Untrustworthy</code> - Despite her dubious practices, Ailmar is an unparalleled herbalist. Many seek her remedies and potions, but are quick to blame her for the unwelcome truths they uncover. She sees the forest as an exploitable resource and enjoys its solitude.</p>
+<p><strong>Nyx</strong> <code>The Green Lady, Dryad, Guardian</code> - She knows the coming of men is inevitable but resits their impact on the forest as best she can. While Nyx did not create the tree's spell, she knows it as a spell to "Wash Away Sins". She believes it maintains balance in the forest and will not interfere with it in any way.</p>
+<h3 id="locations">LOCATIONS</h3>
+<p><strong>Glimmerwood Forest:</strong> A dense and ancient woodland, shrouded in mist. Towering trees with twisted branches create a canopy, casting ethereal shadows on the lush forest floor. The air crackles with a mysterious energy, and the occasional flash of magical storms illuminates the surroundings.</p>
+<p><strong>The Whipping Tree (<code>0502</code>):</strong> A gnarled and imposing tree with dark bark, standing alone in a small clearing. Faint echoes of past punishments linger in the air, and the tree seems to whisper when the storms rage, hinting at a dark and forbidden history.</p>
+<p><strong>Lost Druid's Grove (<code>0902</code>):</strong> A hidden grove deep within Glimmerwood, filled with ancient stone circles and remnants of long-forgotten rituals. Cloaked figures perform mysterious ceremonies, their actions obscured by the shadows of the ancient trees.</p>
+<p><strong>Inn of George & Astrid Duskwood (<code>0608</code>):</strong> A modest yet welcoming inn under construction at the edge of the forest. The sound of hammers and saws echoes as George and Astrid Duskwood strive to establish the first building in the area. The rains delay shipments, leaving the inn in partial completion.</p>
+<p><strong>The Green Lady's Domain:</strong> A secluded part of the forest where vibrant greenery flourishes. Nyx, the Dryad known as The Green Lady, resides here. The air is filled with the sweet scent of blossoms, and the energy feels both calming and protective. She can control the Ghost Herd</p>
+<p><strong>Witch Ailmar's Desolate Brugh:</strong> A mysterious and somewhat eerie dwelling nestled in the heart of Glimmerwood. The witch, Ailmar, resides here. The surroundings are adorned with various herbs and potions, and an air of untrustworthiness permeates the atmosphere.</p>
+<p><em>map by <a href="https://watabou.github.io/perilous-shores/?seed=1212351748&tags=perilous,lowland,evil,woodland,land&w=800&h=800&hexes=2">Watabou</a></em></p>]]></description>
   </item>
   <item>
     <pubDate>Thu, 11 Jan 2024 07:00:00 GMT</pubDate>
@@ -1271,17 +1290,6 @@ rpg, podcast, using the <a href="http://www.onesevendesign.com/dw/world_of_dunge
 <li><strong>Brine</strong> - your <em>friendly</em> GM</li>
 </ul>
 <audio controls src="https://archive.org/download/s1e9-cloud_city/s1e6-a_debt_for_the_dead-part_1.mp3"></audio>]]></description>
-  </item>
-  <item>
-    <pubDate>Tue, 14 Apr 2020 06:00:00 GMT</pubDate>
-    <title>A Debt for the Dead</title>
-    <link>https://brine.dev/#post?s=a_debt_for_the_dead</link>
-    <guid>https://brine.dev/#post?s=a_debt_for_the_dead</guid>
-    <description><![CDATA[<p>I like <em>one page dungeons</em>. My current campaign started with <a href="https://dndeed.tumblr.com/post/145693588517/tower-of-the-time-wizard-my-penultimate-winning">Andrew Harshman's</a> one pager… and it sparked almost a year of play so far. One page dungeons are great for one-shots, drop in locations or even just a source to steal from.</p>
-<p><break></p>
-<p>So when the 2020 contest came up, I decided to write my own. I <em>thoroughly</em> play tested it… <em>once</em>… but it ended up being really fun (isn't it always fun to kill your players' characters?) and it now too, plays a large part in my current campaign.</p>
-<p>Anyway, here 'tis… let me know if you end up running it!</p>
-<p><a href="assets/images/a_dept_for_the_dead.pdf"><img src="assets/images/a_dept_for_the_dead.png" alt="full" /></a></p>]]></description>
   </item>
   <item>
     <pubDate>Sun, 12 Apr 2020 06:00:00 GMT</pubDate>
