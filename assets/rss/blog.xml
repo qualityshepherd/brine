@@ -5,8 +5,32 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 29 Jan 2024 19:45:25 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 30 Jan 2024 22:27:30 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Tue, 30 Jan 2024 07:00:00 GMT</pubDate>
+    <title>Vonnegut's 8 Basics of RPG Writing</title>
+    <link>https://brine.dev/#post?s=vonneguts_8_basics_for_ttrpg_writing</link>
+    <guid>https://brine.dev/#post?s=vonneguts_8_basics_for_ttrpg_writing</guid>
+    <description><![CDATA[<p>Kurt Vonnegut is my fav author. I've been re-reading all his books including his workshops on writing. It occurred to me that his advice for creative writing was hilariously inline with rpg writing; which makes sense but still; interesting.</p>
+<p><strong>1. Use the time of a total stranger in such a way that he or she will not feel the time was wasted.</strong></p>
+<p>Be concise and obvious in your writing. Please. I read a TON of adventures and settings, and most waste my time… a lot. Fuck your umpteen pages of lore and your walls of text and your "what is a RPG" section and your purple prose and run-on sentences. Tell me what's going on and get me into the action asap. If not I'm out. This advice is also partially: <em>keep the reader reading</em>.</p>
+<p><strong>2. Give the reader at least one character he or she can root for.</strong></p>
+<p>As the reader of RPGs is a GM, this is <em>essential</em>, and perhaps better stated as: <em>Give the GM one character they are dying to play</em>. In a broader sense, give the GM <em>things</em> that make them REALLY want to run your shite for their table. I just sat here for a minute thinking back and yes, it's often the NPCs that suck me in.</p>
+<p><strong>3. Every character should want something, even if it is only a glass of water.</strong></p>
+<p>This adventure writing 101 advice and rock solid. That being said, when I repurposed my old NPC generator into <a href="https://rando.brine.dev">Rando</a>, I ditched the <code>want</code> part. The main reason being: I found myself not using the <code>want</code>. I'm not totally sure why… 🤔 I suppose, given a random NPC generator, I'm not really looking for <code>want</code>? Or at least that's how it played out. In Rando, I went with three epithets ala <a href="https://wightbred.itch.io/named-toolkit">Named</a> for NPCs; which I love (<code>@wightbred</code>, you ruined me for other ways… thus far). But I also use Rando while writing and just add <code>wants</code> that make sense with the other moving pieces.</p>
+<p><strong>4. Every sentence must do one of two things—reveal character or advance the action.</strong></p>
+<p>In addition to character, I would broaden this to include <em>setting</em> or <em>world</em>. Bake setting into EVERY. THING. In fact, don't bake it in… mash it in there till setting oozes out of every word!</p>
+<p>This also implies revisioning but of course you DO revise, yes? Honestly, I revise too much. It's a sickness and slows me down SOOOO much. Like Vonnegut, I am a "Basher": <em>going one sentence at a time, getting it exactly right before they go on to the next one</em>. It's awful. I envy "Swoopers": <em>write a story quickly, higgledy-piggledy, crinkum-crankum, any which way. Then they go over it again painstakingly, fixing everything</em>.</p>
+<p><strong>5. Start as close to the end as possible.</strong></p>
+<p>This is both part of #1, and good game-running advice: <em>get the PCs in the action asap</em>. I actually suck at this. I've caught myself having my PCs lollygagging around, walking to a door, relating pointless information along the way. DUMB. This is easy to catch in writing tho; especially when play-testing. Don't start them in the town and bate them to the thing… BOOM, you're at the thing!</p>
+<p><strong>6. Be a sadist. No matter how sweet and innocent your leading characters, make awful things happen to them—in order that the reader may see what they are made of.</strong></p>
+<p>I'm guilty of this one too. I mean, I am OUT on adventures that have MONSTER, MONSTER, MONSTER, MONSTER, MONSTER. But I find myself over-correcting sometimes and going a little light on my players. This is also easier to spot in writing/play-testing. To quote Tom Waits: <em>"There's always some killing you've got to do around the farm"</em>… so it goes.</p>
+<p><strong>7. Write to please just one person. If you open a window and make love to the world, so to speak, your story will get pneumonia.</strong></p>
+<p>I struggle with this one. I don't write for <em>one person</em>. Kurt wrote for his sister… to my knowledge I don't write for any specific person. Maybe I do and I don't know it? I def write for <em>me</em>. I'm writing this post for me. I'm forcing myself to really think these through; which for my brain means I need to write them down. Obviously, when writing RPGs, we write for GMs, but that GM is <em>also</em> me.</p>
+<p><strong>8. Give your readers as much information as possible as soon as possible. To heck with suspense. Readers should have such complete understanding of what is going on, where and why, that they could finish the story themselves, should cockroaches eat the last few pages.</strong></p>
+<p>This is more classic RPG advice perhaps most famously from Chris McDowall's post <a href="https://www.bastionland.com/2018/07/expose-your-prep.html">Expose Your Prep</a>. But for all I know, Chris stole it from Vonnegut :D</p>]]></description>
+  </item>
   <item>
     <pubDate>Mon, 22 Jan 2024 07:00:00 GMT</pubDate>
     <title>Glimmerwood Forest</title>
