@@ -13,7 +13,9 @@ Be concise and obvious in your writing. Please. I read a TON of adventures and s
 
 **2. Give the reader at least one character he or she can root for.**
 
-As the reader of RPGs is a GM, this is _essential_, and perhaps better stated as: _Give the GM one character they are dying to play_. In a broader sense, give the GM _things_ that make them REALLY want to run your shite for their table. I just sat here for a minute thinking back and yes, it's often the NPCs that suck me in.
+As the reader of RPGs is a GM, this is _essential_, and perhaps better stated as: _Give the GM one character they are dying to play_. In a broader sense, give the GM _things_ that make them REALLY want to run your shite for their table.
+
+I just sat here for a minute thinking back and yes, it's usually an NPC that sucks me in. My mind immediately goes to Gus L's [Prison of the Hated Pretender](https://preview.drivethrurpg.com/en/product/333389/Prison-of-the-Hated-Pretender). I wanted to play the Pretender SO bad!
 
 **3. Every character should want something, even if it is only a glass of water.**
 
