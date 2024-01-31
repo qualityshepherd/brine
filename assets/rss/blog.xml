@@ -5,20 +5,35 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 30 Jan 2024 22:27:30 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 31 Jan 2024 20:55:25 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Wed, 31 Jan 2024 07:00:00 GMT</pubDate>
+    <title>Incarnates</title>
+    <link>https://brine.dev/#post?s=incarnates</link>
+    <guid>https://brine.dev/#post?s=incarnates</guid>
+    <description><![CDATA[<p>At any one time, there are exactly 42 Incarnates in the world; give or take 9 months. I suppose it depends if being in the womb is considered <em>in the world</em>. I've been in a womb 100 times; I say it counts.</p>
+<p>Birth for an Incarnate--a silly moniker we begrudgingly accept--is really no different than mortal birth: pain and crying. But also love; a lot of it. I've had 100 mothers, most of which loved me. Given time, I can remember many of their names and some of their faces. These memories--or lack thereof-- are an indication of their impact upon me; or just how long it's been. The past and present can be such a blur.</p>
+<p>All of us go mad from time to time. I have; in only my 3rd life. Other times too but madness, like memory, fades.</p>
+<p>Work keeps me going and by work I mean whatever idea takes hold in the little brain I currently occupy. Some of this "work" takes multiple lives to complete. I once spent 4 lives just to ensure the marriage of two bloodlines. One of those lives was by my own hand but that's a story for another time; perhaps another lifetime.</p>
+<p>In truth, death is rarely that interesting. More often it's actually <em>funny</em>; hilarious even. Swapping death stories is a big hit among my brethren and sistren. Birth now; that is a wild fucking ride. See, in the womb, we're like little beacons, calling out to one of our own. With each Incarnate birth, one of us is summoned--for lack of a better word. A nagging feeling to be in a specific location in about nine months. You just… feel it. It can be quite comforting in a way; knowing something with such certainty. You can live 100 lifetimes and not know anything <em>for certain</em>. Sorry, Incarnate humor.</p>
+<p>And sometimes, because reasons, the summoned one fails to arrive; the baby Incarnate is on their own. This has happened to me more than once. It sucks. Because until we can talk--and more specifically, perform magic--we are vulnerable.</p>
+<p>Lucky for me, on this, on the auspicious occasion of my 100th life, Amara was summoned. I hadn't seen her for a number of lifetimes. She hadn't change a bit--sorry, more Incarnate humor.</p>
+<p>~ <em>Emery (currently Lauri Van Devries)</em></p>]]></description>
+  </item>
   <item>
     <pubDate>Tue, 30 Jan 2024 07:00:00 GMT</pubDate>
     <title>Vonnegut's 8 Basics of RPG Writing</title>
-    <link>https://brine.dev/#post?s=vonneguts_8_basics_for_ttrpg_writing</link>
-    <guid>https://brine.dev/#post?s=vonneguts_8_basics_for_ttrpg_writing</guid>
+    <link>https://brine.dev/#post?s=vonneguts_8_basics_of_ttrpg_writing</link>
+    <guid>https://brine.dev/#post?s=vonneguts_8_basics_of_ttrpg_writing</guid>
     <description><![CDATA[<p>Kurt Vonnegut is my fav author. I've been re-reading all his books including his workshops on writing. It occurred to me that his advice for creative writing was hilariously inline with rpg writing; which makes sense but still; interesting.</p>
 <p><strong>1. Use the time of a total stranger in such a way that he or she will not feel the time was wasted.</strong></p>
-<p>Be concise and obvious in your writing. Please. I read a TON of adventures and settings, and most waste my time… a lot. Fuck your umpteen pages of lore and your walls of text and your "what is a RPG" section and your purple prose and run-on sentences. Tell me what's going on and get me into the action asap. If not I'm out. This advice is also partially: <em>keep the reader reading</em>.</p>
+<p>Be concise and obvious in writing. Maybe don't have umpteen pages of lore or walls of text or a "what is a RPG" section or purple prose or run-on sentences. "Have the guts to cut" (another Kurtism). Anything not necessary for running the game gets the axe; be ruthless! Get the reader into the action asap or risk losing them. Kurt's advice seems also to imply: <em>keep the reader reading</em>.</p>
 <p><strong>2. Give the reader at least one character he or she can root for.</strong></p>
-<p>As the reader of RPGs is a GM, this is <em>essential</em>, and perhaps better stated as: <em>Give the GM one character they are dying to play</em>. In a broader sense, give the GM <em>things</em> that make them REALLY want to run your shite for their table. I just sat here for a minute thinking back and yes, it's often the NPCs that suck me in.</p>
+<p>As the reader of RPGs is a GM, this is <em>essential</em>, and perhaps better stated as: <em>Give the GM one character they are dying to play</em>. In a broader sense, give the GM <em>things</em> that make them REALLY want to run your shite for their table.</p>
+<p>I just sat here for a minute thinking back and yes, it's usually an NPC that sucks me in. My mind immediately goes to Gus L's <a href="https://preview.drivethrurpg.com/en/product/333389/Prison-of-the-Hated-Pretender">Prison of the Hated Pretender</a>. I wanted to play the Pretender SO bad!</p>
 <p><strong>3. Every character should want something, even if it is only a glass of water.</strong></p>
-<p>This adventure writing 101 advice and rock solid. That being said, when I repurposed my old NPC generator into <a href="https://rando.brine.dev">Rando</a>, I ditched the <code>want</code> part. The main reason being: I found myself not using the <code>want</code>. I'm not totally sure why… 🤔 I suppose, given a random NPC generator, I'm not really looking for <code>want</code>? Or at least that's how it played out. In Rando, I went with three epithets ala <a href="https://wightbred.itch.io/named-toolkit">Named</a> for NPCs; which I love (<code>@wightbred</code>, you ruined me for other ways… thus far). But I also use Rando while writing and just add <code>wants</code> that make sense with the other moving pieces.</p>
+<p>This is <em>adventure writing 101</em> advice and rock solid. That being said, when I repurposed my old NPC generator into <a href="https://rando.brine.dev">Rando</a>, I ditched the <code>want</code> part. The main reason being: I found myself not using the <code>want</code>. I'm not totally sure why… 🤔 I suppose, given a random NPC generator, I'm not really looking for <code>want</code>? Or at least that's how it played out. In Rando, I went with three epithets ala <a href="https://wightbred.itch.io/named-toolkit">Named</a> for NPCs; which I love (<code>@wightbred</code>, you ruined me for other ways… thus far). But I also use Rando while writing and just add <code>wants</code> that make sense with the other moving pieces.</p>
 <p><strong>4. Every sentence must do one of two things—reveal character or advance the action.</strong></p>
 <p>In addition to character, I would broaden this to include <em>setting</em> or <em>world</em>. Bake setting into EVERY. THING. In fact, don't bake it in… mash it in there till setting oozes out of every word!</p>
 <p>This also implies revisioning but of course you DO revise, yes? Honestly, I revise too much. It's a sickness and slows me down SOOOO much. Like Vonnegut, I am a "Basher": <em>going one sentence at a time, getting it exactly right before they go on to the next one</em>. It's awful. I envy "Swoopers": <em>write a story quickly, higgledy-piggledy, crinkum-crankum, any which way. Then they go over it again painstakingly, fixing everything</em>.</p>
