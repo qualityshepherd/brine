@@ -19,7 +19,7 @@ I just sat here for a minute thinking back and yes, it's usually an NPC that suc
 
 **3. Every character should want something, even if it is only a glass of water.**
 
-This adventure writing 101 advice and rock solid. That being said, when I repurposed my old NPC generator into [Rando](https://rando.brine.dev), I ditched the `want` part. The main reason being: I found myself not using the `want`. I'm not totally sure why... :thinking: I suppose, given a random NPC generator, I'm not really looking for `want`? Or at least that's how it played out. In Rando, I went with three epithets ala [Named](https://wightbred.itch.io/named-toolkit) for NPCs; which I love (`@wightbred`, you ruined me for other ways... thus far). But I also use Rando while writing and just add `wants` that make sense with the other moving pieces.
+This is _adventure writing 101_ advice and rock solid. That being said, when I repurposed my old NPC generator into [Rando](https://rando.brine.dev), I ditched the `want` part. The main reason being: I found myself not using the `want`. I'm not totally sure why... :thinking: I suppose, given a random NPC generator, I'm not really looking for `want`? Or at least that's how it played out. In Rando, I went with three epithets ala [Named](https://wightbred.itch.io/named-toolkit) for NPCs; which I love (`@wightbred`, you ruined me for other ways... thus far). But I also use Rando while writing and just add `wants` that make sense with the other moving pieces.
 
 **4. Every sentence must do one of two things—reveal character or advance the action.**
 
