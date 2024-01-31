@@ -9,7 +9,7 @@ Kurt Vonnegut is my fav author. I've been re-reading all his books including his
 
 **1. Use the time of a total stranger in such a way that he or she will not feel the time was wasted.**
 
-Be concise and obvious in writing. I read a TON of adventures and settings, and most waste time. Maybe don't have umpteen pages of lore or walls of text or a "what is a RPG" section or purple prose or run-on sentences. "Have the guts to cut" (another Kurtism). If it's not necessary for the running the game give it the axe; get me into the action asap. If not you risk losing your reader. Kurt's advice seems also to imply: _keep the reader reading_.
+Be concise and obvious in writing. Maybe don't have umpteen pages of lore or walls of text or a "what is a RPG" section or purple prose or run-on sentences. "Have the guts to cut" (another Kurtism). Anything not necessary for running the game gets the axe; be ruthless! Get the reader into the action asap or risk losing them. Kurt's advice seems also to imply: _keep the reader reading_.
 
 **2. Give the reader at least one character he or she can root for.**
 
