@@ -7,10 +7,10 @@ const blog = {
     const numPosts = params.get('numPosts') ? Number(params.get('numPosts')) + maxPosts : maxPosts
     const index = await readSiteIndex()
     const sorted = await index.sort(sortByDate())
+    const canonicalLink = `<link rel="canonical" href="${config.splog.url}">` // seo
 
     let posts = sorted.slice(0, numPosts).map(post => {
       return `
-        <link rel="canonical" href="${config.splog.url}">
         <div class="post">
           <a href="#post?s=${post.meta.slug}" aria-label="post-title"><h2 class="post-title">${post.meta.title}</h2></a>
           <div class="date">${post.meta.date}</div>
@@ -27,6 +27,7 @@ const blog = {
       `
     // only show button if there are more to load
     if (numPosts < sorted.length) posts += morePostsBtn
+    posts += canonicalLink // for seo
     return posts
   }
 }
