@@ -264,6 +264,11 @@ h6 {
   font-family: var(--header-font);
 }
 
+h1 {
+  /* just for seo */
+  display: none;
+}
+
 h2 {
   font-size: 375%;
   text-align: center;
