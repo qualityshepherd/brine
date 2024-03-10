@@ -73,4 +73,4 @@ In the heart of the forest, words cut into an ancient, gnarled tree; a spell. Is
 **Witch Ailmar's Desolate Brugh:** A mysterious and somewhat eerie dwelling nestled in the heart of Glimmerwood. The witch, Ailmar, resides here. The surroundings are adorned with various herbs and potions, and an air of untrustworthiness permeates the atmosphere.
 
 
-_map by [Watabou](https://watabou.github.io/perilous-shores/?seed=1212351748&tags=perilous,lowland,evil,woodland,land&w=800&h=800&hexes=2)_
+_map by [Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2)_
