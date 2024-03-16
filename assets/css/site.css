@@ -233,8 +233,12 @@ a:hover,
   color: var(--alt3);
 }
 
+table, ul, ol {
+  margin-bottom: 45px;
+  font-size: 90%;
+}
+
 table {
-  padding-bottom: 15px;
   width: 100%;
   border-collapse: collapse;
 }
@@ -249,51 +253,6 @@ th {
 
 th, td {
   padding: 2.5px 5px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: 700;
-  color: #8D8678;
-  line-height: 150%;
-  font-family: var(--header-font);
-}
-
-h1 {
-  /* just for seo */
-  display: none;
-}
-
-h2 {
-  font-size: 375%;
-  text-align: center;
-  color: var(--header);
-  margin-bottom: 1.2rem;
-  text-transform: uppercase;
-}
-
-h3, .names {
-  font-size: 200%;
-  color: var(--header);
-  margin-bottom: 15px;
-  margin-top: 60px;
-  text-transform: uppercase;
-  font-family: var(--header-font);
-}
-
-h4 {
-  margin-top: 30px;
-  font-size: 150%;
-  color: var(--header);
-}
-
-h5 {
-  font-size: 120%;
 }
 
 ul {
@@ -360,4 +319,49 @@ img {
   padding: 25px;
   margin-bottom: 50px;
   overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  color: #8D8678;
+  line-height: 150%;
+  font-family: var(--header-font);
+}
+
+h1 {
+  /* just for seo */
+  display: none;
+}
+
+h2 {
+  font-size: 375%;
+  text-align: center;
+  color: var(--header);
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+h3, .names {
+  font-size: 200%;
+  color: var(--header);
+  margin-bottom: 15px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-family: var(--header-font);
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 150%;
+  color: var(--header);
+}
+
+h5 {
+  font-size: 120%;
 }
