@@ -225,7 +225,7 @@ A group of pilgrims has come from the north seeking guidance and sanctuary, plac
 - **"Cookie"** One-armed Logger, Terrible cook
 - 18 loggers
 
-**1408 Fishing Hamlet** Of it's handful of huts, the one closest to the sea belongs to **Pesh**, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.
+**1408 Fishing Hamlet** with handful of huts. The one closest to the sea belongs to **Pesh**, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.
 
 The hamlet fears and avoids the Boat Hag [#1506]. They refuse to trade with her and "allegedly" leave rotten fish guts on her doorstep.
 
