@@ -262,7 +262,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 - **Dragon Vine** Swarm, Grapple, Poison - Razor sharp and stronger than you'd expect. You may only notice them after they've grappled you... and then there's the poison.
 - **Dust Devil**: Elusive, Blinding, Sandstorm - Your weapons are useless against these whirling tornadoes of sand.
 - **Dune Crawlers**: Agile, Burrow, Venomous - Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait...
-- **Lamp Boy**: Tracker, Mute, Coins-for-eyes - These fae creatures are engaged by someone or something (even the cosmos) in need; something that wants to be found. They will not stop until their task is done. Those silver eyes cannot be deceived. Careful... you break one, you become one.
+- **Lamp Boy**: Tracker, Mute, Coins-for-eyes - These fae creatures are engaged by someone or something (even the cosmos), to retrieve someone or something, and lead them to someone or somewhere They will not stop until their task is done. Those silver eyes cannot be deceived. Careful... you break one, you become one.
 - **Quicksand**: Treacherous, Sinking, Trap - Slow, deliberate movements will save you; bad time for a panic attack.
 - **Sandit**: Sandstorm, Bandit, Ambush - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.
 - **Shadow Dragon**: Big, Shadow-walker, Incorporeal - Only solid/vulnerable when breathing fire, during twilight or when it wishes.
