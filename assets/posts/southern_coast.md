@@ -12,7 +12,7 @@ With these pillars of civilization established, the Southern Coast has begun to 
 
 ### WHAT IS THIS?
 
-The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate YOUR campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.
+The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate a campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.
 
 
 ### HOOKS
