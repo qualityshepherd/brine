@@ -214,7 +214,7 @@ A group of pilgrims has come from the north seeking guidance and sanctuary, plac
 - **Brother Ulfar** Vintner, Mean Drunk - avoided but knows wine
 - **Brother Estabar** Monk, Eager - master goat herder
 - **Sir Ealdred** Knight, Daring - seeks spiritual clarity after long and brutal campaigns
-- **Lady Isolde Noble, Selfless - sought sanctuary from the pressures of court life
+- **Lady Isolde** Noble, Selfless - sought sanctuary from the pressures of court life
 - 28 Monks, 6 pilgrims
 
 **1405 Loggers Camp** in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement.
