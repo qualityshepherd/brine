@@ -38,7 +38,6 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 1. In Starwoods, beware the moors; stick to the path.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly, if you know what I mean...
 1. I have it on good authority that one of the Northern Kings has a spy down here.
-1.
 
 
 ### LOCATIONS
