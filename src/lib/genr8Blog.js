@@ -21,7 +21,7 @@ import config from '../../package'
   sorted.forEach(post => {
     feed += `
   <item>
-    <pubDate>${new Date(post.meta.date).toUTCString()}</pubDate>
+    <pubDate>${new Date(`${post.meta.date} 06:01`).toUTCString()}</pubDate>
     <title>${post.meta.title}</title>
     <link>${config.splog.url}/#post?s=${post.meta.slug}</link>
     <guid>${config.splog.url}/#post?s=${post.meta.slug}</guid>
