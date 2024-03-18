@@ -5,8 +5,446 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 16 Mar 2024 01:12:18 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 18 Mar 2024 00:57:26 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Mon, 18 Mar 2024 06:00:00 GMT</pubDate>
+    <title>Southern Coast</title>
+    <link>https://brine.dev/#post?s=southern_coast</link>
+    <guid>https://brine.dev/#post?s=southern_coast</guid>
+    <description><![CDATA[<p><strong>The Southern Coast</strong>, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, a place to "throw our trash". Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.</p>
+<p>With these pillars of civilization established, the Southern Coast has begun to attract adventurous individuals seeking to make it their home.</p>
+<h3 id="whatisthis">WHAT IS THIS?</h3>
+<p>The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate YOUR campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.</p>
+<h3 id="hooks">HOOKS</h3>
+<ol>
+<li>Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.</li>
+<li>The Crown's Fury, a ship lost in the Battle Mistwood, was <em>busting</em> with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness has come forth, swearing that it's The Crown's Fury.</li>
+<li>A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.</li>
+<li>An infamous game hunter, and friend to the Northern Kings, will pay big for help finding/tracking/killing a wendigo.</li>
+<li>The PCs are escorting a prisoner to the Prison of Mon</li>
+<li>A Duke's son found a treasure map leading to the Isle of Wight and has not been heard from for a week.</li>
+</ol>
+<h3 id="2d6rumors">2D6 RUMORS</h3>
+<ol start="2">
+<li>The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.</li>
+<li>Some crazy druid up in the mountains has got himself a harem and is performing miracles!</li>
+<li>Yagul Fane is built atop an ancient city just <em>busting</em> with treasure.</li>
+<li>Have you ever known purveyors of magic and religion to get along? There's tension there… count on it.</li>
+<li>Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.</li>
+<li>Follow lights in the mountains to your peril.</li>
+<li>The mountain mists are the breath of ancient dragons. Dragons and giants used to run this place.</li>
+<li>Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.</li>
+<li>In Starwoods, beware the moors; stick to the path.</li>
+<li>Fellstead's abbess and Mon's warden are friendly. VERY friendly, if you know what I mean…</li>
+<li>I have it on good authority that one of the Northern Kings has a spy down here.
+1.</li>
+</ol>
+<h3 id="locations">LOCATIONS</h3>
+<p><strong>Freemoon Forest</strong> stretches westward along the South Sea. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities".</p>
+<p>Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings… yet.</p>
+<table>
+<thead>
+<tr>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="freemoon_forest_encounters" style="text-align:left;">Freemoon Forest Encounters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Shadow Dragon</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Druids</strong> demand an offering.</td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;"><strong>Sprites</strong> play pranks and offer gifts to those that are good sports or dangerous illusions if not.</td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Wailing Trees</strong> mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">A <strong>Fae Court</strong> emerges around the PCs; they are found guilty of conspiring in the theft of a fae trinket. They must return the trinket and are immediately banished until they do so.</td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Sculpture Garden</strong> with dozens of lifelike stone statues, including a mesmerizing medusa sculpture… reflected in a full length mirror just beside her.</td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Lamp Boy</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;">3d6 <strong>Moonlight Mushrooms</strong>, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.</td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>An Enchanted Clearing</strong> adorned with glowing fae flowers, offers a chance to gather valuable herbs but risks disturbing the forest.</td>
+</tr>
+<tr>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Twilight Sands</strong> As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect… sometimes literally.</p>
+<table>
+<thead>
+<tr>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="twilight_sands_encounters" style="text-align:left;">Twilight Sands Encounters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Sandits</strong> posses a stone that creates a magical sandstorm when submersed in water. More water more storm. They create a storm and attack in the ensuing mayhem.</td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Dune Crawlers</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">d6 <strong>Dust Devils</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Ghost Caravan</strong>, long abandoned, its cargo untouched and ripe for the taking, but its ghostly guardians may not take kindly to plunderers.</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Trapped Dybbuk</strong> in a magical stockade and unable to possess the living. He'll trade her freedom for a favor…</td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Dragon Vine</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Lost Mage</strong> asks the party how to get back to Yagul Fane without admitting the he is lost.</td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Nomadic Tribe</strong> offering trade and information in exchange for assistance in fending off Sandits.</td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Oasis Mirage</strong>, a cache of valuable relics hidden beneath the shimmering surface of the water. It's <em>probably</em> safe?</td>
+</tr>
+<tr>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Sorrow Mountains</strong> divide the eastern Starwoods from the Freemoon Forest to the west. The moniker derives from the perpetual mist that shrouds their rugged peaks. Within their depths lies the Prison of Mon. Visitors speak of a palpable sense of foreboding and the feeling of unseen eyes peering into their very soul.</p>
+<table>
+<thead>
+<tr>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="sorrow_mountains_encounters" style="text-align:left;">Sorrow Mountains Encounters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">d6 <strong>Bears</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Wolves</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">A recent <strong>Landslide</strong> blocks the way ahead, requiring detour or clearing</td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Lamp Boy</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Abandoned Campsite</strong> with scattered belongings, bloodstains, and tracks leading into a copse of trees</td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Fighting Giants</strong> sound like thunder as they hurl boulders at each. Their forms, outlined against the horizon, moved with a grace belying their immense size. One takes A hit to the knee begetting a deafening roar that echos for miles. He is losing.</td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>A Flock of Goats</strong> bleat and traverse the steep cliffs with amazing ease</td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>A Distressed Griffon</strong> caught in a bear trap. Voices far in the distance are coming this way. Poachers?</td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Waterfall Pool</strong> reveals scattered silver coins shimmering from beneath 20' of freezing water</td>
+</tr>
+<tr>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Starwoods</strong> is an ancient forest nestled along the coast. Tangled briars and gnarled roots clutch the dirt like fingers. A dense canopy diffuses sunlight, casting a mesmerizing play of light and shadow upon the forest floor. Towering behemoths, prized for their unmatched durability, dominate the landscape and fetch a handsome price.</p>
+<p>Legend speaks of a guardian of the woods—-a creature part beast and part spirit—-rumored to possess an insatiable hunger for human flesh.</p>
+<table>
+<thead>
+<tr>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="starwoods_encounters" style="text-align:left;">Starwoods Encounters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Wendigo</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Bristled Boars</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">d6 <strong>Succubi</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Giant Copper Scale</strong> currently titled with a single silver coin</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">A <strong>Treant</strong> is suspicious of the party and tests their nature</td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Lost Path</strong> the path suddenly disappears, leaving the party disoriented and without direction</td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Voodoo Dolls</strong>--one for each of the party--posed upon the forest floor</td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Mad Monk</strong> (see Hextras)</td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;">An <strong>Ancient Shrine</strong> carved into the trunk of a white oak, bears silver rings, etch with the names of each of the party</td>
+</tr>
+<tr>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
+</tr>
+</tbody>
+</table>
+<p><strong>West Marshes</strong> sprawl endlessly; a labyrinth of murky waters and treacherous bogs. Quicksand pits lie in wait to ensnare the unwary, while giant leeches slither through the muck. The scent of damp earth and rotting vegetation choke the air. Rare herbs and exotic flora thrive in the damp, fertile soil; coveted by herbalists and alchemists alike.</p>
+<table>
+<thead>
+<tr>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="west_marshes" style="text-align:left;">West Marshes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">d6 <strong>Bog Trolls</strong> brutish, mossy, shit-breath creatures that ambush prey that wander too close.</td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">d6 <strong>Swamp Drakes</strong> a flying crocodile-like wyrm that attack from above with their powerful jaws and drag prey underwater to drown.</td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">3d6 <strong>Zombies</strong>, fallen soldiers from the Battle of Mistwood, with an insatiable hunger for the living</td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Quicksand</strong></td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Bog Myrtle</strong> small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil.</td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Marsh Tea</strong> a flowering plant used to treat various ailments, valuable to apothecaries.</td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Bog Rosemary</strong> an extremely rare evergreen producing pink flowers used in herbal medicines.</td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Bog Amber</strong> fossilized tree resin, prized for its beauty and rarity.</td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Cash Box</strong> (2000s, 125lbs) marked with a silver stag; the sigil of King Theric II, who lost the Battle of Mistwood.</td>
+</tr>
+<tr>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hexes">HEXES</h3>
+<p><strong>0104 Shadow Dragon Lair</strong> entrance is obscured by shifting shadows created by bioluminescent fungi, which also provide dim illumination throughout the cave. The shadows are nearly indistinguishable from the dragon itself.</p>
+<p>Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon, injured and dying. She nursed it back to health, creating an everlasting bond. The two communicate via shadows, plotting her freedom.</p>
+<p><strong>0209 Greever's Lighthouse</strong> stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida, met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.</p>
+<p>Ida's diary lies under her old bed on four floor. In it, she reveals that her true love was the captain of The Crown's Fury. News that his ship was lost in the Battle Mistwood came the same day she lept from the tower. She and the other ghosts activate the old light to summon the spectral ship from the depths.</p>
+<p>At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card that reads "My dearest Ida, Your favorite color. Love, Peter".</p>
+<p><strong>0302 Lost Druid's Grove</strong> lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.</p>
+<p><strong>0305 Prison of Mon</strong> is carved into craggy face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.</p>
+<p>The Jailers stand at attention in the prisons long entrance. Their runes' flickering amber glow the only light. Jailers are attuned to truth; any attempt to hide one's true nature, intentions, or possessions triggers a harsh reaction.</p>
+<p>Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive <em>royal endowments</em> from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently. A series of dangerous accidents prompts concerns about the prison's safety and security. The old girl is showing her age?</p>
+<ul>
+<li><strong>Warden Cloudcroft</strong> Stern, Respected - Abbes Salvora visits often and a select few know they are "friendly"</li>
+<li><strong>Captain Kell</strong> veteran, strict, proud</li>
+<li><strong>Jailers</strong> ethereal guards that wear a stone rune; can form a painful astral prison with their touch</li>
+<li><strong>Gavric the Silent</strong> Inmate, Assassin</li>
+<li><strong>The Hag Kalg</strong> Inmate - rumors of her whispering to a dragon-shaped shadow</li>
+<li><strong>The Lost Druid</strong> Inmate - her incarceration was a necessary sacrifice to complete a complex ritual</li>
+<li>4 workers; 6 human guards; 6 Jailers</li>
+</ul>
+<p><strong>0310 The Bone Cairn</strong> is a puzzling landmark. A massive pile of bones arranged in the form of a cairn. If the bones are toppled, they inexplicably restack themselves at twilight, defying explanation.</p>
+<p><strong>0408.1 The Mirage Merchant</strong> A caravan camped near the Twilight Sands; A merchant sells trinkets that have magical effects at twilight. 1 in 6 is <em>actually</em> magical.</p>
+<p><strong>0412 Isle of Wights</strong> is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no <em>wights</em> on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.</p>
+<p><strong>0502 Prophet for Profit</strong> Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself "The River". He sought out the druids but broke from them to start his own flock… a <em>new</em> sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a <strong>Nymph's Tear</strong>, a tear shaped fae gemstone.</p>
+<table>
+<thead>
+<tr>
+<th id="d6" style="text-align:center;">d6</th>
+<th id="he_says_shit_like" style="text-align:left;">He says shit like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">1</td>
+<td style="text-align:left;">"I've navigated the treacherous currents of fate. Call me 'The River' I flow with the wisdom of the ages."</td>
+</tr>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">"Feel my current, my power, swirling like the mighty river. I will chart your course."</td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">"I'm the compass, guiding you through life's stormy waters."</td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">"Aye, I once sailed the seas, but now I navigate the waters of the unknown."</td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;">"You don't want to know what lurks in those murky depths."</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">"As ebb and flow commands."</td>
+</tr>
+</tbody>
+</table>
+<p><strong>0607 Runes in the Dunes</strong> is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.</p>
+<p><img src="/assets/images/southern_coast/yagul_fane.png" alt="image" /></p>
+<p><strong>0608 Yagul Fane</strong> is marked by two imposing stone towers, erected by the legendary magi, Naz Yagul and Uma Fane. The Council of Six governs the site, with the head of Fellstead Monastery playing tie-breaker. Access beyond the ground floors is limited to magi and staff, and protected by formidable wards and spells. Residents are esteemed for their mastery of magical disciplines, drawing scholars and adventurers from distant lands.</p>
+<p>Surrounding the towers is a desert village housing approximately 300 inhabitants. These resilient individuals thrive in the harsh environment, relying on traditional values, adaptability, and self-reliance. Most live in tents; some in permanent stone structures, showcasing their connection to the land.</p>
+<p>In the center of the village sits a magical cistern, created by the magi of Yagul Fane, ensuring water for all. This enchanted well symbolizes the community's unity and strength. The villagers engage in herding livestock and participating in trade as part of their daily activities.</p>
+<ul>
+<li><strong>Gareth</strong> Next in line for Council of 6, Necromancer, Sweet tooth</li>
+<li><strong>Captain Yorik</strong> Guard, Hunter, Daring</li>
+<li><strong>The Broker</strong> Fence, Embroiderer, Methodical</li>
+<li><strong>Narla</strong> Alchemist, Pretty, 3 Husbands</li>
+<li><strong>Sorrel</strong> Priest, Trailblazer, Passionate</li>
+<li><strong>Cirian</strong> Sage, Cartwright, Creative</li>
+<li><strong>Flax</strong> Barkeep, Assassin, Funny</li>
+<li><strong>Liren</strong> Armorer, Wench, Determined</li>
+<li><strong>Ursula</strong> Spy, Cheeky, Displaced, Ward</li>
+<li><strong>Mrs Redraven</strong>  Lady-of-the-house, Loyal, Prude</li>
+</ul>
+<p><strong>0807.6 Barrow of the Cane</strong>
+A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon a small hill marked with rusty grass. The rune tells an elaborate history of <strong>The Cane</strong>, an ancient tribe of warriors. The barrow has an entrance at its base, framed by three monolith stones. The walls within are covered in chalky paintings of men with long spears fighting various monsters; hand prints of men, women and children; and giants in the mountains. The paintings depict families with heads in the shape of various animal spirits. Each cubbyhole is marked with these same animal shapes.</p>
+<p>Cubbyholes contain mostly bones but also: obsidian arrowheads, an obsidian axe, a solid silver bear-like idol (400s) and simple silver jewelry (120s). There are a number of extremely high quality spear poles; one still with a razor-sharp obsidian tip. Resting in this sacred space aids healing.</p>
+<p>If the bones are disturbed a ghost will appear. <strong>Zamma</strong> was the tribe's last shaman. His bones are buried beneath the monolith, just above the ceiling of the main chamber. He cannot speak but will point at various drawings on the walls. He will disappear if the bones are returned to their resting place. Taking anything but the weapons (weapons are to use; treasure is property of the Cane) from the barrow (without trade or sacrifice) curses the thief: their fingers &gt; hand &gt; arm &gt; etc start turning red. When they are completely red the thief dies.</p>
+<p><strong>0904 Harlan's Grove</strong> is renowned for producing the region's finest hops, coveted by brewers for their unparalleled quality. Francis and Catherine Harlan have become quite famous to those in the trade. However, the true secret behind the exceptional hops lies in the soil's rare mineral deposit, discovered by the Harlans generations ago. This mineral imbues the hops with distinctive flavors and aromas, making them highly sought after. Guarding their knowledge closely, the Harlans perpetuate the myth of their unparalleled skill, ensuring their dominance in the hop market.</p>
+<p><strong>1004 Maude's Meadery</strong> Vibrant wildflowers bordered by a meandering stream. the meadery farm presents a picturesque scene straight out of a pastoral painting. The air is perfumed with the sweet aroma of honey, mingling with the earthy scent of the surrounding fields. Rows upon rows of lush, golden-hued honeycombs glisten under the gentle sunlight, tended to by diligent beekeepers clad in weathered leather aprons. In the heart of the farm, a quaint stone cottage stands as the hub of activity, its chimney billowing fragrant smoke from the hearth where mead is brewed in large copper cauldrons. Bees buzz lazily among the blossoms, their diligent work ensuring a plentiful harvest of honey, while workers scurry about, gathering ingredients and preparing barrels for the fermentation process. Amidst the tranquility of the countryside, the meadery farm hums with the rhythmic pulse of nature and the bustling energy of artisanal craftsmanship.</p>
+<p>Maude's southwestern hives are all dying. Weather this season has been dry and the bees have been traveling all the way to Harlan's Grove. Their hops is poisoning the hives and Maude is desperate to find the cause. The two farms have been friends for years so she will be slow to accept the truth.</p>
+<p><strong>1108 Fellstead Monastery</strong> is perched upon the edge of the coast and surrounded by lush, rolling hills. The monastery is constructed from warm, honey-colored stone and Gothic architecture. Its walls are adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of travelers and seekers of knowledge). It is a place of peace and reflection, where people from all walks of life come to seek answers, find comfort, and renew their spirits.</p>
+<p>The Monastery boasts a renowned library, a trip of goats that produces fine milk/cheese and a rather fabulous winery and the best beer in the south--thanks to a annual donation of hops from Harlan's Grove [#0904]</p>
+<p>A group of pilgrims has come from the north seeking guidance and sanctuary, placing additional strain on the resources and tranquility of the monks.</p>
+<ul>
+<li><strong>Abbes Salvora</strong> Devoted, Wise</li>
+<li><strong>Prior Cedric</strong> Rugged, Diligent</li>
+<li><strong>Sister Elara</strong> Druid, Healer - formerly? of the Lost Druids</li>
+<li><strong>Brother Ulfar</strong> Vintner, Mean Drunk - avoided but knows wine</li>
+<li><strong>Brother Estabar</strong> Monk, Eager - master goat herder</li>
+<li><strong>Sir Ealdred</strong> Knight, Daring - seeks spiritual clarity after long and brutal campaigns</li>
+<li>**Lady Isolde Noble, Selfless - sought sanctuary from the pressures of court life</li>
+<li>28 Monks, 6 pilgrims</li>
+</ul>
+<p><strong>1405 Loggers Camp</strong> in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement.</p>
+<ul>
+<li><strong>Foreman "Boss" Bartok</strong> Burly, Caring (crew and sustainability of logging)</li>
+<li><strong>Lena "Sawbones" Thorne</strong> Medic, Herbalist, Gentle</li>
+<li><strong>Lucia "Twig" Thorne</strong> Camp Mom, Agile, Cheerful</li>
+<li><strong>"Cookie"</strong> One-armed Logger, Terrible cook</li>
+<li>18 loggers</li>
+</ul>
+<p><strong>1408 Fishing Hamlet</strong> Of it's handful of huts, the one closest to the sea belongs to <strong>Pesh</strong>, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.</p>
+<p>The hamlet fears and avoids the Boat Hag [#1506]. They refuse to trade with her and "allegedly" leave rotten fish guts on her doorstep.</p>
+<p><strong>1506 The Boat Hag</strong> A large overturned boat repurposed into a makeshift dwelling. The hull's curvature and the weathered planks remnants of its former life. Within this curious abode resides a reclusive hag. She is known for her extensive knowledge of herbal remedies and potions, which she brews using ingredients gathered from the surrounding marshlands and forests.</p>
+<p>Among her possessions is a <strong>Dryad's Whispering Branch</strong>. A slender branch from a dryad's tree. It allows the wielder to communicate with woodland creatures and plants.</p>
+<p><strong>1508 Pirate Shipwreck</strong> lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. A haunting reminder of the sea's perils. Carved onto a board just above the waterline is "Pesh was here" [#1405]. 2d6 <strong>venomous reef snakes</strong>, camouflaged among the coral, hunt in the wreckage.</p>
+<p>Among the treasure was also a <strong>Sylph Ring</strong>. A pewter ring marked with the fae rune for air, that summons gentle, calming winds.</p>
+<p><strong>1603 Old Pete's Boggery</strong> stands as a testament to human resilience. With his daughter Ida and a dedicated team of 12 hands, Pete toils tirelessly to extract valuable peat from the marshes. Despite the challenges posed by the terrain, the farm not only sustains itself but also provides a crucial resource for the surrounding communities. Nobody knows the marshes better than Pete and his daughter.</p>
+<h3 id="hextras">HEXTRAS</h3>
+<p>The following hex/encounters can be used as random situations throughout the Southern Coast as the GM requires.</p>
+<ol>
+<li><p><strong>Shadow Walker</strong> A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to a specific place. Without the sun, there is no shadow; at the right time, she will walk into a shadow, through a disorienting maze of darkeness and out of another shadow that she has seen and knows the angle of at specific moments. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works for a price.</p></li>
+<li><p><strong>Classic Traveler</strong> A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as <strong>Malfas</strong>. Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.</p></li>
+<li><p><strong>Mad Monk</strong> is dressed in pink robes of an improbable shade of bright pink. His eyes dart with a manic glint, and he mumbles to himself incoherently. He's out of water and will ask the PCs if they can spare any. He's quite mad… he's looking for a door. He might remember his name is <strong>Jaral</strong>.</p></li>
+<li><p><strong>Four Leaf Clover Field</strong> A field of ONLY four leaf clovers… finding a THREE leaf clover brings the bearer luck.</p></li>
+<li><p><strong>Aware Wolf</strong> Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is <strong>Zander</strong>. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to his dead friend…</p></li>
+<li><p><strong>Fare Fight</strong> A copper-skinned warrior named <strong>Lunara</strong> (Warrior, Proud) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).</p></li>
+</ol>
+<h3 id="bestiery">BESTIERY</h3>
+<ul>
+<li><strong>Bear</strong> Strong, Quick, Reach, Perceptive - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",</li>
+<li><strong>Bog Troll</strong>: Brutish, Mossy, Ambush - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.</li>
+<li><strong>Bristled Boar</strong>: Aggressive, Tusks, Gorge - Angry. Damn angry. Seething! That cute little squiggly tail is attached to a wild, shaggy killer!</li>
+<li><strong>Griffon</strong>: Majestic, Hunter, Flight - As for riding one of these noble beasts: bowing is not a bad idea… but you first!</li>
+<li><strong>Dragon Vine</strong> Swarm, Grapple, Poison - Razor sharp and stronger than you'd expect. You may only notice them after they've grappled you… and then there's the poison.</li>
+<li><strong>Dust Devil</strong>: Elusive, Blinding, Sandstorm - Your weapons are useless against these whirling tornadoes of sand.</li>
+<li><strong>Dune Crawlers</strong>: Agile, Burrow, Venomous - Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait…</li>
+<li><strong>Lamp Boy</strong>: Tracker, Mute, Coins-for-eyes - These fae creatures are engaged by someone or something (even the cosmos) in need; something that wants to be found. They will not stop until their task is done. Those silver eyes cannot be deceived. Careful… you break one, you become one.</li>
+<li><strong>Quicksand</strong>: Treacherous, Sinking, Trap - Slow, deliberate movements will save you; bad time for a panic attack.</li>
+<li><strong>Sandit</strong>: Sandstorm, Bandit, Ambush - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.</li>
+<li><strong>Shadow Dragon</strong>: Big, Shadow-walker, Incorporeal - Only solid/vulnerable when breathing fire, during twilight or when it wishes.</li>
+<li><strong>Sprites</strong>: Fae, Playful, Illusionist - play pranks and offer gifts to those that are good sports or dangerous illusions if not.</li>
+<li><strong>Succubi</strong>: Seductive, Hypnotic, Draining - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively</li>
+<li><strong>Swamp Drakes</strong>: Jaws, Hunter, Aquatic - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.</li>
+<li><strong>Wailing Tree</strong>: Haunting, Mourning, Bewitching - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.</li>
+<li><strong>Wendigo</strong> Cannibal, Wind-walker, Curse of Insatiable Hunger, Icy Portents, Frightening - Victims will devour every scrap of food on their person… and then attempt to devour a person.</li>
+<li><strong>Wolf</strong> Predator, Pack, Cunning, Keen Senses - You might want to stay close to a fire… or a spear.</li>
+<li><strong>Zombies</strong> Undead, Relentless, Mindless - How's your cardio?</li>
+</ul>
+<p><img src="/assets/images/southern_coast/southern_coast.png" alt="image" /></p>
+<p><em>v0.8</em> by brine <br>
+<a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">map by Watabou</a> <br>
+Images by MidJourney <br>
+<a href="https://casadeocio.itch.io/hexcrawls-rule">Hexcrawl Rules</a> if needed <br>
+For your <a href="https://rando.brine.dev">random needs</a> <br></p>]]></description>
+  </item>
   <item>
     <pubDate>Tue, 13 Feb 2024 07:00:00 GMT</pubDate>
     <title>On Magical Magic</title>
