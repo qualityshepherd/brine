@@ -126,7 +126,7 @@ Legend speaks of a guardian of the woods—-a creature part beast and part spiri
 
 **0104 Shadow Dragon Lair** entrance is obscured by shifting shadows created by bioluminescent fungi, which also provide dim illumination throughout the cave. The shadows are nearly indistinguishable from the dragon itself.
 
-Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon, injured and dying. She nursed it back to health, creating an everlasting bond. The two communicate via shadows, plotting her freedom.
+Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon, injured and dying. Her nursing it back to health, created an everlasting bond. The two communicate via shadows, plotting her freedom.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida, met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
@@ -140,7 +140,7 @@ At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card 
 
 The Jailers stand at attention in the prisons long entrance. Their runes' flickering amber glow the only light. Jailers are attuned to truth; any attempt to hide one's true nature, intentions, or possessions triggers a harsh reaction.
 
-Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive _royal endowments_ from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently. A series of dangerous accidents prompts concerns about the prison's safety and security. The old girl is showing her age?
+Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive _royal endowments_ from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently.
 
 - **Warden Cloudcroft** Stern, Respected - Abbes Salvora visits often and a select few know they are "friendly"
 - **Captain Kell** veteran, strict, proud
@@ -276,7 +276,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.8_ by brine <br>
+_v0.8.7_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
