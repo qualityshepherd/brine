@@ -136,7 +136,7 @@ At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card 
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.
 
-**0305 Prison of Mon** is carved into craggy face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
+**0305 Prison of Mon** is carved into rock face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
 The Jailers stand at attention in the prisons long entrance. Their runes' flickering amber glow the only light. Jailers are attuned to truth; any attempt to hide one's true nature, intentions, or possessions triggers a harsh reaction.
 
