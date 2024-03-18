@@ -156,7 +156,7 @@ Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for
 
 **0412 Isle of Wights** is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no _wights_ on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.
 
-**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a **Nymph's Tear**, a tear shaped fae gemstone.
+**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
 
   d6 | He says shit like
 :---:|:--------------------
