@@ -170,8 +170,6 @@ Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for
 
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
-![image](/assets/images/southern_coast/yagul_fane.png)
-
 **0608 Yagul Fane** is marked by two imposing stone towers, erected by the legendary magi, Naz Yagul and Uma Fane. The Council of Six governs the site, with the head of Fellstead Monastery playing tie-breaker. Access beyond the ground floors is limited to magi and staff, and protected by formidable wards and spells. Residents are esteemed for their mastery of magical disciplines, drawing scholars and adventurers from distant lands.
 
 Surrounding the towers is a desert village housing approximately 300 inhabitants. These resilient individuals thrive in the harsh environment, relying on traditional values, adaptability, and self-reliance. Most live in tents; some in permanent stone structures, showcasing their connection to the land.
@@ -281,6 +279,5 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 _v0.8_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
-Images by MidJourney <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
