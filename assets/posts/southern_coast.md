@@ -156,7 +156,7 @@ Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for
 
 **0412 Isle of Wights** is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no _wights_ on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.
 
-**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
+**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself as "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
 
   d6 | He says shit like
 :---:|:--------------------
@@ -241,7 +241,7 @@ Among the treasure was also a **Sylph Ring**. A pewter ring marked with the fae 
 
 The following hex/encounters can be used as random situations throughout the Southern Coast as the GM requires.
 
-1. **Shadow Walker** A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to a specific place. Without the sun, there is no shadow; at the right time, she will walk into a shadow, through a disorienting maze of darkeness and out of another shadow that she has seen and knows the angle of at specific moments. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works for a price.
+1. **Shadow Walker** A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to her intended destination. Once the shadows are just right, she will walk into it, through a disorienting maze of darkness and out of another shadow elsewhere. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works... for a price.
 
 2. **Classic Traveler** A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as **Malfas**. Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
 
@@ -249,7 +249,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 4. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
-5. **Aware Wolf** Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is **Zander**. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to his dead friend...
+5. **Aware Wolf** Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is **Zander**. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend...
 
 6. **Fare Fight** A copper-skinned warrior named **Lunara** (Warrior, Proud) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
