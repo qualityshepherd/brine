@@ -42,7 +42,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities".
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings... yet.
 
@@ -50,7 +50,7 @@ Swaths of forest are being ravaged by fire, leaving the haunting beauty of a cha
 :---:|:--------------------
  2   | **Shadow Dragon**
  3   | 2d6 **Druids** demand an offering.
- 4   | **Sprites** play pranks and offer gifts to those that are good sports or dangerous illusions if not.
+ 4   | d6+1 **Redcaps** are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
  5   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
  6   | A **Fae Court** emerges around the PCs; they are found guilty of conspiring in the theft of a fae trinket. They must return the trinket and are immediately banished until they do so.
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
@@ -61,9 +61,11 @@ Swaths of forest are being ravaged by fire, leaving the haunting beauty of a cha
 
 **Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect... sometimes literally.
 
+Nomadic tribes may lay claim to certain areas, and conflicts over resources are not uncommon among them. They are quick to dismiss any hint of authority from Yagul Fane and their "wizzards".
+
  2d6 | Twilight Sands Encounters
 :---:|:--------------------
- 2   | **Sandits** posses a stone that creates a magical sandstorm when submersed in water. More water more storm. They create a storm and attack in the ensuing mayhem.
+ 2   | **Sandits** us a stone that creates a magical sandstorm when submersed in water. More water; more storm. They create a storm and attack in the ensuing mayhem.
  3   | 2d6 **Dune Crawlers**
  4   | d6 **Dust Devils**
  5   | **Ghost Caravan**, long abandoned, its cargo untouched and ripe for the taking, but its ghostly guardians may not take kindly to plunderers.
@@ -254,7 +256,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 6. **Fare Fight** A copper-skinned warrior named **Lunara** (Warrior, Proud) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 
-### BESTIERY
+### BESTIARY
 - **Bear** Strong, Quick, Reach, Perceptive - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",
 - **Bog Troll**: Brutish, Mossy, Ambush - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.
 - **Bristled Boar**: Aggressive, Tusks, Gorge - Angry. Damn angry. Seething! That cute little squiggly tail is attached to a wild, shaggy killer!
@@ -266,7 +268,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 - **Quicksand**: Treacherous, Sinking, Trap - Slow, deliberate movements will save you; bad time for a panic attack.
 - **Sandit**: Sandstorm, Bandit, Ambush - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.
 - **Shadow Dragon**: Big, Shadow-walker, Incorporeal - Only solid/vulnerable when breathing fire, during twilight or when it wishes.
-- **Sprites**: Fae, Playful, Illusionist - play pranks and offer gifts to those that are good sports or dangerous illusions if not.
+- **Redcap**: Invisible, Pack, Razors - If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps!
 - **Succubi**: Seductive, Hypnotic, Draining - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively
 - **Swamp Drakes**: Jaws, Hunter, Aquatic - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.
 - **Wailing Tree**: Haunting, Mourning, Bewitching - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
@@ -276,7 +278,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.8.7_ by brine <br>
+_v0.8.8_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
