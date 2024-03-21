@@ -5,7 +5,7 @@ description: A wilderness hexcrawl adventure
 tags: hexcrawl, hexy, adventure
 ---
 
-**The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, a place to "throw our trash". Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
+**The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, _"a place to throw our trash"_. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
 
 With these pillars of civilization established, the Southern Coast has begun to attract adventurous individuals seeking to make it their home.
 
@@ -18,9 +18,9 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 ### HOOKS
 
 1. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle Mistwood, was _busting_ with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness has come forth, swearing that it's The Crown's Fury.
+1. The Crown's Fury, a ship lost in the Battle Mistwood, was _busting_ with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.
-1. An infamous game hunter, and friend to the Northern Kings, will pay big for help finding/tracking/killing a wendigo.
+1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
 1. The PCs are escorting a prisoner to the Prison of Mon
 1. A Duke's son found a treasure map leading to the Isle of Wight and has not been heard from for a week.
 
@@ -29,7 +29,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane is built atop an ancient city just _busting_ with treasure.
+1. Yagul Fane is built atop an ancient city with unimaginable treasure.
 1. Have you ever known purveyors of magic and religion to get along? There's tension there... count on it.
 1. Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.
 1. Follow lights in the mountains to your peril.
@@ -42,7 +42,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (Queen, Grandparent, Peevish), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings... yet.
 
@@ -278,7 +278,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.8.8_ by brine <br>
+_v0.8.9_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
