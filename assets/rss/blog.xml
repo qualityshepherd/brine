@@ -5,90 +5,865 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 23 Mar 2024 21:17:05 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 23 Mar 2024 21:37:36 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
-    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
-    <title>A Confession</title>
-    <link>https://brine.dev/#post?s=_a_confession</link>
-    <guid>https://brine.dev/#post?s=_a_confession</guid>
-    <description><![CDATA[<p>Author: Brother Malachi</p>
-<p>Here in the dar</p>
-<p>In the hallowed halls of the temple, where the flickering candlelight casts shadows upon ancient tomes and sacred relics, I, Brother Rhys, a humble servant of the divine, find myself reflecting upon the mystical arts that permeate our world. As a young priest, entrusted with the spiritual guidance of my congregation, I have long pondered the nature of magic and its practitioners—magi and witches alike—and how their abilities compare to my own.</p>
-<p>First, let us consider the magi, wielders of arcane knowledge and masters of manipulation. With their spells and enchantments, they command the elements themselves, bending reality to their will with a mere flick of the wrist. Theirs is a power born of intellect and study, honed through years of rigorous training and discipline. From the conjuring of fire to the summoning of storms, the magi's repertoire knows no bounds, limited only by the depths of their imagination and the constraints of the natural world.</p>
-<p>And then there are the witches, beings of ethereal grace and enigmatic allure, whose magic flows from the very essence of their being. Born of the union between fae and human, they possess a deep connection to the natural world, communing with spirits and channeling energies beyond mortal comprehension. With their spells of healing and transformation, they weave enchantments that blur the boundaries between the mundane and the mystical, weaving threads of magic into the tapestry of existence itself.</p>
-<p>In comparison, the abilities of a priest may seem humble by comparison, yet they are no less profound in their impact upon the world. Our magic, if it can be called such, is rooted not in arcane formulas or innate talent, but in faith and devotion to a higher power. Through prayer and ritual, we invoke divine blessings and guidance, offering solace to the afflicted and strength to the weary. Our spells are not cast with incantations or gestures, but with words of comfort and acts of compassion, imbued with the light of divine grace.</p>
-<p>Indeed, while the magi may wield fire and lightning, and the witches may shape-shift and commune with nature, the power of a priest lies in the ability to inspire hope, foster healing, and bring comfort to those in need. It is a power born not of earthly knowledge or fae ancestry, but of a profound belief in the inherent goodness of humanity and the guiding hand of the divine.</p>
-<p>As I gaze out upon the world, with its wonders and its mysteries, I am reminded that each path to magic is unique, and that true power lies not in the spells we cast or the abilities we possess, but in the kindness and compassion we show to others. And so, as a young priest, I pledge to continue my journey with faith and humility, seeking to embody the virtues of love and service that lie at the heart of my calling.</p>]]></description>
+    <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
+    <title>2023 - A Gaming Year in Review</title>
+    <link>https://brine.dev/#post?s=2023_a_gaming_year_in_review</link>
+    <guid>https://brine.dev/#post?s=2023_a_gaming_year_in_review</guid>
+    <description><![CDATA[<p>With 2023 in the rear-view, I began to reflect on the year from a gaming perspective. It turns out there are a number of things worthy of a shout-out!</p>
+<h3 id="1playinggames">1. Playing Games</h3>
+<p>I am a forever GM. I have run way more games than I've played. In 2023 that changed and I found myself playing a LOT more. It really opened my mind to various games and play-styles, and helped hone what I want in a game. This was definitely the biggest revelation and the reason for the rest of the list. If I was going to list a new year's resolution, it would have to be to just play more games. Here's hoping!</p>
+<h3 id="2newgames">2. New Games</h3>
+<p>The <del>game</del> toolset of the year for me was <a href="https://wightbred.itch.io/named-toolkit">Named</a>. I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--<code>Names</code>. While similar to tags, for my money, they add more juice. I see them as things people call your character… or whisper behind their back. This is a small but important distinction; YMMV.</p>
+<p>More interesting still is how Named handles advancement through <code>Reflections</code>. At the end of a session, the table talks about what each character did in the game. Did they earn a new Name? Did a name not fit or need changing? It's easily the best advancement system I've ever seen… and now it's mine; MINE! :D</p>
+<p>I was fortunate to get the full hat-trick with Named. I played it, <a href="https://playworldspodcast.com/#tags?t=skypirates-of-jotnaar">podcasted it</a> and contributed to a setting for it: <a href="https://wightbred.itch.io/skypirates-of-jotnaar">Skypirates of Jotnaar</a> (that is REALLY cool if I do say so myself).</p>
+<p>Honorable mention for Dr. Paul's <a href="https://www.lulu.com/shop/paul-jennings-and-kitty-hiraeth/palaeolithic-voyages/paperback/product-kpmy8y.html">Palaeolithic Voyages</a>. You can keep your +1 swords; just gimme a good rock and some flint! I really wanna play more of this system.</p>
+<h3 id="3newgenre">3. New Genre</h3>
+<p>I played my first game of Delta Green. For whatever reason, I'm not drawn to Cthulhu games but I  dig Delta Green. It comes down to the twist: characters are not trying to solve a mystery; they are trying to stop/contain/suppress/clean up a problem. More MIB or X-Files than straight Lovecraftian cosmic horror. Really fun game.</p>
+<p>I look forward to reflecting on 2024!</p>]]></description>
   </item>
   <item>
-    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
-    <title>Glimmerwood Forest</title>
-    <link>https://brine.dev/#post?s=_glimmerwood_forest</link>
-    <guid>https://brine.dev/#post?s=_glimmerwood_forest</guid>
-    <description><![CDATA[<p><img src="assets/images/whipping_tree.webp" alt="round" /></p>
-<p><em>v1.0</em></p>
+    <pubDate>Sun, 02 May 2021 12:01:00 GMT</pubDate>
+    <title>A Magic System</title>
+    <link>https://brine.dev/#post?s=a_magic_system</link>
+    <guid>https://brine.dev/#post?s=a_magic_system</guid>
+    <description><![CDATA[<p><em>v 1.6</em></p>
+<blockquote>
+  <p>The door to magic is closed for most; some few may find it ajar; <em>fewer still</em> may pick the door's lock altogether. Aptitude for the craft is is not unusual but is often misinterpreted. Great magic requires <em>constant practice</em>. The best magi are not always the most gifted; just <em>persistent</em>.</p>
+  <p><strong>Magic is dangerous</strong>; spells go poorly and the consequences can be… severe.</p>
+</blockquote>
+<p><break></p>
+<h3 id="mechanics">Mechanics</h3>
+<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
+<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
+<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
+<p>When you level up, you may swap mastered spells for new ones.</p>
+<h3 id="scrolls">Scrolls</h3>
+<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
+<p>It is wise to identify a spell before casting it!</p>
+<h3 id="enhancements">Enhancements</h3>
+<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
+<h3 id="mishaps">Mishaps</h3>
+<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
+<p>An example mishap table:</p>
+<ol>
+<li>the target reflects the spell back at caster</li>
+<li>1d6 damage to the caster</li>
+<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
+<li>the spell affects the party in some way (depending on the spell)</li>
+<li>the caster turns blue</li>
+<li>nothing happens… <em>lucky</em></li>
+</ol>
+<h3 id="addendum">Addendum</h3>
+<p>Presented as an alternate/additional magic system for <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>.</p>
+<p>I have a <a href="/#spells">growing list of spells</a> and/or allow players to create their own.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 01 Oct 2023 12:01:00 GMT</pubDate>
+    <title>A TTRPG Manifesto</title>
+    <link>https://brine.dev/#post?s=a_ttrpg_manifesto</link>
+    <guid>https://brine.dev/#post?s=a_ttrpg_manifesto</guid>
+    <description><![CDATA[<p>We are exploring different approaches to TTRPGs. Through play we have come to value:</p>
 <ul>
-<li>prison of dangerous books</li>
-<li>cult is praying for weather change but god is not listening… PRAY HARDER</li>
-<li>the druid is sleeping in the grove somewhere/how</li>
+<li>A shared understanding of a world over rules</li>
+<li>Table trust over systems</li>
+<li>Immersion over character sheets</li>
+<li>Conversation and negotiation over procedures</li>
 </ul>
-<p><a href="assets/images/glimmerwood_forest_map.webp"><img src="assets/images/glimmerwood_forest_map.webp" alt="thumb" /></a>
-Glimmerwood Forest is a popular shortcut for those without fear of the forest. It can halve travel time between Emberford (<code>0709</code>) and the northern villages. The increase in traffic has also increased the population.</p>
-<p>But thunderstorms ravage Glimmerwood Forest. These storms target only the forest, leaving the surrounding areas dry and peaceful. Paths made treacherous by the rains impede travel and hunting. Those who try report seeing ghastly apparitions.</p>
-<p>In the heart of the forest, words cut into an ancient, gnarled tree; a spell. Is this the reason for the storms or solution to them?</p>
-<h3 id="rumors">RUMORS</h3>
-<ol>
-<li><strong>The Whipping Tree</strong> (<code>0502</code>) carries the blood of those punished upon it. It whispers when the storms rage; casting the spell cut into it.</li>
-<li>That witch and her filthy coven are behind these storms.</li>
-<li><strong>The Green Lady</strong> is a beautiful, green temptress. She stalks the forest, "calling" to the hunters.</li>
-<li>Cloaked figures perform rituals in the <strong>Lost Druid's Grove</strong> (<code>0902</code>); deep within Glimmerwood. The grove was once home to a powerful druid who vanished centuries ago.</li>
-<li>Paths in Glimmerwood are said to shift and change directions, leading wanderers into the heart of the forest.</li>
-<li><strong>The Ghost Herd</strong> is a spectral herd of elk that roams Glimmerwood.</li>
-</ol>
-<h3 id="encounters">ENCOUNTERS</h3>
-<ol>
-<li>A mudslide threatens to envelope the PCs</li>
-<li>The Ghost Herd threatens to trample the PCs</li>
-<li>A distressed hunter stuck in quicksand</li>
-<li>Unearthed graves; disturbed by the rains</li>
-<li>Apparitions haunt the PCs until their graves are restored</li>
-<li>The Green Lady calls to the PCs</li>
-</ol>
-<h3 id="notables">NOTABLES</h3>
-<p><strong>George & Astrid Duskwood</strong> <code>Innkeepers, Silversmith, Ambitious</code> - George is a retired silversmith. His new bride Astrid and her son are building the first inn in the area; the first permanent structure of any kind(<code>0608</code>). They are hoping to establish a village here. The rains are delaying most of their shipments.</p>
-<p><strong>Ceridwen</strong> <code>Cartographer, Woodworker, Big Thinker</code> - She carefully maps the forest, intending to sell them to a logging enterprise in Emberford. While she waits out the storms in her tent, she carves intricate wooden figures. She's currently working a piece she took from the Whipping Tree.</p>
-<p><strong>Rowan Bramblethorn</strong> <code>Hunter, Worthy, Determined</code> - He lives in the forest and will be helpful to those who show respect. He is close with Nyx, or at least thinks so.</p>
-<p><strong>Kelsia</strong> <code>Trapper, Mentor, Materialistic</code> - She is only a threat to forest furbearers, and takes great pride in <em>the artistry</em> of trapping. She travels with her nephew, Orion, teaching him the trade. She is careful to leave "offerings" outside Witch Ailmar's desolate brugh.</p>
-<p><strong>The Witch Ailmar</strong> <code>Witch, Herbalist, Untrustworthy</code> - Despite her dubious practices, Ailmar is an unparalleled herbalist. Many seek her remedies and potions, but are quick to blame her for the unwelcome truths they uncover. She sees the forest as an exploitable resource and enjoys its solitude.</p>
-<p><strong>Nyx</strong> <code>The Green Lady, Dryad, Guardian</code> - She knows the coming of men is inevitable but resits their impact on the forest as best she can. While Nyx did not create the tree's spell, she knows it as a spell to "Wash Away Sins". She believes it maintains balance in the forest and will not interfere with it in any way.</p>
-<h3 id="locations">LOCATIONS</h3>
-<p><strong>Glimmerwood Forest:</strong> A dense and ancient woodland, shrouded in mist. Towering trees with twisted branches create a canopy, casting ethereal shadows on the lush forest floor. The air crackles with a mysterious energy, and the occasional flash of magical storms illuminates the surroundings.</p>
-<p><strong>The Whipping Tree (<code>0502</code>):</strong> A gnarled and imposing tree with dark bark, standing alone in a small clearing. Faint echoes of past punishments linger in the air, and the tree seems to whisper when the storms rage, hinting at a dark and forbidden history.</p>
-<p><strong>Lost Druid's Grove (<code>0902</code>):</strong> A hidden grove deep within Glimmerwood, filled with ancient stone circles and remnants of long-forgotten rituals. Cloaked figures perform mysterious ceremonies, their actions obscured by the shadows of the ancient trees.</p>
-<p><strong>Inn of George & Astrid Duskwood (<code>0608</code>):</strong> A modest yet welcoming inn under construction at the edge of the forest. The sound of hammers and saws echoes as George and Astrid Duskwood strive to establish the first building in the area. The rains delay shipments, leaving the inn in partial completion.</p>
-<p><strong>The Green Lady's Domain:</strong> A secluded part of the forest where vibrant greenery flourishes. Nyx, the Dryad known as The Green Lady, resides here. The air is filled with the sweet scent of blossoms, and the energy feels both calming and protective. She can control the Ghost Herd</p>
-<p><strong>Witch Ailmar's Desolate Brugh:</strong> A mysterious and somewhat eerie dwelling nestled in the heart of Glimmerwood. The witch, Ailmar, resides here. The surroundings are adorned with various herbs and potions, and an air of untrustworthiness permeates the atmosphere.</p>
-<p><em>map by <a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">Watabou</a></em></p>]]></description>
+<p>That is, while there is value in the elements on the right, we value the elements on the left more.</p>]]></description>
   </item>
   <item>
-    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
-    <title>A Necromancer</title>
-    <link>https://brine.dev/#post?s=_necromancer</link>
-    <guid>https://brine.dev/#post?s=_necromancer</guid>
-    <description><![CDATA[<p>## Nekros Manteia</p>
-<p>Like most Necromancers, Indis Fane came to the craft by happenstance. Or at least, she imagines this to be the case. Her teacher did hint that he too fell upon the path; changing the subject to all follow up questions. Practitioners, understandably, are not chatty folk. Then tend to mimic their subjects in this way. Might she be the last? Her heart is neither coal nor gold. She deals in death because it is within her power. Like any gifted person might, she takes pride in perfecting her skill. She catches herself adding flourishes in her movements; theatrics without audience. <em>Why do I do that?</em></p>
-<p>Indis hales from Duskby. She is the reason for the poor harvest. She required the life force of a copse of white oak… she underestimated the reach of their taproots; the resulting blight was unintended.</p>
-<p>An aging wealthy merchant hired Indis to extend his life. Not understanding the dangers that messing with the balance of nature, she thought the trees wouldn't be missed. The blight brought a poor harvest and Duskby is hungry. The people are keen to blame and Indis is definitely on the list. It also called the attention of a dryad who looks for retribution. Meanwhile, the merchant is making shittons of money but importing foods.</p>
-<h2 id="tablesscenes">TABLES (scenes)</h2>
-<p><strong>The Hungry Mob</strong></p>
+    <pubDate>Thu, 12 May 2022 12:01:00 GMT</pubDate>
+    <title>Accidental FKR</title>
+    <link>https://brine.dev/#post?s=accidental_fkr</link>
+    <guid>https://brine.dev/#post?s=accidental_fkr</guid>
+    <description><![CDATA[<p>My game has been unintentionally <em>molting</em> toward <strong>FKR</strong>. It started before ever hearing the term. It just kinda happened and I continue to enjoy its inherent permission for further mutations.</p>
+<p>During a hiatus from D&amp;D 5E, I found myself reading other game systems; exploring their rules (or lack thereof) and ideas. Honestly, I hadn't put together that I wanted to run another system. I was just being curious. Bits and pieces of various systems started to click; most notably, <a href="https://dungeon-world.com">Dungeon World</a>.</p>
+<p>Hilariously, I've never run Dungeon World; nor do I have interest in doing so. I don't find it to be a particularly compelling game, but rather a fantastic GM reference! Just reading it changed the way I run games. It also illuminated my want of a different ruleset: something simpler; more inclusive. I didn't need to look very far (even if I did)… DW lead me right to <a href="https://johnharper.itch.io/world-of-dungeons">World of Dungeons (WoDu)</a>.</p>
+<p>There are a number of things in WoDu that changed my game forever (<code>2d6</code> &amp; <code>Die of Fate</code> come to mind) but in terms of FKR, it was <em>the holes</em>. <em>What do these Skills do? How do rituals work? Decipher?</em> The old GM in me would have thought: <em>"okay, I need to figure out all this shit before we play"</em>. But thanks to my exploration of other rulesets, I was able to give myself permission to put these questions to <em>my group</em>. My players really took to this inclusive approach to rule creation. It's very likely why we've been playing for so long (going on 3 years)! Lighter rules also lead to less character sheet-gazing and more creativity. I was hooked!</p>
+<p>Two years later, I published some of these <em>house rules</em> as <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>. But shortly thereafter, even BnB started feeling heavy to me. So with an inspiring nudge from <a href="https://jasontocci.itch.io/2400">2400</a>, I took another step and revamped them into their new, unfinished form: <a href="https://casadeocio.itch.io/1420-bnb">1420 Beasts & Barrows</a>. The most notable differences being the lack of stats and d6 dice pool skills. This new ruleset is currently peculating with my regular crew.</p>
+<p>For the record, I have no desire to debate what is/isn't FKR. I am not an authority; nor do I wish to be. I purposely refrained from explaining it or linking it to anything here. I prefer its definition to remain elusive and open. I find my game jives with the idea of FKR more than other rpg philosophies (for lack of a better term). YMMV.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 12 Sep 2021 12:01:00 GMT</pubDate>
+    <title>Beasts &amp; Barrows</title>
+    <link>https://brine.dev/#post?s=beasts_and_barrows</link>
+    <guid>https://brine.dev/#post?s=beasts_and_barrows</guid>
+    <description><![CDATA[<p>by <a href="https://brine.dev">brine</a> - <version><em>v 1.0</em></version></p>
+<p><strong>Beasts & Barrows</strong> is an uncomplicated fantasy role-playing game (RPG) for 2-5 players + Game Maestro (GM). It steals blatantly from John Harper's <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> and shares the same <a href="http://apocalypse-world.com/pbta">PbtA</a> core mechanic (<code>2d6</code>). <del>YOU ARE FORBIDDEN TO HACK THIS!</del></p>
+<p><strong>Beasts & Barrows (B&B)</strong> values:</p>
 <ul>
-<li><p>fear/mistrust Indis and will eventually turn on her</p></li>
-<li><p>envy and greed will lobby against the merchant and eventually take his shit and kill him</p></li>
-<li><p>will burn the forest to kill the dryad</p></li>
-<li><p>the dryad will curse Indis and/or the town (ie. FUCKING HUMANS)</p></li>
-<li><p>skeletons (raised by Indis for protection)</p></li>
-<li><p>zombies</p></li>
+<li><strong>role-play:</strong> rules and mechanics emphasize and encourage role-play</li>
+<li><strong>simplicity:</strong> less math; less rules; more fun</li>
+<li><strong>show, don't tell:</strong> don't <em>tell</em> me your alignment… <em>show</em> me your alignment; don't <em>tell</em> me you attack; <em>describe</em> your attack</li>
+<li><strong>flexibility:</strong> running existing adventures from <em>any</em> system is trivial</li>
+</ul>
+<p><break></p>
+<div class="pagebreak"></div>
+<h3 id="charactercreation">Character Creation</h3>
+<p><strong>What kind of character sounds fun to play?</strong> Rolling a new character takes <em>ones of minutes</em>. This question will likely take the longest to answer. Here are some classic examples but you are free to create your own:</p>
+<ul>
+<li><strong>Warrior:</strong> strong and good with the stabby stab</li>
+<li><strong>Thief:</strong> nimble and sneaky sneaksters</li>
+<li><strong>Mage:</strong> smart and full of arcaney goodness</li>
+<li><strong>Priest:</strong> wise and has a direct line to the gods</li>
+</ul>
+<blockquote>
+  <p>Outside of the <em>classic classes</em>, players are encouraged to create their own by making clever use of the existing <code>Skills and Abilities</code>. For example an <strong>Alchemist</strong> might require <code>Lore</code> and create their potions via <code>Rituals</code>?</p>
+</blockquote>
+<p><strong>What race is your character?</strong> Human? Elf? Orc? While there are no statistical bonuses for race, they can add flavor to a character through role-play.</p>
+<blockquote>
+  <p>The <em>exception that proves the rule</em>: GMs may allow PCs to have <code>darkvision</code> or an additional <code>language</code>, provided the player offers sound reasoning to do so.</p>
+</blockquote>
+<p><strong>What <code>Attributes</code> does your character have?</strong> Roll <code>2d6</code> for each of the following six character <code>Attributes</code> and assign the results in any order you wish.</p>
+<ul>
+<li><strong>strength (<code>str</code>):</strong> for melee attacks; climbing; lifting</li>
+<li><strong>dexterity (<code>dex</code>):</strong> for ranged attacks; stealth; dodging</li>
+<li><strong>intelligence (<code>int</code>):</strong> for casting mage spells; memory; deduction</li>
+<li><strong>wisdom (<code>wis</code>):</strong> for casting cleric spells; perception; searching</li>
+<li><strong>charisma (<code>cha</code>):</strong> for persuasion; deception; intimidation</li>
+<li><strong>constitution (<code>con</code>):</strong> for additional HD; physical fortitude; resist poisons;</li>
+</ul>
+<p>On a:</p>
+<ul>
+<li><strong>2</strong> the value is -1</li>
+<li><strong>3-6</strong> the value is 0</li>
+<li><strong>7-9</strong> the value is +1</li>
+<li><strong>10-11</strong>, the value is +2</li>
+<li><strong>12</strong>, the value is +3.</li>
+</ul>
+<blockquote>
+  <p>Note: <strong>B&B</strong> only makes use of <strong>modifiers</strong> (eg. <code>+2</code>); not the number rolled.</p>
+</blockquote>
+<p><strong>Choose two <code>Skills</code> and two <code>Abilities</code>:</strong></p>
+<h4 id="skills">Skills</h4>
+<p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing), they roll <em>advantage</em> (<code>3d6</code> keeping the highest 2) <code>+ mod</code>.</p>
+<ul>
+<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
+<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
+<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
+<li><strong>Decipher:</strong> <code>+int</code>: attempt to discern patterns in texts, symbols or numbers</li>
+<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>Hit Die (HD)</code> to the party when resting/rolling <code>Hit Points (HP)</code>; heal <code>1d6+level HP</code> with your touch.</li>
+<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
+<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
+<li><strong>Survival:</strong> <code>+con/wis</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
+<li><strong>Sway:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
+</ul>
+<h4 id="abilities">Abilities</h4>
+<p>Add additional flavor to a class. The word <em>attempt</em> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
+<ul>
+<li><strong>Backstab:</strong> +3 damage from concealment</li>
+<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
+<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells at will</li>
+<li><strong><a href="http://lvh.me:4242/#spells">Cast</a>:</strong> cast level-less magical spells (see <code>Magic</code>)</li>
+<li><strong>Connected:</strong> you seem to have an acquaintance in every town</li>
+<li><strong>Hardy:</strong> +6 <code>HP</code></li>
+<li><strong>Linguist:</strong> you are fluent in all civilized languages</li>
+<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
+<li><strong>Penitent:</strong> when you take damage and embrace the pain, take advantage on your next roll</li>
+<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
+<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
+<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
+<li><strong>Scout:</strong> with you on point, your party covers more ground; you always spot targets before they spot you</li>
+<li><strong>Shield:</strong> when you wear no armor or shield, your faith protects you and grants you 2 armor</li>
+<li><strong>Shift:</strong> take the shape of an animal whose blood you've tasted (successful <code>con</code> roll to revert)</li>
+<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
+<li><strong>Slay:</strong> +2 melee damage</li>
+<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
+<li><strong>Tough:</strong> +1 armor</li>
+<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
+<li><strong>Versed:</strong> you share secret signs, speech and signals with your brethren</li>
+<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
+<li><strong>Volley:</strong> +2 ranged damage</li>
+<li><strong>Wild:</strong> converse with and attempt to command animals</li>
+</ul>
+<p><strong>Can your character take a hit?</strong> You start with 1 Hit Die (<code>d6</code>) + additional hit dice equal to your <code>con</code>. <strong>Roll all your hit dice and keep a number equal to your level</strong> to determine your <code>HP</code>. For example, a 1st level PC with +1 con would roll <code>2d6</code> and keep the higher of the two.</p>
+<p>When you rest in <code>comfort and safety</code>, and consume food/drink, you may reroll your <code>HP</code>. This is the amount of damage you can suffer before you take your <code>Last Breath</code>. You add additional hit dice if you: are attended by a healer; rest in a spiritual place.</p>
+<blockquote>
+  <p>A player may choose to reroll <code>HP</code> and find their PC now has <em>less</em> <code>HP</code>. We all have bad days. Are they sick? Did they stay up drinking all night?</p>
+</blockquote>
+<div class="pagebreak"></div>
+<h3 id="magic">Magic</h3>
+<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
+<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
+<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
+<blockquote>
+  <p>Each time you level up, you may swap mastered spells for new ones.</p>
+</blockquote>
+<h4 id="scrolls">Scrolls</h4>
+<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
+<blockquote>
+  <p>It is wise to identify a spell before casting it!</p>
+</blockquote>
+<h4 id="enhancements">Enhancements</h4>
+<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
+<h4 id="mishaps">Mishaps</h4>
+<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
+<p>An example mishap table:</p>
+<ol>
+<li>the target reflects the spell back at caster</li>
+<li><code>1d6+lvl</code> damage to the caster</li>
+<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
+<li>the spell affects the party in some way (depending on the spell)</li>
+<li>the caster turns blue</li>
+<li>nothing happens… <em>lucky you!</em></li>
+</ol>
+<h3 id="playingthegame">Playing the Game</h3>
+<p><strong>Narrate your character's actions</strong>. Eg. instead of saying: <em>I attack with my sword</em>; say things like: <em>with my sword drawn; stained with the blood and entrails of the orc at my feet; I charge the last remaining orc, smiting it with both hands and all the might left in me</em>… _or something less dramatic :) . Don't _say_ you do a thing; <em>describe</em> how you do a thing.</p>
+<p><strong>Not all actions require a roll</strong>. Say what your character does and the GM will handle the rest.</p>
+<p><strong>When you attempt something risky</strong>, sum <code>2d6</code> and add one of your skill modifiers, based on the action you’re taking. (The GM will tell you some of the possible consequences before you roll, so you can decide if it’s worth the risk or if you want to revise your action).</p>
+<ul>
+<li><strong>2(snake eyes) is a critical failure</strong>: shit hits the fan.</li>
+<li><strong>3-6 is a miss</strong>: things don’t go well and the risk turns out badly.</li>
+<li><strong>7-9 is a partial success</strong>: you do it but at a cost, compromise, retribution, retaliation, harm, etc.</li>
+<li><strong>10-11 is a full success</strong>: you do it without complications.</li>
+<li><strong>12 (boxcars) is a critical success</strong>: you do it perfectly to some extra benefit.</li>
+</ul>
+<blockquote>
+  <p>A miss or a partial success might incur an enemy attack; damage; an additional threat; a lost item/resource/opportunity; a disadvantage; an unwelcome truth. They add to the role-play and can amp up the tension in a scene.</p>
+</blockquote>
+<h4 id="dieoffate">Die of Fate</h4>
+<p><strong>Sometimes the GM will roll the <code>die of fate</code> to see how a situation unfolds</strong>. Low numbers are ill-fortune; high numbers are good fortune. The die of fate might be rolled to establish the weather, indicate a random NPC’s general attitude, to determine if a wandering monster appears, or the moral of a monster. The GM may also roll the die of fate if the PCs take some action for which sheer chance is the only factor in the outcome. <strong>You will roll this often!</strong></p>
+<div class="pagebreak"></div>
+<h3 id="gear">Gear</h3>
+<p><strong>You have <code>12+con</code> inventory slots</strong>. Items you can hold in one hand take one slot; items that might require two hands to hold take two slots. One slot examples: worn armor/clothes (two slots if carried); a few daggers; a bag containing 250 coins. Two slot examples: martial/great weapons; large shields; animal trap; wine casks. When carrying more items than you have slots, you are <code>encumbered</code> (disadvantage on rolls involving physicality).</p>
+<blockquote>
+  <p>Inventory slots are meant to be more <em>concept than rule</em>. The intent is to remind players of the <em>useful</em> items their PCs are carrying, while providing a reasonable amount they are <em>able</em> to carry.</p>
+</blockquote>
+<p><strong>You start with <code>2d6*10</code> silver coins…</strong></p>
+<ul>
+<li><strong>Light Weapon</strong> (10s): <code>d6</code>. May be wielded as a secondary weapon, <em>allowing you to reroll damage once per attack</em>. Includes daggers, short swords, and hand axes.</li>
+<li><strong>Martial Weapon</strong> (30s): <code>d6+1</code>. Must be wielded in main hand. Includes long swords, hammers, axes, spears etc.</li>
+<li><strong>Great Weapon</strong> (40s): <code>d6+2</code> damage. Uses two hands. Includes two-handed swords, battle-axes and pole arms.</li>
+<li><strong>Shortbow</strong> (10s): d6. Also slings etc.</li>
+<li><strong>Bow</strong> (30s): <code>d6+1</code>. Also crossbows, pistols etc.</li>
+<li><strong>Heavy Bow/Gun</strong> (50s): <code>d6+2</code> Damage if firing from a <em>stationary position</em>. Includes crossbows and muskets.</li>
+<li><strong>Light Armor</strong> (30s): Armor 1 (subtracted from damage taken).</li>
+<li><strong>Full Armor</strong> (60s): Armor 2. Always has a helm. Makes it very hard to run, move quietly, swim, leap etc.</li>
+<li><strong>Shield</strong> (10s): +1 Armor.</li>
+<li><strong>Backpack</strong> (2s): Can hold 12 items up to 40lbs.</li>
+<li><strong>Adventuring Gear</strong> (2s each): 20ft Rope, Iron Spike, Chalk, Parchment, Flint/Steel, Torches (4), Tent, Dice, Caltrops (slows pursuers), Bandages, Travel Rations, Waterskin, Wineskin.</li>
+<li><strong>Tools</strong> (5s each): Crowbar, Hatchet, Animal Trap, Lockpicks, Pen &amp; Pot of Ink, Fishing Pole, Shovel, Grappling Hook, Pickaxe, Collapsible Pole.</li>
+<li><strong>Occult Items</strong> (10s each): Quicksilver (per dose), Pouch of Bone Dust, Vial of Holy Water (one use), Vial of Blood, Ritual Incense and Oils.</li>
+<li><strong>Fancy Items</strong> (20s each): Mirror, Lantern, Spyglass, Sand Timer, Board Game, Elaborate Clothes, Holy Symbols and other charms.</li>
+<li><strong>Fire Oil</strong> (20s per flask): Sets an area on fire (<code>d6+1</code> damage/round for 3 rounds unless extinguished). Fills a lantern 10 times.</li>
+<li><strong>Boats:</strong> Rowboat (50s) to Galley (200,000s).</li>
+<li><strong>Carts:</strong> Cart (30s) to Wagon (100s).</li>
+<li><strong>Taverns:</strong> 1s to Sleep, 1s to Eat, 1s to Get Drunk.</li>
+<li><strong>Property:</strong> House (1,000s) to Manor (100,000).</li>
+<li><strong>Horses:</strong> Mule (30s), Horse (100s), Warhorse (1,000s).</li>
+</ul>
+<h3 id="hirelings">Hirelings</h3>
+<p>Cost per day</p>
+<ul>
+<li><strong>Torch Bearer</strong> (2s): 3HP, Knife.</li>
+<li><strong>Guide</strong> (5s): 6HP, Knife, Lantern, Rope.</li>
+<li><strong>Armsman</strong> (20s): 12HP, Spear, Shield, Light Armor.</li>
+<li><strong>Expert</strong> (20s): 6HP, Skill 4, Dagger, Bow.</li>
+<li><strong>Champion</strong> (60s): 18HP, Full Armor, Halberd, Sword, Shield, Dagger.</li>
+</ul>
+<h3 id="levels">Levels</h3>
+<p><em>As you level up you get rewards according to the table below…</em></p>
+<table>
+<thead>
+<tr>
+<th id="level" style="text-align:center;">level</th>
+<th id="hd" style="text-align:center;">hd</th>
+<th id="skills" style="text-align:center;">skills</th>
+<th id="attributes" style="text-align:center;">attributes</th>
+<th id="abils" style="text-align:center;">abils</th>
+<th id="damage" style="text-align:center;">damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1+con</td>
+<td style="text-align:center;">1+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">4</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">5</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
+</tr>
+<tr>
+<td style="text-align:center;">6</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">7</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">8</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">9</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td style="text-align:center;">10</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B&B</strong> uses <strong>Milestones</strong> to measure a player character's development. The GM sets a goal(s) for the PCs to accomplish before they can reach the next level. Each level should be twice as hard to achieve (give or take). Milestones might include:</p>
+<ul>
+<li>merely surviving their first encounter</li>
+<li>obtaining a MacGuffin</li>
+<li>completing a quest</li>
+<li>defeating a boss</li>
+<li>failures… always a formidable teacher</li>
+</ul>
+<h3 id="lastbreath">Last Breath</h3>
+<p>When a PC's <code>HP</code> drops to 0, they must roll <code>2d6+con</code>:</p>
+<p>On a:</p>
+<ul>
+<li><strong>6-</strong>: you're dead; roll a new character :rip:</li>
+<li><strong>7-9:</strong> you will meet <strong>Death</strong> and bargain for your life. SPOILER: <em>Death can be a dick!</em></li>
+<li><strong>10+:</strong> you feel like hammered shit… but you're alive</li>
+</ul>
+<h3 id="truenames">True Names</h3>
+<p>True names have power; knowing a true name gives you power over <em>the named</em>. Calling to someone by their <code>True Name</code> gives them advantage on <code>Last Breath</code> rolls.</p>
+<div class="pagebreak"></div>
+<h3 id="gms">GMs</h3>
+<p>The following are friendly suggestions for GMing <strong>B&B</strong>. As always, do what's right for you or your players.</p>
+<ul>
+<li><strong>Initiative:</strong> The coolest part of <code>Initiative</code>… is saying <strong>roll initiative!</strong> Given a group of reasonable size (2-5 PCs), <em>cinematic jump cuts</em> (camera-like jumps between players/situations; that follow the narrative) are a great alternative. It also works well with a split party.</li>
+<li><strong>Splitting the Party:</strong> ALWAYS split the party. It's a hoot.</li>
+<li><strong>Balancing Encounters:</strong> Don't do it! PCs should be smart enough to know when they're outmatched. If not, there's always <code>Last Breath</code>. Outside of that, rolling new characters is a snap in <strong>B&B</strong> :)</li>
+<li><strong>Magic Items:</strong> resist issuing +1 <em>to hit</em> items; rather give +1 to damage or something more situational</li>
+</ul>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 04 Jul 2021 12:01:00 GMT</pubDate>
+    <title>Black Jenny and her Gang of Miscreant Sons</title>
+    <link>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</link>
+    <guid>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</guid>
+    <description><![CDATA[<p>I like to weave pre-written modules into my campaigns (parts of them, anyway). The different tones and ideas keep my players guessing and oftentimes end up becoming part of our lore. Case in point: when I threw <a href="http://dungeonofsigns.blogspot.com/2012/08/prison-of-hated-pretender-pdf.html">Prison of the Hated Pretender</a> into my longrunning campaign. I had previously run it as a one-shot when one of my players was unavailable. It ended in a TPK 🙄.</p>
+<p><break></p>
+<p>Being the benevolent GM that I am, I decided to bring my campaign party back to this setting and witness their one-shot character's dead, broken bodies. They also found out that the Pretender… HAS ESCAPED! In search of his crown, he immediately sought out… <em>Black Jenny</em>.</p>
+<p><strong>The Hated Pretender and Black Jenny are now NPCs in my world.</strong> From the module, we know Jenny's name; the name of her gang, and that she stole the crown of the Hated Pretender. Thus, I had to flesh her out a bit. This is what I came up with…</p>
+<h3 id="thegang">The Gang</h3>
+<p>Jenny's "sons" are neither boys nor related to her by blood. Street urchins with promise; she recruits them, trains them and puts them to work. All mentions of her <em>Miscreant Sons</em> are met with a collective groan from the girls. It is safer to pose as <em>sons than daughters</em>; so they look the other way… <em>but hate it</em>.</p>
+<ul>
+<li><p><strong>Black Jenny</strong> - <em>road agent</em></p>
+<blockquote>
+  <p><code>hd5(+2con); ac+2; at2d6(+2dex/0str): 2d6(+1 daggers)</code></p>
+  <p>She has dark hair and black leather armor. A string of onyx gemstones around her neck. She wants to retire… in a <em>black tower</em>.</p>
+</blockquote></li>
+<li><p><strong>Natty</strong> - <em>thief</em></p>
+<blockquote>
+  <p><code>hd3; ac0; at1d6(+2dex/0str): 1d6(bow +1/daggers); lock picks/backstab;</code></p>
+  <p>The oldest of the girls at 14, it's getting more and more difficult to play the role of a "son". She wears her long, red hair in a <em>boys style</em>; frumpy clothes and is quick to pick a pocket.</p>
+</blockquote></li>
+<li><p><strong>Lunara</strong> - <em>alchemist</em></p>
+<blockquote>
+  <p><code>hd3; ac0; at1d6: 1d6(+1 pistols/darts); ritual/lore</code></p>
+  <p>She sports a blonde bowl cut and a tunic with multiple burn marks. Through rituals, she is able to concoct healing potions, gunpowder and an <em>exploding</em> paralysis potion. She wears a leather satchel full of glass vials.</p>
+</blockquote></li>
+<li><p><strong>Peregrine</strong> - <em>ranger</em></p>
+<blockquote>
+  <p><code>hd3(+2con); ac0; at1d6(+1str): bite/claws;</code></p>
+  <p>She is a <em>skin-walker</em> and can shapeshift into a falcon. She has a number of tattoos and spiked, dark hair. She always attacks in falcon form.</p>
+</blockquote></li>
+</ul>
+<h3 id="tactics">Tactics</h3>
+<p>The gang will attempt to get an edge by having <strong>Peregrine</strong> drop a paralysis vial on targets. Those that remain moving will get the same potion via a dart from <strong>Lunara</strong>. Otherwise, they will turn to <strong>Natty's</strong> stealth or ability to <em>obtain</em> things…</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Wed, 16 Feb 2022 13:01:00 GMT</pubDate>
+    <title>D66 Spark Table Generator</title>
+    <link>https://brine.dev/#post?s=d66_spark_table_generator</link>
+    <guid>https://brine.dev/#post?s=d66_spark_table_generator</guid>
+    <description><![CDATA[<p>I've been playing around with <strong>spark tables</strong>; a concept taken from <a href="https://www.bastionland.com">Chris McDowall</a>. The concept is quite simple: given two numbered tables/lists of evocative words, roll on both, and use the words together to spark an idea.</p>
+<p>This is lovely… but I wanted to create tables specific to my games/worlds, and was struggling to come up with evocative words. THUS, <strong>a spark table to <em>generate</em> spark tables was born!</strong></p>
+<p><break></p>
+<h2 id="instructions">INSTRUCTIONS</h2>
+<ol>
+<li>Roll <code>2d6</code>: the die landing closest to you (real dice) or leftmost (dice bot) is the first digit (<code>10s</code>); the other die is the second digit (<code>1s</code>)</li>
+<li>If you roll doubles, roll again and use both results</li>
+<li>Use the result(s) to think of a <em>spark word</em></li>
+<li>Record each word on a similarly numbered d66 table (or as many as you want)</li>
+<li>If stuck, roll for another spark, or re-roll until you spark something</li>
+<li>Once you have your own spark tables, roll 2d6 on each and mash the two words together to generate ideas</li>
+</ol>
+<p><em>HINT: if using the doubles rule (#2), make sure those words are fairly generic as to mash well with others.</em></p>
+<h2 id="d66sparktablegenerator">D66 SPARK TABLE GENERATOR</h2>
+<pre><code>11 smell
+12 size/importance
+13 condition
+14 worth/merit
+15 atmospheric condition
+16 crop
+21 emotion
+22 object
+23 food
+24 profession
+25 sound
+26 feeling
+31 happy word
+32 liquid
+33 color
+34 constructed landmark
+35 natural landmark
+36 lifestyle quality
+41 made from
+42 meaning of life
+43 crime
+44 organization
+45 body shape/type/size
+46 element
+51 problem
+52 building
+53 scary word
+54 furniture
+55 group(ing)
+56 event
+61 attraction
+62 art
+63 economic issue/boon
+64 animal
+65 cloud description
+66 mystical
+</code></pre>
+<h2 id="examples">Examples</h2>
+<pre><code>11. spirit       pirates      head          fluffy
+12. roadrunner   orgy         mob           sugar
+13. drought      caustic      dance         egg
+14. soil         dungeon      bubbles       boom
+15. desk         festivities  poison        lake
+16. barrow       sulfur       table         bounty
+21. toxic        taco         luxury        rainbow
+22. kiva         perfume      brimstone     monastery
+23. thunder      scared       bounty-hunter guards
+24. library      blood        arroyo        bacon
+25. bridge       iron         chocolate     kidnap
+26. haze         badger       fire          missing
+31. hanging-tree dark         graveyard     runes
+32. tavern       dreams       vagrant       happy
+33. rascal       rumble       concert       sick
+34. temple       shadows      anger         mine
+35. burning      shaken       poor          meat
+36. crushed      cairn        brain         paper
+41. horn         frozen       gateway       balloons
+42. tower        pig          finger        copper
+43. mundane      joyful       theft         tattoo
+44. hunched      stretched    cat           alchemist
+45. cooks        ice          balmy         love
+46. vast         embezzlement explosion     famous
+51. law          statue       abandoned     relic
+52. gods         hate         destitute     inoperable
+53. expanding    kitten       atomic        skeletons
+54. peyote       ghostly      affluent      erupting
+55. shortage     grand        priest        fundraiser
+56. silver       lanky        hostile       victory
+61. crystal      numb         water         virtuous
+62. mill         fountain     music         drunk
+63. opulent      gold         infestation   glowing
+64. cult         broken       treasure      cave
+65. long         silk         blight        stable
+66. sunny        death        soft          birth
+</code></pre>]]></description>
+  </item>
+  <item>
+    <pubDate>Wed, 12 Jan 2022 13:01:00 GMT</pubDate>
+    <title>Delve of the Handsome Repeater</title>
+    <link>https://brine.dev/#post?s=delve_of_the_handosme_repeater</link>
+    <guid>https://brine.dev/#post?s=delve_of_the_handosme_repeater</guid>
+    <description><![CDATA[<p><a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater"><img src="assets/images/dothr-630x500.png" alt="center" /></a></p>
+<p>I like adventure modules. I especially like the newer ones… that are <em>actually</em> modular. Short, open-ended adventures that are trivial to drop into any campaign. Scanable; easy to grok. This is thankfully becoming the norm; fighting against the epic walls-of-text, and endless lore from modules of yore. This is what I want and what <em>I want to write</em>.</p>
+<p><break></p>
+<p>Thus, <a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater">Delve of the Handsome Repeater</a> was born. This is my <em>hat</em> tossed into the ring of an ever-growing list of newer adventures.</p>
+<p>To be honest: I find dungeons and dungeon crawls boring; mega dungeons <em>mega</em> boring. So it's only fitting that my first published module (more or less) should be a dungeon ¯_(ツ)_/¯. I hoped writing one would open my eyes to the GLORRY THAT IS DUNGEON CRAWLING! Spoiler… it didn't.</p>
+<p>Anyway, here it is. It was fun to write and fun to play… I hope others find it enjoyable.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Mon, 16 Jan 2023 13:01:00 GMT</pubDate>
+    <title>FKR</title>
+    <link>https://brine.dev/#post?s=fkr</link>
+    <guid>https://brine.dev/#post?s=fkr</guid>
+    <description><![CDATA[<p><strong>FKR</strong> (Free Kriegsspiel Roleplaying) is an approach to playing tabletop roleplaying games. Its popular catchphrase, <em>"play worlds not rules"</em> , is as reasonable as any catchphrase. Play requires the following:</p>
+<ol>
+<li>A shared understanding of a world.</li>
+<li>A Game Maestro trusted to represent "the world", and adjudicate player actions and their consequences.</li>
+<li>One or more players who control a character and play the world set before them.</li>
+<li>Play is a conversation. The GM describes a situation; the player describes what their character does. Outcomes are negotiated together and add to the emerging narrative.</li>
+</ol>
+<p>That's it. Everything else is a preference for accomplishing these requirements. Some considerations:</p>
+<ul>
+<li><strong>Rules</strong> tend to be <em>lite</em> but there is no "correct" amount. Rules should effectively be <em>"invisible"</em> and not hinder play.</li>
+<li>Roll <strong>dice</strong> when it makes sense or not at all.</li>
+<li>There are no FKR <strong>systems</strong>. Any system <em>might</em> be used in an FKR game. No system; a mashup of multiple systems; a coin flip… this is up to you and your table.</li>
+</ul>]]></description>
+  </item>
+  <item>
+    <pubDate>Sat, 08 Jul 2023 12:01:00 GMT</pubDate>
+    <title>How To Hexcrawl</title>
+    <link>https://brine.dev/#post?s=how_to_hexcrawl</link>
+    <guid>https://brine.dev/#post?s=how_to_hexcrawl</guid>
+    <description><![CDATA[<p><em>v1.1</em></p>
+<p>Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also <a href="https://casadeocio.itch.io/hexcrawls-rule">published a pdf</a></p>
+<h3 id="proceedures">PROCEEDURES</h3>
+<h4 id="morning">Morning</h4>
+<ol>
+<li>Roll weather</li>
+<li>Consume food/water</li>
+<li>Break or sustain camp</li>
+<li>Choose a travel direction and pace</li>
+<li>Roll navigation</li>
+</ol>
+<h4 id="day">Day</h4>
+<ol>
+<li>GM describes points of interest (POIs)/changing weather/terrain/landmarks…</li>
+<li>Roll random encounters once per hex</li>
+<li>Roll navigation on direction change</li>
+<li>Exploring or hunting takes 1/2 day travel time</li>
+<li>Foraging can be done en route when not on roads but requires a slowed pace</li>
+</ol>
+<h4 id="night">Night</h4>
+<ol>
+<li>Make camp</li>
+<li>Consume food/water</li>
+<li>Stand watch</li>
+<li>Roll encounter</li>
+</ol>
+<h3 id="travel">TRAVEL</h3>
+<p>Hexes are 6 miles. PCs can travel 3 hexes per day at a normal pace; 4 if moving quickly or mounted. Mountains or swamps slow the party to 1 hex per day. Pushing further risks fatigue.</p>
+<table>
+<thead>
+<tr>
+<th id="type" style="text-align:left;">Type</th>
+<th id="distance/time" style="text-align:left;">Distance/Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">Mapping</td>
+<td style="text-align:left;">1/2 hex per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Hunting</td>
+<td style="text-align:left;">1/2 day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Exploring</td>
+<td style="text-align:left;">1/2 day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel swamp/mountains</td>
+<td style="text-align:left;">1 hex per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel normal</td>
+<td style="text-align:left;">3 hexes per day</td>
+</tr>
+<tr>
+<td style="text-align:left;">Travel forced/mounted</td>
+<td style="text-align:left;">4 hexes per day</td>
+</tr>
+</tbody>
+</table>
+<p><break></p>
+<h4 id="weather">Weather</h4>
+<p>Roll 2d6: the leftmost die is type of weather, the other severity.</p>
+<table>
+<thead>
+<tr>
+<th id="weather" style="text-align:left;">Weather</th>
+<th id="severity" style="text-align:left;">Severity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1. Rain/fog/snow</td>
+<td style="text-align:left;">1. Epic</td>
+</tr>
+<tr>
+<td style="text-align:left;">2. Storm</td>
+<td style="text-align:left;">2. Severe</td>
+</tr>
+<tr>
+<td style="text-align:left;">3. Wind</td>
+<td style="text-align:left;">3. Harsh</td>
+</tr>
+<tr>
+<td style="text-align:left;">4. Unusual Hot/cold</td>
+<td style="text-align:left;">4. Moderate</td>
+</tr>
+<tr>
+<td style="text-align:left;">5. Cloudy</td>
+<td style="text-align:left;">5. Mild</td>
+</tr>
+<tr>
+<td style="text-align:left;">6. Clear</td>
+<td style="text-align:left;">6. Pleasant</td>
+</tr>
+</tbody>
+</table>
+<h4 id="navigation">Navigation</h4>
+<p>Skip navigation rolls when following a road/river/compass/spell/landmark on clear day.</p>
+<table>
+<thead>
+<tr>
+<th id="d6" style="text-align:left;">D6</th>
+<th id="effect" style="text-align:left;">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Loop back to point of departure</td>
+</tr>
+<tr>
+<td style="text-align:left;">2-3</td>
+<td style="text-align:left;">Veer one sextant left of intended destination</td>
+</tr>
+<tr>
+<td style="text-align:left;">4-5</td>
+<td style="text-align:left;">Veer one sextant right of intended destination</td>
+</tr>
+<tr>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Arrive at intended destination</td>
+</tr>
+</tbody>
+</table>
+<h4 id="discovery">Discovery</h4>
+<p>PCs discover POIs in the sextants they traverse. Eg. if the party is traveling NW through a hex and there's a POI in sextants 2 or 5, they should discover it.</p>
+<pre>
+    _6_
+  5/   \1
+  4\___/2
+     3
+</pre>
+<p>POIs might also be discovered if the PCs:</p>
+<ul>
+<li>See smoke/light/landmark</li>
+<li>Hear noises</li>
+<li>Smell something</li>
+<li>Observe evidence of it</li>
+<li>Explore the sextant</li>
+</ul>
+<blockquote>
+  <p>PCs can see 3 miles of flat terrain and 1 hex per 50' of elevation (tree/hill/cliff)</p>
+</blockquote>
+<h4 id="fatigue">Fatigue</h4>
+<p>PCs risk fatigue from lack sleep/food/water, forced travel, heavy burden, miserable conditions or injury. Consuming food/water and resting a day in comfort and safety cures fatigue.</p>
+<table>
+<thead>
+<tr>
+<th id="level" style="text-align:left;">Level</th>
+<th id="effect" style="text-align:left;">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Disadvantaged skill rolls</td>
+</tr>
+<tr>
+<td style="text-align:left;">2</td>
+<td style="text-align:left;">Speed halved</td>
+</tr>
+<tr>
+<td style="text-align:left;">3</td>
+<td style="text-align:left;">Disadvantaged attacks</td>
+</tr>
+<tr>
+<td style="text-align:left;">4</td>
+<td style="text-align:left;">Drop all bulky items</td>
+</tr>
+<tr>
+<td style="text-align:left;">5</td>
+<td style="text-align:left;">Speed = 0</td>
+</tr>
+<tr>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Death</td>
+</tr>
+</tbody>
+</table>]]></description>
+  </item>
+  <item>
+    <pubDate>Sat, 04 Dec 2021 13:01:00 GMT</pubDate>
+    <title>I Published a Thing</title>
+    <link>https://brine.dev/#post?s=i_published_a_thing</link>
+    <guid>https://brine.dev/#post?s=i_published_a_thing</guid>
+    <description><![CDATA[<p><a href="https://casadeocio.itch.io/beasts-barrows"><img src="assets/images/bnb-630x500.png" alt="center" /></a></p>
+<p>I didn't set out to write a system… I swear. It just <em>happened</em>.</p>
+<p>Here's how it goes:</p>
+<ol>
+<li>run a oneshot to play around with <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a></li>
+<li>the players; the system; the characters… they all click and it's fun</li>
+<li>a campaign begins!</li>
+<li>during your campaign, start hacking bits of the system to the tastes of yourself and your players
+<break></li>
+<li>players don't like the magic system? <a href="/#post?s=a_magic_system">write your own</a></li>
+<li>hack even more stuff in the second year of your campaign</li>
+<li>struggle to explain all the hacks to new players</li>
+<li>write it all down</li>
+<li>fine… I'll publish it 🙄</li>
+</ol>
+<p><strong>NOTE:</strong> _there's no <code>10. profit</code></p>
+<p>Personally, I wish people would publish fewer systems and publish more adventures. But here I am…. publishing a system. But it's funny with systems: they're <em>personal</em>. <strong>Finding a system that suits your style and hacking off the bits that get in the way should be second nature to a GM</strong>. Continue hacking to the point where it requires a new telling of the rules? Congratulations! You're now a publisher.</p>
+<p>I <em>do</em> plan on writing &amp; publishing adventures. Time will tell what other little distractions I'll encounter along the way.</p>
+<p>Stay tuned…</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Wed, 31 Jan 2024 13:01:00 GMT</pubDate>
+    <title>Incarnates</title>
+    <link>https://brine.dev/#post?s=incarnates</link>
+    <guid>https://brine.dev/#post?s=incarnates</guid>
+    <description><![CDATA[<p>At any one time, there are exactly 42 Incarnates in the world; give or take 9 months. I suppose it depends if being in the womb is considered <em>in the world</em>. I've been in a womb 100 times; I say it counts.</p>
+<p>Birth for an Incarnate--a silly moniker we begrudgingly accept--is really no different than mortal birth: pain and crying. But also love; a lot of it. I've had 100 mothers, most of which loved me. Given time, I can remember many of their names and some of their faces. These memories--or lack thereof--are an indication of their impact upon me or maybe just how long it's been. The past and present can be such a blur.</p>
+<p>All of us go mad from time to time. I have; in only my 3rd life. Other times too but madness, like memory, fades.</p>
+<p>Work keeps me going and by work I mean whatever idea takes hold in the little brain I currently occupy. Some of this "work" takes multiple lives to complete. I once spent 4 lives just to ensure the marriage of two bloodlines. One of those lost lives was by my own hand but that's a story for another time; perhaps another lifetime.</p>
+<p>In truth, death is rarely that interesting. More often it's actually <em>funny</em>; hilarious even. Swapping death stories is a big hit among my brethren and sistren. But birth; now that is a wild fucking ride. See, in the womb, we're like little beacons, calling out to one of our own. With each Incarnate birth, one of us is summoned--for lack of a better word. A nagging feeling <em>insisting</em> you be in a specific location, at a specific time--about nine months. You just… feel it. It can be quite comforting in a way; knowing something with such certainty. You can live 100 lifetimes and not know anything for certain. Sorry, <em>Incarnate humor</em>.</p>
+<p>And sometimes, because reasons, the summoned one fails to arrive and little baby Incarnate is on their own. This has happened to me more than once. It sucks. Because until we can talk--and more specifically, perform magic--we are vulnerable.</p>
+<p>Lucky for me, on this, on the auspicious occasion of my 100th life, Amara was summoned. I hadn't seen her for a number of lifetimes. She hadn't change a bit--sorry, more Incarnate humor.</p>
+<p>~ <em>Eldar (currently Gareth Summerfield)</em></p>]]></description>
+  </item>
+  <item>
+    <pubDate>Tue, 13 Feb 2024 13:01:00 GMT</pubDate>
+    <title>On Magical Magic</title>
+    <link>https://brine.dev/#post?s=on_magical_magic</link>
+    <guid>https://brine.dev/#post?s=on_magical_magic</guid>
+    <description><![CDATA[<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em> she says. I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
+<p>I suppose the place to start is at the beginning. Fine. What is magic? It's quite simple really: the world is full of magic things and a mage communes with the world. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence; favors if you like. Given their relationship is in good standing, the world is likely to comply.</p>
+<p>Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. But this development takes time. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, they are unknown to me but with long life comes madness. Pity the mage that must bargain with a Fae; it's like treading on shifting sands.</p>
+<p>The world has a mind of its own and so too does magic. One rolls the dice when casting a spell [<code>2d6</code>]. A mage may tip the scales, so to speak, but at a cost. Balance will be restored one way or the other. For example, a mage feeling their spell failing may accept a <code>Burden</code> [represented by a <code>tarot card</code>], and have it succeed instead. The path to satisfying this burden is anyone's guess. A mage can only endure so many [<code>3 max</code>] before they become lost in the world.</p>
+<p><code>Promises</code>--the simplest spells--wield significant potential in the hands of a cunning mage. Often dismissed as "cheap tricks," their ephemeral quality leaves no lasting impression on the world. Yet, they signify an unspoken agreement; a remnant from the bond between mage and world.</p>
+<p>Advanced spells demand a <code>Totem</code>—a physical representation of the intended outcome. While a totem should ideally resonate with the desired effect, substitutions are possible. Salt is renowned for its ability to ward off malevolent energies. However, alternatives like chalk or even ground coffee may serve adequately.</p>
+<p>Furthermore, <code>Enhancement Spells</code>, woven in tandem with a primary spell, can amplify potency, duration, or scope. While they enhance the spell's efficacy, they take time and compound the risks of casting.</p>
+<p><code>Rituals</code> are the pinnacle of magical prowess. They yield unparalleled power but demand patience and dedication. Alternatively, one might venture into the perilous realm of Summoning. But bargaining with a Fae comes with great risk and success is far from guaranteed.</p>
+<p>~ Rowan Varcona</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Tue, 28 Dec 2021 13:01:00 GMT</pubDate>
+    <title>On Vancian Magic</title>
+    <link>https://brine.dev/#post?s=on_vancian_magic</link>
+    <guid>https://brine.dev/#post?s=on_vancian_magic</guid>
+    <description><![CDATA[<p>When writing my <a href="#post?s=a_magic_system">magic system</a> for <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>, I had two goals: keep it simple and <em>somewhat</em> logical. Towards simplicity, I reused the existing game mechanics: <code>2d6</code>, <code>attributes</code> and <code>level</code>. I also considered using Necropraxis' fabulous <a href="https://www.necropraxis.com/2013/11/01/spell-dice">spell dice</a> but simplicity won out.</p>
+<p>Making the system logical took a lot more thought.</p>
+<p>Several people describe my magic system as <em>Vancian</em> (ie. spells must be prepared daily; have a fixed purpose and finite usage). <strong>I did not set out to make my system specifically <em>non-Vancian</em></strong>. This is good because when I think about it, it really is quite Vancian… but with <em>twists.</em></p>
+<p><break></p>
+<p>First twist: preparation. It's silly to expect magi to prepare spells every day. It <em>does</em> make sense that spells are learned, practiced and <em>mastered</em>. We see this in Harry Potter; the kids all practicing enunciation and wand flicking. But this leans more toward <em>practice</em> than preparation. It's also logical that magi have a limited number of spells they've <em>mastered</em>. This number increases as their experience increases. <strong>I want players thinking of creative ways to use the spells they have</strong>.</p>
+<p><em>Spellbooks</em>. What dolt-of-a-mage cannot memorize a few spells? Must they write them all down in a book? If they're without that book, can they no longer cast a spell? Lame. No. But books <em>are</em> quite useful. <strong>Magi can read and cast <em>unfamiliar</em> spells from scrolls and books</strong>, but it takes more time (a turn). It also incentivizes <em>scroll hunts</em>. Fun!</p>
+<p>Which leads us to usage. It's ridiculous that a mage would forget a spell after casting it. Same goes for it vanishing from their spellbook. No. That's crazytown. The twist here is that casting spells takes a physical toll. A mage can safely cast spells, based on their stamina (<code>con</code>), and have it scale with their experience (<code>hd</code>). This could have also been level but I feel like <code>hd</code> is a bit closer to health… same diff. <strong>Cast all the spells you want… but it will eventually hurt</strong>.</p>
+<p>Lastly, we have <em>spells with a fixed purpose</em>. Spell authors will have a lot to say about this. But a few twists can keep them simple and allow for more creative usage. I love <strong>levelless spells</strong>. I can see an argument that spell level denotes complexity or whatever… but I prefer to let a mage learn whatever spell they like. I also added <a href="#spellTags?t=enhancement">enhancement spells</a>. Spells that enhance a target spell but cost an extra spell slot. This helps keep spells simple and flexible.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Thu, 11 Jan 2024 13:01:00 GMT</pubDate>
+    <title>Rando - An Imagination Spark Generator</title>
+    <link>https://brine.dev/#post?s=rando-an_imagination_spark_generator</link>
+    <guid>https://brine.dev/#post?s=rando-an_imagination_spark_generator</guid>
+    <description><![CDATA[<p>I love me some random generators but mine were showing my neglect and kinda all over the place. My friend <a href="https://wightbred.itch.io/">Wightbred</a> turned me onto <a href="https://www.drivethrurpg.com/product/125685/The-GameMasters-Apprentice-Base-Deck">GM's Apprentice Cards</a>, which inspired me to refactor and extend my own generators into a single web app. Thus, <a href="https://rando.brine.dev">Rando</a> was born.</p>
+<p>Thanks to feedback from Wightbred and others, I've been able to turn Rando into a surprisingly useful tool. I was able to incorporate all the things I use for my games. I now find myself using it for everything: prep, GM &amp; Player prompts and even prompts to feed ChatGPT. And while I do not <em>solo [new verb]</em> myself, I am told that it works well for Solo Play too.</p>
+<p>Give it a spin!</p>
+<p><a href="https://rando.brine.dev"><img src="assets/images/rando.webp" alt="center" /></a></p>]]></description>
+  </item>
+  <item>
+    <pubDate>Sun, 25 Jul 2021 12:01:00 GMT</pubDate>
+    <title>Skills and Special Abilities</title>
+    <link>https://brine.dev/#post?s=skills_and_special_abilities</link>
+    <guid>https://brine.dev/#post?s=skills_and_special_abilities</guid>
+    <description><![CDATA[<p><em>v 1.3</em></p>
+<p>In <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>, <code>Skills and Special Abilities</code> help define a character's class. They map directly to the classic classes: <strong>Cleric, Fighter, Mage, Ranger & Thief</strong>; but they can also be bent to accommodate custom classes… like <a href="assets/images/chars/benedict_sandaries.pdf">Alchemist</a> or <a href="assets/images/chars/black_jenny.pdf">Road Agent</a>. The following details how these rules have evolved in my games.</p>
+<p><break></p>
+<h3 id="skills">Skills</h3>
+<blockquote>
+  <p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing) they can roll <em>advantage</em> (<code>3d6</code> &amp; keep the highest 2) <code>+ mod</code> instead of a regular roll.</p>
+</blockquote>
+<ul>
+<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
+<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
+<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
+<li><strong>Decipher:</strong> <code>+wis</code>: discern a thing; attempt to understand or interpret</li>
+<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>hd</code> to the party when resting/rolling <code>hp</code>; heal <code>1d6+level hp</code> with your touch.</li>
+<li><strong>Leadership:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
+<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
+<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
+<li><strong>Survival:</strong> <code>+con</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
+</ul>
+<h3 id="specialabilities">Special Abilities</h3>
+<blockquote>
+  <p>These abilities can add additional flavor to a class. The word <code>attempt</code> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
+</blockquote>
+<ul>
+<li><strong>Backstab:</strong> +3 damage from concealment</li>
+<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
+<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells</li>
+<li><strong>Command:</strong> attempt to command any spirit, demon, etc.</li>
+<li><strong>Cure:</strong> attempt to neutralize poisons or remove curses</li>
+<li><strong>Hardy:</strong> +6 hp</li>
+<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
+<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
+<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
+<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
+<li><strong>Scout:</strong> with you on point, your party can move quicker, cover more ground and spot targets before they spot you</li>
+<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
+<li><strong>Slay:</strong> +2 melee damage</li>
+<li><strong>Summon:</strong> summon a spirit you know by its true name</li>
+<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
+<li><strong>Tough:</strong> +1 armor</li>
+<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
+<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
+<li><strong>Volley:</strong> +2 ranged damage</li>
+<li><strong>Wild:</strong> converse with and attempt to command animals; some classes (eg. Druids) use this to <em>shapeshift</em></li>
 </ul>]]></description>
   </item>
   <item>
@@ -528,35 +1303,6 @@ A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon
 For your <a href="https://rando.brine.dev">random needs</a> <br></p>]]></description>
   </item>
   <item>
-    <pubDate>Tue, 13 Feb 2024 13:01:00 GMT</pubDate>
-    <title>On Magical Magic</title>
-    <link>https://brine.dev/#post?s=on_magical_magic</link>
-    <guid>https://brine.dev/#post?s=on_magical_magic</guid>
-    <description><![CDATA[<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em> she says. I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
-<p>I suppose the place to start is at the beginning. Fine. What is magic? It's quite simple really: the world is full of magic things and a mage communes with the world. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence; favors if you like. Given their relationship is in good standing, the world is likely to comply.</p>
-<p>Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. But this development takes time. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, they are unknown to me but with long life comes madness. Pity the mage that must bargain with a Fae; it's like treading on shifting sands.</p>
-<p>The world has a mind of its own and so too does magic. One rolls the dice when casting a spell [<code>2d6</code>]. A mage may tip the scales, so to speak, but at a cost. Balance will be restored one way or the other. For example, a mage feeling their spell failing may accept a <code>Burden</code> [represented by a <code>tarot card</code>], and have it succeed instead. The path to satisfying this burden is anyone's guess. A mage can only endure so many [<code>3 max</code>] before they become lost in the world.</p>
-<p><code>Promises</code>--the simplest spells--wield significant potential in the hands of a cunning mage. Often dismissed as "cheap tricks," their ephemeral quality leaves no lasting impression on the world. Yet, they signify an unspoken agreement; a remnant from the bond between mage and world.</p>
-<p>Advanced spells demand a <code>Totem</code>—a physical representation of the intended outcome. While a totem should ideally resonate with the desired effect, substitutions are possible. Salt is renowned for its ability to ward off malevolent energies. However, alternatives like chalk or even ground coffee may serve adequately.</p>
-<p>Furthermore, <code>Enhancement Spells</code>, woven in tandem with a primary spell, can amplify potency, duration, or scope. While they enhance the spell's efficacy, they take time and compound the risks of casting.</p>
-<p><code>Rituals</code> are the pinnacle of magical prowess. They yield unparalleled power but demand patience and dedication. Alternatively, one might venture into the perilous realm of Summoning. But bargaining with a Fae comes with great risk and success is far from guaranteed.</p>
-<p>~ Rowan Varcona</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Wed, 31 Jan 2024 13:01:00 GMT</pubDate>
-    <title>Incarnates</title>
-    <link>https://brine.dev/#post?s=incarnates</link>
-    <guid>https://brine.dev/#post?s=incarnates</guid>
-    <description><![CDATA[<p>At any one time, there are exactly 42 Incarnates in the world; give or take 9 months. I suppose it depends if being in the womb is considered <em>in the world</em>. I've been in a womb 100 times; I say it counts.</p>
-<p>Birth for an Incarnate--a silly moniker we begrudgingly accept--is really no different than mortal birth: pain and crying. But also love; a lot of it. I've had 100 mothers, most of which loved me. Given time, I can remember many of their names and some of their faces. These memories--or lack thereof--are an indication of their impact upon me or maybe just how long it's been. The past and present can be such a blur.</p>
-<p>All of us go mad from time to time. I have; in only my 3rd life. Other times too but madness, like memory, fades.</p>
-<p>Work keeps me going and by work I mean whatever idea takes hold in the little brain I currently occupy. Some of this "work" takes multiple lives to complete. I once spent 4 lives just to ensure the marriage of two bloodlines. One of those lost lives was by my own hand but that's a story for another time; perhaps another lifetime.</p>
-<p>In truth, death is rarely that interesting. More often it's actually <em>funny</em>; hilarious even. Swapping death stories is a big hit among my brethren and sistren. But birth; now that is a wild fucking ride. See, in the womb, we're like little beacons, calling out to one of our own. With each Incarnate birth, one of us is summoned--for lack of a better word. A nagging feeling <em>insisting</em> you be in a specific location, at a specific time--about nine months. You just… feel it. It can be quite comforting in a way; knowing something with such certainty. You can live 100 lifetimes and not know anything for certain. Sorry, <em>Incarnate humor</em>.</p>
-<p>And sometimes, because reasons, the summoned one fails to arrive and little baby Incarnate is on their own. This has happened to me more than once. It sucks. Because until we can talk--and more specifically, perform magic--we are vulnerable.</p>
-<p>Lucky for me, on this, on the auspicious occasion of my 100th life, Amara was summoned. I hadn't seen her for a number of lifetimes. She hadn't change a bit--sorry, more Incarnate humor.</p>
-<p>~ <em>Eldar (currently Gareth Summerfield)</em></p>]]></description>
-  </item>
-  <item>
     <pubDate>Tue, 30 Jan 2024 13:01:00 GMT</pubDate>
     <title>Vonnegut's 8 Basics of RPG Writing</title>
     <link>https://brine.dev/#post?s=vonneguts_8_basics_of_ttrpg_writing</link>
@@ -580,836 +1326,6 @@ For your <a href="https://rando.brine.dev">random needs</a> <br></p>]]></descrip
 <p>I struggle with this one. I don't write for <em>one person</em>. Kurt wrote for his sister… to my knowledge I don't write for any specific person. Maybe I do and I don't know it? I def write for <em>me</em>. I'm writing this post for me. I'm forcing myself to really think these through; which for my brain means I need to write them down. Obviously, when writing RPGs, we write for GMs, but that GM is <em>also</em> me.</p>
 <p><strong>8. Give your readers as much information as possible as soon as possible. To heck with suspense. Readers should have such complete understanding of what is going on, where and why, that they could finish the story themselves, should cockroaches eat the last few pages.</strong></p>
 <p>This is more classic RPG advice perhaps most famously from Chris McDowall's post <a href="https://www.bastionland.com/2018/07/expose-your-prep.html">Expose Your Prep</a>. But for all I know, Chris stole it from Vonnegut :D</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Thu, 11 Jan 2024 13:01:00 GMT</pubDate>
-    <title>Rando - An Imagination Spark Generator</title>
-    <link>https://brine.dev/#post?s=rando-an_imagination_spark_generator</link>
-    <guid>https://brine.dev/#post?s=rando-an_imagination_spark_generator</guid>
-    <description><![CDATA[<p>I love me some random generators but mine were showing my neglect and kinda all over the place. My friend <a href="https://wightbred.itch.io/">Wightbred</a> turned me onto <a href="https://www.drivethrurpg.com/product/125685/The-GameMasters-Apprentice-Base-Deck">GM's Apprentice Cards</a>, which inspired me to refactor and extend my own generators into a single web app. Thus, <a href="https://rando.brine.dev">Rando</a> was born.</p>
-<p>Thanks to feedback from Wightbred and others, I've been able to turn Rando into a surprisingly useful tool. I was able to incorporate all the things I use for my games. I now find myself using it for everything: prep, GM &amp; Player prompts and even prompts to feed ChatGPT. And while I do not <em>solo [new verb]</em> myself, I am told that it works well for Solo Play too.</p>
-<p>Give it a spin!</p>
-<p><a href="https://rando.brine.dev"><img src="assets/images/rando.webp" alt="center" /></a></p>]]></description>
-  </item>
-  <item>
-    <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
-    <title>2023 - A Gaming Year in Review</title>
-    <link>https://brine.dev/#post?s=2023_a_gaming_year_in_review</link>
-    <guid>https://brine.dev/#post?s=2023_a_gaming_year_in_review</guid>
-    <description><![CDATA[<p>With 2023 in the rear-view, I began to reflect on the year from a gaming perspective. It turns out there are a number of things worthy of a shout-out!</p>
-<h3 id="1playinggames">1. Playing Games</h3>
-<p>I am a forever GM. I have run way more games than I've played. In 2023 that changed and I found myself playing a LOT more. It really opened my mind to various games and play-styles, and helped hone what I want in a game. This was definitely the biggest revelation and the reason for the rest of the list. If I was going to list a new year's resolution, it would have to be to just play more games. Here's hoping!</p>
-<h3 id="2newgames">2. New Games</h3>
-<p>The <del>game</del> toolset of the year for me was <a href="https://wightbred.itch.io/named-toolkit">Named</a>. I'm a big fan of playing into a character and thus, I gravitate towards tag-based character builds. Named uses epithets called--strangely enough--<code>Names</code>. While similar to tags, for my money, they add more juice. I see them as things people call your character… or whisper behind their back. This is a small but important distinction; YMMV.</p>
-<p>More interesting still is how Named handles advancement through <code>Reflections</code>. At the end of a session, the table talks about what each character did in the game. Did they earn a new Name? Did a name not fit or need changing? It's easily the best advancement system I've ever seen… and now it's mine; MINE! :D</p>
-<p>I was fortunate to get the full hat-trick with Named. I played it, <a href="https://playworldspodcast.com/#tags?t=skypirates-of-jotnaar">podcasted it</a> and contributed to a setting for it: <a href="https://wightbred.itch.io/skypirates-of-jotnaar">Skypirates of Jotnaar</a> (that is REALLY cool if I do say so myself).</p>
-<p>Honorable mention for Dr. Paul's <a href="https://www.lulu.com/shop/paul-jennings-and-kitty-hiraeth/palaeolithic-voyages/paperback/product-kpmy8y.html">Palaeolithic Voyages</a>. You can keep your +1 swords; just gimme a good rock and some flint! I really wanna play more of this system.</p>
-<h3 id="3newgenre">3. New Genre</h3>
-<p>I played my first game of Delta Green. For whatever reason, I'm not drawn to Cthulhu games but I  dig Delta Green. It comes down to the twist: characters are not trying to solve a mystery; they are trying to stop/contain/suppress/clean up a problem. More MIB or X-Files than straight Lovecraftian cosmic horror. Really fun game.</p>
-<p>I look forward to reflecting on 2024!</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Sun, 01 Oct 2023 12:01:00 GMT</pubDate>
-    <title>A TTRPG Manifesto</title>
-    <link>https://brine.dev/#post?s=a_ttrpg_manifesto</link>
-    <guid>https://brine.dev/#post?s=a_ttrpg_manifesto</guid>
-    <description><![CDATA[<p>We are exploring different approaches to TTRPGs. Through play we have come to value:</p>
-<ul>
-<li>A shared understanding of a world over rules</li>
-<li>Table trust over systems</li>
-<li>Immersion over character sheets</li>
-<li>Conversation and negotiation over procedures</li>
-</ul>
-<p>That is, while there is value in the elements on the right, we value the elements on the left more.</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Sat, 08 Jul 2023 12:01:00 GMT</pubDate>
-    <title>How To Hexcrawl</title>
-    <link>https://brine.dev/#post?s=how_to_hexcrawl</link>
-    <guid>https://brine.dev/#post?s=how_to_hexcrawl</guid>
-    <description><![CDATA[<p><em>v1.1</em></p>
-<p>Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also <a href="https://casadeocio.itch.io/hexcrawls-rule">published a pdf</a></p>
-<h3 id="proceedures">PROCEEDURES</h3>
-<h4 id="morning">Morning</h4>
-<ol>
-<li>Roll weather</li>
-<li>Consume food/water</li>
-<li>Break or sustain camp</li>
-<li>Choose a travel direction and pace</li>
-<li>Roll navigation</li>
-</ol>
-<h4 id="day">Day</h4>
-<ol>
-<li>GM describes points of interest (POIs)/changing weather/terrain/landmarks…</li>
-<li>Roll random encounters once per hex</li>
-<li>Roll navigation on direction change</li>
-<li>Exploring or hunting takes 1/2 day travel time</li>
-<li>Foraging can be done en route when not on roads but requires a slowed pace</li>
-</ol>
-<h4 id="night">Night</h4>
-<ol>
-<li>Make camp</li>
-<li>Consume food/water</li>
-<li>Stand watch</li>
-<li>Roll encounter</li>
-</ol>
-<h3 id="travel">TRAVEL</h3>
-<p>Hexes are 6 miles. PCs can travel 3 hexes per day at a normal pace; 4 if moving quickly or mounted. Mountains or swamps slow the party to 1 hex per day. Pushing further risks fatigue.</p>
-<table>
-<thead>
-<tr>
-<th id="type" style="text-align:left;">Type</th>
-<th id="distance/time" style="text-align:left;">Distance/Time</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">Mapping</td>
-<td style="text-align:left;">1/2 hex per day</td>
-</tr>
-<tr>
-<td style="text-align:left;">Hunting</td>
-<td style="text-align:left;">1/2 day</td>
-</tr>
-<tr>
-<td style="text-align:left;">Exploring</td>
-<td style="text-align:left;">1/2 day</td>
-</tr>
-<tr>
-<td style="text-align:left;">Travel swamp/mountains</td>
-<td style="text-align:left;">1 hex per day</td>
-</tr>
-<tr>
-<td style="text-align:left;">Travel normal</td>
-<td style="text-align:left;">3 hexes per day</td>
-</tr>
-<tr>
-<td style="text-align:left;">Travel forced/mounted</td>
-<td style="text-align:left;">4 hexes per day</td>
-</tr>
-</tbody>
-</table>
-<p><break></p>
-<h4 id="weather">Weather</h4>
-<p>Roll 2d6: the leftmost die is type of weather, the other severity.</p>
-<table>
-<thead>
-<tr>
-<th id="weather" style="text-align:left;">Weather</th>
-<th id="severity" style="text-align:left;">Severity</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">1. Rain/fog/snow</td>
-<td style="text-align:left;">1. Epic</td>
-</tr>
-<tr>
-<td style="text-align:left;">2. Storm</td>
-<td style="text-align:left;">2. Severe</td>
-</tr>
-<tr>
-<td style="text-align:left;">3. Wind</td>
-<td style="text-align:left;">3. Harsh</td>
-</tr>
-<tr>
-<td style="text-align:left;">4. Unusual Hot/cold</td>
-<td style="text-align:left;">4. Moderate</td>
-</tr>
-<tr>
-<td style="text-align:left;">5. Cloudy</td>
-<td style="text-align:left;">5. Mild</td>
-</tr>
-<tr>
-<td style="text-align:left;">6. Clear</td>
-<td style="text-align:left;">6. Pleasant</td>
-</tr>
-</tbody>
-</table>
-<h4 id="navigation">Navigation</h4>
-<p>Skip navigation rolls when following a road/river/compass/spell/landmark on clear day.</p>
-<table>
-<thead>
-<tr>
-<th id="d6" style="text-align:left;">D6</th>
-<th id="effect" style="text-align:left;">Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">1</td>
-<td style="text-align:left;">Loop back to point of departure</td>
-</tr>
-<tr>
-<td style="text-align:left;">2-3</td>
-<td style="text-align:left;">Veer one sextant left of intended destination</td>
-</tr>
-<tr>
-<td style="text-align:left;">4-5</td>
-<td style="text-align:left;">Veer one sextant right of intended destination</td>
-</tr>
-<tr>
-<td style="text-align:left;">6</td>
-<td style="text-align:left;">Arrive at intended destination</td>
-</tr>
-</tbody>
-</table>
-<h4 id="discovery">Discovery</h4>
-<p>PCs discover POIs in the sextants they traverse. Eg. if the party is traveling NW through a hex and there's a POI in sextants 2 or 5, they should discover it.</p>
-<pre>
-    _6_
-  5/   \1
-  4\___/2
-     3
-</pre>
-<p>POIs might also be discovered if the PCs:</p>
-<ul>
-<li>See smoke/light/landmark</li>
-<li>Hear noises</li>
-<li>Smell something</li>
-<li>Observe evidence of it</li>
-<li>Explore the sextant</li>
-</ul>
-<blockquote>
-  <p>PCs can see 3 miles of flat terrain and 1 hex per 50' of elevation (tree/hill/cliff)</p>
-</blockquote>
-<h4 id="fatigue">Fatigue</h4>
-<p>PCs risk fatigue from lack sleep/food/water, forced travel, heavy burden, miserable conditions or injury. Consuming food/water and resting a day in comfort and safety cures fatigue.</p>
-<table>
-<thead>
-<tr>
-<th id="level" style="text-align:left;">Level</th>
-<th id="effect" style="text-align:left;">Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">1</td>
-<td style="text-align:left;">Disadvantaged skill rolls</td>
-</tr>
-<tr>
-<td style="text-align:left;">2</td>
-<td style="text-align:left;">Speed halved</td>
-</tr>
-<tr>
-<td style="text-align:left;">3</td>
-<td style="text-align:left;">Disadvantaged attacks</td>
-</tr>
-<tr>
-<td style="text-align:left;">4</td>
-<td style="text-align:left;">Drop all bulky items</td>
-</tr>
-<tr>
-<td style="text-align:left;">5</td>
-<td style="text-align:left;">Speed = 0</td>
-</tr>
-<tr>
-<td style="text-align:left;">6</td>
-<td style="text-align:left;">Death</td>
-</tr>
-</tbody>
-</table>]]></description>
-  </item>
-  <item>
-    <pubDate>Mon, 16 Jan 2023 13:01:00 GMT</pubDate>
-    <title>FKR</title>
-    <link>https://brine.dev/#post?s=fkr</link>
-    <guid>https://brine.dev/#post?s=fkr</guid>
-    <description><![CDATA[<p><strong>FKR</strong> (Free Kriegsspiel Roleplaying) is an approach to playing tabletop roleplaying games. Its popular catchphrase, <em>"play worlds not rules"</em> , is as reasonable as any catchphrase. Play requires the following:</p>
-<ol>
-<li>A shared understanding of a world.</li>
-<li>A Game Maestro trusted to represent "the world", and adjudicate player actions and their consequences.</li>
-<li>One or more players who control a character and play the world set before them.</li>
-<li>Play is a conversation. The GM describes a situation; the player describes what their character does. Outcomes are negotiated together and add to the emerging narrative.</li>
-</ol>
-<p>That's it. Everything else is a preference for accomplishing these requirements. Some considerations:</p>
-<ul>
-<li><strong>Rules</strong> tend to be <em>lite</em> but there is no "correct" amount. Rules should effectively be <em>"invisible"</em> and not hinder play.</li>
-<li>Roll <strong>dice</strong> when it makes sense or not at all.</li>
-<li>There are no FKR <strong>systems</strong>. Any system <em>might</em> be used in an FKR game. No system; a mashup of multiple systems; a coin flip… this is up to you and your table.</li>
-</ul>]]></description>
-  </item>
-  <item>
-    <pubDate>Thu, 12 May 2022 12:01:00 GMT</pubDate>
-    <title>Accidental FKR</title>
-    <link>https://brine.dev/#post?s=accidental_fkr</link>
-    <guid>https://brine.dev/#post?s=accidental_fkr</guid>
-    <description><![CDATA[<p>My game has been unintentionally <em>molting</em> toward <strong>FKR</strong>. It started before ever hearing the term. It just kinda happened and I continue to enjoy its inherent permission for further mutations.</p>
-<p>During a hiatus from D&amp;D 5E, I found myself reading other game systems; exploring their rules (or lack thereof) and ideas. Honestly, I hadn't put together that I wanted to run another system. I was just being curious. Bits and pieces of various systems started to click; most notably, <a href="https://dungeon-world.com">Dungeon World</a>.</p>
-<p>Hilariously, I've never run Dungeon World; nor do I have interest in doing so. I don't find it to be a particularly compelling game, but rather a fantastic GM reference! Just reading it changed the way I run games. It also illuminated my want of a different ruleset: something simpler; more inclusive. I didn't need to look very far (even if I did)… DW lead me right to <a href="https://johnharper.itch.io/world-of-dungeons">World of Dungeons (WoDu)</a>.</p>
-<p>There are a number of things in WoDu that changed my game forever (<code>2d6</code> &amp; <code>Die of Fate</code> come to mind) but in terms of FKR, it was <em>the holes</em>. <em>What do these Skills do? How do rituals work? Decipher?</em> The old GM in me would have thought: <em>"okay, I need to figure out all this shit before we play"</em>. But thanks to my exploration of other rulesets, I was able to give myself permission to put these questions to <em>my group</em>. My players really took to this inclusive approach to rule creation. It's very likely why we've been playing for so long (going on 3 years)! Lighter rules also lead to less character sheet-gazing and more creativity. I was hooked!</p>
-<p>Two years later, I published some of these <em>house rules</em> as <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>. But shortly thereafter, even BnB started feeling heavy to me. So with an inspiring nudge from <a href="https://jasontocci.itch.io/2400">2400</a>, I took another step and revamped them into their new, unfinished form: <a href="https://casadeocio.itch.io/1420-bnb">1420 Beasts & Barrows</a>. The most notable differences being the lack of stats and d6 dice pool skills. This new ruleset is currently peculating with my regular crew.</p>
-<p>For the record, I have no desire to debate what is/isn't FKR. I am not an authority; nor do I wish to be. I purposely refrained from explaining it or linking it to anything here. I prefer its definition to remain elusive and open. I find my game jives with the idea of FKR more than other rpg philosophies (for lack of a better term). YMMV.</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Wed, 16 Feb 2022 13:01:00 GMT</pubDate>
-    <title>D66 Spark Table Generator</title>
-    <link>https://brine.dev/#post?s=d66_spark_table_generator</link>
-    <guid>https://brine.dev/#post?s=d66_spark_table_generator</guid>
-    <description><![CDATA[<p>I've been playing around with <strong>spark tables</strong>; a concept taken from <a href="https://www.bastionland.com">Chris McDowall</a>. The concept is quite simple: given two numbered tables/lists of evocative words, roll on both, and use the words together to spark an idea.</p>
-<p>This is lovely… but I wanted to create tables specific to my games/worlds, and was struggling to come up with evocative words. THUS, <strong>a spark table to <em>generate</em> spark tables was born!</strong></p>
-<p><break></p>
-<h2 id="instructions">INSTRUCTIONS</h2>
-<ol>
-<li>Roll <code>2d6</code>: the die landing closest to you (real dice) or leftmost (dice bot) is the first digit (<code>10s</code>); the other die is the second digit (<code>1s</code>)</li>
-<li>If you roll doubles, roll again and use both results</li>
-<li>Use the result(s) to think of a <em>spark word</em></li>
-<li>Record each word on a similarly numbered d66 table (or as many as you want)</li>
-<li>If stuck, roll for another spark, or re-roll until you spark something</li>
-<li>Once you have your own spark tables, roll 2d6 on each and mash the two words together to generate ideas</li>
-</ol>
-<p><em>HINT: if using the doubles rule (#2), make sure those words are fairly generic as to mash well with others.</em></p>
-<h2 id="d66sparktablegenerator">D66 SPARK TABLE GENERATOR</h2>
-<pre><code>11 smell
-12 size/importance
-13 condition
-14 worth/merit
-15 atmospheric condition
-16 crop
-21 emotion
-22 object
-23 food
-24 profession
-25 sound
-26 feeling
-31 happy word
-32 liquid
-33 color
-34 constructed landmark
-35 natural landmark
-36 lifestyle quality
-41 made from
-42 meaning of life
-43 crime
-44 organization
-45 body shape/type/size
-46 element
-51 problem
-52 building
-53 scary word
-54 furniture
-55 group(ing)
-56 event
-61 attraction
-62 art
-63 economic issue/boon
-64 animal
-65 cloud description
-66 mystical
-</code></pre>
-<h2 id="examples">Examples</h2>
-<pre><code>11. spirit       pirates      head          fluffy
-12. roadrunner   orgy         mob           sugar
-13. drought      caustic      dance         egg
-14. soil         dungeon      bubbles       boom
-15. desk         festivities  poison        lake
-16. barrow       sulfur       table         bounty
-21. toxic        taco         luxury        rainbow
-22. kiva         perfume      brimstone     monastery
-23. thunder      scared       bounty-hunter guards
-24. library      blood        arroyo        bacon
-25. bridge       iron         chocolate     kidnap
-26. haze         badger       fire          missing
-31. hanging-tree dark         graveyard     runes
-32. tavern       dreams       vagrant       happy
-33. rascal       rumble       concert       sick
-34. temple       shadows      anger         mine
-35. burning      shaken       poor          meat
-36. crushed      cairn        brain         paper
-41. horn         frozen       gateway       balloons
-42. tower        pig          finger        copper
-43. mundane      joyful       theft         tattoo
-44. hunched      stretched    cat           alchemist
-45. cooks        ice          balmy         love
-46. vast         embezzlement explosion     famous
-51. law          statue       abandoned     relic
-52. gods         hate         destitute     inoperable
-53. expanding    kitten       atomic        skeletons
-54. peyote       ghostly      affluent      erupting
-55. shortage     grand        priest        fundraiser
-56. silver       lanky        hostile       victory
-61. crystal      numb         water         virtuous
-62. mill         fountain     music         drunk
-63. opulent      gold         infestation   glowing
-64. cult         broken       treasure      cave
-65. long         silk         blight        stable
-66. sunny        death        soft          birth
-</code></pre>]]></description>
-  </item>
-  <item>
-    <pubDate>Wed, 12 Jan 2022 13:01:00 GMT</pubDate>
-    <title>Delve of the Handsome Repeater</title>
-    <link>https://brine.dev/#post?s=delve_of_the_handosme_repeater</link>
-    <guid>https://brine.dev/#post?s=delve_of_the_handosme_repeater</guid>
-    <description><![CDATA[<p><a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater"><img src="assets/images/dothr-630x500.png" alt="center" /></a></p>
-<p>I like adventure modules. I especially like the newer ones… that are <em>actually</em> modular. Short, open-ended adventures that are trivial to drop into any campaign. Scanable; easy to grok. This is thankfully becoming the norm; fighting against the epic walls-of-text, and endless lore from modules of yore. This is what I want and what <em>I want to write</em>.</p>
-<p><break></p>
-<p>Thus, <a href="https://casadeocio.itch.io/delve-of-the-handsome-repeater">Delve of the Handsome Repeater</a> was born. This is my <em>hat</em> tossed into the ring of an ever-growing list of newer adventures.</p>
-<p>To be honest: I find dungeons and dungeon crawls boring; mega dungeons <em>mega</em> boring. So it's only fitting that my first published module (more or less) should be a dungeon ¯_(ツ)_/¯. I hoped writing one would open my eyes to the GLORRY THAT IS DUNGEON CRAWLING! Spoiler… it didn't.</p>
-<p>Anyway, here it is. It was fun to write and fun to play… I hope others find it enjoyable.</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Tue, 28 Dec 2021 13:01:00 GMT</pubDate>
-    <title>On Vancian Magic</title>
-    <link>https://brine.dev/#post?s=on_vancian_magic</link>
-    <guid>https://brine.dev/#post?s=on_vancian_magic</guid>
-    <description><![CDATA[<p>When writing my <a href="#post?s=a_magic_system">magic system</a> for <a href="https://casadeocio.itch.io/beasts-barrows">Beasts & Barrows</a>, I had two goals: keep it simple and <em>somewhat</em> logical. Towards simplicity, I reused the existing game mechanics: <code>2d6</code>, <code>attributes</code> and <code>level</code>. I also considered using Necropraxis' fabulous <a href="https://www.necropraxis.com/2013/11/01/spell-dice">spell dice</a> but simplicity won out.</p>
-<p>Making the system logical took a lot more thought.</p>
-<p>Several people describe my magic system as <em>Vancian</em> (ie. spells must be prepared daily; have a fixed purpose and finite usage). <strong>I did not set out to make my system specifically <em>non-Vancian</em></strong>. This is good because when I think about it, it really is quite Vancian… but with <em>twists.</em></p>
-<p><break></p>
-<p>First twist: preparation. It's silly to expect magi to prepare spells every day. It <em>does</em> make sense that spells are learned, practiced and <em>mastered</em>. We see this in Harry Potter; the kids all practicing enunciation and wand flicking. But this leans more toward <em>practice</em> than preparation. It's also logical that magi have a limited number of spells they've <em>mastered</em>. This number increases as their experience increases. <strong>I want players thinking of creative ways to use the spells they have</strong>.</p>
-<p><em>Spellbooks</em>. What dolt-of-a-mage cannot memorize a few spells? Must they write them all down in a book? If they're without that book, can they no longer cast a spell? Lame. No. But books <em>are</em> quite useful. <strong>Magi can read and cast <em>unfamiliar</em> spells from scrolls and books</strong>, but it takes more time (a turn). It also incentivizes <em>scroll hunts</em>. Fun!</p>
-<p>Which leads us to usage. It's ridiculous that a mage would forget a spell after casting it. Same goes for it vanishing from their spellbook. No. That's crazytown. The twist here is that casting spells takes a physical toll. A mage can safely cast spells, based on their stamina (<code>con</code>), and have it scale with their experience (<code>hd</code>). This could have also been level but I feel like <code>hd</code> is a bit closer to health… same diff. <strong>Cast all the spells you want… but it will eventually hurt</strong>.</p>
-<p>Lastly, we have <em>spells with a fixed purpose</em>. Spell authors will have a lot to say about this. But a few twists can keep them simple and allow for more creative usage. I love <strong>levelless spells</strong>. I can see an argument that spell level denotes complexity or whatever… but I prefer to let a mage learn whatever spell they like. I also added <a href="#spellTags?t=enhancement">enhancement spells</a>. Spells that enhance a target spell but cost an extra spell slot. This helps keep spells simple and flexible.</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Sat, 04 Dec 2021 13:01:00 GMT</pubDate>
-    <title>I Published a Thing</title>
-    <link>https://brine.dev/#post?s=i_published_a_thing</link>
-    <guid>https://brine.dev/#post?s=i_published_a_thing</guid>
-    <description><![CDATA[<p><a href="https://casadeocio.itch.io/beasts-barrows"><img src="assets/images/bnb-630x500.png" alt="center" /></a></p>
-<p>I didn't set out to write a system… I swear. It just <em>happened</em>.</p>
-<p>Here's how it goes:</p>
-<ol>
-<li>run a oneshot to play around with <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a></li>
-<li>the players; the system; the characters… they all click and it's fun</li>
-<li>a campaign begins!</li>
-<li>during your campaign, start hacking bits of the system to the tastes of yourself and your players
-<break></li>
-<li>players don't like the magic system? <a href="/#post?s=a_magic_system">write your own</a></li>
-<li>hack even more stuff in the second year of your campaign</li>
-<li>struggle to explain all the hacks to new players</li>
-<li>write it all down</li>
-<li>fine… I'll publish it 🙄</li>
-</ol>
-<p><strong>NOTE:</strong> _there's no <code>10. profit</code></p>
-<p>Personally, I wish people would publish fewer systems and publish more adventures. But here I am…. publishing a system. But it's funny with systems: they're <em>personal</em>. <strong>Finding a system that suits your style and hacking off the bits that get in the way should be second nature to a GM</strong>. Continue hacking to the point where it requires a new telling of the rules? Congratulations! You're now a publisher.</p>
-<p>I <em>do</em> plan on writing &amp; publishing adventures. Time will tell what other little distractions I'll encounter along the way.</p>
-<p>Stay tuned…</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Sun, 12 Sep 2021 12:01:00 GMT</pubDate>
-    <title>Beasts &amp; Barrows</title>
-    <link>https://brine.dev/#post?s=beasts_and_barrows</link>
-    <guid>https://brine.dev/#post?s=beasts_and_barrows</guid>
-    <description><![CDATA[<p>by <a href="https://brine.dev">brine</a> - <version><em>v 1.0</em></version></p>
-<p><strong>Beasts & Barrows</strong> is an uncomplicated fantasy role-playing game (RPG) for 2-5 players + Game Maestro (GM). It steals blatantly from John Harper's <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a> and shares the same <a href="http://apocalypse-world.com/pbta">PbtA</a> core mechanic (<code>2d6</code>). <del>YOU ARE FORBIDDEN TO HACK THIS!</del></p>
-<p><strong>Beasts & Barrows (B&B)</strong> values:</p>
-<ul>
-<li><strong>role-play:</strong> rules and mechanics emphasize and encourage role-play</li>
-<li><strong>simplicity:</strong> less math; less rules; more fun</li>
-<li><strong>show, don't tell:</strong> don't <em>tell</em> me your alignment… <em>show</em> me your alignment; don't <em>tell</em> me you attack; <em>describe</em> your attack</li>
-<li><strong>flexibility:</strong> running existing adventures from <em>any</em> system is trivial</li>
-</ul>
-<p><break></p>
-<div class="pagebreak"></div>
-<h3 id="charactercreation">Character Creation</h3>
-<p><strong>What kind of character sounds fun to play?</strong> Rolling a new character takes <em>ones of minutes</em>. This question will likely take the longest to answer. Here are some classic examples but you are free to create your own:</p>
-<ul>
-<li><strong>Warrior:</strong> strong and good with the stabby stab</li>
-<li><strong>Thief:</strong> nimble and sneaky sneaksters</li>
-<li><strong>Mage:</strong> smart and full of arcaney goodness</li>
-<li><strong>Priest:</strong> wise and has a direct line to the gods</li>
-</ul>
-<blockquote>
-  <p>Outside of the <em>classic classes</em>, players are encouraged to create their own by making clever use of the existing <code>Skills and Abilities</code>. For example an <strong>Alchemist</strong> might require <code>Lore</code> and create their potions via <code>Rituals</code>?</p>
-</blockquote>
-<p><strong>What race is your character?</strong> Human? Elf? Orc? While there are no statistical bonuses for race, they can add flavor to a character through role-play.</p>
-<blockquote>
-  <p>The <em>exception that proves the rule</em>: GMs may allow PCs to have <code>darkvision</code> or an additional <code>language</code>, provided the player offers sound reasoning to do so.</p>
-</blockquote>
-<p><strong>What <code>Attributes</code> does your character have?</strong> Roll <code>2d6</code> for each of the following six character <code>Attributes</code> and assign the results in any order you wish.</p>
-<ul>
-<li><strong>strength (<code>str</code>):</strong> for melee attacks; climbing; lifting</li>
-<li><strong>dexterity (<code>dex</code>):</strong> for ranged attacks; stealth; dodging</li>
-<li><strong>intelligence (<code>int</code>):</strong> for casting mage spells; memory; deduction</li>
-<li><strong>wisdom (<code>wis</code>):</strong> for casting cleric spells; perception; searching</li>
-<li><strong>charisma (<code>cha</code>):</strong> for persuasion; deception; intimidation</li>
-<li><strong>constitution (<code>con</code>):</strong> for additional HD; physical fortitude; resist poisons;</li>
-</ul>
-<p>On a:</p>
-<ul>
-<li><strong>2</strong> the value is -1</li>
-<li><strong>3-6</strong> the value is 0</li>
-<li><strong>7-9</strong> the value is +1</li>
-<li><strong>10-11</strong>, the value is +2</li>
-<li><strong>12</strong>, the value is +3.</li>
-</ul>
-<blockquote>
-  <p>Note: <strong>B&B</strong> only makes use of <strong>modifiers</strong> (eg. <code>+2</code>); not the number rolled.</p>
-</blockquote>
-<p><strong>Choose two <code>Skills</code> and two <code>Abilities</code>:</strong></p>
-<h4 id="skills">Skills</h4>
-<p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing), they roll <em>advantage</em> (<code>3d6</code> keeping the highest 2) <code>+ mod</code>.</p>
-<ul>
-<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
-<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
-<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
-<li><strong>Decipher:</strong> <code>+int</code>: attempt to discern patterns in texts, symbols or numbers</li>
-<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>Hit Die (HD)</code> to the party when resting/rolling <code>Hit Points (HP)</code>; heal <code>1d6+level HP</code> with your touch.</li>
-<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
-<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
-<li><strong>Survival:</strong> <code>+con/wis</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
-<li><strong>Sway:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
-</ul>
-<h4 id="abilities">Abilities</h4>
-<p>Add additional flavor to a class. The word <em>attempt</em> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
-<ul>
-<li><strong>Backstab:</strong> +3 damage from concealment</li>
-<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
-<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells at will</li>
-<li><strong><a href="http://lvh.me:4242/#spells">Cast</a>:</strong> cast level-less magical spells (see <code>Magic</code>)</li>
-<li><strong>Connected:</strong> you seem to have an acquaintance in every town</li>
-<li><strong>Hardy:</strong> +6 <code>HP</code></li>
-<li><strong>Linguist:</strong> you are fluent in all civilized languages</li>
-<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
-<li><strong>Penitent:</strong> when you take damage and embrace the pain, take advantage on your next roll</li>
-<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
-<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
-<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
-<li><strong>Scout:</strong> with you on point, your party covers more ground; you always spot targets before they spot you</li>
-<li><strong>Shield:</strong> when you wear no armor or shield, your faith protects you and grants you 2 armor</li>
-<li><strong>Shift:</strong> take the shape of an animal whose blood you've tasted (successful <code>con</code> roll to revert)</li>
-<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
-<li><strong>Slay:</strong> +2 melee damage</li>
-<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
-<li><strong>Tough:</strong> +1 armor</li>
-<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
-<li><strong>Versed:</strong> you share secret signs, speech and signals with your brethren</li>
-<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
-<li><strong>Volley:</strong> +2 ranged damage</li>
-<li><strong>Wild:</strong> converse with and attempt to command animals</li>
-</ul>
-<p><strong>Can your character take a hit?</strong> You start with 1 Hit Die (<code>d6</code>) + additional hit dice equal to your <code>con</code>. <strong>Roll all your hit dice and keep a number equal to your level</strong> to determine your <code>HP</code>. For example, a 1st level PC with +1 con would roll <code>2d6</code> and keep the higher of the two.</p>
-<p>When you rest in <code>comfort and safety</code>, and consume food/drink, you may reroll your <code>HP</code>. This is the amount of damage you can suffer before you take your <code>Last Breath</code>. You add additional hit dice if you: are attended by a healer; rest in a spiritual place.</p>
-<blockquote>
-  <p>A player may choose to reroll <code>HP</code> and find their PC now has <em>less</em> <code>HP</code>. We all have bad days. Are they sick? Did they stay up drinking all night?</p>
-</blockquote>
-<div class="pagebreak"></div>
-<h3 id="magic">Magic</h3>
-<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
-<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
-<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
-<blockquote>
-  <p>Each time you level up, you may swap mastered spells for new ones.</p>
-</blockquote>
-<h4 id="scrolls">Scrolls</h4>
-<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
-<blockquote>
-  <p>It is wise to identify a spell before casting it!</p>
-</blockquote>
-<h4 id="enhancements">Enhancements</h4>
-<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
-<h4 id="mishaps">Mishaps</h4>
-<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
-<p>An example mishap table:</p>
-<ol>
-<li>the target reflects the spell back at caster</li>
-<li><code>1d6+lvl</code> damage to the caster</li>
-<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
-<li>the spell affects the party in some way (depending on the spell)</li>
-<li>the caster turns blue</li>
-<li>nothing happens… <em>lucky you!</em></li>
-</ol>
-<h3 id="playingthegame">Playing the Game</h3>
-<p><strong>Narrate your character's actions</strong>. Eg. instead of saying: <em>I attack with my sword</em>; say things like: <em>with my sword drawn; stained with the blood and entrails of the orc at my feet; I charge the last remaining orc, smiting it with both hands and all the might left in me</em>… _or something less dramatic :) . Don't _say_ you do a thing; <em>describe</em> how you do a thing.</p>
-<p><strong>Not all actions require a roll</strong>. Say what your character does and the GM will handle the rest.</p>
-<p><strong>When you attempt something risky</strong>, sum <code>2d6</code> and add one of your skill modifiers, based on the action you’re taking. (The GM will tell you some of the possible consequences before you roll, so you can decide if it’s worth the risk or if you want to revise your action).</p>
-<ul>
-<li><strong>2(snake eyes) is a critical failure</strong>: shit hits the fan.</li>
-<li><strong>3-6 is a miss</strong>: things don’t go well and the risk turns out badly.</li>
-<li><strong>7-9 is a partial success</strong>: you do it but at a cost, compromise, retribution, retaliation, harm, etc.</li>
-<li><strong>10-11 is a full success</strong>: you do it without complications.</li>
-<li><strong>12 (boxcars) is a critical success</strong>: you do it perfectly to some extra benefit.</li>
-</ul>
-<blockquote>
-  <p>A miss or a partial success might incur an enemy attack; damage; an additional threat; a lost item/resource/opportunity; a disadvantage; an unwelcome truth. They add to the role-play and can amp up the tension in a scene.</p>
-</blockquote>
-<h4 id="dieoffate">Die of Fate</h4>
-<p><strong>Sometimes the GM will roll the <code>die of fate</code> to see how a situation unfolds</strong>. Low numbers are ill-fortune; high numbers are good fortune. The die of fate might be rolled to establish the weather, indicate a random NPC’s general attitude, to determine if a wandering monster appears, or the moral of a monster. The GM may also roll the die of fate if the PCs take some action for which sheer chance is the only factor in the outcome. <strong>You will roll this often!</strong></p>
-<div class="pagebreak"></div>
-<h3 id="gear">Gear</h3>
-<p><strong>You have <code>12+con</code> inventory slots</strong>. Items you can hold in one hand take one slot; items that might require two hands to hold take two slots. One slot examples: worn armor/clothes (two slots if carried); a few daggers; a bag containing 250 coins. Two slot examples: martial/great weapons; large shields; animal trap; wine casks. When carrying more items than you have slots, you are <code>encumbered</code> (disadvantage on rolls involving physicality).</p>
-<blockquote>
-  <p>Inventory slots are meant to be more <em>concept than rule</em>. The intent is to remind players of the <em>useful</em> items their PCs are carrying, while providing a reasonable amount they are <em>able</em> to carry.</p>
-</blockquote>
-<p><strong>You start with <code>2d6*10</code> silver coins…</strong></p>
-<ul>
-<li><strong>Light Weapon</strong> (10s): <code>d6</code>. May be wielded as a secondary weapon, <em>allowing you to reroll damage once per attack</em>. Includes daggers, short swords, and hand axes.</li>
-<li><strong>Martial Weapon</strong> (30s): <code>d6+1</code>. Must be wielded in main hand. Includes long swords, hammers, axes, spears etc.</li>
-<li><strong>Great Weapon</strong> (40s): <code>d6+2</code> damage. Uses two hands. Includes two-handed swords, battle-axes and pole arms.</li>
-<li><strong>Shortbow</strong> (10s): d6. Also slings etc.</li>
-<li><strong>Bow</strong> (30s): <code>d6+1</code>. Also crossbows, pistols etc.</li>
-<li><strong>Heavy Bow/Gun</strong> (50s): <code>d6+2</code> Damage if firing from a <em>stationary position</em>. Includes crossbows and muskets.</li>
-<li><strong>Light Armor</strong> (30s): Armor 1 (subtracted from damage taken).</li>
-<li><strong>Full Armor</strong> (60s): Armor 2. Always has a helm. Makes it very hard to run, move quietly, swim, leap etc.</li>
-<li><strong>Shield</strong> (10s): +1 Armor.</li>
-<li><strong>Backpack</strong> (2s): Can hold 12 items up to 40lbs.</li>
-<li><strong>Adventuring Gear</strong> (2s each): 20ft Rope, Iron Spike, Chalk, Parchment, Flint/Steel, Torches (4), Tent, Dice, Caltrops (slows pursuers), Bandages, Travel Rations, Waterskin, Wineskin.</li>
-<li><strong>Tools</strong> (5s each): Crowbar, Hatchet, Animal Trap, Lockpicks, Pen &amp; Pot of Ink, Fishing Pole, Shovel, Grappling Hook, Pickaxe, Collapsible Pole.</li>
-<li><strong>Occult Items</strong> (10s each): Quicksilver (per dose), Pouch of Bone Dust, Vial of Holy Water (one use), Vial of Blood, Ritual Incense and Oils.</li>
-<li><strong>Fancy Items</strong> (20s each): Mirror, Lantern, Spyglass, Sand Timer, Board Game, Elaborate Clothes, Holy Symbols and other charms.</li>
-<li><strong>Fire Oil</strong> (20s per flask): Sets an area on fire (<code>d6+1</code> damage/round for 3 rounds unless extinguished). Fills a lantern 10 times.</li>
-<li><strong>Boats:</strong> Rowboat (50s) to Galley (200,000s).</li>
-<li><strong>Carts:</strong> Cart (30s) to Wagon (100s).</li>
-<li><strong>Taverns:</strong> 1s to Sleep, 1s to Eat, 1s to Get Drunk.</li>
-<li><strong>Property:</strong> House (1,000s) to Manor (100,000).</li>
-<li><strong>Horses:</strong> Mule (30s), Horse (100s), Warhorse (1,000s).</li>
-</ul>
-<h3 id="hirelings">Hirelings</h3>
-<p>Cost per day</p>
-<ul>
-<li><strong>Torch Bearer</strong> (2s): 3HP, Knife.</li>
-<li><strong>Guide</strong> (5s): 6HP, Knife, Lantern, Rope.</li>
-<li><strong>Armsman</strong> (20s): 12HP, Spear, Shield, Light Armor.</li>
-<li><strong>Expert</strong> (20s): 6HP, Skill 4, Dagger, Bow.</li>
-<li><strong>Champion</strong> (60s): 18HP, Full Armor, Halberd, Sword, Shield, Dagger.</li>
-</ul>
-<h3 id="levels">Levels</h3>
-<p><em>As you level up you get rewards according to the table below…</em></p>
-<table>
-<thead>
-<tr>
-<th id="level" style="text-align:center;">level</th>
-<th id="hd" style="text-align:center;">hd</th>
-<th id="skills" style="text-align:center;">skills</th>
-<th id="attributes" style="text-align:center;">attributes</th>
-<th id="abils" style="text-align:center;">abils</th>
-<th id="damage" style="text-align:center;">damage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center;">1</td>
-<td style="text-align:center;">1+con</td>
-<td style="text-align:center;">1+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">2</td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">2</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">3</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">4</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1 (max +3)</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">5</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1d6</td>
-</tr>
-<tr>
-<td style="text-align:center;">6</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">7</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1 (max +3)</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">8</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">9</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-</tr>
-<tr>
-<td style="text-align:center;">10</td>
-<td style="text-align:center;">+1</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1 (max +3)</td>
-<td style="text-align:center;"></td>
-<td style="text-align:center;">+1d6</td>
-</tr>
-</tbody>
-</table>
-<p><strong>B&B</strong> uses <strong>Milestones</strong> to measure a player character's development. The GM sets a goal(s) for the PCs to accomplish before they can reach the next level. Each level should be twice as hard to achieve (give or take). Milestones might include:</p>
-<ul>
-<li>merely surviving their first encounter</li>
-<li>obtaining a MacGuffin</li>
-<li>completing a quest</li>
-<li>defeating a boss</li>
-<li>failures… always a formidable teacher</li>
-</ul>
-<h3 id="lastbreath">Last Breath</h3>
-<p>When a PC's <code>HP</code> drops to 0, they must roll <code>2d6+con</code>:</p>
-<p>On a:</p>
-<ul>
-<li><strong>6-</strong>: you're dead; roll a new character :rip:</li>
-<li><strong>7-9:</strong> you will meet <strong>Death</strong> and bargain for your life. SPOILER: <em>Death can be a dick!</em></li>
-<li><strong>10+:</strong> you feel like hammered shit… but you're alive</li>
-</ul>
-<h3 id="truenames">True Names</h3>
-<p>True names have power; knowing a true name gives you power over <em>the named</em>. Calling to someone by their <code>True Name</code> gives them advantage on <code>Last Breath</code> rolls.</p>
-<div class="pagebreak"></div>
-<h3 id="gms">GMs</h3>
-<p>The following are friendly suggestions for GMing <strong>B&B</strong>. As always, do what's right for you or your players.</p>
-<ul>
-<li><strong>Initiative:</strong> The coolest part of <code>Initiative</code>… is saying <strong>roll initiative!</strong> Given a group of reasonable size (2-5 PCs), <em>cinematic jump cuts</em> (camera-like jumps between players/situations; that follow the narrative) are a great alternative. It also works well with a split party.</li>
-<li><strong>Splitting the Party:</strong> ALWAYS split the party. It's a hoot.</li>
-<li><strong>Balancing Encounters:</strong> Don't do it! PCs should be smart enough to know when they're outmatched. If not, there's always <code>Last Breath</code>. Outside of that, rolling new characters is a snap in <strong>B&B</strong> :)</li>
-<li><strong>Magic Items:</strong> resist issuing +1 <em>to hit</em> items; rather give +1 to damage or something more situational</li>
-</ul>]]></description>
-  </item>
-  <item>
-    <pubDate>Sun, 25 Jul 2021 12:01:00 GMT</pubDate>
-    <title>Skills and Special Abilities</title>
-    <link>https://brine.dev/#post?s=skills_and_special_abilities</link>
-    <guid>https://brine.dev/#post?s=skills_and_special_abilities</guid>
-    <description><![CDATA[<p><em>v 1.3</em></p>
-<p>In <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>, <code>Skills and Special Abilities</code> help define a character's class. They map directly to the classic classes: <strong>Cleric, Fighter, Mage, Ranger & Thief</strong>; but they can also be bent to accommodate custom classes… like <a href="assets/images/chars/benedict_sandaries.pdf">Alchemist</a> or <a href="assets/images/chars/black_jenny.pdf">Road Agent</a>. The following details how these rules have evolved in my games.</p>
-<p><break></p>
-<h3 id="skills">Skills</h3>
-<blockquote>
-  <p>When a PC attempts something in the fiction that might be covered by a skill (eg. Athletics when climbing) they can roll <em>advantage</em> (<code>3d6</code> &amp; keep the highest 2) <code>+ mod</code> instead of a regular roll.</p>
-</blockquote>
-<ul>
-<li><strong>Athletics:</strong> <code>+str/dex</code>: feats of strength and dexterity</li>
-<li><strong>Awareness:</strong> <code>+wis</code>: perceiving the environment around you</li>
-<li><strong>Deception:</strong> <code>+cha</code>: attempt to deceive</li>
-<li><strong>Decipher:</strong> <code>+wis</code>: discern a thing; attempt to understand or interpret</li>
-<li><strong>Heal:</strong> <code>+wis</code>: provide an extra <code>hd</code> to the party when resting/rolling <code>hp</code>; heal <code>1d6+level hp</code> with your touch.</li>
-<li><strong>Leadership:</strong> <code>+cha</code>: use leverage to influence someone; diplomacy; intimidate; parley</li>
-<li><strong>Lore:</strong> <code>+int</code>: consult your accumulated knowledge about something</li>
-<li><strong>Stealth:</strong> <code>+dex</code>: attempt to be sneaky</li>
-<li><strong>Survival:</strong> <code>+con</code>: foraging, hunting; start a fire in unfavorable conditions, etc</li>
-</ul>
-<h3 id="specialabilities">Special Abilities</h3>
-<blockquote>
-  <p>These abilities can add additional flavor to a class. The word <code>attempt</code> will generally signify rolling a <code>2d6+mod</code> when applicable.</p>
-</blockquote>
-<ul>
-<li><strong>Backstab:</strong> +3 damage from concealment</li>
-<li><strong>Bless:</strong> anoint items with holy water for +/-3 damage and as magical</li>
-<li><strong><a href="https://brine.dev/#spellTags?t=cantrip">Cantrips</a>:</strong> cast 3 simple magical spells</li>
-<li><strong>Command:</strong> attempt to command any spirit, demon, etc.</li>
-<li><strong>Cure:</strong> attempt to neutralize poisons or remove curses</li>
-<li><strong>Hardy:</strong> +6 hp</li>
-<li><strong>Lucky:</strong> turn a miss into a partial success once per day</li>
-<li><strong>Pet:</strong> you have a loyal and <em>effective</em> animal companion</li>
-<li><strong>Reflexes:</strong> you always act first and cannot be surprised</li>
-<li><strong>Ritual:</strong> attempt occult rituals; detailed in ancient tomes and scrolls</li>
-<li><strong>Scout:</strong> with you on point, your party can move quicker, cover more ground and spot targets before they spot you</li>
-<li><strong>Skirmish:</strong> +1 damage; worn armor counts as one type lighter</li>
-<li><strong>Slay:</strong> +2 melee damage</li>
-<li><strong>Summon:</strong> summon a spirit you know by its true name</li>
-<li><strong>Tinker:</strong> pick a lock, pocket or trap w/ tools</li>
-<li><strong>Tough:</strong> +1 armor</li>
-<li><strong>Turn:</strong> attempt to hold undead at bay with your faith and holy symbol</li>
-<li><strong>Vision:</strong> commune with your deity or demon via holy water/drugs</li>
-<li><strong>Volley:</strong> +2 ranged damage</li>
-<li><strong>Wild:</strong> converse with and attempt to command animals; some classes (eg. Druids) use this to <em>shapeshift</em></li>
-</ul>]]></description>
-  </item>
-  <item>
-    <pubDate>Sun, 04 Jul 2021 12:01:00 GMT</pubDate>
-    <title>Black Jenny and her Gang of Miscreant Sons</title>
-    <link>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</link>
-    <guid>https://brine.dev/#post?s=black_jenny_and_her_gang_of_miscreant_sons</guid>
-    <description><![CDATA[<p>I like to weave pre-written modules into my campaigns (parts of them, anyway). The different tones and ideas keep my players guessing and oftentimes end up becoming part of our lore. Case in point: when I threw <a href="http://dungeonofsigns.blogspot.com/2012/08/prison-of-hated-pretender-pdf.html">Prison of the Hated Pretender</a> into my longrunning campaign. I had previously run it as a one-shot when one of my players was unavailable. It ended in a TPK 🙄.</p>
-<p><break></p>
-<p>Being the benevolent GM that I am, I decided to bring my campaign party back to this setting and witness their one-shot character's dead, broken bodies. They also found out that the Pretender… HAS ESCAPED! In search of his crown, he immediately sought out… <em>Black Jenny</em>.</p>
-<p><strong>The Hated Pretender and Black Jenny are now NPCs in my world.</strong> From the module, we know Jenny's name; the name of her gang, and that she stole the crown of the Hated Pretender. Thus, I had to flesh her out a bit. This is what I came up with…</p>
-<h3 id="thegang">The Gang</h3>
-<p>Jenny's "sons" are neither boys nor related to her by blood. Street urchins with promise; she recruits them, trains them and puts them to work. All mentions of her <em>Miscreant Sons</em> are met with a collective groan from the girls. It is safer to pose as <em>sons than daughters</em>; so they look the other way… <em>but hate it</em>.</p>
-<ul>
-<li><p><strong>Black Jenny</strong> - <em>road agent</em></p>
-<blockquote>
-  <p><code>hd5(+2con); ac+2; at2d6(+2dex/0str): 2d6(+1 daggers)</code></p>
-  <p>She has dark hair and black leather armor. A string of onyx gemstones around her neck. She wants to retire… in a <em>black tower</em>.</p>
-</blockquote></li>
-<li><p><strong>Natty</strong> - <em>thief</em></p>
-<blockquote>
-  <p><code>hd3; ac0; at1d6(+2dex/0str): 1d6(bow +1/daggers); lock picks/backstab;</code></p>
-  <p>The oldest of the girls at 14, it's getting more and more difficult to play the role of a "son". She wears her long, red hair in a <em>boys style</em>; frumpy clothes and is quick to pick a pocket.</p>
-</blockquote></li>
-<li><p><strong>Lunara</strong> - <em>alchemist</em></p>
-<blockquote>
-  <p><code>hd3; ac0; at1d6: 1d6(+1 pistols/darts); ritual/lore</code></p>
-  <p>She sports a blonde bowl cut and a tunic with multiple burn marks. Through rituals, she is able to concoct healing potions, gunpowder and an <em>exploding</em> paralysis potion. She wears a leather satchel full of glass vials.</p>
-</blockquote></li>
-<li><p><strong>Peregrine</strong> - <em>ranger</em></p>
-<blockquote>
-  <p><code>hd3(+2con); ac0; at1d6(+1str): bite/claws;</code></p>
-  <p>She is a <em>skin-walker</em> and can shapeshift into a falcon. She has a number of tattoos and spiked, dark hair. She always attacks in falcon form.</p>
-</blockquote></li>
-</ul>
-<h3 id="tactics">Tactics</h3>
-<p>The gang will attempt to get an edge by having <strong>Peregrine</strong> drop a paralysis vial on targets. Those that remain moving will get the same potion via a dart from <strong>Lunara</strong>. Otherwise, they will turn to <strong>Natty's</strong> stealth or ability to <em>obtain</em> things…</p>]]></description>
-  </item>
-  <item>
-    <pubDate>Sun, 02 May 2021 12:01:00 GMT</pubDate>
-    <title>A Magic System</title>
-    <link>https://brine.dev/#post?s=a_magic_system</link>
-    <guid>https://brine.dev/#post?s=a_magic_system</guid>
-    <description><![CDATA[<p><em>v 1.6</em></p>
-<blockquote>
-  <p>The door to magic is closed for most; some few may find it ajar; <em>fewer still</em> may pick the door's lock altogether. Aptitude for the craft is is not unusual but is often misinterpreted. Great magic requires <em>constant practice</em>. The best magi are not always the most gifted; just <em>persistent</em>.</p>
-  <p><strong>Magic is dangerous</strong>; spells go poorly and the consequences can be… severe.</p>
-</blockquote>
-<p><break></p>
-<h3 id="mechanics">Mechanics</h3>
-<p><strong>You can master spells equal to your level + 2</strong> (eg. 1st level magi have mastered 3 spells).</p>
-<p>Casting spells takes a physical toll. <strong>You can safely cast spells equal to your <code>hd + con</code></strong> (ie. <em>spell slots</em>). Above that, you take <code>1d6+lvl</code> damage for each spell cast. Safe casting is restored after resting in <em>comfort and safety</em>.</p>
-<p><strong>Mages add <code>int</code> to their casting rolls; clerics add <code>wis</code></strong> (eg. <code>2d6+int/wis</code>) and your <code>level</code> to damage rolls (eg. <code>2d6+lvl</code>). You gain an extra <code>d6</code> of damage at levels 5 &amp; 10.</p>
-<p>When you level up, you may swap mastered spells for new ones.</p>
-<h3 id="scrolls">Scrolls</h3>
-<p><strong>You may attempt to cast spells from written texts</strong>. This requires more casting time while you read/review the spell (ie. <em>a turn</em>) and expends a <em>spell slot</em>.</p>
-<p>It is wise to identify a spell before casting it!</p>
-<h3 id="enhancements">Enhancements</h3>
-<p><a href="https://brine.dev/#spellTags?t=enhancement"><em>Enhancement</em> spells</a> are cast in conjunction with a target spell. They augment spell casting and/or effect, and expend a <em>spell slot</em> in addition to the target spell.</p>
-<h3 id="mishaps">Mishaps</h3>
-<p><strong>Magic is dangerous</strong>. A failed casting roll may have consequences; a critical fail always will.</p>
-<p>An example mishap table:</p>
-<ol>
-<li>the target reflects the spell back at caster</li>
-<li>1d6 damage to the caster</li>
-<li>the caster is blinded/frozen/afraid/etc… for a short time</li>
-<li>the spell affects the party in some way (depending on the spell)</li>
-<li>the caster turns blue</li>
-<li>nothing happens… <em>lucky</em></li>
-</ol>
-<h3 id="addendum">Addendum</h3>
-<p>Presented as an alternate/additional magic system for <a href="http://www.onesevendesign.com/dw/world_of_dungeons_1979.pdf">World of Dungeons</a>.</p>
-<p>I have a <a href="/#spells">growing list of spells</a> and/or allow players to create their own.</p>]]></description>
   </item>
 </channel>
 </rss>
