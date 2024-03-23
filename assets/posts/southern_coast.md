@@ -144,12 +144,12 @@ The Jailers stand at attention in the prisons long entrance. Their runes' flicke
 
 Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive _royal endowments_ from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently.
 
-- **Warden Cloudcroft** Stern, Respected - Abbes Salvora visits often and a select few know they are "friendly"
-- **Captain Kell** veteran, strict, proud
+- **Warden Cloudcroft** `Stern, Respected` - Abbes Salvora visits often and a select few know they are "friendly"
+- **Captain Kell** `Veteran, Strict,Proud`
 - **Jailers** ethereal guards that wear a stone rune; can form a painful astral prison with their touch
-- **Gavric the Silent** Inmate, Assassin
-- **The Hag Kalg** Inmate - rumors of her whispering to a dragon-shaped shadow
-- **The Lost Druid** Inmate - her incarceration was a necessary sacrifice to complete a complex ritual
+- **Gavric the Silent** `Inmate, Assassin`
+- **The Hag Kalg** `Inmate` - rumors of her whispering to a dragon-shaped shadow
+- **The Lost Druid** `Inmate` - her incarceration was a necessary sacrifice to complete a complex ritual
 - 4 workers; 6 human guards; 6 Jailers
 
 **0310 The Bone Cairn** is a puzzling landmark. A massive pile of bones arranged in the form of a cairn. If the bones are toppled, they inexplicably restack themselves at twilight, defying explanation.
@@ -177,16 +177,16 @@ Surrounding the towers is a desert village housing approximately 300 inhabitants
 
 In the center of the village sits a magical cistern, created by the magi of Yagul Fane, ensuring water for all. This enchanted well symbolizes the community's unity and strength. The villagers engage in herding livestock and participating in trade as part of their daily activities.
 
-- **Gareth** Next in line for Council of 6, Necromancer, Sweet tooth
-- **Captain Yorik** Guard, Hunter, Daring
-- **The Broker** Fence, Embroiderer, Methodical
-- **Narla** Alchemist, Pretty, 3 Husbands
-- **Sorrel** Priest, Trailblazer, Passionate
-- **Cirian** Sage, Cartwright, Creative
-- **Flax** Barkeep, Assassin, Funny
-- **Liren** Armorer, Wench, Determined
-- **Ursula** Spy, Cheeky, Displaced, Ward
-- **Mrs Redraven**  Lady-of-the-house, Loyal, Prude
+- **Gareth** `Next in line for Council of 6, Necromancer, Sweet tooth`
+- **Captain Yorik** `Guard, Hunter, Daring`
+- **The Broker** `Fence, Embroiderer, Methodical`
+- **Narla** `Alchemist, Pretty, 3 Husbands`
+- **Sorrel** `Priest, Trailblazer, Passionate`
+- **Cirian** `Sage, Cartwright, Creative`
+- **Flax** `Barkeep, Assassin, Funny`
+- **Liren** `Armorer, Wench, Determined`
+- **Ursula** `Spy, Cheeky, Displaced, Ward`
+- **Mrs Redraven** `Lady-of-the-house, Loyal, Prude`
 
 **0807.6 Barrow of the Cane**
 A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon a small hill marked with rusty grass. The rune tells an elaborate history of **The Cane**, an ancient tribe of warriors. The barrow has an entrance at its base, framed by three monolith stones. The walls within are covered in chalky paintings of men with long spears fighting various monsters; hand prints of men, women and children; and giants in the mountains. The paintings depict families with heads in the shape of various animal spirits. Each cubbyhole is marked with these same animal shapes.
@@ -207,21 +207,21 @@ The Monastery boasts a renowned library, a trip of goats that produces fine milk
 
 A group of pilgrims has come from the north seeking guidance and sanctuary, placing additional strain on the resources and tranquility of the monks.
 
-- **Abbes Salvora** Devoted, Wise
-- **Prior Cedric** Rugged, Diligent
-- **Sister Elara** Druid, Healer - formerly? of the Lost Druids
-- **Brother Ulfar** Vintner, Mean Drunk - avoided but knows wine
-- **Brother Estabar** Monk, Eager - master goat herder
-- **Sir Ealdred** Knight, Daring - seeks spiritual clarity after long and brutal campaigns
-- **Lady Isolde** Noble, Selfless - sought sanctuary from the pressures of court life
+- **Abbes Salvora** `Devoted, Wise`
+- **Prior Cedric** `Rugged, Diligent`
+- **Sister Elara** `Druid, Healer, Formerly Lost Druid`
+- **Brother Ulfar** `Vintner, Mean Drunk` - avoided but knows wine
+- **Brother Estabar** `Monk, Eager` - master goat herder
+- **Sir Ealdred** `Knight, Daring` - seeks spiritual clarity after long and brutal campaigns
+- **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life`
 - 28 Monks, 6 pilgrims
 
 **1405 Loggers Camp** in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement.
 
-- **Foreman "Boss" Bartok** Burly, Caring (crew and sustainability of logging)
-- **Lena "Sawbones" Thorne** Medic, Herbalist, Gentle
-- **Lucia "Twig" Thorne** Camp Mom, Agile, Cheerful
-- **"Cookie"** One-armed Logger, Terrible cook
+- **Foreman "Boss" Bartok** `Burly, Caring (crew and sustainability of logging)`
+- **Lena "Sawbones" Thorne** `Medic, Herbalist, Gentle`
+- **Lucia "Twig" Thorne** `Camp Mom, Agile, Cheerful`
+- **"Cookie"** `One-armed Logger, Terrible cook`
 - 18 loggers
 
 **1408 Fishing Hamlet** with handful of huts. The one closest to the sea belongs to **Pesh**, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.
@@ -257,24 +257,24 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 
 ### BESTIARY
-- **Bear** Strong, Quick, Reach, Perceptive - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",
-- **Bog Troll**: Brutish, Mossy, Ambush - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.
-- **Bristled Boar**: Aggressive, Tusks, Gorge - Angry. Damn angry. Seething! That cute little squiggly tail is attached to a wild, shaggy killer!
-- **Griffon**: Majestic, Hunter, Flight - As for riding one of these noble beasts: bowing is not a bad idea... but you first!
-- **Dragon Vine** Swarm, Grapple, Poison - Razor sharp and stronger than you'd expect. You may only notice them after they've grappled you... and then there's the poison.
-- **Dust Devil**: Elusive, Blinding, Sandstorm - Your weapons are useless against these whirling tornadoes of sand.
-- **Dune Crawlers**: Agile, Burrow, Venomous - Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait...
-- **Lamp Boy**: Tracker, Mute, Coins-for-eyes - These fae creatures are engaged by someone or something (even the cosmos), to retrieve someone or something, and lead them to someone or somewhere They will not stop until their task is done. Those silver eyes cannot be deceived. Careful... you break one, you become one.
-- **Quicksand**: Treacherous, Sinking, Trap - Slow, deliberate movements will save you; bad time for a panic attack.
-- **Sandit**: Sandstorm, Bandit, Ambush - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.
-- **Shadow Dragon**: Big, Shadow-walker, Incorporeal - Only solid/vulnerable when breathing fire, during twilight or when it wishes.
-- **Redcap**: Invisible, Pack, Razors - If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps!
-- **Succubi**: Seductive, Hypnotic, Draining - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively
-- **Swamp Drakes**: Jaws, Hunter, Aquatic - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.
-- **Wailing Tree**: Haunting, Mourning, Bewitching - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
-- **Wendigo** Cannibal, Wind-walker, Curse of Insatiable Hunger, Icy Portents, Frightening - Victims will devour every scrap of food on their person... and then attempt to devour a person.
-- **Wolf** Predator, Pack, Cunning, Keen Senses - You might want to stay close to a fire... or a spear.
-- **Zombies** Undead, Relentless, Mindless - How's your cardio?
+- **Bear** `Strong, Quick, Reach, Perceptive` - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",
+- **Bog Troll** `Brutish, Mossy, Ambush` - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.
+- **Bristled Boar** `Aggressive, Tusks, Gorge` - Angry. Damn angry. Seething! That cute little squiggly tail is attached to a wild, shaggy killer!
+- **Griffon** `Majestic, Hunter, Flight` - As for riding one of these noble beasts: bowing is not a bad idea... but you first!
+- **Dragon Vine** `Swarm, Grapple, Poison` - Razor sharp and stronger than you'd expect. You may only notice them after they've grappled you... and then there's the poison.
+- **Dust Devil** `Elusive, Blinding, Sandstorm` - Your weapons are useless against these whirling tornadoes of sand.
+- **Dune Crawlers** `Agile, Burrow, Venomous` - Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait...
+- **Lamp Boy** `Tracker, Mute, Coins-for-eyes` - These fae creatures are engaged by someone or something (even the cosmos), to retrieve someone or something, and lead them to someone or somewhere They will not stop until their task is done. Those silver eyes cannot be deceived. Careful... you break one, you become one.
+- **Quicksand** `Treacherous, Sinking, Trap` - Slow, deliberate movements will save you; bad time for a panic attack.
+- **Sandit** `Sandstorm, Bandit, Ambush` - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.
+- **Shadow Dragon** `Big, Shadow-walker, Incorporeal` - Only solid/vulnerable when breathing fire, during twilight or when it wishes.
+- **Redcap** `Invisible, Pack, Razors` - If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps!
+- **Succubi** `Seductive, Hypnotic, Draining` - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively
+- **Swamp Drakes** `Jaws, Hunter, Aquatic` - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.
+- **Wailing Tree** `Haunting, Mourning, Bewitching` - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
+- **Wendigo** `Cannibal, Wind-walker, Curse of Insatiable Hunger, Icy Portents, Frightening` - Victims will devour every scrap of food on their person... and then attempt to devour a person.
+- **Wolf** `Predator, Pack, Cunning, Keen Senses` - You might want to stay close to a fire... or a spear.
+- **Zombies** `Undead, Relentless, Mindless` - How's your cardio?
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
