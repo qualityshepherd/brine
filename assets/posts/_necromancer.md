@@ -1,6 +1,6 @@
 ---
 title: A Necromancer
-date: 2023-12-29
+date: 2099-3-23
 description:
 tags: words
 ---

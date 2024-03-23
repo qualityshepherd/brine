@@ -5,6 +5,10 @@ import config from '../package'
  * Note: fetch is provided in the browser...
  */
 
+export function removeFuturePosts (posts) {
+  return posts.filter(post => new Date(post.meta.date) <= new Date())
+}
+
 export async function readSiteIndex (pathToIndex = config.splog.pathToIndex) {
   const data = await fetch(pathToIndex)
     .catch(err => { console.log(err) })

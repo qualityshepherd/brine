@@ -5,23 +5,107 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 18 Mar 2024 12:23:14 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 23 Mar 2024 21:17:05 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
+    <title>A Confession</title>
+    <link>https://brine.dev/#post?s=_a_confession</link>
+    <guid>https://brine.dev/#post?s=_a_confession</guid>
+    <description><![CDATA[<p>Author: Brother Malachi</p>
+<p>Here in the dar</p>
+<p>In the hallowed halls of the temple, where the flickering candlelight casts shadows upon ancient tomes and sacred relics, I, Brother Rhys, a humble servant of the divine, find myself reflecting upon the mystical arts that permeate our world. As a young priest, entrusted with the spiritual guidance of my congregation, I have long pondered the nature of magic and its practitioners—magi and witches alike—and how their abilities compare to my own.</p>
+<p>First, let us consider the magi, wielders of arcane knowledge and masters of manipulation. With their spells and enchantments, they command the elements themselves, bending reality to their will with a mere flick of the wrist. Theirs is a power born of intellect and study, honed through years of rigorous training and discipline. From the conjuring of fire to the summoning of storms, the magi's repertoire knows no bounds, limited only by the depths of their imagination and the constraints of the natural world.</p>
+<p>And then there are the witches, beings of ethereal grace and enigmatic allure, whose magic flows from the very essence of their being. Born of the union between fae and human, they possess a deep connection to the natural world, communing with spirits and channeling energies beyond mortal comprehension. With their spells of healing and transformation, they weave enchantments that blur the boundaries between the mundane and the mystical, weaving threads of magic into the tapestry of existence itself.</p>
+<p>In comparison, the abilities of a priest may seem humble by comparison, yet they are no less profound in their impact upon the world. Our magic, if it can be called such, is rooted not in arcane formulas or innate talent, but in faith and devotion to a higher power. Through prayer and ritual, we invoke divine blessings and guidance, offering solace to the afflicted and strength to the weary. Our spells are not cast with incantations or gestures, but with words of comfort and acts of compassion, imbued with the light of divine grace.</p>
+<p>Indeed, while the magi may wield fire and lightning, and the witches may shape-shift and commune with nature, the power of a priest lies in the ability to inspire hope, foster healing, and bring comfort to those in need. It is a power born not of earthly knowledge or fae ancestry, but of a profound belief in the inherent goodness of humanity and the guiding hand of the divine.</p>
+<p>As I gaze out upon the world, with its wonders and its mysteries, I am reminded that each path to magic is unique, and that true power lies not in the spells we cast or the abilities we possess, but in the kindness and compassion we show to others. And so, as a young priest, I pledge to continue my journey with faith and humility, seeking to embody the virtues of love and service that lie at the heart of my calling.</p>]]></description>
+  </item>
+  <item>
+    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
+    <title>Glimmerwood Forest</title>
+    <link>https://brine.dev/#post?s=_glimmerwood_forest</link>
+    <guid>https://brine.dev/#post?s=_glimmerwood_forest</guid>
+    <description><![CDATA[<p><img src="assets/images/whipping_tree.webp" alt="round" /></p>
+<p><em>v1.0</em></p>
+<ul>
+<li>prison of dangerous books</li>
+<li>cult is praying for weather change but god is not listening… PRAY HARDER</li>
+<li>the druid is sleeping in the grove somewhere/how</li>
+</ul>
+<p><a href="assets/images/glimmerwood_forest_map.webp"><img src="assets/images/glimmerwood_forest_map.webp" alt="thumb" /></a>
+Glimmerwood Forest is a popular shortcut for those without fear of the forest. It can halve travel time between Emberford (<code>0709</code>) and the northern villages. The increase in traffic has also increased the population.</p>
+<p>But thunderstorms ravage Glimmerwood Forest. These storms target only the forest, leaving the surrounding areas dry and peaceful. Paths made treacherous by the rains impede travel and hunting. Those who try report seeing ghastly apparitions.</p>
+<p>In the heart of the forest, words cut into an ancient, gnarled tree; a spell. Is this the reason for the storms or solution to them?</p>
+<h3 id="rumors">RUMORS</h3>
+<ol>
+<li><strong>The Whipping Tree</strong> (<code>0502</code>) carries the blood of those punished upon it. It whispers when the storms rage; casting the spell cut into it.</li>
+<li>That witch and her filthy coven are behind these storms.</li>
+<li><strong>The Green Lady</strong> is a beautiful, green temptress. She stalks the forest, "calling" to the hunters.</li>
+<li>Cloaked figures perform rituals in the <strong>Lost Druid's Grove</strong> (<code>0902</code>); deep within Glimmerwood. The grove was once home to a powerful druid who vanished centuries ago.</li>
+<li>Paths in Glimmerwood are said to shift and change directions, leading wanderers into the heart of the forest.</li>
+<li><strong>The Ghost Herd</strong> is a spectral herd of elk that roams Glimmerwood.</li>
+</ol>
+<h3 id="encounters">ENCOUNTERS</h3>
+<ol>
+<li>A mudslide threatens to envelope the PCs</li>
+<li>The Ghost Herd threatens to trample the PCs</li>
+<li>A distressed hunter stuck in quicksand</li>
+<li>Unearthed graves; disturbed by the rains</li>
+<li>Apparitions haunt the PCs until their graves are restored</li>
+<li>The Green Lady calls to the PCs</li>
+</ol>
+<h3 id="notables">NOTABLES</h3>
+<p><strong>George & Astrid Duskwood</strong> <code>Innkeepers, Silversmith, Ambitious</code> - George is a retired silversmith. His new bride Astrid and her son are building the first inn in the area; the first permanent structure of any kind(<code>0608</code>). They are hoping to establish a village here. The rains are delaying most of their shipments.</p>
+<p><strong>Ceridwen</strong> <code>Cartographer, Woodworker, Big Thinker</code> - She carefully maps the forest, intending to sell them to a logging enterprise in Emberford. While she waits out the storms in her tent, she carves intricate wooden figures. She's currently working a piece she took from the Whipping Tree.</p>
+<p><strong>Rowan Bramblethorn</strong> <code>Hunter, Worthy, Determined</code> - He lives in the forest and will be helpful to those who show respect. He is close with Nyx, or at least thinks so.</p>
+<p><strong>Kelsia</strong> <code>Trapper, Mentor, Materialistic</code> - She is only a threat to forest furbearers, and takes great pride in <em>the artistry</em> of trapping. She travels with her nephew, Orion, teaching him the trade. She is careful to leave "offerings" outside Witch Ailmar's desolate brugh.</p>
+<p><strong>The Witch Ailmar</strong> <code>Witch, Herbalist, Untrustworthy</code> - Despite her dubious practices, Ailmar is an unparalleled herbalist. Many seek her remedies and potions, but are quick to blame her for the unwelcome truths they uncover. She sees the forest as an exploitable resource and enjoys its solitude.</p>
+<p><strong>Nyx</strong> <code>The Green Lady, Dryad, Guardian</code> - She knows the coming of men is inevitable but resits their impact on the forest as best she can. While Nyx did not create the tree's spell, she knows it as a spell to "Wash Away Sins". She believes it maintains balance in the forest and will not interfere with it in any way.</p>
+<h3 id="locations">LOCATIONS</h3>
+<p><strong>Glimmerwood Forest:</strong> A dense and ancient woodland, shrouded in mist. Towering trees with twisted branches create a canopy, casting ethereal shadows on the lush forest floor. The air crackles with a mysterious energy, and the occasional flash of magical storms illuminates the surroundings.</p>
+<p><strong>The Whipping Tree (<code>0502</code>):</strong> A gnarled and imposing tree with dark bark, standing alone in a small clearing. Faint echoes of past punishments linger in the air, and the tree seems to whisper when the storms rage, hinting at a dark and forbidden history.</p>
+<p><strong>Lost Druid's Grove (<code>0902</code>):</strong> A hidden grove deep within Glimmerwood, filled with ancient stone circles and remnants of long-forgotten rituals. Cloaked figures perform mysterious ceremonies, their actions obscured by the shadows of the ancient trees.</p>
+<p><strong>Inn of George & Astrid Duskwood (<code>0608</code>):</strong> A modest yet welcoming inn under construction at the edge of the forest. The sound of hammers and saws echoes as George and Astrid Duskwood strive to establish the first building in the area. The rains delay shipments, leaving the inn in partial completion.</p>
+<p><strong>The Green Lady's Domain:</strong> A secluded part of the forest where vibrant greenery flourishes. Nyx, the Dryad known as The Green Lady, resides here. The air is filled with the sweet scent of blossoms, and the energy feels both calming and protective. She can control the Ghost Herd</p>
+<p><strong>Witch Ailmar's Desolate Brugh:</strong> A mysterious and somewhat eerie dwelling nestled in the heart of Glimmerwood. The witch, Ailmar, resides here. The surroundings are adorned with various herbs and potions, and an air of untrustworthiness permeates the atmosphere.</p>
+<p><em>map by <a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">Watabou</a></em></p>]]></description>
+  </item>
+  <item>
+    <pubDate>Mon, 23 Mar 2099 12:01:00 GMT</pubDate>
+    <title>A Necromancer</title>
+    <link>https://brine.dev/#post?s=_necromancer</link>
+    <guid>https://brine.dev/#post?s=_necromancer</guid>
+    <description><![CDATA[<p>## Nekros Manteia</p>
+<p>Like most Necromancers, Indis Fane came to the craft by happenstance. Or at least, she imagines this to be the case. Her teacher did hint that he too fell upon the path; changing the subject to all follow up questions. Practitioners, understandably, are not chatty folk. Then tend to mimic their subjects in this way. Might she be the last? Her heart is neither coal nor gold. She deals in death because it is within her power. Like any gifted person might, she takes pride in perfecting her skill. She catches herself adding flourishes in her movements; theatrics without audience. <em>Why do I do that?</em></p>
+<p>Indis hales from Duskby. She is the reason for the poor harvest. She required the life force of a copse of white oak… she underestimated the reach of their taproots; the resulting blight was unintended.</p>
+<p>An aging wealthy merchant hired Indis to extend his life. Not understanding the dangers that messing with the balance of nature, she thought the trees wouldn't be missed. The blight brought a poor harvest and Duskby is hungry. The people are keen to blame and Indis is definitely on the list. It also called the attention of a dryad who looks for retribution. Meanwhile, the merchant is making shittons of money but importing foods.</p>
+<h2 id="tablesscenes">TABLES (scenes)</h2>
+<p><strong>The Hungry Mob</strong></p>
+<ul>
+<li><p>fear/mistrust Indis and will eventually turn on her</p></li>
+<li><p>envy and greed will lobby against the merchant and eventually take his shit and kill him</p></li>
+<li><p>will burn the forest to kill the dryad</p></li>
+<li><p>the dryad will curse Indis and/or the town (ie. FUCKING HUMANS)</p></li>
+<li><p>skeletons (raised by Indis for protection)</p></li>
+<li><p>zombies</p></li>
+</ul>]]></description>
+  </item>
   <item>
     <pubDate>Mon, 18 Mar 2024 12:01:00 GMT</pubDate>
     <title>Southern Coast</title>
     <link>https://brine.dev/#post?s=southern_coast</link>
     <guid>https://brine.dev/#post?s=southern_coast</guid>
-    <description><![CDATA[<p><strong>The Southern Coast</strong>, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, a place to "throw our trash". Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.</p>
+    <description><![CDATA[<p><strong>The Southern Coast</strong>, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, <em>"a place to throw our trash"</em>. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.</p>
 <p>With these pillars of civilization established, the Southern Coast has begun to attract adventurous individuals seeking to make it their home.</p>
 <h3 id="whatisthis">WHAT IS THIS?</h3>
 <p>The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate YOUR campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.</p>
 <h3 id="hooks">HOOKS</h3>
 <ol>
 <li>Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.</li>
-<li>The Crown's Fury, a ship lost in the Battle Mistwood, was <em>busting</em> with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness has come forth, swearing that it's The Crown's Fury.</li>
+<li>The Crown's Fury, a ship lost in the Battle Mistwood, was <em>busting</em> with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.</li>
 <li>A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.</li>
-<li>An infamous game hunter, and friend to the Northern Kings, will pay big for help finding/tracking/killing a wendigo.</li>
+<li>An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.</li>
 <li>The PCs are escorting a prisoner to the Prison of Mon</li>
 <li>A Duke's son found a treasure map leading to the Isle of Wight and has not been heard from for a week.</li>
 </ol>
@@ -29,7 +113,7 @@
 <ol start="2">
 <li>The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.</li>
 <li>Some crazy druid up in the mountains has got himself a harem and is performing miracles!</li>
-<li>Yagul Fane is built atop an ancient city just <em>busting</em> with treasure.</li>
+<li>Yagul Fane is built atop an ancient city with unimaginable treasure.</li>
 <li>Have you ever known purveyors of magic and religion to get along? There's tension there… count on it.</li>
 <li>Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.</li>
 <li>Follow lights in the mountains to your peril.</li>
@@ -40,7 +124,7 @@
 <li>I have it on good authority that one of the Northern Kings has a spy down here.</li>
 </ol>
 <h3 id="locations">LOCATIONS</h3>
-<p><strong>Freemoon Forest</strong> stretches westward along the South Sea. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities".</p>
+<p><strong>Freemoon Forest</strong> stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, <strong>Lady Goodknight</strong> (Queen, Grandparent, Peevish), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.</p>
 <p>Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings… yet.</p>
 <table>
 <thead>
@@ -60,7 +144,7 @@
 </tr>
 <tr>
 <td style="text-align:center;">4</td>
-<td style="text-align:left;"><strong>Sprites</strong> play pranks and offer gifts to those that are good sports or dangerous illusions if not.</td>
+<td style="text-align:left;">d6+1 <strong>Redcaps</strong> are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.</td>
 </tr>
 <tr>
 <td style="text-align:center;">5</td>
@@ -93,6 +177,7 @@
 </tbody>
 </table>
 <p><strong>Twilight Sands</strong> As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect… sometimes literally.</p>
+<p>Nomadic tribes may lay claim to certain areas, and conflicts over resources are not uncommon among them. They are quick to dismiss any hint of authority from Yagul Fane and their "wizzards".</p>
 <table>
 <thead>
 <tr>
@@ -103,7 +188,7 @@
 <tbody>
 <tr>
 <td style="text-align:center;">2</td>
-<td style="text-align:left;"><strong>Sandits</strong> posses a stone that creates a magical sandstorm when submersed in water. More water more storm. They create a storm and attack in the ensuing mayhem.</td>
+<td style="text-align:left;"><strong>Sandits</strong> us a stone that creates a magical sandstorm when submersed in water. More water; more storm. They create a storm and attack in the ensuing mayhem.</td>
 </tr>
 <tr>
 <td style="text-align:center;">3</td>
@@ -299,14 +384,14 @@
 </table>
 <h3 id="hexes">HEXES</h3>
 <p><strong>0104 Shadow Dragon Lair</strong> entrance is obscured by shifting shadows created by bioluminescent fungi, which also provide dim illumination throughout the cave. The shadows are nearly indistinguishable from the dragon itself.</p>
-<p>Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon, injured and dying. She nursed it back to health, creating an everlasting bond. The two communicate via shadows, plotting her freedom.</p>
+<p>Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon, injured and dying. Her nursing it back to health, created an everlasting bond. The two communicate via shadows, plotting her freedom.</p>
 <p><strong>0209 Greever's Lighthouse</strong> stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida, met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.</p>
 <p>Ida's diary lies under her old bed on fourth floor. In it, she reveals that her one true love was the captain of The Crown's Fury. News that his ship was lost in the Battle Mistwood came the same day she lept from the tower. She and the other ghosts activate the old light to summon the ghost ship from the depths.</p>
 <p>At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card that reads "My dearest Ida, Your favorite color. Love, Peter".</p>
 <p><strong>0302 Lost Druid's Grove</strong> lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.</p>
-<p><strong>0305 Prison of Mon</strong> is carved into craggy face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.</p>
+<p><strong>0305 Prison of Mon</strong> is carved into rock face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.</p>
 <p>The Jailers stand at attention in the prisons long entrance. Their runes' flickering amber glow the only light. Jailers are attuned to truth; any attempt to hide one's true nature, intentions, or possessions triggers a harsh reaction.</p>
-<p>Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive <em>royal endowments</em> from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently. A series of dangerous accidents prompts concerns about the prison's safety and security. The old girl is showing her age?</p>
+<p>Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive <em>royal endowments</em> from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently.</p>
 <ul>
 <li><strong>Warden Cloudcroft</strong> Stern, Respected - Abbes Salvora visits often and a select few know they are "friendly"</li>
 <li><strong>Captain Kell</strong> veteran, strict, proud</li>
@@ -319,7 +404,7 @@
 <p><strong>0310 The Bone Cairn</strong> is a puzzling landmark. A massive pile of bones arranged in the form of a cairn. If the bones are toppled, they inexplicably restack themselves at twilight, defying explanation.</p>
 <p><strong>0408.1 The Mirage Merchant</strong> A caravan camped near the Twilight Sands; A merchant sells trinkets that have magical effects at twilight. 1 in 6 is <em>actually</em> magical.</p>
 <p><strong>0412 Isle of Wights</strong> is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no <em>wights</em> on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.</p>
-<p><strong>0502 Prophet for Profit</strong> Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself "The River". He sought out the druids but broke from them to start his own flock… a <em>new</em> sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a <strong>Nymph's Tear</strong>, a tear shaped gemstone.</p>
+<p><strong>0502 Prophet for Profit</strong> Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself as "The River". He sought out the druids but broke from them to start his own flock… a <em>new</em> sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a <strong>Nymph's Tear</strong>, a tear shaped gemstone.</p>
 <table>
 <thead>
 <tr>
@@ -408,14 +493,14 @@ A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon
 <h3 id="hextras">HEXTRAS</h3>
 <p>The following hex/encounters can be used as random situations throughout the Southern Coast as the GM requires.</p>
 <ol>
-<li><p><strong>Shadow Walker</strong> A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to a specific place. Without the sun, there is no shadow; at the right time, she will walk into a shadow, through a disorienting maze of darkeness and out of another shadow that she has seen and knows the angle of at specific moments. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works for a price.</p></li>
+<li><p><strong>Shadow Walker</strong> A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to her intended destination. Once the shadows are just right, she will walk into it, through a disorienting maze of darkness and out of another shadow elsewhere. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works… for a price.</p></li>
 <li><p><strong>Classic Traveler</strong> A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as <strong>Malfas</strong>. Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.</p></li>
 <li><p><strong>Mad Monk</strong> is dressed in pink robes of an improbable shade of bright pink. His eyes dart with a manic glint, and he mumbles to himself incoherently. He's out of water and will ask the PCs if they can spare any. He's quite mad… he's looking for a door. He might remember his name is <strong>Jaral</strong>.</p></li>
 <li><p><strong>Four Leaf Clover Field</strong> A field of ONLY four leaf clovers… finding a THREE leaf clover brings the bearer luck.</p></li>
-<li><p><strong>Aware Wolf</strong> Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is <strong>Zander</strong>. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to his dead friend…</p></li>
+<li><p><strong>Aware Wolf</strong> Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is <strong>Zander</strong>. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend…</p></li>
 <li><p><strong>Fare Fight</strong> A copper-skinned warrior named <strong>Lunara</strong> (Warrior, Proud) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).</p></li>
 </ol>
-<h3 id="bestiery">BESTIERY</h3>
+<h3 id="bestiary">BESTIARY</h3>
 <ul>
 <li><strong>Bear</strong> Strong, Quick, Reach, Perceptive - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",</li>
 <li><strong>Bog Troll</strong>: Brutish, Mossy, Ambush - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.</li>
@@ -428,7 +513,7 @@ A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon
 <li><strong>Quicksand</strong>: Treacherous, Sinking, Trap - Slow, deliberate movements will save you; bad time for a panic attack.</li>
 <li><strong>Sandit</strong>: Sandstorm, Bandit, Ambush - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.</li>
 <li><strong>Shadow Dragon</strong>: Big, Shadow-walker, Incorporeal - Only solid/vulnerable when breathing fire, during twilight or when it wishes.</li>
-<li><strong>Sprites</strong>: Fae, Playful, Illusionist - play pranks and offer gifts to those that are good sports or dangerous illusions if not.</li>
+<li><strong>Redcap</strong>: Invisible, Pack, Razors - If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps!</li>
 <li><strong>Succubi</strong>: Seductive, Hypnotic, Draining - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively</li>
 <li><strong>Swamp Drakes</strong>: Jaws, Hunter, Aquatic - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.</li>
 <li><strong>Wailing Tree</strong>: Haunting, Mourning, Bewitching - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.</li>
@@ -437,7 +522,7 @@ A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon
 <li><strong>Zombies</strong> Undead, Relentless, Mindless - How's your cardio?</li>
 </ul>
 <p><img src="/assets/images/southern_coast/southern_coast.png" alt="image" /></p>
-<p><em>v0.8</em> by brine <br>
+<p><em>v0.8.9</em> by brine <br>
 <a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">map by Watabou</a> <br>
 <a href="https://casadeocio.itch.io/hexcrawls-rule">Hexcrawl Rules</a> if needed <br>
 For your <a href="https://rando.brine.dev">random needs</a> <br></p>]]></description>

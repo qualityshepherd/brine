@@ -1,6 +1,6 @@
 ---
 title: A Confession
-date: 2024-2-28
+date: 2099-3-23
 tags: magic, oyab
 description:
 ---
