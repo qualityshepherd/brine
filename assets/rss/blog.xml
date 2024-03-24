@@ -5,7 +5,7 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 23 Mar 2024 23:54:52 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 24 Mar 2024 00:31:44 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
@@ -782,7 +782,8 @@
     <title>On Magical Magic</title>
     <link>https://brine.dev/#post?s=on_magical_magic</link>
     <guid>https://brine.dev/#post?s=on_magical_magic</guid>
-    <description><![CDATA[<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em> she says. I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
+    <description><![CDATA[<p><em>From the memoirs of Rown Varkana - Mage, Council of Six, Yagul Fane…</em></p>
+<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em> she says. I am a mage on the Council of Six, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
 <p>I suppose the place to start is at the beginning. Fine. What is magic? It's quite simple really: the world is full of magic things and a mage communes with the world. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence; favors if you like. Given their relationship is in good standing, the world is likely to comply.</p>
 <p>Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. But this development takes time. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, they are unknown to me but with long life comes madness. Pity the mage that must bargain with a Fae; it's like treading on shifting sands.</p>
 <p>The world has a mind of its own and so too does magic. One rolls the dice when casting a spell [<code>2d6</code>]. A mage may tip the scales, so to speak, but at a cost. Balance will be restored one way or the other. For example, a mage feeling their spell failing may accept a <code>Burden</code> [represented by a <code>tarot card</code>], and have it succeed instead. The path to satisfying this burden is anyone's guess. A mage can only endure so many [<code>3 max</code>] before they become lost in the world.</p>
@@ -790,7 +791,7 @@
 <p>Advanced spells demand a <code>Totem</code>—a physical representation of the intended outcome. While a totem should ideally resonate with the desired effect, substitutions are possible. Salt is renowned for its ability to ward off malevolent energies. However, alternatives like chalk or even ground coffee may serve adequately.</p>
 <p>Furthermore, <code>Enhancement Spells</code>, woven in tandem with a primary spell, can amplify potency, duration, or scope. While they enhance the spell's efficacy, they take time and compound the risks of casting.</p>
 <p><code>Rituals</code> are the pinnacle of magical prowess. They yield unparalleled power but demand patience and dedication. Alternatively, one might venture into the perilous realm of Summoning. But bargaining with a Fae comes with great risk and success is far from guaranteed.</p>
-<p>~ Rowan Varcona</p>]]></description>
+<p><em>~ R</em></p>]]></description>
   </item>
   <item>
     <pubDate>Tue, 28 Dec 2021 13:01:00 GMT</pubDate>
@@ -899,7 +900,7 @@
 <li>I have it on good authority that one of the Northern Kings has a spy down here.</li>
 </ol>
 <h3 id="locations">LOCATIONS</h3>
-<p><strong>Freemoon Forest</strong> stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, <strong>Lady Goodknight</strong> (Queen, Grandparent, Peevish), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.</p>
+<p><strong>Freemoon Forest</strong> stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, <strong>Lady Goodknight</strong> (<code>Queen, Grandparent, Peevish</code>), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.</p>
 <p>Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings… yet.</p>
 <table>
 <thead>
@@ -1273,7 +1274,7 @@ A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon
 <li><p><strong>Mad Monk</strong> is dressed in pink robes of an improbable shade of bright pink. His eyes dart with a manic glint, and he mumbles to himself incoherently. He's out of water and will ask the PCs if they can spare any. He's quite mad… he's looking for a door. He might remember his name is <strong>Jaral</strong>.</p></li>
 <li><p><strong>Four Leaf Clover Field</strong> A field of ONLY four leaf clovers… finding a THREE leaf clover brings the bearer luck.</p></li>
 <li><p><strong>Aware Wolf</strong> Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is <strong>Zander</strong>. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend…</p></li>
-<li><p><strong>Fare Fight</strong> A copper-skinned warrior named <strong>Lunara</strong> (Warrior, Proud) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).</p></li>
+<li><p><strong>Fare Fight</strong> A copper-skinned warrior named <strong>Lunara</strong> (<code>Warrior, Proud</code>) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).</p></li>
 </ol>
 <h3 id="bestiary">BESTIARY</h3>
 <ul>
