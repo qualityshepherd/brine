@@ -1,4 +1,4 @@
-import { removeFuturePosts, sortByDate } from '../utils'
+import { removeFuturePosts } from '../utils'
 import { promises as fs } from 'fs'
 import config from '../../package'
 

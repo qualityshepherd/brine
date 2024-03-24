@@ -1,4 +1,4 @@
-import { readSiteIndex, removeFuturePosts, sortByDate, renderTags } from '../utils'
+import { readSiteIndex, removeFuturePosts, renderTags } from '../utils'
 
 const search = {
   async render (params) {

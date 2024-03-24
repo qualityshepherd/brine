@@ -1,4 +1,4 @@
-import { readSiteIndex, removeFuturePosts, renderTags, sortByDate } from '../utils'
+import { readSiteIndex, removeFuturePosts } from '../utils'
 
 const archive = {
   async render (params) {

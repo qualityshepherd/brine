@@ -1,4 +1,4 @@
-import { readSiteIndex, removeFuturePosts, renderTags, sortByDate } from '../utils'
+import { readSiteIndex, removeFuturePosts, renderTags } from '../utils'
 import config from '../../package'
 const maxPosts = config.splog.maxPosts
 
