@@ -2,7 +2,7 @@
 title: Southern Coast
 date: 2024-3-18
 description: A wilderness hexcrawl adventure
-tags: hexcrawl, hexy, adventure
+tags: hexcrawl, hexy, adventures, sandbox
 ---
 
 **The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, _"a place to throw our trash"_. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
