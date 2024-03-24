@@ -7,7 +7,7 @@ description: My ongoing search for a magic system that feels _magical_...
 
 _From the memoirs of Rown Varkana - Mage, Council of Six @Yagul Fane..._
 
-I have no skill with quill or ink, but my wife insists I write. _"Who should know of you if you don't?"_ she says. I am a mage on the Council of Six, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.
+I have no skill with quill or ink, but my wife insists I write. _"Who should know of you if you don't?"_ she says. _"I am a mage on the Council of Six"_, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.
 
 I suppose the place to start is at the beginning. Fine. What is magic? It's quite simple really: the world is full of magic things and a mage communes with the world. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence; favors if you like. Given their relationship is in good standing, the world is likely to comply.
 
