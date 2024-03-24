@@ -5,7 +5,7 @@ tags: magic, oyab
 description: My ongoing search for a magic system that feels _magical_...
 ---
 
-_From the memoirs of Rown Varkana - Mage, Council of Six, Yagul Fane..._
+_From the memoirs of Rown Varkana - Mage, Council of Six @Yagul Fane..._
 
 I have no skill with quill or ink, but my wife insists I write. _"Who should know of you if you don't?"_ she says. I am a mage on the Council of Six, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.
 
