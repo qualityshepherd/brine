@@ -5,7 +5,7 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 24 Mar 2024 00:31:44 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 24 Mar 2024 13:15:31 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
@@ -782,8 +782,8 @@
     <title>On Magical Magic</title>
     <link>https://brine.dev/#post?s=on_magical_magic</link>
     <guid>https://brine.dev/#post?s=on_magical_magic</guid>
-    <description><![CDATA[<p><em>From the memoirs of Rown Varkana - Mage, Council of Six, Yagul Fane…</em></p>
-<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em> she says. I am a mage on the Council of Six, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
+    <description><![CDATA[<p><em>From the memoirs of Rown Varkana - Mage, Council of Six @Yagul Fane…</em></p>
+<p>I have no skill with quill or ink, but my wife insists I write. <em>"Who should know of you if you don't?"</em>, she says. <em>"I am a mage on the Council of Six"</em>, I reply! I neglect to tell her I've spent the better part of an hour trying to get this quill to abide my commands and write for me. Alas, and more time still cleaning up the mess. This empty page vexes me.</p>
 <p>I suppose the place to start is at the beginning. Fine. What is magic? It's quite simple really: the world is full of magic things and a mage communes with the world. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence; favors if you like. Given their relationship is in good standing, the world is likely to comply.</p>
 <p>Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. But this development takes time. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, they are unknown to me but with long life comes madness. Pity the mage that must bargain with a Fae; it's like treading on shifting sands.</p>
 <p>The world has a mind of its own and so too does magic. One rolls the dice when casting a spell [<code>2d6</code>]. A mage may tip the scales, so to speak, but at a cost. Balance will be restored one way or the other. For example, a mage feeling their spell failing may accept a <code>Burden</code> [represented by a <code>tarot card</code>], and have it succeed instead. The path to satisfying this burden is anyone's guess. A mage can only endure so many [<code>3 max</code>] before they become lost in the world.</p>
