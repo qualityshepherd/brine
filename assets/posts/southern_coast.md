@@ -2,10 +2,10 @@
 title: Southern Coast
 date: 2024-3-18
 description: A wilderness hexcrawl adventure
-tags: hexcrawl, hexy, adventures, sandbox
+tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
 
-**The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison--or as they put it, _"a place to throw our trash"_. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
+**The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison; or as they put it, _"a place to throw our trash"_. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
 
 With these pillars of civilization established, the Southern Coast has begun to attract adventurous individuals seeking to make it their home.
 
@@ -18,7 +18,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 ### HOOKS
 
 1. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle Mistwood, was _busting_ with silver and other treasures when if sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
+1. The Crown's Fury, a ship lost in the Battle Mistwood, was _busting_ with silver and other treasures when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
 1. The PCs are escorting a prisoner to the Prison of Mon
@@ -29,14 +29,14 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane is built atop an ancient city with unimaginable treasure.
-1. Have you ever known purveyors of magic and religion to get along? There's tension there... count on it.
+1. Yagul Fane is built atop an ancient city with unimaginable magical treasures.
+1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
 1. Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.
-1. Follow lights in the mountains to your peril.
-1. The mountain mists are the breath of ancient dragons. Dragons and giants used to run this place.
+1. Follow the lights in the mountains to your peril.
+1. The mountain mists are the breath of ancient dragons. Dragons ruled this place. The Lost Druid says they'll return once their food source is replenished.
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
 1. In Starwoods, beware the moors; stick to the path.
-1. Fellstead's abbess and Mon's warden are friendly. VERY friendly, if you know what I mean...
+1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
 1. I have it on good authority that one of the Northern Kings has a spy down here.
 
 
@@ -278,7 +278,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.8.9_ by brine <br>
+_v0.8.42_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>

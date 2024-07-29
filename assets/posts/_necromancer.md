@@ -7,7 +7,7 @@ tags: words
 
  ## Nekros Manteia
 
-Like most Necromancers, Indis Fane came to the craft by happenstance. Or at least, she imagines this to be the case. Her teacher did hint that he too fell upon the path; changing the subject to all follow up questions. Practitioners, understandably, are not chatty folk. Then tend to mimic their subjects in this way. Might she be the last? Her heart is neither coal nor gold. She deals in death because it is within her power. Like any gifted person might, she takes pride in perfecting her skill. She catches herself adding flourishes in her movements; theatrics without audience. _Why do I do that?_
+Like most Necromancers, Indis Fane came to the craft by happenstance. Or at least, she imagines this to be the case. Her teacher did hint that he too fell upon the path; changing the subject to all follow up questions. Practitioners, understandably, are not chatty folk. They tend to mimic their subjects in this way. Might she be the last? Her heart is neither coal nor gold. She deals in death because it is within her power. Like any gifted person might, she takes pride in perfecting her skill. She catches herself adding flourishes in her movements; theatrics without audience. _Why do I do that?_
 
 Indis hales from Duskby. She is the reason for the poor harvest. She required the life force of a copse of white oak... she underestimated the reach of their taproots; the resulting blight was unintended.
 
