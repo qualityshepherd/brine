@@ -2,7 +2,7 @@
 title: Dybuk Letters
 date: 2024-7-29
 tags: situations
-description: a situation...
+description: a dybuk sits down to write a letter...
 ---
 
 A vengeful dybuk haunts the town that burned her at the stake. She flits unseen among the inhabitants, gleaning their darkest secrets, hidden weaknesses, and prized possessions. Periodically, she possesses unwitting townsfolk, compelling them to deliver letters to visiting adventurers; each a step towards her retribution. The possessed victims, once released, retain no memory of their actions.
