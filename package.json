@@ -22,6 +22,7 @@
   "scripts": {
     "pretty": "standard --fix",
     "pack": "webpack",
+    "purge": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$BRINE_TOKEN/purge_cache\" -H \"Authorization: Bearer $BEARER\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'",
     "build:index": "./node_modules/.bin/babel-node src/lib/genr8Index.js",
     "rss:blog": "./node_modules/.bin/babel-node src/lib/genr8Blog.js",
     "rss:sitemap": "./node_modules/.bin/babel-node src/lib/genr8Sitemap.js",
@@ -32,7 +33,7 @@
   "dependencies": {
     "@babel/plugin-transform-object-rest-spread": "^7.22.15",
     "http-server": "^14.1.1",
-    "showdown": "https://github.com/zzzzBov/showdown/tree/fix-metadata-colons",
+    "showdown": "^2.1.0",
     "standard": "^17.1.0",
     "webpack": "^5.2.0",
     "webpack-cli": "^5.1.4"

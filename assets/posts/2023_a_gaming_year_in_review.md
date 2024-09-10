@@ -1,5 +1,5 @@
 ---
-title: 2023: A Gaming Year in Review
+title: 2023 - A Gaming Year in Review
 date: 2024-1-5
 description:
 tags: words

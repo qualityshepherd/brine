@@ -5,11 +5,11 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 10 Sep 2024 16:34:10 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 10 Sep 2024 16:41:03 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
-    <title>2023: A Gaming Year in Review</title>
+    <title>2023 - A Gaming Year in Review</title>
     <link>https://brine.dev/#post?s=2023_a_gaming_year_in_review</link>
     <guid>https://brine.dev/#post?s=2023_a_gaming_year_in_review</guid>
     <description><![CDATA[<p>With 2023 in the rear-view, I began to reflect on the year from a gaming perspective. It turns out there are a number of things worthy of a shout-out!</p>
@@ -269,94 +269,94 @@
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="level">level</th>
-<th style="text-align:center;" id="hd">hd</th>
-<th style="text-align:center;" id="skills">skills</th>
-<th style="text-align:center;" id="attributes">attributes</th>
-<th style="text-align:center;" id="abils">abils</th>
-<th style="text-align:center;" id="damage">damage</th>
+<th id="level" style="text-align:center;">level</th>
+<th id="hd" style="text-align:center;">hd</th>
+<th id="skills" style="text-align:center;">skills</th>
+<th id="attributes" style="text-align:center;">attributes</th>
+<th id="abils" style="text-align:center;">abils</th>
+<th id="damage" style="text-align:center;">damage</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="level_col">1</td>
-<td style="text-align:center;" class="hd_col">1+con</td>
-<td style="text-align:center;" class="skills_col">1+1</td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col">2</td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">1</td>
+<td style="text-align:center;">1+con</td>
+<td style="text-align:center;">1+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">2</td>
-<td style="text-align:center;" class="hd_col">+1</td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">3</td>
-<td style="text-align:center;" class="hd_col"></td>
-<td style="text-align:center;" class="skills_col">+1</td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col">+1</td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">4</td>
-<td style="text-align:center;" class="hd_col">+1</td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col">+1 (max +3)</td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">4</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">5</td>
-<td style="text-align:center;" class="hd_col"></td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col">+1d6</td>
+<td style="text-align:center;">5</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">6</td>
-<td style="text-align:center;" class="hd_col">+1</td>
-<td style="text-align:center;" class="skills_col">+1</td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">6</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">7</td>
-<td style="text-align:center;" class="hd_col"></td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col">+1 (max +3)</td>
-<td style="text-align:center;" class="abils_col">+1</td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">7</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">8</td>
-<td style="text-align:center;" class="hd_col">+1</td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">8</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">9</td>
-<td style="text-align:center;" class="hd_col"></td>
-<td style="text-align:center;" class="skills_col">+1</td>
-<td style="text-align:center;" class="attributes_col"></td>
-<td style="text-align:center;" class="abils_col">+1</td>
-<td style="text-align:center;" class="damage_col"></td>
+<td style="text-align:center;">9</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="level_col">10</td>
-<td style="text-align:center;" class="hd_col">+1</td>
-<td style="text-align:center;" class="skills_col"></td>
-<td style="text-align:center;" class="attributes_col">+1 (max +3)</td>
-<td style="text-align:center;" class="abils_col"></td>
-<td style="text-align:center;" class="damage_col">+1d6</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:center;">+1</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1 (max +3)</td>
+<td style="text-align:center;"></td>
+<td style="text-align:center;">+1d6</td>
 </tr>
 </tbody>
 </table>
@@ -599,34 +599,34 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:left;" id="type">Type</th>
-<th style="text-align:left;" id="distance/time">Distance/Time</th>
+<th id="type" style="text-align:left;">Type</th>
+<th id="distance/time" style="text-align:left;">Distance/Time</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;" class="type_col">Mapping</td>
-<td style="text-align:left;" class="distance/time_col">1/2 hex per day</td>
+<td style="text-align:left;">Mapping</td>
+<td style="text-align:left;">1/2 hex per day</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="type_col">Hunting</td>
-<td style="text-align:left;" class="distance/time_col">1/2 day</td>
+<td style="text-align:left;">Hunting</td>
+<td style="text-align:left;">1/2 day</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="type_col">Exploring</td>
-<td style="text-align:left;" class="distance/time_col">1/2 day</td>
+<td style="text-align:left;">Exploring</td>
+<td style="text-align:left;">1/2 day</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="type_col">Travel swamp/mountains</td>
-<td style="text-align:left;" class="distance/time_col">1 hex per day</td>
+<td style="text-align:left;">Travel swamp/mountains</td>
+<td style="text-align:left;">1 hex per day</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="type_col">Travel normal</td>
-<td style="text-align:left;" class="distance/time_col">3 hexes per day</td>
+<td style="text-align:left;">Travel normal</td>
+<td style="text-align:left;">3 hexes per day</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="type_col">Travel forced/mounted</td>
-<td style="text-align:left;" class="distance/time_col">4 hexes per day</td>
+<td style="text-align:left;">Travel forced/mounted</td>
+<td style="text-align:left;">4 hexes per day</td>
 </tr>
 </tbody>
 </table>
@@ -636,34 +636,34 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:left;" id="weather">Weather</th>
-<th style="text-align:left;" id="severity">Severity</th>
+<th id="weather" style="text-align:left;">Weather</th>
+<th id="severity" style="text-align:left;">Severity</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;" class="weather_col">1. Rain/fog/snow</td>
-<td style="text-align:left;" class="severity_col">1. Epic</td>
+<td style="text-align:left;">1. Rain/fog/snow</td>
+<td style="text-align:left;">1. Epic</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="weather_col">2. Storm</td>
-<td style="text-align:left;" class="severity_col">2. Severe</td>
+<td style="text-align:left;">2. Storm</td>
+<td style="text-align:left;">2. Severe</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="weather_col">3. Wind</td>
-<td style="text-align:left;" class="severity_col">3. Harsh</td>
+<td style="text-align:left;">3. Wind</td>
+<td style="text-align:left;">3. Harsh</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="weather_col">4. Unusual Hot/cold</td>
-<td style="text-align:left;" class="severity_col">4. Moderate</td>
+<td style="text-align:left;">4. Unusual Hot/cold</td>
+<td style="text-align:left;">4. Moderate</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="weather_col">5. Cloudy</td>
-<td style="text-align:left;" class="severity_col">5. Mild</td>
+<td style="text-align:left;">5. Cloudy</td>
+<td style="text-align:left;">5. Mild</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="weather_col">6. Clear</td>
-<td style="text-align:left;" class="severity_col">6. Pleasant</td>
+<td style="text-align:left;">6. Clear</td>
+<td style="text-align:left;">6. Pleasant</td>
 </tr>
 </tbody>
 </table>
@@ -672,26 +672,26 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:left;" id="d6">D6</th>
-<th style="text-align:left;" id="effect">Effect</th>
+<th id="d6" style="text-align:left;">D6</th>
+<th id="effect" style="text-align:left;">Effect</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;" class="d6_col">1</td>
-<td style="text-align:left;" class="effect_col">Loop back to point of departure</td>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Loop back to point of departure</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="d6_col">2-3</td>
-<td style="text-align:left;" class="effect_col">Veer one sextant left of intended destination</td>
+<td style="text-align:left;">2-3</td>
+<td style="text-align:left;">Veer one sextant left of intended destination</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="d6_col">4-5</td>
-<td style="text-align:left;" class="effect_col">Veer one sextant right of intended destination</td>
+<td style="text-align:left;">4-5</td>
+<td style="text-align:left;">Veer one sextant right of intended destination</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="d6_col">6</td>
-<td style="text-align:left;" class="effect_col">Arrive at intended destination</td>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Arrive at intended destination</td>
 </tr>
 </tbody>
 </table>
@@ -719,34 +719,34 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:left;" id="level">Level</th>
-<th style="text-align:left;" id="effect">Effect</th>
+<th id="level" style="text-align:left;">Level</th>
+<th id="effect" style="text-align:left;">Effect</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;" class="level_col">1</td>
-<td style="text-align:left;" class="effect_col">Disadvantaged skill rolls</td>
+<td style="text-align:left;">1</td>
+<td style="text-align:left;">Disadvantaged skill rolls</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="level_col">2</td>
-<td style="text-align:left;" class="effect_col">Speed halved</td>
+<td style="text-align:left;">2</td>
+<td style="text-align:left;">Speed halved</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="level_col">3</td>
-<td style="text-align:left;" class="effect_col">Disadvantaged attacks</td>
+<td style="text-align:left;">3</td>
+<td style="text-align:left;">Disadvantaged attacks</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="level_col">4</td>
-<td style="text-align:left;" class="effect_col">Drop all bulky items</td>
+<td style="text-align:left;">4</td>
+<td style="text-align:left;">Drop all bulky items</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="level_col">5</td>
-<td style="text-align:left;" class="effect_col">Speed = 0</td>
+<td style="text-align:left;">5</td>
+<td style="text-align:left;">Speed = 0</td>
 </tr>
 <tr>
-<td style="text-align:left;" class="level_col">6</td>
-<td style="text-align:left;" class="effect_col">Death</td>
+<td style="text-align:left;">6</td>
+<td style="text-align:left;">Death</td>
 </tr>
 </tbody>
 </table>]]></description>
@@ -918,50 +918,50 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="2d6">2d6</th>
-<th style="text-align:left;" id="freemoon_forest_encounters">Freemoon Forest Encounters</th>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="freemoon_forest_encounters" style="text-align:left;">Freemoon Forest Encounters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="2d6_col">2</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col"><strong>Shadow Dragon</strong></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Shadow Dragon</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">3</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col">2d6 <strong>Druids</strong> demand an offering.</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Druids</strong> demand an offering.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">4</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col">d6+1 <strong>Redcaps</strong> are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.</td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">d6+1 <strong>Redcaps</strong> are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">5</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col"><strong>Wailing Trees</strong> mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.</td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Wailing Trees</strong> mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">6</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col">A <strong>Fae Court</strong> emerges around the PCs; they are found guilty of conspiring in the theft of a fae trinket. They must return the trinket and are immediately banished until they do so.</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">A <strong>Fae Court</strong> emerges around the PCs; they are found guilty of conspiring in the theft of a fae trinket. They must return the trinket and are immediately banished until they do so.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">7</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col"><strong>Sculpture Garden</strong> with dozens of lifelike stone statues, including a mesmerizing medusa sculpture… reflected in a full length mirror just beside her.</td>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Sculpture Garden</strong> with dozens of lifelike stone statues, including a mesmerizing medusa sculpture… reflected in a full length mirror just beside her.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">8</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col"><strong>Lamp Boy</strong></td>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Lamp Boy</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">9</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col">3d6 <strong>Moonlight Mushrooms</strong>, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.</td>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;">3d6 <strong>Moonlight Mushrooms</strong>, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">10</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col"><strong>An Enchanted Clearing</strong> adorned with glowing fae flowers, offers a chance to gather valuable herbs but risks disturbing the forest.</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>An Enchanted Clearing</strong> adorned with glowing fae flowers, offers a chance to gather valuable herbs but risks disturbing the forest.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">11+</td>
-<td style="text-align:left;" class="freemoon_forest_encounters_col">No encounter</td>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
 </tr>
 </tbody>
 </table>
@@ -970,50 +970,50 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="2d6">2d6</th>
-<th style="text-align:left;" id="twilight_sands_encounters">Twilight Sands Encounters</th>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="twilight_sands_encounters" style="text-align:left;">Twilight Sands Encounters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="2d6_col">2</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Sandits</strong> us a stone that creates a magical sandstorm when submersed in water. More water; more storm. They create a storm and attack in the ensuing mayhem.</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Sandits</strong> us a stone that creates a magical sandstorm when submersed in water. More water; more storm. They create a storm and attack in the ensuing mayhem.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">3</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col">2d6 <strong>Dune Crawlers</strong></td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Dune Crawlers</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">4</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col">d6 <strong>Dust Devils</strong></td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">d6 <strong>Dust Devils</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">5</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Ghost Caravan</strong>, long abandoned, its cargo untouched and ripe for the taking, but its ghostly guardians may not take kindly to plunderers.</td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Ghost Caravan</strong>, long abandoned, its cargo untouched and ripe for the taking, but its ghostly guardians may not take kindly to plunderers.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">6</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Trapped Dybbuk</strong> in a magical stockade and unable to possess the living. He'll trade her freedom for a favor…</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Trapped Dybbuk</strong> in a magical stockade and unable to possess the living. He'll trade her freedom for a favor…</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">7</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Dragon Vine</strong></td>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Dragon Vine</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">8</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Lost Mage</strong> asks the party how to get back to Yagul Fane without admitting the he is lost.</td>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Lost Mage</strong> asks the party how to get back to Yagul Fane without admitting the he is lost.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">9</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Nomadic Tribe</strong> offering trade and information in exchange for assistance in fending off Sandits.</td>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Nomadic Tribe</strong> offering trade and information in exchange for assistance in fending off Sandits.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">10</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col"><strong>Oasis Mirage</strong>, a cache of valuable relics hidden beneath the shimmering surface of the water. It's <em>probably</em> safe?</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Oasis Mirage</strong>, a cache of valuable relics hidden beneath the shimmering surface of the water. It's <em>probably</em> safe?</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">11+</td>
-<td style="text-align:left;" class="twilight_sands_encounters_col">No encounter</td>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
 </tr>
 </tbody>
 </table>
@@ -1021,50 +1021,50 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="2d6">2d6</th>
-<th style="text-align:left;" id="sorrow_mountains_encounters">Sorrow Mountains Encounters</th>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="sorrow_mountains_encounters" style="text-align:left;">Sorrow Mountains Encounters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="2d6_col">2</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col">d6 <strong>Bears</strong></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">d6 <strong>Bears</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">3</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col">2d6 <strong>Wolves</strong></td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Wolves</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">4</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col">A recent <strong>Landslide</strong> blocks the way ahead, requiring detour or clearing</td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">A recent <strong>Landslide</strong> blocks the way ahead, requiring detour or clearing</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">5</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>Lamp Boy</strong></td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Lamp Boy</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">6</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>Abandoned Campsite</strong> with scattered belongings, bloodstains, and tracks leading into a copse of trees</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Abandoned Campsite</strong> with scattered belongings, bloodstains, and tracks leading into a copse of trees</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">7</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>Fighting Giants</strong> sound like thunder as they hurl boulders at each. Their forms, outlined against the horizon, moved with a grace belying their immense size. One takes A hit to the knee begetting a deafening roar that echos for miles. He is losing.</td>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Fighting Giants</strong> sound like thunder as they hurl boulders at each. Their forms, outlined against the horizon, moved with a grace belying their immense size. One takes A hit to the knee begetting a deafening roar that echos for miles. He is losing.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">8</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>A Flock of Goats</strong> bleat and traverse the steep cliffs with amazing ease</td>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>A Flock of Goats</strong> bleat and traverse the steep cliffs with amazing ease</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">9</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>A Distressed Griffon</strong> caught in a bear trap. Voices far in the distance are coming this way. Poachers?</td>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>A Distressed Griffon</strong> caught in a bear trap. Voices far in the distance are coming this way. Poachers?</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">10</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col"><strong>Waterfall Pool</strong> reveals scattered silver coins shimmering from beneath 20' of freezing water</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Waterfall Pool</strong> reveals scattered silver coins shimmering from beneath 20' of freezing water</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">11+</td>
-<td style="text-align:left;" class="sorrow_mountains_encounters_col">No encounter</td>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
 </tr>
 </tbody>
 </table>
@@ -1073,50 +1073,50 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="2d6">2d6</th>
-<th style="text-align:left;" id="starwoods_encounters">Starwoods Encounters</th>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="starwoods_encounters" style="text-align:left;">Starwoods Encounters</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="2d6_col">2</td>
-<td style="text-align:left;" class="starwoods_encounters_col"><strong>Wendigo</strong></td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;"><strong>Wendigo</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">3</td>
-<td style="text-align:left;" class="starwoods_encounters_col">2d6 <strong>Bristled Boars</strong></td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">2d6 <strong>Bristled Boars</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">4</td>
-<td style="text-align:left;" class="starwoods_encounters_col">d6 <strong>Succubi</strong></td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">d6 <strong>Succubi</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">5</td>
-<td style="text-align:left;" class="starwoods_encounters_col"><strong>Giant Copper Scale</strong> currently titled with a single silver coin</td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Giant Copper Scale</strong> currently titled with a single silver coin</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">6</td>
-<td style="text-align:left;" class="starwoods_encounters_col">A <strong>Treant</strong> is suspicious of the party and tests their nature</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">A <strong>Treant</strong> is suspicious of the party and tests their nature</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">7</td>
-<td style="text-align:left;" class="starwoods_encounters_col"><strong>Lost Path</strong> the path suddenly disappears, leaving the party disoriented and without direction</td>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Lost Path</strong> the path suddenly disappears, leaving the party disoriented and without direction</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">8</td>
-<td style="text-align:left;" class="starwoods_encounters_col"><strong>Voodoo Dolls</strong>--one for each of the party--posed upon the forest floor</td>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Voodoo Dolls</strong>--one for each of the party--posed upon the forest floor</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">9</td>
-<td style="text-align:left;" class="starwoods_encounters_col"><strong>Mad Monk</strong> (see Hextras)</td>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Mad Monk</strong> (see Hextras)</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">10</td>
-<td style="text-align:left;" class="starwoods_encounters_col">An <strong>Ancient Shrine</strong> carved into the trunk of a white oak, bears silver rings, etch with the names of each of the party</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;">An <strong>Ancient Shrine</strong> carved into the trunk of a white oak, bears silver rings, etch with the names of each of the party</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">11+</td>
-<td style="text-align:left;" class="starwoods_encounters_col">No encounter</td>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
 </tr>
 </tbody>
 </table>
@@ -1124,50 +1124,50 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="2d6">2d6</th>
-<th style="text-align:left;" id="west_marshes">West Marshes</th>
+<th id="2d6" style="text-align:center;">2d6</th>
+<th id="west_marshes" style="text-align:left;">West Marshes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="2d6_col">2</td>
-<td style="text-align:left;" class="west_marshes_col">d6 <strong>Bog Trolls</strong> brutish, mossy, shit-breath creatures that ambush prey that wander too close.</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">d6 <strong>Bog Trolls</strong> brutish, mossy, shit-breath creatures that ambush prey that wander too close.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">3</td>
-<td style="text-align:left;" class="west_marshes_col">d6 <strong>Swamp Drakes</strong> a flying crocodile-like wyrm that attack from above with their powerful jaws and drag prey underwater to drown.</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">d6 <strong>Swamp Drakes</strong> a flying crocodile-like wyrm that attack from above with their powerful jaws and drag prey underwater to drown.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">4</td>
-<td style="text-align:left;" class="west_marshes_col">3d6 <strong>Zombies</strong>, fallen soldiers from the Battle of Mistwood, with an insatiable hunger for the living</td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">3d6 <strong>Zombies</strong>, fallen soldiers from the Battle of Mistwood, with an insatiable hunger for the living</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">5</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Quicksand</strong></td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;"><strong>Quicksand</strong></td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">6</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Bog Myrtle</strong> small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil.</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;"><strong>Bog Myrtle</strong> small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">7</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Marsh Tea</strong> a flowering plant used to treat various ailments, valuable to apothecaries.</td>
+<td style="text-align:center;">7</td>
+<td style="text-align:left;"><strong>Marsh Tea</strong> a flowering plant used to treat various ailments, valuable to apothecaries.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">8</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Bog Rosemary</strong> an extremely rare evergreen producing pink flowers used in herbal medicines.</td>
+<td style="text-align:center;">8</td>
+<td style="text-align:left;"><strong>Bog Rosemary</strong> an extremely rare evergreen producing pink flowers used in herbal medicines.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">9</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Bog Amber</strong> fossilized tree resin, prized for its beauty and rarity.</td>
+<td style="text-align:center;">9</td>
+<td style="text-align:left;"><strong>Bog Amber</strong> fossilized tree resin, prized for its beauty and rarity.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">10</td>
-<td style="text-align:left;" class="west_marshes_col"><strong>Cash Box</strong> (2000s, 125lbs) marked with a silver stag; the sigil of King Theric II, who lost the Battle of Mistwood.</td>
+<td style="text-align:center;">10</td>
+<td style="text-align:left;"><strong>Cash Box</strong> (2000s, 125lbs) marked with a silver stag; the sigil of King Theric II, who lost the Battle of Mistwood.</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="2d6_col">11+</td>
-<td style="text-align:left;" class="west_marshes_col">No encounter</td>
+<td style="text-align:center;">11+</td>
+<td style="text-align:left;">No encounter</td>
 </tr>
 </tbody>
 </table>
@@ -1197,34 +1197,34 @@ A Friend
 <table>
 <thead>
 <tr>
-<th style="text-align:center;" id="d6">d6</th>
-<th style="text-align:left;" id="he_says_shit_like">He says shit like</th>
+<th id="d6" style="text-align:center;">d6</th>
+<th id="he_says_shit_like" style="text-align:left;">He says shit like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center;" class="d6_col">1</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"I've navigated the treacherous currents of fate. Call me 'The River' I flow with the wisdom of the ages."</td>
+<td style="text-align:center;">1</td>
+<td style="text-align:left;">"I've navigated the treacherous currents of fate. Call me 'The River' I flow with the wisdom of the ages."</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="d6_col">2</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"Feel my current, my power, swirling like the mighty river. I will chart your course."</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:left;">"Feel my current, my power, swirling like the mighty river. I will chart your course."</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="d6_col">3</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"I'm the compass, guiding you through life's stormy waters."</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:left;">"I'm the compass, guiding you through life's stormy waters."</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="d6_col">4</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"Aye, I once sailed the seas, but now I navigate the waters of the unknown."</td>
+<td style="text-align:center;">4</td>
+<td style="text-align:left;">"Aye, I once sailed the seas, but now I navigate the waters of the unknown."</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="d6_col">5</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"You don't want to know what lurks in those murky depths."</td>
+<td style="text-align:center;">5</td>
+<td style="text-align:left;">"You don't want to know what lurks in those murky depths."</td>
 </tr>
 <tr>
-<td style="text-align:center;" class="d6_col">6</td>
-<td style="text-align:left;" class="he_says_shit_like_col">"As ebb and flow commands."</td>
+<td style="text-align:center;">6</td>
+<td style="text-align:left;">"As ebb and flow commands."</td>
 </tr>
 </tbody>
 </table>
