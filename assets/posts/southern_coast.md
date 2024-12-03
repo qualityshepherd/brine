@@ -21,7 +21,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _busting_ with silver and other treasures when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
-1. The PCs are escorting a prisoner to the Prison of Mon
+1. A prisoner needs to be escorted to/from the Prison of Mon
 1. A Duke's son found a treasure map leading to the Isle of Wight and has not been heard from for a week.
 
 
