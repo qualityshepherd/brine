@@ -15,10 +15,10 @@ With these pillars of civilization established, the Southern Coast has begun to 
 The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate YOUR campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.
 
 
-### HOOKS
+### SITUATIONS
 
 1. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle Mistwood, was _busting_ with silver and other treasures when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
+1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _busting_ with silver and other treasures when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
 1. The PCs are escorting a prisoner to the Prison of Mon
