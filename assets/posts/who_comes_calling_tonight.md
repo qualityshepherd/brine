@@ -12,7 +12,7 @@ washed over Blackthorn Lane<br>
 Lucinda got her stockings wet<br>
 when she called on Edmund Graves<br>
 all along the wrought-iron gate<br>
-the shadows creep and crawl<br>
+the shadows scratch and claw<br>
 while drops the size of bullets<br>
 strike the eaves with wild applause<br>
 <br>
