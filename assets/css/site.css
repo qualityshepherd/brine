@@ -153,6 +153,20 @@ nav #links {
   text-align: center;
 }
 
+.song {
+  text-align: center;
+  margin:auto;
+  width: 80%;
+}
+
+/* any child divs of .song */
+.song > div {
+  text-align: left;
+  white-space: pre;
+  font-style: italic;
+  display: inline-block;
+}
+
 .small, .date {
   margin: 15px;
   font-size: 90%;

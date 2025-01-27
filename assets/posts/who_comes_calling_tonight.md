@@ -5,28 +5,28 @@ description: When my songwriting and gaming worlds collide...
 tags: songwriting, words
 ---
 
-<i class="center">
+<div class="song"><div>
+torrential rain in Ravencross
+washed over Blackthorn Lane
+Lucinda got her stockings wet
+when she called on Edmund Graves
+all along the wrought-iron gate
+the shadows scratch and claw
+while drops the size of bullets
+strike the eaves with wild applause
 
-torrential rain in Ravencross<br>
-washed over Blackthorn Lane<br>
-Lucinda got her stockings wet<br>
-when she called on Edmund Graves<br>
-all along the wrought-iron gate<br>
-the shadows scratch and claw<br>
-while drops the size of bullets<br>
-strike the eaves with wild applause<br>
-<br>
-Who comes calling tonight?<br>
-<br>
-the bells of St. Sebastian<br>
-ignore the midnight toll<br>
-swallowed whole in darkness<br>
-black as buried coal<br>
-vestry candles sanctify<br>
-unrequited prayers<br>
-Reverend Drake stands trembling<br>
-gazing down the chancel stairs<br>
-<br>
-Who comes calling tonight?<br>
+Who comes calling tonight?
 
-</i>
+the bells of St. Sebastian
+ignore the midnight toll
+swallowed whole in darkness
+black as buried coal
+vestry candles sanctify
+unrequited prayers
+Reverend Drake stands trembling
+gazing down the chancel stairs
+
+Who comes calling tonight?
+
+</div>
+</div>
