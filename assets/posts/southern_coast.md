@@ -17,27 +17,32 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 ### SITUATIONS
 
-1. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _busting_ with silver and other treasures when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
-1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward.
+2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
+1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _busting_ with treasure when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
+1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discretely supplies the followers of both "The River" _and_ the Lost Druid. Neither party would be pleased if they knew about the other.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
-1. A prisoner needs to be escorted to/from the Prison of Mon
-1. A Duke's son found a treasure map leading to the Isle of Wight and has not been heard from for a week.
+1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound.
+1. A messenger from the Northern Kings needs safe passage to Yagul Fane. They're carrying sensitive documents about the royal funding of both institutions.
+1. Lady Goodknight of the Fae Court demands the return of magical items stolen by "The River" and his cult (and others).
+1. The Prison of Mon is _quietly_ investigating why their binding runes are weakening. They suspect the Hag Kalg but it's actually the Lost Druid syphoning their power.
+1. A Northern King's bastard is hiding among the Prophet's followers. Both assassins and royal agents are searching the mountains.
+1. Maude's bees are dying and Harlan's famous hops are the likely cause. Both businesses are crucial to the Monastery's beer production.
+1. Jailers report Hag Kalg whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon.
 
 
-### 2D6 RUMORS
+### RUMORS
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane is built atop an ancient city with unimaginable magical treasures.
+1. Yagul Fane is built atop an ancient city with unimaginable magical treasures (BYOD: _Bring Your Own Dungeon_).
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
 1. Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.
-1. Follow the lights in the mountains to your peril.
 1. The mountain mists are the breath of ancient dragons. Dragons ruled this place. The Lost Druid says they'll return once their food source is replenished.
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
-1. In Starwoods, beware the moors; stick to the path.
+1. Maude's bees make special honey from Moonlight Mushrooms. Monastery pays triple for those jars - says it helps them 'see clearly'.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
-1. I have it on good authority that one of the Northern Kings has a spy down here.
+1. Watch for Rune Stones in the dunes. Nomads say they're portals at twilight. But careful! You might end up leagues away... or worse.
+1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they move at night; they're getting ready to hatch.
 
 
 ### LOCATIONS
@@ -48,15 +53,15 @@ Swaths of forest are being ravaged by fire, leaving the haunting beauty of a cha
 
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
- 2   | **Shadow Dragon**
- 3   | 2d6 **Druids** demand an offering.
- 4   | d6+1 **Redcaps** are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
- 5   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
- 6   | A **Fae Court** emerges around the PCs; they are found guilty of conspiring in the theft of a fae trinket. They must return the trinket and are immediately banished until they do so.
+ 2   | **Shadow Dragon** An ancient dragon that's nearly indistinguishable from natural shadows. Only solid when breathing fire, during twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.
+ 3   | 2d6 **Druid Followers** demand an offering.
+ 4   | d6+1 **Redcaps** If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
+ 5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead them to the Fae Court for judgment.
+ 6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River </li><li>3-4: Retrieve the Sylph Ring from the shipwreck </li><li>5-6: Recover the Dryad's Branch from the Boat Hag</li></ul>
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
- 8   | **Lamp Boy**
+ 8   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
  9   | 3d6 **Moonlight Mushrooms**, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
- 10  | **An Enchanted Clearing** adorned with glowing fae flowers, offers a chance to gather valuable herbs but risks disturbing the forest.
+ 10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: a dryad who trades fairly but punishes theft with eternal servitude.
  11+ | No encounter
 
 **Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect... sometimes literally.
@@ -65,29 +70,29 @@ Nomadic tribes may lay claim to certain areas, and conflicts over resources are 
 
  2d6 | Twilight Sands Encounters
 :---:|:--------------------
- 2   | **Sandits** us a stone that creates a magical sandstorm when submersed in water. More water; more storm. They create a storm and attack in the ensuing mayhem.
- 3   | 2d6 **Dune Crawlers**
- 4   | d6 **Dust Devils**
- 5   | **Ghost Caravan**, long abandoned, its cargo untouched and ripe for the taking, but its ghostly guardians may not take kindly to plunderers.
- 6   | **Trapped Dybbuk** in a magical stockade and unable to possess the living. He'll trade her freedom for a favor...
- 7   | **Dragon Vine**
+ 2   | **Sandits** submerge a triangular stone in water, unleashing a localized sandstorm. They attack in the blinding chaos; appearing from seemingly nowhere (using Rune Stones). More water creates larger storms, from "stinging eyes" to "buried alive".
+ 3   | 2d6 **Dune Crawlers** Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait to strike...
+ 4   | d6 **Dust Devils** Your weapons are useless against these whirling tornadoes of sand. They drain moisture from living things, leaving victims parched and weakened. The only defense is to lie flat or find solid cover - fighting just feeds their winds.
+ 5   | **Ghost Caravan**, half-buried remnants of a merchant caravan. Among the weathered wagons: spice barrels (still fragrant), bolts of silk (perfectly preserved), and brass-bound chests. The ghostly merchants defend their cargo; still hoping to complete their delivery to Yagul Fane.
+ 6 | **Trapped Dybbuk** A spirit trapped in an ornate silver cage, unable to possess the living. She has a letter containing an ancient possession ritual. If the party delivers this letter to someone of their choosing, she will share the victim's wealth once possessed.
+ 7   | **Rune Stone** a weathered stone that transports anyone touching it to its twin in an adjacent hex (d6: 6=North, continuing clockwise) during twilight (1 hour at dusk/dawn). This is the secret to the Sandits appearing from nowhere and they will kill to protect it. The stones are typically half-buried in sand and easily overlooked.
  8   | **Lost Mage** asks the party how to get back to Yagul Fane without admitting the he is lost.
- 9   | **Nomadic Tribe** offering trade and information in exchange for assistance in fending off Sandits.
- 10  | **Oasis Mirage**, a cache of valuable relics hidden beneath the shimmering surface of the water. It's _probably_ safe?
+ 9   | **Nomadic Tribe** Know the sands better than you know your home. Their hospitality is legendary, their vengeance more so. They may trade information in exchange for assistance in fending off Sandits.
+ 10  | **Oasis Mirage**, a cache of valuable relics hidden beneath the shimmering surface of water. Grasping at them yields only sand. Twilight reveals the truth: they are just a reflection; the real pool floats inverted twenty feet above.
  11+ | No encounter
 
 **The Sorrow Mountains** divide the eastern Starwoods from the Freemoon Forest to the west. The moniker derives from the perpetual mist that shrouds their rugged peaks. Within their depths lies the Prison of Mon. Visitors speak of a palpable sense of foreboding and the feeling of unseen eyes peering into their very soul.
 
  2d6 | Sorrow Mountains Encounters
 :---:|:--------------------
- 2   | d6 **Bears**
- 3   | 2d6 **Wolves**
+ 2   | d6 **Bears** deceptively quick for their size. Their burst speed and reach catch most prey off guard. You'll only underestimate them once.
+ 3   | 2d6 **Wolves** hunt with cunning and keen senses. Their pack mentality means you're likely surrounded before you know it. You might want to stay close to a fire... or a spear.
  4   | A recent **Landslide** blocks the way ahead, requiring detour or clearing
- 5   | **Lamp Boy**
+ 5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by prison officials. Those bearing proper prison documents or official business are led safely to Mon's gates. Others... directly to the Jailers.
  6   | **Abandoned Campsite** with scattered belongings, bloodstains, and tracks leading into a copse of trees
- 7   | **Fighting Giants** sound like thunder as they hurl boulders at each. Their forms, outlined against the horizon, moved with a grace belying their immense size. One takes A hit to the knee begetting a deafening roar that echos for miles. He is losing.
+ 7   | **Fighting Giants** duel with boulder, echoing like thunder through the mountains. One takes a devastating hit to the knee; his roar of pain shaking the valley. The winner's prize remains to be seen.
  8   | **A Flock of Goats** bleat and traverse the steep cliffs with amazing ease
- 9   | **A Distressed Griffon** caught in a bear trap. Voices far in the distance are coming this way. Poachers?
+ 9   | **A Distressed Griffon** caught in a bear trap, its proud head thrashing in pain. Voices approach from the distance - likely the poachers who set the trap. Time for a choice.
  10  | **Waterfall Pool** reveals scattered silver coins shimmering from beneath 20' of freezing water
  11+ | No encounter
 
@@ -97,30 +102,30 @@ Legend speaks of a guardian of the woods—-a creature part beast and part spiri
 
  2d6 | Starwoods Encounters
 :---:|:--------------------
- 2   | **Wendigo**
- 3   | 2d6 **Bristled Boars**
- 4   | d6 **Succubi**
- 5   | **Giant Copper Scale** currently titled with a single silver coin
- 6   | A **Treant** is suspicious of the party and tests their nature
- 7   | **Lost Path** the path suddenly disappears, leaving the party disoriented and without direction
- 8   | **Voodoo Dolls**--one for each of the party--posed upon the forest floor
+ 2   | **Wendigo** Air turns bitter cold as it wind-walks between visible locations. Bites that draw blood infect the victim with insatiable hunger. They will devour all the food on their person... then they will attempt to eat a person and eventually become a Wendigo themselves.
+ 3   | **Bristled Boars** Seething with inexplicable rage, these shaggy beasts charge without provocation. Their razor tusks and surprising speed make them far more dangerous than common swine.
+ 4   | **Succubi** with their alluring features framed by cascading locks of midnight hair, weave a hypnotic song laced with secrets of the forest. Those willing to bargain trade in years of their future. Those who don't might still lose a few weeks to a _stolen kiss_.
+ 5 | **Giant Copper Scale** A massive copper balance bears fae markings. A star stone (fae currency) perfectly counterweights an iron coin - an uneasy truce between realms. Disturbing this balance transforms the surrounding forest, favoring either fae glamour or mortal steel.
+ 6 | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
+ 7 | **Lost Path** The path ahead literally shifts; trees and undergrowth rearrange themselves before your eyes. The forest's message is clear: you are not welcome this way.
+ 8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
  9   | **Mad Monk** (see Hextras)
- 10  | An **Ancient Shrine** carved into the trunk of a white oak, bears silver rings, etch with the names of each of the party
+ 10  | **Ancient Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
  11+ | No encounter
 
 **West Marshes** sprawl endlessly; a labyrinth of murky waters and treacherous bogs. Quicksand pits lie in wait to ensnare the unwary, while giant leeches slither through the muck. The scent of damp earth and rotting vegetation choke the air. Rare herbs and exotic flora thrive in the damp, fertile soil; coveted by herbalists and alchemists alike.
 
  2d6 | West Marshes
 :---:|:--------------------
- 2   | d6 **Bog Trolls** brutish, mossy, shit-breath creatures that ambush prey that wander too close.
- 3   | d6 **Swamp Drakes** a flying crocodile-like wyrm that attack from above with their powerful jaws and drag prey underwater to drown.
- 4   | 3d6 **Zombies**, fallen soldiers from the Battle of Mistwood, with an insatiable hunger for the living
- 5   | **Quicksand**
- 6   | **Bog Myrtle** small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil.
- 7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries.
- 8   | **Bog Rosemary** an extremely rare evergreen producing pink flowers used in herbal medicines.
- 9   | **Bog Amber** fossilized tree resin, prized for its beauty and rarity.
- 10  | **Cash Box** (2000s, 125lbs) marked with a silver stag; the sigil of King Theric II, who lost the Battle of Mistwood.
+ 2   | d6 **Bog Trolls** Mossy brutes rise from the muck to ambush prey. Their putrid breath is so foul it requires a save to avoid retching. They hate Marsh Tea's scent and actively seek to destroy it.
+ 3   | d6 **Swamp Drakes** Flying crocodilian wyrms that snatch prey from above and drag them to underwater lairs. Their wingbeats temporarily part the marsh waters, revealing sunken treasures... and dangers.
+ 4 | **Mistwood Fallen** 3d6 zombies in rotting military garb, still fighting the Battle of Mistwood. They mistake any armed group for the enemy, but ignore those carrying King Theric's silver stag banner.
+ 5   | **Quicksand** What is it that's not exactly water and it ain't exactly earth?
+ 6   | **Bog Myrtle** small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil. Bog Trolls often lurk near productive patches.
+ 7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries. Collecting it requires wading into deep water where Swamp Drakes hunt.
+ 8   | **Bog Rosemary** an extremely rare evergreen producing pink flowers essential for healing potions. It only blooms at night and its glow attracts attention.
+ 9   | **Bog Amber** fossilized tree resin, prized for its beauty and rarity. Some may contain preserved fairy lights, worth much more to Yagul Fane than regular amber. Usually found in Quicksand.
+ 10 | **Battle Bounty** A heavy chest (2000s, 125lbs) marked with King Theric II's silver stag. The zombies nearby seem to be guarding it rather than attacking.
  11+ | No encounter
 
 
@@ -135,6 +140,8 @@ Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon
 Ida's diary lies under her old bed on fourth floor. In it, she reveals that her one true love was the captain of The Crown's Fury. News that his ship was lost in the Battle Mistwood came the same day she lept from the tower. She and the other ghosts activate the old light to summon the ghost ship from the depths.
 
 At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card that reads "My dearest Ida, Your favorite color. Love, Peter".
+
+**Ghost** `Incorporeal, Obsessed, Tragic` - Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.
 
@@ -158,7 +165,7 @@ Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for
 
 **0412 Isle of Wights** is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no _wights_ on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.
 
-**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself as "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the druids (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
+**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself as "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the fae (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
 
   d6 | He says shit like
 :---:|:--------------------
@@ -216,19 +223,20 @@ A group of pilgrims has come from the north seeking guidance and sanctuary, plac
 - **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life`
 - 28 Monks, 6 pilgrims
 
-**1405 Loggers Camp** in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement.
+**1405 Loggers Camp** in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement. Boss hired a former Druid to help navigate tensions with the druids but he's not sure she's not a spy.
 
 - **Foreman "Boss" Bartok** `Burly, Caring (crew and sustainability of logging)`
 - **Lena "Sawbones" Thorne** `Medic, Herbalist, Gentle`
 - **Lucia "Twig" Thorne** `Camp Mom, Agile, Cheerful`
 - **"Cookie"** `One-armed Logger, Terrible cook`
+- **Nyssa "Thumbs" Dunsfold"** `Fallen Druid, Witty, Wholesome`
 - 18 loggers
 
 **1408 Fishing Hamlet** with handful of huts. The one closest to the sea belongs to **Pesh**, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.
 
 The hamlet fears and avoids the Boat Hag [#1506]. They refuse to trade with her and "allegedly" leave rotten fish guts on her doorstep.
 
-**1506 The Boat Hag** A large overturned boat repurposed into a makeshift dwelling. The hull's curvature and the weathered planks remnants of its former life. Within this curious abode resides a reclusive hag. She is known for her extensive knowledge of herbal remedies and potions, which she brews using ingredients gathered from the surrounding marshlands and forests.
+**1506 The Boat Hag** A large overturned boat repurposed into a makeshift dwelling. The hull's curvature and the weathered planks remnants of its former life. Within this curious abode resides a reclusive hag. She is sister of Hag Kalg, and known for her extensive knowledge of herbal remedies and potions, which she brews using ingredients gathered from the surrounding marshlands and forests.
 
 Among her possessions is a **Dryad's Whispering Branch**. A slender branch from a dryad's tree. It allows the wielder to communicate with woodland creatures and plants.
 
@@ -256,29 +264,9 @@ The following hex/encounters can be used as random situations throughout the Sou
 6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud`) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 
-### BESTIARY
-- **Bear** `Strong, Quick, Reach, Perceptive` - Something this big and strong should not move so quickly. It's easy to underestimate their burst and reach. You'll only get too close once.",
-- **Bog Troll** `Brutish, Mossy, Ambush` - These slimy buggers lurk in the marshy depths, waiting to ambush unwary travelers.
-- **Bristled Boar** `Aggressive, Tusks, Gorge` - Angry. Damn angry. Seething! That cute little squiggly tail is attached to a wild, shaggy killer!
-- **Griffon** `Majestic, Hunter, Flight` - As for riding one of these noble beasts: bowing is not a bad idea... but you first!
-- **Dragon Vine** `Swarm, Grapple, Poison` - Razor sharp and stronger than you'd expect. You may only notice them after they've grappled you... and then there's the poison.
-- **Dust Devil** `Elusive, Blinding, Sandstorm` - Your weapons are useless against these whirling tornadoes of sand.
-- **Dune Crawlers** `Agile, Burrow, Venomous` - Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait...
-- **Lamp Boy** `Tracker, Mute, Coins-for-eyes` - These fae creatures are engaged by someone or something (even the cosmos), to retrieve someone or something, and lead them to someone or somewhere They will not stop until their task is done. Those silver eyes cannot be deceived. Careful... you break one, you become one.
-- **Quicksand** `Treacherous, Sinking, Trap` - Slow, deliberate movements will save you; bad time for a panic attack.
-- **Sandit** `Sandstorm, Bandit, Ambush` - Bandits who possess a magical stone that can create sandstorms, using it to confuse and disorient enemies before attacking.
-- **Shadow Dragon** `Big, Shadow-walker, Incorporeal` - Only solid/vulnerable when breathing fire, during twilight or when it wishes.
-- **Redcap** `Invisible, Pack, Razors` - If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps!
-- **Succubi** `Seductive, Hypnotic, Draining` - weave a hypnotic song and emerge from the forest; their alluring features framed by cascading locks of midnight hair, beckon seductively
-- **Swamp Drakes** `Jaws, Hunter, Aquatic` - flying crocodile-like wyrms that attack from above with their powerful jaws and drag prey underwater to drown.
-- **Wailing Tree** `Haunting, Mourning, Bewitching` - Those who hear their cries become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
-- **Wendigo** `Cannibal, Wind-walker, Curse of Insatiable Hunger, Icy Portents, Frightening` - Victims will devour every scrap of food on their person... and then attempt to devour a person.
-- **Wolf** `Predator, Pack, Cunning, Keen Senses` - You might want to stay close to a fire... or a spear.
-- **Zombies** `Undead, Relentless, Mindless` - How's your cardio?
-
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.8.42_ by brine <br>
+_v0.9.42_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
