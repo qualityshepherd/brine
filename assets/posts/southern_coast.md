@@ -244,20 +244,21 @@ The Harlans supply most of their crop to Fellstead Monastery's brewery, though M
 
 **1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
 
-**1108 Fellstead Monastery** is perched upon the edge of the coast and surrounded by lush, rolling hills. The monastery is constructed from warm, honey-colored stone and Gothic architecture. Its walls are adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of travelers and seekers of knowledge). It is a place of peace and reflection, where people from all walks of life come to seek answers, find comfort, and renew their spirits.
+**1108 Fellstead Monastery** perches atop weathered cliffs, its honey-colored stone walls and Gothic spires silhouetted against the coastal sky. The monastery is adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of seekers of knowledge). A trip of goats roams the terraced grounds, while sea caves beneath the brewery serve as naturally cool cellars for their renowned ale.
 
-The Monastery boasts a renowned library, a trip of goats that produces fine milk/cheese and a rather fabulous winery and the best beer in the south--thanks to a annual donation of hops from Harlan's Grove [#0904]
+The monastery boasts a famed library, produces fine milk and cheese from their goats, and brews the best beer in the south—thanks to an annual donation of hops from Harlan's Grove [#0904].
 
-A group of pilgrims has come from the north seeking guidance and sanctuary, placing additional strain on the resources and tranquility of the monks.
+A group of pilgrims has come from the north, placing additional strain on the monastery's resources and tranquility. They claim to seek guidance from St. Fellstead, but their behavior raises suspicions. Their leader, **Father Falen** (`Cutthroat, Passive-Aggressive`), has been seen snooping around the brewmaster’s office, asking unsettling questions about the monastery’s finances, and lingering in the library far too long. Some monks question their piety and wonder what they’re truly after.
 
-- **Abbes Salvora** `Devoted, Wise`
-- **Prior Cedric** `Rugged, Diligent`
+**RESIDENTS**
+- **Abbes Salvora** `Devoted, Wise` - frequent visits to the Prison of Mon
+- **Prior Cedric** `Rugged, Diligent` - oversees brewing operations
 - **Sister Elara** `Druid, Healer, Formerly Lost Druid`
-- **Brother Ulfar** `Vintner, Mean Drunk` - avoided but knows wine
+- **Brother Ulfar** `Brewmaster, Mean Drunk` - avoided but knows beer
 - **Brother Estabar** `Monk, Eager` - master goat herder
 - **Sir Ealdred** `Knight, Daring` - seeks spiritual clarity after long and brutal campaigns
-- **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life`
-- 28 Monks, 6 pilgrims
+- **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life
+- 24 Monks, 6 pilgrims
 
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats--to them, the loggers' presence is the true blight on their forest.
 
@@ -280,7 +281,6 @@ The hamlet folk avoid the nearby Boat Hag [1506], claiming her presence spoils t
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door--they say rotten fish draws darker things away.
 
 She brews remedies from marsh herbs and forest flora, trading them to those brave or desperate enough to visit. The hamlet folk whisper that on moonless nights, she speaks to shadows stretching from Mon. Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
-
 
 **1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes, camouflaged among the coral, hunt in the wreckage.
 
@@ -310,7 +310,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.8_ by brine <br>
+_v0.9.6_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
