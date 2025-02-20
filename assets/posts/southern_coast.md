@@ -137,13 +137,19 @@ Before her incarceration in the Prison of Mon, the Hag Kalg had found the dragon
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida, met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
-Ida's diary lies under her old bed on fourth floor. In it, she reveals that her one true love was the captain of The Crown's Fury. News that his ship was lost in the Battle Mistwood came the same day she lept from the tower. She and the other ghosts activate the old light to summon the ghost ship from the depths.
+The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love--the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
 
-At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card that reads "My dearest Ida, Your favorite color. Love, Peter".
+Ida's diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [0412].
+
+On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
 **Ghost** `Incorporeal, Obsessed, Tragic` - Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
 
-**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.
+**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
+
+Ancient runes, similar to those binding Mon's prisoners, are carved into the stones. The circles' placement mirrors the prison's cell layout, though this could be coincidence. Complex chalk markings cover the stones and ground between them, redrawn daily in precise patterns. At night, amber light moves between the marks, though its source remains unclear.
+
+At the grove's heart stands an altar stone--black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
 **0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences--even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
@@ -165,13 +171,22 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
 - **The Twins** `Thieves, Connected, Apart` - must be kept in separate wings
 
-**0310 The Bone Cairn** is a puzzling landmark. A massive pile of bones arranged in the form of a cairn. If the bones are toppled, they inexplicably restack themselves at twilight, defying explanation.
+**0310 The Bone Cairn** A massive pile of bones arranged in the shape of a cairn rises from the dunes. If toppled, the bones inexplicably restack themselves at twilight. Some bones shift position even when the cairn stands undisturbed, and locals swear the arrangement changes with the phases of the moon.
+
+At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age--no one has identified what manner of creatures they came from.
 
 **0408.1 The Mirage Merchant** A caravan camped near the Twilight Sands; A merchant sells trinkets that have magical effects at twilight. 1 in 6 is _actually_ magical.
 
-**0412 Isle of Wights** is overrun by bushes bearing a milky white berries. Eating these berries within an hour of picking grants full health. After that hour, they are poisonous. The ground is littered with dead chalky-white birds, each with a berry in their mouth. Victims turn a stark white color adding to the common misunderstanding of the isle. There are no _wights_ on the island. This was a rumor perpetrated by pirates to scare off visitors and protect their buried treasures.
+**0412 Isle of Wights** White berry bushes grow thick across the island, their milky fruit a tempting prize. The berries grant miraculous healing if eaten within the hour of picking--after that, they turn deadly. Dead birds litter the ground beneath the bushes, their feathers bleached chalk-white, berries still clutched in their beaks.
 
-**0502 Prophet for Profit** Tulver Witherspoon was a young navigator on a ship wrecked off the coast [#1508]. As he washed ashore, he was technically dead for 9 minutes. He awoke a changed man and now refers to himself as "The River". He sought out the druids but broke from them to start his own flock... a _new_ sort of navigator. He's a bit of a sensation and has 42 followers; 17 are true believers that will fight to the death for him. He stole a number of trinkets from the fae (old habits) including a **Nymph's Tear**, a tear shaped gemstone.
+No undead haunt this isle, despite its name. Pirates spread that tale to protect their buried treasures, though the white-skinned corpses of unwary berry-seekers certainly helped sell the story. The occasional silver coin in the tide only strengthens local beliefs.
+
+**Treasure Seekers**
+Referenced in Ida's diary [0209], the Bone Tree stands on the southeastern shore, a landmark well-known to mainland fishermen. Twice daily--as the tide retreats at dawn and dusk--stone steps emerge at the tree's base, leading into the depths. The treasure chest lies buried in a narrow crevice formed by two massive boulders, making excavation particularly challenging in the confined space. Time is of the essence: you have less than two hours to dig before the rising waters reclaim the site, burying the treasure once more beneath the waves.
+
+**0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River" and speaking of divine currents. His growing congregation of 42 followers camps nearby--seventeen wear the silver anchor of true believers. They will fight to the death for him.
+
+The River studied briefly with the druids before charting his own course; a number of their sacred items still stowed safely away. Among his stolen treasures (old habits) is the **Nymph's Tear**, a teardrop gem originally belonging to the Fae Court. He preaches with a navigator's conviction, claiming to chart not just waters, but the courses of fate itself.
 
   d6 | He says shit like
 :---:|:--------------------
@@ -217,18 +232,17 @@ At the village center, a magical cistern ensures water for all--a gift from the 
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
-**0807.6 Barrow of the Cane**
-A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon a small hill marked with rusty grass. The rune tells an elaborate history of **The Cane**, an ancient tribe of warriors. The barrow has an entrance at its base, framed by three monolith stones. The walls within are covered in chalky paintings of men with long spears fighting various monsters; hand prints of men, women and children; and giants in the mountains. The paintings depict families with heads in the shape of various animal spirits. Each cubbyhole is marked with these same animal shapes.
+**0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls--spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
 
-Cubbyholes contain mostly bones but also: obsidian arrowheads, an obsidian axe, a solid silver bear-like idol (400s) and simple silver jewelry (120s). There are a number of extremely high quality spear poles; one still with a razor-sharp obsidian tip. Resting in this sacred space aids healing.
+The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silver bear idol (400s), and simple silver jewelry (120s). Several spear poles of exceptional quality remain, one still bearing its razor-sharp obsidian tip. Those who rest in this sacred space find their wounds heal faster.
 
-If the bones are disturbed a ghost will appear. **Zamma** was the tribe's last shaman. His bones are buried beneath the monolith, just above the ceiling of the main chamber. He cannot speak but will point at various drawings on the walls. He will disappear if the bones are returned to their resting place. Taking anything but the weapons (weapons are to use; treasure is property of the Cane) from the barrow (without trade or sacrifice) curses the thief: their fingers > hand > arm > etc start turning red. When they are completely red the thief dies.
+If disturbed, the ghost of **Zamma**--the tribe's last shaman--appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse--flesh turning to rust, spreading from fingers to arm until death claims them.
 
-**0904 Harlan's Grove** is renowned for producing the region's finest hops, coveted by brewers for their unparalleled quality. Francis and Catherine Harlan have become quite famous to those in the trade. However, the true secret behind the exceptional hops lies in the soil's rare mineral deposit, discovered by the Harlans generations ago. This mineral imbues the hops with distinctive flavors and aromas, making them highly sought after. Guarding their knowledge closely, the Harlans perpetuate the myth of their unparalleled skill, ensuring their dominance in the hop market.
+**0904 Harlan's Grove** The region's finest hops grow in neat rows across rolling hills. Francis and Catherine Harlan, and their oldest son Dale (`Shrewd, Proud`), tend their crops with generations of expertise--though their success stems from more than skill alone. A rare mineral in the soil imbues their hops with distinctive flavors--a secret they guard as carefully as their harvests. Six workers tend the rows while monastery wagons collect their weekly barrels.
 
-**1004 Maude's Meadery** Vibrant wildflowers bordered by a meandering stream. the meadery farm presents a picturesque scene straight out of a pastoral painting. The air is perfumed with the sweet aroma of honey, mingling with the earthy scent of the surrounding fields. Rows upon rows of lush, golden-hued honeycombs glisten under the gentle sunlight, tended to by diligent beekeepers clad in weathered leather aprons. In the heart of the farm, a quaint stone cottage stands as the hub of activity, its chimney billowing fragrant smoke from the hearth where mead is brewed in large copper cauldrons. Bees buzz lazily among the blossoms, their diligent work ensuring a plentiful harvest of honey, while workers scurry about, gathering ingredients and preparing barrels for the fermentation process. Amidst the tranquility of the countryside, the meadery farm hums with the rhythmic pulse of nature and the bustling energy of artisanal craftsmanship.
+The Harlans supply most of their crop to Fellstead Monastery's brewery, though Maude's Meadery has always received a share. This year's harvest promises to be exceptional, despite their neighbor's failing hives.
 
-Maude's southwestern hives are all dying. Weather this season has been dry and the bees have been traveling all the way to Harlan's Grove. Their hops is poisoning the hives and Maude is desperate to find the cause. The two farms have been friends for years so she will be slow to accept the truth.
+**1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
 
 **1108 Fellstead Monastery** is perched upon the edge of the coast and surrounded by lush, rolling hills. The monastery is constructed from warm, honey-colored stone and Gothic architecture. Its walls are adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of travelers and seekers of knowledge). It is a place of peace and reflection, where people from all walks of life come to seek answers, find comfort, and renew their spirits.
 
@@ -245,28 +259,36 @@ A group of pilgrims has come from the north seeking guidance and sanctuary, plac
 - **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life`
 - 28 Monks, 6 pilgrims
 
-**1405 Loggers Camp** in the heart of Starwood Forest; a stark contrast to the natural beauty that surrounds it. The camp is a rough collection of tents and wooden structures. The sounds of axes and saws echo through the trees. The loggers harvest the valuable timber while grappling with their impact on the ancient woodland. To say the druids despise their profession is an understatement. Boss hired a former Druid to help navigate tensions with the druids but he's not sure she's not a spy.
+**1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats--to them, the loggers' presence is the true blight on their forest.
 
-- **Foreman "Boss" Bartok** `Burly, Caring (crew and sustainability of logging)`
-- **Lena "Sawbones" Thorne** `Medic, Herbalist, Gentle`
-- **Lucia "Twig" Thorne** `Camp Mom, Agile, Cheerful`
-- **"Cookie"** `One-armed Logger, Terrible cook`
-- **Nyssa "Thumbs" Dunsfold"** `Fallen Druid, Witty, Wholesome`
-- 18 loggers
+Boss hired a former druid to help navigate these tensions, but her true loyalties remain unclear. The camp's torches burn all night now, and no logger works alone.
 
-**1408 Fishing Hamlet** with handful of huts. The one closest to the sea belongs to **Pesh**, a fourth-generation fisherman. Buried beneath his hut lies a chest containing 10,000 silver coins salvaged from the shipwreck a mile off the coast. It took him seven trips under the cover of night to retrieve the treasure. Burdened with the fear of attracting bandits, Pesh refuses to spend the treasure. Instead, he makes generous, anonymous donations to the monastery.
+**CREW**
+- **Foreman "Boss" Bartok** `Burly, Caring` - prioritizes crew safety over quotas
+- **Nyssa "Thumbs" Dunsfold** `Fallen Druid, Witty` - hired to appease druids
+- **Lena "Sawbones" Thorne** `Medic, Gentle` - treats wounds physical and spiritual
+- **Lucia "Twig" Thorne** `Camp Mom, Cheerful` - knows which trees to avoid
+- **"Cookie"** `One-armed, Terrible cook` - lost his arm to "tree-bite"
+- 12 loggers, each marked with protective symbols
 
-The hamlet fears and avoids the Boat Hag [#1506]. They refuse to trade with her and "allegedly" leave rotten fish guts on her doorstep.
+**1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray.
 
-**1506 The Boat Hag** A large overturned boat repurposed into a makeshift dwelling. The hull's curvature and the weathered planks remnants of its former life. Within this curious abode resides a reclusive hag. She is sister of Hag Kalg, and known for her extensive knowledge of herbal remedies and potions, which she brews using ingredients gathered from the surrounding marshlands and forests.
+The hut nearest the sea belongs to Pesh (`Generous, Paranoid`), a fourth-generation fisherman known for his anonymous donations to the monastery. None question how a simple fisherman can afford such charity. Beneath Pesh's hut lies a chest of 10,000 silver coins--salvaged from the pirate wreck in seven midnight diving trips. The weight of his secret is heavier than the chest.
 
-Among her possessions is a **Dryad's Whispering Branch**. A slender branch from a dryad's tree. It allows the wielder to communicate with woodland creatures and plants.
+The hamlet folk avoid the nearby Boat Hag [1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
 
-**1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. A haunting reminder of the sea's perils. Carved onto a board just above the waterline is "Pesh was here" [#1405]. 2d6 **venomous reef snakes**, camouflaged among the coral, hunt in the wreckage.
+**1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door--they say rotten fish draws darker things away.
 
-Among the treasure was also a **Sylph Ring**. A pewter ring marked with the fae rune for air, that summons gentle, calming winds.
+She brews remedies from marsh herbs and forest flora, trading them to those brave or desperate enough to visit. The hamlet folk whisper that on moonless nights, she speaks to shadows stretching from Mon. Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
 
-**1603 Old Pete's Boggery** stands as a testament to human resilience. With his daughter Ida and a dedicated team of 12 hands, Pete toils tirelessly to extract valuable peat from the marshes. Despite the challenges posed by the terrain, the farm not only sustains itself but also provides a crucial resource for the surrounding communities. Nobody knows the marshes better than Pete and his daughter.
+
+**1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes, camouflaged among the coral, hunt in the wreckage.
+
+Among its treasures was a **Sylph Ring**--a pewter band marked with the fae rune for air that summons gentle winds. Carved on a board just above the waterline is "Pesh was here" [#1405].
+
+**1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Sharp`) and his twelve workers harvest peat from carefully managed bogs--fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
+
+Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price--though Pete never picks the ones with silver stems.
 
 
 ### HEXTRAS
@@ -288,7 +310,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.5_ by brine <br>
+_v0.9.8_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
