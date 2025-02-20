@@ -5,14 +5,13 @@ description: A wilderness hexcrawl adventure
 tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
 
-**The Southern Coast**, in contrast to its harsh landscape, boasts a temperate climate accentuated by gentle sea breezes and occasional coastal fog. Passage to the northern kingdoms is best by sea; avoiding the formidable barriers of the Sorrow Mountains and West Marshes. The region was originally a druidic sanctuary, until the Northern Kings, seeking a remote location for their most dangerous criminals, commissioned the construction of a prison; or as they put it, _"a place to throw our trash"_. Recognizing the need for magical restraints, they enlisted the expertise of renowned magi Naz Yagul and Uma Fane. Additionally, missionaries were funded to provide support for the prison's operation and potentially convert the remaining druids.
+**The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea, circumventing the treacherous Sorrow Mountains and the forbidding West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most dangerous offenders, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
 
-With these pillars of civilization established, the Southern Coast has begun to attract adventurous individuals seeking to make it their home.
+With these foundations of civilization now in place, the Southern Coast has begun to draw bold settlers eager to carve out new lives in this frontier.
 
 
 ### WHAT IS THIS?
-
-The Southern Coast is a system neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally vague in order to accommodate YOUR campaign. It is intended to be serviceable as-is while providing just enough flavor to spark imagination. GMs are encouraged to add or ignore content to suit their table.
+The Southern Coast is a system-neutral, regional setting designed for sandbox exploration and adventure. Details are intentionally left vague to seamlessly integrate with YOUR campaign. The setting provides enough flavor to spark imagination while remaining flexible enough to use as-is. GMs are encouraged to modify or ignore content to best suit their table.
 
 
 ### SITUATIONS
@@ -308,7 +307,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.67_ by brine <br>
+_v0.9.69_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
