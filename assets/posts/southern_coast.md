@@ -145,19 +145,25 @@ At the edge of the cliffs is an aged bouquet of purple bog orchids, with a card 
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. The Lost Druid is currently imprisoned in the Prison of Mon. Her remaining 13 followers perform their sacred daily ceremonies but are also nearly finished with a complex ritual tied to her imprisonment. Strangers are tolerated in the grove but NOT at ceremonies.
 
-**0305 Prison of Mon** is carved into rock face of the Sorrow Mountains. Its architecture was designed to blend seamlessly with the natural surroundings, giving it an almost fortress-like appearance. Within its walls, a series of dark, damp, and windowless cells; each lit by a single torch. Prisoners wear a stone rune from a chain that binds them for the length of their sentence. Death is no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
+**0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences--even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
-The Jailers stand at attention in the prisons long entrance. Their runes' flickering amber glow the only light. Jailers are attuned to truth; any attempt to hide one's true nature, intentions, or possessions triggers a harsh reaction.
+The ethereal Jailers were once prisoners themselves. They stand eternal watch in the long entrance hall, attuned to truth. Any deception triggers harsh response.
 
-Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for the prisoners. Yagul Fane provides magical protections and the runes that bind prisoners to their sentences. Both of these institutions receive _royal endowments_ from the northern kings. There is a 1 in 6 chance that representatives from either or both are currently.
+Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive _royal endowments_ from northern kings for their service.
 
-- **Warden Cloudcroft** `Stern, Respected` - Abbes Salvora visits often and a select few know they are "friendly"
-- **Captain Kell** `Veteran, Strict,Proud`
-- **Jailers** ethereal guards that wear a stone rune; can form a painful astral prison with their touch
-- **Gavric the Silent** `Inmate, Assassin`
-- **The Hag Kalg** `Inmate` - rumors of her whispering to a dragon-shaped shadow
-- **The Lost Druid** `Inmate` - her incarceration was a necessary sacrifice to complete a complex ritual
-- 4 workers; 6 human guards; 6 Jailers
+**STAFF**
+- **Warden Cloudcroft** `Stern, Respected` - Abbes Salvora visits often
+- **Captain Kell** `Veteran, Strict, Proud`
+- 6 workers; 6 human guards; 9 Jailers
+
+**NOTABLE INMATES**
+- **Jailers** spectral guardians; scorched amber runes cover their ethereal forms, burning brighter with rage; their touch summons painful astral shackles
+- **The Hag Kalg** `Witch, Hungry, Patient` - whispers to dragon-shaped shadows
+- **The Lost Druid** `Prophet, Serene, Scheming` - her imprisonment serves a larger plan
+- **Gavric the Silent** `Assassin, Mute, Watching`
+- **Lady Vale** `Noble, Beautiful, Mad` - ate her entire family at a feast
+- **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
+- **The Twins** `Thieves, Connected, Apart` - must be kept in separate wings
 
 **0310 The Bone Cairn** is a puzzling landmark. A massive pile of bones arranged in the form of a cairn. If the bones are toppled, they inexplicably restack themselves at twilight, defying explanation.
 
@@ -178,22 +184,38 @@ Fellstead Monastery provides a monk (on rotation), food, beer and healthcare for
 
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
-**0608 Yagul Fane** is marked by two imposing stone towers, erected by the legendary magi, Naz Yagul and Uma Fane. The Council of Six governs the site, with the head of Fellstead Monastery playing tie-breaker. Access beyond the ground floors is limited to magi and staff, and protected by formidable wards and spells. Residents are esteemed for their mastery of magical disciplines, drawing scholars and adventurers from distant lands.
+**0608 Yagul Fane** Two imposing towers--one obsidian black, one alabaster white--mark where legendary magi Naz Yagul and Uma Fane made their home. The Council of Six governs from these towers, with Fellstead's head monk as tie-breaker. Ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded against all but magi and staff. The towers' reputation for magical mastery draws scholars and adventurers from distant lands.
 
-Surrounding the towers is a desert village housing approximately 300 inhabitants. These resilient individuals thrive in the harsh environment, relying on traditional values, adaptability, and self-reliance. Most live in tents; some in permanent stone structures, showcasing their connection to the land.
+A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. These hardy folk maintain traditional values while embracing the harsh desert life.
 
-In the center of the village sits a magical cistern, created by the magi of Yagul Fane, ensuring water for all. This enchanted well symbolizes the community's unity and strength. The villagers engage in herding livestock and participating in trade as part of their daily activities.
+At the village center, a magical cistern ensures water for all--a gift from the towers that symbolizes unity between magi and Dustfolk. The villagers tend livestock and maintain active trade despite their remote location.
 
-- **Gareth** `Next in line for Council of 6, Necromancer, Sweet tooth`
+**The Council of Six**
+1. **Archmage Voss** `Chronomancer, Ancient, Calculating`
+2. **Lady Meera** `Illusionist, Elegant, Sharp`
+3. **Lord Thane** `Duelist, Scarred, Stoic`
+4. **Master Vex** `Shapeshifter, Disfigured, Kind`
+5. **Sister Rose** `Druid, Quiet, Watchful` - Monastery representative
+6. **[Empty Seat]** - Recently vacated under mysterious circumstances
+
+- **Gareth** `Necromancer, Scoundrel, Sweet tooth` next in line for Council of 6
 - **Captain Yorik** `Guard, Hunter, Daring`
 - **The Broker** `Fence, Embroiderer, Methodical`
-- **Narla** `Alchemist, Pretty, 3 Husbands`
+- **Narla** `Alchemist, Alluring, 3 Husbands`
 - **Sorrel** `Priest, Trailblazer, Passionate`
 - **Cirian** `Sage, Cartwright, Creative`
-- **Flax** `Barkeep, Assassin, Funny`
+- **Flax** `Barkeep, Assassin, Cheap`
 - **Liren** `Armorer, Wench, Determined`
 - **Ursula** `Spy, Cheeky, Displaced, Ward`
 - **Mrs Redraven** `Lady-of-the-house, Loyal, Prude`
+
+**RUMORS**
+1. Master Vox is stuck between forms. He's actually a silver dragon studying human magic.
+1. Sister Rose may wear monastery robes, but I saw her leaving offerings at the old druid stones.
+1. The Broker's embroidery contains messages for northern spies.
+1. Narla's three husbands? Same man; just from different times. Voss knows but lets it slide - he's sweet on her too.
+1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
+1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
 **0807.6 Barrow of the Cane**
 A 12' rune stone carved into a silver speckled, rust-colored stone. It sets upon a small hill marked with rusty grass. The rune tells an elaborate history of **The Cane**, an ancient tribe of warriors. The barrow has an entrance at its base, framed by three monolith stones. The walls within are covered in chalky paintings of men with long spears fighting various monsters; hand prints of men, women and children; and giants in the mountains. The paintings depict families with heads in the shape of various animal spirits. Each cubbyhole is marked with these same animal shapes.
@@ -266,7 +288,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.42_ by brine <br>
+_v0.9.5_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
