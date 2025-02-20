@@ -181,8 +181,7 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 No undead haunt this isle, despite its name. Pirates spread that tale to protect their buried treasures, though the white-skinned corpses of unwary berry-seekers certainly helped sell the story. The occasional silver coin in the tide only strengthens local beliefs.
 
-**Treasure Seekers**
-Referenced in Ida's diary [0209], the Bone Tree stands on the southeastern shore, a landmark well-known to mainland fishermen. Twice daily--as the tide retreats at dawn and dusk--stone steps emerge at the tree's base, leading into the depths. The treasure chest lies buried in a narrow crevice formed by two massive boulders, making excavation particularly challenging in the confined space. Time is of the essence: you have less than two hours to dig before the rising waters reclaim the site, burying the treasure once more beneath the waves.
+Ida's diary [0209] speaks of the Bone Tree, a landmark familiar to mainland fishermen. Twice daily, as the tide retreats, stone steps emerge at its base, a path leading down into the depths. A chest lies hidden within a crevice formed by two massive boulders, a prize offered only to those swift enough to claim it before the relentless tide returns.
 
 **0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River" and speaking of divine currents. His growing congregation of 42 followers camps nearby--seventeen wear the silver anchor of true believers. They will fight to the death for him.
 
@@ -268,7 +267,6 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - **Foreman "Boss" Bartok** `Burly, Caring` - prioritizes crew safety over quotas
 - **Nyssa "Thumbs" Dunsfold** `Fallen Druid, Witty` - hired to appease druids
 - **Lena "Sawbones" Thorne** `Medic, Gentle` - treats wounds physical and spiritual
-- **Lucia "Twig" Thorne** `Camp Mom, Cheerful` - knows which trees to avoid
 - **"Cookie"** `One-armed, Terrible cook` - lost his arm to "tree-bite"
 - 12 loggers, each marked with protective symbols
 
@@ -280,7 +278,7 @@ The hamlet folk avoid the nearby Boat Hag [1506], claiming her presence spoils t
 
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door--they say rotten fish draws darker things away.
 
-She brews remedies from marsh herbs and forest flora, trading them to those brave or desperate enough to visit. The hamlet folk whisper that on moonless nights, she speaks to shadows stretching from Mon. Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
+Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
 
 **1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes, camouflaged among the coral, hunt in the wreckage.
 
@@ -310,7 +308,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.6_ by brine <br>
+_v0.9.66_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
