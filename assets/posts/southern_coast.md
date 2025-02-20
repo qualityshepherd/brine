@@ -18,8 +18,8 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 ### SITUATIONS
 
 2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _busting_ with treasure when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
-1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discretely supplies the followers of both "The River" _and_ the Lost Druid. Neither party would be pleased if they knew about the other.
+1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _bursting_ with treasure when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
+1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid. Neither party would be pleased if they knew about the other.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
 1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound.
 1. A messenger from the Northern Kings needs safe passage to Yagul Fane. They're carrying sensitive documents about the royal funding of both institutions.
@@ -32,7 +32,7 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 
 ### RUMORS
 
-2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that retched place.
+2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that rretched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
 1. Yagul Fane is built atop an ancient city with unimaginable magical treasures (BYOD: _Bring Your Own Dungeon_).
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
@@ -41,13 +41,13 @@ The Southern Coast is a system neutral, regional setting designed for sandbox ex
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
 1. Maude's bees make special honey from Moonlight Mushrooms. Monastery pays triple for those jars - says it helps them 'see clearly'.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
-1. Watch for Rune Stones in the dunes. Nomads say they're portals at twilight. But careful! You might end up leagues away... or worse.
+1. Watch for rune stones in the dunes. Nomads say they're portals at twilight. But careful! You might end up leagues away... or worse.
 1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they move at night; they're getting ready to hatch.
 
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Queen, Grandparent, Peevish`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Queen, Grandparent, Impartial`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings... yet.
 
@@ -70,7 +70,7 @@ Nomadic tribes may lay claim to certain areas, and conflicts over resources are 
 
  2d6 | Twilight Sands Encounters
 :---:|:--------------------
- 2   | **Sandits** submerge a triangular stone in water, unleashing a localized sandstorm. They attack in the blinding chaos; appearing from seemingly nowhere (using Rune Stones). More water creates larger storms, from "stinging eyes" to "buried alive".
+ 2   | **Sandits** submerge a triangular stone in water, unleashing a localized sandstorm. They attack in the blinding chaos; appearing from seemingly nowhere (using rune stones). More water creates larger storms, from "stinging eyes" to "buried alive".
  3   | 2d6 **Dune Crawlers** Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait to strike...
  4   | d6 **Dust Devils** Your weapons are useless against these whirling tornadoes of sand. They drain moisture from living things, leaving victims parched and weakened. The only defense is to lie flat or find solid cover - fighting just feeds their winds.
  5   | **Ghost Caravan**, half-buried remnants of a merchant caravan. Among the weathered wagons: spice barrels (still fragrant), bolts of silk (perfectly preserved), and brass-bound chests. The ghostly merchants defend their cargo; still hoping to complete their delivery to Yagul Fane.
@@ -308,7 +308,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.66_ by brine <br>
+_v0.9.67_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawl Rules](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
