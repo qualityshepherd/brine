@@ -46,7 +46,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Queen, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Imperial, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Stretches of forest lie burned to ash, creating an eerie beauty in the devastation. The pattern of destruction suggests a dragon, though none have been sighted... yet.
 
@@ -134,7 +134,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
 
-**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida, met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
+**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Lovelorn, Vengeful`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
 The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
 
@@ -157,24 +157,24 @@ The ethereal Jailers were once prisoners themselves. They stand eternal watch in
 Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive _royal endowments_ from northern kings for their service.
 
 **STAFF**
-- **Warden Cloudcroft** `Stern, Respected` - Abbes Salvora visits often
+- **Warden Cloudcroft** `Stern, Respected, Cunning Linguist` - Abbes Salvora visits often
 - **Captain Kell** `Veteran, Strict, Proud`
 - 6 workers; 6 human guards; 9 Jailers
 
 **NOTABLE INMATES**
 - **Jailers** spectral guardians; scorched amber runes cover their ethereal forms, burning brighter with rage; their touch summons painful astral shackles
-- **The Hag Kalg** `Witch, Hungry, Patient` - whispers to dragon-shaped shadows
-- **The Lost Druid** `Prophet, Serene, Scheming` - her imprisonment serves a larger plan
+- **The Hag Kalg** `Fae, Cruel, Patient` - whispers to dragon-shaped shadows
+- **The Lost Druid** `Prophet, Elegant, Scheming` - was once recorded as Elara Moonshadow in Mon's intake documents, though she refuses to acknowledge this name. The guards whisper that she appeared at the prison gates willingly, carrying only a staff made of twisted driftwood and smiling like one who knows a secret.
 - **Gavric the Silent** `Assassin, Mute, Watching`
 - **Lady Vale** `Noble, Beautiful, Mad` - ate her entire family at a feast
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
-- **The Twins** `Thieves, Connected, Apart` - must be kept in separate wings
+- **The Twins** `Connected, Amplifying, Dangerous` - are kept in separate wings
 
 **0310 The Bone Cairn** A massive pile of bones arranged in the shape of a cairn rises from the dunes. If toppled, the bones inexplicably restack themselves at twilight. Some bones shift position even when the cairn stands undisturbed, and locals swear the arrangement changes with the phases of the moon.
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
-**0408.1 The Mirage Merchant** A caravan camped near the Twilight Sands; A merchant sells trinkets that have magical effects at twilight. 1 in 6 is _actually_ magical.
+**0408.1 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
 
 **0412 Isle of Wights** White berry bushes grow thick across the island, their milky fruit a tempting prize. The berries grant miraculous healing if eaten within the hour of picking—after that, they turn deadly. Dead birds litter the ground beneath the bushes, their feathers bleached chalk-white, berries still clutched in their beaks.
 
@@ -182,7 +182,7 @@ No undead haunt this isle, despite its name. Pirates spread that tale to protect
 
 > **Treasure Seekers** The Bone Tree stands on the SE shore; a landmark known to mainland fishermen. Twice daily, stone steps emerge from the retreating tide, leading into the depths. Between two massive boulders lies a hidden chest—a prize for those quick enough to beat the returning waters.
 
-**0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River" and speaking of divine currents. His growing congregation of 42 followers camps nearby—seventeen wear the silver anchor of true believers. They will fight to the death for him.
+**0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River"(`Charlatan, Corny, Ambitious`) and speaking of divine currents. His growing congregation of 42 followers camps nearby—seventeen wear the silver anchor of true believers. They will fight to the death for him.
 
 The River studied briefly with the druids before charting his own course; a number of their sacred items still stowed safely away. Among his stolen treasures (old habits) is the **Nymph's Tear**, a teardrop gem originally belonging to the Fae Court. He preaches with a navigator's conviction, claiming to chart not just waters, but the courses of fate itself.
 
@@ -205,10 +205,10 @@ At the village center, a magical cistern ensures water for all—a gift from the
 
 **The Council of Six**
 1. **Archmage Voss** `Chronomancer, Ancient, Calculating`
-2. **Lady Meera** `Illusionist, Elegant, Sharp`
-3. **Lord Thane** `Duelist, Scarred, Stoic`
+2. **Lady Meera** `Illusionist, Sarcastic, Teacher`
+3. **Lord Thane** `Magical Duelist, Scarred, Stoic`
 4. **Master Vex** `Shapeshifter, Disfigured, Kind`
-5. **Sister Rose** `Druid, Quiet, Watchful` - Monastery representative
+5. **Sister Rose** `Druid, Oblivious, Funny` - Monastery representative
 6. **[Empty Seat]** - Recently vacated under mysterious circumstances
 
 - **Gareth** `Necromancer, Scoundrel, Sweet tooth` next in line for Council of 6
@@ -219,7 +219,7 @@ At the village center, a magical cistern ensures water for all—a gift from the
 - **Cirian** `Sage, Cartwright, Creative`
 - **Flax** `Barkeep, Assassin, Cheap`
 - **Liren** `Armorer, Wench, Determined`
-- **Ursula** `Spy, Cheeky, Displaced, Ward`
+- **Ursula** `Spy, Cheeky, Ward`
 - **Mrs Redraven** `Lady-of-the-house, Loyal, Prude`
 
 **RUMORS**
@@ -246,16 +246,16 @@ The Harlans supply most of their crop to Fellstead Monastery's brewery, though M
 
 The monastery boasts a famed library, produces fine milk and cheese from their goats, and brews the best beer in the south—thanks to an annual donation of hops from Harlan's Grove [#0904].
 
-A group of pilgrims has come from the north, placing additional strain on the monastery's resources and tranquility. They claim to seek guidance from St. Fellstead, but their behavior raises suspicions. Their leader, **Father Falen** (`Cutthroat, Passive-Aggressive`), has been seen snooping around the brewmaster’s office, asking unsettling questions about the monastery’s finances, and lingering in the library far too long. Some monks question their piety and wonder what they’re truly after.
+A group of pilgrims has come from the north, placing additional strain on the monastery's resources and tranquility. They claim to seek guidance from St. Fellstead, but their behavior raises suspicions. Their leader, **Father Falen** (`Cutthroat, Apathetic`), has been seen snooping around the brewmaster’s office, asking unsettling questions about the monastery’s finances, and lingering in the library far too long. Some monks question their piety and wonder what they’re truly after.
 
 **RESIDENTS**
-- **Abbes Salvora** `Devoted, Wise` - frequent visits to the Prison of Mon
-- **Prior Cedric** `Rugged, Diligent` - oversees brewing operations
-- **Sister Elara** `Druid, Healer, Formerly Lost Druid`
+- **Abbes Salvora** `Devoted, Respected, Distracted` - frequent visits to the Prison of Mon
+- **Prior Cedric** `Rugged, Diligent, Insecure` - oversees brewing operations
+- **Sister Elara** `Fallen Druid, Healer, Know-it-all`
 - **Brother Ulfar** `Brewmaster, Mean Drunk` - avoided but knows beer
-- **Brother Estabar** `Monk, Eager` - master goat herder
-- **Sir Ealdred** `Knight, Daring` - seeks spiritual clarity after long and brutal campaigns
-- **Lady Isolde** `Noble, Selfless` - sought sanctuary from the pressures of court life
+- **Brother Estabar** `Monk, Eager, Gentle` - master goat herder
+- **Sir Ealdred** `Knight, Daring, Haunted` - seeks spiritual clarity after long and brutal campaigns
+- **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
 - 24 Monks, 6 pilgrims
 
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
@@ -283,9 +283,9 @@ Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fa
 
 Among its treasures was a **Sylph Ring**—a pewter band marked with the fae rune for air that summons gentle winds. Carved on a board just above the waterline is "Pesh was here" [#1405].
 
-**1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Sharp`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
+**1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Honest, Sharp`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
-Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
+Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Yearning, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
 
 
 ### HEXTRAS
@@ -294,20 +294,20 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 1. **Shadow Walker** A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to her intended destination. Once the shadows are just right, she will walk into it, through a disorienting maze of darkness and out of another shadow elsewhere. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works... for a price.
 
-2. **Classic Traveler** A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as **Malfas**. Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
+2. **Classic Traveler** A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as **Malfas** (`Tall, Observer, Awkward`). Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
 
 3. **Mad Monk** is dressed in pink robes of an improbable shade of bright pink. His eyes dart with a manic glint, and he mumbles to himself incoherently. He's out of water and will ask the PCs if they can spare any. He's quite mad... he's looking for a door. He might remember his name is **Jaral**.
 
 4. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
-5. **Aware Wolf** Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is **Zander**. He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend...
+5. **Aware Wolf** Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is **Zander** (`Friendly, Haunted`). He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend...
 
-6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud`) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
+6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.72_ by brine <br>
+_v0.9.8_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
