@@ -138,7 +138,7 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
 
-Ida's diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [0412].
+Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [0412].
 
 On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
@@ -180,7 +180,7 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 No undead haunt this isle, despite its name. Pirates spread that tale to protect their buried treasures, though the white-skinned corpses of unwary berry-seekers certainly helped sell the story. The occasional silver coin in the tide only strengthens local beliefs.
 
-Ida's diary [0209] speaks of the Bone Tree, a landmark familiar to mainland fishermen. Twice daily, as the tide retreats, stone steps emerge at its base, a path leading down into the depths. A chest lies hidden within a crevice formed by two massive boulders, a prize offered only to those swift enough to claim it before the relentless tide returns.
+> **Treasure Seekers** The Bone Tree stands on the SE shore; a landmark known to mainland fishermen. Twice daily, stone steps emerge from the retreating tide, leading into the depths. Between two massive boulders lies a hidden chest—a prize for those quick enough to beat the returning waters.
 
 **0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River" and speaking of divine currents. His growing congregation of 42 followers camps nearby—seventeen wear the silver anchor of true believers. They will fight to the death for him.
 
