@@ -56,7 +56,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  3   | 2d6 **Druid Followers** demand an offering.
  4   | d6+1 **Redcaps** If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead them to the Fae Court for judgment.
- 6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River </li><li>3-4: Retrieve the Sylph Ring from the shipwreck </li><li>5-6: Recover the Dryad's Branch from the Boat Hag</li></ul>
+ 6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River [0502] </li><li>3-4: Retrieve the Sylph Ring from the shipwreck [1508] </li><li>5-6: Recover the Dryad's Branch from the Boat Hag [1506]</li></ul>
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
  8   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
  9   | 3d6 **Moonlight Mushrooms**, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
@@ -307,7 +307,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.7_ by brine <br>
+_v0.9.72_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
 For your [random needs](https://rando.brine.dev) <br>
