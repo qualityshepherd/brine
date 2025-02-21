@@ -304,10 +304,51 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
+### TREASURE
+
+D66 | Treasure
+:---:|:--------------------
+11 | Box of crystallized moonlight mushroom spores (40s)
+12 | Bone-white pearls from ghost oysters (3d6×10s)
+13 | Jar of preserved twilight that glows when opened (50s)
+14 | Skeleton key carved from petrified marsh wood (25s)
+15 | Bottle of tears from a Wailing Tree (35s)
+16 | Watercolor of a figure jumping from atop lighthouse at dawn (15s)
+21 | Silver-threaded fishing net that cannot tangle (100s)
+22 | Shell necklace that feels always cold (30s)
+23 | Coral-handled dagger with wave patterns (45s)
+24 | Opalescent shell that catches moonlight (40s)
+25 | Tarnished silver compass with naked woman etching (50s)
+26 | Ancient wine still perfectly preserved (75s)
+31 | Brass spyglass etched with sailing songs (35s)
+32 | Salt-stained pirate ship log in cipher (25s)
+33 | Bronze incense burner shaped like an octopus (20s)
+34 | Silver pendant of two moons eclipsing (30s)
+35 | Half-empty jar of purple honey (15s)
+36 | Set of iron manacles with strange runes (40s)
+41 | Pair of pearl earrings on copper chains (45s)
+42 | Silver-rimmed drinking horn with initials "T.K." (35s)
+43 | Set of bone dominoes in velvet pouch (20s)
+44 | Tarnished copper wedding bands, still paired (25s)
+45 | Half-burned love letter signed "Your Captain" (15s)
+46 | Ship's flag with faded stag insignia (30s)
+51 | Small silver mirror in wooden case (35s)
+52 | Delicate porcelain tea set for two (40s)
+53 | Child's doll with silver button eyes (25s)
+54 | Carved bone flute that sounds like waves (30s)
+55 | Herbalist's journal, pages stuck with honey (20s)
+56 | Leather pouch of semi-precious stones (45s)
+61 | Copper bowl that fills with morning dew (50s)
+62 | Bone dice that roll better at night (35s)
+63 | Crystal perfume bottle with lingering scent (25s)
+64 | Fine wool cloak with fox fur trim (30s)
+65 | Silver thimble that smells of rare spices (20s)
+66 | Small music box that plays sea shanties (40s)
+
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.8.1_ by brine <br>
+_v0.9.9_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>
