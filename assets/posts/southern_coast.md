@@ -1,6 +1,6 @@
 ---
 title: Southern Coast
-date: 2024-3-18
+date: 2025-2-21
 description: A wilderness hexcrawl adventure
 tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
@@ -292,17 +292,17 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
 
 The following hex/encounters can be used as random situations throughout the Southern Coast as the GM requires.
 
-1. **Shadow Walker** A robed woman sits cross legged in the sand. She's waiting for the sun to either come out or be at the right moment so she can shadowalk to her intended destination. Once the shadows are just right, she will walk into it, through a disorienting maze of darkness and out of another shadow elsewhere. Shadow walking is tricky; the traveler may come out feet or miles off course. The woman might teach PCs how it works... for a price.
+1. **Shadow Walker** A robed woman sits cross-legged in sand, waiting for the right moment. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but it will cost_.
 
-2. **Classic Traveler** A rather tall man walks with a limp next to an empty two-cart train pulled by two large oxen. He will introduce himself as **Malfas** (`Tall, Observer, Awkward`). Malfas is an alien in human form and a few hundred years early to play basketball. The oxen are mechanical which only cutting them would reveal. Only their crazy strength would be telling that they are not real oxen. Their names are Jake and Jim. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
+1. **Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
 
-3. **Mad Monk** is dressed in pink robes of an improbable shade of bright pink. His eyes dart with a manic glint, and he mumbles to himself incoherently. He's out of water and will ask the PCs if they can spare any. He's quite mad... he's looking for a door. He might remember his name is **Jaral**.
+1. **Mad Monk** A figure in impossibly pink robes stumbles forward from nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door. He might remember his name is **Jaral**.
 
-4. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
+1. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
-5. **Aware Wolf** Buzzards circle overhead 100 yards off. The target is a goat carcass that looks to have been mostly devoured by wolves. A werewolf in human form sleeps soundly in a nearby thicket. Slender with dark curly hair and covered in blood; his name is **Zander** (`Friendly, Haunted`). He will try to avoid notice and pretend to be looking for a lost dog if noticed. Zander and his pack only pose a threat at night. He speaks to a dead friend...
+1. **Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Friendly, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
 
-6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one trader's shoulder, she now wields daggers. Wandering hands_ were NOT part of the fare. The trader's wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
+6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 ### TREASURE
 
@@ -348,7 +348,7 @@ D66 | Treasure
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9_ by brine <br>
+_v0.9.9.1_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>
