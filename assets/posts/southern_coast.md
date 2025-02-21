@@ -112,7 +112,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  10  | **Ancient Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
  11+ | No encounter
 
-**West Marshes** sprawl endlessly—a labyrinth of murky waters and treacherous bogs. Quicksand pits lie in wait to ensnare the unwary, while giant leeches slither through the muck. The scent of damp earth and rotting vegetation chokes the air. Rare herbs and exotic flora thrive in these fertile soils, coveted by herbalists and alchemists alike.
+**West Marshes** sprawl endlessly along the eastern shore—a labyrinth of murky waters and treacherous bogs. Despite their confusing name, these swamps are home to quicksand pits and giant leeches slithering through the muck. The scent of damp earth and rotting vegetation chokes the air. Rare herbs and exotic flora thrive in these fertile soils, coveted by herbalists and alchemists alike.
 
  2d6 | West Marshes
 :---:|:--------------------
@@ -307,7 +307,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 ![image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.8_ by brine <br>
+_v0.9.8.1_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>
