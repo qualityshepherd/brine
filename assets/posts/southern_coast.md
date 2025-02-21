@@ -309,5 +309,5 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 _v0.9.8_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
-[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) if needed <br>
-For your [random needs](https://rando.brine.dev) <br>
+[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
+[Rando](https://rando.brine.dev) for your random needs <br>
