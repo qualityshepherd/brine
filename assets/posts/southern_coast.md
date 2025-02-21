@@ -46,7 +46,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Queen, Grandparent, Impartial`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Queen, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Swaths of forest are being ravaged by fire, leaving the haunting beauty of a charred landscape. A dragon? But no confirmed sightings... yet.
 
