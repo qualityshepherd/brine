@@ -1,7 +1,7 @@
 ---
 title: Southern Coast
 date: 2025-2-21
-description: A wilderness hexcrawl adventure
+description: A system-neutral, regional setting designed for sandbox exploration and adventure.
 tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
 
@@ -56,7 +56,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  3   | 2d6 **Druid Followers** demand an offering.
  4   | d6+1 **Redcaps** If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead them to the Fae Court for judgment.
- 6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River [0502] </li><li>3-4: Retrieve the Sylph Ring from the shipwreck [1508] </li><li>5-6: Recover the Dryad's Branch from the Boat Hag [1506]</li></ul>
+ 6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River [#0502] </li><li>3-4: Retrieve the Sylph Ring from the shipwreck [#1508] </li><li>5-6: Recover the Dryad's Branch from the Boat Hag [#1506]</li></ul>
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
  8   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
  9   | 3d6 **Moonlight Mushrooms**, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
@@ -138,7 +138,7 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
 
-Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [0412].
+Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
 
 On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
@@ -273,7 +273,7 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 
 The hut nearest the sea belongs to Pesh (`Generous, Paranoid`), a fourth-generation fisherman known for his anonymous donations to the monastery. None question how a simple fisherman can afford such charity. Beneath Pesh's hut lies a chest of 10,000 silver coins—salvaged from the pirate wreck in seven midnight diving trips. The weight of his secret is heavier than the chest.
 
-The hamlet folk avoid the nearby Boat Hag [1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
+The hamlet folk avoid the nearby Boat Hag [#1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
 
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door—they say rotten fish draws darker things away.
 
@@ -300,7 +300,7 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 1. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
-1. **Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Friendly, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
+1. **Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Accommodating, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
 
 6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
@@ -308,47 +308,47 @@ The following hex/encounters can be used as random situations throughout the Sou
 
 D66 | Treasure
 :---:|:--------------------
-11 | Box of crystallized moonlight mushroom spores (40s)
-12 | Bone-white pearls from ghost oysters (3d6×10s)
-13 | Jar of preserved twilight that glows when opened (50s)
-14 | Skeleton key carved from petrified marsh wood (25s)
-15 | Bottle of tears from a Wailing Tree (35s)
-16 | Watercolor of a figure jumping from atop lighthouse at dawn (15s)
-21 | Silver-threaded fishing net that cannot tangle (100s)
-22 | Shell necklace that feels always cold (30s)
-23 | Coral-handled dagger with wave patterns (45s)
-24 | Opalescent shell that catches moonlight (40s)
-25 | Tarnished silver compass with naked woman etching (50s)
-26 | Ancient wine still perfectly preserved (75s)
-31 | Brass spyglass etched with sailing songs (35s)
-32 | Salt-stained pirate ship log in cipher (25s)
-33 | Bronze incense burner shaped like an octopus (20s)
-34 | Silver pendant of two moons eclipsing (30s)
-35 | Half-empty jar of purple honey (15s)
-36 | Set of iron manacles with strange runes (40s)
-41 | Pair of pearl earrings on copper chains (45s)
-42 | Silver-rimmed drinking horn with initials "T.K." (35s)
-43 | Set of bone dominoes in velvet pouch (20s)
-44 | Tarnished copper wedding bands, still paired (25s)
-45 | Half-burned love letter signed "Your Captain" (15s)
-46 | Ship's flag with faded stag insignia (30s)
-51 | Small silver mirror in wooden case (35s)
-52 | Delicate porcelain tea set for two (40s)
-53 | Child's doll with silver button eyes (25s)
-54 | Carved bone flute that sounds like waves (30s)
-55 | Herbalist's journal, pages stuck with honey (20s)
-56 | Leather pouch of semi-precious stones (45s)
-61 | Copper bowl that fills with morning dew (50s)
-62 | Bone dice that roll better at night (35s)
-63 | Crystal perfume bottle with lingering scent (25s)
-64 | Fine wool cloak with fox fur trim (30s)
-65 | Silver thimble that smells of rare spices (20s)
-66 | Small music box that plays sea shanties (40s)
+11 | Box of crystallized moonlight mushroom spores (19s)
+12 | Bone-white pearls from ghost oysters (3d6×5s)
+13 | Jar of preserved twilight that glows when opened (23s)
+14 | Skeleton key carved from petrified marsh wood (13s)
+15 | Bottle of tears from a Wailing Tree (17s)
+16 | Watercolor of a figure jumping from atop lighthouse at dawn (7s)
+21 | Silver-threaded fishing net that cannot tangle (49s)
+22 | Shell necklace that feels always cold (15s)
+23 | Coral-handled dagger with wave patterns (21s)
+24 | Opalescent shell that catches moonlight (19s)
+25 | Tarnished silver compass with naked woman etching (23s)
+26 | Ancient wine still perfectly preserved (37s)
+31 | Brass spyglass etched with sailing songs (17s)
+32 | Salt-stained pirate ship log in cipher (11s)
+33 | Bronze incense burner shaped like an octopus (9s)
+34 | Silver pendant of two moons eclipsing (15s)
+35 | Half-empty jar of purple honey (7s)
+36 | Set of iron manacles with strange runes (19s)
+41 | Pair of pearl earrings on copper chains (21s)
+42 | Silver-rimmed drinking horn with initials "T.K." (17s)
+43 | Set of bone dominoes in velvet pouch (9s)
+44 | Tarnished copper wedding bands, still paired (11s)
+45 | Half-burned love letter signed "Your Captain" (7s)
+46 | Ship's flag with faded stag insignia (15s)
+51 | Small silver mirror in wooden case (17s)
+52 | Delicate porcelain tea set for two (19s)
+53 | Child's doll with silver button eyes (11s)
+54 | Carved bone flute that sounds like waves (15s)
+55 | Herbalist's journal, pages stuck with honey (9s)
+56 | Leather pouch of semi-precious stones (21s)
+61 | Copper bowl that fills with morning dew (23s)
+62 | Bone dice that roll better at night (17s)
+63 | Crystal perfume bottle with lingering scent (11s)
+64 | Fine wool cloak with fox fur trim (15s)
+65 | Silver thimble that smells of rare spices (9s)
+66 | Small music box that plays sea shanties (19s)
 
 
-![image](/assets/images/southern_coast/southern_coast.png)
+![#image](/assets/images/southern_coast/southern_coast.png)
 
 _v0.9.9.1_ by brine <br>
-[map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
-[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
-[Rando](https://rando.brine.dev) for your random needs <br>
+[#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
+[#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
+[#Rando](https://rando.brine.dev) for your random needs <br>
