@@ -7,7 +7,7 @@ tags: hexcrawl, hexy, adventures, sandbox, soco
 
 **The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea, circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
 
-With these foundations of civilization now in place, the Southern Coast has begun to draw bold settlers eager to carve out new lives in this frontier.
+With these foundations of civilization in place, the Southern Coast draws bold settlers eager to carve out new lives in this frontier.
 
 
 ### WHAT IS THIS?
@@ -16,15 +16,15 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### SITUATIONS
 
-2. Loggers in the Starwoods have been attacked by a creature they claim to be a wendigo. They've sent a desperate plea to the Monastery for aid.
-1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _bursting_ with treasure when it sank. The rumors of a "ghost ship" seen off the coast are well established but an eye witness swears that it's The Crown's Fury.
-1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid. Neither party would be pleased if they knew about the other.
+2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
+1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _bursting_ with treasure when it sank. Rumors of a "ghost ship" seen off the coast are well established but a witness swears that it's The Crown's Fury.
+1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid; knowledge that would please neither party.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
 1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound.
 1. A messenger from the Northern Kings needs safe passage to Yagul Fane. They're carrying sensitive documents about the royal funding of both institutions.
 1. Lady Goodknight of the Fae Court demands the return of all fae artifacts; no exceptions. Generous rewards await those who comply.
 1. The Prison of Mon is _quietly_ investigating why their binding runes are weakening. They suspect the Hag Kalg but it's actually the Lost Druid syphoning their power.
-1. A Northern King's bastard is hiding among the Prophet's followers. Both assassins and royal agents are searching the mountains.
+1. A Northern King's bastard hides among the followers of "The River". Royal agents—aka assassins—seek his "safe return".
 1. Maude's bees are dying and Harlan's famous hops are the likely cause. Both businesses are crucial to the Monastery's beer production.
 1. Jailers report Hag Kalg whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon.
 
@@ -33,15 +33,15 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that wretched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane is built atop an ancient city with unimaginable magical treasures (BYOD: _Bring Your Own Dungeon_).
+1. Yagul Fane is built atop an ancient city with unimaginable magical treasures.
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
-1. Greever's Lighthouse is full of ghosts. They sometimes activate the old light to summon a spectral ship from the depths.
-1. The mountain mists are the breath of ancient dragons. Dragons ruled this place. The Lost Druid says they'll return once their food source is replenished.
+1. Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.
+1. The mountain mists are the breath of ancient dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
 1. Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em _see clearly_.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
-1. Watch for runes in the dunes. Nomads say they're portals at twilight. But careful! You might end up leagues away... or worse.
-1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they move at night; they're getting ready to hatch.
+1. Watch for runes in the dunes. Nomads call them _twilight portals_. But careful! You might end up leagues away... or worse.
+1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they fidget at night; they're gonna hatch!
 
 
 ### LOCATIONS
@@ -142,7 +142,7 @@ Ida's diary contains a page ripped from a ships log. It reads: _"Curse those ber
 
 On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
-**Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
+> **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
