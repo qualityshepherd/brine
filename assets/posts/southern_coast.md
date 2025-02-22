@@ -5,7 +5,7 @@ description: A system-neutral, regional setting designed for sandbox exploration
 tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
 
-**The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea, circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
+**The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea; circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
 
 With these foundations of civilization in place, the Southern Coast draws bold settlers eager to carve out new lives in this frontier.
 
@@ -53,14 +53,14 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
  2   | **Shadow Dragon** An ancient dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.
- 3   | 2d6 **Druid Followers** demand an offering.
- 4   | d6+1 **Redcaps** If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
- 5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead them to the Fae Court for judgment.
+ 3   | **Druid Followers** (2d6) demand an offering.
+ 4   | **Redcaps** (d6+1) If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
+ 5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead outsiders to the Fae Court for judgment.
  6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River [#0502] </li><li>3-4: Retrieve the Sylph Ring from the shipwreck [#1508] </li><li>5-6: Recover the Dryad's Branch from the Boat Hag [#1506]</li></ul>
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
  8   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
- 9   | 3d6 **Moonlight Mushrooms**, a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
- 10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: a dryad who trades fairly but punishes theft with eternal servitude.
+ 9   | **Moonlight Mushrooms** (3d6), a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
+ 10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: a Dryad (`Ancient, Patient, Vengeful`) who trades fairly but punishes theft with eternal servitude.
  11+ | No encounter
 
 **Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect... perhaps _literally_ if gazing too long.
@@ -70,8 +70,8 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
  2d6 | Twilight Sands Encounters
 :---:|:--------------------
  2   | **Sandits** submerge a triangular stone in water, unleashing a localized sandstorm. They attack in the blinding chaos; appearing from seemingly nowhere (using rune stones). More water creates larger storms, from "stinging eyes" to "buried alive".
- 3   | 2d6 **Dune Crawlers** Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait to strike...
- 4   | d6 **Dust Devils** Your weapons are useless against these whirling tornadoes of sand. They drain moisture from living things, leaving victims parched and weakened. The only defense is to lie flat or find solid cover—fighting just feeds their winds.
+ 3   | **Dune Crawlers** (2d6) Large, insect-like creatures that scuttle effortlessly over sands. They burrow just under the sand wait to strike...
+ 4   | **Dust Devils** (d6) Your weapons are useless against these whirling tornadoes of sand. They drain moisture from living things, leaving victims parched and weakened. The only defense is to lie flat or find solid cover—fighting just feeds their winds.
  5   | **Ghost Caravan**, half-buried remnants of a merchant caravan. Among the weathered wagons: spice barrels (still fragrant), bolts of silk (perfectly preserved), and brass-bound chests. The ghostly merchants defend their cargo; still hoping to complete their delivery to Yagul Fane.
  6 | **Trapped Dybbuk** A spirit trapped in an ornate silver cage, unable to possess the living. She has a letter containing an ancient possession ritual. If the party delivers this letter to someone of their choosing, she will share the victim's wealth once possessed.
  7   | **Rune Stone** a weathered stone that transports anyone touching it to its twin in an adjacent hex (d6: 6=North, continuing clockwise) during twilight (1 hour at dusk/dawn). This is the secret to the Sandits appearing from nowhere and they will kill to protect it. The stones are typically half-buried in sand and easily overlooked.
@@ -84,8 +84,8 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
 
  2d6 | Sorrow Mountains Encounters
 :---:|:--------------------
- 2   | d6 **Bears** deceptively quick for their size. Their burst speed and reach catch most prey off guard. You'll only underestimate them once.
- 3   | 2d6 **Wolves** hunt with cunning and keen senses. Their pack mentality means you're likely surrounded before you know it. You might want to stay close to a fire... or a spear.
+ 2   | **Bears** (d6)deceptively quick for their size. Their burst speed and reach catch most prey off guard. You'll only underestimate them once.
+ 3   | **Wolves** (2d6) hunt with cunning and keen senses. Their pack mentality means you're likely surrounded before you know it. You might want to stay close to a fire... or a spear.
  4   | A recent **Landslide** blocks the way ahead, requiring detour or clearing
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by prison officials. Those bearing proper prison documents or official business are led safely to Mon's gates. Others... directly to the Jailers.
  6   | **Abandoned Campsite** with scattered belongings, bloodstains, and tracks leading into a copse of trees. Embers still smoke in the fire pit.
@@ -116,9 +116,9 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
  2d6 | West Marshes
 :---:|:--------------------
- 2   | d6 **Bog Trolls** Mossy brutes rise from the muck to ambush prey. Their putrid breath is so foul it requires a save to avoid retching. They hate Marsh Tea's scent and actively seek to destroy it.
- 3   | d6 **Swamp Drakes** Flying crocodilian wyrms that snatch prey from above and drag them to underwater lairs. Their wingbeats temporarily part the marsh waters, revealing sunken treasures... and dangers.
- 4 | **Mistwood Fallen** 3d6 zombies in rotting military garb, still fighting the Battle of Mistwood. They mistake any armed group for the enemy, but ignore those carrying King Theric's silver stag banner.
+ 2   | **Bog Trolls** (d6) Mossy brutes rise from the muck to ambush prey. Their putrid breath is so foul it requires a save to avoid retching. They hate Marsh Tea's scent and actively seek to destroy it.
+ 3   | **Swamp Drakes** (d6) Flying crocodilian wyrms that snatch prey from above and drag them to underwater lairs. Their wingbeats temporarily part the marsh waters, revealing sunken treasures... and dangers.
+ 4 | **Mistwood Fallen** (3d6) zombies in rotting military garb, still fighting the Battle of Mistwood. They mistake any armed group for the enemy, but ignore those carrying King Theric's silver stag banner.
  5   | **Quicksand** What is it that's not exactly water and it ain't exactly earth?
  6   | **Bog Myrtle** small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil. Bog Trolls often lurk near productive patches.
  7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries. Collecting it requires wading into deep water where Swamp Drakes hunt.
@@ -348,7 +348,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.2_ by brine <br>
+_v0.9.9.3_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
