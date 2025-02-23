@@ -129,10 +129,30 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 
 ### HEXES
+**0102 Razor's Edge**
+A steep mountain stream carves a violent path, its freezing waters churning with such fury that crossing is impossible. A single, weathered bridge—little more than rotting planks and fraying ropes—spans the deadly waters. It is unlikely to bear a heavy load.
 
-**0104 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by bioluminescent fungi, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
+**0103 The Alarum Fields**
+A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
+
+**0104 Respite Grove**
+A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.
+
+**0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by bioluminescent fungi, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
 
 The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
+
+**0106 The Scorched Hollow**
+A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps rise from dead ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
+
+**0107 The Ashen Thicket**
+A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
+
+**0201 Quiet Holler**
+A small valley of hills dotted with tall trees and a slow-moving stream that heads south. The water is clear, flowing steadily over smooth stones. It's almost _too quiet_, with little sound except for the occasional splash or rustle from the underbrush. There’s an odd sense of being observed. Travelers feel an urge to continue south, though they can't quite explain why.
+
+**0208 The Ash King**
+A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Lovelorn, Vengeful`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
@@ -195,6 +215,9 @@ The River studied briefly with the druids before charting his own course; a numb
  5   | "You don't want to know what lurks in those murky depths."
  6   | "As ebb and flow commands."
 
+**0605 The Shattered Altar**
+The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
 **0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The Council of Six governs from these towers, with Fellstead's head monk as tie-breaker. Ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded against all but magi and staff. The towers' reputation for magical mastery draws scholars and adventurers from distant lands.
@@ -235,6 +258,13 @@ At the village center, a magical cistern ensures water for all—a gift from the
 The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silver bear idol (400s), and simple silver jewelry (120s). Several spear poles of exceptional quality remain, one still bearing its razor-sharp obsidian tip. Those who rest in this sacred space find their wounds heal faster.
 
 If disturbed, the ghost of **Zamma**—the tribe's last shaman—appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse—flesh turning to rust, spreading from fingers to arm until death claims them.
+
+**0902 Mountian Maw**
+A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
+
+Scattered around the rim lie skeletons—warped, massive, unrecognizable. Monsters, every one. All slain in battle, yet no sign of what killed them. No human remains. No clear victor.
+
+Few have climbed down. None have reached the bottom. Some call it a wound in the world, others a doorway.
 
 **0904 Harlan's Grove** The region's finest hops grow in neat rows across rolling hills. Francis and Catherine Harlan, and their oldest son Dale (`Shrewd, Proud`), tend their crops with generations of expertise—though their success stems from more than skill alone. A rare mineral in the soil imbues their hops with distinctive flavors—a secret they guard as carefully as their harvests. Six workers tend the rows while monastery wagons collect their weekly barrels.
 
@@ -410,7 +440,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.6_ by brine <br>
+_v0.9.9.7_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
