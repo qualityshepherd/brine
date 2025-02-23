@@ -257,7 +257,7 @@ The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silv
 
 If disturbed, the ghost of **Zamma**—the tribe's last shaman—appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse—flesh turning to rust, spreading from fingers to arm until death claims them.
 
-**0902 Mountian Maw** A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
+**0902 Mountain Maw** A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
 
 Scattered around the rim lie skeletons—warped, massive, unrecognizable. Monsters, every one. All slain in battle, yet no sign of what killed them. No human remains. No clear victor.
 
