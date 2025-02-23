@@ -251,6 +251,9 @@ A well-worn hollow where travelers pause before the final approach to Fellstead.
 **1009 Grappled Chapel**
 A dilapidated stone chapel strangled by **Dragon Vine** (`Grapple, Razor Sharp, Poison`)—their purple flowers oddly beautiful against crumbling walls. Empty crates rot in tangles of razor-sharp stems. The vines shift slightly in a wind that isn't there.
 
+**1105 The Frostwake Grotto**
+A hidden cavern where the mountain's breath turns the air deathly cold. Even in summer, ice clings to the stone, and strange, pale flora thrive in the darkness. The deeper one goes, the more the ice seems… deliberate, as if shaped by unseen hands. In the very heart of the grotto stands a frozen pillar; something large trapped within. Whether it is a preserved guardian, a forgotten king, or something better left undisturbed—no one knows. Nightly harvesters leave behind clear signs: scattered ice fragments and deep cart ruts.
+
 **1107 Weeping Grove**
 Mist clings to a dense stand of weeping trees. Everything drips with sickly-sweet water, even in drought. Rusted tools and broken barrels hint at abandoned collection efforts.
 
@@ -270,11 +273,35 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
 - 24 Monks, 6 pilgrims
 
+**1202 The Skyroot Sentinels**
+Towering, ancient trees grow impossibly tall here, their roots gripping stone as if holding the mountain in place. Legends claim these trees are guardians, awakened only when the land is threatened. Their bark is scarred with old battle wounds, and those who listen closely can hear faint warnings or welcomes, depending on the visitor’s intent.
+
+**1203 The Broken Stair**
+A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.
+
+**1204 The Black Fangs**
+Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.
+
+**1205 The Hollow Roost**
+An immense, ancient tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.
+
 **1208 The Leaning Stones**
 Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
 
+**1302 The Mistwell**
+A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying. Some claim the Mistwell is a sacred place watched over by unseen spirits, while others insist it is a gateway to something beyond mortal understanding.
+
+**1303 The Slumbering Hart**
+Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Some claim that disturbing it will summon the wrath of the forest itself.
+
 **1308 Salted Woods**
 Gnarled pines grow right to the cliff's edge, their bark white with salt spray. A ship's wheel hangs forgotten in the branches, creaking in the wind. Fishermen leave offerings here—for luck on their next voyage. Fresh fish bones and a knotted red ribbon dangle from the spokes.
+
+**1402 Red’s Woods**
+A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. **"Red" Dressler** (`Tree-wise, Craftsman, Absorbed`) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a **Dryad** (`Ethereal, Elusive, Nurturing`). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.
+
+**1403 Marked Woods**
+Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps painting over them with strange symbols.
 
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
 
@@ -288,13 +315,16 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - 12 loggers, each marked with protective symbols
 
 **1407 Blackfish Point**
-A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) educates strangers that this is a private beach and that charter fees start at 100s; no haggling.
+A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) _educates_ strangers that this is a private beach and that charter fees start at 100s; no haggling.
 
 **1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray.
 
 The hut nearest the sea belongs to Pesh (`Generous, Paranoid`), a fourth-generation fisherman known for his anonymous donations to the monastery. None question how a simple fisherman can afford such charity. Beneath Pesh's hut lies a chest of 10,000 silver coins—salvaged from the pirate wreck in seven midnight diving trips. The weight of his secret is heavier than the chest.
 
 The hamlet folk avoid the nearby Boat Hag [#1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
+
+**1503 Split Oak**
+A massive oak tree, split by siege engines during the battle, still stands - both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
 
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door—they say rotten fish draws darker things away.
 
@@ -308,6 +338,17 @@ Among its treasures was a **Sylph Ring**—a pewter band marked with the fae run
 
 Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Yearning, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
 
+**1604 Silverline Point**
+Natural stone piers stretch into deep water where massive silverline bass school. The best fishing spot on the coast—half your catch goes to the marsh folk's community stew pot.
+
+**1605 The Last Garden**
+A small cottage and garden somehow survive amid ash and char. Fresh vegetables still grow in tidy rows, untouched by blight. A scarecrow wearing a copper nail necklace stands watch. Ursula Mayfield (`Green-thumb, Aunt, Songbird`) tends the garden and shares her turnips with anyone who'll listen to her stories.
+
+**1606 Dragon's Message**
+Scorched trees ooze black sap, their branches stripped bare. Massive claw marks score the cliffs. The Boat Hag's own skiff lies shattered on the rocks, her copper nails scattered in the sand.
+
+**1703 Archer's Ridge**
+Steep cliffs where archers made their stand. Centuries of storms have exposed arrow shafts in the clay - all pointing to a lighthouse foundation that only shows at low tide.
 
 ### HEXTRAS
 
@@ -369,7 +410,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.4_ by brine <br>
+_v0.9.9.6_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
