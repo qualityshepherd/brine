@@ -240,7 +240,19 @@ If disturbed, the ghost of **Zamma**—the tribe's last shaman—appears. His bo
 
 The Harlans supply most of their crop to Fellstead Monastery's brewery, though Maude's Meadery has always received a share. This year's harvest promises to be exceptional, despite their neighbor's failing hives.
 
+**0906 Old Shepherd's Field**
+Stone foundations peek through tall grass, marking where Bellwick hamlet once stood. Shepherds still use the old stone pens, though Tam (`Weathered, Superstitious`) insists on proper etiquette when visiting. The ancient well remains reliable, but those who draw water always leave something in return.
+
 **1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
+
+**1007 Pilgrim's Hollow**
+A well-worn hollow where travelers pause before the final approach to Fellstead. A simple stone well and wooden shelter stand beside the path. Pilgrims have carved hundreds of prayers into the shelter's beams. Among them: "Lovely Lady Vale please spare us from your feast!"
+
+**1009 Grappled Chapel**
+A dilapidated stone chapel strangled by **Dragon Vine** (`Grapple, Razor Sharp, Poison`)—their purple flowers oddly beautiful against crumbling walls. Empty crates rot in tangles of razor-sharp stems. The vines shift slightly in a wind that isn't there.
+
+**1107 Weeping Grove**
+Mist clings to a dense stand of weeping trees. Everything drips with sickly-sweet water, even in drought. Rusted tools and broken barrels hint at abandoned collection efforts.
 
 **1108 Fellstead Monastery** perches atop weathered cliffs, its honey-colored stone walls and Gothic spires silhouetted against the coastal sky. The monastery is adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of seekers of knowledge). A trip of goats roams the terraced grounds, while sea caves beneath the brewery serve as naturally cool cellars for their renowned ale.
 
@@ -258,6 +270,12 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
 - 24 Monks, 6 pilgrims
 
+**1208 The Leaning Stones**
+Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
+
+**1308 Salted Woods**
+Gnarled pines grow right to the cliff's edge, their bark white with salt spray. A ship's wheel hangs forgotten in the branches, creaking in the wind. Fishermen leave offerings here—for luck on their next voyage. Fresh fish bones and a knotted red ribbon dangle from the spokes.
+
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
 
 Boss hired a former druid to help navigate these tensions, but her true loyalties remain unclear. The camp's torches burn all night now, and no logger works alone.
@@ -268,6 +286,9 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - **Lena "Sawbones" Thorne** `Medic, Gentle` - treats wounds physical and spiritual
 - **"Cookie"** `One-armed, Terrible cook` - lost his arm to "tree-bite"
 - 12 loggers, each marked with protective symbols
+
+**1407 Blackfish Point**
+A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) educates strangers that this is a private beach and that charter fees start at 100s; no haggling.
 
 **1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray.
 
@@ -348,7 +369,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.3_ by brine <br>
+_v0.9.9.4_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
