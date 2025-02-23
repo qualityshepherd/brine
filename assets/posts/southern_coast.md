@@ -197,6 +197,9 @@ No undead haunt this isle, despite its name. Pirates spread that tale to protect
 
 > **Treasure Seekers** The Bone Tree stands on the SE shore; a landmark known to mainland fishermen. Twice daily, stone steps emerge from the retreating tide, leading into the depths. Between two massive boulders lies a hidden chest—a prize for those quick enough to beat the returning waters.
 
+**0501 The Chime Stones**
+A narrow gorge where wind through stone formations creates haunting chimes. Seven rune-carved stones—each marked with a core emotion—rest near an empty indentation. Placing a stone transforms the gorge's resonance, shifting the feel of the landscape—and those within it—with its emotional tone.
+
 **0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River"(`Charlatan, Corny, Ambitious`) and speaking of divine currents. His growing congregation of 42 followers camps nearby—seventeen wear the silver anchor of true believers. They will fight to the death for him.
 
 The River studied briefly with the druids before charting his own course; a number of their sacred items still stowed safely away. Among his stolen treasures (old habits) is the **Nymph's Tear**, a teardrop gem originally belonging to the Fae Court. He preaches with a navigator's conviction, claiming to chart not just waters, but the courses of fate itself.
@@ -249,6 +252,9 @@ At the village center, a magical cistern ensures water for all—a gift from the
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
+**0802 Vial Cart**
+A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
+
 **0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
 
 **0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
@@ -270,6 +276,8 @@ The Harlans supply most of their crop to Fellstead Monastery's brewery, though M
 **0906 Old Shepherd's Field** Stone foundations peek through tall grass, marking where Bellwick hamlet once stood. Shepherds still use the old stone pens, though Tam (`Weathered, Superstitious`) insists on proper etiquette when visiting. The ancient well remains reliable, but those who draw water always leave something in return.
 
 **0907 Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
+
+**1001: Unkindness of Ravens:** Jagged peaks with numerous raven nests. One particular nest contains a pair of small, polished stones that reflect light in unique patterns. These are _message stones_, used to communicate over long distances.
 
 **1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
 
@@ -409,3 +417,33 @@ _v0.9.9.7_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
+
+
+Understood! My apologies for the overuse of "whispering" and the default to D&D tropes. I'll focus on providing more unique and interactive elements, avoiding clichés.
+
+Here's a revised list, focusing on interaction and avoiding "whispering":
+
+
+
+
+
+**xxxx The Mage's Tower**
+A slender stone tower rises from the landscape, its windows glowing with an unnatural light. An arrogant enchanter named **Akkar** (`Necromancer, Reckless, Unstable`) dwells within, wielding power without restraint. Darkness holds no fear for him—only his own unchecked ambition. He's attempting to reanimate a wet sack of drowned kittens.
+
+**xxxx The Marked Stones:** A field of standing stones with strange symbols etched into them. Rubbing certain stones with a specific type of sand reveals hidden messages or triggers a localized weather change.
+
+**0705: The Submerged Cages:** This area of shifting sinkholes contains half submerged metal cages. Each cage contains a different item, and a puzzle lock. Players may find a key somewhere, or need to solve a puzzle to open the cages.
+**0905: The Pollen Bloom:** A vibrant meadow with unique pollen that reacts to different sounds. Certain sounds cause the pollen to create temporary illusions or reveal hidden pathways.
+
+**1601: The Bone-Wind Chimes:** A collection of animal bones hung from dead trees, creating a haunting melody when the wind blows. The bones are arranged in a specific order, and rearranging them alters the melody and possibly reveals a hidden cache.
+**0806: The Crystal Vein:** A sunstone quarry with a large, exposed crystal vein. Striking the vein with different tools produces varying frequencies of light and sound. The miners have a record of what each sound means.
+**1506: The Hag's Buoys:** A secluded cove with a series of floating buoys. Each buoy has a different symbol and a rope leading to the depths. Arranging the buoys in a specific order reveals a hidden underwater passage.
+**1701: The Murky Platforms:** A leech bog with a series of submerged platforms. The platforms shift and move, creating a treacherous path. Players could use poles or ropes to navigate, or find a way to stabilize the platforms.
+**0407: The Scent Trail:** A wolf den with a complex scent trail leading to a hidden cache. The trail requires a keen sense of smell to follow, and the wolves may be willing to trade information for help tracking.
+**1007: The Seed Vault:** A hidden glade with a vault containing rare seeds. The vault requires a specific sequence of natural elements (sunlight, water, earth) to open.
+**1107: The False Trail:** A bandit pass with a series of misleading trails. One trail leads to a hidden ambush, while another leads to a secret escape route.
+**xxxx: The Shifting Stalls:** This is the route the Mirage Merchant travels. The stalls the merchant sets up change with each visit. One visit they may sell maps, the next they may sell food.
+**xxxx: The Monastic Aviary:** The fertile fields surrounding Fellstead Monastery have a large aviary. The monks breed messenger birds, and also have a collection of rare birds.
+**xxxx: The Silk Strands:** Large spider webs cover this cave network. One strand of silk is a different color than the rest, and plucking the strand causes the spiders to react in a specific way.
+**1609: The Resin Taps:** Pine trees with resin taps, collecting a rare, glowing resin. The resin can be used to create light sources or magical components.
+**0909: The Sand-Etched Map:** Dust devils frequently reveal and obscure a large map etched into the sand. The map changes with the wind, showing different routes and locations.
