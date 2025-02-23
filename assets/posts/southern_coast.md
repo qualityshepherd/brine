@@ -108,7 +108,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  6 | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
  7 | **Lost Path** The path ahead literally shifts; trees and undergrowth rearrange themselves before your eyes. The forest's message is clear: you are not welcome this way.
  8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
- 9   | **Mad Monk** (see Hextras)
+ 9   | **Mad Monk** A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door. He might remember his name is **Jaral**.
  10  | **Ancient Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
  11+ | No encounter
 
@@ -129,30 +129,23 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 
 ### HEXES
-**0102 Razor's Edge**
-A steep mountain stream carves a violent path, its freezing waters churning with such fury that crossing is impossible. A single, weathered bridge—little more than rotting planks and fraying ropes—spans the deadly waters. It is unlikely to bear a heavy load.
+**0102 Razor's Edge** A steep mountain stream carves a violent path, its freezing waters churning with such fury that crossing is impossible. A single, weathered bridge—little more than rotting planks and fraying ropes—spans the deadly waters. It is unlikely to bear a heavy load.
 
-**0103 The Alarum Fields**
-A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
+**0103 The Alarum Fields** A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
 
-**0104 Respite Grove**
-A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.
+**0104 Respite Grove** A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.
 
 **0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by bioluminescent fungi, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
 
 The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
 
-**0106 The Scorched Hollow**
-A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps rise from dead ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
+**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps rise from dead ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
 
-**0107 The Ashen Thicket**
-A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
+**0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
-**0201 Quiet Holler**
-A small valley of hills dotted with tall trees and a slow-moving stream that heads south. The water is clear, flowing steadily over smooth stones. It's almost _too quiet_, with little sound except for the occasional splash or rustle from the underbrush. There’s an odd sense of being observed. Travelers feel an urge to continue south, though they can't quite explain why.
+**0201 Quiet Holler** A small valley of hills dotted with tall trees and a slow-moving stream that heads south. The water is clear, flowing steadily over smooth stones. It's almost _too quiet_, with little sound except for the occasional splash or rustle from the underbrush. There’s an odd sense of being observed. Travelers feel an urge to continue south, though they can't quite explain why.
 
-**0208 The Ash King**
-A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
+**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Lovelorn, Vengeful`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
@@ -194,6 +187,8 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
+**0407 Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Werewolf, Accommodating, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
+
 **0408.1 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
 
 **0412 Isle of Wights** White berry bushes grow thick across the island, their milky fruit a tempting prize. The berries grant miraculous healing if eaten within the hour of picking—after that, they turn deadly. Dead birds litter the ground beneath the bushes, their feathers bleached chalk-white, berries still clutched in their beaks.
@@ -215,8 +210,9 @@ The River studied briefly with the druids before charting his own course; a numb
  5   | "You don't want to know what lurks in those murky depths."
  6   | "As ebb and flow commands."
 
-**0605 The Shattered Altar**
-The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+**0605 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+
+**0606 Shadow Walker** A robed woman sits cross-legged in sand, waiting for the right moment. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but it will cost_.
 
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
@@ -253,14 +249,15 @@ At the village center, a magical cistern ensures water for all—a gift from the
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
+**0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
+
 **0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
 
 The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silver bear idol (400s), and simple silver jewelry (120s). Several spear poles of exceptional quality remain, one still bearing its razor-sharp obsidian tip. Those who rest in this sacred space find their wounds heal faster.
 
 If disturbed, the ghost of **Zamma**—the tribe's last shaman—appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse—flesh turning to rust, spreading from fingers to arm until death claims them.
 
-**0902 Mountian Maw**
-A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
+**0902 Mountian Maw** A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
 
 Scattered around the rim lie skeletons—warped, massive, unrecognizable. Monsters, every one. All slain in battle, yet no sign of what killed them. No human remains. No clear victor.
 
@@ -270,22 +267,19 @@ Few have climbed down. None have reached the bottom. Some call it a wound in the
 
 The Harlans supply most of their crop to Fellstead Monastery's brewery, though Maude's Meadery has always received a share. This year's harvest promises to be exceptional, despite their neighbor's failing hives.
 
-**0906 Old Shepherd's Field**
-Stone foundations peek through tall grass, marking where Bellwick hamlet once stood. Shepherds still use the old stone pens, though Tam (`Weathered, Superstitious`) insists on proper etiquette when visiting. The ancient well remains reliable, but those who draw water always leave something in return.
+**0906 Old Shepherd's Field** Stone foundations peek through tall grass, marking where Bellwick hamlet once stood. Shepherds still use the old stone pens, though Tam (`Weathered, Superstitious`) insists on proper etiquette when visiting. The ancient well remains reliable, but those who draw water always leave something in return.
+
+**0907 Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 **1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
 
-**1007 Pilgrim's Hollow**
-A well-worn hollow where travelers pause before the final approach to Fellstead. A simple stone well and wooden shelter stand beside the path. Pilgrims have carved hundreds of prayers into the shelter's beams. Among them: "Lovely Lady Vale please spare us from your feast!"
+**1007 Pilgrim's Hollow** A well-worn hollow where travelers pause before the final approach to Fellstead. A simple stone well and wooden shelter stand beside the path. Pilgrims have carved hundreds of prayers into the shelter's beams. Among them: "Lovely Lady Vale please spare us from your feast!"
 
-**1009 Grappled Chapel**
-A dilapidated stone chapel strangled by **Dragon Vine** (`Grapple, Razor Sharp, Poison`)—their purple flowers oddly beautiful against crumbling walls. Empty crates rot in tangles of razor-sharp stems. The vines shift slightly in a wind that isn't there.
+**1009 Grappled Chapel** A dilapidated stone chapel strangled by **Dragon Vine** (`Grapple, Razor Sharp, Poison`)—their purple flowers oddly beautiful against crumbling walls. Empty crates rot in tangles of razor-sharp stems. The vines shift slightly in a wind that isn't there.
 
-**1105 The Frostwake Grotto**
-A hidden cavern where the mountain's breath turns the air deathly cold. Even in summer, ice clings to the stone, and strange, pale flora thrive in the darkness. The deeper one goes, the more the ice seems… deliberate, as if shaped by unseen hands. In the very heart of the grotto stands a frozen pillar; something large trapped within. Whether it is a preserved guardian, a forgotten king, or something better left undisturbed—no one knows. Nightly harvesters leave behind clear signs: scattered ice fragments and deep cart ruts.
+**1105 The Frostwake Grotto** A hidden cavern where the mountain's breath turns the air deathly cold. Even in summer, ice clings to the stone, and strange, pale flora thrive in the darkness. The deeper one goes, the more the ice seems… deliberate, as if shaped by unseen hands. In the very heart of the grotto stands a frozen pillar; something large trapped within. Whether it is a preserved guardian, a forgotten king, or something better left undisturbed—no one knows. Nightly harvesters leave behind clear signs: scattered ice fragments and deep cart ruts.
 
-**1107 Weeping Grove**
-Mist clings to a dense stand of weeping trees. Everything drips with sickly-sweet water, even in drought. Rusted tools and broken barrels hint at abandoned collection efforts.
+**1107 Weeping Grove** Mist clings to a dense stand of weeping trees. Everything drips with sickly-sweet water, even in drought. Rusted tools and broken barrels hint at abandoned collection efforts.
 
 **1108 Fellstead Monastery** perches atop weathered cliffs, its honey-colored stone walls and Gothic spires silhouetted against the coastal sky. The monastery is adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of seekers of knowledge). A trip of goats roams the terraced grounds, while sea caves beneath the brewery serve as naturally cool cellars for their renowned ale.
 
@@ -303,35 +297,27 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
 - 24 Monks, 6 pilgrims
 
-**1202 The Skyroot Sentinels**
-Towering, ancient trees grow impossibly tall here, their roots gripping stone as if holding the mountain in place. Legends claim these trees are guardians, awakened only when the land is threatened. Their bark is scarred with old battle wounds, and those who listen closely can hear faint warnings or welcomes, depending on the visitor’s intent.
+**1202 The Skyroot Sentinels** Towering, ancient trees grow impossibly tall here, their roots gripping stone as if holding the mountain in place. Legends claim these trees are guardians, awakened only when the land is threatened. Their bark is scarred with old battle wounds, and those who listen closely can hear faint warnings or welcomes, depending on the visitor’s intent.
 
-**1203 The Broken Stair**
-A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.
+**1203 The Broken Stair** A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.
 
-**1204 The Black Fangs**
-Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.
+**1204 The Black Fangs** Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.
 
-**1205 The Hollow Roost**
-An immense, ancient tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.
+**1205 The Hollow Roost** An immense, ancient tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.
 
-**1208 The Leaning Stones**
-Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
+**1208 The Leaning Stones** Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
 
-**1302 The Mistwell**
-A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying. Some claim the Mistwell is a sacred place watched over by unseen spirits, while others insist it is a gateway to something beyond mortal understanding.
+**1302 The Mistwell** A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying. Some claim the Mistwell is a sacred place watched over by unseen spirits, while others insist it is a gateway to something beyond mortal understanding.
 
-**1303 The Slumbering Hart**
-Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Some claim that disturbing it will summon the wrath of the forest itself.
+**1303 The Slumbering Hart** Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Some claim that disturbing it will summon the wrath of the forest itself.
 
-**1308 Salted Woods**
-Gnarled pines grow right to the cliff's edge, their bark white with salt spray. A ship's wheel hangs forgotten in the branches, creaking in the wind. Fishermen leave offerings here—for luck on their next voyage. Fresh fish bones and a knotted red ribbon dangle from the spokes.
+**1306 Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
-**1402 Red’s Woods**
-A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. **"Red" Dressler** (`Tree-wise, Craftsman, Absorbed`) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a **Dryad** (`Ethereal, Elusive, Nurturing`). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.
+**1308 Salted Woods** Gnarled pines grow right to the cliff's edge, their bark white with salt spray. A ship's wheel hangs forgotten in the branches, creaking in the wind. Fishermen leave offerings here—for luck on their next voyage. Fresh fish bones and a knotted red ribbon dangle from the spokes.
 
-**1403 Marked Woods**
-Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps painting over them with strange symbols.
+**1402 Red’s Woods** A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. **"Red" Dressler** (`Tree-wise, Craftsman, Absorbed`) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a **Dryad** (`Ethereal, Elusive, Nurturing`). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.
+
+**1403 Marked Woods** Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps painting over them with strange symbols.
 
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
 
@@ -344,8 +330,7 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - **"Cookie"** `One-armed, Terrible cook` - lost his arm to "tree-bite"
 - 12 loggers, each marked with protective symbols
 
-**1407 Blackfish Point**
-A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) _educates_ strangers that this is a private beach and that charter fees start at 100s; no haggling.
+**1407 Blackfish Point** A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) _educates_ strangers that this is a private beach and that charter fees start at 100s; no haggling.
 
 **1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray.
 
@@ -353,8 +338,7 @@ The hut nearest the sea belongs to Pesh (`Generous, Paranoid`), a fourth-generat
 
 The hamlet folk avoid the nearby Boat Hag [#1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
 
-**1503 Split Oak**
-A massive oak tree, split by siege engines during the battle, still stands - both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
+**1503 Split Oak** A massive oak tree, split by siege engines during the battle, still stands - both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
 
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door—they say rotten fish draws darker things away.
 
@@ -368,33 +352,14 @@ Among its treasures was a **Sylph Ring**—a pewter band marked with the fae run
 
 Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Yearning, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
 
-**1604 Silverline Point**
-Natural stone piers stretch into deep water where massive silverline bass school. The best fishing spot on the coast—half your catch goes to the marsh folk's community stew pot.
+**1604 Silverline Point** Natural stone piers stretch into deep water where massive silverline bass school. The best fishing spot on the coast—half your catch goes to the marsh folk's community stew pot.
 
-**1605 The Last Garden**
-A small cottage and garden somehow survive amid ash and char. Fresh vegetables still grow in tidy rows, untouched by blight. A scarecrow wearing a copper nail necklace stands watch. Ursula Mayfield (`Green-thumb, Aunt, Songbird`) tends the garden and shares her turnips with anyone who'll listen to her stories.
+**1605 The Last Garden** A small cottage and garden somehow survive amid ash and char. Fresh vegetables still grow in tidy rows, untouched by blight. A scarecrow wearing a copper nail necklace stands watch. Ursula Mayfield (`Green-thumb, Aunt, Songbird`) tends the garden and shares her turnips with anyone who'll listen to her stories.
 
-**1606 Dragon's Message**
-Scorched trees ooze black sap, their branches stripped bare. Massive claw marks score the cliffs. The Boat Hag's own skiff lies shattered on the rocks, her copper nails scattered in the sand.
+**1606 Dragon's Message** Scorched trees ooze black sap, their branches stripped bare. Massive claw marks score the cliffs. The Boat Hag's own skiff lies shattered on the rocks, her copper nails scattered in the sand.
 
-**1703 Archer's Ridge**
-Steep cliffs where archers made their stand. Centuries of storms have exposed arrow shafts in the clay - all pointing to a lighthouse foundation that only shows at low tide.
+**1703 Archer's Ridge** Steep cliffs where archers made their stand. Centuries of storms have exposed arrow shafts in the clay - all pointing to a lighthouse foundation that only shows at low tide.
 
-### HEXTRAS
-
-The following hex/encounters can be used as random situations throughout the Southern Coast as the GM requires.
-
-1. **Shadow Walker** A robed woman sits cross-legged in sand, waiting for the right moment. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but it will cost_.
-
-1. **Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work but really wants to study humans.
-
-1. **Mad Monk** A figure in impossibly pink robes stumbles forward from nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door. He might remember his name is **Jaral**.
-
-1. **Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
-
-1. **Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Accommodating, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
-
-6. **Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
 ### TREASURE
 
