@@ -129,7 +129,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 
 ### HEXES
-**0102 Razor's Edge** A steep mountain stream carves a violent path, its freezing waters churning with such fury that crossing is impossible. A single, weathered bridge—little more than rotting planks and fraying ropes—spans the deadly waters. It is unlikely to bear a heavy load.
+**0102 Razor's Edge**: A mountain stream violently carves its path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
 
 **0103 The Alarum Fields** A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
 
@@ -183,13 +183,31 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
 - **The Twins** `Connected, Amplifying, Dangerous` - are kept in separate wings
 
+**0307 Border Lands** Sand and forest mingle uneasily. Fae and Dustfolk—both touched by mysticism—share little else but bitter silence. Two massive stone markers rise at the border: a spiral-etched fae monolith and a towering nomad obelisk, facing each other like ancient sentinels. Between them, carefully placed gifts speak of old truces: a silver thread from the fae, a polished stone from the nomads—surrounded by years of broken tokens, faded charms, and other weathered offerings.
+
+**0308 Hidden Cove** Smooth stones line a sheltered inlet, arranged too precisely to be natural. Grass-covered foothills hide the beach from casual view. A massive rib bone from an ancient kraken rises from the sand, bleached white and larger than a ship's mast.
+
 **0310 The Bone Cairn** A massive pile of bones arranged in the shape of a cairn rises from the dunes. If toppled, the bones inexplicably restack themselves at twilight. Some bones shift position even when the cairn stands undisturbed, and locals swear the arrangement changes with the phases of the moon.
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
+**0401 Impassable Peaks** Mountain fangs rip the sky. No path exists. Only stone and impossible angles.
+
+**0402 Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
+
+**0403 Mountain's Spine** Sheer rock walls split by a single path—no wider than a goat track. Stones feel warm to the touch, despite the altitude.
+
+**0404 Stone Spine** Razor-backed ridges thrust toward the sky. Wind screams through granite teeth. A single eagle circles, casting no shadow.
+
+**0405 Freemoon Glade** Silver-leafed trees lean in tight circles. Pale flowers pulse with inner light. Shadows move when nothing casts them.
+
+**0406 Ruined Shrine** Three weathered stone pillars rise from marshy ground—all that remains of a small temple. Rusted weapons hang from each pillar, swaying in the breeze. A leather pouch lies half-buried nearby.
+
 **0407 Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Werewolf, Accommodating, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
 
 **0408.1 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
+
+**0409 Wrecker's Cove** Jagged rocks tear at passing hulls. Splintered ship timbers litter the shore, tangled with salt-crusted rigging. A young boy perches on a driftwood stump, eyes fixed on the horizon. A copper whistle hangs ready—the signal that draws scavengers to fresh wreckage.
 
 **0412 Isle of Wights** White berry bushes grow thick across the island, their milky fruit a tempting prize. The berries grant miraculous healing if eaten within the hour of picking—after that, they turn deadly. Dead birds litter the ground beneath the bushes, their feathers bleached chalk-white, berries still clutched in their beaks.
 
@@ -212,6 +230,8 @@ The River studied briefly with the druids before charting his own course; a numb
  4   | "Aye, I once sailed the seas, but now I navigate the waters of the unknown."
  5   | "You don't want to know what lurks in those murky depths."
  6   | "As ebb and flow commands."
+
+**0508 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
 
 **0605 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
 
@@ -413,37 +433,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.7_ by brine <br>
+_v0.9.9.8_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
-
-
-Understood! My apologies for the overuse of "whispering" and the default to D&D tropes. I'll focus on providing more unique and interactive elements, avoiding clichés.
-
-Here's a revised list, focusing on interaction and avoiding "whispering":
-
-
-
-
-
-**xxxx The Mage's Tower**
-A slender stone tower rises from the landscape, its windows glowing with an unnatural light. An arrogant enchanter named **Akkar** (`Necromancer, Reckless, Unstable`) dwells within, wielding power without restraint. Darkness holds no fear for him—only his own unchecked ambition. He's attempting to reanimate a wet sack of drowned kittens.
-
-**xxxx The Marked Stones:** A field of standing stones with strange symbols etched into them. Rubbing certain stones with a specific type of sand reveals hidden messages or triggers a localized weather change.
-
-**0705: The Submerged Cages:** This area of shifting sinkholes contains half submerged metal cages. Each cage contains a different item, and a puzzle lock. Players may find a key somewhere, or need to solve a puzzle to open the cages.
-**0905: The Pollen Bloom:** A vibrant meadow with unique pollen that reacts to different sounds. Certain sounds cause the pollen to create temporary illusions or reveal hidden pathways.
-
-**1601: The Bone-Wind Chimes:** A collection of animal bones hung from dead trees, creating a haunting melody when the wind blows. The bones are arranged in a specific order, and rearranging them alters the melody and possibly reveals a hidden cache.
-**0806: The Crystal Vein:** A sunstone quarry with a large, exposed crystal vein. Striking the vein with different tools produces varying frequencies of light and sound. The miners have a record of what each sound means.
-**1506: The Hag's Buoys:** A secluded cove with a series of floating buoys. Each buoy has a different symbol and a rope leading to the depths. Arranging the buoys in a specific order reveals a hidden underwater passage.
-**1701: The Murky Platforms:** A leech bog with a series of submerged platforms. The platforms shift and move, creating a treacherous path. Players could use poles or ropes to navigate, or find a way to stabilize the platforms.
-**0407: The Scent Trail:** A wolf den with a complex scent trail leading to a hidden cache. The trail requires a keen sense of smell to follow, and the wolves may be willing to trade information for help tracking.
-**1007: The Seed Vault:** A hidden glade with a vault containing rare seeds. The vault requires a specific sequence of natural elements (sunlight, water, earth) to open.
-**1107: The False Trail:** A bandit pass with a series of misleading trails. One trail leads to a hidden ambush, while another leads to a secret escape route.
-**xxxx: The Shifting Stalls:** This is the route the Mirage Merchant travels. The stalls the merchant sets up change with each visit. One visit they may sell maps, the next they may sell food.
-**xxxx: The Monastic Aviary:** The fertile fields surrounding Fellstead Monastery have a large aviary. The monks breed messenger birds, and also have a collection of rare birds.
-**xxxx: The Silk Strands:** Large spider webs cover this cave network. One strand of silk is a different color than the rest, and plucking the strand causes the spiders to react in a specific way.
-**1609: The Resin Taps:** Pine trees with resin taps, collecting a rare, glowing resin. The resin can be used to create light sources or magical components.
-**0909: The Sand-Etched Map:** Dust devils frequently reveal and obscure a large map etched into the sand. The map changes with the wind, showing different routes and locations.
