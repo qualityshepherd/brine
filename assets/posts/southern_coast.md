@@ -143,7 +143,13 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
-**0201 Quiet Holler** A small valley of hills dotted with tall trees and a slow-moving stream that heads south. The water is clear, flowing steadily over smooth stones. It's almost _too quiet_, with little sound except for the occasional splash or rustle from the underbrush. There’s an odd sense of being observed. Travelers feel an urge to continue south, though they can't quite explain why.
+**0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.
+
+**0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the wonder of the universe.
+
+**0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to it, and are unwelcoming to strangers.
+
+**0204 Stormridge** Mountain slopes lashed by howling winds and swirling mists. The weather shifts without warning—sudden storms, bitter cold. A treacherous path winds through crags, marked by abandoned campfires. A rotting corpse slumps against a tree, in a pool of dried blood. A finely crafted bow and rune-carved spear lie undisturbed.
 
 **0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
 
@@ -157,11 +163,17 @@ On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card rea
 
 > **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
 
+**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer (`Marked, Indebted, Secretive`) harvests plants here to brew remedies that cure ailments of both body and spirit.
+
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
 Ancient runes, similar to those binding Mon's prisoners, are carved into the stones. The circles' placement mirrors the prison's cell layout, though this could be coincidence. Complex chalk markings cover the stones and ground between them, redrawn daily in precise patterns. At night, amber light moves between the marks, though its source remains unclear.
 
 At the grove's heart stands an altar stone—black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
+
+**0303 Nabal Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. Named for the last fool who tried to climb them, his bones a warning to those who would follow.
+
+**0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw stone rising impossibly steep, blocking all approach to the Prison of Mon.
 
 **0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences—even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
@@ -183,7 +195,9 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
 - **The Twins** `Connected, Amplifying, Dangerous` - are kept in separate wings
 
-**0307 Border Lands** Sand and forest mingle uneasily. Fae and Dustfolk—both touched by mysticism—share little else but bitter silence. Two massive stone markers rise at the border: a spiral-etched fae monolith and a towering nomad obelisk, facing each other like ancient sentinels. Between them, carefully placed gifts speak of old truces: a silver thread from the fae, a polished stone from the nomads—surrounded by years of broken tokens, faded charms, and other weathered offerings.
+**0306 Resin Grove** Trees bleed a luminescent amber resin into carefully placed glass catches—bathing the grove with soft amber light. The resin is of great value to alchemists and night travelers.
+
+**0307 Border Lands** Sand and forest mingle uneasily. Fae and Dustfolk are both touched by mysticism but share little else. A massive tree straddles the border, its branches heavy with trinkets from both peoples—silver threads, carved stones, glowing talismans. A single fae and a single nomad stand watch, motionless. Each tracking the other's breath, neither blinking. Replacements come at precise intervals; to falter means surrender.
 
 **0308 Hidden Cove** Smooth stones line a sheltered inlet, arranged too precisely to be natural. Grass-covered foothills hide the beach from casual view. A massive rib bone from an ancient kraken rises from the sand, bleached white and larger than a ship's mast.
 
@@ -375,6 +389,8 @@ Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fa
 **1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes, camouflaged among the coral, hunt in the wreckage.
 
 Among its treasures was a **Sylph Ring**—a pewter band marked with the fae rune for air that summons gentle winds. Carved on a board just above the waterline is "Pesh was here" [#1405].
+
+**1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost—unsettling the fallen dead.
 
 **1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Honest, Sharp`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
