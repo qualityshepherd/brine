@@ -143,33 +143,44 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
+**0108 The Smoldering Path** A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree erupts overnight—bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.
+
+**0109 Memory Falls**
+A glittering waterfall spills into a clear pool, its waters tinged with soft, iridescent light. Locals whisper it’s a place where dreams resurface—or memories vanish. Fae keep silent watch from unseen vantages. Those who bathe here emerge changed: some bearing vivid new memories, others with pieces of themselves gone.
+
+**0110 Bridge to Nowhere**
+A faintly glowing stream winds through grasslands, its waters shimmering with an unnatural light. A worn rope bridge connects the realm of men to the fae forest. Three brothers (`Grizzled, Stern, Conflicted`) guard the crossing, warning that passage leads to Nowhere—only loss. The youngest, **Tom**, harbors a hidden bond with a forest nymph.
+
 **0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.
 
 **0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the wonder of the universe.
 
-**0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to it, and are unwelcoming to strangers.
+**0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are unwelcoming to strangers.
 
-**0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger, scarlet hat askew, lies dead. A letter with an unbroken wax seal peeks from his bag—addressed to "Uwin". The old paint horse, Buttercup, grazes nervously, ready to bolt.
+**0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger—scarlet hat askew—is dead. A letter with an unbroken wax seal peeks from his bag—addressed to **Uwin**. The old paint horse, Buttercup, grazes nervously, ready to bolt.
 
 > The letter reads: "Now that you've gone, it's all rum and sad luck dames. I don't even care if they miss me; I never remember their names. I wonder where you are and find myself whispering your name. They say if you get far enough away, you can always come back home. Meet me at Number 7 and ask for Blind Jane".
 
-**0205 Masked Men** Two masked wrestlers—one skull, one bear—grapple within a perfect circle of white salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (Skull) & Bërg (Bear)** will stop immediately, bow to each other, and flee into the wild in separate directions.
+**0205 Who Where Those Masked Men** Two masked wrestlers grapple within a perfect circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (Skull Mask) & Bërg (Bear Mask)** will stop immediately, bow to each other, and flee into the wild in separate directions.
 
 **0206 Hanging Tree** A massive tree stands alone, no growth within 20 feet of its base. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose dangles from a stout branch. The tree breathes a somber song, like wind through hollow bones. The names _appear_ after each hanging.
 
-**0207 The Oak** A massive tree with a concealed door requires a secret knock to enter. Inside, a subterranean bar pulses with music. A fae string band plays enchanted tunes, while dancers move in a timeless rhythm. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
+**0207 The Oak** A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
-**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
+**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built a brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
-**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Lovelorn, Vengeful`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
+**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Jaded Ghost, Lovelorn, Snippy`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
 The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
 
-Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
+> Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
 
 On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
 > **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
+
+**0211 Smoked Hamlet**
+Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch the rising manor from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
 **0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer (`Marked, Indebted, Secretive`) harvests plants here to brew remedies that cure ailments of both body and spirit.
 
@@ -179,7 +190,7 @@ Ancient runes, similar to those binding Mon's prisoners, are carved into the sto
 
 At the grove's heart stands an altar stone—black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
-**0303 Nabal Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. Named for the last fool who tried to climb them, his bones a warning to those who would follow.
+**0303 Nabal Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. Named for the last fool who tried to climb them; his bones a warning to those who would follow.
 
 **0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw stone rising impossibly steep, blocking all approach to the Prison of Mon.
 
@@ -225,7 +236,7 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 **0406 Ruined Shrine** Three weathered stone pillars rise from marshy ground—all that remains of a small temple. Rusted weapons hang from each pillar, swaying in the breeze. A leather pouch lies half-buried nearby.
 
-**0407 Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Werewolf, Accommodating, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend.
+**0407 Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Moonstruck, Charming, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend, Jack.
 
 **0408.1 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
 
@@ -235,10 +246,10 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 No undead haunt this isle, despite its name. Pirates spread that tale to protect their buried treasures, though the white-skinned corpses of unwary berry-seekers certainly helped sell the story. The occasional silver coin in the tide only strengthens local beliefs.
 
-> **Treasure Seekers** The Bone Tree stands on the SE shore; a landmark known to mainland fishermen. Twice daily, stone steps emerge from the retreating tide, leading into the depths. Between two massive boulders lies a hidden chest—a prize for those quick enough to beat the returning waters.
+> **Treasure Seekers** The Bone Tree stands on the SE shore; a landmark known to mainland fishermen. Twice daily, stone steps emerge from the retreating tide, leading into the depths. Between two massive boulders lies a hidden chest—a prize for those quick enough to beat the returning tide.
 
 **0501 The Chime Stones**
-A narrow gorge where wind through stone formations creates haunting chimes. Seven rune-carved stones—each marked with a core emotion—rest near an empty indentation. Placing a stone transforms the gorge's resonance, shifting the feel of the landscape—and those within it—with its emotional tone.
+A narrow gorge where wind through stone formations creates haunting chimes. Seven engraved stones—each marked with a core emotion rune—rest near an empty indentation. Placing a stone transforms the gorge's resonance, shifting the feel of the landscape—and those within it—with its emotional tone.
 
 **0502 Prophet for Profit** A makeshift shrine overlooks the coast where Tulver Witherspoon washed ashore. After being dead for nine minutes, he awoke a changed man; referring to himself as "The River"(`Charlatan, Corny, Ambitious`) and speaking of divine currents. His growing congregation of 42 followers camps nearby—seventeen wear the silver anchor of true believers. They will fight to the death for him.
 
@@ -473,7 +484,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8.1_ by brine <br>
+_v0.9.9.8.5_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
