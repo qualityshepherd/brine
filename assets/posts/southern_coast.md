@@ -129,7 +129,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 
 ### HEXES
-**0102 Razor's Edge**: A mountain stream violently carves its path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
+**0102 Razor's Edge**: A mountain stream violently carves a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
 
 **0103 The Alarum Fields** A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
 
@@ -159,7 +159,7 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0207 The Oak** A massive tree with a concealed door requires a secret knock to enter. Inside, a subterranean bar pulses with music. A fae string band plays enchanted tunes, while dancers move in a timeless rhythm. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
-**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
+**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Lovelorn, Vengeful`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
