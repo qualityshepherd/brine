@@ -129,6 +129,10 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
 
 ### HEXES
+
+**0101 Dark Tower**
+A shabby stone tower rises from tall grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now lives within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower, warning any who come too close to fuck off!—his mind consumed by the fear of discovery.
+
 **0102 Razor's Edge**: A mountain stream violently carves a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
 
 **0103 The Alarum Fields** A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
@@ -238,7 +242,7 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 **0407 Aware Wolf** Buzzards circle a half-eaten goat wearing a silver bell (6s). Nearby, a naked slender man with dark curly hair sleeps in a thicket, his body splattered with blood'. **Zander** (`Moonstruck, Charming, Haunted`) will claim to be searching for a lost dog. His pack only hunts at night. He speaks to a dead friend, Jack.
 
-**0408.1 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
+**0408 The Mirage Merchant** A caravan shifts appearance with each encounter—sometimes ornate, sometimes humble. The merchant gives random names and never looks the same twice. He or she sells trinkets claiming magical effects at twilight. The merchant's shape-changing amulet is real but only 1 in 6 of their wares are.
 
 **0409 Wrecker's Cove** Jagged rocks tear at passing hulls. Splintered ship timbers litter the shore, tangled with salt-crusted rigging. A young boy perches on a driftwood stump, eyes fixed on the horizon. A copper whistle hangs ready—the signal that draws scavengers to fresh wreckage.
 
@@ -484,7 +488,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8.5_ by brine <br>
+_v0.9.9.8.6_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
