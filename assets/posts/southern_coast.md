@@ -149,7 +149,15 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to it, and are unwelcoming to strangers.
 
-**0204 Stormridge** Mountain slopes lashed by howling winds and swirling mists. The weather shifts without warning—sudden storms, bitter cold. A treacherous path winds through crags, marked by abandoned campfires. A rotting corpse slumps against a tree, in a pool of dried blood. A finely crafted bow and rune-carved spear lie undisturbed.
+**0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger, scarlet hat askew, lies dead. A letter with an unbroken wax seal peeks from his bag—addressed to "Uwin". The old paint horse, Buttercup, grazes nervously, ready to bolt.
+
+> The letter reads: "Now that you've gone, it's all rum and sad luck dames. I don't even care if they miss me; I never remember their names. I wonder where you are and find myself whispering your name. They say if you get far enough away, you can always come back home. Meet me at Number 7 and ask for Blind Jane".
+
+**0205 Masked Men** Two masked wrestlers—one skull, one bear—grapple within a perfect circle of white salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (Skull) & Bërg (Bear)** will stop immediately, bow to each other, and flee into the wild in separate directions.
+
+**0206 Hanging Tree** A massive tree stands alone, no growth within 20 feet of its base. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose dangles from a stout branch. The tree breathes a somber song, like wind through hollow bones. The names _appear_ after each hanging.
+
+**0207 The Oak** A massive tree with a concealed door requires a secret knock to enter. Inside, a subterranean bar pulses with music. A fae string band plays enchanted tunes, while dancers move in a timeless rhythm. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
 **0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, the strange figure known as the **Ash King** (`Monarch, Alchemist, Unpredictable`) has built a brugh of ash, using it to flavor a potent wine.
 
@@ -245,6 +253,20 @@ The River studied briefly with the druids before charting his own course; a numb
  5   | "You don't want to know what lurks in those murky depths."
  6   | "As ebb and flow commands."
 
+**0506 Silent Dancer**
+A faint, muffled melody lingers on the air. Closer inspection reveals dozens of footprints circling in the sand, endlessly overwriting themselves. A quiet voice asks, "Care to dance?" Any who reply “yes” (or anything similar) vanish from sight. The music swells—full and clear. A dozen elaborately dressed fae twirl and glide across the sand, celebrating the end of a drought and the birth of a child...
+
+**0507 On The Road** A twisting path through the Twilight Sands, caught between mage order, fae whimsy, and the desert's will. No two journeys are the same. Time bends. Paths shift. The road takes what it wants—names, memories, years—but it's still the fastest way. Only those with magical protection or desperate purpose dare cross. Merchants pay enormous fees to fae guides and Yagul mages for safe passage. Talk to any local and they will tell you NOT to take that road. Flip a coin if they will tell you the "safer" path or lead you to highwaymen.
+
+d6 | What Happens
+:--:|:-------
+1	| Swap shadows with another traveler. Yours follows their commands; theirs follows yours.
+2	| Arrive at destination before you left. Memories of the journey feel like someone else's dream.
+3	| Age or de-age by d6 years. No physical harm, just temporal confusion.
+4	| Gain a fragment of a memory that isn't yours—but feels more real than your own experiences.
+5	| Lose one random item. It's replaced by something from another traveler's past.
+6	| Arrive with a vivid tattoo mapping a route you've never traveled. It changes weekly.
+
 **0508 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
 
 **0605 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
@@ -285,6 +307,8 @@ At the village center, a magical cistern ensures water for all—a gift from the
 1. Narla's three husbands? Same man; just from different times. Voss knows but lets it slide—he's sweet on her too.
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
+
+**0801 Stormridge** Mountain slopes lashed by howling winds and swirling mists. The weather shifts without warning—sudden storms, bitter cold. A treacherous path winds through crags, marked by abandoned campfires. A rotting corpse slumps against a tree, in a pool of dried blood. A finely crafted bow and rune-carved spear lie undisturbed.
 
 **0802 Vial Cart**
 A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
@@ -449,7 +473,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8_ by brine <br>
+_v0.9.9.8.1_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
