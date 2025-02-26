@@ -183,6 +183,8 @@ On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card rea
 
 > **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
 
+**0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Calculating`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch_.
+
 **0211 Smoked Hamlet**
 Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch the rising manor from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
@@ -268,6 +270,12 @@ The River studied briefly with the druids before charting his own course; a numb
  5   | "You don't want to know what lurks in those murky depths."
  6   | "As ebb and flow commands."
 
+**0503 Contested Ground** A ritual site where druids and fae negotiate territorial boundaries. Massive stone discs, each carved with intricate treaties, balance on knife-edges. When wind passes, the discs rotate slightly—marking slow, centuries-long agreements about land use, magical rights, and natural boundaries. Some discs are cracked, others pristine—telling the story of past conflicts and current truces.
+
+**0504 The Quiet Line** Where fae forest meets grassland, the earth trembles between cultivation and wild magic. Stunted trees cling to earth with desperate roots. Springtime bursts with medicinal herbs and wildflowers; autumn withers everything to ash. Druids and fae battle here not with weapons, but with the very soil itself—neither side winning, the land forever contested.
+
+**0505 The Last Glade** A massive stone arch stands at the clearing's center, carved from a single piece of dark stone. No two people describe its carvings the same way—some see druidic runes, others fae symbols, some see nothing at all. Natural stone seats curve at its base. Those who sit and concentrate on a single question might glimpse its truth—though the answer rarely comes in the form expected.
+
 **0506 Silent Dancer**
 A faint, muffled melody lingers on the air. Closer inspection reveals dozens of footprints circling in the sand, endlessly overwriting themselves. A quiet voice asks, "Care to dance?" Any who reply “yes” (or anything similar) vanish from sight. The music swells—full and clear. A dozen elaborately dressed fae twirl and glide across the sand, celebrating the end of a drought and the birth of a child...
 
@@ -284,7 +292,31 @@ d6 | What Happens
 
 **0508 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
 
-**0605 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+------
+
+**The Maidens Three**
+
+They killed their father on the harvest moon—not with violence, but transformation. Gortha sliced him thin, Brielle kneaded him in and Tuli burned what remained.
+
+By dawn, he was unmade: less dead than reshaped. They inherited his domains [#0601, #0602 & #0603], continuing a work already begun.
+
+**0601 The Bleeding Fields** These fields are in constant decay and rebirth: grass grows, withers, and regenerates in moments. Bone fragments push through soil like crops, then whither and dissolve. Anything that dies here is immediately consumed and transformed.
+
+Travelers find their wounds heal impossibly fast, but each healing leaves a scar. These fields are the domain of **Gortha** (`Butcher, Merciless, Dismantling`), and she herself might appear—a towering figure in a fae-hide apron, offering to "improve" any visitor by cutting away what she deems unnecessary.
+
+**0602 The Proofing Grounds** A landscape of dough-like terrain that rises and falls with breath-like movements. Everything here feels half-formed—paths that seem solid suddenly become soft, structures that look permanent begin to slump and reshape.
+
+This is the domain of **Brielle** (`Baker, Consume, Creative`), whose presence turns the very ground into a living, consuming entity. Travelers might find themselves slowly kneaded into the landscape, or offered strange, warm "treats" that seem to watch back. Those who stay too long risk becoming and ingredient in a twisted recipe.
+
+**0603 Both Ends** Everything here burns as if made of wick and wax—water ignites, rocks melt, trees drip flame. The landscape itself combusts in slow, deliberate waves.
+
+This is the domain of **Tuli** (Candlestick-maker, Illuminating, Short fuse). Travelers leave trails of burning residue. Each step scorches, each breath might kindle.
+
+------
+
+**0604 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+
+**0605 Mountain Pass** A narrow path slices between towering cliffs—the only route through Freemoon Forest's northern border. Two **Ginger Giants** (`Tossers, Snickering, Delightfully Cruel`) guard the pass, shoulders broader than the path itself. They demand a toll for crossing: something unique, not coin. Refuse, and boulders fly with impossible precision.
 
 **0606 Shadow Walker** A robed woman sits cross-legged in sand, waiting for the right moment. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but it will cost_.
 
@@ -327,6 +359,8 @@ At the village center, a magical cistern ensures water for all—a gift from the
 
 **0802 Vial Cart**
 A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
+
+**0803 Forever Young** A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
 
 **0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
 
@@ -488,7 +522,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8.6_ by brine <br>
+_v0.9.9.8.7_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
