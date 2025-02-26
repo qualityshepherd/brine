@@ -296,21 +296,19 @@ d6 | What Happens
 
 **The Maidens Three**
 
-They killed their father on the harvest moon—not with violence, but transformation. Gortha sliced him thin, Brielle kneaded him in and Tuli burned what remained.
+On the harvest moon's shadowed cusp, the Maidens Three enacted a ritual of unmaking. Not with blade or blow, but with the alchemy of flesh, form, and flame. Gortha carved, Brielle kneaded, and Tuli consumed, transforming their father into something... other. By dawn, he was gone, his domains theirs. But their inheritance is more than land; it is a continuation...
 
-By dawn, he was unmade: less dead than reshaped. They inherited his domains [#0601, #0602 & #0603], continuing a work already begun.
+**0601 The Bleeding Fields** These fields pulse with a morbid rhythm, constantly decaying and regenerating. Bone fragments erupt from the soil, then dissolve into grey dust. Any creature that dies here is instantly consumed and reshaped.
 
-**0601 The Bleeding Fields** These fields are in constant decay and rebirth: grass grows, withers, and regenerates in moments. Bone fragments push through soil like crops, then whither and dissolve. Anything that dies here is immediately consumed and transformed.
+This is the domain of **Gortha** (`Butcher, Merciless, Dismantling`), who patrols these lands offering to "improve" visitors with her cleaver. Travelers find their wounds heal with unnatural speed, but each healing leaves a raised, pale scar.
 
-Travelers find their wounds heal impossibly fast, but each healing leaves a scar. These fields are the domain of **Gortha** (`Butcher, Merciless, Dismantling`), and she herself might appear—a towering figure in a fae-hide apron, offering to "improve" any visitor by cutting away what she deems unnecessary.
+**0602 The Proofing Grounds** A landscape of dough-like terrain that rises and falls with breath-like movements. Paths seem solid, then suddenly soften. Structures slump and reshape themselves in an endless cycle.
 
-**0602 The Proofing Grounds** A landscape of dough-like terrain that rises and falls with breath-like movements. Everything here feels half-formed—paths that seem solid suddenly become soft, structures that look permanent begin to slump and reshape.
+This is the domain of **Brielle** (`Baker, Consume, Creative`), who moves through the grounds leaving warm, doughy imprints. Travelers may find figures partially absorbed into the terrain, their voices muffled and desperate. Those who stay too long risk becoming ingredients in a recipe.
 
-This is the domain of **Brielle** (`Baker, Consume, Creative`), whose presence turns the very ground into a living, consuming entity. Travelers might find themselves slowly kneaded into the landscape, or offered strange, warm "treats" that seem to watch back. Those who stay too long risk becoming and ingredient in a twisted recipe.
+**0603 Both Ends** A suffocating heat hangs in the air. Everything is a wick—water boils into fire, stone melts into rivers, trees burst into silent conflagrations. The ground heaves in slow, rhythmic waves of combustion.
 
-**0603 Both Ends** Everything here burns as if made of wick and wax—water ignites, rocks melt, trees drip flame. The landscape itself combusts in slow, deliberate waves.
-
-This is the domain of **Tuli** (Candlestick-maker, Illuminating, Short fuse). Travelers leave trails of burning residue. Each step scorches, each breath might kindle.
+This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), whose presence ignites the very air. Creatures of living flame stalk the landscape, flickering. Each step leaves a trail of smoking, scorched earth.
 
 ------
 
