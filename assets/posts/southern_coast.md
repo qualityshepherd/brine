@@ -7,7 +7,7 @@ tags: hexcrawl, hexy, adventures, sandbox, soco
 
 **The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea; circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
 
-With these foundations of civilization in place, the Southern Coast draws bold settlers eager to carve out new lives in this frontier.
+With these foundations of civilization in place, the Southern Coast draws settlers eager to carve out new lives in this frontier.
 
 
 ### WHAT IS THIS?
@@ -131,7 +131,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 ### HEXES
 
 **0101 Dark Tower**
-A shabby stone tower rises from tall grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now lives within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower, warning any who come too close to fuck off!—his mind consumed by the fear of discovery.
+A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now lives within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: _"you there... do fuck off!"_
 
 **0102 Razor's Edge**: A mountain stream violently carves a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
 
@@ -186,7 +186,7 @@ On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card rea
 **0211 Smoked Hamlet**
 Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
-**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer (`Marked, Indebted, Secretive`) harvests plants here to brew remedies that cure ailments of both body and spirit.
+**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants here to brew remedies that cure ailments of both body and spirit.
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
@@ -228,13 +228,13 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
-**0401 Impassable Peaks** Mountain fangs rip the sky. No path exists. Only stone and impossible angles.
+**0401 Impassable Peaks** Mountain fangs rip the sky. No path exists; only shear stone.
 
-**0402 Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
+**0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
 
-**0403 Mountain's Spine** Sheer rock walls split by a single path—no wider than a goat track. Stones feel warm to the touch, despite the altitude.
+**0403 Mountain's Spine** Sheer rock walls split by a single path—no wider than a goat in many places. Stones feel warm to the touch, despite the altitude.
 
-**0404 Stone Spine** Razor-backed ridges thrust toward the sky. Wind screams through granite teeth. A single eagle circles, casting no shadow.
+**0404 Stone Spine** Razor-backed ridges thrust toward the sky. Wind screams through its granite teeth. A single vulture circles but there is little to die in a place where nothing can live.
 
 **0405 Freemoon Glade** Silver-leafed trees lean in tight circles. Pale flowers pulse with inner light. Shadows move when nothing casts them.
 
@@ -288,7 +288,10 @@ d6 | What Happens
 5	| Lose one random item. It's replaced by something from another traveler's past.
 6	| Arrive with a vivid tattoo mapping a route you've never traveled. It changes weekly.
 
-**0508 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
+**0508 Oath Breakers**
+A shallow cave nestles beneath a craggy cliff, thick vines concealing its entrance. Inside, a stone tablet bears the markings of countless broken promises—blood, sweat, and tears etched into weathered stone.
+
+Those who swear an oath within this hollow find the words binding and treacherous. The air tastes of copper and regret. Only those with truly pure intentions may leave untainted.
 
 ------
 
@@ -310,11 +313,11 @@ This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), 
 
 ------
 
-**0604 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+**0604 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **Shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
 
 **0605 Mountain Pass** A narrow path slices between towering cliffs—the only route through Freemoon Forest's northern border. Two **Ginger Giants** (`Tossers, Snickering, Delightfully Cruel`) guard the pass, shoulders broader than the path itself. They demand a toll for crossing: something unique, not coin. Refuse, and boulders fly with impossible precision.
 
-**0606 Shadow Walker** A robed woman sits cross-legged in sand, waiting for the right moment. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but it will cost_.
+**0606 Shadow Walker** A robed woman sits cross-legged in sand, waiting for _just the right moment_. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but at great cost_.
 
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
@@ -351,6 +354,8 @@ At the village center, a magical cistern ensures water for all—a gift from the
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
+**0609 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
+
 **0701 Ebonchain's Caravan**
 A shadowy caravan rolls across the land, appearing only to those in true need. No tracks mark its passage. Veiled drivers guide the silent wagons, led by **Lord Ebonchain** (`Regal, Gracious, Calculating Gaze`). He offers travelers sanctuary—with a catch. _"I expect you'll return the favor some day,"_ he says, invoking a binding fae contract. Decline and the caravan rolls on; accept and...
 
@@ -376,11 +381,11 @@ Commissions require payment in:
 
 **0704 The Crooked Saint** A shrine tilts against a gnarled tree. Within, a wooden idol contorted in a painful pose. Travelers who leave an offering wake to find an old injury healed—but a new, unfamiliar ache takes its place. The worse the offering, the harsher the trade. A missing finger for a mended leg, a deep scar for a broken tooth.
 
-**0706 The Shrine of Brine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
+**0706 Brine Shrine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
 
-A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a mirror trick, and it now hangs around his neck.
+A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a parlor trick, and it now hangs around his neck.
 
-**0801 Stormridge** Mountain slopes lashed by howling winds and swirling mists. The weather shifts without warning—sudden storms, bitter cold. A treacherous path winds through crags, marked by abandoned campfires. A rotting corpse slumps against a tree, in a pool of dried blood. A finely crafted bow and rune-carved spear lie undisturbed.
+**0801 Stormridge** Mountain slopes lashed by wind and mist. The weather changes without warning—sudden storms, bitter cold. An uneasy path winds through crags, marked by forsaken campfires. A rotting corpse slumps against a tree, in a pool of dried blood. On his person, a finely crafted bow and rune-carved spear.
 
 **0802 Vial Cart**
 A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
@@ -518,7 +523,6 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
  10  | **The Cartographer** (`Mute, Magical Mapper, Observant`) Creates maps revealing emotional landscapes and hidden paths.
  11  | **The Hand's Daughter** (`Spy, Never Forgets a Face, Plays Both Sides`) Works for multiple factions simultaneously.
 
-### TREASURE
 
 D66 | Treasure
 :---:|:--------------------
