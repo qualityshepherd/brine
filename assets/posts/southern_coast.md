@@ -108,7 +108,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  6 | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
  7 | **Lost Path** The path ahead literally shifts; trees and undergrowth rearrange themselves before your eyes. The forest's message is clear: you are not welcome this way.
  8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
- 9   | **Mad Monk** A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door. He might remember his name is **Jaral**.
+ 9   | **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door—its key hangs from his neck. He might remember his name is **Jaral**.
  10  | **Ancient Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
  11+ | No encounter
 
@@ -139,7 +139,7 @@ A shabby stone tower rises from tall grass. Its pale stones etched with fading r
 
 **0104 Respite Grove** A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.
 
-**0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by bioluminescent fungi, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
+**0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by moonlight mushrooms, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
 
 The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
 
@@ -149,15 +149,13 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0108 The Smoldering Path** A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree erupts overnight—bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.
 
-**0109 Memory Falls**
-A glittering waterfall spills into a clear pool, its waters tinged with soft, iridescent light. Locals whisper it’s a place where dreams resurface—or memories vanish. Fae keep silent watch from unseen vantages. Those who bathe here emerge changed: some bearing vivid new memories, others with pieces of themselves gone.
+**0109 Memory Falls** A glittering waterfall spills into a clear pool, its waters tinged with soft, iridescent light. Locals whisper it’s a place where dreams resurface—or memories vanish. Fae keep silent watch from unseen vantages. Those who bathe here emerge changed: some bearing vivid new memories, others vivid new markings and still others, with pieces of themselves gone.
 
-**0110 Bridge to Nowhere**
-A faintly glowing stream winds through grasslands, its waters shimmering with an unnatural light. A worn rope bridge connects the realm of men to the fae forest. Three brothers (`Grizzled, Stern, Conflicted`) guard the crossing, warning that passage leads to Nowhere—only loss. The youngest, **Tom**, harbors a hidden bond with a forest nymph.
+**0110 Bridge to Nowhere** A faintly glowing stream winds through grasslands, its waters shimmering with a peculiar light. A worn rope bridge connects the realm of men to the fae forest. Three brothers (`Grizzled, Stern, Conflicted`) guard the crossing, warning that passage leads to Nowhere—only loss. The youngest, **Tom**, harbors a hidden bond with a forest nymph.
 
 **0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.
 
-**0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the wonder of the universe.
+**0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the devastating beauty of the night sky.
 
 **0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are unwelcoming to strangers.
 
@@ -181,12 +179,12 @@ The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it,
 
 On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
-> **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it.
+> **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it. _Life is wasted on the living._
 
-**0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Calculating`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch_.
+**0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Generous`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch._ All the right people vouch for her... for now.
 
 **0211 Smoked Hamlet**
-Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch the rising manor from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
+Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
 **0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer (`Marked, Indebted, Secretive`) harvests plants here to brew remedies that cure ailments of both body and spirit.
 
@@ -353,6 +351,35 @@ At the village center, a magical cistern ensures water for all—a gift from the
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
 
+**0701 Ebonchain's Caravan**
+A shadowy caravan rolls across the land, appearing only to those in true need. No tracks mark its passage. Veiled drivers guide the silent wagons, led by **Lord Ebonchain** (`Regal, Gracious, Calculating Gaze`). He offers travelers sanctuary—with a catch. _"I expect you'll return the favor some day,"_ he says, invoking a binding fae contract. Decline and the caravan rolls on; accept and...
+
+| d6 | Fae Favor |
+|---|----------------------|
+| 1 | You have a small, heavy package addressed to Yagul Fane. It has a wax seal and is marked "URGENT". Within is a dragon egg. |
+| 2 | A silver leaf sigil of Lady Goodknight appears on your skin. Fae now react—some with respect, some with demands. |
+| 3 | You have an emotional connection with trees. You cannot speak to them but you get a sense of what they're feeling.  |
+| 4 | A wild animal, normally timid, fearlessly follows you, nudging your hand with its head as if seeking comfort. |
+| 5 | You spit out the same rumor (roll on rumor table) over and over again, anytime someone says your name. |
+| 6 | A contract with your signature, signed in silver, demands you return stolen fae artifact to the Fae Court. |
+
+**0702 Mule Variations** A rutted path cuts through barren fields, marked by broken fence posts and bottles impaled on wooden stakes. A rusted plow stands abandoned, its harness ripped violently—as if something immensely strong suddenly broke free. The ground appears freshly tilled, yet nothing grows.
+
+At night, shadowy laborers work the fields—moving in unison to an unheard song. Travelers who watch too long feel an inexplicable urge to join them, their shoulders feeling the weight of the yoke.
+
+**0703 Silent Forge** A mute smith works an isolated forge, hammering an anvil without a sound. Weapons forged here never ring when drawn, armor swallows footsteps, and voices fade to a hush. Every tool bears an intricate rune of silence; craftsmen wear thick leather to guard against the forge’s muting power. Those who linger too long gradually lose their voices.
+
+Commissions require payment in:
+- An oath of silence.
+- A personal item of sound (bell, wind chime, whistle).
+- Enchanted materials.
+
+**0704 The Crooked Saint** A shrine tilts against a gnarled tree. Within, a wooden idol contorted in a painful pose. Travelers who leave an offering wake to find an old injury healed—but a new, unfamiliar ache takes its place. The worse the offering, the harsher the trade. A missing finger for a mended leg, a deep scar for a broken tooth.
+
+**0706 The Shrine of Brine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
+
+A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a mirror trick, and it now hangs around his neck.
+
 **0801 Stormridge** Mountain slopes lashed by howling winds and swirling mists. The weather shifts without warning—sudden storms, bitter cold. A treacherous path winds through crags, marked by abandoned campfires. A rotting corpse slumps against a tree, in a pool of dried blood. A finely crafted bow and rune-carved spear lie undisturbed.
 
 **0802 Vial Cart**
@@ -475,6 +502,21 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
 
 **1703 Archer's Ridge** Steep cliffs where archers made their stand. Centuries of storms have exposed arrow shafts in the clay - all pointing to a lighthouse foundation that only shows at low tide.
 
+
+### TABLES
+
+2d6 | Notable NPCs
+:---:|:--------------------
+ 2   | **Blanca** (`White Shadow, Judgmental, Information Broker`) A bright white spectral figure who trades in secrets.
+ 3   | **Widow Vex** (`Assassin Matriarch, Patient, Calculating`) Runs a network of informants from a seemingly innocent fishing village.
+ 4   | **The Bogtrotter** (`Bounty Hunter, Tracker, Honorable`) Knows the West Marshes as well as any man and uses them to his advantage in his "profession".
+ 5   | **Liren Blackheart** (`Smuggler, Fae-Blood, Connected`) Scarred merchant who knows every secret trade route.
+ 6   | **Captain Mara Stormwind** (`Disgraced, Ambitious, Vengful`) Former naval officer, now captain of a ship that takes any contract.
+ 7   | **Hag Saltborn** (`Sea Witch, Fisherman's Friend, Fated`) Controls maritime conditions, reluctantly helps those who prove worthy.
+ 8   | **Kai of the Twilight Sands** (`Nomad Leader, Runemaker, Protective`) Leads a tribe that knows secrets of the desert.
+ 9  | **Esta Moonshank** (`Fae Diplomat, Manipulative, Charming`) Represents the Fae Court's interests.
+ 10  | **The Cartographer** (`Mute, Magical Mapper, Observant`) Creates maps revealing emotional landscapes and hidden paths.
+ 11  | **The Hand's Daughter** (`Spy, Never Forgets a Face, Plays Both Sides`) Works for multiple factions simultaneously.
 
 ### TREASURE
 
