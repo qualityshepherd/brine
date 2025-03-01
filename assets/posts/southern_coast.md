@@ -153,6 +153,14 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 
 **0110 Bridge to Nowhere** A faintly glowing stream winds through grasslands, its waters shimmering with a peculiar light. A worn rope bridge connects the realm of men to the fae forest. Three brothers (`Grizzled, Stern, Conflicted`) guard the crossing, warning that passage leads to Nowhere—only loss. The youngest, **Tom**, harbors a hidden bond with a forest nymph.
 
+**0111 Key Tree** A tree loams over a  river, its gnarled branches heavy with rusted keys. Some hang by frayed ribbons, others grow straight from the bark like iron thorns.
+
+Turn a key in the air, and somewhere, a distant lock clicks—but what opens remains uncertain. Those who take a key return with unsteady hands and hollow eyes. The keys grow heavier with time... and some doors should remain locked.
+
+**0112 The Wishing Tide** Where a winding river meets the sea, the estuary shifts with each tide—fresh water curling through salt, channels never the same twice. At low tide, pools glisten across the flats, some deep, some vanishing in moments.
+
+In one, a single iridescent shell turns with the current. Speak a wish aloud, and the water ripples, showing a fleeting glimpse of its fulfillment. But nothing changes. The tide will return, and with it, the promise of the wish—only the sea knows when.
+
 **0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.
 
 **0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the devastating beauty of the night sky.
@@ -414,6 +422,10 @@ The Harlans supply most of their crop to Fellstead Monastery's brewery, though M
 
 **0907 Fare Fight** A copper-skinned warrior named **Lunara** (`Warrior, Proud, Suffers No Fools`) is fighting three armored traders; her broken spear lodged in one traders' shoulder, she now wields daggers. _Wandering hands were NOT part of the fare_. The traders' wagon is smoking and will soon go up in flames. Within the wagon are 300s of pelts and two casks of fine wine (200s).
 
+**0908 Nettle’s Haven** This sprawling coastal compound has grown organically over decades. It began as a simple cottage but now blends herb gardens, meditation spaces, and other dwellings. The commune is a refuge where druids, monks, and wayward souls come together in peace. **Nettle** (`Matriarch, Insightful, Without Fear`) watches over it all; her sharp mind still guiding despite her fading vision. Her massive black dog, with a single silver eye, keeps a watchful eye on all who enter, wary of those with ill intent.
+
+Work is shared—no one is turned away, but all must contribute. The walls are marked with symbols from both monastic and druidic traditions, a quiet testament to the sanctuary and survival found within.
+
 **1001: Unkindness of Ravens:** Jagged peaks with numerous raven nests. One particular nest contains a pair of small, polished stones that reflect light in unique patterns. These are _message stones_, used to communicate over long distances.
 
 **1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
@@ -495,6 +507,10 @@ Among its treasures was a **Sylph Ring**—a pewter band marked with the fae run
 
 **1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost—unsettling the fallen dead.
 
+**1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay.
+
+The ground shifts subtly beneath its massive form, as though the creature still slumbers. The marsh hums with an ancient presence—the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
+
 **1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Honest, Sharp`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
 Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Yearning, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
@@ -566,7 +582,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8.8_ by brine <br>
+_v0.9.9.8.9_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
