@@ -393,9 +393,21 @@ Commissions require payment in:
 
 **0704 The Crooked Saint** A shrine tilts against a gnarled tree. Within, a wooden idol contorted in a painful pose. Travelers who leave an offering wake to find an old injury healed—but a new, unfamiliar ache takes its place. The worse the offering, the harsher the trade. A missing finger for a mended leg, a deep scar for a broken tooth.
 
+**0705 For Whom The Bell Tolls** A weathered stone tower crumbles at its base, a large bell hanging cracked from its peak. Its toll drifts across the sands, though no hand seems to strike it.
+
+The Dustfolk believe the bell signals the arrival of a wandering ancestor, a spirit guiding the lost. Magi once charted magical currents by its ring; now it speaks only to those who listen.
+
 **0706 Brine Shrine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
 
 A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a parlor trick, and it now hangs around his neck.
+
+**0707 The First Stones** A vast stone formation hums beneath the sands, its rhythm steady as a heartbeat. The Dustfolk say this is where the first ancestors took shape, where the desert took its first breath.
+
+They gather here to meditate, their spirits rising and falling with the pulse. Magi dismiss it as a quirk of the earth, but the Dustfolk know better. Some things are beyond their understanding.
+
+**0708 The Saltwood** A salt-crusted forest clings to the coastline, its trees bleached and skeletal from years of sea spray. Some stand stark and lifeless, a ghostly tangle of bark and bone-white limbs. Others endure, their roots twisted deep into the briny earth, drinking from hidden springs.
+
+The Dustfolk avoid this place—too much water too little sky. Magi have mapped strange currents in the air and soil, sensing something ancient woven into the salt and roots.
 
 **0801 Stormridge** Mountain slopes lashed by wind and mist. The weather changes without warning—sudden storms, bitter cold. An uneasy path winds through crags, marked by forsaken campfires. A rotting corpse slumps against a tree, in a pool of dried blood. On his person, a finely crafted bow and rune-carved spear.
 
@@ -414,7 +426,7 @@ Dustfolk believe the haze separates the worlds of the living and the dead. Many 
 
 The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silver bear idol (400s), and simple silver jewelry (120s). Several spear poles of exceptional quality remain, one still bearing its razor-sharp obsidian tip. Those who rest in this sacred space find their wounds heal faster.
 
-If disturbed, the ghost of **Zamma**—the tribe's last shaman—appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse—flesh turning to rust, spreading from fingers to arm until death claims them.
+If disturbed, the ghost of **Zamma** (`Shaman, Mute, Protector`)—the tribe's last shaman—appears. His bones rest beneath the monolith, just above the chamber ceiling. Though mute, he communicates by pointing to the wall paintings. He will not rest until the bones are returned to their rightful place. The Cane believed weapons were meant for use, but treasure belonged to the tribe. Those who steal (without trade or sacrifice) suffer their curse—flesh turning to rust, spreading from fingers to arm until death claims them.
 
 **0902 Mountain Maw** A deep, spiraling chasm where the mountain meets the earth. Trees at its edge twist unnaturally, their roots exposed as if recoiling. The descent is perilous, the air thick with tension, and the silence overwhelming—until a distant scrape, low thud or eerie bellow breaks the stillness. Beast? Echo? Something else?
 
@@ -590,7 +602,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.8.9_ by brine <br>
+_v0.9.9.9_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
