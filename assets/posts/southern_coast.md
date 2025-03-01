@@ -329,11 +329,15 @@ This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), 
 
 **0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
 
-**0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The Council of Six governs from these towers, with Fellstead's head monk as tie-breaker. Ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded against all but magi and staff. The towers' reputation for magical mastery draws scholars and adventurers from distant lands.
+**0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded off for magi-only.
 
-A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. These hardy folk maintain traditional values while embracing the harsh desert life.
+The Council of Six governs with pragmatic efficiency, treating magical research like municipal planning. Magical "emissions" seep into surrounding lands almost accidentally—apprentices track regional transformations with bureaucratic indifference. A magical cistern doesn't just provide water; its overflow creates subtle reality shifts in the Twilight Sands.
 
-At the village center, a magical cistern ensures water for all—a gift from the towers that symbolizes unity between magi and Dustfolk. The villagers tend livestock and maintain active trade despite their remote location.
+A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. They use minor enchantments as casually as other regions use tools.
+
+The towers' reputation for magical mastery draws scholars from distant lands, but magic here is not spectacular—it's infrastructural, mundane, and quietly transformative.
+
+The Council of Six governs from these towers, with Fellstead's head monk as tie-breaker.
 
 **The Council of Six**
 1. **Archmage Voss** `Chronomancer, Ancient, Calculating`
@@ -401,6 +405,10 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 **0803 Forever Young** A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
 
 **0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
+
+**0806 The Veil of Ash** A burnt haze lingers upon the sands, the result of an ancient ritual cast by Uma Fane, herself. Apprentice magi secretly maintain this spectral barrier, aware that any disruption might unleash what slumbers beneath the dunes.
+
+Dustfolk believe the haze separates the worlds of the living and the dead. Many gather to perform sacred rites, seeking to communicate with ancestors or receive guidance.
 
 **0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
 
