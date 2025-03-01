@@ -331,7 +331,7 @@ This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), 
 
 **0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded off for magi-only.
 
-The Council of Six governs with pragmatic efficiency, treating magical research like municipal planning. Magical "emissions" seep into surrounding lands almost accidentally—apprentices track regional transformations with bureaucratic indifference. A magical cistern doesn't just provide water; its overflow creates subtle reality shifts in the Twilight Sands.
+The Council of Six governs with pragmatic efficiency, treating magical research like municipal planning. Magical "emissions" seep into surrounding lands almost accidentally—apprentices track regional transformations with bureaucratic indifference. They do not dictate how the Dustfolk engage with these changes, yet the Dustfolk have embraced them all the same, weaving the land’s shifting magic into their own understanding of the world.
 
 A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. They use minor enchantments as casually as other regions use tools.
 
@@ -401,9 +401,9 @@ The Dustfolk believe the bell signals the arrival of a wandering ancestor, a spi
 
 A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a parlor trick, and it now hangs around his neck.
 
-**0707 The First Stones** A vast stone formation hums beneath the sands, its rhythm steady as a heartbeat. The Dustfolk say this is where the first ancestors took shape, where the desert took its first breath.
+**0707 The First Stones** A vast stone formation hums with an odd, mechanical rhythm beneath the sands. The Dustfolk believe this is where the first ancestors were shaped, a sacred place where the desert itself first breathed.
 
-They gather here to meditate, their spirits rising and falling with the pulse. Magi dismiss it as a quirk of the earth, but the Dustfolk know better. Some things are beyond their understanding.
+They gather here to meditate, their spirits rising and falling with the pulse. The magi call it a natural anomaly, yet their own magic has amplified its rhythm over centuries. The Dustfolk do not resent this—they listen, adapting their rites to what the land has become.
 
 **0708 The Saltwood** A salt-crusted forest clings to the coastline, its trees bleached and skeletal from years of sea spray. Some stand stark and lifeless, a ghostly tangle of bark and bone-white limbs. Others endure, their roots twisted deep into the briny earth, drinking from hidden springs.
 
@@ -418,9 +418,9 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 
 **0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
 
-**0806 The Veil of Ash** A burnt haze lingers upon the sands, the result of an ancient ritual cast by Uma Fane, herself. Apprentice magi secretly maintain this spectral barrier, aware that any disruption might unleash what slumbers beneath the dunes.
+**0806 The Veil of Ash** A burnt haze engulfs the sands, the residue of an ancient ritual cast by Uma Fane herself. Apprentices toil daily to maintain the spectral barrier, knowing any disruption could release what lies dormant beneath the dunes.
 
-Dustfolk believe the haze separates the worlds of the living and the dead. Many gather to perform sacred rites, seeking to communicate with ancestors or receive guidance.
+The Dustfolk believe the haze separates the worlds of the living and the dead. Many gather to perform sacred rites, seeking guidance from ancestors. Though the magi insist they never intended it, the Dustfolk have grown attuned to the veil’s presence, sensing its power in ways even Yagul Fane does not fully understand.
 
 **0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
 
