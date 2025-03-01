@@ -321,7 +321,7 @@ This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), 
 
 ------
 
-**0604 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **Shadows** (Silent, Dreadful Presence, Corruptive Touch) move across the stones, twisting into monstrous forms.
+**0604 The Shattered Altar** The broken remnants of an ancient altar. Shattered pillars—some larger than a man—lie scattered across the ground. At the center, a cracked stone slab is etched with strange markings. At night, **Shadows** (`Silent, Dreadful Presence, Corruptive Touch`) move across the stones, twisting into monstrous forms.
 
 **0605 Mountain Pass** A narrow path slices between towering cliffs—the only route through Freemoon Forest's northern border. Two **Ginger Giants** (`Tossers, Snickering, Delightfully Cruel`) guard the pass, shoulders broader than the path itself. They demand a toll for crossing: something unique, not coin. Refuse, and boulders fly with impossible precision.
 
@@ -465,7 +465,7 @@ The monastery boasts a famed library, produces fine milk and cheese from their g
 A group of pilgrims has come from the north, placing additional strain on the monastery's resources and tranquility. They claim to seek guidance from St. Fellstead, but their behavior raises suspicions. Their leader, **Father Falen** (`Cutthroat, Apathetic`), has been seen snooping around the brewmaster’s office, asking unsettling questions about the monastery’s finances, and lingering in the library far too long. Some monks question their piety and wonder what they’re truly after.
 
 **RESIDENTS**
-- **Abbes Salvora** `Devoted, Respected, Distracted` - frequent visits to the Prison of Mon
+- **Abbess Salvora** `Devoted, Respected, Distracted` - frequent visits to the Prison of Mon
 - **Prior Cedric** `Rugged, Diligent, Insecure` - oversees brewing operations
 - **Sister Elara** `Fallen Druid, Healer, Know-it-all`
 - **Brother Ulfar** `Brewmaster, Mean Drunk` - avoided but knows beer
