@@ -97,6 +97,8 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
 
 **Starwoods** An ancient forest nestled along the coast, where tangled briars and gnarled roots clutch the dirt like fingers. A dense canopy diffuses sunlight, casting a mesmerizing play of light and shadow upon the forest floor. Towering behemoths, prized for their unmatched durability, dominate the landscape and fetch a handsome price.
 
+The trees remember the old laws. Axes that strike too deeply turn on their wielders; paths that stray too far vanish without a trace. The forest is ruled by **The Three Sisters** [#1403]: one of ruthless order, one of patient observation, and one lying in wait.
+
 Legend speaks of a guardian of the woods—a creature part beast and part spirit—rumored to possess an insatiable hunger for human flesh.
 
  2d6 | Starwoods Encounters
@@ -422,7 +424,7 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 
 The Dustfolk believe the haze separates the worlds of the living and the dead. Many gather to perform sacred rites, seeking guidance from ancestors. Though the magi insist they never intended it, the Dustfolk have grown attuned to the veil’s presence, sensing its power in ways even Yagul Fane does not fully understand.
 
-**0807.6 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
+**0807 Barrow of the Cane** A twelve-foot monolith of rust-colored stone, flecked with silver, rises from a hill of rusty grass. Ancient runes tell the history of **The Cane**, warrior tribes of old. Three weathered stones frame the barrow's entrance. Within, chalky paintings cover the walls—spear-wielding warriors with animal heads fighting monsters and mountain giants. Hand prints of men, women, and children mark the spaces between. Each cubbyhole bears images of these same animal spirits.
 
 The cubbyholes hold bones alongside obsidian arrowheads, an obsidian axe, a silver bear idol (400s), and simple silver jewelry (120s). Several spear poles of exceptional quality remain, one still bearing its razor-sharp obsidian tip. Those who rest in this sacred space find their wounds heal faster.
 
@@ -494,11 +496,29 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 
 **1402 Red’s Woods** A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. **"Red" Dressler** (`Tree-wise, Craftsman, Absorbed`) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a **Dryad** (`Ethereal, Elusive, Nurturing`). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.
 
-**1403 Marked Woods** Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps painting over them with strange symbols.
+**1403 Two Trees And Three Sisters**
+
+Two towering trees stand out among the many. These are the trees of the Eldest and Middle Sisters—their roots deep, bound to the forest. Not mere landmarks, they are the Sisters' power made flesh, the beating heart of the Starwoods.
+
+The forest here is a labyrinth of tangled wards—shifting paths, serpentine thickets, and roots that coil around trespassers' ankles. Loggers are tolerated but watched, their axes never allowed to stray near sacred bark.
+
+But the Hollow Sister's influence seeps through the soil, her saplings creeping ever closer. The Eldest and Middle whisper to the roots, listening for signs of intrusion, knowing that if their sister ever finds her way back, it may be too late.
+
+> Three dryads as old as the Starwoods themselves. Not mere spirits, but the forest's living will. The Eldest and Middle rule with iron certainty, while the Hollow Sister has become something else entirely.
+
+> **Eldest Sister** (`Hand of Judgement, Ruthless, The Root`) Stern and unwavering, she enforces the Starwoods' will with ruthless efficiency. The Hollow Sister is a threat to be eliminated.
+
+> **Middle Sister** (`Watchful Eye, Composed, Leaves in the Wind`) Patient and watchful, she listens before she acts. Where the Eldest strikes, the Middle weighs the cost. She is the wind in the canopy, the feeling of being watched. She fears the Hollow Sister.
+
+> **The Hollow Sister** (`Open Arms, Curious, The Heart`) Her tree’s roots torn from the earth by her own kin [#1505], yet she did not die. She befriended the fae, and her saplings grow strong in the Freemoon Forest. She waits…
+
+**1404 Marked Woods** Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps moving them.
 
 **1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
 
 Boss hired a former druid to help navigate these tensions, but her true loyalties remain unclear. The camp's torches burn all night now, and no logger works alone.
+
+> **The Sisters** remain silent; watching. They tolerate the loggers in the hope that their axes might cut down the Hollow Sister’s creeping saplings. They will turn on them the moment their purpose is served.
 
 **CREW**
 - **Foreman "Boss" Bartok** `Burly, Caring` - prioritizes crew safety over quotas
@@ -516,6 +536,8 @@ The hut nearest the sea belongs to Pesh (`Generous, Paranoid`), a fourth-generat
 The hamlet folk avoid the nearby Boat Hag [#1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
 
 **1503 Split Oak** A massive oak tree, split by siege engines during the battle, still stands - both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
+
+**1505 The Tree of the Hollow Sister** A massive oak, hollowed from within, its trunk split and blackened by decay. Its fall cursed the land. From here to the sea, trees stand withered, their roots severed, their bark peeling away. Yet, the Hollow Sister lives.
 
 **1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door—they say rotten fish draws darker things away.
 
@@ -602,7 +624,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.9_ by brine <br>
+_v0.9.9.1_ by brine <br>
 [#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [#Rando](https://rando.brine.dev) for your random needs <br>
