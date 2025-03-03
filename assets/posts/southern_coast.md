@@ -36,7 +36,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 1. Yagul Fane is built atop an ancient city with unimaginable magical treasures.
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
 1. Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.
-1. The mountain mists are the breath of ancient dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
+1. The mountain mists are the breath of dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
 1. Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em _see clearly_.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
@@ -52,7 +52,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
 
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
- 2   | **Shadow Dragon** An ancient dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.
+ 2   | **Shadow Dragon** A dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.
  3   | **Druid Followers** (2d6) demand an offering.
  4   | **Redcaps** (d6+1) If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by Lady Goodknight, to lead outsiders to the Fae Court for judgment.
@@ -60,7 +60,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  7   | **Sculpture Garden** with dozens of lifelike stone statues, including a mesmerizing medusa sculpture... reflected in a full length mirror just beside her.
  8   | **Wailing Trees** mournful cries echo through the ancient woods. Those who hear become despondent and have a 2 in 6 chance of sleeplessness from haunting nightmares that last d6 nights.
  9   | **Moonlight Mushrooms** (3d6), a very rare and valuable fungi. If consumed, they offer visions of near future events, at the cost of a single sleepless night and pains from deep laughter.
- 10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: a Dryad (`Ancient, Patient, Vengeful`) who trades fairly but punishes theft with eternal servitude.
+ 10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: **The Hollow Sister** (`Open Arms, Curious, The Heart`), who trades fairly but punishes theft with eternal servitude.
  11+ | No encounter
 
 **Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect... perhaps _literally_ if gazing too long.
@@ -111,7 +111,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  7 | **Lost Path** The path ahead literally shifts; trees and undergrowth rearrange themselves before your eyes. The forest's message is clear: you are not welcome this way.
  8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
  9   | **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door—its key hangs from his neck. He might remember his name is **Jaral**.
- 10  | **Ancient Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
+ 10  | **Tree Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
  11+ | No encounter
 
 **West Marshes** sprawl endlessly along the eastern shore—a labyrinth of murky waters and treacherous bogs. Despite their confusing name, these swamps are home to quicksand pits and giant leeches slithering through the muck. The scent of damp earth and rotting vegetation chokes the air. Rare herbs and exotic flora thrive in these fertile soils, coveted by herbalists and alchemists alike.
@@ -194,9 +194,9 @@ On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card rea
 **0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Generous`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch._ All the right people vouch for her... for now.
 
 **0211 Smoked Hamlet**
-Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
+Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from _their_ ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
-**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants here to brew remedies that cure ailments of both body and spirit.
+**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
@@ -204,7 +204,7 @@ Ancient runes, similar to those binding Mon's prisoners, are carved into the sto
 
 At the grove's heart stands an altar stone—black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
-**0303 Nabal Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. Named for the last fool who tried to climb them; his bones a warning to those who would follow.
+**0303 Nabal's Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. It took its name from the last fool who tried to climb them; his bones a warning to those who would follow.
 
 **0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw stone rising impossibly steep, blocking all approach to the Prison of Mon.
 
@@ -212,7 +212,7 @@ At the grove's heart stands an altar stone—black as pitch and cold to touch. T
 
 The ethereal Jailers were once prisoners themselves. They stand eternal watch in the long entrance hall, attuned to truth. Any deception triggers harsh response.
 
-Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive _royal endowments_ from northern kings for their service.
+Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive _royal endowments_ from the northern kings for their service.
 
 **STAFF**
 - **Warden Cloudcroft** `Stern, Respected, Cunning Linguist` - Abbes Salvora visits often
@@ -238,7 +238,7 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
-**0401 Impassable Peaks** Mountain fangs rip the sky. No path exists; only shear stone.
+**0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only shear stone.
 
 **0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
 
@@ -399,7 +399,7 @@ Commissions require payment in:
 
 The Dustfolk believe the bell signals the arrival of a wandering ancestor, a spirit guiding the lost. Magi once charted magical currents by its ring; now it speaks only to those who listen.
 
-**0706 Brine Shrine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
+**0706 The Shrine of Brine** A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.
 
 A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) stole this key with a parlor trick, and it now hangs around his neck.
 
@@ -413,8 +413,7 @@ The Dustfolk avoid this place—too much water too little sky. Magi have mapped 
 
 **0801 Stormridge** Mountain slopes lashed by wind and mist. The weather changes without warning—sudden storms, bitter cold. An uneasy path winds through crags, marked by forsaken campfires. A rotting corpse slumps against a tree, in a pool of dried blood. On his person, a finely crafted bow and rune-carved spear.
 
-**0802 Vial Cart**
-A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
+**0802 Vial Cart** A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
 
 **0803 Forever Young** A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
 
@@ -470,7 +469,7 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 - **Abbess Salvora** `Devoted, Respected, Distracted` - frequent visits to the Prison of Mon
 - **Prior Cedric** `Rugged, Diligent, Insecure` - oversees brewing operations
 - **Sister Elara** `Fallen Druid, Healer, Know-it-all`
-- **Brother Ulfar** `Brewmaster, Mean Drunk` - avoided but knows beer
+- **Brother Ulfar** `Brewmaster, Mean Drunk` - avoided but knows his beer
 - **Brother Estabar** `Monk, Eager, Gentle` - master goat herder
 - **Sir Ealdred** `Knight, Daring, Haunted` - seeks spiritual clarity after long and brutal campaigns
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
@@ -482,13 +481,13 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 
 **1204 The Black Fangs** Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.
 
-**1205 The Hollow Roost** An immense, ancient tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.
+**1205 The Hollow Roost** An immense tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.
 
-**1208 The Leaning Stones** Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
+**1208 The Leaning Stones** Stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
 
-**1302 The Mistwell** A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying. Some claim the Mistwell is a sacred place watched over by unseen spirits, while others insist it is a gateway to something beyond mortal understanding.
+**1302 The Mistwell** A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying.
 
-**1303 The Slumbering Hart** Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Some claim that disturbing it will summon the wrath of the forest itself.
+**1303 The Slumbering Hart** Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Disturbing it will summon the wrath of the forest itself.
 
 **1306 Four Leaf Clover Field** A field of ONLY four leaf clovers... finding a THREE leaf clover brings the bearer luck.
 
@@ -496,9 +495,7 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 
 **1402 Red’s Woods** A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. **"Red" Dressler** (`Tree-wise, Craftsman, Absorbed`) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a **Dryad** (`Ethereal, Elusive, Nurturing`). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.
 
-**1403 Two Trees And Three Sisters**
-
-Two towering trees stand out among the many. These are the trees of the Eldest and Middle Sisters—their roots deep, bound to the forest. Not mere landmarks, they are the Sisters' power made flesh, the beating heart of the Starwoods.
+**1403 Two Trees And Three Sisters** Two towering trees stand out among the many. These are the trees of the Eldest and Middle Sisters—their roots deep, bound to the forest. Not mere landmarks, they are the Sisters' power made flesh, the beating heart of the Starwoods.
 
 The forest here is a labyrinth of tangled wards—shifting paths, serpentine thickets, and roots that coil around trespassers' ankles. Loggers are tolerated but watched, their axes never allowed to stray near sacred bark.
 
@@ -514,7 +511,7 @@ But the Hollow Sister's influence seeps through the soil, her saplings creeping 
 
 **1404 Marked Woods** Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps moving them.
 
-**1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
+**1405 Loggers Camp** A rough collection of tents and wooden structures stands in stark contrast to the Starwood's eternal beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.
 
 Boss hired a former druid to help navigate these tensions, but her true loyalties remain unclear. The camp's torches burn all night now, and no logger works alone.
 
@@ -584,47 +581,47 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
 
 D66 | Treasure
 :---:|:--------------------
-11 | Box of crystallized moonlight mushroom spores (19s)
-12 | Bone-white pearls from ghost oysters (3d6×5s)
-13 | Jar of preserved twilight that glows when opened (23s)
-14 | Skeleton key carved from petrified marsh wood (13s)
-15 | Bottle of tears from a Wailing Tree (17s)
-16 | Watercolor of a figure jumping from atop lighthouse at dawn (7s)
-21 | Silver-threaded fishing net that cannot tangle (49s)
-22 | Shell necklace that feels always cold (15s)
-23 | Coral-handled dagger with wave patterns (21s)
-24 | Opalescent shell that catches moonlight (19s)
-25 | Tarnished silver compass with naked woman etching (23s)
-26 | Ancient wine still perfectly preserved (37s)
-31 | Brass spyglass etched with sailing songs (17s)
-32 | Salt-stained pirate ship log in cipher (11s)
-33 | Bronze incense burner shaped like an octopus (9s)
-34 | Silver pendant of two moons eclipsing (15s)
-35 | Half-empty jar of purple honey (7s)
-36 | Set of iron manacles with strange runes (19s)
-41 | Pair of pearl earrings on copper chains (21s)
-42 | Silver-rimmed drinking horn with initials "T.K." (17s)
-43 | Set of bone dominoes in velvet pouch (9s)
-44 | Tarnished copper wedding bands, still paired (11s)
-45 | Half-burned love letter signed "Your Captain" (7s)
-46 | Ship's flag with faded stag insignia (15s)
-51 | Small silver mirror in wooden case (17s)
-52 | Delicate porcelain tea set for two (19s)
-53 | Child's doll with silver button eyes (11s)
-54 | Carved bone flute that sounds like waves (15s)
-55 | Herbalist's journal, pages stuck with honey (9s)
-56 | Leather pouch of semi-precious stones (21s)
-61 | Copper bowl that fills with morning dew (23s)
-62 | Bone dice that roll better at night (17s)
-63 | Crystal perfume bottle with lingering scent (11s)
-64 | Fine wool cloak with fox fur trim (15s)
-65 | Silver thimble that smells of rare spices (9s)
-66 | Small music box that plays sea shanties (19s)
+11 | Box of crystallized moonlight mushroom spores (35s)
+12 | Bone-white pearls from ghost oysters (3d6×15s)
+13 | Jar of preserved twilight that glows when opened (75s)
+14 | Skeleton key carved from petrified marsh wood (25s)
+15 | Bottle of tears from a Wailing Tree (45s)
+16 | Watercolor of a figure jumping from atop lighthouse at dawn (8s)
+21 | Silver-threaded fishing net that cannot tangle (120s)
+22 | Shell necklace that feels always cold (22s)
+23 | Coral-handled dagger with wave patterns (55s)
+24 | Opalescent shell that catches moonlight (50s)
+25 | Tarnished silver compass with naked woman etching (40s)
+26 | Ancient wine still perfectly preserved (85s)
+31 | Brass spyglass etched with sailing songs (30s)
+32 | Salt-stained pirate ship log in cipher (20s)
+33 | Bronze incense burner shaped like an octopus (15s)
+34 | Silver pendant of two moons eclipsing (28s)
+35 | Half-empty jar of purple honey (6s)
+36 | Set of iron manacles with strange runes (32s)
+41 | Pair of pearl earrings on copper chains (42s)
+42 | Silver-rimmed drinking horn with initials "T.K." (30s)
+43 | Set of bone dominoes in velvet pouch (12s)
+44 | Tarnished copper wedding bands, still paired (18s)
+45 | Half-burned love letter signed "Your Captain" (5s)
+46 | Ship's flag with faded stag insignia (24s)
+51 | Small silver mirror in wooden case (30s)
+52 | Delicate porcelain tea set for two (35s)
+53 | Child's doll with silver button eyes (16s)
+54 | Carved bone flute that sounds like waves (25s)
+55 | Herbalist's journal, pages stuck with honey (10s)
+56 | Leather pouch of semi-precious stones (60s)
+61 | Copper bowl that fills with morning dew (70s)
+62 | Bone dice that roll better at night (38s)
+63 | Crystal perfume bottle with lingering scent (18s)
+64 | Fine wool cloak with fox fur trim (28s)
+65 | Silver thimble that smells of rare spices (14s)
+66 | Small music box that plays sea shanties (45s)
 
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
 _v0.9.9.1_ by brine <br>
-[#map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
-[#Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
-[#Rando](https://rando.brine.dev) for your random needs <br>
+[map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
+[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
+[Rando](https://rando.brine.dev) for your random needs <br>
