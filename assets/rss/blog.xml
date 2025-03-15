@@ -5,7 +5,7 @@
   <link>https://brine.dev</link>
   <description>Living in a world of brine...</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 02 Mar 2025 20:01:54 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 15 Mar 2025 17:38:44 GMT</lastBuildDate>
   <atom:link href="https://brine.dev/assets/rss/blog.xml" rel="self" type="application/rss+xml" />
   <item>
     <pubDate>Fri, 05 Jan 2024 13:01:00 GMT</pubDate>
@@ -910,7 +910,7 @@ A Friend
 <li>Yagul Fane is built atop an ancient city with unimaginable magical treasures.</li>
 <li>Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery… count on it.</li>
 <li>Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.</li>
-<li>The mountain mists are the breath of ancient dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.</li>
+<li>The mountain mists are the breath of dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.</li>
 <li>Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.</li>
 <li>Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em <em>see clearly</em>.</li>
 <li>Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean…</li>
@@ -930,7 +930,7 @@ A Friend
 <tbody>
 <tr>
 <td style="text-align:center;">2</td>
-<td style="text-align:left;"><strong>Shadow Dragon</strong> An ancient dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.</td>
+<td style="text-align:left;"><strong>Shadow Dragon</strong> A dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech.</td>
 </tr>
 <tr>
 <td style="text-align:center;">3</td>
@@ -962,7 +962,7 @@ A Friend
 </tr>
 <tr>
 <td style="text-align:center;">10</td>
-<td style="text-align:left;"><strong>Enchanted Clearing</strong> A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: a Dryad (<code>Ancient, Patient, Vengeful</code>) who trades fairly but punishes theft with eternal servitude.</td>
+<td style="text-align:left;"><strong>Enchanted Clearing</strong> A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: <strong>The Hollow Sister</strong> (<code>Open Arms, Curious, The Heart</code>), who trades fairly but punishes theft with eternal servitude.</td>
 </tr>
 <tr>
 <td style="text-align:center;">11+</td>
@@ -1118,7 +1118,7 @@ A Friend
 </tr>
 <tr>
 <td style="text-align:center;">10</td>
-<td style="text-align:left;"><strong>Ancient Shrine</strong> Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.</td>
+<td style="text-align:left;"><strong>Tree Shrine</strong> Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.</td>
 </tr>
 <tr>
 <td style="text-align:center;">11+</td>
@@ -1179,13 +1179,13 @@ A Friend
 </table>
 <h3 id="hexes">HEXES</h3>
 <p><strong>0101 Dark Tower</strong>
-A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. <strong>Varjo</strong> (<code>Shadow Mage, Hermit, Obsessive</code>), a forgotten mage, now lives within his tower's <em>shadow</em>, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: <em>"you there… do fuck off!"</em></p>
-<p><strong>0102 Razor's Edge</strong>: A mountain stream violently carves a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.</p>
-<p><strong>0103 The Alarum Fields</strong> A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.</p>
-<p><strong>0104 Respite Grove</strong> A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.</p>
+A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. <strong>Varjo</strong> (<code>Shadow Mage, Hermit, Obsessive</code>), a forgotten mage, now dwells within his tower's <em>shadow</em>, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: <em>"you there… do fuck off!"</em></p>
+<p><strong>0102 Razor's Edge</strong>: A mountain stream violently slashes a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the 50' chasm. It looks unlikely to bear anything heavier than a whisper.</p>
+<p><strong>0103 The Alarum Fields</strong> A hidden valley home to acres of rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.</p>
+<p><strong>0104 Respite Grove</strong> A peaceful grove of tall trees with orange-stained bark. Their leaves cascade continuously, carpeting the ground. The air hums with serene resonance, urging quiet reflection. Resting here accelerates healing 2x.</p>
 <p><strong>0105 Shadow Dragon Lair</strong> The entrance is obscured by shifting shadows cast by moonlight mushrooms, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.</p>
 <p>The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.</p>
-<p><strong>0106 The Scorched Hollow</strong> A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps rise from dead ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.</p>
+<p><strong>0106 The Scorched Hollow</strong> A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.</p>
 <p><strong>0107 The Ashen Thicket</strong> A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.</p>
 <p><strong>0108 The Smoldering Path</strong> A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree erupts overnight—bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.</p>
 <p><strong>0109 Memory Falls</strong> A glittering waterfall spills into a clear pool, its waters tinged with soft, iridescent light. Locals whisper it’s a place where dreams resurface—or memories vanish. Fae keep silent watch from unseen vantages. Those who bathe here emerge changed: some bearing vivid new memories, others vivid new markings and still others, with pieces of themselves gone.</p>
@@ -1196,15 +1196,15 @@ A shabby stone tower rises from overgrown grass. Its pale stones etched with fad
 <p>In one, a single iridescent shell turns with the current. Speak a wish aloud, and the water ripples, showing a fleeting glimpse of its fulfillment. But nothing changes. The tide will return, and with it, the promise of the wish—only the sea knows when.</p>
 <p><strong>0201 Quiet Holler</strong> A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.</p>
 <p><strong>0202 Keelspire</strong> A hermit astronomer (<code>Starstruck, Prophetic, Rambling</code>) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the devastating beauty of the night sky.</p>
-<p><strong>0203 Druid's Aviary</strong> On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are unwelcoming to strangers.</p>
+<p><strong>0203 Druid's Aviary</strong> On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—dozens shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are hostile to outsiders.</p>
 <p><strong>0204 Dead Messenger</strong> A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger—scarlet hat askew—is dead. A letter with an unbroken wax seal peeks from his bag—addressed to <strong>Uwin</strong>. The old paint horse, Buttercup, grazes nervously, ready to bolt.</p>
 <blockquote>
   <p>The letter reads: "Now that you've gone, it's all rum and sad luck dames. I don't even care if they miss me; I never remember their names. I wonder where you are and find myself whispering your name. They say if you get far enough away, you can always come back home. Meet me at Number 7 and ask for Blind Jane".</p>
 </blockquote>
-<p><strong>0205 Who Where Those Masked Men</strong> Two masked wrestlers grapple within a perfect circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and <strong>Mërk (Skull Mask) & Bërg (Bear Mask)</strong> will stop immediately, bow to each other, and flee into the wild in separate directions.</p>
+<p><strong>0205 Who Were Those Masked Men</strong> Two masked wrestlers grapple within a 20' circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and <strong>Mërk (yellow skull mask) & Bërg (black bear mask)</strong> will stop immediately, bow to each other, and flee into the wild in separate directions.</p>
 <p><strong>0206 Hanging Tree</strong> A massive tree stands alone, no growth within 20 feet of its base. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose dangles from a stout branch. The tree breathes a somber song, like wind through hollow bones. The names <em>appear</em> after each hanging.</p>
-<p><strong>0207 The Oak</strong> A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.</p>
-<p><strong>0208 The Ash King</strong> A scorched forest where ash blankets the ground. At its heart, a strange figure known as the <strong>Ash King</strong> (<code>Self-Appointed Monarch, Alchemist, Irrational Confidence</code>) has built a brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.</p>
+<p><strong>0207 The Oak</strong> A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while a dozen dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.</p>
+<p><strong>0208 The Ash King</strong> A scorched forest where ash blankets the ground. At its heart, a strange figure known as the <strong>Ash King</strong> (<code>Self-Appointed Monarch, Alchemist, Irrational Confidence</code>) has built an ample brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.</p>
 <p><strong>0209 Greever's Lighthouse</strong> stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (<code>Jaded Ghost, Lovelorn, Snippy</code>), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.</p>
 <p>The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.</p>
 <blockquote>
@@ -1216,16 +1216,16 @@ A shabby stone tower rises from overgrown grass. Its pale stones etched with fad
 </blockquote>
 <p><strong>0210 Veil's End</strong> A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When <strong>Lyra "Queen" Vex</strong> (<code>Blades, Queen's Stitch, Generous</code>) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it <em>the Queen's Stitch.</em> All the right people vouch for her… for now.</p>
 <p><strong>0211 Smoked Hamlet</strong>
-Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (<code>Impulsive, Visionary, Flamboyant</code>) bought the land for more wealth than the villagers had ever seen. In the fine print: <em>no sea access</em>. Now, they watch a new manor house rise from the ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others <em>sharpen knives</em>.</p>
-<p><strong>0301 The Fever Downs</strong> Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer named <strong>Hergest</strong> (<code>Healer, Old Codger, Opinionated</code>) harvests plants here to brew remedies that cure ailments of both body and spirit.</p>
-<p><strong>0302 Lost Druid's Grove</strong> lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are <em>strictly</em> private.</p>
-<p>Ancient runes, similar to those binding Mon's prisoners, are carved into the stones. The circles' placement mirrors the prison's cell layout, though this could be coincidence. Complex chalk markings cover the stones and ground between them, redrawn daily in precise patterns. At night, amber light moves between the marks, though its source remains unclear.</p>
-<p>At the grove's heart stands an altar stone—black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.</p>
-<p><strong>0303 Nabal Palisades</strong> Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. Named for the last fool who tried to climb them; his bones a warning to those who would follow.</p>
-<p><strong>0304 Stone Teeth</strong> A vertical wall of mountains blocks passage north. No path exists—just raw stone rising impossibly steep, blocking all approach to the Prison of Mon.</p>
+Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (<code>Impulsive, Visionary, Flamboyant</code>) bought the land for more wealth than the villagers had ever seen. In the fine print: <em>no sea access</em>. Now, they watch a new manor house rise from <em>their</em> ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others <em>sharpen knives</em>.</p>
+<p><strong>0301 The Fever Downs</strong> Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named <strong>Hergest</strong> (<code>Healer, Old Codger, Opinionated</code>) harvests plants to brew remedies for body and spirit.</p>
+<p><strong>0302 Lost Druid's Grove</strong> lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are <em>strictly</em> private.</p>
+<p>Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone alter. Complex chalk markings cover the stones and ground between them, redrawn daily in precise 3'-wide patterns. At night, amber light moves between the marks, though its source remains unclear.</p>
+<p>At the grove's heart stands an altar stone—6' wide, black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.</p>
+<p><strong>0303 Nabal's Palisades</strong> Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. It took its name from the last fool who tried to climb them; his bones a warning to those who would follow.</p>
+<p><strong>0304 Stone Teeth</strong> A vertical wall of mountains blocks passage north. No path exists—just raw, smooth stone rising impossibly steep, blocking all approach to the Prison of Mon. Not even goats can find footing here.</p>
 <p><strong>0305 Prison of Mon</strong> A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences—even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.</p>
 <p>The ethereal Jailers were once prisoners themselves. They stand eternal watch in the long entrance hall, attuned to truth. Any deception triggers harsh response.</p>
-<p>Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive <em>royal endowments</em> from northern kings for their service.</p>
+<p>Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive <em>royal endowments</em> from the northern kings for their service.</p>
 <p><strong>STAFF</strong></p>
 <ul>
 <li><strong>Warden Cloudcroft</strong> <code>Stern, Respected, Cunning Linguist</code> - Abbes Salvora visits often</li>
@@ -1247,7 +1247,7 @@ Charred beams and blackened stones mark where a fishing hamlet once stood. A you
 <p><strong>0308 Hidden Cove</strong> Smooth stones line a sheltered inlet, arranged too precisely to be natural. Grass-covered foothills hide the beach from casual view. A massive rib bone from an ancient kraken rises from the sand, bleached white and larger than a ship's mast.</p>
 <p><strong>0310 The Bone Cairn</strong> A massive pile of bones arranged in the shape of a cairn rises from the dunes. If toppled, the bones inexplicably restack themselves at twilight. Some bones shift position even when the cairn stands undisturbed, and locals swear the arrangement changes with the phases of the moon.</p>
 <p>At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.</p>
-<p><strong>0401 Impassable Peaks</strong> Mountain fangs rip the sky. No path exists; only shear stone.</p>
+<p><strong>0401 Impossible Peaks</strong> Mountain fangs rip the sky. No path exists; only shear stone.</p>
 <p><strong>0402 Lost Druid's Threshold</strong> Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.</p>
 <p><strong>0403 Mountain's Spine</strong> Sheer rock walls split by a single path—no wider than a goat in many places. Stones feel warm to the touch, despite the altitude.</p>
 <p><strong>0404 Stone Spine</strong> Razor-backed ridges thrust toward the sky. Wind screams through its granite teeth. A single vulture circles but there is little to die in a place where nothing can live.</p>
@@ -1440,15 +1440,14 @@ A shadowy caravan rolls across the land, appearing only to those in true need. N
 <p><strong>0704 The Crooked Saint</strong> A shrine tilts against a gnarled tree. Within, a wooden idol contorted in a painful pose. Travelers who leave an offering wake to find an old injury healed—but a new, unfamiliar ache takes its place. The worse the offering, the harsher the trade. A missing finger for a mended leg, a deep scar for a broken tooth.</p>
 <p><strong>0705 For Whom The Bell Tolls</strong> A weathered stone tower crumbles at its base, a large bell hanging cracked from its peak. Its toll drifts across the sands, though no hand seems to strike it.</p>
 <p>The Dustfolk believe the bell signals the arrival of a wandering ancestor, a spirit guiding the lost. Magi once charted magical currents by its ring; now it speaks only to those who listen.</p>
-<p><strong>0706 Brine Shrine</strong> A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.</p>
+<p><strong>0706 The Shrine of Brine</strong> A stone basin in the sand, its rim etched with curling fish. Fresh water fills it each dawn, transforming to brine by midday. Pilgrims kneel to wash their hands, pressing damp fingers to their tongues and muttering prayers for safe passage.</p>
 <p>A rusted iron key lies beneath the water—visible yet unreachable. Grasping hands pass right through. The <strong>Mad Monk</strong> (<code>Seer, Unending Thirst, Ravings of Truth</code>) stole this key with a parlor trick, and it now hangs around his neck.</p>
 <p><strong>0707 The First Stones</strong> A vast stone formation hums with an odd, mechanical rhythm beneath the sands. The Dustfolk believe this is where the first ancestors were shaped, a sacred place where the desert itself first breathed.</p>
 <p>They gather here to meditate, their spirits rising and falling with the pulse. The magi call it a natural anomaly, yet their own magic has amplified its rhythm over centuries. The Dustfolk do not resent this—they listen, adapting their rites to what the land has become.</p>
 <p><strong>0708 The Saltwood</strong> A salt-crusted forest clings to the coastline, its trees bleached and skeletal from years of sea spray. Some stand stark and lifeless, a ghostly tangle of bark and bone-white limbs. Others endure, their roots twisted deep into the briny earth, drinking from hidden springs.</p>
 <p>The Dustfolk avoid this place—too much water too little sky. Magi have mapped strange currents in the air and soil, sensing something ancient woven into the salt and roots.</p>
 <p><strong>0801 Stormridge</strong> Mountain slopes lashed by wind and mist. The weather changes without warning—sudden storms, bitter cold. An uneasy path winds through crags, marked by forsaken campfires. A rotting corpse slumps against a tree, in a pool of dried blood. On his person, a finely crafted bow and rune-carved spear.</p>
-<p><strong>0802 Vial Cart</strong>
-A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.</p>
+<p><strong>0802 Vial Cart</strong> A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.</p>
 <p><strong>0803 Forever Young</strong> A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.</p>
 <p><strong>0805 Classic Traveler</strong> A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. <strong>Malfas</strong> (<code>Tall, Observer, Awkward</code>) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.</p>
 <p><strong>0806 The Veil of Ash</strong> A burnt haze engulfs the sands, the residue of an ancient ritual cast by Uma Fane herself. Apprentices toil daily to maintain the spectral barrier, knowing any disruption could release what lies dormant beneath the dunes.</p>
@@ -1479,7 +1478,7 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 <li><strong>Abbess Salvora</strong> <code>Devoted, Respected, Distracted</code> - frequent visits to the Prison of Mon</li>
 <li><strong>Prior Cedric</strong> <code>Rugged, Diligent, Insecure</code> - oversees brewing operations</li>
 <li><strong>Sister Elara</strong> <code>Fallen Druid, Healer, Know-it-all</code></li>
-<li><strong>Brother Ulfar</strong> <code>Brewmaster, Mean Drunk</code> - avoided but knows beer</li>
+<li><strong>Brother Ulfar</strong> <code>Brewmaster, Mean Drunk</code> - avoided but knows his beer</li>
 <li><strong>Brother Estabar</strong> <code>Monk, Eager, Gentle</code> - master goat herder</li>
 <li><strong>Sir Ealdred</strong> <code>Knight, Daring, Haunted</code> - seeks spiritual clarity after long and brutal campaigns</li>
 <li><strong>Lady Isolde</strong> <code>Noble, Graceful, Introspective</code> - sought sanctuary from the pressures of court life</li>
@@ -1488,15 +1487,14 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 <p><strong>1202 The Skyroot Sentinels</strong> Towering, ancient trees grow impossibly tall here, their roots gripping stone as if holding the mountain in place. Legends claim these trees are guardians, awakened only when the land is threatened. Their bark is scarred with old battle wounds, and those who listen closely can hear faint warnings or welcomes, depending on the visitor’s intent.</p>
 <p><strong>1203 The Broken Stair</strong> A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.</p>
 <p><strong>1204 The Black Fangs</strong> Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.</p>
-<p><strong>1205 The Hollow Roost</strong> An immense, ancient tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.</p>
-<p><strong>1208 The Leaning Stones</strong> Ancient stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.</p>
-<p><strong>1302 The Mistwell</strong> A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying. Some claim the Mistwell is a sacred place watched over by unseen spirits, while others insist it is a gateway to something beyond mortal understanding.</p>
-<p><strong>1303 The Slumbering Hart</strong> Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Some claim that disturbing it will summon the wrath of the forest itself.</p>
+<p><strong>1205 The Hollow Roost</strong> An immense tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests—sometimes pleasant, sometimes nightmarish.</p>
+<p><strong>1208 The Leaning Stones</strong> Stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.</p>
+<p><strong>1302 The Mistwell</strong> A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams—sometimes prophetic, sometimes terrifying.</p>
+<p><strong>1303 The Slumbering Hart</strong> Deep within the trees, where the land begins to rise, lies a clearing bathed in perpetual twilight. At its center rests an enormous stag—its antlers tangled with vines, its breath slow as the turning seasons. The creature does not wake, but its presence is undeniable. Druids and wanderers speak of it in hushed tones, calling it the Slumbering Hart, a guardian of balance. Disturbing it will summon the wrath of the forest itself.</p>
 <p><strong>1306 Four Leaf Clover Field</strong> A field of ONLY four leaf clovers… finding a THREE leaf clover brings the bearer luck.</p>
 <p><strong>1308 Salted Woods</strong> Gnarled pines grow right to the cliff's edge, their bark white with salt spray. A ship's wheel hangs forgotten in the branches, creaking in the wind. Fishermen leave offerings here—for luck on their next voyage. Fresh fish bones and a knotted red ribbon dangle from the spokes.</p>
 <p><strong>1402 Red’s Woods</strong> A winding path snakes through the forest, lined with hundreds of carved trees—each trunk a masterpiece, so lifelike they seem to breathe. At its heart stands a house built without a single nail, every joint seamlessly fitted. <strong>"Red" Dressler</strong> (<code>Tree-wise, Craftsman, Absorbed</code>) allows loggers to work to the south, but no axe may touch the trees of his woods. His face glows when he speaks of his wife and her garden, though few have ever glimpsed her among the trees—for she is a <strong>Dryad</strong> (<code>Ethereal, Elusive, Nurturing</code>). Those who appreciate true craftsmanship and respect the forest may find themselves invited to stay for supper.</p>
-<p><strong>1403 Two Trees And Three Sisters</strong></p>
-<p>Two towering trees stand out among the many. These are the trees of the Eldest and Middle Sisters—their roots deep, bound to the forest. Not mere landmarks, they are the Sisters' power made flesh, the beating heart of the Starwoods.</p>
+<p><strong>1403 Two Trees And Three Sisters</strong> Two towering trees stand out among the many. These are the trees of the Eldest and Middle Sisters—their roots deep, bound to the forest. Not mere landmarks, they are the Sisters' power made flesh, the beating heart of the Starwoods.</p>
 <p>The forest here is a labyrinth of tangled wards—shifting paths, serpentine thickets, and roots that coil around trespassers' ankles. Loggers are tolerated but watched, their axes never allowed to stray near sacred bark.</p>
 <p>But the Hollow Sister's influence seeps through the soil, her saplings creeping ever closer. The Eldest and Middle whisper to the roots, listening for signs of intrusion, knowing that if their sister ever finds her way back, it may be too late.</p>
 <blockquote>
@@ -1506,7 +1504,7 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
   <p><strong>The Hollow Sister</strong> (<code>Open Arms, Curious, The Heart</code>) Her tree’s roots torn from the earth by her own kin [#1505], yet she did not die. She befriended the fae, and her saplings grow strong in the Freemoon Forest. She waits…</p>
 </blockquote>
 <p><strong>1404 Marked Woods</strong> Massive old-growth pines worth a fortune in lumber. Loggers' marks show which trees to cut, but someone keeps moving them.</p>
-<p><strong>1405 Loggers Camp</strong> A rough collection of tents and wooden structures stands in stark contrast to the Starwood's ancient beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.</p>
+<p><strong>1405 Loggers Camp</strong> A rough collection of tents and wooden structures stands in stark contrast to the Starwood's eternal beauty. Axes and saws echo through the trees as loggers harvest the valuable timber. Even the most hardened logger feels the weight of their impact on these old woods, yet the work continues. The druids offer no aid against recent threats—to them, the loggers' presence is the true blight on their forest.</p>
 <p>Boss hired a former druid to help navigate these tensions, but her true loyalties remain unclear. The camp's torches burn all night now, and no logger works alone.</p>
 <blockquote>
   <p><strong>The Sisters</strong> remain silent; watching. They tolerate the loggers in the hope that their axes might cut down the Hollow Sister’s creeping saplings. They will turn on them the moment their purpose is served.</p>
@@ -1599,155 +1597,155 @@ A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Emp
 <tbody>
 <tr>
 <td style="text-align:center;">11</td>
-<td style="text-align:left;">Box of crystallized moonlight mushroom spores (19s)</td>
+<td style="text-align:left;">Box of crystallized moonlight mushroom spores (35s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">12</td>
-<td style="text-align:left;">Bone-white pearls from ghost oysters (3d6×5s)</td>
+<td style="text-align:left;">Bone-white pearls from ghost oysters (3d6×15s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">13</td>
-<td style="text-align:left;">Jar of preserved twilight that glows when opened (23s)</td>
+<td style="text-align:left;">Jar of preserved twilight that glows when opened (75s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">14</td>
-<td style="text-align:left;">Skeleton key carved from petrified marsh wood (13s)</td>
+<td style="text-align:left;">Skeleton key carved from petrified marsh wood (25s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">15</td>
-<td style="text-align:left;">Bottle of tears from a Wailing Tree (17s)</td>
+<td style="text-align:left;">Bottle of tears from a Wailing Tree (45s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">16</td>
-<td style="text-align:left;">Watercolor of a figure jumping from atop lighthouse at dawn (7s)</td>
+<td style="text-align:left;">Watercolor of a figure jumping from atop lighthouse at dawn (8s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">21</td>
-<td style="text-align:left;">Silver-threaded fishing net that cannot tangle (49s)</td>
+<td style="text-align:left;">Silver-threaded fishing net that cannot tangle (120s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">22</td>
-<td style="text-align:left;">Shell necklace that feels always cold (15s)</td>
+<td style="text-align:left;">Shell necklace that feels always cold (22s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">23</td>
-<td style="text-align:left;">Coral-handled dagger with wave patterns (21s)</td>
+<td style="text-align:left;">Coral-handled dagger with wave patterns (55s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">24</td>
-<td style="text-align:left;">Opalescent shell that catches moonlight (19s)</td>
+<td style="text-align:left;">Opalescent shell that catches moonlight (50s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">25</td>
-<td style="text-align:left;">Tarnished silver compass with naked woman etching (23s)</td>
+<td style="text-align:left;">Tarnished silver compass with naked woman etching (40s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">26</td>
-<td style="text-align:left;">Ancient wine still perfectly preserved (37s)</td>
+<td style="text-align:left;">Ancient wine still perfectly preserved (85s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">31</td>
-<td style="text-align:left;">Brass spyglass etched with sailing songs (17s)</td>
+<td style="text-align:left;">Brass spyglass etched with sailing songs (30s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">32</td>
-<td style="text-align:left;">Salt-stained pirate ship log in cipher (11s)</td>
+<td style="text-align:left;">Salt-stained pirate ship log in cipher (20s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">33</td>
-<td style="text-align:left;">Bronze incense burner shaped like an octopus (9s)</td>
+<td style="text-align:left;">Bronze incense burner shaped like an octopus (15s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">34</td>
-<td style="text-align:left;">Silver pendant of two moons eclipsing (15s)</td>
+<td style="text-align:left;">Silver pendant of two moons eclipsing (28s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">35</td>
-<td style="text-align:left;">Half-empty jar of purple honey (7s)</td>
+<td style="text-align:left;">Half-empty jar of purple honey (6s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">36</td>
-<td style="text-align:left;">Set of iron manacles with strange runes (19s)</td>
+<td style="text-align:left;">Set of iron manacles with strange runes (32s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">41</td>
-<td style="text-align:left;">Pair of pearl earrings on copper chains (21s)</td>
+<td style="text-align:left;">Pair of pearl earrings on copper chains (42s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">42</td>
-<td style="text-align:left;">Silver-rimmed drinking horn with initials "T.K." (17s)</td>
+<td style="text-align:left;">Silver-rimmed drinking horn with initials "T.K." (30s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">43</td>
-<td style="text-align:left;">Set of bone dominoes in velvet pouch (9s)</td>
+<td style="text-align:left;">Set of bone dominoes in velvet pouch (12s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">44</td>
-<td style="text-align:left;">Tarnished copper wedding bands, still paired (11s)</td>
+<td style="text-align:left;">Tarnished copper wedding bands, still paired (18s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">45</td>
-<td style="text-align:left;">Half-burned love letter signed "Your Captain" (7s)</td>
+<td style="text-align:left;">Half-burned love letter signed "Your Captain" (5s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">46</td>
-<td style="text-align:left;">Ship's flag with faded stag insignia (15s)</td>
+<td style="text-align:left;">Ship's flag with faded stag insignia (24s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">51</td>
-<td style="text-align:left;">Small silver mirror in wooden case (17s)</td>
+<td style="text-align:left;">Small silver mirror in wooden case (30s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">52</td>
-<td style="text-align:left;">Delicate porcelain tea set for two (19s)</td>
+<td style="text-align:left;">Delicate porcelain tea set for two (35s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">53</td>
-<td style="text-align:left;">Child's doll with silver button eyes (11s)</td>
+<td style="text-align:left;">Child's doll with silver button eyes (16s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">54</td>
-<td style="text-align:left;">Carved bone flute that sounds like waves (15s)</td>
+<td style="text-align:left;">Carved bone flute that sounds like waves (25s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">55</td>
-<td style="text-align:left;">Herbalist's journal, pages stuck with honey (9s)</td>
+<td style="text-align:left;">Herbalist's journal, pages stuck with honey (10s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">56</td>
-<td style="text-align:left;">Leather pouch of semi-precious stones (21s)</td>
+<td style="text-align:left;">Leather pouch of semi-precious stones (60s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">61</td>
-<td style="text-align:left;">Copper bowl that fills with morning dew (23s)</td>
+<td style="text-align:left;">Copper bowl that fills with morning dew (70s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">62</td>
-<td style="text-align:left;">Bone dice that roll better at night (17s)</td>
+<td style="text-align:left;">Bone dice that roll better at night (38s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">63</td>
-<td style="text-align:left;">Crystal perfume bottle with lingering scent (11s)</td>
+<td style="text-align:left;">Crystal perfume bottle with lingering scent (18s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">64</td>
-<td style="text-align:left;">Fine wool cloak with fox fur trim (15s)</td>
+<td style="text-align:left;">Fine wool cloak with fox fur trim (28s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">65</td>
-<td style="text-align:left;">Silver thimble that smells of rare spices (9s)</td>
+<td style="text-align:left;">Silver thimble that smells of rare spices (14s)</td>
 </tr>
 <tr>
 <td style="text-align:center;">66</td>
-<td style="text-align:left;">Small music box that plays sea shanties (19s)</td>
+<td style="text-align:left;">Small music box that plays sea shanties (45s)</td>
 </tr>
 </tbody>
 </table>
 <p><img src="/assets/images/southern_coast/southern_coast.png" alt="#image" /></p>
-<p><em>v0.9.9.9</em> by brine <br>
-<a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">#map by Watabou</a> <br>
-<a href="https://casadeocio.itch.io/hexcrawls-rule">#Hexcrawls Rule!</a> for procedures <br>
-<a href="https://rando.brine.dev">#Rando</a> for your random needs <br></p>]]></description>
+<p><em>v0.9.9.1</em> by brine <br>
+<a href="https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2">map by Watabou</a> <br>
+<a href="https://casadeocio.itch.io/hexcrawls-rule">Hexcrawls Rule!</a> for procedures <br>
+<a href="https://rando.brine.dev">Rando</a> for your random needs <br></p>]]></description>
   </item>
   <item>
     <pubDate>Tue, 30 Jan 2024 13:01:00 GMT</pubDate>

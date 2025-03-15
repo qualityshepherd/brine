@@ -133,19 +133,19 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 ### HEXES
 
 **0101 Dark Tower**
-A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now lives within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: _"you there... do fuck off!"_
+A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now dwells within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: _"you there... do fuck off!"_
 
-**0102 Razor's Edge**: A mountain stream violently carves a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the chasm. It looks unlikely to bear anything heavier than a whisper.
+**0102 Razor's Edge**: A mountain stream violently slashes a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the 50' chasm. It looks unlikely to bear anything heavier than a whisper.
 
-**0103 The Alarum Fields** A hidden valley home to rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
+**0103 The Alarum Fields** A hidden valley home to acres of rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
 
-**0104 Respite Grove** A peaceful grove of tall trees with orange-stained bark. Their leaves drift continuously, carpeting the ground. The air hums with calming energy, urging quiet reflection. Resting here accelerates healing 2x.
+**0104 Respite Grove** A peaceful grove of tall trees with orange-stained bark. Their leaves cascade continuously, carpeting the ground. The air hums with serene resonance, urging quiet reflection. Resting here accelerates healing 2x.
 
 **0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by moonlight mushrooms, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
 
 The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
 
-**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps rise from dead ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
+**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
 
 **0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
@@ -167,19 +167,19 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the devastating beauty of the night sky.
 
-**0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—some shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are unwelcoming to strangers.
+**0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—dozens shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are hostile to outsiders.
 
 **0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger—scarlet hat askew—is dead. A letter with an unbroken wax seal peeks from his bag—addressed to **Uwin**. The old paint horse, Buttercup, grazes nervously, ready to bolt.
 
 > The letter reads: "Now that you've gone, it's all rum and sad luck dames. I don't even care if they miss me; I never remember their names. I wonder where you are and find myself whispering your name. They say if you get far enough away, you can always come back home. Meet me at Number 7 and ask for Blind Jane".
 
-**0205 Who Where Those Masked Men** Two masked wrestlers grapple within a perfect circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (Skull Mask) & Bërg (Bear Mask)** will stop immediately, bow to each other, and flee into the wild in separate directions.
+**0205 Who Were Those Masked Men** Two masked wrestlers grapple within a 20' circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (yellow skull mask) & Bërg (black bear mask)** will stop immediately, bow to each other, and flee into the wild in separate directions.
 
 **0206 Hanging Tree** A massive tree stands alone, no growth within 20 feet of its base. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose dangles from a stout branch. The tree breathes a somber song, like wind through hollow bones. The names _appear_ after each hanging.
 
-**0207 The Oak** A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
+**0207 The Oak** A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while a dozen dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
-**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built a brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
+**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built an ample brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Jaded Ghost, Lovelorn, Snippy`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
 
@@ -196,17 +196,17 @@ On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card rea
 **0211 Smoked Hamlet**
 Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from _their_ ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
-**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles, their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
+**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
 
-**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. Weathered stone circles show signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
+**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
-Ancient runes, similar to those binding Mon's prisoners, are carved into the stones. The circles' placement mirrors the prison's cell layout, though this could be coincidence. Complex chalk markings cover the stones and ground between them, redrawn daily in precise patterns. At night, amber light moves between the marks, though its source remains unclear.
+Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone alter. Complex chalk markings cover the stones and ground between them, redrawn daily in precise 3'-wide patterns. At night, amber light moves between the marks, though its source remains unclear.
 
-At the grove's heart stands an altar stone—black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
+At the grove's heart stands an altar stone—6' wide, black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
 **0303 Nabal's Palisades** Mountains rise like an impenetrable fortress—stone so steep and dense that no living thing could pass. Nothing moves here. Nothing survives. It took its name from the last fool who tried to climb them; his bones a warning to those who would follow.
 
-**0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw stone rising impossibly steep, blocking all approach to the Prison of Mon.
+**0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw, smooth stone rising impossibly steep, blocking all approach to the Prison of Mon. Not even goats can find footing here.
 
 **0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences—even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
@@ -621,7 +621,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.1_ by brine <br>
+_v0.9.9.2_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>
