@@ -43,6 +43,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 1. Watch for runes in the dunes. Nomads call them _twilight portals_. But careful! You might end up leagues away... or worse.
 1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they fidget at night; they're gonna hatch!
 
+<break>
 
 ### LOCATIONS
 

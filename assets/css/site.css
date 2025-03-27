@@ -192,6 +192,17 @@ nav #links {
   border: 1px solid var(--bg-darkest);
 }
 
+.post-break {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.read-more {
+  display: inline-block;
+  color: var(--alt3);
+  text-decoration: none;
+}
+
 #more-posts {
   margin-bottom: 15px;
   font-size: 90%;

@@ -10,11 +10,21 @@ const blog = {
     const canonicalLink = `<link rel="canonical" href="${config.splog.url}">` // seo
 
     let posts = publishedPosts.slice(0, numPosts).map(post => {
+      // Split content at <break> tag
+      const [preview, fullContent] = post.html.split('<break>');
+
       return `
         <div class="post">
           <a href="#post?s=${post.meta.slug}" aria-label="post-title"><h2 class="post-title">${post.meta.title}</h2></a>
           <div class="date">${post.meta.date}</div>
-          <div>${post.html}</div>
+          <div>
+            ${preview}
+            ${fullContent ? `
+              <div class="post-break">
+                <a href="#post?s=${post.meta.slug}" class="read-more">Read more...</a>
+              </div>
+            ` : ''}
+          </div>
           <span class="tags">${renderTags(post.meta.tags)}</span>
         </div>
       `
