@@ -106,6 +106,15 @@ nav #links {
   z-index: 1;
 }
 
+.kofi img {
+  width: 30px;
+  height: auto;
+}
+
+.dim {
+  filter: brightness(75%);
+}
+
 #links a, #links form {
   margin-left: 15px;
   margin-top: 10px;
@@ -229,9 +238,7 @@ audio {
   width: 100%;
 }
 
-img {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.post img, header img {
   max-width: 100%;
   max-height: 100%;
   height: inherit !important;
@@ -315,14 +322,6 @@ blockquote {
   overflow: auto;
   background-color: #cdcbc9;
   filter: brightness(89%)
-}
-
-img {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-width: 100%;
-  max-height: 100%;
-  height: inherit !important;
 }
 
 .featherlight-content {
