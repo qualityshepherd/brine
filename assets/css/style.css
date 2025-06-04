@@ -89,7 +89,7 @@ nav {
   top: 0;
 }
 
-#hamburger {
+#menu {
   margin-left: 15px;
   margin-top: 15px;
   font-size: 250%;
@@ -212,15 +212,19 @@ nav #links {
   text-decoration: none;
 }
 
-#more-posts {
-  margin-bottom: 15px;
+#load-more {
+  display: none;
+  margin: 15px auto;
   font-size: 90%;
-  text-align: center;
   color: var(--bg-darker);
   background-color: var(--alt2);
   padding: 15px;
   border: none;
-  border-radius: 15px
+  border-radius: 15px;
+}
+
+#load-more.show {
+  display: block;
 }
 
 .social img {

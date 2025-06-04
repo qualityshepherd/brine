@@ -1,4 +1,4 @@
 .DS_Store
-.AppleDouble
 /node_modules
-/dist
+/assets/rss/
+index.json

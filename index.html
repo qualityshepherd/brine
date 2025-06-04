@@ -13,9 +13,8 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="assets/rss/sitemap.xml">
   <link rel="preload" href="/assets/fonts/Oswald-Regular.ttf" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="favicon.png">
-  <script src="assets/js/site.js"></script>
   <link rel="alternate" type="application/rss+xml" href="assets/rss/pod.xml" title="World of Brine Podcast" />
   <link rel="alternate" type="application/rss+xml" href="assets/rss/blog.xml" title="Brine.dev" />
 </head>
@@ -24,33 +23,33 @@
 <header>
   <img src="assets/images/brine_wide.webp" alt="banner" />
   <nav>
-    <a href="javascript:void(0);" id="hamburger" onclick="toggleHamburger()" aria-label="menu">&#8801;</a>
+    <div id="menu" role="button" aria-label="menu">&#8801;</div>
     <div id="links">
-      <a href="#blog" class="active">Blog</a>
+      <a href="" class="active">Blog</a>
       <a href="https://worldof.brine.dev" class="active">Podcast</a>
       <a href="#about">About</a>
       <a href="#archive">Archive</a>
       <a href="https://rando.brine.dev">Rando</a>
       <a href="https://ko-fi.com/brine" class="kofi"><img src="./assets/images/kofi.png" class="dim" title="buy me a coffee..."></a>
-      <form action="#search?q=" onsubmit="location.href=this.action+q.value; return false">
+      <form action="#search?q=" onsubmit="location.href=this.action+q.value; return false" aria-label="search">
         <input id="search" name="q" type="text" placeholder="search...">
       </form>
   </div>
   </nav>
 </header>
 
+<!-- hidden: just for seo -->
 <h1>Brine | ttrpg games and actual play podcast</h1>
 
 <div class="container">
-  <!-- content will be inserted here -->
-  <main></main>
+  <main><!-- content will be inserted here --></main>
+  <button id="load-more">Load more</button>
 </div>
 
-<div id="footer">
-</div>
+<footer">
+</footer>
 
-<!-- import webpack  -->
-<script src="dist/main.js"></script>
+<script type="module" src="src/app.js"></script>
 <script async data-id="101437990" src="//static.getclicky.com/js"></script>
 </body>
 </html>
