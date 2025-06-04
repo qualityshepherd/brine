@@ -88,7 +88,7 @@ export const elements = {
   loadMore: document.querySelector('#load-more')
 }
 
-export function renderPosts(posts) {
+export function renderPosts (posts) {
   const limited = getLimitedPosts(posts, state.displayedPosts)
   elements.main.innerHTML = limited.map(postsTemplate).join('')
   toggleLoadMoreButton(state.displayedPosts < posts.length)
