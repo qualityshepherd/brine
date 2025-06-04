@@ -2,4 +2,4 @@
 
 # [World of Brine](https://brine.dev)
 
-It's my world but I'm a sharer?
+It's my world but I'm a sharer!
