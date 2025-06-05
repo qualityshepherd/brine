@@ -1,6 +1,6 @@
 import { state } from './state.js'
 
-const getLimitedPosts = (posts, limit) => posts.slice(0, limit)
+export const getLimitedPosts = (posts, limit) => posts.slice(0, limit)
 
 const getFilteredPosts = (posts, searchTerm) =>
   posts.filter(post => postMatchesSearch(post, searchTerm))
@@ -92,8 +92,6 @@ export function renderPosts (posts) {
   const limited = getLimitedPosts(posts, state.displayedPosts)
   elements.main.innerHTML = limited.map(postsTemplate).join('')
   toggleLoadMoreButton(state.displayedPosts < posts.length)
-  console.log('Displayed:', state.displayedPosts, 'Total:', posts.length)
-  console.log('Show load more?', state.displayedPosts < posts.length)
 }
 
 export function renderSinglePost (slug) {
