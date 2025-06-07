@@ -19,7 +19,8 @@
     "pretest": "npm run server & sleep 1",
     "test": "TEST_ENV=http://localhost:4242 tape tests/*test.js",
     "server": "npm start && http-server -p 4242",
-    "pretty": "standard --fix"
+    "pretty": "standard --fix",
+    "purge": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$BRINE_TOKEN/purge_cache\" -H \"Authorization: Bearer $BEARER\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
