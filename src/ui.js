@@ -51,6 +51,10 @@ export function renderArchive (posts) {
   elements.main.innerHTML = posts.map(archiveTemplate).join('')
 }
 
+export function renderNotFoundPage () {
+  elements.main.innerHTML = notFoundTemplate()
+}
+
 export function renderFilteredPosts () {
   const filtered = state.posts.filter(post =>
     postMatchesSearch(post, state.searchTerm)
