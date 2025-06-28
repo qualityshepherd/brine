@@ -2,3 +2,4 @@
 /node_modules
 /assets/rss/
 index.json
+tests/error*

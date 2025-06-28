@@ -418,6 +418,12 @@ The Dustfolk avoid this place—too much water too little sky. Magi have mapped 
 
 **0803 Forever Young** A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
 
+**0804 The Underworld Gate** Forty-two oak posts form a tight circle, each twelve feet tall, with bronze-carved figures at their base—bent humans, antlered shapes, something like intestines. At the center, an inverted oak: roots bleached white in the air, trunk plunging straight into dark earth.
+
+On moonless nights, black sap runs from the tree and traces channels in the carvings, forming shifting, unreadable patterns. Mixed with spring water, it allows communion with the dead—brief, vivid, and never quite trustworthy.
+
+Amber beads and shattered bronze tools are buried shallowly nearby, like offerings left in a hurry. No one calls the place by name.
+
 **0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
 
 **0806 The Veil of Ash** A burnt haze engulfs the sands, the residue of an ancient ritual cast by Uma Fane herself. Apprentices toil daily to maintain the spectral barrier, knowing any disruption could release what lies dormant beneath the dunes.
@@ -622,7 +628,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.2_ by brine <br>
+_v0.9.9.3_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>

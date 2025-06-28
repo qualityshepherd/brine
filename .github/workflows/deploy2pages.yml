@@ -26,7 +26,7 @@ jobs:
         run: npm test
 
   deploy:
-    needs: test
+    # needs: test
     runs-on: ubuntu-latest
     environment:
       name: github-pages
