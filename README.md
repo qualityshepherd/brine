@@ -1,4 +1,4 @@
-[![Deploy static content to Pages](https://github.com/qualityshepherd/brine/actions/workflows/deploy2pages.yml/badge.svg)](https://github.com/qualityshepherd/brine/actions/workflows/deploy2pages.yml)
+[![Deploy to Pages](https://github.com/qualityshepherd/brine/actions/workflows/deploy2pages.yml/badge.svg)](https://github.com/qualityshepherd/brine/actions/workflows/deploy2pages.yml)
 
 # [World of Brine](https://brine.dev)
 
