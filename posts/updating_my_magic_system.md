@@ -10,7 +10,7 @@ I'm updating my magic system, including [the original post](https://brine.dev/#p
 The goal is a magic system that feels _magical_; no easy task. I took elements from my favorite magic systems: Jonathan Strange and Mr. Norrell and A Wizard of Earthsea. Magic is like music: some can, some can't; some read, some intuit. Magic is of the world... a mage asks favors of it and/or does favors for it.
 
 - ask a stone to gather its brethren and create a road
-- ask the air to avoid a creature until they're unconscious
+- ask the air to withhold itself from a creature until it is unconscious
 - ask a still lake to reflect a scene its been witness to
 - ask the moon to hold back the tide
 - help tell the story of a misdeed that a forest or church or statue cannot alone
@@ -23,7 +23,7 @@ The goal is a magic system that feels _magical_; no easy task. I took elements f
 - a king's slipper
 - a coin from a beggar's cup
 
-**Burdens** are ballance in the magical world (Earthsea). Representing them with tarot is part GM/Player support and part... well... mysticism?
+**Burdens** are ballance in the magical world (Earthsea). Representing them with tarot is part GM/Player support and part... well... mysticism? They're an oracle for storytelling, and give consequences a symbolic, narrative hook instead of being just a penalty.
 
 **Promises** are like cantrips. Any mage worth his socks should be able to cast these simple, ephemeral spells. Substantial magic requires **Rituals** that can take days, weeks or even months. And then **Summoning** is the crazy train of opening yourself up to the whims of the Fey. Eg. only they can bring life back to the dead?
 
