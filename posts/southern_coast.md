@@ -26,7 +26,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 1. The Prison of Mon is _quietly_ investigating why their binding runes are weakening. They suspect the Hag Kalg but it's actually the Lost Druid syphoning their power.
 1. A Northern King's bastard hides among the followers of "The River". Royal agents—aka assassins—seek his "safe return".
 1. Maude's bees are dying and Harlan's famous hops are the likely cause. Both businesses are crucial to the Monastery's beer production.
-1. Jailers report Hag Kalg whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon.
+1. Jailers report Hag Kalg whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon. Through those dreams she's building a network.
 
 
 ### RUMORS
@@ -50,6 +50,8 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 **Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Tyrannical, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Stretches of forest lie burned to ash, creating an eerie beauty in the devastation. The pattern of destruction suggests a dragon, though none have been sighted... yet.
+
+> She once called The Hollow Sister friend. Allowing the Sister's saplings in HER forest after the dryads exiled her? That's the only mercy she's shown in 200 years.
 
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
@@ -221,7 +223,7 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 **NOTABLE INMATES**
 - **Jailers** spectral guardians; scorched amber runes cover their ethereal forms, burning brighter with rage; their touch summons painful astral shackles
 - **The Hag Kalg** `Fae, Cruel, Patient` - whispers to dragon-shaped shadows
-- **The Lost Druid** `Prophet, Elegant, Scheming` - was once recorded as Elara Moonshadow in Mon's intake documents, though she refuses to acknowledge this name. The guards whisper that she appeared at the prison gates willingly, carrying only a staff made of twisted driftwood and smiling like one who knows a secret.
+- **The Lost Druid** `Prophet, Elegant, Scheming` - was once recorded as Elara Moonshadow in Mon's intake documents, though she refuses to acknowledge this name. The guards whisper that she appeared at the prison gates willingly, carrying only a staff made of twisted driftwood and smiling like one who knows a secret. They weren't wrong... she's feeding off the power of the runes.
 - **Gavric the Silent** `Assassin, Mute, Watching`
 - **Lady Vale** `Noble, Beautiful, Mad` - ate her entire family at a feast
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
@@ -347,6 +349,7 @@ The Council of Six governs with pragmatic efficiency, treating magical research 
 6. **[Empty Seat]** - Recently vacated under mysterious circumstances
 
 - **Gareth** `Necromancer, Scoundrel, Sweet tooth` next in line for Council of 6
+- **Magistra Elden Korr** `Enchanter, Northern Accent, Ambitious` spy for the Northern Kings
 - **Captain Yorik** `Guard, Hunter, Daring`
 - **The Broker** `Fence, Embroiderer, Methodical`
 - **Narla** `Alchemist, Alluring, 3 Husbands`
@@ -360,12 +363,12 @@ The Council of Six governs with pragmatic efficiency, treating magical research 
 **Current Projects:**
 - Mapping magical emission zones (Voss leads)
 - Recruiting new Council member (political infighting)
-- Investigating Prison of Mon rune weakening (Sister Rose suspects druidic interference)
+- Investigating Prison of Mon rune weakening (Elden Korr; Sister Rose suspects druidic interference)
 
 **RUMORS**
 1. Master Vox is stuck between forms. He's actually a silver dragon studying human magic.
 1. Sister Rose may wear monastery robes, but I saw her leaving offerings at the old druid stones.
-1. The Broker's embroidery contains messages for northern spies.
+1. Elden Korr is a frontrunner for the empty council seat. Voss likes her "fresh perspective". Gareth fucking HATES her.
 1. Narla's three husbands? Same man; just from different times. Voss knows but lets it slide—he's sweet on her too.
 1. Dustfolk children play 'Council and Criminals' in the alleys. They know secrets about the towers that even the guards don't know.
 1. Watch which well you draw from. That east well water remembers things. Dreams them back to you at night.
@@ -454,6 +457,8 @@ The Harlans supply most of their crop to Fellstead Monastery's brewery, though M
 **0908 Nettle’s Haven** This sprawling coastal compound has grown organically over decades. It began as a simple cottage but now blends herb gardens, meditation spaces, and other dwellings. The commune is a refuge where druids, monks, and wayward souls come together in peace. **Nettle** (`Matriarch, Insightful, Without Fear`) watches over it all; her sharp mind still guiding despite her fading vision. Her massive black dog, with a single silver eye, keeps a watchful eye on all who enter, wary of those with ill intent.
 
 Work is shared—no one is turned away, but all must contribute. The walls are marked with symbols from both monastic and druidic traditions, a quiet testament to the sanctuary and survival found within.
+
+> Sister Morrow (`Healer, Soft-Spoken, Never Forgets`) is a 3 year resident. She says she was fleeing a bad marriage but is a spy for the Northern Kings. She makes regular visits to the prison and watches for Druidic activity. She's grown fond of Nettle and would kill for her.
 
 **1001: Unkindness of Ravens:** Jagged peaks with numerous raven nests. One particular nest contains a pair of small, polished stones that reflect light in unique patterns. These are _message stones_, used to communicate over long distances.
 
