@@ -574,7 +574,7 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
 **1703 Archer's Ridge** Steep cliffs where archers made their stand. Centuries of storms have exposed arrow shafts in the clay - all pointing to a lighthouse foundation that only shows at low tide.
 
 
-### TABLES
+### TREASURE
 
 D66 | Treasure
 :---:|:--------------------
