@@ -1,5 +1,5 @@
 ---
-title: Southern Coast
+title: The Southern Coast
 date: 2025-2-21
 description: A system-neutral, regional setting designed for sandbox exploration and adventure.
 tags: hexcrawl, hexy, adventures, sandbox, soco
@@ -16,7 +16,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### SITUATIONS
 
-2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid.
+2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid. Boss Bartok's crew (#1405) is barricaded in camp after losing their third logger.
 1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _bursting_ with treasure when it sank. Rumors of a "ghost ship" seen off the coast are well established but a witness swears that it's The Crown's Fury.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid; knowledge that would please neither party.
 1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
@@ -47,7 +47,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### LOCATIONS
 
-**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Imperial, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
+**Freemoon Forest** stretches westward along the South Sea and is home of many rare botanicals. Wildflowers scent the air and the wind resonates like a familiar melody. Mortals avoid this "Fae Land" whenever possible; those who cannot are wise to hire a guide to help with any Fae "curiosities". This is especially good advice should you find yourself a defendant in the Fae Court. The court's queen, **Lady Goodknight** (`Tyrannical, Prejudiced, Grandparent`), has a zero tolerance policy when it comes to protecting the forest and the secrets of Fae magic.
 
 Stretches of forest lie burned to ash, creating an eerie beauty in the devastation. The pattern of destruction suggests a dragon, though none have been sighted... yet.
 
@@ -87,7 +87,7 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
 :---:|:--------------------
  2   | **Bears** (d6)deceptively quick for their size. Their burst speed and reach catch most prey off guard. You'll only underestimate them once.
  3   | **Wolves** (2d6) hunt with cunning and keen senses. Their pack mentality means you're likely surrounded before you know it. You might want to stay close to a fire... or a spear.
- 4   | A recent **Landslide** blocks the way ahead, requiring detour or clearing
+ 4   | **Ledger Crow** a black-feathered creature with a man’s voice blocks the path, reading names from a weathered ledger. It stops at yours. "Payment required: coin, blood, or memory. _Debts unpaid accrue interest."_
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for the party to follow. It has been commissioned by prison officials. Those bearing proper prison documents or official business are led safely to Mon's gates. Others... directly to the Jailers.
  6   | **Abandoned Campsite** with scattered belongings, bloodstains, and tracks leading into a copse of trees. Embers still smoke in the fire pit.
  7   | **Fighting Giants** duel with boulder, echoing like thunder through the mountains. One takes a devastating hit to the knee; his roar of pain shaking the valley. The winner's prize remains to be seen.
@@ -104,12 +104,12 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 
  2d6 | Starwoods Encounters
 :---:|:--------------------
- 2   | **Wendigo** Air turns bitter cold as it wind-walks between visible locations. Bites that draw blood infect the victim with insatiable hunger. They will devour all the food on their person... then they will attempt to eat a person and eventually become a Wendigo themselves.
+ 2   | **Wendigo** Air turns bitter cold as it wind-walks between visible locations. Bites that draw blood infect the victim with insatiable hunger. They will devour all the food on their person... then they will attempt to devour a person, who eventually become a Wendigo themselves.
  3   | **Bristled Boars** Seething with inexplicable rage, these shaggy beasts charge without provocation. Their razor tusks and surprising speed make them far more dangerous than common swine.
  4   | **Succubi** with their alluring features framed by cascading locks of midnight hair, weave a hypnotic song laced with secrets of the forest. Those willing to bargain trade in years of their future. Those who don't might still lose a few weeks to a _stolen kiss_.
  5 | **Giant Copper Scale** A massive copper balance bears fae markings. A star stone (fae currency) perfectly counterweights an iron ring—an uneasy truce between realms. Disturbing this balance transforms the surrounding forest, favoring either fae glamour or mortal steel.
  6 | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
- 7 | **Lost Path** The path ahead literally shifts; trees and undergrowth rearrange themselves before your eyes. The forest's message is clear: you are not welcome this way.
+ 7 | **Lost Path** You come upon your own footprints. Trees you passed minutes ago now block the way forward. Branches scratch and guide, not allowing deviation. You are being herded.
  8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
  9   | **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door—its key hangs from his neck. He might remember his name is **Jaral**.
  10  | **Tree Shrine** Carved into an ancient white oak, the shrine holds silver rings; one for each party member, etched with their name. Taking them feels both invited and ominous.
@@ -123,10 +123,10 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  3   | **Swamp Drakes** (d6) Flying crocodilian wyrms that snatch prey from above and drag them to underwater lairs. Their wingbeats temporarily part the marsh waters, revealing sunken treasures... and dangers.
  4 | **Mistwood Fallen** (3d6) zombies in rotting military garb, still fighting the Battle of Mistwood. They mistake any armed group for the enemy, but ignore those carrying King Theric's silver stag banner.
  5   | **Quicksand** What is it that's not exactly water and it ain't exactly earth?
- 6   | **Bog Myrtle** small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil. Bog Trolls often lurk near productive patches.
- 7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries. Collecting it requires wading into deep water where Swamp Drakes hunt.
- 8   | **Bog Rosemary** an extremely rare evergreen producing pink flowers essential for healing potions. It only blooms at night and its glow attracts attention.
- 9   | **Bog Amber** fossilized tree resin, prized for its beauty and rarity. Some may contain preserved fairy lights, worth much more to Yagul Fane than regular amber. Usually found in Quicksand.
+ 6   | **Bog Myrtle** small shrubs with berries prized for flavoring alcoholic beverages and as an essential oil (4s/pint). Bog Trolls often lurk near productive patches.
+ 7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries (5s/pint). Collecting it requires wading into deep water where Swamp Drakes hunt.
+ 8   | **Bog Rosemary** an extremely rare evergreen producing pink flowers essential for healing potions (10s/oz). It only blooms at night and its glow attracts attention.
+ 9   | **Bog Amber** fossilized tree resin, prized for its beauty and rarity (10s/oz). Some may contain preserved fairy lights, worth much more to Yagul Fane than regular amber (100s/oz). Usually found in Quicksand.
  10 | **Battle Bounty** A heavy chest (2000s, 125lbs) marked with King Theric II's silver stag. The zombies nearby seem to be guarding it rather than attacking.
  11+ | No encounter
 
@@ -134,23 +134,21 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 ### HEXES
 
 **0101 Dark Tower**
-A shabby stone tower rises from overgrown grass. Its pale stones etched with fading runes, obscured beneath tangled vines. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Obsessive`), a forgotten mage, now dwells within his tower's _shadow_, writing a book he believes will make him immortal. He can't abide trespassers; he calls from his dark tower a warning to any who come too close: _"you there... do fuck off!"_
+A pale stone tower rises from overgrown grass, its stones etched with fading runes. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Compulsive Counter`), dwells within the tower's _shadow_ (not the tower itself), writing a book he believes will make him immortal. He can't abide trespassers. He yells from his dark tower to any who come too close: _"you there... do fuck off!"_
 
 **0102 Razor's Edge**: A mountain stream violently slashes a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the 50' chasm. It looks unlikely to bear anything heavier than a whisper.
 
-**0103 The Alarum Fields** A hidden valley home to acres of rare orange flowers, known as Alarums. When approached, the blossoms emit a soft, high-pitched sound, calling out potential dangers. The flowers are harvested and dried to create natural alarms. They also make a highly sought-after tea, renowned for its ability to strengthen the drinker’s resolve and sharpen their wits.
+**0103 The Alarum Fields** Rare orange flowers, called Alarums, emit a soft, high-pitched hum when approached, warning of unseen dangers. Locals harvest and dry them to make natural alarms, or brew a tea famed for sharpening wits and bolstering resolve.
 
-**0104 Respite Grove** A peaceful grove of tall trees with orange-stained bark. Their leaves cascade continuously, carpeting the ground. The air hums with serene resonance, urging quiet reflection. Resting here accelerates healing 2x.
+**0104 Respite Grove** A peaceful grove of orange-barked trees, constantly falling leaves carpet the ground. Serene hum urges reflection. Resting here heals 2x.
 
-**0105 Shadow Dragon Lair** The entrance is obscured by shifting shadows cast by moonlight mushrooms, which dimly illuminate the cave. The shadows are nearly indistinguishable from the dragon itself.
-
-The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it back to health forged an everlasting bond. The two now communicate via shadows, plotting her freedom.
+**0105 Shadow Dragon Lair** The Dragon communicates with imprisoned Hag Kalg via shadow-speech, plotting her escape from the Prison of Mon. Moonlight mushrooms dimly illuminate the cave entrance, their glow nearly indistinguishable from the dragon's shifting form.
 
 **0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
 
 **0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
-**0108 The Smoldering Path** A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree erupts overnight—bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.
+**0108 The Smoldering Path** A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree pierces through fresh earth; its bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.
 
 **0109 Memory Falls** A glittering waterfall spills into a clear pool, its waters tinged with soft, iridescent light. Locals whisper it’s a place where dreams resurface—or memories vanish. Fae keep silent watch from unseen vantages. Those who bathe here emerge changed: some bearing vivid new memories, others vivid new markings and still others, with pieces of themselves gone.
 
@@ -159,6 +157,8 @@ The Hag Kalg found this dragon dying before her imprisonment in Mon. Nursing it 
 **0111 Key Tree** A tree loams over a  river, its gnarled branches heavy with rusted keys. Some hang by frayed ribbons, others grow straight from the bark like iron thorns.
 
 Turn a key in the air, and somewhere, a distant lock clicks—but what opens remains uncertain. Those who take a key return with unsteady hands and hollow eyes. The keys grow heavier with time... and some doors should remain locked.
+
+> One key is marked with runes matching those at the Shrine of Brine [#0706]
 
 **0112 The Wishing Tide** Where a winding river meets the sea, the estuary shifts with each tide—fresh water curling through salt, channels never the same twice. At low tide, pools glisten across the flats, some deep, some vanishing in moments.
 
@@ -182,13 +182,11 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built an ample brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
-**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. Constructed by Ned Greever, whose wife, Ida (`Jaded Ghost, Lovelorn, Snippy`), met her end by jumping to the cliffs below. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. All who enter feel a heavy, chilling presence and a lingering sorrow.
+**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. All who enter feel a heavy, chilling presence and a lingering sorrow. The fourth floor still holds Ida Greever's (`Jaded Ghost, Lovelorn, Snippy`) bed; her diary hidden beneath. On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
 
-The fourth floor still holds Ida Greever's bed; her diary hidden beneath. In it, she writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Now she and other lost souls light the beacon, calling the ghost ship from the depths.
+Ghosts light the beacon at night, calling a ship from the depths.
 
-> Ida's diary contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
-
-On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
+> In her diary, Ida writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. The diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
 
 > **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it. _Life is wasted on the living._
 
@@ -201,7 +199,7 @@ Charred beams and blackened stones mark where a fishing hamlet once stood. A you
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
-Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone alter. Complex chalk markings cover the stones and ground between them, redrawn daily in precise 3'-wide patterns. At night, amber light moves between the marks, though its source remains unclear.
+Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone alter. Complex chalk markings cover the stones and ground between them. Fresh chalk markings glow amber at night.
 
 At the grove's heart stands an altar stone—6' wide, black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
@@ -209,7 +207,7 @@ At the grove's heart stands an altar stone—6' wide, black as pitch and cold to
 
 **0304 Stone Teeth** A vertical wall of mountains blocks passage north. No path exists—just raw, smooth stone rising impossibly steep, blocking all approach to the Prison of Mon. Not even goats can find footing here.
 
-**0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear runed chains that bind them to their sentences—even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
+**0305 Prison of Mon** A fortress carved into the Sorrow Mountains, its walls blend seamlessly into the face of the mountain. Dark, damp cells stretch deep within, each lit by a single torch. Prisoners wear rune-marked chains that bind them to their sentences—even death offers no release. Prisoners that die during their incarceration serve the remainder of their sentence as a Jailer.
 
 The ethereal Jailers were once prisoners themselves. They stand eternal watch in the long entrance hall, attuned to truth. Any deception triggers harsh response.
 
@@ -227,9 +225,9 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 - **Gavric the Silent** `Assassin, Mute, Watching`
 - **Lady Vale** `Noble, Beautiful, Mad` - ate her entire family at a feast
 - **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
-- **The Twins** `Connected, Amplifying, Dangerous` - are kept in separate wings
+- **The Twins** `Telepathic, Nihilistic, Dangerous` - are kept in separate wings
 
-**0306 Resin Grove** Trees bleed a luminescent amber resin into carefully placed glass catches—bathing the grove with soft amber light. The resin is of great value to alchemists and night travelers.
+**0306 Resin Grove** Trees bleed a luminescent amber resin into carefully placed glass catches—bathing the grove with soft amber light. The resin is of great value to alchemists and night travelers (20s/oz).
 
 **0307 Border Lands** Sand and forest mingle uneasily. Fae and Dustfolk are both touched by mysticism but share little else. A massive tree straddles the border, its branches heavy with trinkets from both peoples—silver threads, carved stones, glowing talismans. A single fae and a single nomad stand watch, motionless. Each tracking the other's breath, neither blinking. Replacements come at precise intervals; to falter means surrender.
 
@@ -330,23 +328,21 @@ This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), 
 
 **0606 Shadow Walker** A robed woman sits cross-legged in sand, waiting for _just the right moment_. At any second she might spring up and step into a shadow, walking through a disorienting maze of darkness before emerging elsewhere—though never quite where intended. She might teach this art... _but at great cost_.
 
-**0607 Runes in the Dunes** is a phenomenon that occurs at twilight. As the first light breaks over the horizon, intricate patterns like ancient runes emerge in the shifting sands. These patterns vary in complexity and design, appearing and disappearing with the rhythm of the sunrise. Locals believe these runes hold secrets or messages from the spirits of the desert. Others see them as a natural wonder, a testament to the enigma of the dunes. Regardless, witnessing the Runes in the Dunes is a captivating experience, drawing travelers and curious onlookers alike to behold the artistry of the desert dawn.
+**0607 Runes in the Dunes** At twilight, intricate patterns emerge in the shifting sands—appearing and disappearing with the sunrise. Locals believe these runes hold secrets from desert spirits. Others call it natural phenomenon. Either way, witnessing them draws curious travelers at dawn.
 
 **0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded off for magi-only.
-
-The Council of Six governs with pragmatic efficiency, treating magical research like municipal planning. Magical "emissions" seep into surrounding lands almost accidentally—apprentices track regional transformations with bureaucratic indifference. They do not dictate how the Dustfolk engage with these changes, yet the Dustfolk have embraced them all the same, weaving the land’s shifting magic into their own understanding of the world.
 
 A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. They use minor enchantments as casually as other regions use tools.
 
 The towers' reputation for magical mastery draws scholars from distant lands, but magic here is not spectacular—it's infrastructural, mundane, and quietly transformative.
 
-The Council of Six governs from these towers, with Fellstead's head monk as tie-breaker.
+The Council of Six governs with pragmatic efficiency, treating magical research like municipal planning. Magical "emissions" seep into surrounding lands almost accidentally—apprentices track regional transformations with bureaucratic indifference. They do not dictate how the Dustfolk engage with these changes, yet the Dustfolk have embraced them all the same, weaving the land’s shifting magic into their own understanding of the world.
 
 **The Council of Six**
 1. **Archmage Voss** `Chronomancer, Ancient, Calculating`
 2. **Lady Meera** `Illusionist, Sarcastic, Teacher`
 3. **Lord Thane** `Magical Duelist, Scarred, Stoic`
-4. **Master Vex** `Shapeshifter, Disfigured, Kind`
+4. **Master Vex** `Shapeshifter, Bear Hands, Kind`
 5. **Sister Rose** `Druid, Oblivious, Funny` - Monastery representative
 6. **[Empty Seat]** - Recently vacated under mysterious circumstances
 
@@ -360,6 +356,11 @@ The Council of Six governs from these towers, with Fellstead's head monk as tie-
 - **Liren** `Armorer, Wench, Determined`
 - **Ursula** `Spy, Cheeky, Ward`
 - **Mrs Redraven** `Lady-of-the-house, Loyal, Prude`
+
+**Current Projects:**
+- Mapping magical emission zones (Voss leads)
+- Recruiting new Council member (political infighting)
+- Investigating Prison of Mon rune weakening (Sister Rose suspects druidic interference)
 
 **RUMORS**
 1. Master Vox is stuck between forms. He's actually a silver dragon studying human magic.
@@ -383,7 +384,7 @@ A shadowy caravan rolls across the land, appearing only to those in true need. N
 | 5 | You spit out the same rumor (roll on rumor table) over and over again, anytime someone says your name. |
 | 6 | A contract with your signature, signed in silver, demands you return stolen fae artifact to the Fae Court. |
 
-**0702 Mule Variations** A rutted path cuts through barren fields, marked by broken fence posts and bottles impaled on wooden stakes. A rusted plow stands abandoned, its harness ripped violently—as if something immensely strong suddenly broke free. The ground appears freshly tilled, yet nothing grows.
+**0702 Mule Variations** A rutted path cuts through barren fields, marked by broken fence posts and bottles impaled on wooden stakes. A rusted plow stands abandoned, its harness ripped violently—as if something immensely strong suddenly broke free. The ground is freshly tilled, yet nothing grows.
 
 At night, shadowy laborers work the fields—moving in unison to an unheard song. Travelers who watch too long feel an inexplicable urge to join them, their shoulders feeling the weight of the yoke.
 
@@ -414,9 +415,9 @@ The Dustfolk avoid this place—too much water too little sky. Magi have mapped 
 
 **0801 Stormridge** Mountain slopes lashed by wind and mist. The weather changes without warning—sudden storms, bitter cold. An uneasy path winds through crags, marked by forsaken campfires. A rotting corpse slumps against a tree, in a pool of dried blood. On his person, a finely crafted bow and rune-carved spear.
 
-**0802 Vial Cart** A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Empty, numbered vials and a tattered map to the Lost Druid's Grove rest inside. Faint markings on the vials suggest they must be filled in a precise order.
+**0802 Vial Cart** A ruined watchtower overlooks a half-buried cart, bleached white by the sun. Three empty vials rest inside. Markings on the vials indicate: earth, water, seed. Filling the vials correctly creates a tiny guiding light to the Lost Druid's Grove.
 
-**0803 Forever Young** A landscape suspended in childhood's golden light. Trees grow in precise formations from a memory—each branch, each leaf positioned exactly as they were decades ago. Fragments of a child's toy occasionally peek through roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
+**0803 Forever Young** A landscape suspended in childhood's golden light. Fragments of a child's toys peek through tree roots: a wooden soldier, a copper bell. Anyone entering the grove relives a single, vivid childhood memory—true or invented—so powerful it feels more real than their current life (based on a random tarot card). Leaving, they're unsure what was memory and what was illusion.
 
 **0804 The Underworld Gate** Forty-two oak posts form a tight circle, each twelve feet tall, with bronze-carved figures at their base—bent humans, antlered shapes, something like intestines. At the center, an inverted oak: roots bleached white in the air, trunk plunging straight into dark earth.
 
@@ -456,21 +457,21 @@ Work is shared—no one is turned away, but all must contribute. The walls are m
 
 **1001: Unkindness of Ravens:** Jagged peaks with numerous raven nests. One particular nest contains a pair of small, polished stones that reflect light in unique patterns. These are _message stones_, used to communicate over long distances.
 
-**1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return seem changed, producing bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
+**1004 Maude's Meadery** Vibrant wildflowers border a meandering stream, the air sweet with honey and herbs. The southwestern hives are empty now; their bees drawn to Harlan's Grove despite the distance. Those that return produce bitter honey before dying. Maude (`Herbalist, Worried`) studies each fallen bee, unwilling to believe her old friends' hops could be the cause. Her storage barn holds dozens of honey barrels and mead casks, watched over by her foreman Burt (`Gruff, Loyal`).
 
 **1007 Pilgrim's Hollow** A well-worn hollow where travelers pause before the final approach to Fellstead. A simple stone well and wooden shelter stand beside the path. Pilgrims have carved hundreds of prayers into the shelter's beams. Among them: "Lovely Lady Vale please spare us from your feast!"
 
 **1009 Grappled Chapel** A dilapidated stone chapel strangled by **Dragon Vine** (`Grapple, Razor Sharp, Poison`)—their purple flowers oddly beautiful against crumbling walls. Empty crates rot in tangles of razor-sharp stems. The vines shift slightly in a wind that isn't there.
 
-**1105 The Frostwake Grotto** A hidden cavern where the mountain's breath turns the air deathly cold. Even in summer, ice clings to the stone, and strange, pale flora thrive in the darkness. The deeper one goes, the more the ice seems… deliberate, as if shaped by unseen hands. In the very heart of the grotto stands a frozen pillar; something large trapped within. Whether it is a preserved guardian, a forgotten king, or something better left undisturbed—no one knows. Nightly harvesters leave behind clear signs: scattered ice fragments and deep cart ruts.
+**1105 The Frostwake Grotto** A hidden cavern where the mountain's breath turns the air deathly cold. Even in summer, ice clings to the stone, and strange, pale flora thrive in the darkness. The ice is deliberately shaped. In the very heart of the grotto stands a frozen pillar; something large trapped within. Whether it is a preserved guardian, a forgotten king, or something better left undisturbed—no one knows. Nightly harvesters leave behind clear signs: scattered ice fragments and deep cart ruts.
 
 **1107 Weeping Grove** Mist clings to a dense stand of weeping trees. Everything drips with sickly-sweet water, even in drought. Rusted tools and broken barrels hint at abandoned collection efforts.
 
 **1108 Fellstead Monastery** perches atop weathered cliffs, its honey-colored stone walls and Gothic spires silhouetted against the coastal sky. The monastery is adorned with intricate stained glass windows depicting scenes from the life of St. Fellstead (patron saint of seekers of knowledge). A trip of goats roams the terraced grounds, while sea caves beneath the brewery serve as naturally cool cellars for their renowned ale.
 
-The monastery boasts a famed library, produces fine milk and cheese from their goats, and brews the best beer in the south—thanks to an annual donation of hops from Harlan's Grove [#0904].
-
 A group of pilgrims has come from the north, placing additional strain on the monastery's resources and tranquility. They claim to seek guidance from St. Fellstead, but their behavior raises suspicions. Their leader, **Father Falen** (`Cutthroat, Apathetic`), has been seen snooping around the brewmaster’s office, asking unsettling questions about the monastery’s finances, and lingering in the library far too long. Some monks question their piety and wonder what they’re truly after.
+
+The monastery boasts a famed library, produces fine milk and cheese from their goats, and brews the best beer in the south—thanks to an annual donation of hops from Harlan's Grove [#0904].
 
 **RESIDENTS**
 - **Abbess Salvora** `Devoted, Respected, Distracted` - frequent visits to the Prison of Mon
@@ -482,7 +483,7 @@ A group of pilgrims has come from the north, placing additional strain on the mo
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
 - 24 Monks, 6 pilgrims
 
-**1202 The Skyroot Sentinels** Towering, ancient trees grow impossibly tall here, their roots gripping stone as if holding the mountain in place. Legends claim these trees are guardians, awakened only when the land is threatened. Their bark is scarred with old battle wounds, and those who listen closely can hear faint warnings or welcomes, depending on the visitor’s intent.
+**1202 The Skyroot Sentinels** Towering, ancient trees grow impossibly tall here, their roots gripping stone, binding the mountain in place. Their bark is scarred with old battle wounds. Those who listen closely hear faint warnings or welcomes, depending on intent.
 
 **1203 The Broken Stair** A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.
 
@@ -553,9 +554,7 @@ Among its treasures was a **Sylph Ring**—a pewter band marked with the fae run
 
 **1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost—unsettling the fallen dead.
 
-**1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay.
-
-The ground shifts subtly beneath its massive form, as though the creature still slumbers. The marsh hums with an ancient presence—the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
+**1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay. The ground shifts subtly beneath its massive form, as though the creature only slumbers. The marsh hums with an ancient presence—the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
 
 **1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Weathered, Honest, Sharp`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
@@ -628,7 +627,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v0.9.9.3_ by brine <br>
+_v0.9.9.9_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
 [Rando](https://rando.brine.dev) for your random needs <br>
