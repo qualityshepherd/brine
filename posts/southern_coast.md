@@ -576,20 +576,6 @@ Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, 
 
 ### TABLES
 
-2d6 | Notable NPCs
-:---:|:--------------------
- 2   | **Blanca** (`White Shadow, Judgmental, Information Broker`) A bright white spectral figure who trades in secrets.
- 3   | **Widow Vex** (`Assassin Matriarch, Patient, Calculating`) Runs a network of informants from a seemingly innocent fishing village.
- 4   | **The Bogtrotter** (`Bounty Hunter, Tracker, Honorable`) Knows the West Marshes as well as any man and uses them to his advantage in his "profession".
- 5   | **Liren Blackheart** (`Smuggler, Fae-Blood, Connected`) Scarred merchant who knows every secret trade route.
- 6   | **Captain Mara Stormwind** (`Disgraced, Ambitious, Vengful`) Former naval officer, now captain of a ship that takes any contract.
- 7   | **Hag Saltborn** (`Sea Witch, Fisherman's Friend, Fated`) Controls maritime conditions, reluctantly helps those who prove worthy.
- 8   | **Kai of the Twilight Sands** (`Nomad Leader, Runemaker, Protective`) Leads a tribe that knows secrets of the desert.
- 9  | **Esta Moonshank** (`Fae Diplomat, Manipulative, Charming`) Represents the Fae Court's interests.
- 10  | **The Cartographer** (`Mute, Magical Mapper, Observant`) Creates maps revealing emotional landscapes and hidden paths.
- 11  | **The Hand's Daughter** (`Spy, Never Forgets a Face, Plays Both Sides`) Works for multiple factions simultaneously.
-
-
 D66 | Treasure
 :---:|:--------------------
 11 | Box of crystallized moonlight mushroom spores (35s)
