@@ -33,12 +33,12 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that wretched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane is built atop an ancient city with unimaginable magical treasures.
+1. Yagul Fane's origial towers got swallowed by the desert. The new ones stand atop but shrink a little each year. Some still know the way down.
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
 1. Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.
 1. The mountain mists are the breath of dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
 1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
-1. Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em _see clearly_.
+1. Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em _see more clearly_.
 1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
 1. Watch for runes in the dunes. Nomads call them _twilight portals_. But careful! You might end up leagues away... or worse.
 1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they fidget at night; they're gonna hatch!
