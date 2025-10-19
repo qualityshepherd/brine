@@ -16,17 +16,18 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### SITUATIONS
 
-2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid. Boss Bartok's crew (#1405) is barricaded in camp after losing their third logger.
-1. The Crown's Fury, a ship lost in the Battle of Mistwood, was _bursting_ with treasure when it sank. Rumors of a "ghost ship" seen off the coast are well established but a witness swears that it's The Crown's Fury.
+2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid. Boss Bartok’s crew (#1405) is barricaded in camp after losing their third man.
+1. The ghosts in Greever's Lighthouse (#0209) summon The Crown's Fury with their beacon. The ship rises and falls with the tide, captain and crew bound to its deck while Ida remains trapped ashore. They signal desperately across the water. The treasure is real, but protected by ghost pirates. A bargain might free them both—if struck before the tide turns.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid; knowledge that would please neither party.
-1. An infamous game hunter, and friend to the Northern Kings, will pay handsomely for help finding/tracking/killing a wendigo.
-1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound.
-1. A messenger from the Northern Kings needs safe passage to Yagul Fane. They're carrying sensitive documents about the royal funding of both institutions.
-1. Lady Goodknight of the Fae Court demands the return of all fae artifacts; no exceptions. Generous rewards await those who comply.
+1. **Dakota Lancaster** (`Ranger, King's Hound, The Chain`), an infamous game hunter and friend to the Northern Kings, will pay handsomely for help capturing a live wendigo... though a freshly-bitten logger would work just as well—easier transport north.
+1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound. The Duke offers silver for his return, dead or alive.
+1. One of The River's followers (#0502) has broken a Fae contract. She wears a magical mask that shows  observers what they _least_ wish to see. **Lord Ebonchain's** (`Fae Lord, Debt Collector, Calculating Gaze`) caravan hunts her, but even Fae eyes slide away.
 1. The Prison of Mon is _quietly_ investigating why their binding runes are weakening. They suspect the Hag Kalg but it's actually the Lost Druid syphoning their power.
-1. A Northern King's bastard hides among the followers of "The River". Royal agents—aka assassins—seek his "safe return".
-1. Maude's bees are dying and Harlan's famous hops are the likely cause. Both businesses are crucial to the Monastery's beer production.
-1. Jailers report Hag Kalg whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon. Through those dreams she's building a network.
+1. **Meric Blackwood** (`Assassin, The Rope, Calculating`) arrives at Yagul Fane posing as a royal messenger, hunting a King's bastard hidden among the Dustfolk since infancy. The child is marked with the King's sigil. **Magistra Elden Korr** (`Enchanter, Northern Accent, Ambitious`) is more than happy to assist and hires the party to assist in rounding up Dustfolk for "inspection". Resisters are found hanging at dawn, a royal seal pinned to his tongue.
+1. **Meric Blackwood** (`Assassin, The Rope, Calculating`) arrives at Yagul Fane posing as a royal messenger, hunting a King's bastard hidden among the Dustfolk since infancy. The child is marked with the King's sigil. **Magistra Elden Korr** (`Enchanter, Northern Accent, Ambitious`) is eager to help, hiring the party to assist in rounding up Dustfolk for "inspection". By dawn, the first to resist is found hanging—a royal seal pinned through his tongue.
+1. Maude's bees (#1004) are dying and Harlan's famous hops (#0904) are the likely cause. Both businesses are crucial to the Monastery's beer production. Druidic sabotage is the real culprit—poison masked as natural blight, targeting the monastery's economic power.
+1. Jailers report Hag Kalg (#0305) whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon. Through these dreams she's building a network. Dreamers wake weary and their shadows _not quite their own_.
+1. The Hollow Sister (#1403) plots her return to the Starwoods. She requires the ashes of her rotting tree (#1505) returned to her—a favor owed in return. A Lamp Boy leads the party to the Border Lands (#0307) where she waits to make her offer. Burning that cursed ground will announce them to every root and raven in the forest.
 
 
 ### RUMORS
@@ -51,7 +52,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 Stretches of forest lie burned to ash, creating an eerie beauty in the devastation. The pattern of destruction suggests a dragon, though none have been sighted... yet.
 
-> She once called The Hollow Sister friend. Allowing the Sister's saplings in HER forest after the dryads exiled her? That's the only mercy she's shown in 200 years.
+> She once called The Hollow Sister friend [`1403]. Allowing the Sister's saplings in HER forest after the dryads exiled her? That's the only mercy she's shown in over 200 years.
 
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
@@ -142,7 +143,7 @@ A pale stone tower rises from overgrown grass, its stones etched with fading run
 
 **0103 The Alarum Fields** Rare orange flowers, called Alarums, emit a soft, high-pitched hum when approached, warning of unseen dangers. Locals harvest and dry them to make natural alarms, or brew a tea famed for sharpening wits and bolstering resolve.
 
-**0104 Respite Grove** A peaceful grove of orange-barked trees, constantly falling leaves carpet the ground. Serene hum urges reflection. Resting here heals 2x.
+**0104 Respite Grove** A peaceful grove of orange-barked trees, constantly falling leaves carpet the ground. Serene hum urges reflection. Resting here doubles any healing.
 
 **0105 Shadow Dragon Lair** The Dragon communicates with imprisoned Hag Kalg via shadow-speech, plotting her escape from the Prison of Mon. Moonlight mushrooms dimly illuminate the cave entrance, their glow nearly indistinguishable from the dragon's shifting form.
 
@@ -184,18 +185,18 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built an ample brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
-**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. All who enter feel a heavy, chilling presence and a lingering sorrow. The fourth floor still holds Ida Greever's (`Jaded Ghost, Lovelorn, Snippy`) bed; her diary hidden beneath. On the cliff's edge, purple bog orchids fade in an ancient bouquet. Its card reads "My dearest Ida, Your favorite color. I will always love you, Peter".
+**0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. All who enter feel a heavy, chilling presence and a lingering sorrow. The fourth floor still holds Ida Greever's (`Jaded Ghost, Lovelorn, Snippy`) bed; her diary hidden beneath. On the cliff's edge below, purple bog orchids fade in an ancient bouquet. Its card reads _"My dearest Ida, Your favorite color. I will always love you, Peter"_.
 
-Ghosts light the beacon at night, calling a ship from the depths.
+Ida and the other ghosts light the beacon at night, calling a ship from the depths.
 
-> In her diary, Ida writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Since then, the abandoned lighthouse draws "grievers" who choose a similar fate. The diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
+> In her diary, Ida writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Since then, the abandoned lighthouse draws other _"grievers"_ who choose a similar fate. The diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
 
 > **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it. _Life is wasted on the living._
 
 **0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Generous`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch._ All the right people vouch for her... for now.
 
 **0211 Smoked Hamlet**
-Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from _their_ ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
+Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble, **Rhys Winthrop** (`Impulsive, Visionary, Flamboyant`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from _their_ ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
 **0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
 
@@ -376,7 +377,7 @@ The Council of Six governs with pragmatic efficiency, treating magical research 
 **0609 Tide Markers** Massive driftwood totems, bleached white and carved with strange nautical symbols, stand half-buried in the sand. A path of worn cobblestones leads toward Yagul Fane.
 
 **0701 Ebonchain's Caravan**
-A shadowy caravan rolls across the land, appearing only to those in true need. No tracks mark its passage. Veiled drivers guide the silent wagons, led by **Lord Ebonchain** (`Regal, Gracious, Calculating Gaze`). He offers travelers sanctuary—with a catch. _"I expect you'll return the favor some day,"_ he says, invoking a binding fae contract. Decline and the caravan rolls on; accept and...
+A shadowy caravan rolls across the land, appearing only to those in true need. No tracks mark its passage. Veiled drivers guide the silent wagons, led by **Lord Ebonchain** (`Fae Lord, Debt Collector, Calculating Gaze`). He offers travelers sanctuary—with a catch. _"I expect you'll return the favor some day,"_ he says, invoking a binding fae contract. Decline and the caravan rolls on; accept and...
 
 | d6 | Fae Favor |
 |---|----------------------|
