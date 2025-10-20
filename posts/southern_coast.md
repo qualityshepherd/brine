@@ -5,7 +5,7 @@ description: A system-neutral, regional setting designed for sandbox exploration
 tags: hexcrawl, hexy, adventures, sandbox, soco
 ---
 
-**The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea; circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as they coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
+**The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea; circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as one King coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
 
 With these foundations of civilization in place, the Southern Coast draws settlers eager to carve out new lives in this frontier.
 
@@ -16,24 +16,24 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 ### SITUATIONS
 
-2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid. Boss Bartok’s crew (#1405) is barricaded in camp after losing their third man.
-1. The ghosts in Greever's Lighthouse (#0209) summon The Crown's Fury with their beacon. The ship rises and falls with the tide, captain and crew bound to its deck while Ida remains trapped ashore. They signal desperately across the water. The treasure is real, but protected by ghost pirates. A bargain might free them both—if struck before the tide turns.
+2. Loggers in the Starwoods have been attacked by a creature they claim is a wendigo. They've sent a desperate plea to the Monastery for aid. Boss Bartok’s crew [#1405] is barricaded in camp after losing two men and a third wounded.
+1. The ghosts in Greever's Lighthouse [#0209] summon The Crown's Fury with their beacon. The ship rises and falls with the tide, captain and crew bound to its deck while Ida remains trapped ashore. They signal desperately across the water. The treasure is real, but protected by ghost pirates. A bargain might free them both—if struck before the tide turns.
 1. A local herbalist seeks brave adventurers to retrieve herbs that grow deep within the West Marshes, promising silver and potent potions as reward. He discreetly supplies the followers of both "The River" _and_ the Lost Druid; knowledge that would please neither party.
 1. **Dakota Lancaster** (`Ranger, King's Hound, The Chain`), an infamous game hunter and friend to the Northern Kings, will pay handsomely for help capturing a live wendigo... though a freshly-bitten logger would work just as well—easier transport north.
 1. A Duke's son found a treasure map leading to the Isle of Wights and has not been heard from for a week. His last letter mentioned white berries that heal any wound. The Duke offers silver for his return, dead or alive.
-1. One of The River's followers (#0502) has broken a Fae contract. She wears a magical mask that shows  observers what they _least_ wish to see. **Lord Ebonchain's** (`Fae Lord, Debt Collector, Calculating Gaze`) caravan hunts her, but even Fae eyes slide away.
+1. One of The River's followers [#0502] has broken a Fae contract. She wears a magical mask that shows  observers what they _least_ wish to see. **Lord Ebonchain's** (`Fae Lord, Debt Collector, Calculating Gaze`) caravan hunts her, but even Fae eyes slide away.
 1. The Prison of Mon is _quietly_ investigating why their binding runes are weakening. They suspect the Hag Kalg but it's actually the Lost Druid syphoning their power.
 1. **Meric Blackwood** (`Assassin, The Rope, Calculating`) arrives at Yagul Fane posing as a royal messenger, hunting a King's bastard hidden among the Dustfolk since infancy. The child is marked with the King's sigil. **Magistra Elden Korr** (`Enchanter, Northern Accent, Ambitious`) is eager to help, hiring the party to assist in rounding up Dustfolk for "inspection". By dawn, the first to resist is found hanging—a royal seal pinned through his tongue.
-1. Maude's bees (#1004) are dying and Harlan's famous hops (#0904) are the likely cause. Both businesses are crucial to the Monastery's beer production. Druidic sabotage is the real culprit—poison masked as natural blight, targeting the monastery's economic power.
-1. Jailers report Hag Kalg (#0305) whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon. Through these dreams she's building a network. Dreamers wake weary and their shadows _not quite their own_.
-1. The Hollow Sister (#1403) plots her return to the Starwoods. She requires the ashes of her rotting tree (#1505) returned to her—a favor owed in return. A Lamp Boy leads the party to the Border Lands (#0307) where she waits to make her offer. Burning that cursed ground will announce them to every root and raven in the forest.
+1. Maude's bees [#1004] are dying and Harlan's famous hops [#0904] are the likely cause. Both businesses are crucial to the Monastery's beer production. Druidic sabotage is the real culprit—poison masked as natural blight, targeting the monastery's economic power.
+1. Jailers report Hag Kalg [#0305] whispering in an unknown language; prisoners in adjacent cells complain about dreams of a dark dragon. Through these dreams she's building a network. Dreamers wake weary and their shadows _not quite their own_.
+1. The Hollow Sister [#1403] plots her return to the Starwoods. She requires the ashes of her rotting tree [#1505] returned to her—a favor owed in return. A Lamp Boy leads the party to the Border Lands [#0307] where she waits to make her offer. Burning that cursed ground will announce them to every root and raven in the forest.
 
 
 ### RUMORS
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that wretched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane's origial towers got swallowed by the desert. The new ones stand atop but shrink a little each year. Some still know the way down.
+1. Yagul Fane's original towers got swallowed by the desert. The new ones stand atop but shrink a little each year. Some still know the way down.
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
 1. Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.
 1. The mountain mists are the breath of dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
@@ -51,7 +51,7 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 Stretches of forest lie burned to ash, creating an eerie beauty in the devastation. The pattern of destruction suggests a dragon, though none have been sighted... yet.
 
-> She once called The Hollow Sister friend [`1403]. Allowing the Sister's saplings in HER forest after the dryads exiled her? That's the only mercy she's shown in over 200 years.
+> She once called The Hollow Sister friend [#1403]. Allowing the Sister's saplings in HER forest after the dryads exiled her? That's the only mercy she's shown in over 200 years.
 
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
@@ -66,7 +66,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  10  | **Enchanted Clearing** A perfect circle of glowing fae flowers. Their nectar grants visions but picking them risks the wrath of their caretaker: **The Hollow Sister** (`Open Arms, Curious, The Heart`), who trades fairly but punishes theft with eternal servitude.
  11+ | No encounter
 
-**Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding affect... perhaps _literally_ if gazing too long.
+**Twilight Sands** As day transitions into night, shifting dunes and pristine white grains shimmer with an incorporeal glow. This landscape presents a mystical spectacle where reality blurs and secrets are laid bare. Despite its brilliancy, the sand is surprisingly cold to the touch. But it reflects and amplifies the sun's rays with mesmerizing and blinding effect... perhaps _literally_ if gazing too long.
 
 Nomadic tribes lay claim to certain areas, and conflicts over resources are not uncommon among them. They are quick to dismiss any hint of authority from Yagul Fane and their "wizzards".
 
@@ -78,7 +78,7 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
  5   | **Ghost Caravan**, half-buried remnants of a merchant caravan. Among the weathered wagons: spice barrels (still fragrant), bolts of silk (perfectly preserved), and brass-bound chests. The ghostly merchants defend their cargo; still hoping to complete their delivery to Yagul Fane.
  6 | **Trapped Dybbuk** A spirit trapped in an ornate silver cage, unable to possess the living. She has a letter containing an ancient possession ritual. If the party delivers this letter to someone of their choosing, she will share the victim's wealth once possessed.
  7   | **Rune Stone** a weathered stone that transports anyone touching it to its twin in an adjacent hex (d6: 6=North, continuing clockwise) during twilight (1 hour at dusk/dawn). This is the secret to the Sandits appearing from nowhere and they will kill to protect it. The stones are typically half-buried in sand and easily overlooked.
- 8   | **Lost Mage** asks the party how to get back to Yagul Fane without admitting the he is lost.
+ 8   | **Lost Mage** asks the party how to get back to Yagul Fane without admitting he is lost.
  9   | **Nomadic Tribe** Know the sands better than you know your home. Their hospitality is legendary, their vengeance more so. They may trade information in exchange for assistance in fending off Sandits.
  10  | **Oasis Mirage**, a cache of valuable relics hidden beneath the shimmering surface of water. Grasping at them yields only sand. Twilight reveals the truth: they are just a reflection; the real pool floats inverted twenty feet above.
  11+ | No encounter
@@ -146,7 +146,7 @@ A pale stone tower rises from overgrown grass, its stones etched with fading run
 
 **0105 Shadow Dragon Lair** The Dragon communicates with imprisoned Hag Kalg via shadow-speech, plotting her escape from the Prison of Mon. Moonlight mushrooms dimly illuminate the cave entrance, their glow nearly indistinguishable from the dragon's shifting form.
 
-**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground, and occasional winds stir ghostly ash patterns. Nothing grows here. Nothing moves. Only silence.
+**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground. Constant winds stir ghostly patterns in the ash: wings, scales, fire. Nothing grows here. Nothing moves. Only silence.
 
 **0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
 
@@ -156,7 +156,7 @@ A pale stone tower rises from overgrown grass, its stones etched with fading run
 
 **0110 Bridge to Nowhere** A faintly glowing stream winds through grasslands, its waters shimmering with a peculiar light. A worn rope bridge connects the realm of men to the fae forest. Three brothers (`Grizzled, Stern, Conflicted`) guard the crossing, warning that passage leads to Nowhere—only loss. The youngest, **Tom**, harbors a hidden bond with a forest nymph.
 
-**0111 Key Tree** A tree loams over a  river, its gnarled branches heavy with rusted keys. Some hang by frayed ribbons, others grow straight from the bark like iron thorns.
+**0111 Key Tree** A tree looms over a  river, its gnarled branches heavy with rusted keys. Some hang by frayed ribbons, others grow straight from the bark like iron thorns.
 
 Turn a key in the air, and somewhere, a distant lock clicks—but what opens remains uncertain. Those who take a key return with unsteady hands and hollow eyes. The keys grow heavier with time... and some doors should remain locked.
 
@@ -172,7 +172,7 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0203 Druid's Aviary** On a mountain plateau, an aviary of stone and weathered wood blends seamlessly into the landscape. Rare birds perch—dozens shift between forms, others carry voices from afar. Druidic caretakers tend to them, and are hostile to outsiders.
 
-**0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger—scarlet hat askew—is dead. A letter with an unbroken wax seal peeks from his bag—addressed to **Uwin**. The old paint horse, Buttercup, grazes nervously, ready to bolt.
+**0204 Dead Messenger** A horse pulls a body toward fresh grass, its foot caught in the stirrup. A young messenger—scarlet hat askew—is dead. A letter with an unbroken wax seal peeks from his bag, addressed to **Uwin**. The old paint horse, Buttercup, grazes nervously, ready to bolt.
 
 > The letter reads: "Now that you've gone, it's all rum and sad luck dames. I don't even care if they miss me; I never remember their names. I wonder where you are and find myself whispering your name. They say if you get far enough away, you can always come back home. Meet me at Number 7 and ask for Blind Jane".
 
@@ -182,15 +182,15 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0207 The Oak** A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while a dozen dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
-**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built an ample brugh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
+**0208 The Ash King** A scorched forest where ash blankets the ground. At its heart, a strange figure known as the **Ash King** (`Self-Appointed Monarch, Alchemist, Irrational Confidence`) has built an ample burgh of ash. He flavors a potent wine from the burnt landscape—and insists all visitors drink.
 
 **0209 Greever's Lighthouse** stands weather-beaten, like a skeletal finger pointing to the heavens. All who enter feel a heavy, chilling presence and a lingering sorrow. The fourth floor still holds Ida Greever's (`Jaded Ghost, Lovelorn, Snippy`) bed; her diary hidden beneath. On the cliff's edge below, purple bog orchids fade in an ancient bouquet. Its card reads _"My dearest Ida, Your favorite color. I will always love you, Peter"_.
 
 Ida and the other ghosts light the beacon at night, calling a ship from the depths.
 
-> In her diary, Ida writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Since then, the abandoned lighthouse draws other _"grievers"_ who choose a similar fate. The diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ see [#0412].
+> In her diary, Ida writes of her true love—the captain of The Crown's Fury. The day she learned his ship was lost in the Battle of Mistwood, she leapt from the tower. Since then, the abandoned lighthouse draws other _"grievers"_ who choose a similar fate. The diary also contains a page ripped from a ships log. It reads: _"Curse those berries—lost two more men this week. But the silver sleeps safe beneath the Bone Tree. Only the tide knows the way."_ [#0412].
 
-> **Ghost** `Incorporeal, Obsessed, Tragic`—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it. _Life is wasted on the living._
+> **Ghost** (`Incorporeal, Obsessed, Tragic`)—Each bound to this world by unfinished business. Some don't know they're dead. Some do and are very angry about it. _Life is wasted on the living._
 
 **0210 Veil's End** A grim stone manse looms over the cove, more fortress than home. Narrow windows pierce thick, moss-covered walls. Below, a hidden dock shelters a silent pirate ship—colors struck. When **Lyra "Queen" Vex** (`Blades, Queen's Stitch, Generous`) is home, no one asks questions. Her twin daggers strike faster than sight; tap her amulet twice, and time bends—just long enough to kill. Her crew call it _the Queen's Stitch._ All the right people vouch for her... for now.
 
@@ -199,9 +199,9 @@ Charred beams and blackened stones mark where a fishing hamlet once stood. A you
 
 **0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
 
-**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. Thirteen followers maintain sacred rites despite their leader's imprisonment in Mon. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
+**0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. 13 followers maintain sacred rites despite their leader's imprisonment in Mon. Each bears ritual scars and would die before breaking their vigil. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
-Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone alter. Complex chalk markings cover the stones and ground between them. Fresh chalk markings glow amber at night.
+Ancient runes, similar to those binding Mon's prisoners, are carved into the 12' stone base. Anyone with working knowledge of Mon would recognize the cell layout, cut into the monolith stone altar. Complex chalk markings cover the stones and ground between them. Fresh chalk markings glow amber at night.
 
 At the grove's heart stands an altar stone—6' wide, black as pitch and cold to touch. Thirteen hand-prints are burned deep into its surface, each glowing with a faint amber light.
 
@@ -216,18 +216,18 @@ The ethereal Jailers were once prisoners themselves. They stand eternal watch in
 Yagul Fane maintains the binding runes while Fellstead Monastery provides rotating monks, food, and care. Both receive _royal endowments_ from the northern kings for their service.
 
 **STAFF**
-- **Warden Cloudcroft** `Stern, Respected, Cunning Linguist` - Abbes Salvora visits often
-- **Captain Kell** `Veteran, Strict, Proud`
+- **Warden Cloudcroft** (`Stern, Respected, Cunning Linguist`) - Abbess Salvora visits often
+- **Captain Kell** (`Veteran, Strict, Proud`)
 - 6 workers; 6 human guards; 9 Jailers
 
 **NOTABLE INMATES**
 - **Jailers** spectral guardians; scorched amber runes cover their ethereal forms, burning brighter with rage; their touch summons painful astral shackles
-- **The Hag Kalg** `Fae, Cruel, Patient` - whispers to dragon-shaped shadows
-- **The Lost Druid** `Prophet, Elegant, Scheming` - was once recorded as Elara Moonshadow in Mon's intake documents, though she refuses to acknowledge this name. The guards whisper that she appeared at the prison gates willingly, carrying only a staff made of twisted driftwood and smiling like one who knows a secret. They weren't wrong... she's feeding off the power of the runes.
-- **Gavric the Silent** `Assassin, Mute, Watching`
-- **Lady Vale** `Noble, Beautiful, Mad` - ate her entire family at a feast
-- **Brother Ash** `Monk, Burnt, Faithful` - fire cleanses sin
-- **The Twins** `Telepathic, Nihilistic, Dangerous` - are kept in separate wings
+- **The Hag Kalg** (`Fae, Cruel, Patient`) - whispers to dragon-shaped shadows
+- **The Lost Druid** (`Prophet, Elegant, Scheming`) - was once recorded as Elara Moonshadow in Mon's intake documents, though she refuses to acknowledge this name. The guards whisper that she appeared at the prison gates willingly, carrying only a staff made of twisted driftwood and smiling like one who knows a secret. They weren't wrong... she's feeding off the power of the runes.
+- **Gavric the Silent** (`Assassin, Mute, Watching`)
+- **Lady Vale** (`Noble, Beautiful, Mad`) - ate her entire family at a feast
+- **Brother Ash** (`Monk, Burnt, Faithful`) - fire cleanses sin
+- **The Twins** (`Telepathic, Nihilistic, Dangerous`) - are kept in separate wings
 
 **0306 Resin Grove** Trees bleed a luminescent amber resin into carefully placed glass catches—bathing the grove with soft amber light. The resin is of great value to alchemists and night travelers (20s/oz).
 
@@ -239,7 +239,7 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age—no one has identified what manner of creatures they came from.
 
-**0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only shear stone.
+**0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only shear stone. Rusted climbing gear litters the base.
 
 **0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
 
@@ -308,7 +308,13 @@ Those who swear an oath within this hollow find the words binding and treacherou
 
 **The Maidens Three**
 
-On the harvest moon's shadowed cusp, the Maidens Three enacted a ritual of unmaking. Not with blade or blow, but with the alchemy of flesh, form, and flame. Gortha carved, Brielle kneaded, and Tuli consumed, transforming their father into something... other. By dawn, he was gone, his domains theirs. But their inheritance is more than land; it is a continuation...
+On the harvest moon's shadowed cusp, the Maidens Three enacted a ritual of unmaking. Not with blade or blow, but with the alchemy of flesh, form, and flame. Gortha carved, Brielle kneaded, and Tuli consumed, transforming their father into something... _other_. By dawn, he was gone, his domains theirs but their inheritance is contested.
+
+> **Gortha** (The Butcher) believes perfection comes through dismantling—she'll "improve" anything she touches
+> **Brielle** (The Baker) sees the world as ingredients waiting to rise—she kneads flesh like dough
+> **Tuli** (The Candlewick) wants everything to burn bright before going dark—she's impatient
+
+> They tolerate each other because none can claim all three domains alone. But Tuli grows restless. She'll burn her sisters' lands if provoked—or bribed.
 
 **0601 The Bleeding Fields** These fields pulse with a morbid rhythm, constantly decaying and regenerating. Bone fragments erupt from the soil, then dissolve into grey dust. Any creature that dies here is instantly consumed and reshaped.
 
@@ -320,7 +326,7 @@ This is the domain of **Brielle** (`Baker, Consume, Creative`), who moves throug
 
 **0603 Both Ends** A suffocating heat hangs in the air. Everything is a wick—water boils into fire, stone melts into rivers, trees burst into silent conflagrations. The ground heaves in slow, rhythmic waves of combustion.
 
-This is the domain of **Tuli** (`Candlestick Maker, Illuminating, Short Fuse`), whose presence ignites the very air. Creatures of living flame stalk the landscape, flickering. Each step leaves a trail of smoking, scorched earth.
+This is the domain of **Tuli** (`Candlewick, Illuminating, Short Fuse`), whose presence ignites the very air. Creatures of living flame stalk the landscape, flickering. Each step leaves a trail of smoking, scorched earth. She's tired of waiting, tired of sharing.
 
 ------
 
@@ -428,7 +434,7 @@ On moonless nights, black sap runs from the tree and traces channels in the carv
 
 Amber beads and shattered bronze tools are buried shallowly nearby, like offerings left in a hurry. No one calls the place by name.
 
-**0805 Classic Traveler** A tall man with a peculiar limp leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
+**0805 Classic Traveler** A 7' tall man with joints bending slightly wrong, leads two impossibly strong oxen—Jake and Jim—pulling empty carts. **Malfas** (`Tall, Observer, Awkward`) is an alien in human form and the oxen are mechanical, which only cutting them would reveal. The traveler has 5 marbles that can perform what some would call miracles. He used one to make Jake, Jim and the cart. He needs one to return home. He's looking for work so he can study humans.
 
 **0806 The Veil of Ash** A burnt haze engulfs the sands, the residue of an ancient ritual cast by Uma Fane herself. Apprentices toil daily to maintain the spectral barrier, knowing any disruption could release what lies dormant beneath the dunes.
 
@@ -486,7 +492,7 @@ The monastery boasts a famed library, produces fine milk and cheese from their g
 - **Brother Estabar** `Monk, Eager, Gentle` - master goat herder
 - **Sir Ealdred** `Knight, Daring, Haunted` - seeks spiritual clarity after long and brutal campaigns
 - **Lady Isolde** `Noble, Graceful, Introspective` - sought sanctuary from the pressures of court life
-- 24 Monks, 6 pilgrims
+- 24 Monks, 6 Pilgrims
 
 **1202 The Skyroot Sentinels** Towering, ancient trees grow impossibly tall here, their roots gripping stone, binding the mountain in place. Their bark is scarred with old battle wounds. Those who listen closely hear faint warnings or welcomes, depending on intent.
 
@@ -535,7 +541,7 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - **Nyssa "Thumbs" Dunsfold** `Fallen Druid, Witty` - hired to appease druids
 - **Lena "Sawbones" Thorne** `Medic, Gentle` - treats wounds physical and spiritual
 - **"Cookie"** `One-armed, Terrible cook` - lost his arm to "tree-bite"
-- 12 loggers, each marked with protective symbols
+- ~~12~~ 10 loggers
 
 **1407 Blackfish Point** A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Burly, Swift-Blade, Bear Hands`) _educates_ strangers that this is a private beach and that charter fees start at 100s; no haggling.
 
@@ -583,9 +589,9 @@ D66 | Treasure
 13 | Jar of preserved twilight that glows when opened (75s)
 14 | Skeleton key carved from petrified marsh wood (25s)
 15 | Bottle of tears from a Wailing Tree (45s)
-16 | Watercolor of a figure jumping from atop lighthouse at dawn (8s)
+16 | Watercolor depicting a figure mid-leap from Greever's Lighthouse (8s to collector, priceless to Ida's ghost)
 21 | Silver-threaded fishing net that cannot tangle (120s)
-22 | Shell necklace that feels always cold (22s)
+22 | Alarum flowers that can be placed as alarms (20s)
 23 | Coral-handled dagger with wave patterns (55s)
 24 | Opalescent shell that catches moonlight (50s)
 25 | Tarnished silver compass with naked woman etching (40s)
