@@ -79,7 +79,7 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
  6 | **Trapped Dybbuk** A spirit trapped in an ornate silver cage, unable to possess the living. She has a letter containing an ancient possession ritual. If the party delivers this letter to someone of their choosing, she will share the victim's wealth once possessed.
  7   | **Rune Stone** a weathered stone that transports anyone touching it to its twin in an adjacent hex (d6: 6=North, continuing clockwise) during twilight (1 hour at dusk/dawn). This is the secret to the Sandits appearing from nowhere and they will kill to protect it. The stones are typically half-buried in sand and easily overlooked.
  8   | **Lost Mage** asks the party how to get back to Yagul Fane without admitting he is lost.
- 9   | **Nomadic Tribe** Know the sands better than you know your home. Their hospitality is legendary, their vengeance more so. They may trade information in exchange for assistance in fending off Sandits.
+ 9   | **Dustfolk** know the sands better than you know your home. Their hospitality is legendary, as is their vengeance. They may ask or offer to share a fire, a meal, assistance, or information.
  10  | **Oasis Mirage**, a cache of valuable relics hidden beneath the shimmering surface of water. Grasping at them yields only sand. Twilight reveals the truth: they are just a reflection; the real pool floats inverted twenty feet above.
  11+ | No encounter
 
@@ -178,7 +178,7 @@ In one, a single iridescent shell turns with the current. Speak a wish aloud, an
 
 **0205 Who Were Those Masked Men** Two masked wrestlers grapple within a 20' circle of salt. Nothing exists beyond their contest. Cross the circle’s edge, and you become part of the match. Break the salt, and **Mërk (yellow skull mask) & Bërg (black bear mask)** will stop immediately, bow to each other, and flee into the wild in separate directions.
 
-**0206 Hanging Tree** A massive tree stands alone, no growth within 20 feet of its base. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose dangles from a stout branch. The tree breathes a somber song, like wind through hollow bones. The names _appear_ after each hanging.
+**0206 Hanging Tree** A massive tree stands alone; nothing grows within twenty feet of its base. An audience of crows perches above. Hundreds of names etch its trunk—all carved by the same hand, some impossibly ancient. A noose sways from a low branch. The tree breathes a somber song, like wind through hollow bone. New names appear after each hanging. Its hunger for confession lingers in the air.
 
 **0207 The Oak** A massive tree with a concealed door that requires a secret knock to enter. Inside, a subterranean pub pulses with music. A fae string band plays enchanted tunes, while a dozen dancers move to the mesmerizing rhythms. A silent bartender with eyes like deep wells watches on. Time seems irrelevant here.
 
@@ -563,7 +563,7 @@ Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fa
 
 Among its treasures was a **Sylph Ring**—a pewter band marked with the fae rune for air that summons gentle winds. Carved on a board just above the waterline is "Pesh was here" [#1405].
 
-**1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost—unsettling the fallen dead.
+**1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost, unsettling the fallen dead.
 
 **1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay. The ground shifts subtly beneath its massive form, as though the creature only slumbers. The marsh hums with an ancient presence—the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
 
