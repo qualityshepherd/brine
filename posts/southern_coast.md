@@ -109,8 +109,8 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  2   | **Wendigo** Air turns bitter cold as it wind-walks between visible locations. Bites that draw blood infect the victim with insatiable hunger. They will devour all the food on their person... then they will attempt to devour a person, who eventually become a Wendigo themselves... and need to feed.
  3   | **Bristled Boars** Seething with inexplicable rage, these shaggy beasts charge without provocation. Their razor tusks and surprising speed make them far more dangerous than common swine.
  4   | **Succubi** with their alluring features framed by cascading locks of midnight hair, weave a hypnotic song laced with secrets of the forest. Those willing to bargain trade in years of their future. Those who don't might still lose a few weeks to a _stolen kiss_.
- 5 | **Giant Copper Scale** A massive copper balance bears fae markings. A star stone (fae currency) perfectly counterweights an iron ring—an uneasy truce between realms. Disturbing this balance transforms the surrounding forest, favoring either fae glamour or mortal steel.
- 6 | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
+ 5   | **Giant Copper Scale** A massive copper balance bears fae markings. A star stone (fae currency) perfectly counterweights an iron ring—an uneasy truce between realms. Disturbing this balance transforms the surrounding forest, favoring either fae glamour or mortal steel.
+ 6   | **Treant** Bark bearing the scars of countless axes, this ancient guardian blocks the way. Those carrying axes or open flame face immediate hostility. Otherwise, it presents three acorns: to plant, to eat, to crush. The choices reveal the party's heart to the watching woods.
  7 | **Lost Path** You come upon your own footprints. Trees you passed minutes ago now block the way forward. Branches scratch and guide, not allowing deviation. You are being herded.
  8   | **Voodoo Dolls** one for each party member, carefully posed upon the forest floor. They're crude but the resemblance is unsettling. Someone has been watching the party long enough to capture their likenesses.
  9   | **Mad Monk** (`Seer, Unending Thirst, Ravings of Truth`) A figure in impossibly pink robes stumbles forward out of nowhere. His eyes dart with a manic glint and he mumbles to himself incoherently. He will ask the PCs if they can spare any water. He's quite mad... and looking for a door—its key hangs from his neck. He might remember his name is **Jaral**.
@@ -129,7 +129,7 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
  7   | **Marsh Tea** a flowering plant used to treat various ailments, valuable to apothecaries (5s/pint). Collecting it requires wading into deep water where Swamp Drakes hunt.
  8   | **Bog Rosemary** an extremely rare evergreen producing pink flowers essential for healing potions (10s/oz). It only blooms at night and its glow attracts attention.
  9   | **Bog Amber** fossilized tree resin, prized for its beauty and rarity (10s/oz). Some may contain preserved fairy lights, worth much more to Yagul Fane than regular amber (100s/oz). Usually found in Quicksand.
- 10 | **Battle Bounty** A heavy chest (2000s, 125lbs) marked with King Theric II's silver stag. The zombies nearby seem to be guarding it rather than attacking.
+ 10  | **Battle Bounty** A heavy chest (2000s, 125lbs) marked with King Theric II's silver stag. The zombies nearby seem to be guarding it rather than attacking.
  11+ | No encounter
 
 
