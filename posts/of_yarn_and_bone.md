@@ -46,7 +46,8 @@ After a roll, if the fiction dictates, a character may ask another character for
 
 
 #### Die of Fate
-> The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine moral or any number of other things. You will roll this often!
+
+The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine moral or any number of other things. You will roll this often!
 
 Roll 1D6:
 - 5-6 something good!
