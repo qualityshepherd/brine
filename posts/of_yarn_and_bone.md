@@ -41,15 +41,13 @@ When a character does something risky—when the cost might be meaningful—roll
 - 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
-**Lowest die** determines damage, impact or consequence of the action:
-- *Example: Rolls 2d6 → 5, 2* → Success! You hit, but the impact is minor (Bruised).
+**Lowest die** determines impact or consequence:
 
 #### Injuries
-After resolving the roll, check the **lowest die** to determine injury:
 
-- 1-3 **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
-- 4-5 **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
-- 6 **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
+- **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
+- **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
+- **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
 - **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name` (eg. _Marked by Death_)... I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
@@ -186,8 +184,7 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > *Rolls: 2d6 → 2, 1*<br>
 > **GM**: "Ooh, both low. The magic resists. You can accept the failed spell or take a Burden to make it succeed."<br>
 > **Thistle**: "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."<br>
-> **GM**: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village... but something’s wrong. Your connection to the world feels upside down, inverted. The thorns in your hand > have drawn blood."<br>
-> **Thistle**: "Worth it to save them. I need to make this right."<br>
+> **GM**: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village...
 
 #### Burden Resolution
 
@@ -196,8 +193,8 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **GM**: "The Tower. Destruction of the established. Your protective barrier spell needs balance."<br>
 > **Thistle**: "The herb wall. My grandmother and I built it, tended it for years..."<br>
 > **GM**: "You’d tear it down?"<br>
-> **Thistle**: "These thorns in my blood... yes. One barrier for another. The scattered herbs might even protect others."<br>
-> **GM**: "A fitting price. Show me how you do it."<br>
+> **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
+> **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1_ by brine <br>
+_v1.1.1_ by brine <br>
 _much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
