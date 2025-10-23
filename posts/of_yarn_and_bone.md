@@ -53,7 +53,7 @@ Roll 1D6:
 - 5-6 something good!
 - 3-4 something revealing
 - 1-2 something bad
-
+- The lower determines impact, damage or consequence
 
 #### Injuries
 
@@ -93,7 +93,7 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 - a coin from a beggar's cup
 
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
-- The higher die determines success (see `DICE`)
+- The higher die determines success (see #DICE)
 - The lower determines impact or consequence
 - Rolling snake-eyes invokes both failure _and_ a `Burden`
 - A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card; an IOU to the world. Player and GM use the Tarot card and circumstance to negotiate how the `Burden` is satisfied
