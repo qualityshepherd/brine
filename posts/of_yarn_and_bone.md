@@ -41,7 +41,7 @@ When a character does something risky—when the cost might be meaningful—roll
 - 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
-**Lowest die** determines impact or consequence:
+**Lower die** determines impact or consequence:
 
 #### Injuries
 
@@ -52,7 +52,6 @@ When a character does something risky—when the cost might be meaningful—roll
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
-
 
 #### Die of Fate
 
