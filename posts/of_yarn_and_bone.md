@@ -40,6 +40,7 @@ Highest die is:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
 - 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
+- The lower die determines damage, impact or consequence
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
@@ -53,7 +54,6 @@ Roll 1D6:
 - 5-6 something good!
 - 3-4 something revealing
 - 1-2 something bad
-- The lower determines damage, impact or consequence
 
 #### Injuries
 
@@ -196,5 +196,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "These thorns in my blood... yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it."<br>
 
-_v1.0.2_ by brine <br>
+_v1.0.3_ by brine <br>
 _much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
