@@ -153,51 +153,45 @@ By the powers vested in me (which are none), I give you permission to do anythin
 - **Serra** (`Former Royal Guard, Bearer of Ancient Blade`)
 - **Corvus** (`Shadow Walker, Brother’s Keeper`)
 
-```
-GM: "The Bone Knight advances, his armor clicking like old teeth. What do you do?"
-Serra: "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these types of warriors."
-GM: "Roll with two dice since your Royal Guard training applies here."
-*Rolls: 2d6 → 5, 3*
-GM: "With a 5, you succeed! Your training serves you well. How do you want to handle this?"
-Serra: "I feint low but strike high, using a technique I learned in the palace guard."
-GM: "The Bone Knight's armor cracks where your blade strikes. He's Bruised, but he counters with a sweeping blow toward your legs."
-Corvus: "Can I help Serra? I want to distract him from the shadows."
-GM: "Yes, roll with your Shadow Walker Name."
-*Rolls: 2d6 → 2, 4*
-GM: "With a 4, it's a Devil's Bargain. What do you think happens?"
-Corvus: "I successfully distract him, making him miss Serra."
-GM: "But perhaps the noise draws the attention of his skeletal attendants in the next room?"
-Corvus: "Yup... that sounds right."
-GM: "Perfect. Serra, you see the Bone Knight's blow go wide as Corvus creates a distraction... but you hear the rattling of bones from behind the chapel door..."
+> **GM**: "The Bone Knight advances, his armor clicking like old teeth. What do you do?"<br>
+> **Serra**: "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
+> **GM**: "Roll with two dice since your Royal Guard training applies here."<br>
+> *Rolls: 2d6 → 5, 3*<br>
+> **GM**: "With a 5, you succeed! Your training serves you well. How do you want to handle this?"<br>
+> **Serra**: "I feint low but strike high, using a technique I learned in the palace guard."<br>
+> **GM**: "The Bone Knight's armor cracks where your blade strikes. He's Bruised, but he counters with a sweeping blow > toward your legs."<br>
+> **Corvus**: "Can I help Serra? I want to distract him from the shadows."<br>
+> **GM**: "Yes, roll with your Shadow Walker Name."<br>
+> *Rolls: 2d6 → 2, 4*<br>
+> **GM**: "With a 4, it's a Devil's Bargain. What do you think happens?"<br>
+> **Corvus**: "I successfully distract him, making him miss Serra."<br>
+> **GM**: "But perhaps the noise draws the attention of his skeletal attendants in the next room?"<br>
+> **Corvus**: "Yup... that sounds right."<br>
+> **GM**: "Perfect. Serra, you see the Bone Knight's blow go wide as Corvus creates a distraction... but you hear the rattling of bones from behind the chapel door..."<br>
 
-```
 
 #### Magic
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
-```
-GM: "The plague spirits swarm through the village. What do you do?"
-Thistle: "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to whisper the old words my grandmother taught me about boundaries and protection."
-GM: "Roll your casting."
-*Rolls: 2d6 → 2, 1*
-GM: "Ooh, both low. The magic resists. You can accept the failed spell or take a Burden to make it succeed."
-Thistle: "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."
-GM: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the village... but something’s wrong. Your connection to the world feels upside down, inverted. The thorns in your hand have drawn blood."
-Thistle: "Worth it to save them. I need to make this right."
-```
+> **GM**: "The plague spirits swarm through the village. What do you do?"<br>
+> **Thistle**: "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to > whisper the old words my grandmother taught me about boundaries and protection."<br>
+> **GM**: "Roll your casting."<br>
+> *Rolls: 2d6 → 2, 1*<br>
+> **GM**: "Ooh, both low. The magic resists. You can accept the failed spell or take a Burden to make it succeed."<br>
+> **Thistle**: "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."<br>
+> **GM**: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village... but something’s wrong. Your connection to the world feels upside down, inverted. The thorns in your hand > have drawn blood."<br>
+> **Thistle**: "Worth it to save them. I need to make this right."<br>
 
 #### Burden Resolution
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
-```
-GM: "The Tower. Destruction of the established. Your protective barrier spell needs balance."
-Thistle: "The herb wall. My grandmother and I built it, tended it for years..."
-GM: "You’d tear it down?"
-Thistle: "These thorns in my blood... yes. One barrier for another. The scattered herbs might even protect others."
-GM: "A fitting price. Show me how you do it."
-```
+> **GM**: "The Tower. Destruction of the established. Your protective barrier spell needs balance."<br>
+> **Thistle**: "The herb wall. My grandmother and I built it, tended it for years..."<br>
+> **GM**: "You’d tear it down?"<br>
+> **Thistle**: "These thorns in my blood... yes. One barrier for another. The scattered herbs might even protect others."<br>
+> **GM**: "A fitting price. Show me how you do it."<br>
 
 _v1.0_ by brine <br>
 _much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
