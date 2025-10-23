@@ -53,7 +53,7 @@ Roll 1D6:
 - 5-6 something good!
 - 3-4 something revealing
 - 1-2 something bad
-- The lower determines impact, damage or consequence
+- The lower determines damage, impact or consequence
 
 #### Injuries
 
