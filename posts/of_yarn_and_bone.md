@@ -65,7 +65,7 @@ Roll 1D6:
 
 ### MAGIC
 
-Magic is an innate gift that connects a mage to the world. The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence—favors, if you like. Given their relationship is in good standing, the world is likely to comply.
+The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence—favors, if you like. Given their relationship is in good standing, the world is likely to comply.
 
 Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
 
