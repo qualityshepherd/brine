@@ -23,6 +23,7 @@ Your character is a product of the world—they start with three `Names` that de
 
 Your character has typical gear based on their `Names`. Consider making any extravagant gear a `Name`.
 
+<break>
 
 #### Legendary Names
 
