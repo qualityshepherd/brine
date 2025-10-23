@@ -350,7 +350,7 @@ The Council of Six governs with pragmatic efficiency, treating magical research 
 2. **Lady Meera** (`Illusionist, Sarcastic, Task Mistress`)
 3. **Lord Thane** (`Magical Duelist, Nighty Knight, Stoic`)
 4. **Master Vex** (`Shapeshifter, Bear Hands, Hidden Kindness`)
-5. **Sister Rose** (`Fallen Druid, Oblivious, Healing Hand, Sister Elara's Twin` - Monastery representative)
+5. **Sister Rose** (`Fallen Druid, Oblivious, Healing Hand, Sister Amethyst's Twin` - Monastery representative)
 6. **[Empty Seat]** - Recently vacated under mysterious circumstances
 
 - **Gareth** (`Necromancer, Scoundrel, Sweet tooth` next in line for Council of 6)
@@ -486,7 +486,7 @@ The monastery boasts a famed library, produces fine milk and cheese from their g
 **RESIDENTS**
 - **Abbess Salvora** (`Devoted, Respected, Distracted`) - frequent visits to the Prison of Mon
 - **Prior Cedric** (`Rugged, Diligent, Insecure`) - oversees brewing operations
-- **Sister Elara** (`Fallen Druid, Healer, Know-it-all, Sister Rosa's Twin`)
+- **Sister Amethyst** (`Fallen Druid, Healer, Know-it-all, Sister Rosa's Twin`)
 - **Brother Ulfar** (`Brewmaster, Lazy, Mean Drunk`) - avoided but knows his beer
 - **Brother Estabar** (`Monk, True Believer, Gentle`) - master goat herder
 - **Sir Ealdred** (`Knight, The Daring, Haunted`) - seeks spiritual clarity after long and brutal campaigns
@@ -537,7 +537,7 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 
 **CREW**
 - **Foreman "Boss" Bartok** (`Foreman, Burly, Servant Leader`) - prioritizes crew safety over quotas
-- **Nyssa "Thumbs" Dunsfold** (`Fallen Druid, Adorable, Undeceive`) - hired to appease druids
+- **Nyssa "Thumbs" Dunsfold** (`Druid Spy, Adorable, Conflicted`) - hired to appease druids
 - **Lena "Sawbones" Thorne** (`Medic, Direct, Rub Some Dirt On It`) - treats wounds physical and spiritual
 - **"Cookie"** (`Terrible Cook, One-Armed, Former Logger`) - lost his arm to "tree-bite"
 - ~~12~~ 10 loggers
@@ -566,7 +566,7 @@ Among its treasures was a **Sylph Ring**—a pewter band marked with the fae run
 
 **1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay. The ground shifts subtly beneath its massive form, as though the creature only slumbers. The marsh hums with an ancient presence—the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
 
-**1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Boger, Handy with a Peat Spade, Honest`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
+**1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Bog-Strong, Handy with a Peat Spade, Quality Human Being`) and his twelve workers harvest peat from carefully managed bogs—fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
 Nobody knows these wetlands better than Pete and his daughter **Yde** (`Tomboy, Yearning, Hopeful`). They can name every pool, predict the weather by the reeds' sway, and find paths where others see only mire. Yde guides herb-seekers and the occasional northern merchant, while the purple bog orchids that grow near their operation fetch a fine price—though Pete never picks the ones with silver stems.
 
