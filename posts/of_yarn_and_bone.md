@@ -27,7 +27,7 @@ Your character has typical gear based on their `Names`. Consider making any extr
 
 #### Legendary Names
 
-`Legendary Names` are earned by legendary actions in play and awarded by the table during a `Retrospective`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. But they may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
+`Legendary Names` are earned by legendary actions in play and awarded by the table during `Reflections`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. But they may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
 
 
 ### DICE
