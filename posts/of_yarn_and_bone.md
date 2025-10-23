@@ -36,11 +36,21 @@ When a character does something risky—when the cost might be meaningful—roll
 
 `Blaze of Glory`: an endgame like a `Devil's Bargain`—you get your wish, but your character dies.
 
-Highest die is:
+**Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
 - 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
-- The lower die determines damage, impact or consequence
+
+**Lowest die** determines damage, impact or consequence of the action:
+- *Example: Rolls 2d6 → 5, 2* → Success! You hit, but the impact is minor (Bruised).
+
+#### Injuries
+After resolving the roll, check the **lowest die** to determine injury:
+
+- 1-3 **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
+- 4-5 **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
+- 6 **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
+- **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name` (eg. _Marked by Death_)... I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
@@ -48,19 +58,12 @@ After a roll, if the fiction dictates, a character may ask another character for
 
 #### Die of Fate
 
-The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine moral or any number of other things. You will roll this often!
+The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine morale or any number of other things. You will roll this often!
 
 Roll 1D6:
 - 5-6 something good!
 - 3-4 something revealing
 - 1-2 something bad
-
-#### Injuries
-
-- **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
-- **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
-- **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
-- **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name` (eg. _Marked by Death_)... I'm sure it'll be fine... Death is a nice guy?
 
 
 ### MAGIC
@@ -160,7 +163,7 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Serra**: "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
 > **GM**: "Roll with two dice since your Royal Guard training applies here."<br>
 > *Rolls: 2d6 → 5, 3*<br>
-> **GM**: "With a 5, you succeed! Your training serves you well. How do you want to handle this?"<br>
+> **GM**: "With a 5, you succeed! You strike true, but the impact is minor—he’s Bruised."<br>
 > **Serra**: "I feint low but strike high, using a technique I learned in the palace guard."<br>
 > **GM**: "The Bone Knight's armor cracks where your blade strikes. He's Bruised, but he counters with a sweeping blow > toward your legs."<br>
 > **Corvus**: "Can I help Serra? I want to distract him from the shadows."<br>
@@ -196,5 +199,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "These thorns in my blood... yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it."<br>
 
-_v1.0.3_ by brine <br>
+_v1.1_ by brine <br>
 _much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
