@@ -199,4 +199,4 @@ GM: "A fitting price. Show me how you do it."
 ```
 
 _v1.0_ by brine <br>
-_much love to [Wightbred](https://wightbred.itch.io/named-toolkit) <br>
+_much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
