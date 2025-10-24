@@ -4,6 +4,8 @@ date: 2025-10-23
 tags: OYAB, rules
 ---
 
+_**Of Yarn and Bone** is a world-first TTRPG that gets out of the way and lets the world happen — a game of identity with stakes, magic with awe, and play with trust._
+
 ### WHO IN THE WORLD ARE YOU?
 
 Your character is a product of the world—they start with three `Names` that describe their place in it. `Names` are epithets that might be a role they fill, an identity or something whispered about them. They are actionable, used in play, and may change or be awarded (up to six total).
@@ -195,5 +197,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.1_ by brine <br>
-_much love to [Wightbred](https://wightbred.itch.io/named-toolkit)_ <br>
+_v1.1.2_ by brine <br>
+_much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
