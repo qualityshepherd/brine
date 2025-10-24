@@ -98,7 +98,7 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 - The higher die determines success (see #DICE)
 - The lower determines impact or consequence
 - Rolling snake-eyes invokes both failure _and_ a `Burden`
-- A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card; an IOU to the world. Player and GM use the Tarot card and circumstance to negotiate how the `Burden` is satisfied
+- A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid—immediately, in time or both.
 - Magi who take on 3 `Burdens` become lost in the world
 
 
@@ -197,5 +197,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.4_ by brine <br>
+_v1.1.5_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
