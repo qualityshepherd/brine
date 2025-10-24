@@ -136,9 +136,9 @@ Characters can carry what makes sense. Unless they have a `Name` that could be a
 
 At the end of each session, go around the table and reflect on each of the characters in turn. Have they earned a new `Name` (up to six)—or let an old one go? You may also reflect on how the story or the world has changed.
 
-- Have your `Names` changed, or has a new one been claimed?
-- Did your deeds honor your `Names`, or defy them?
-- How does the world see you now?
+- Have any of your `Names` changed, faded, or taken on new meaning?
+- Did your actions honor your `Names`—or twist them into something else?
+- Does the world speak differently about you now?
 
 When it feels right, grant your character a new `Name`, or let one be forgotten.
 
@@ -197,5 +197,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.2_ by brine <br>
+_v1.1.4_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
