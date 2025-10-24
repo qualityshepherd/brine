@@ -29,7 +29,7 @@ Your character has typical gear based on their `Names`. Consider making any extr
 
 #### Legendary Names
 
-`Legendary Names` are earned by legendary actions in play and awarded by the table during `Reflections`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. But they may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
+`Legendary Names` are earned by legendary actions in play—the things people write songs about—and awarded by the table during `Reflections`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. But they may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
 
 
 ### DICE
@@ -197,5 +197,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.5_ by brine <br>
+_v1.1.6_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
