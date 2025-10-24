@@ -4,7 +4,7 @@ date: 2025-10-23
 tags: OYAB, rules
 ---
 
-**Of Yarn and Bone** is a world-first TTRPG that gets out of the way and lets the world happen. _A game of identity with stakes, magic with awe, and play with trust._
+_**Of Yarn and Bone** is a world-first TTRPG that gets out of the way and lets the world happen — a game of identity with stakes, magic with awe, and play with trust._
 
 ### WHO IN THE WORLD ARE YOU?
 
