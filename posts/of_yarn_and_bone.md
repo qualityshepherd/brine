@@ -43,17 +43,18 @@ When a character does something risky—when the cost might be meaningful—roll
 - 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
-**Lower die** determines impact or consequence:
+**Lower die** determines impact or consequence—how good is your success or how bad is your failure.
+- Example: Rolling 6, 5 in combat means you succeed and deal serious damage. Rolling 3, 1 means you fail and leave yourself badly exposed
 
 #### Injuries
 
 - **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
-- **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
+- **Bloodied**: stab, cut, internal bleeding. A good night's rest should heal these but take too many and you might bleed out.
 - **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
 - **Buried**: you're dead but maybe you can bargain with Death? You'll almost certainly add a new `Name`. I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
-After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
+After a roll, if the fiction dictates, a character may _ask_ another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
 
 #### Die of Fate
 
@@ -143,7 +144,7 @@ At the end of each session, go around the table and reflect on each of the chara
 When it feels right, grant your character a new `Name`, or let one be forgotten.
 
 
-### GM MUSINGS
+### RULE ZERO
 
 By the powers vested in me (which are none), I give you permission to do anything, change anything or ignore anything that results in a better game for you and your players. Forever.
 
@@ -197,5 +198,5 @@ By the powers vested in me (which are none), I give you permission to do anythin
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.6_ by brine <br>
+_v1.1.7_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
