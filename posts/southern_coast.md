@@ -626,5 +626,5 @@ D66 | Treasure
 _v1.0.4_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) if you need a system <br>
-[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for procedures <br>
+[Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for hexcrawl procedures <br>
 [Rando](https://rando.brine.dev) for your random spark needs <br>
