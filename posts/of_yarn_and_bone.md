@@ -146,7 +146,7 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 
 ### RULE ZERO
 
-By the powers vested in me (which are none), I give you permission to do anything, change anything or ignore anything that results in a better game for you and your players. Forever.
+0. By the powers vested in me (which are none), I give you permission to do anything, change anything or ignore anything that results in a better game for you and your players. Forever.
 
 
 ------
