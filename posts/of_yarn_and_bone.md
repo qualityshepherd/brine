@@ -45,7 +45,7 @@ When a character does something risky—when the cost might be meaningful—roll
 
 **Lower die** determines impact, consequence or fictional positioning—how good is your success or how bad is your failure:
 - Combat: *Rolls: 2d6 → 6, 5* you succeed and deal serious damage
-- Climbing *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and on the edge
+- Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and on the edge
 - *Rolls: 2d6 → 3, 1* you fail and leave yourself in a bad spot
 
 #### Injuries
