@@ -4,7 +4,7 @@ date: 2023-7-8
 description: Simple rules and procedures for running hexcrawl rpgs
 tags: hexcrawl, hexy
 ---
-_v1.3_
+_v1.4_
 
 Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also [published a pdf](https://casadeocio.itch.io/hexcrawls-rule)
 
@@ -53,14 +53,14 @@ Hexes are 6 miles. PCs can travel 3 hexes per day at a normal pace; 4 if moving 
 
 Roll 2d6: the leftmost die is type of weather, the other severity.
 
-| Weather             | Severity  |
-| :----               |:---       |
-| 1. Rain/fog/snow    | 1. Epic   |
-| 2. Storm            | 2. Severe |
-| 3. Wind             | 3. Harsh  |
-| 4. Unusual Hot/cold | 4. Moderate|
-| 5. Cloudy           | 5. Mild  |
-| 6. Clear            | 6. Pleasant |
+| Weather              | Severity  |
+| :----                |:---       |
+| 1. Rain/fog/snow     | 1. Epic   |
+| 2. Storm             | 2. Fierce |
+| 3. Wind              | 3. Intense  |
+| 4. Heat/cold         | 4. Moderate|
+| 5. Clouds            | 5. Gentle  |
+| 6. Sun               | 6. Perfect |
 
 
 #### Navigation
