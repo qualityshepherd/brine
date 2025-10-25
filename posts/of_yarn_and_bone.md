@@ -36,7 +36,7 @@ Your character has typical gear based on their `Names`. Consider making any extr
 
 When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all).
 
-`Blaze of Glory`: an endgame like a `Devil's Bargain`—you get your wish, but your character dies.
+`Blaze of Glory`: a final, desperate act. Like `Devil’s Bargain`, you get what you want, but your character dies achieving it.
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
@@ -200,5 +200,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.7_ by brine <br>
+_v1.1.8_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
