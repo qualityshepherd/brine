@@ -50,7 +50,7 @@ When a character does something risky—when the cost might be meaningful—roll
 - **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
 - **Bloodied**: stab, cut, internal bleeding. A night's rest should heal these but take too many and you might bleed out.
 - **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
-- **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name` (eg. _Marked by Death_)... I'm sure it'll be fine... Death is a nice guy?
+- **Buried**: you're dead but maybe you can bargain with Death? You'll almost certainly add a new `Name`. I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
