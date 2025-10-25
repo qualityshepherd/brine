@@ -1,10 +1,10 @@
 ---
-title: How To Hexcrawl
+title: Hexcralws Rule!
 date: 2023-7-8
 description: Simple rules and procedures for running hexcrawl rpgs
 tags: hexcrawl, hexy
 ---
-_v1.1_
+_v1.3_
 
 Hexcrawls are awesome! They changed my game forever. But I found existing rules complex and/or included needless abstraction. Thus, I wrote my own. I also [published a pdf](https://casadeocio.itch.io/hexcrawls-rule)
 
@@ -21,7 +21,7 @@ Hexcrawls are awesome! They changed my game forever. But I found existing rules 
 #### Day
 
 1. GM describes points of interest (POIs)/changing weather/terrain/landmarks...
-1. Roll random encounters once per hex
+1. Roll random encounters once per hex (more if it makes sense)
 1. Roll navigation on direction change
 1. Exploring or hunting takes 1/2 day travel time
 1. Foraging can be done en route when not on roads but requires a slowed pace
@@ -104,8 +104,7 @@ PCs risk fatigue from lack sleep/food/water, forced travel, heavy burden, misera
 | :---- |:---                       |
 | 1     | Disadvantaged skill rolls |
 | 2     | Speed halved              |
-| 3     | Disadvantaged attacks     |
+| 3     | Disadvantaged attacks and hallucinations    |
 | 4     | Drop all bulky items      |
 | 5     | Speed = 0                 |
 | 6     | Death                     |
-
