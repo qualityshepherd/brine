@@ -23,7 +23,7 @@ Your character is a product of the world—they start with three `Names` that de
 2. Write down three words that describe your character's look, features or vibe
 3. Name your character
 
-Your character has typical gear based on their `Names`. Consider making any extravagant gear a `Name`.
+Your character has typical gear based on their `Names`. Consider making extravagant gear a `Name`.
 
 <break>
 
@@ -40,7 +40,7 @@ When a character does something risky—when the cost might be meaningful—roll
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
-- 4 `Devil's Bargain`: the player describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
+- 4 `Devil's Bargain`: the player describes a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
 **Lower die** determines impact, consequence or fictional positioning—how good is your success or how bad is your failure:
@@ -54,10 +54,10 @@ When a character does something risky—when the cost might be meaningful—roll
 - **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
 - **Bloodied**: stab, cut, internal bleeding. A good night's rest should heal these but take too many and you might bleed out.
 - **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
-- **Buried**: you're dead but maybe you can bargain with Death? You'll almost certainly add a new `Name`. I'm sure it'll be fine... Death is a nice guy?
+- **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name`. I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
-After a roll, if the fiction dictates, a character may _ask_ another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
+After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable skills) and both characters share the consequences.
 
 #### Die of Fate
 
