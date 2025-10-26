@@ -40,7 +40,7 @@ When a character does something risky—when the cost might be meaningful—roll
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
-- 4 `Devil's Bargain`: players describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
+- 4 `Devil's Bargain`: the player describe a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
 **Lower die** determines impact, consequence or fictional positioning—how good is your success or how bad is your failure:
