@@ -128,7 +128,7 @@ Rituals are the pinnacle of magical prowess. They yield unparalleled power but d
 
 Summoning ventures into the perilous realm of bargaining with the Fae. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, none are known—but with long life comes madness. Success is far from guaranteed. GOOD LUCK!
 
-Only the Fae can bring life back to the dead.
+_Only the Fae can restore life to the dead._
 
 
 ### ENCUMBRANCE
