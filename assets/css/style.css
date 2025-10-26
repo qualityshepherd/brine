@@ -208,8 +208,7 @@ nav #links {
 
 .read-more {
   display: inline-block;
-  color: var(--alt3);
-  text-decoration: none;
+  font-weight: bold;
 }
 
 #load-more {
