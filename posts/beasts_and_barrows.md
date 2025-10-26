@@ -1,5 +1,5 @@
 ---
-title: Beasts & Barrows
+title: Beasts and Barrows
 date: 2021-9-12
 description: **Beasts & Barrows** is an uncomplicated fantasy role-playing game (RPG) that values role-play, simplicity and flexibility.
 tags: BnB, rules
