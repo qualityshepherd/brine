@@ -29,7 +29,7 @@ Your character has typical gear based on their `Names`. Consider making extravag
 
 #### Legendary Names
 
-`Legendary Names` are earned by legendary actions in play—the things people write songs about—and awarded by the table during `Reflections`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. But they may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
+`Legendary Names` are earned by legendary actions in play—the things people write songs about—and awarded by the table during `Reflections`. This can be both good and bad. `Legendary Names` may not need to roll in certain circumstances and their fame might bring help from admirers. They may also attract wannabes looking to become a legend by defeating one. WATCH YER BACK!
 
 
 ### DICE
@@ -117,12 +117,12 @@ Rituals are the pinnacle of magical prowess. They yield unparalleled power but d
 
 **Rituals may require:**
 - time (days, weeks, or months)
-- first you must [task]
+- a task
 - expensive/rare components
 - might only achieve a partial effect
-- you might need help (another mage with an appropriate alliance)
-- it's dangerous
-- requires a specific location, or a particular day or season
+- help from another mage
+- something dangerous
+- a specific location, day or season
 
 #### Summoning
 
