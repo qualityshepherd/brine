@@ -20,7 +20,7 @@ Your character is a product of the world—they start with three `Names` that de
 - Do they own something of note? eg. The Good Ship Revenge, A Xerfian Protoblaster, Pet Falcon
 - Do they have a strong belief? eg. For Queen and Country, Anarchy!, The Way of the Snail
 
-2. Write down three words that describe your character's look, features or vibe.
+2. Write down three words that describe your character's look, features or vibe
 3. Name your character
 
 Your character has typical gear based on their `Names`. Consider making any extravagant gear a `Name`.
@@ -47,7 +47,7 @@ When a character does something risky—when the cost might be meaningful—roll
 - Combat: *Rolls: 2d6 → 6, 5* you succeed and deal serious damage
 - Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and on the edge
 - *Rolls: 2d6 → 3, 1* you fail and leave yourself in a bad spot
-- No Relevant `Name`: nobody needs training to slice a throat... but the fictional positioning required likely negates rolling the *1d6*
+- No Relevant `Name`: nobody needs training to slice a throat... but the fictional positioning required likely negates the need to roll the *1d6*
 
 #### Injuries
 
