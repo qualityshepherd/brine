@@ -12,13 +12,13 @@ Your character is a product of the world—they start with three `Names` that de
 
 1. Create three `Names` that define your character; here are some prompts to help:
 
-- What role does your character have in the world? eg. Reluctant Captain, Aging Herbalist, Corrupt Spy
-- Anything from their past? eg. Orphaned Princess, Butcher's Boy, Bee Queen
-- What trait describes them? eg. Arrogant, Devoted, Flamboyant
-- Do they have a strong relationship? eg. Husband, Mother, Lover
-- Are they known for something? eg. Scholar, Duelist, Fighter, From Planet Xerf
-- Do they own something of note? eg. The Good Ship Revenge, A Xerfian Protoblaster, Pet Falcon
-- Do they have a strong belief? eg. For Queen and Country, Anarchy!, The Way of the Snail
+- What role does your character have in the world? eg. Reluctant Captain, Aging Herbalist, The Fixer
+- Anything from their past? eg. Orphaned Princess, Butcher's Daughter, Owes a Blood Debt
+- What trait describes them? eg. Ruthless, Haunted, Unshakeable
+- Do they have a strong relationship? eg. Widow's Son, The Last of My Line, Sworn to Protect Her
+- Are they known for something? eg. The Witness, Ship Thief, Speaks With Stones
+- Do they own something of note? eg. The Good Ship Revenge, My Father's Blade, The Broken Crown
+- Do they have a strong belief? eg. The Land Remembers, No Gods No Masters, The Way of the Snail
 
 2. Write down three words that describe your character's look, features or vibe
 3. Name your character
@@ -201,5 +201,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.9_ by brine <br>
+_v1.1.10_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_

@@ -451,7 +451,7 @@ Scattered around the rim lie skeletons—warped, massive, unrecognizable. Monste
 
 Few have climbed down. None have reached the bottom. Some call it a wound in the world, others a doorway.
 
-**0904 Harlan's Grove** The region's finest hops grow in neat rows across rolling hills. Francis and Catherine Harlan, and their oldest son Dale (`Nepo Baby, Shrewd, Coward`), tend their crops with generations of expertise—though their success stems from more than skill alone. A rare mineral in the soil imbues their hops with distinctive flavors—a secret they guard as carefully as their harvests. Six workers tend the rows while monastery wagons collect their weekly barrels.
+**0904 Harlan's Grove** The region's finest hops grow in neat rows across rolling hills. Francis and Catherine Harlan, and their oldest son Dale (`Nepo Baby, Shrewd, Paper Tiger`), tend their crops with generations of expertise—though their success stems from more than skill alone. A rare mineral in the soil imbues their hops with distinctive flavors—a secret they guard as carefully as their harvests. Six workers tend the rows while monastery wagons collect their weekly barrels.
 
 The Harlans supply most of their crop to Fellstead Monastery's brewery, though Maude's Meadery has always received a share. This year's harvest promises to be exceptional, despite their neighbor's failing hives.
 
