@@ -339,7 +339,7 @@ This is the domain of **Tuli** (`Candlewick, Illuminating, Short Fuse`), whose p
 
 **0608 Yagul Fane** Two imposing towers—one obsidian black, one alabaster white—mark where legendary magi Naz Yagul and Uma Fane made their home. The ground floors bustle with public markets, meeting halls, and apprentice quarters, while upper floors remain strictly warded off for magi-only.
 
-A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. They use minor enchantments as casually as other regions use tools.
+A village of 300 Dustfolk surrounds the towers, their mix of tents and stone buildings testifying to their adaptability. They use minor enchantments as casually as other regions use tools and are suspicious of _tower magic_.
 
 The towers' reputation for magical mastery draws scholars from distant lands, but magic here is not spectacular—it's infrastructural, mundane, and quietly transformative.
 

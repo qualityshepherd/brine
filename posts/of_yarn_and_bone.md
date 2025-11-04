@@ -79,6 +79,7 @@ Magi are born with this gift but it requires development. Some learn spells from
 - ask the air to withhold itself from a creature until it is unconscious
 - ask a still lake to reflect a scene it's been witness to
 - ask the moon to hold back the tide
+- ask vines to ensnare a foe
 - help tell the story of a misdeed that a forest, church, or statue cannot tell alone
 
 
