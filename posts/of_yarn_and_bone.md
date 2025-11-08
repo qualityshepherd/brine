@@ -36,8 +36,6 @@ Your character has typical gear based on their `Names`. Consider making extravag
 
 When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all).
 
-`Blaze of Glory`: a final, desperate act. Like `Devil’s Bargain`, you get what you want, but your character dies achieving it.
-
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
 - 4 `Devil's Bargain`: the player describes a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
@@ -48,6 +46,8 @@ When a character does something risky—when the cost might be meaningful—roll
 - Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and on the edge
 - *Rolls: 2d6 → 3, 1* you fail and leave yourself in a bad spot
 - No Relevant `Name`: nobody needs training to slice a throat... but the fictional positioning required likely negates the need to roll the *1d6*
+
+`Blaze of Glory`: a final, desperate act. Like `Devil’s Bargain`, you get what you want, but your character dies achieving it.
 
 #### Injuries
 
@@ -202,5 +202,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.10_ by brine <br>
+_v1.1.11_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons) & [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/)_
