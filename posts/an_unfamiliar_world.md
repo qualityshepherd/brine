@@ -9,7 +9,7 @@ tags: oyab, unfamiliar
 
 ### The Broken Bond
 
-Your character was once a mage's familiar but now a stray living in the wild. The communion between mage and familiar is severed, but the world remembers what you were. You carry that memory like a scar, visible only to those who can _see_.
+Your character was once a mage's familiar but is now a stray living in the wild. The communion between mage and familiar is severed, but the world remembers what you were. You carry that memory like a scar, visible only to those who can _see_.
 
 ### Marked
 **Unfamiliars** are marked by magic. They can still cast `Promises`—small, ephemeral magics the world takes for granted. Anything greater and the world just... _tilts its head_, uncertain whether to listen.
@@ -26,4 +26,4 @@ _They are feral, marked; tolerated curiosities in a world that isn't quite sure 
 ### At The Table
 - Unfamiliars should have at least one `Name` echoing their familiar life: `Once Called Nighthawk`, `Shadow of the Covenant`, `Bound to the Thornwood`, `Remembers the Words`
 - Animals retain their natural skills but are not human: they don't carry things in pouches; they don't have rations or gear in the traditional sense. A crow has its beak and talons. A cat has claws and grace. Play them as the animals they are.
-- Casting with `Totems` may require more feral approaches: being bitten by a graveyard snake, rolling in ash from a burned church, carrying a dead thing in your mouth, clawing symbols into bark.
+- Casting with `Totems` means bargaining with a world that isn't sure it should listen. Spells may be less effective and will require a more _feral_ approach to `Totems`: being bitten by a graveyard snake, rolling in ash from a burned church, carrying a dead thing in your mouth, clawing symbols into bark.
