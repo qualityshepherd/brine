@@ -19,7 +19,7 @@ Other animals sense the mark. Predators hesitate. Prey stare too long before bol
 ### In the World
 Magi might see Unfamiliars as `Living Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of a broken promise between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost, the Fae.
 
-These animals travel together out of survival and kinship, and an uneasy trust—predator and prey, side by side.
+These animals travel together out of survival and kinship and an uneasy trust—predator and prey, side by side.
 
 _They are feral, marked; tolerated curiosities in a world that isn't quite sure what to do with them._
 
@@ -27,3 +27,5 @@ _They are feral, marked; tolerated curiosities in a world that isn't quite sure 
 - Unfamiliars should have at least one `Name` echoing their familiar life: `Once Called Nighthawk`, `Shadow of the Covenant`, `Bound to the Thornwood`, `Remembers the Words`
 - Animals retain their natural skills but are not human: they don't carry things in pouches; they don't have rations or gear in the traditional sense. A crow has its beak and talons. A cat has claws and grace. Play them as the animals they are.
 - Casting with `Totems` means bargaining with a world that isn't sure it should listen. Spells may be less effective and will require a more _feral_ approach to `Totems`: being bitten by a graveyard snake, rolling in ash from a burned church, carrying a dead thing in your mouth, clawing symbols into bark.
+- Unfamiliars can speak to one another and understand human speech, but this understanding is one-sided.
+  The world of men can be cruel to animals; you will need to watch each other’s backs.
