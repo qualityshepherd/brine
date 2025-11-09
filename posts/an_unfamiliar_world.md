@@ -1,5 +1,5 @@
 ---
-title: Unfamiliar
+title: An Unfamiliar World
 date: 2025-11-9
 description:
 tags: oyab, unfamiliar
@@ -9,10 +9,10 @@ tags: oyab, unfamiliar
 
 ### The Broken Bond
 
-Your character was once a mage's familiar but now a stray living in the wild. The communion between mage and familiar is severed, but the world remembers what you were. You carry that memory like a scar, visible only to those who can see.
+Your character was once a mage's familiar but now a stray living in the wild. The communion between mage and familiar is severed, but the world remembers what you were. You carry that memory like a scar, visible only to those who can _see_.
 
 ### Marked
-**Unfamiliars** are marked by magic. They can still cast `Promises`—small, ephemeral magics the world remembers. Anything greater and the world just... _tilts its head_, curious, uncertain whether to listen.
+**Unfamiliars** are marked by magic. They can still cast `Promises`—small, ephemeral magics the world takes for granted. Anything greater and the world just... _tilts its head_, uncertain whether to listen.
 
 Other animals sense the mark. Predators hesitate. Prey stare too long before bolting. The Unfamiliars are tolerated curiosities, feral things caught between worlds—feared, yet when danger comes, even natural enemies instinctively call upon their marked brethren.
 
