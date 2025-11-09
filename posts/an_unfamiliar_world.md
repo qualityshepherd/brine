@@ -17,7 +17,7 @@ Your character was once a mage's familiar but is now a stray living in the wild.
 Other animals sense the mark. Predators hesitate. Prey stare too long before bolting. The Unfamiliars are tolerated curiosities, feral things caught between worlds—feared, yet when danger comes, even natural enemies instinctively call upon their marked brethren.
 
 ### In The World
-Magi might see Unfamiliars as `Living Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of a broken promise between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost.
+Magi might see Unfamiliars as `Living Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of a broken promise between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost, the Fae.
 
 These animals travel together out of survival and kinship and an uneasy trust—predator and prey, side by side.
 
