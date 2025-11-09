@@ -1,0 +1,29 @@
+---
+title: Unfamiliar
+date: 2025-11-9
+description:
+tags: oyab, unfamiliar
+---
+
+> _Based on Richard Williams' [Unfamiliar](https://featurecreep.itch.io/unfamiliar) and adapted for use with [Of Yarn and Bone](/#post?s=of_yarn_and_bone)_.
+
+### The Broken Bond
+
+Your character was once a mage's familiar but now a stray living in the wild. The communion between mage and familiar is severed, but the world remembers what you were. You carry that memory like a scar, visible only to those who can see.
+
+### Marked
+**Unfamiliars** are marked by magic. They can still cast `Promises`—small, ephemeral magics the world remembers. Anything greater and the world just... _tilts its head_, curious, uncertain whether to listen.
+
+Other animals sense the mark. Predators hesitate. Prey stare too long before bolting. The Unfamiliars are tolerated curiosities, feral things caught between worlds—feared, yet when danger comes, even natural enemies instinctively call upon their marked brethren.
+
+### In The World
+Magi might see Unfamiliars as `Living Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of broken promises between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost.
+
+These animals travel together out of survival and kinship and an uneasy trust—predator and prey side by side.
+
+_They are feral, marked; tolerated curiosities in a world that isn't quite sure what to do with them. But they endure. They always have._
+
+### At The Table
+- Unfamiliars should have at least one `Name` echoing their familiar life: `Once Called Nighthawk`, `Shadow of the Covenant`, `Bound to the Thornwood`, `Remembers the Words`
+- Animals retain their natural skills but are not human: they don't carry things in pouches; they don't have rations or gear in the traditional sense. A crow has its beak and talons. A cat has claws and grace. Play them as the animals they are.
+- Casting with `Totems` may require more feral approaches: being bitten by a graveyard snake, rolling in ash from a burned church, carrying a dead thing in your mouth, clawing symbols into bark.
