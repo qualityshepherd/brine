@@ -139,10 +139,10 @@ Characters can carry what makes sense. Unless they have a `Name` that could be a
 
 ### REFLECTIONS
 
-At the end of each session, go around the table and reflect on each of the characters in turn. Have they earned a new `Name` (up to six)—or let an old one go? You may also reflect on how the story or the world has changed.
+At the end of each session, go around the table and reflect on each of the characters in turn. Have they earned a new `Name` (up to six) or let an old one go? You may also reflect on how the story or the world has changed.
 
 - Have any of your `Names` changed, faded, or taken on new meaning?
-- Did your actions honor your `Names`—or twist them into something else?
+- Did your actions honor your `Names` or twist them into something else?
 - Does the world speak differently about you now?
 
 When it feels right, grant your character a new `Name`, or let one be forgotten.
