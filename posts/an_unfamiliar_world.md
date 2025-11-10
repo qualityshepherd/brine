@@ -14,14 +14,14 @@ Your character was once a mage's familiar but is now a stray living in the wild.
 ### Marked
 **Unfamiliars** are marked by magic. They can still cast `Promises`—small, ephemeral magics the world takes for granted. Anything greater and the world just... _tilts its head_, uncertain whether to listen.
 
-Other animals sense the mark. Predators hesitate. Prey stare too long before bolting. The Unfamiliars are tolerated curiosities, feral things caught between worlds—feared, yet when danger comes, even natural enemies instinctively call upon their marked brethren.
+Other animals sense the mark. Predators hesitate. Prey stare too long before bolting. Unfamiliars are tolerated curiosities, feral things caught between worlds—feared, yet when danger comes, even natural enemies instinctively call upon their marked brethren.
 
 ### In the World
-Magi might see Unfamiliars as `Living Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of a broken promise between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost, the Fae.
+Magi might see Unfamiliars as living `Totems`—creatures literally of the magical world who could amplify spells. Or as `Walking Burdens`, remnants of a broken promise between mage and world. Desperate magi might even attempt to transfer their own `Burdens` onto an Unfamiliar, using them as unwitting vessels in rituals meant to restore balance. Sanctuary is most likely found with those at the margins—human children, beggars, the lost, the Fae.
 
 These animals travel together out of survival and kinship and an uneasy trust—predator and prey, side by side.
 
-_They are feral, marked; tolerated curiosities in a world that isn't quite sure what to do with them._
+_They are feral, marked, tolerated curiosities in a world that isn't quite sure what to do with them._
 
 ### At the Table
 - Unfamiliars should have at least one `Name` echoing their familiar life: `Once Called Nighthawk`, `Shadow of the Covenant`, `Bound to the Thornwood`, `Remembers the Words`

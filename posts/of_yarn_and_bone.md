@@ -85,7 +85,7 @@ Magi are born with this gift but it requires development. Some learn spells from
 
 #### Promises
 
-Promises are the simplest spells—like cantrips. Often dismissed as "cheap tricks," their ephemeral quality leaves no lasting impression on the world. Yet they signify an unspoken agreement; a remnant from the bond between mage and world. Any mage worth their socks should be able to cast these simple, ephemeral spells without rolling.
+Promises are the simplest spells—like cantrips. Often dismissed as _cheap tricks_, their ephemeral quality leaves no lasting impression on the world. Yet they signify an unspoken agreement; a remnant from the bond between mage and world. Any mage worth their socks should be able to cast these simple, ephemeral spells without rolling.
 
 
 #### Casting Spells
@@ -102,8 +102,8 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
 - The higher die determines success (see #DICE)
 - The lower determines impact or consequence
-- Rolling snake-eyes invokes both failure _and_ a `Burden`
 - A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid—immediately, in time or both.
+- Rolling snake-eyes invokes both failure _and_ a `Burden`
 - Magi who take on 3 `Burdens` become lost in the world
 
 
