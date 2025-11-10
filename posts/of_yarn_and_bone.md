@@ -185,10 +185,10 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
 > **GM**: "The plague spirits swarm through the village. What do you do?"<br>
-> **Thistle**: "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to > whisper the old words my grandmother taught me about boundaries and protection."<br>
+> **Thistle**: "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to whisper the old words my grandmother taught me about boundaries and protection."<br>
 > **GM**: "Roll your casting."<br>
 > *Rolls: 2d6 → 2, 1*<br>
-> **GM**: "Ooh, both low. The magic resists. You can accept the failed spell or take a Burden to make it succeed."<br>
+> **GM**: "Ooh, both low. The magic resists and the spirits are descending on the villagers. You can accept the failed spell or take a Burden to make it succeed."<br>
 > **Thistle**: "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."<br>
 > **GM**: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village...
 
@@ -196,7 +196,7 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
-> **GM**: "The Tower. Destruction of the established. Your protective barrier spell needs balance."<br>
+> **GM**: "The Tower. Destruction of the established. You took on this Burden to save the town. Ballance must be restored, now or in the future."<br>
 > **Thistle**: "The herb wall. My grandmother and I built it, tended it for years..."<br>
 > **GM**: "You’d tear it down?"<br>
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
