@@ -203,4 +203,4 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
 _v1.1.11_ by brine <br>
-_much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [Into The Odd](https://freeleaguepublishing.com/shop/into-the-odd/), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
+_much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
