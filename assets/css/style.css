@@ -269,8 +269,7 @@ a:hover,
 }
 
 table, ul, ol {
-  margin-bottom: 45px;
-  font-size: 90%;
+  margin-bottom: 15px;
 }
 
 table {
@@ -346,6 +345,10 @@ blockquote {
   padding: 25px;
   margin-bottom: 50px;
   overflow: auto;
+}
+
+hr {
+  margin: 50px 0 50px 0;
 }
 
 h1,
