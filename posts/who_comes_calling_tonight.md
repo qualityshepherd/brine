@@ -28,5 +28,16 @@ gazing down the chancel stairs
 
 Who comes calling tonight?
 
+down in Cinder’s Hollow
+bloodwood branches bow
+penitent obedience
+concealing furrowed brows
+the night itself takes umbrage
+growing cold as graveyard stone
+the moon withdraws her troubled gaze
+some things cannot come home
+
+Who comes calling tonight?
+
 </div>
 </div>
