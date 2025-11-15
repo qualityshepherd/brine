@@ -16,8 +16,8 @@ tags: note to self
    - describe using multiple senses
 2. **WHAT DO YOU DO?**
 3. **Rolls** change the situation:
-   - **Success = "Yes, but..."** goal + complication
-   - **Failure = "No, and..."** fail + escalation
-   - **Offer bargains:** "you succeed IF you accept [cost/risk]"
+   - **Success:** _Yes, but..._ goal + complication
+   - **Failure:** _No, and..._ fail + escalation
+   - **Bargain:** succeed IF you accept [cost/risk]
 4. **Use NPCs:** to deliver information, offer opportunities, escalate conflict
 5. **Fast-forward** through the boring stuff; keep it moving
