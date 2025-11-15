@@ -30,7 +30,7 @@ gazing down the chancel stairs
 Who comes calling tonight?
 
 Down in Cinder’s Hollow
-bloodwood branches bow
+the bloodwood branches bow
 penitent obedience
 concealing furrowed brows
 the night itself takes umbrage
