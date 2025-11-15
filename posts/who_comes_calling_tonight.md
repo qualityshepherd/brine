@@ -5,8 +5,9 @@ description: When my songwriting and gaming worlds collide...
 tags: songwriting, words
 ---
 
-<div class="song"><div>
-torrential rain in Ravencross
+<div class="song">
+<div>
+Torrential rain in Ravencross
 washed over Blackthorn Lane
 Lucinda got her stockings wet
 when she called on Edmund Graves
@@ -17,7 +18,7 @@ strike the eaves with wild applause
 
 Who comes calling tonight?
 
-the bells of St. Sebastian
+The bells of St. Sebastian
 ignore the midnight toll
 swallowed whole in darkness
 black as buried coal
@@ -28,7 +29,7 @@ gazing down the chancel stairs
 
 Who comes calling tonight?
 
-down in Cinder’s Hollow
+Down in Cinder’s Hollow
 bloodwood branches bow
 penitent obedience
 concealing furrowed brows

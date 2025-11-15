@@ -170,9 +170,8 @@ nav #links {
 
 /* any child divs of .song */
 .song > div {
-  text-align: left;
-  white-space: pre;
-  font-style: italic;
+  white-space: pre-wrap;
+  font-size: 115%;
   display: inline-block;
 }
 
