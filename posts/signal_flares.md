@@ -15,7 +15,7 @@ Community collapses into groupthink when tied to:
 
 In these cases, this is exactly what they want. Groupthink _is_ the desired outcome.
 
-This is why I leave Discord servers that are essentially products or personalities operating as products. But I've had similar problems with various *acronym movements* where purism became fascism and stabbed the community like so many bioluminescent fungi.
+This is why I avoid Discord servers that are essentially products or personalities operating as products. But I've had similar problems with various *acronym movements* where purism became fascism and stabbed the community like so many bioluminescent fungi.
 
 And yet... I yearn for a group. *My* group... hold the groupthink.
 
@@ -30,7 +30,7 @@ What makes them deadly is NOT that they're *wrong*; sometimes they're right. It'
 
 **And it's sad how often these ball-stoppers become mods... and the server slowly dies.**
 
-It's tricky because they're constantly visible because they respond to everything. Their confidence looks like expertise. They're always there because shutting down conversations takes way less energy than having them. And worst of all, their ball-stopping *looks* like keeping the server organized. "This person really gets it!" but they're actually suffocating the community. The most engaged, interesting people quiet quit.
+But it's tricky. They're constantly visible because they respond to everything. Their confidence looks like expertise. They're always there because shutting down conversations takes way less energy than having them. And worst of all, their ball-stopping *looks* like keeping the server organized. "This person really gets it!" but they're actually suffocating the community. The engaged, interesting people _quiet-quit_.
 
 ### Disease at Scale
 
@@ -53,4 +53,4 @@ So how do you find _your_ people?
 
 Create something: a blog post, a tool, art, shitpost—something that appeals to _your_ people. **Your work does the filtering.** The people who respond enthusiastically are pre-filtered. They found you because your signal resonated at their frequency.
 
-**This post, my games, podcasts and tools... these are my signal flares.** If you read this far and you're nodding, we might be people! Email me: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;&#118;*
+**This post, my [games](https://brine.dev/#post?s=of_yarn_and_bone), [podcasts](https://worldof.brine.dev/) and [tools](https://rando.brine.dev/)... these are my signal flares.** If you read this far and you're nodding, we might be people! Email me: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;&#118;*
