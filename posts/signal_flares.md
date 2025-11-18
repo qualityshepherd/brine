@@ -44,7 +44,7 @@ My server has one rule:
 
 Overlooking my shitty math for the moment, these aren't really rules. They're a vibe check. You're here because we get along even when we don't agree. When we get mad, we know how to walk away. Everyone needs a nudge now and then, but with some people _a nudge is NOT as good as a wink... know what I mean?_.
 
-**The real rule: Stay small enough that \"asshole\" is obvious to everyone, not just a mod.**
+**The real rule: Stay small enough that _asshole_ is obvious to everyone, not just a mod.**
 
 
 ### Signal Flares
@@ -53,4 +53,5 @@ So how do you find _your_ people?
 
 Create something: a blog post, a tool, art, shitpost—something that appeals to _your_ people. **Your work does the filtering.** The people who respond enthusiastically are pre-filtered. They found you because your signal resonated at their frequency.
 
-**This post, my [games](https://brine.dev/#post?s=of_yarn_and_bone), [podcasts](https://worldof.brine.dev/) and [tools](https://rando.brine.dev/)... these are my signal flares.** If you read this far and you're nodding, we might be people! Reach out: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;&#118;*
+**This post, my [games](https://brine.dev/#post?s=of_yarn_and_bone), [podcasts](https://worldof.brine.dev/) and [tools](https://rando.brine.dev/)... these are my signal flares.** If you read this far and you're nodding, we might be people! Reach out: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;
+&#118;*
