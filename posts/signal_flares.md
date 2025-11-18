@@ -34,7 +34,7 @@ But this is VERY tricky. They're constantly visible because they respond to ever
 
 ### Disease at Scale
 
-Big server means mods. There's only so many peeps that can self-regulate. But **mods are a band-aid for having too many people you don't actually trust.**
+A big server means mods. There's only so many peeps that can self-moderate. But **mods are a band-aid for having too many people you don't actually trust.**
 
 ### Quality over Quantity
 
