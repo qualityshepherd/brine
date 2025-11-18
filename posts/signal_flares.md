@@ -44,7 +44,7 @@ My server has one rule:
 
 Overlooking my shitty math for the moment, these aren't really rules. They're a vibe check. You're here because we get along even when we don't agree. When we get mad, we know how to walk away. Everyone needs a nudge now and then, but with some people _a nudge is NOT as good as a wink... know what I mean?_.
 
-**The real rule: Stay small enough that "asshole" is obvious to everyone, not just a mod.**
+**The real rule: Stay small enough that \"asshole\" is obvious to everyone, not just a mod.**
 
 
 ### Signal Flares
