@@ -34,7 +34,7 @@ Your character has typical gear based on their `Names`. Consider making extravag
 
 ### DICE
 
-When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all).
+When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all). Something changes after every roll.
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
@@ -202,5 +202,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.11_ by brine <br>
+_v1.1.12_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
