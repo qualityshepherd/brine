@@ -9,7 +9,7 @@ tags: blather, community
 
 ### The Problem
 
-Community collapses into groupthink when tied to:
+Communities collapse into groupthink if tied to:
 1. **Money/product**: Financial incentives demand conformity.
 2. **Personality**: Disagreeing with the figurehead feels like betrayal.
 
@@ -53,5 +53,4 @@ So how do you find _your_ people?
 
 Create something: a blog post, a tool, art, shitpost—something that appeals to _your_ people. **Your work does the filtering.** The people who respond enthusiastically are pre-filtered. They found you because your signal resonated at their frequency.
 
-**This post, my [games](https://brine.dev/#post?s=of_yarn_and_bone), [podcasts](https://worldof.brine.dev/) and [tools](https://rando.brine.dev/)... these are my signal flares.** If you read this far and you're nodding, we might be people! Reach out: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;
-&#118;*
+**This post, my [games](https://brine.dev/#post?s=of_yarn_and_bone), [podcasts](https://worldof.brine.dev/) and [tools](https://rando.brine.dev/)... these are my signal flares.** If you read this far and you're nodding, we might be people! Reach out: *&#97;&#99;&#107;&#64;&#98;&#114;&#105;&#110;&#101;&#46;&#100;&#101;&#118;*
