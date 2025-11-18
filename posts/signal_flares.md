@@ -30,7 +30,7 @@ What makes them deadly is NOT that they're *wrong*; sometimes they're right. It'
 
 **And it's sad how often these ball-stoppers become mods... and the server slowly dies.**
 
-But it's tricky. They're constantly visible because they respond to everything. Their confidence looks like expertise. They're always there because shutting down conversations takes way less energy than having them. And worst of all, their ball-stopping *looks* like keeping the server organized. "This person really gets it!" but they're actually suffocating the community. The engaged, interesting people _quiet-quit_.
+But this is VERY tricky. They're constantly visible because they respond to everything. Their confidence looks like expertise. They're always there because shutting down conversations takes way less energy than having them. And worst of all, their ball-stopping *looks* like keeping the server organized. "This person really gets it!" but they're actually suffocating the community. The engaged, interesting people _quiet-quit_.
 
 ### Disease at Scale
 
