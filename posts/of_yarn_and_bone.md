@@ -34,7 +34,7 @@ Your character has typical gear based on their `Names`. Consider making extravag
 
 ### DICE
 
-When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all). Something changes after every roll.
+When a character does something risky—when the cost might be meaningful—roll `1d6`; add an additional `d6` if they have a relevant `Name`. Another for a `Legendary Name` (or don't roll at all). **Something changes after every roll**.
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
@@ -73,6 +73,8 @@ Roll 1D6:
 
 The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence—favors, if you like. Given their relationship is in good standing, the world is likely to comply.
 
+Magic is asking the world to do what it _wants_ to do, deliberately. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
+
 Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
 
 - ask a stone to gather its brethren and create a road
@@ -80,7 +82,7 @@ Magi are born with this gift but it requires development. Some learn spells from
 - ask a still lake to reflect a scene it's been witness to
 - ask the moon to hold back the tide
 - ask vines to ensnare a foe
-- help tell the story of a misdeed that a forest, church, or statue cannot tell alone
+- ask a flame to cage a foe
 
 
 #### Promises
@@ -110,6 +112,8 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 #### Enhancement Spells
 
 `Enhancement Spells` are woven in tandem with a primary spell, and can amplify potency, duration, or scope. While they enhance a spell's efficacy, they take time (an extra turn) and compound the risks of casting—an additional `Burden` for the mage who pushes both.
+
+- A mage cages a foe in flame, along with an Enhancement to hold it burning until dawn.
 
 
 #### Rituals
@@ -202,5 +206,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.12_ by brine <br>
+_v1.1.13_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
