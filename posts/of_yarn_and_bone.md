@@ -111,7 +111,7 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 
 #### Enhancement Spells
 
-`Enhancement Spells` are woven in tandem with a primary spell, and can amplify potency, duration, or scope. While they enhance a spell's efficacy, they take time (an extra turn) and compound the risks of casting—an additional `Burden` for the mage who pushes both.
+`Enhancement Spells` are woven in tandem with a primary spell, and can amplify potency, duration, or scope. While they enhance a spell's efficacy, they take time (an extra turn) and compound the risks of casting. A mage that pushes a failing Enhancement (or rolls snake-eyes) takes two `Burdens`.
 
 - A mage cages a foe in flame, along with an Enhancement to hold it burning until dawn.
 
@@ -206,5 +206,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.13_ by brine <br>
+_v1.1.14_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
