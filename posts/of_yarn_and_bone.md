@@ -73,9 +73,9 @@ Roll 1D6:
 
 The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence—favors, if you like. Given their relationship is in good standing, the world is likely to comply.
 
-Magic is asking the world to do what it _wants_ to do, deliberately. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
-
 Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
+
+A mage asks the world to do what it _wants_ to do, deliberately. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
 
 - ask a stone to gather its brethren and create a road
 - ask the air to withhold itself from a creature until it is unconscious
