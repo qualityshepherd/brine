@@ -15,7 +15,7 @@
     "rss:blog": "node ./lib/genr8Blog.js",
     "rss:pod": "node ./lib/genr8Pod.js",
     "rss:sitemap": "node ./lib/genr8Sitemap.js",
-    "start": "npm run build:index && npm run rss:blog && npm run rss:pod && npm run rss:sitemap",
+    "start": "npm run build:index && npm run rss:blog && npm run rss:sitemap",
     "pretest": "npm run server & sleep 1",
     "test": "TEST_ENV=http://localhost:4242 tape tests/*test.js",
     "posttest": "npm run kill",
