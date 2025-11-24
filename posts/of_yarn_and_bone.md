@@ -2,6 +2,14 @@
 title: Of Yarn and Bone
 date: 2025-10-23
 tags: OYAB, rules
+papersize: a5
+margin:
+  x: 1.4cm
+  y: 1.4cm
+fontsize: 12pt
+mainfont: "Inter"
+sansfont: "Oswald"
+sansfont-size: 24pt
 ---
 
 _**Of Yarn and Bone** is a game of identity with stakes, magic with awe, and play with trust._
