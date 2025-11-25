@@ -50,6 +50,6 @@ Don't worry about getting it "right." This isn't a manifesto or a movement. It's
 
 Steal the ideas you like. Treat your game like a toolkit. Sit down with people who want the same kind of game you do, figure out who you are in the world, and start talking.
 
-**Rule Zero** from OYAB says it plainly: _"By the powers vested in me (which are none), I give you permission to do anything that results in a better game."_
+**Rule Zero** from Of Yarn and Bone says it plainly: _"By the powers vested in me (which are none), I give you permission to do anything that results in a better game."_
 
 If a rule gets in the way of the conversation, kill it. If a mechanic helps structure the conversation, keep it. The game is yours. Play it your way.
