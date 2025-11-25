@@ -30,7 +30,7 @@ That's why both our games use `Names` (epithets) instead of stats.
 
 If you're a "Reluctant Captain" or "The Ship Thief," I don't need a number to tell me if you can sail a boat. The conversation tells us. We only roll dice when it's risky or the cost is meaningful.
 
-Someone asked Whitebred recently: "How do you handle flashbacks?" His answer: "We just do them? 'It's now a month ago.'" If it makes sense in the fiction, you don't need a rule for it. Don't hunt for costs to charge people.
+Someone asked Whitebred recently: "How do you handle flashbacks?" His answer: "We just do them? It's now a month ago." If it makes sense in the fiction, you don't need a rule for it. Don't hunt for costs to charge people.
 
 ### Mechanics _Are_ Conversation
 
