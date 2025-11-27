@@ -30,7 +30,7 @@ Near Lady Veshra's monument, a robed figure sits on a stool, pouring from fine b
 
 The figure pauses mid-pour. He's noticed you. Or perhaps he's been waiting.
 
-Sentinel crows settle on the chapel's broken tower, watching.
+**Sentinel Crows** settle on the chapel's broken tower, watching.
 
 <break>
 
@@ -76,10 +76,10 @@ Sentinel crows settle on the chapel's broken tower, watching.
 
 **Who Else Arrives?:**
 
-1. Sister Mara in silver mask, drawing salt circles
-2. Vira Veshra with forged deed and desperate eyes
-3. Brother Tove tracking blessed footprints through fog
-4. Grett the digger, loyal and simple, defending his master
+1. **Sister Mara** in silver mask, drawing salt circles
+2. **Vira Veshra** with forged deed and desperate eyes
+3. **Brother Tove** tracking blessed footprints through fog
+4. **Grett** the digger, loyal and simple, defending his master
 5. More wraiths, drawn by the disturbance
 6. No one. You're alone with the Steep Mage
 
