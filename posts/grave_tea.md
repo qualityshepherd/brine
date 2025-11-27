@@ -103,6 +103,6 @@ Sentinel crows settle on the chapel's broken tower, watching.
 - **Remember** why their memory ends at sunset and what that means
 - **Make a deal** with Lady Veshra's spirit, the wraiths, or the Steep Mage
 
-### TWISTS
+### TWIST
 
-Play multiple sessions where characters are different factions meeting in the cemetery. Use the robed figure as a persistent oracle who serves tea to all who arrive, neutral in the conflict. The wraiths hunt anyone who disturbs the graves, regardless of intention.
+Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians of the Stone, Sorrowful Touch, Lingering Cold`). They hunt anyone who disturbs the graves, regardless of intention.
