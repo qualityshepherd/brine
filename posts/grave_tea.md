@@ -5,6 +5,8 @@ description: A Quick Start for Unnamed Worlds zine, based upon The Steep Mage...
 tags: quickstart, oyab
 ---
 
+[![thumb](/assets/images/drawrings/veshna_cemetary2.jpg)](/assets/images/drawrings/veshna_cemetary2.jpg)
+
 > _A Quickstart for [Unnamed Worlds](https://wightbred.itch.io/unnamedworlds) based on my one-shot, [The Steep Mage](/#post?s=the_steep_mage)_
 _by brine_
 
@@ -101,5 +103,3 @@ Sentinel crows settle on the chapel's broken tower, watching.
 ### TWISTS
 
 Play multiple sessions where characters are different factions meeting in the cemetery. Use the robed figure as a persistent oracle who serves tea to all who arrive, neutral in the conflict. The wraiths hunt anyone who disturbs the graves, regardless of intention.
-
-![#image](/assets/images/drawrings/veshna_cemetary2.jpg)

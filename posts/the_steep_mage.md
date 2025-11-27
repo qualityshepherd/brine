@@ -5,6 +5,8 @@ description: The Steep Mage is a scenario for Of Yarn and Bone Scenario or any s
 tags: scenario, oyab, one-shot
 ---
 
+[![thumb](/assets/images/drawrings/veshna_cemetary2.jpg)](/assets/images/drawrings/veshna_cemetary2.jpg)
+
 > _A one-shot scenario for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any system Compatible With Roleplaying_
 
 ### Introduction
@@ -57,5 +59,3 @@ Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians 
 4. Sister Mara arrives openly, drawing salt circles, demanding surrender
 5. A scream cuts through the fog; then silence. Something's gone very wrong
 6. Sentinel Crows alert everyone to your location
-
-![#image](/assets/images/drawrings/veshna_cemetary2.jpg)

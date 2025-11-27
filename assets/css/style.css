@@ -135,13 +135,13 @@ nav #links {
 [alt="thumb"] {
   float: right;
   margin: 15px;
-  width: 200px;
-  height: 200px;
+  width: 320px;
   border: 1px solid var(--border);
   text-align: center;
   background-color: var(--text);
   padding: 5px;
-  border-radius: 15px
+  border-radius: 15px;
+  opacity: .85;
 }
 
 [alt="full"], [alt="center"] {
