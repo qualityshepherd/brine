@@ -1,7 +1,7 @@
 ---
 title: The Steep Mage
 date: 2025-11-26
-description: The Steep Mage is a scenario for Of Yarn and Bone Scenario or any Compatible With Roleplaying system
+description: The Steep Mage is a scenario for Of Yarn and Bone Scenario or any system Compatible With Roleplaying
 tags: scenario, oyab, one-shot
 ---
 
