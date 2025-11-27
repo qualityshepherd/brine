@@ -26,6 +26,8 @@ You wake in Veshra Cemetery as fog rolls in. Your memory cuts off at sunset. The
 
 Near Lady Veshra's monument, a robed figure sits on a stool, pouring from fine bone china. Steam rises from the cup. Fresh earth surrounds three excavated graves arranged in a triangle.
 
+**The Steep Mage:** (`Grave Rituals, Speaks To Dead, Wife's Tea Set`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
+
 The figure pauses mid-pour. He's noticed you. Or perhaps he's been waiting.
 
 Sentinel crows settle on the chapel's broken tower, watching.
