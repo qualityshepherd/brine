@@ -59,3 +59,11 @@ Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians 
 4. Sister Mara arrives openly, drawing salt circles, demanding surrender
 5. A scream cuts through the fog; then silence. Something's gone very wrong
 6. Sentinel Crows alert everyone to your location
+
+#### d6 What's In The Box?
+1. **Mourning Locket** - Contains a lock of hair that's still growing; 30s to the morbidly curious
+2. **Porcelain Fingers** - A child's hand, perfectly preserved in white porcelain, cold and delicate
+3. **Last Breath Bottle** - Sealed glass vial labeled "Final Words"
+4. **Burial Coins** - Two silver coins on the eyes, both dated next year
+5. **Love Letters** - Bundle tied with ribbon, ink still wet
+6. **Antique Crucifix** - Silver and ruby, blessed, worth 150s
