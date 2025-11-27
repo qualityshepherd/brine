@@ -17,7 +17,7 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 
 ### Factions
 
-**The Steep Mage:** (`Grave Rituals, Speaks With the Dead, Wife's Teacup`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
+**The Steep Mage:** (`Grave Rituals, Speaks With the Dead, Wife's Tea Set`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
 - **Grett:** (`The Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is just misunderstood.
 
 **The Burning Faith** aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
@@ -49,9 +49,9 @@ Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians 
 | 12 | **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver |
 
 #### d6 Complications
-1. Fog thickens to 20 feet—can hear digging but can't pinpoint it
+1. Fog rolls in heavy—sound travels but sight doesn't
 2. Digger panics, flees screaming about "cold hands under the earth"
 3. Grief Wraith attacks whoever touched the Soulstone last
 4. Sister Mara arrives openly, drawing salt circles, demanding surrender
-5. Soulstone begins humming, drawing all three factions to converge
+5. A scream cuts through the fog; then silence. Something's gone very wrong
 6. Sentinel Crows alert everyone to your location
