@@ -5,7 +5,7 @@ description: The Steep Mage is a scenario for Of Yarn and Bone Scenario or any s
 tags: scenario, oyab, one-shot
 ---
 
-> _A scenario for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any Compatible With Roleplaying system_
+> _A scenario for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any system Compatible With Roleplaying_
 
 ### Introduction
 
@@ -17,7 +17,7 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 
 ### Factions
 
-**The Steep Mage:** (`Grave Rituals, Speaks With the Dead, Wife's Tea Set`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
+**The Steep Mage:** (`Grave Rituals, Speaks To Dead, Wife's Tea Set`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
 - **Grett:** (`The Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is just misunderstood.
 
 **The Burning Faith** aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
