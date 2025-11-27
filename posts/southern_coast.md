@@ -3,6 +3,14 @@ title: The Southern Coast
 date: 2025-2-21
 description: A system-neutral, regional setting designed for sandbox exploration and adventure.
 tags: hexcrawl, hexy, adventures, sandbox, soco
+papersize: a5
+margin:
+  x: 1.4cm
+  y: 1.4cm
+fontsize: 12pt
+mainfont: "Inter"
+sansfont: "Oswald"
+sansfont-size: 24pt
 ---
 
 **The Southern Coast**, despite its rugged terrain, enjoys a mild climate shaped by soft sea breezes and rolling coastal fog. Passage to the northern kingdoms is best conducted by sea; circumventing the Sorrow Mountains and the West Marshes. This land once served as a sacred druidic sanctuary until the Northern Kings, seeking an isolated location for their most notorious criminals, ordered the construction of a prison—or as one King coldly declared, _"a place to throw our trash."_ To contain their prisoners through mystical means, they recruited the celebrated magi Naz Yagul and Uma Fane. The crown also funded missionaries, ostensibly to support the prison's operations while attempting to convert the resident druids.
