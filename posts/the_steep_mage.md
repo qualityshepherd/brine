@@ -5,7 +5,7 @@ description: The Steep Mage is a scenario for Of Yarn and Bone Scenario or any C
 tags: scenario, oyab, one-shot
 ---
 
-> _A scenario for Of Yarn and Bone or any Compatible With Roleplaying system_
+> _A scenario for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any Compatible With Roleplaying system_
 
 ### Introduction
 
