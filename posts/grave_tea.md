@@ -28,6 +28,7 @@ The figure pauses mid-pour. He's noticed you. Or perhaps he's been waiting.
 
 Sentinel crows settle on the chapel's broken tower, watching.
 
+<break>
 ---
 
 ### POTENTIAL WORLD DETAILS

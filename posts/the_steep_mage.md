@@ -27,6 +27,8 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 **Veshra's Descendants** believe the Soulstone is family property and their last, best asset. They use stealth, bribery, appeals to law—including promises of payment to mercenaries they can't afford. They won't destroy grandmother's remains or let the stone burn.
 - **Vira Veshra:** (`Last of Her Line, Exiled Noble, Desperate`)
 
+<break>
+
 ### The Twist
 
 Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians of the Stone, Sorrowful Touch, Lingering Cold`)
