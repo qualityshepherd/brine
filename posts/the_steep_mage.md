@@ -19,8 +19,8 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 
 ### Factions
 
-**The Steep Mage:** (`Grave Rituals, Speaks To Dead, Wife's Tea Set`). Soft-spoken, exhausted. Believes the Soulstone can bring his wife back permanently this time.
-- **Grett:** (`The Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is just misunderstood.
+**The Steep Mage:** (`Grave Rituals, Cursed in Verse, Wife's Tea Set`). Soft-spoken, exhausted. He's constantly mumbling under his breath or sipping tea with long pauses.
+- **Grett:** (`His Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is just misunderstood.
 
 **The Burning Faith** aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
 - **Sister Mara:** (`The Silver Mask, Unclean Purifier, Pragmatic`)
@@ -35,30 +35,51 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 
 Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians of the Stone, Sorrowful Touch, Lingering Cold`)
 
+### The Curse in Verse
+The Steep Mage bears this curse—a punishment delivered alongside his wife's murder. She got off easy with simple death. Every word he speaks must rhyme, every pause measured carefully. The tea keeps him alive between verses. He believes the Soulstone can break his curse and bring her back.
+
+> Your victim must communicate<br>
+> constantly in verse<br>
+> for if they fail to rhyme their words<br>
+> their lungs are going to burst<br>
+> small amounts of food and drink<br>
+> might quickly be consumed<br>
+> but should they falter or take sleep<br>
+> their lives are surely doomed.
+
+
 ### Tables
 
 #### 2d6 Grave Findings
-| 2d6 | Discovery |
-|-----|-----------|
-| 2 | **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately |
-| 3 | **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir |
-| 4 | **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby |
-| 5 | **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s) |
-| 6 | **Merchant's Monument**: Lead coffin with solid silver burial mask (200s) |
-| 7 | Vira's forged deed claiming cemetery as family property |
-| 8 | **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside |
-| 9 | **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel |
-| 10 | **Knight's Grave**: Full plate armor and longsword (800s) |
-| 11 | **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
-| 12 | **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver |
+2. **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately |
+3. **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir |
+4. **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby |
+5. **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s) |
+6. **Merchant's Monument**: Lead coffin with solid silver burial mask (200s) |
+7. Vira's forged deed claiming cemetery as family property |
+8. **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside |
+9. **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel |
+10. **Knight's Grave**: Full plate armor and longsword (800s) |
+11. **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
+12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver |
 
 #### d6 Complications
-1. Fog rolls in heavy—sound travels but sight doesn't
-2. Digger panics, flees screaming about "cold hands under the earth"
-3. Grief Wraith attacks whoever touched the Soulstone last
-4. Sister Mara arrives openly, drawing salt circles, demanding surrender
-5. A scream cuts through the fog; then silence. Something's gone very wrong
-6. Sentinel Crows alert everyone to your location
+**2d6 would be better** - gives you a bell curve so common complications stay manageable while rare rolls (2, 12) can be wild.
+
+#### 2d6 Complications
+2. **The Seal Breaks** - Lady Veshra's coffin cracks open. Grief Wraiths pour into the fog
+3. **Ambush** - Brother Tove emerges with blessed silver and absolute certainty
+4. **Sorrowful Touch** - A Grief Wraith attacks whoever last touched the Soulstone
+5. **Digger Panics** - Grett drops his spade, flees screaming about "cold hands under the earth"
+6. **Fire in the Fog** - Sister Mara's torches light up nearby
+7. **Heavy Fog Rolls In** - Sound travels clearly but you can't see past arm's length
+8. **The Steep Mage Notices** - Sets down his teacup and looks directly _through_ you
+9. **Lingering Cold** - Temperature plummets. Breath mists. Something's close
+10. **Sentinel Crows** - shriek and circle. The cemetery knows where you are
+11. **Everyone Converges** - All factions arrive at the monument at once
+12. **The Ritual Begins** - The Steep Mage begins his rhyming chant rising in tempo and desperation.
+
+The 7-8 middle results keep things tense without escalating. The extremes (2-3, 11-12) push toward confrontation or disaster.
 
 #### d6 What's In The Box?
 1. **Mourning Locket** - Contains a lock of hair that's still growing; 30s to the morbidly curious
