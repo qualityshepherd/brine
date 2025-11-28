@@ -63,9 +63,6 @@ The Steep Mage suffers a binding curse delivered beside his wife’s murder. If 
 11. **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
 12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver |
 
-#### d6 Complications
-**2d6 would be better** - gives you a bell curve so common complications stay manageable while rare rolls (2, 12) can be wild.
-
 #### 2d6 Complications
 2. **The Seal Breaks** - Lady Veshra's coffin cracks open. Grief Wraiths pour into the fog
 3. **Ambush** - Brother Tove emerges with blessed silver and absolute certainty
