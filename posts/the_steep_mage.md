@@ -19,10 +19,10 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 
 ### Factions
 
-**The Steep Mage:** (`Grave Rituals, Cursed in Verse, Wife's Tea Set`). Soft-spoken, exhausted. He's constantly mumbling under his breath or sipping tea with long pauses.
-- **Grett:** (`His Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is just misunderstood.
+**The Steep Mage:** (`Grave Rituals, Cursed in Verse, Wife's Tea Set`). Soft-spoken, exhausted and trapped in perpetual rhyme. He mumbles under his breath, sipping tea with dramatic pauses.
+- **Grett:** (`His Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is misunderstood.
 
-**The Burning Faith** aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
+**The Burning Faith** Fanatics who aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
 - **Sister Mara:** (`The Silver Mask, Unclean Purifier, Pragmatic`)
 - **Brother Tove:** (`Young Blood, Tracker of the Damned, There Are No Absolutes`)
 
@@ -36,7 +36,7 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians of the Stone, Sorrowful Touch, Lingering Cold`)
 
 ### The Curse in Verse
-The Steep Mage bears this curse—a punishment delivered alongside his wife's murder. She got off easy with simple death. Every word he speaks must rhyme, every pause measured carefully. The tea keeps him alive between verses. He believes the Soulstone can break his curse and bring her back.
+The Steep Mage suffers a binding curse delivered beside his wife’s murder. If he fails to speak in rhyme, his lungs collapse. Tea and short breaths keep him alive between verses. He believes the Soulstone can free him—and bring her back.
 
 > Your victim must communicate<br>
 > constantly in verse<br>
