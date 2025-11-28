@@ -76,8 +76,6 @@ The Steep Mage suffers a binding curse delivered beside his wife’s murder. If 
 11. **Everyone Converges** - All factions arrive at the monument at once
 12. **The Ritual Begins** - The Steep Mage begins his rhyming chant rising in tempo and desperation.
 
-The 7-8 middle results keep things tense without escalating. The extremes (2-3, 11-12) push toward confrontation or disaster.
-
 #### d6 What's In The Box?
 1. **Mourning Locket** - Contains a lock of hair that's still growing; 30s to the morbidly curious
 2. **Porcelain Fingers** - A child's hand, perfectly preserved in white porcelain, cold and delicate
