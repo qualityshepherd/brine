@@ -51,17 +51,17 @@ The Steep Mage suffers a binding curse delivered beside his wife’s murder. If 
 ### Tables
 
 #### 2d6 Grave Findings
-2. **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately |
-3. **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir |
-4. **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby |
-5. **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s) |
-6. **Merchant's Monument**: Lead coffin with solid silver burial mask (200s) |
-7. Vira's forged deed claiming cemetery as family property |
-8. **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside |
-9. **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel |
-10. **Knight's Grave**: Full plate armor and longsword (800s) |
+2. **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately
+3. **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir
+4. **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby
+5. **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s)
+6. **Merchant's Monument**: Lead coffin with solid silver burial mask (200s)
+7. Vira's forged deed claiming cemetery as family property
+8. **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside
+9. **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel
+10. **Knight's Grave**: Full plate armor and longsword (800s)
 11. **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
-12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver |
+12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver
 
 #### 2d6 Complications
 2. **The Seal Breaks** - Lady Veshra's coffin cracks open. Grief Wraiths pour into the fog
