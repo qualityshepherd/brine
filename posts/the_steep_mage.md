@@ -17,6 +17,8 @@ A robed figure sits on a stool near the monument, porcelain tea service arranged
 
 The cemetery's Sentinel Crows have betrayed him. He will have company this night. **The Burning Faith** come to purge the site. **Veshra descendants** are here for their inheritance. And breaking the seal on Lady Veshra's coffin releases the **Grief Wraiths**, who do not discriminate.
 
+**The PCs approach  the cemetery gate. Two sellswords lean against the pillars, passing a flask. One mutters _"where is she?"_. They are puzzled at your arrival...**
+
 ### Factions
 
 **The Steep Mage:** (`Grave Rituals, Cursed in Verse, Wife's Tea Set`). Soft-spoken, exhausted and trapped in perpetual rhyme. He mumbles under his breath, sipping tea with dramatic pauses.
@@ -28,7 +30,7 @@ The cemetery's Sentinel Crows have betrayed him. He will have company this night
 
 **Veshra's Descendants** believe the Soulstone is family property and their last, best asset. They use stealth, bribery, appeals to law—including promises of payment to mercenaries they can't afford. They won't destroy grandmother's remains or let the stone burn.
 - **Vira Veshra:** (`Last of Her Line, Exiled Noble, Desperate`)
-- **Sellswords**: (`Hired Muscle, Professional`). They're waiting at the cemetery gate, sharpening blades, sharing a flask. One keeps asking _"Where is she?"_ Another: _"We should just take whatever's valuable and go."_
+- **Sellswords**: (`Hired Muscle, Professional`). Vira hired them but she's late. They're eying the monument and one asks: _"Should we just grab whatever's valuable and go?"_
 
 <break>
 
