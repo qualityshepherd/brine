@@ -49,9 +49,9 @@ When a character does something risky—when the cost might be meaningful—roll
 - 4 `Devil's Bargain`: the player describes a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
-**Lower die** determines impact, consequence or fictional positioning—how good is your success or how bad is your failure:
+**Lower die** measures the stakes presented in the fiction—how effective your success or how severe your failure:
 - Combat: *Rolls: 2d6 → 6, 5* you succeed and deal serious damage
-- Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and on the edge
+- Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and exposed
 - *Rolls: 2d6 → 3, 1* you fail and leave yourself in a bad spot
 - No Relevant `Name`: nobody needs training to slice a throat... but the fictional positioning required likely negates the need to roll the *1d6*
 
@@ -213,5 +213,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.15_ by brine <br>
+_v1.1.16_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_

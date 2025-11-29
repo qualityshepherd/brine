@@ -22,12 +22,13 @@ The cemetery's Sentinel Crows have betrayed him. He will have company this night
 **The Steep Mage:** (`Grave Rituals, Cursed in Verse, Wife's Tea Set`). Soft-spoken, exhausted and trapped in perpetual rhyme. He mumbles under his breath, sipping tea with dramatic pauses.
 - **Grett:** (`His Loyal Fool, Strong Back`). Lead digger who thinks the Steep Mage is misunderstood.
 
-**The Burning Faith** Fanatics who aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead."
+**The Burning Faith** Fanatics who aim to destroy the Soulstone and salt the graveyard. They use ambush, salt circles, burning sage. They won't negotiate with "those who traffic with the dead." They watch from the chapel ruins, drawing salt circles and arguing about when to strike. Their torches are visible and smell of burning sage.
 - **Sister Mara:** (`The Silver Mask, Unclean Purifier, Pragmatic`)
 - **Brother Tove:** (`Young Blood, Tracker of the Damned, There Are No Absolutes`)
 
 **Veshra's Descendants** believe the Soulstone is family property and their last, best asset. They use stealth, bribery, appeals to law—including promises of payment to mercenaries they can't afford. They won't destroy grandmother's remains or let the stone burn.
 - **Vira Veshra:** (`Last of Her Line, Exiled Noble, Desperate`)
+- **Sellswords**: (`Hired Muscle, Professional`). They're waiting at the cemetery gate, sharpening blades, sharing a flask. One keeps asking _"Where is she?"_ Another: _"We should just take whatever's valuable and go."_
 
 <break>
 
@@ -48,20 +49,7 @@ The Steep Mage suffers a binding curse delivered beside his wife’s murder. If 
 > their lives are surely doomed.
 
 
-### Tables
-
-#### 2d6 Grave Findings
-2. **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately
-3. **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir
-4. **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby
-5. **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s)
-6. **Merchant's Monument**: Lead coffin with solid silver burial mask (200s)
-7. Vira's forged deed claiming cemetery as family property
-8. **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside
-9. **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel
-10. **Knight's Grave**: Full plate armor and longsword (800s)
-11. **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
-12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver
+### Tools
 
 #### 2d6 Complications
 2. **The Seal Breaks** - Lady Veshra's coffin cracks open. Grief Wraiths pour into the fog
@@ -75,6 +63,19 @@ The Steep Mage suffers a binding curse delivered beside his wife’s murder. If 
 10. **Sentinel Crows** - shriek and circle. The cemetery knows where you are
 11. **Everyone Converges** - All factions arrive at the monument at once
 12. **The Ritual Begins** - The Steep Mage begins his rhyming chant rising in tempo and desperation.
+
+#### 2d6 Grave Findings
+2. **Paupers' Pit**: Mass grave. Disturbing it summons Grief Wraiths immediately
+3. **Chapel Bell**: The tower's bell has no clapper but rings when the wraiths stir
+4. **Child's Garden**: Small grave, stone rabbits, fresh flowers. Disturbing it draws phantom crying that alerts anyone nearby
+5. **Hunter's Camp**: Fresh salt circle, still-warm coals, tracks heading toward monument. Blessed silver stakes (30s)
+6. **Merchant's Monument**: Lead coffin with solid silver burial mask (200s)
+7. Vira's forged deed claiming cemetery as family property
+8. **Witch's Cairn**: Stones in iron chains, warm. Rare herbs and attuned rune-bones inside
+9. **Collapsed Mausoleum**: Cracked stone reveals passage beneath cemetery to the chapel
+10. **Knight's Grave**: Full plate armor and longsword (800s)
+11. **Lovers' Tomb**: Ornate silver locket (40 silver) and matching rings (20 silver)
+12. **Gambler's Grave**: Monument etched with playing cards and the phrase "Don't play poker with jokers." Pressing the joker relief opens compartment with loaded dice, marked cards, and 200 silver
 
 #### d6 What's In The Box?
 1. **Mourning Locket** - Contains a lock of hair that's still growing; 30s to the morbidly curious
