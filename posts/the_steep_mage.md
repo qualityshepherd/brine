@@ -15,7 +15,7 @@ Fog chokes Veshra Cemetery. Monuments lean at drunken angles and a half-collapse
 
 A robed figure sits on a stool near the monument, porcelain tea service arranged _just so_ on a headstone. **The Steep Mage** sips from fine bone china while his gravediggers work, their spades biting into consecrated earth.
 
-He will have company this night. **The Burning Faith** come to purge the site. **Veshra descendants** are here for their inheritance. And breaking the seal on Lady Veshra's coffin releases the **Grief Wraiths**, who do not discriminate.
+The cemetery's Sentinel Crows have betrayed him. He will have company this night. **The Burning Faith** come to purge the site. **Veshra descendants** are here for their inheritance. And breaking the seal on Lady Veshra's coffin releases the **Grief Wraiths**, who do not discriminate.
 
 ### Factions
 
@@ -36,7 +36,7 @@ He will have company this night. **The Burning Faith** come to purge the site. *
 Breaking the seal on Veshra's coffin releases the **Grief Wraiths** (`Guardians of the Stone, Sorrowful Touch, Lingering Cold`)
 
 ### The Curse in Verse
-The Steep Mage suffers a binding curse delivered beside his wife’s murder. If he fails to speak in rhyme, his lungs collapse. Tea and short breaths keep him alive between verses. He believes the Soulstone can free him—and bring her back.
+The Steep Mage suffers a binding curse delivered beside his wife’s murder. If he fails to speak in rhyme, his lungs collapse. Tea and short breaths keep him alive between verses. He believes the Soulstone can free him—and bring her back. Without it he is surely doomed.
 
 > Your victim must communicate<br>
 > constantly in verse<br>

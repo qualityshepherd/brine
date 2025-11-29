@@ -141,7 +141,7 @@ nav #links {
   background-color: var(--text);
   padding: 5px;
   border-radius: 15px;
-  opacity: .85;
+  filter: brightness(85%);
 }
 
 [alt="full"], [alt="center"] {
