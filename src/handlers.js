@@ -104,6 +104,12 @@ export function handleRouting () {
 
   const handler = routeHandlers[route] || routeHandlers.default
   handler({ params })
+
+  //clicky page views for analytics...
+  if (window.clicky) {
+    const virtualPath = location.hash || '/'
+    clicky.log(virtualPath, document.title, 'pageview')
+  }
 }
 
 export function handleSearch (e) {
