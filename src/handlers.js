@@ -107,9 +107,14 @@ export function handleRouting () {
 
   // clicky page views for analytics...
   if (window.clicky && typeof clicky.log === 'function') {
+    // Build a virtual path from the hash
+    const virtualPath = '/' + (location.hash.replace(/^#/, '') || '');
+
+    // Delay slightly to ensure Clicky is ready
     setTimeout(() => {
-      clicky.log(location.href, document.title, 'pageview')
-    }, 0)
+      clicky.log(virtualPath, document.title, 'pageview');
+      console.log('Clicky logged:', virtualPath); // debug
+    }, 50);
   }
 }
 
