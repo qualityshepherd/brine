@@ -106,8 +106,10 @@ export function handleRouting () {
   handler({ params })
 
   // clicky page views for analytics...
-  if (window.clicky) {
-    clicky.log(location.hash || '/', document.title, 'pageview')
+  if (window.clicky && typeof clicky.log === 'function') {
+    setTimeout(() => {
+      clicky.log(location.href, document.title, 'pageview')
+    }, 0)
   }
 }
 
