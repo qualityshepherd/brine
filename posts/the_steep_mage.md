@@ -39,15 +39,18 @@ As the PCs approach the cemetery gate, two mercenaries lean against the pillars,
 > The fourth grave waits, it shall be mine.”*
 
 Only when he sips his tea can he speak normally for a few precious moments before his lungs seize again.
-**Tonight is his last chance. Without the ritual, he dies by dawn.**
+Tonight is his last chance. Without the ritual, he dies by dawn.
 
 - **Grett:** (`His Loyal Fool, Strong Back, Sometimes Possessed`) Lead digger. Thinks the Mage is misunderstood. Protective and suspicious of intruders.
 
+---
 
 **The Dybbuk** (`Steep Mage's Wife, Violent Possession, Cannot Rest`) She died violently and now exists as a disembodied spirit. She drifts through the cemetery, slipping in and out of bodies, to aid the ritual. She might possess Grett to dig faster, a merc to drive away intruders, Vira to steal her own family's Soulstone, or even a PC to guide them toward helping.
 
 > Her love is real.
 > Her control is not.
+
+---
 
 **Veshra Cemetery** (`Watchful, Protective, Vengeful`)
 
@@ -55,11 +58,12 @@ Only when he sips his tea can he speak normally for a few precious moments befor
 - **The Grief Wraiths** — They sleep beneath the earth, bound by the Soulstone's seal. Break it, and they rise.
 - **The Soulstone** - A fist-sized crystalline shard that absorbs grief and binds spirits. It has bound Veshra's dead to the cemetery for generations. It is the cemetery's heart.
 
+---
+
 **Veshra’s Descendants** Vira believes the Soulstone is family property; her last asset. She is terrified of being caught grave-robbing, so she’s deliberately late: she went to the magistrate in town to claim her family crypt is being desecrated. She hopes the law will arrest everyone (including her own mercenaries), letting her claim the stone legally.
 
-- **Vira Veshra:** (`Last of Her Line, Desperate, Cheap`)
-
-- **Mercenaries:** (`Muscle, Professional, Impatient`) Paid to guard the gate. Paid poorly. Considering leaving. Considering theft.
+- **Vira Veshra** (`Last of Her Line, Desperate, Cheap`)
+- **Mercenaries** (`Muscle, Professional, Impatient`) Paid to guard the gate. Paid poorly. Considering leaving. Considering theft.
 
 
 ### The Twist
