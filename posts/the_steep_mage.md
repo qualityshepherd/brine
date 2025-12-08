@@ -74,14 +74,14 @@ Breaking the seal on Lady Veshra’s coffin releases the **Grief Wraiths** (`Gua
 
 The Steep Mage suffers a curse delivered at his wife’s murder. If he fails to speak in rhyme, his lungs collapse. Tea grants brief clarity, allowing him to speak normally for a moment. He believes the Soulstone can free him and truly restore her.
 
-> Your victim must communicate
-> constantly in verse
-> for if they fail to rhyme their words
-> their lungs are going to burst
-> small amounts of food and drink
-> might quickly be consumed
-> but should they falter or take sleep
-> their lives are surely doomed.
+> Your victim must communicate <br>
+> constantly in verse <br>
+> for if they fail to rhyme their words <br>
+> their lungs are going to burst <br>
+> small amounts of food and drink <br>
+> might quickly be consumed <br>
+> but should they falter or take sleep <br>
+> their lives are surely doomed. <br>
 
 
 ### Locations
@@ -96,23 +96,22 @@ The Steep Mage suffers a curse delivered at his wife’s murder. If he fails to 
 
 **Witch’s Cairn:** Stone mound like a witch's hat, bound in iron chains. Inside: rare herbs, rune-bones, charred teeth. The Dybbuk cannot come near it.
 
-### Tools
 
-#### 2d6 Complications
+### 2d6 Complications
 
-2. **The Seal Breaks** – Grief Wraiths rise from the Paupers’ Pit
-3. **She Possesses Someone** – A PC/NPC speaks in a woman’s voice: “*Help him. Please.*”
-4. **Sorrowful Touch** – A wraith attacks whoever touched the Soulstone last
-5. **Digger Panics** – Grett flees screaming—or was he pushed?
-6. **The Law Arrives** – Torches on the road
-7. **Heavy Fog Rolls In** – Sight fails; sound carries
-8. **The Steep Mage Speaks** – Tea loosens the curse: “Please. Let me finish.”
-9. **Lingering Cold** – Dybbuk or wraith? Hard to say
-10. **Sentinel Crows Attack** – The cemetery marks you
-11. **Everyone Converges** – All factions at the monument
-12. **The Ritual Begins** – Verse rising, Dybbuk swirling around him
+2. **The Seal Cracks** – The coffin splinters. Cold pours out. Wraiths rise from the Paupers' Pit
+3. **She Takes Someone** – A PC/NPC gasps, eyes wide: _"Help him. Please."_ Their voice isn't theirs
+4. **A Wraith Strikes** – Sudden cold. A wraith attacks whoever last touched the Soulstone
+5. **Grett Breaks** – He drops his spade, screams, runs... or was he shoved?
+6. **Torches on the Road** – The magistrate's men. Voices, dogs, the jangle of chains
+7. **The Cemetery Blinds You** – Fog devours the graveyard. You can't see past your hand. Sound carries
+8. **The Mage Pleads** – His voice echoes through the graveyard, clear for the first time: _"Please. Let me finish."_
+9. **Something Cold** – Temperature plummets. Dybbuk or wraith?
+10. **A Murder of Crows** – Beaks, talons, shrieking. The cemetery has marked you
+11. **The Cemetery Quakes** – Ground heaves. Everyone falls. The tea set shatters on stone
+12. **The Ritual Begins** – His voice rises, desperate verse echoing. The Dybbuk swirls around him like smoke
 
-#### d6 What's In The Box?
+### d6 What's In The Box?
 
 1. **Mourning Locket** – Contains hair still growing
 2. **Porcelain Fingers** – A child’s hand, cold and delicate
