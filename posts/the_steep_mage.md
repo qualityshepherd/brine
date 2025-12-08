@@ -19,13 +19,13 @@ But the cemetery itself betrays him. **Sentinel Crows** are its eyes; **Grief Wr
 
 But the Steep Mage is not alone. His murdered wife has returned as a **Dybbuk**; a desperate spirit who possesses the living. She haunts the chapel, trying to help him succeed. Tonight is their last chance.
 
-**He joins his true love in life or in death tonight.**
+**Tonight he joins his true love in life or in death.**
 
-As the PCs approach the cemetery gate, two mercenaries lean against the pillars, passing a flask. One mutters *"Where is she?"* They are puzzled at your arrival...
+As the PCs approach the cemetery gate, mercenaries lean against the pillars, passing a flask. One mutters _"Where is she?"_ They are puzzled by your arrival...
 
 ### Who Are You?
 
-- **Possessed**: The Dybbuk found you first. She slipped inside you like cold water, and now you're walking toward the monument. You still have some control, but she's stronger when you're emotional or tired. She needs you to help him complete the ritual. You feel her grief; her desperation. Sometimes you speak in her voice. Sometimes you can't remember what you just did.
+- **Possessed**: The Dybbuk found one of you first. She slipped inside you like freezing water, and now you're drawn toward the monument. You still have some control, but she's stronger when you're emotional or tired. She needs you to help him complete the ritual. You feel her grief; her desperation. Sometimes you speak in her voice. Sometimes you can't remember what you just did.
 - **Veshra's Bastards**: You share Vira's blood but not her title or inheritance. The Soulstone should be yours by right of kinship. You arrived early to claim it before your "dear cousin" and her hired thugs. You know the cemetery's layout from childhood visits before the exile. The crows remember you, but you're not sure if that's good or bad.
 - **Magistrate Flunkies**: The magistrate reluctantly sent _"his best agents"_ to assess the situation. Vira came to him with wild accusations of grave desecration and dark magic. He's not sure if she's telling the truth or just wants free muscle to reclaim her inheritance. If things go badly, you have the authority to act.
 - **Grave Tenders**: You maintain Veshra Cemetery. You know every name on every headstone. You've felt the cemetery's eye for years. You put flowers to the Paupers' Pit. The cemetery called you here.
@@ -35,8 +35,8 @@ As the PCs approach the cemetery gate, two mercenaries lean against the pillars,
 
 **The Steep Mage** (`Grave Rituals, Cursed in Verse, Wife's Tea Set, Desperate Love`) Soft-spoken between verses and sips, exhausted and trapped in perpetual rhyme. He sways back and forth, mumbling the same couplet endlessly:
 
-> *“Three graves dug, three souls bind
-> The fourth grave waits, it shall be mine.”*
+> *“Three graves dug, three souls bound <br>
+> Within the fourth, it shall be found.”*
 
 Only when he sips his tea can he speak normally for a few precious moments before his lungs seize again.
 Tonight is his last chance. Without the ritual, he dies by dawn.
