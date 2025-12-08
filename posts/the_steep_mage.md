@@ -36,8 +36,7 @@ As the PCs approach the cemetery gate, mercenaries lean against the pillars, pas
 
 **The Steep Mage** (`Grave Rituals, Cursed in Verse, Wife's Tea Set, Desperate Love`) Soft-spoken between verses and sips, exhausted and trapped in perpetual rhyme. He sways back and forth, mumbling the same couplet endlessly:
 
-> *“Three graves dug, three souls bound <br>
-> Within the fourth, it shall be found.”*
+> *“Three graves dug, three souls bound. Within the fourth, it shall be found.”*
 
 Only when he sips his tea can he speak normally for a few precious moments before his lungs seize again.
 Tonight is his last chance. Without the ritual, he dies by dawn.
