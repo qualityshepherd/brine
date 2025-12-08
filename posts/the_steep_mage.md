@@ -41,14 +41,13 @@ As the PCs approach the cemetery gate, mercenaries lean against the pillars, pas
 Only when he sips his tea can he speak normally for a few precious moments before his lungs seize again.
 Tonight is his last chance. Without the ritual, he dies by dawn.
 
-- **Grett:** (`His Loyal Fool, Strong Back, Sometimes Possessed`) Lead digger. Thinks the Mage is misunderstood. Protective and suspicious of intruders.
+- **Grett:** (`His Loyal Fool, Strong Back`) Lead digger. Thinks the Mage is just misunderstood. Protective and suspicious of intruders.
 
 ---
 
 **The Dybbuk** (`Steep Mage's Wife, Violent Possession, Cannot Rest`) She died violently and now exists as a disembodied spirit. She drifts through the cemetery, slipping in and out of bodies, to aid the ritual. She might possess Grett to dig faster, a merc to drive away intruders, Vira to steal her own family's Soulstone, or even a PC to guide them toward helping.
 
-> Her love is real.
-> Her control is not.
+> Her love is real. Her control is not.
 
 ---
 
@@ -75,7 +74,7 @@ Breaking the seal on Lady Veshra’s coffin releases the **Grief Wraiths** (`Gua
 The Steep Mage suffers a curse delivered at his wife’s murder. If he fails to speak in rhyme, his lungs collapse. Tea grants brief clarity, allowing him to speak normally for a moment. He believes the Soulstone can free him and truly restore her.
 
 > Your victim must communicate <br>
-> constantly in verse <br>
+> consistently in verse <br>
 > for if they fail to rhyme their words <br>
 > their lungs are going to burst <br>
 > small amounts of food and drink <br>
