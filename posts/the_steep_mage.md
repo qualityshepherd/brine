@@ -106,7 +106,7 @@ The Steep Mage suffers a curse delivered at his wife’s murder. If he fails to 
 6. **Torches on the Road** – The magistrate's men. Voices, dogs, the jangle of chains
 7. **The Cemetery Blinds You** – Fog devours the graveyard. You can't see past your hand. Sound carries
 8. **The Mage Pleads** – His voice echoes through the graveyard, clear for the first time: _"Please. Let me finish."_
-9. **Something Cold** – Temperature plummets. Dybbuk or wraith?
+9. **The Gates Slam Shut** – Rusted iron crashes closed. The cemetery won't let you leave
 10. **A Murder of Crows** – Beaks, talons, shrieking. The cemetery has marked you
 11. **The Cemetery Quakes** – Ground heaves. Everyone falls. The tea set shatters on stone
 12. **The Ritual Begins** – His voice rises, desperate verse echoing. The Dybbuk swirls around him like smoke
