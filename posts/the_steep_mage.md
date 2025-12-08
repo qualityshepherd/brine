@@ -52,8 +52,8 @@ Only when he sips his tea can he speak normally for a few precious moments befor
 **Veshra Cemetery** (`Watchful, Protective, Vengeful`)
 
 - **The Sentinel Crows** — Black birds with silver-gray eyes. They perch on headstones and rooftops, cawing warnings when graves are disturbed.
-
 - **The Grief Wraiths** — They sleep beneath the earth, bound by the Soulstone's seal. Break it, and they rise.
+- **The Soulstone** - A fist-sized crystalline shard that absorbs grief and binds spirits. It has bound Veshra's dead to the cemetery for generations. It is the cemetery's heart.
 
 **Veshra’s Descendants** Vira believes the Soulstone is family property; her last asset. She is terrified of being caught grave-robbing, so she’s deliberately late: she went to the magistrate in town to claim her family crypt is being desecrated. She hopes the law will arrest everyone (including her own mercenaries), letting her claim the stone legally.
 
