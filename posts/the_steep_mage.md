@@ -13,7 +13,7 @@ tags: scenario, oyab, one-shot
 
 Fog chokes Veshra Cemetery. Monuments lean at drunken angles and a half-collapsed chapel marks the cemetery's northern edge. At its center, three excavated graves form a triangle around Lady Veshra's monument.
 
-A robed figure sits on a stool near the monument, tea service arranged *just so* on a headstone. **The Steep Mage** sips from fine bone china while his gravediggers work, their spades biting into consecrated earth. He rocks ever so slightly, mouthing a verse over and over.
+A robed figure sits on a stool near the monument, dark lantern at his feet. Tea service arranged *just so* on a headstone. **The Steep Mage** sips from fine bone china while his gravediggers work, their spades biting into consecrated earth. His shadow looms over the marble, rocking ever so slightly as he mouths a verse over and over.
 
 But the cemetery itself betrays him. **Sentinel Crows** are its eyes; **Grief Wraiths** its vengeance. **Veshra's descendant** is here for her inheritance. And breaking Lady Veshra's coffin seal releases the wraiths, who protect the cemetery and the Soulstone from disturbance.
 
@@ -51,7 +51,7 @@ Tonight is his last chance. Without the ritual, he dies by dawn.
 
 ---
 
-**Veshra Cemetery** (`Watchful, Protective, Vengeful`)
+**Veshra Cemetery** (`Protective, Vengeful`)
 
 - **The Sentinel Crows** — Black birds with silver eyes. They perch on headstones and rooftops, cawing warnings when graves are disturbed.
 - **The Grief Wraiths** — They sleep beneath the earth, bound by the Soulstone's seal. Break it, and they rise.
@@ -61,13 +61,13 @@ Tonight is his last chance. Without the ritual, he dies by dawn.
 
 **Veshra’s Descendants** Vira believes the Soulstone is family property; her last asset. She is terrified of being caught grave-robbing, so she’s deliberately late: she went to the magistrate in town to claim her family crypt is being desecrated. She hopes the law will arrest everyone (including her own mercenaries), letting her claim the stone legally.
 
-- **Vira Veshra** (`Last of Her Line, Desperate, Penny Pincher`)
-- **Mercenaries** (`Muscle, Professional, Let's Loot The Place`) Paid to guard the gate. Paid poorly. Considering leaving. Considering theft.
+- **Vira Veshra** (`Last of Her Line, Shabby Elegance, Penny Pincher`)
+- **Mercenaries** (`Street Tough, Bar Stool Bravado, Let's Loot The Place`) Paid to guard the gate. Paid poorly. Considering leaving. Considering theft.
 
 
 ### The Twist
 
-Breaking the seal on Lady Veshra’s coffin releases the **Grief Wraiths** (`Guardians of the Cemetery, Sorrowful Touch, Lingering Cold`). Translucent figures in burial shrouds; only a sudden cold betrays their presence. They attack any who disturb the cemetery. Their touch drains hope and warmth; victims relive their worst memories. They cannot cross salt circles and are vulnerable to blessed silver.
+Breaking the seal on Lady Veshra’s coffin releases the **Grief Wraiths** (`Cemetery Vengeance, Sorrowful Touch, Lingering Cold`). Translucent figures in burial shrouds; only a sudden cold betrays their presence. They attack any who disturb the cemetery. Their touch drains hope and warmth; victims relive their worst memories. They cannot cross salt circles and are vulnerable to blessed silver.
 
 ### The Curse in Verse
 
