@@ -13,7 +13,7 @@ tags: scenario, oyab, one-shot
 
 Fog chokes Veshra Cemetery. Monuments lean at drunken angles and a half-collapsed chapel marks the cemetery's northern edge. At its center, three excavated graves form a triangle around Lady Veshra's monument.
 
-A robed figure sits on a stool near the monument, tea service arranged *just so* on a headstone. **The Steep Mage** sips from fine bone china while his gravediggers work, their spades biting into consecrated earth. He rocks ever so slightly, mumbling a verse over and over.
+A robed figure sits on a stool near the monument, tea service arranged *just so* on a headstone. **The Steep Mage** sips from fine bone china while his gravediggers work, their spades biting into consecrated earth. He rocks ever so slightly, mouthing a verse over and over.
 
 But the cemetery itself betrays him. **Sentinel Crows** are its eyes; **Grief Wraiths** its vengeance. **Veshra's descendant** is here for her inheritance. And breaking Lady Veshra's coffin seal releases the wraiths, who protect the cemetery and the Soulstone from disturbance.
 
