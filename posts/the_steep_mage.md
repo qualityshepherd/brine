@@ -25,7 +25,7 @@ As the PCs approach the cemetery gate, mercenaries lean against the pillars, pas
 
 ### Who Are You?
 
-- **Possessed**: The Dybbuk found one of you first. She slipped inside you like freezing water, and now you're drawn toward the monument. You still have some control, but she's stronger when you're emotional or tired. She needs you to help him complete the ritual. You feel her grief; her desperation. Sometimes you speak in her voice. Sometimes you can't remember what you just did.
+- **Possessed**: The Dybbuk found one of you first. She slipped inside you like burning ice water, and now you're drawn toward the monument. You still have some control, but she's stronger when you're emotional or tired. She needs you to help him complete the ritual. You feel her grief; her desperation. Sometimes you speak in her voice. Sometimes you can't remember what you just did.
 - **Veshra's Bastards**: You share Vira's blood but not her title or inheritance. The Soulstone should be yours by right of kinship. You arrived early to claim it before your "dear cousin" and her hired thugs. You know the cemetery's layout from childhood visits before the exile. The crows remember you, but you're not sure if that's good or bad.
 - **Magistrate Flunkies**: The magistrate reluctantly sent his "_best agents_" to assess the situation. Vira came to him with wild accusations of grave desecration and dark magic. He thinks she's batshit crazy but if things go badly, you have the authority to act.
 - **Grave Tenders**: You maintain Veshra Cemetery. You know every name on every headstone. You've felt the cemetery's eye for years. You put flowers on the Paupers' Pit. The cemetery called you here...
