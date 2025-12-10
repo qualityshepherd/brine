@@ -7,7 +7,7 @@ tags: scenario, oyab, one-shot
 
 [![thumb](/assets/images/drawrings/veshna_cemetary2.jpg)](/assets/images/drawrings/veshna_cemetary2.jpg)
 
-> *A one-shot scenario for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any system Compatible With Roleplaying*
+> *A gothic fantasy one-shot for [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) or any system Compatible With Roleplaying*
 
 ### Introduction
 
