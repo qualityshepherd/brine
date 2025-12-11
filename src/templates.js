@@ -32,7 +32,13 @@ export const notFoundTemplate = () => '<p>Post not found.</p>'
 export const aboutPageTemplate = () => `
   <h2>About</h2>
   <div class="center">
-    I'm a blabby nerd that lives in the desert. I have a habit of creating things and releasing them to the world without notice ¯\_(ツ)_/¯
+    <p>I'm a blabby nerd that lives in the desert. I have a habit of creating things and releasing them to the world without notice ¯\_(ツ)_/¯</p>
+    <ul>
+    <li><a href="https://brine.dev/#post?s=of_yarn_and_bone">Of Yarn and Bone</a> is my current <i>game in progress</i>.</li>
+    <li><a href="https://rando.brine.dev/">Rando</a> is my random generator that I use for jus about everything.</li>
+    <li><a href="https://casadeocio.itch.io/the-steep-mage">The Steep Mage</a> is my most recent scenario I've published.</li>
+    </ul>
+    <p>Email me if you have something to say! <code>ack at brine dot dev</code></p>
     <div class="social">
       <a href='&#109;a&#105;l&#116;o&#58;m%65%4&#48;b&#114;&#105;n%65&#46;%64e&#118;' title="email"><img src="assets/images/social/email.png" alt="email"></a>
       <a href="https://casadeocio.itch.io/" title="games on itch"><img src="assets/images/social/itch-io.png" alt="my publications on itch"></a>
