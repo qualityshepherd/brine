@@ -15,6 +15,13 @@ When groups fight, _zoom out_. Use the following threat levels to track the situ
 3. **Deadly** - you are outmatched AND outnumbered
 4. **Overwhelmed** - you shouldn't be fighting this
 
-Compare the roll (lower die in OYAB) to the current level to gauge effectiveness and consequences. Adjust level as conditions change (enemies eliminated, tools found, environment shifts, etc...).
+Roll `2d6` (as per [OYAB](https://brine.dev/#post?s=of_yarn_and_bone)) - high die for success, low die compared to threat level for impact:
+- Beats threat: significant impact - eliminate enemies, gain ground
+- Matches threat: moderate impact - take down one, hold position  
+- Below threat: minimal impact - losing ground, threat worsens
+
+Adjust threat level when conditions change:
+- Drop: eliminate enemies, gain advantage, secure position
+- Raise: reinforcements, lose advantage, environment worsens
 
 **Example:** Three wraiths attack (`Deadly`). You roll `2d6 → 6, 3`. Success (6), moderate effect (3 vs. `Deadly`). You destroy one wraith. The situation shifts to `Dangerous` (two remain).
