@@ -213,5 +213,23 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-_v1.1.16_ by brine <br>
+#### Magic Example
+
+- **Rowan** (Wandering Mage, Stone Speaker, Hunted by the Ironwood Clan)
+
+> **GM**: You're trapped in the cave. Thirty goblins outside have piled brush at the entrance and set it ablaze. Smoke is filling the cave. They're between you and the forest. What do you do?
+
+**Some magical solutions discussed at the table**:
+- Ask cave stone to remember the passage it once was; find the old water channel, create a back exit
+- Ask air to rush outward violently and blast the brush fire to scatter the goblins
+- Ask fire to consume the brush quickly, burn hot and fast before the smoke kills you (risk: might spread to - the forest)
+- Ask water seeping through the cave walls to gather and reflect what it's seen: the goblins' positions
+- Combine a LOUD VOICE Promise with rumbling rocks underfoot to scare them off
+- Ally with the trees. Convince them these axe-wielding goblins will be upon them next
+- Ask briars to tangle (with Enhancement to affect enough goblins to route the rest)
+
+> **Rowan**: I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
+> **GM**: Smart. Roll your casting with Stone Speaker—smoke isn't quite your specialty but you're working with natural elements.
+
+_v1.1.17_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
