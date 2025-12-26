@@ -213,7 +213,7 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
 > **GM**: "A fitting price. Show me how you do it..."<br>
 
-#### Magic Example
+#### Spells
 
 - **Rowan** (Wandering Mage, Stone Speaker, Hunted by the Ironwood Clan)
 
