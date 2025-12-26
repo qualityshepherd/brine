@@ -222,7 +222,7 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 **Some magical solutions discussed at the table**:
 - Ask cave stone to remember the passage it once was; find the old water channel, create a back exit
 - Ask air to rush outward violently and blast the brush fire to scatter the goblins
-- Ask fire to consume the brush quickly, burn hot and fast before the smoke kills you (risk: might spread to - the forest)
+- Ask fire to consume the brush quickly, burn hot and fast before the smoke kills you (risk: might spread to the forest)
 - Ask water seeping through the cave walls to gather and reflect what it's seen: the goblins' positions
 - Combine a LOUD VOICE Promise with rumbling rocks underfoot to scare them off
 - Ally with the trees. Convince them these axe-wielding goblins will be upon them next
