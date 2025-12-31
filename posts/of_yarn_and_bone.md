@@ -12,7 +12,7 @@ sansfont: "Oswald"
 sansfont-size: 24pt
 ---
 
-_**Of Yarn and Bone** is a game of identity with stakes, magic with awe, and play with trust._
+_**Of Yarn and Bone** is a conversation-first game of identity with stakes, magic with awe, and play with trust._
 
 ### WHO IN THE WORLD ARE YOU?
 
