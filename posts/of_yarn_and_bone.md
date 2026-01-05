@@ -49,7 +49,7 @@ When a character does something risky—when the cost might be meaningful—roll
 - 4 `Devil's Bargain`: the player describes a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
-**Lower die** measures the stakes presented in the fiction—how effective your success or how severe your failure:
+**Lower die** suggests impact. Use it to scale the result or ignore based on the fiction:
 - Combat: *Rolls: 2d6 → 6, 5* you succeed and deal serious damage
 - Climbing: *Rolls: 2d6 → 6, 2* you reach the top but you're exhausted and exposed
 - *Rolls: 2d6 → 3, 1* you fail and leave yourself in a bad spot
@@ -231,5 +231,5 @@ When it feels right, grant your character a new `Name`, or let one be forgotten.
 > **Rowan**: I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
 > **GM**: Smart. Roll your casting with Stone Speaker—smoke isn't quite your specialty but you're working with natural elements.
 
-_v1.1.17_ by brine <br>
+_v1.1.18_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
