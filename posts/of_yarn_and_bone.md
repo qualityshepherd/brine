@@ -111,7 +111,7 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
 - The higher die determines success (see #DICE)
-- The lower determines impact or consequence
+- The lower suggests impact or consequence
 - A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid—immediately, in time or both.
 - Rolling snake-eyes invokes both failure _and_ a `Burden`
 - Magi who take on 3 `Burdens` become lost in the world
