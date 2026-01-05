@@ -60,9 +60,9 @@ When a character does something risky—when the cost might be meaningful—roll
 #### Injuries
 
 - **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
-- **Bloodied**: stab, cut, internal bleeding. A good night's rest and some treatment should heal these but take too many and you might bleed out.
-- **Broken**: rib, limb, concussed, you're done for the day—maybe the week.
-- **Buried**: you're dead but maybe you can bargain with Death? You'll add a new `Name`. I'm sure it'll be fine... Death is a nice guy?
+- **Bloodied**: stab, cut, internal bleeding. Requires a good night’s rest and treatment; take too many and you'll bleed out.
+- **Broken**: rib, limb, concussed, you're done for the day; maybe the week.
+- **Buried**: You’re dead, but maybe you can bargain with Death to earn a new `Name`? I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable `Names`) and both characters share the consequences.
