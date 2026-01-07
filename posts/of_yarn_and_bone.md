@@ -16,7 +16,7 @@ _**Of Yarn and Bone** is a conversation-first game of identity with stakes, magi
 
 ### WHO IN THE WORLD ARE YOU?
 
-Your character is a product of the world—they start with three `Names` that describe their place in it. `Names` are epithets that might be a role they fill, an identity or something whispered about them. They are actionable, used in play, and may change or be awarded (up to six total).
+Your character is a product of the world; they start with three `Names` that describe their place in it. `Names` are epithets that might be a role they fill, an identity or something whispered about them. They are actionable, used in play, and may change or be awarded (up to six total).
 
 1. Create three `Names` that define your character; here are some prompts to help:
 
@@ -59,10 +59,10 @@ When a character does something risky—when the cost might be meaningful—roll
 
 #### Injuries
 
-- **Bruised**: punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
-- **Bloodied**: stab, cut, internal bleeding. Requires a good night’s rest and treatment; take too many and you'll bleed out.
-- **Broken**: rib, limb, concussed, you're done for the day; maybe the week.
-- **Buried**: You’re dead, but maybe you can bargain with Death to earn a new `Name`? I'm sure it'll be fine... Death is a nice guy?
+- **Bruised:** punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
+- **Bloodied:** stab, cut, internal bleeding. Requires a good night’s rest and treatment; take too many and you'll bleed out.
+- **Broken:** rib, limb, concussed, you're done for the day; maybe the week.
+- **Buried:** You’re dead, but maybe you can bargain with Death to earn a new `Name`? I'm sure it'll be fine... Death is a nice guy?
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable `Names`) and both characters share the consequences.
@@ -79,11 +79,11 @@ Roll 1D6:
 
 ### MAGIC
 
-The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for indulgence—favors, if you like. Given their relationship is in good standing, the world is likely to comply.
+Magi are born with a gift that requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
 
-Magi are born with this gift but it requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
+The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for favors. Given their relationship is in good standing, the world is likely to comply.
 
-A mage asks the world to do what it _wants_ to do, deliberately. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
+A mage asks the world to do what it wants to do, _deliberately_. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
 
 - ask a stone to gather its brethren and create a road
 - ask the air to withhold itself from a creature until it is unconscious
@@ -92,22 +92,33 @@ A mage asks the world to do what it _wants_ to do, deliberately. Stones gather. 
 - ask vines to ensnare a foe
 - ask a flame to cage a foe
 
-
 #### Promises
 
-Promises are the simplest spells—like cantrips. Often dismissed as _cheap tricks_, their ephemeral quality leaves no lasting impression on the world. Yet they signify an unspoken agreement; a remnant from the bond between mage and world. Any mage worth their socks should be able to cast these simple, ephemeral spells without rolling.
+Promises are the simplest spells. Often dismissed as cheap tricks, a clever mage uses them to great effect. Ephemeral by nature, they leave no lasting mark on the world, yet they signify an unspoken agreement between mage and world. Small favors between neighbors. Any mage worth their socks should be able to cast these without rolling.
 
+**Examples:**
+- Turn dust to fog
+- Silence footsteps
+- Obscure in shadow
+- Carry a whisper on the wind
+- Amplify a voice
+- Spark a candle
 
 #### Casting Spells
 
-More advanced spells demand a `Totem`—something physical of the world and a representation of the intended outcome. A piece of something remembers the whole: blood knows the blade, a stone recalls its wall, hair is still _of_ its owner. While a `Totem` should ideally resonate with the desired effect, substitutions are possible. Salt is renowned for warding off malevolent energies, but alternatives like chalk or even ground coffee may serve adequately. Casting also requires speech and the mage's touch.
+Advanced spells require a `Totem`: something you can physically touch that connects you to what you're petitioning; a relationship. 
+
+Touch the thing itself: a vine to ensnare, sand to shift, fire to envelop. Or something that remembers the whole: blood remembers the blade, stone recalls the wall, hair remains of its owner, a dead flower knows death. Can't reach the moon? The ocean's tides may introduce you.
+
+Casting requires speech and your touch.
 
 **Example Totems:**
-- bark from a hanging tree
-- a stone from an enemy's castle
-- any manner of items found in an apothecary
-- a king's slipper
-- a coin from a beggar's cup
+- Stone remembers the wall
+- A king's slipper knows the king intimately  
+- Dead flowers know death
+- Saliva carries a language. Share it to bridge tongues
+- A hanging tree knows how to take life
+- Ash remembers the fire 
 
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
 - The higher die determines success (see #DICE)
@@ -118,27 +129,25 @@ More advanced spells demand a `Totem`—something physical of the world and a re
 
 #### Enhancement Spells
 
-`Enhancement Spells` are woven in tandem with a primary spell, and can amplify potency, duration, or scope. While they enhance a spell's efficacy, they take time (an extra turn) and compound the risks of casting. A mage that pushes a failing Enhancement (or rolls snake-eyes) takes two `Burdens`.
-
-- A mage cages a foe in flame, along with an Enhancement to hold it burning until dawn.
-
+`Enhancement Spells` are woven into a primary spell to amplify it: affect multiple targets, extend duration, or increase intensity. They take time (an extra turn) and compound the risk: a mage who pushes a failing enhanced spell (or rolls snake-eyes) takes two `Burdens`.
 
 #### Rituals
 
-Rituals are the pinnacle of magical prowess. They yield unparalleled power but demand patience and dedication. Substantial magic requires rituals that can take days, weeks, or even months. Raising a storm to sink a fleet might take a week, demand a ship’s figurehead, and be finished on the night of a new moon — but only if the caster remains fasting.
+Rituals yield unparalleled power but demand patience. Substantial magic takes days, weeks, or months. Rituals change things permanently. A river moved stays moved. The world remembers your working.
 
-**Rituals may require:**
-- time (days, weeks, or months)
-- a task
-- expensive/rare components
-- might only achieve a partial effect
-- help from another mage
-- something dangerous
-- a specific location, day or season
+The GM and player negotiate requirements based on scope and relationship. Ask: **What connections does the mage lack?** Without connection, the magic is impossible. Then: **Why should the world care?** Balance, revenge, or restoration may ease the path. Selfish will requires more. Each requirement is its own quest. What can't be undone?
 
+**Examples:**
+* **Cursing an enemy with illness:** Something personal (hair, possession). Learn their vulnerabilities (when, where). Something that knows sickness (grave earth, their hound's heart, plague-touched cloth).
+* **Warding a village:** Mark the boundary in your blood. Gather protections: salt, thorns, hearth ash. Cast at protective hours (dawn, full moon). The land forgets—wards need renewal.
+  
 #### Summoning
 
-Summoning ventures into the perilous realm of bargaining with the Fae. The Fae, with their long lives, are the most knowledgeable in magic. They enjoy the deepest bonds with the world. If their magic has boundaries, none are known—but with long life comes madness. Success is far from guaranteed. GOOD LUCK!
+The Fae are the most knowledgeable in magic and enjoy the deepest bonds with the world. If their magic has boundaries, none are known. But with long life comes madness.
+
+Summoning requires an `Offering` worthy of their attention: a vintage bottle from a destroyed vineyard, a coin that bought a life, a wedding ring never worn, a bottle of silence from a cathedral, or a shadow cut from a thief.
+
+Once present, the Fae will name their price for the work. A Name. Your shadow. Pieces of yourself you didn't know you could lose. That price is not negotiable. Refusal may be worse than acceptance. GOOD LUCK!
 
 _Only the Fae can restore life to the dead._
 
@@ -172,62 +181,62 @@ At the end of each session, go around the table and reflect on each character. G
 - **Serra** (`Former Royal Guard, Bearer of Ancient Blade`)
 - **Corvus** (`Shadow Walker, Brother’s Keeper`)
 
-> **GM**: "The Bone Knight advances, his armor clicking like old teeth. What do you do?"<br>
-> **Serra**: "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
-> **GM**: "Roll with two dice since your Royal Guard training applies here."<br>
+> **GM:** "The Bone Knight advances, his armor clicking like old teeth. What do you do?"<br>
+> **Serra:** "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
+> **GM:** "Roll with two dice since your Royal Guard training applies here."<br>
 > *Rolls: 2d6 → 5, 3*<br>
-> **GM**: "With a 5, you succeed! You strike true, but the impact is minor—he’s Bruised."<br>
-> **Serra**: "I feint low but strike high, using a technique I learned in the palace guard."<br>
-> **GM**: "The Bone Knight's armor cracks where your blade strikes. He's Bruised, but he counters with a sweeping blow > toward your legs."<br>
-> **Corvus**: "Can I help Serra? I want to distract him from the shadows."<br>
-> **GM**: "Yes, roll with your Shadow Walker Name."<br>
+> **GM:** "With a 5, you succeed! You strike true, but the impact is minor; he’s Bruised."<br>
+> **Serra:** "I feint low but strike high, using a technique I learned in the palace guard."<br>
+> **GM:** "The Bone Knight's armor cracks where your blade strikes. He's Bruised, but he counters with a sweeping blow > toward your legs."<br>
+> **Corvus:** "Can I help Serra? I want to distract him from the shadows."<br>
+> **GM:** "Yes, roll with your Shadow Walker Name."<br>
 > *Rolls: 2d6 → 2, 4*<br>
-> **GM**: "With a 4, it's a Devil's Bargain. What do you think happens?"<br>
-> **Corvus**: "I successfully distract him, making him miss Serra."<br>
-> **GM**: "But perhaps the noise draws the attention of his skeletal attendants in the next room?"<br>
-> **Corvus**: "Yup... that sounds right."<br>
-> **GM**: "Perfect. Serra, you see the Bone Knight's blow go wide as Corvus creates a distraction... but you hear the rattling of bones from behind the chapel door..."<br>
+> **GM:** "With a 4, it's a Devil's Bargain. What do you think happens?"<br>
+> **Corvus:** "I successfully distract him, making him miss Serra."<br>
+> **GM:** "But perhaps the noise draws the attention of his skeletal attendants in the next room?"<br>
+> **Corvus:** "Yup... that sounds right."<br>
+> **GM:** "Perfect. Serra, you see the Bone Knight's blow go wide as Corvus creates a distraction... but you hear the rattling of bones from behind the chapel door..."<br>
 
 
 #### Magic
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
-> **GM**: "The plague spirits swarm through the village. What do you do?"<br>
-> **Thistle**: "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to whisper the old words my grandmother taught me about boundaries and protection."<br>
-> **GM**: "Roll your casting."<br>
+> **GM:** "The plague spirits swarm through the village. What do you do?"<br>
+> **Thistle:** "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to whisper the old words my grandmother taught me about boundaries and protection."<br>
+> **GM:** "Roll your casting."<br>
 > *Rolls: 2d6 → 2, 1*<br>
-> **GM**: "Ooh, both low. The magic resists and the spirits are descending on the villagers. You can accept the failed spell or take a Burden to make it succeed."<br>
-> **Thistle**: "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."<br>
-> **GM**: *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village...
+> **GM:** "Ooh, both low. The magic resists and the spirits are descending on the villagers. You can accept the failed spell or take a Burden to make it succeed."<br>
+> **Thistle:** "Yeah, I can’t let the village down. I’ll take on a Burden to force the success."<br>
+> **GM:** *Draws a Tarot card* "You pull The Tower. As your spell manifests, a shimmering thorny barrier rises around the > village...
 
 #### Burden Resolution
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
-> **GM**: "The Tower. Destruction of the established. You took on this Burden to save the town. Ballance must be restored, now or in the future."<br>
-> **Thistle**: "The herb wall. My grandmother and I built it, tended it for years..."<br>
-> **GM**: "You’d tear it down?"<br>
-> **Thistle**: "Yes. One barrier for another. The scattered herbs might even protect others."<br>
-> **GM**: "A fitting price. Show me how you do it..."<br>
+> **GM:** "The Tower. Destruction of the established. You took on this Burden to save the town. Balance must be restored, now or in the future."<br>
+> **Thistle:** "The herb wall. My grandmother and I built it, tended it for years..."<br>
+> **GM:** "You’d tear it down?"<br>
+> **Thistle:** "Yes. One barrier for another. The scattered herbs might even protect others."<br>
+> **GM:** "A fitting price. Show me how you do it..."<br>
 
 #### Spells
 
 - **Rowan** (Wandering Mage, Stone Speaker, Hunted by the Ironwood Clan)
 
-> **GM**: You're trapped in the cave. Thirty goblins outside have piled brush at the entrance and set it ablaze. Smoke is filling the cave. They're between you and the forest. What do you do?
+> **GM:** You're trapped in the cave. Thirty goblins outside have piled brush at the entrance and set it ablaze. Smoke is filling the cave. They're between you and the forest. What do you do?
 
-**Some magical solutions discussed at the table**:
+**Some magical solutions discussed at the table:**
 - Ask cave stone to remember the passage it once was; find the old water channel, create a back exit
 - Ask air to rush outward violently and blast the brush fire to scatter the goblins
 - Ask fire to consume the brush quickly, burn hot and fast before the smoke kills you (risk: might spread to the forest)
 - Ask water seeping through the cave walls to gather and reflect what it's seen: the goblins' positions
 - Combine a LOUD VOICE Promise with rumbling rocks underfoot to scare them off
 - Ally with the trees. Convince them these axe-wielding goblins will be upon them next
-- Ask briars to tangle (with Enhancement to affect enough goblins to route the rest)
+- Ask briars to tangle (with Enhancement to affect enough goblins to rout the rest)
 
-> **Rowan**: I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
-> **GM**: Smart. Roll your casting with Stone Speaker—smoke isn't quite your specialty but you're working with natural elements.
+> **Rowan:** I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
+> **GM:** Smart. Roll your casting with Stone Speaker. Smoke isn't quite your specialty but you're working with natural elements.
 
-_v1.1.18_ by brine <br>
+_v1.1.2_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
