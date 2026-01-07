@@ -199,8 +199,36 @@ At the end of each session, go around the table and reflect on each character. G
 > **Corvus:** "Yup... that sounds right."<br>
 > **GM:** "Perfect. Serra, you see the Bone Knight's blow go wide as Corvus creates a distraction... but you hear the rattling of bones from behind the chapel door..."<br>
 
-
 #### Magic
+
+**If magic removes tension, add permanence**
+
+* **Kael** (`Lock Breaker, Hunted, Owes the Guild`)
+
+> **Kael:** “I ask the metal to remember when it was ore, before it was shaped.”
+> **GM:** “The lock softens, opens. But it stays soft—melted like wax. It can never be made secure again.”
+> **Kael:** “Anyone can get in now?”
+> **GM:** “Anyone. Including whatever’s chasing you.”
+
+**If magic removes danger, add exposure**
+
+* **Senna** (`Shadow Whisperer, Former Thief`)
+
+> **Senna:** “I ask the shadows to hold the assassin.”
+> **GM:** “They writhe up from the floor and bind him. Everyone in the square sees it—sees you command them.”
+> **Senna:** “Shit.”
+> **GM:** “By morning, the city knows: you consort with darkness. People will act accordingly.”
+
+**If magic removes uncertainty, add obligation**
+
+* **Mira** (`Rain Speaker, Searching for Her Sister`)
+
+> **Mira:** “I ask the rain to show me where they took the hostages.”
+> **GM:** “The rain shows you—vivid, clear. The old mill by the river.”
+> **Mira:** “Perfect.”
+> **GM:** “But the rain lingers on your skin, waiting. It expects something equal in return—a secret, a truth. Until you pay, it won’t answer you again, and it will remember the silence.”
+
+#### Burdens
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
@@ -240,5 +268,5 @@ At the end of each session, go around the table and reflect on each character. G
 > **Rowan:** I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
 > **GM:** Smart. Roll your casting with Stone Speaker. Smoke isn't quite your specialty but you're working with natural elements.
 
-_v1.1.2_ by brine <br>
+_v1.1.22_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
