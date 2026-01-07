@@ -48,7 +48,7 @@ When a character does something risky—when the cost might be meaningful—roll
 
 **Highest die** determines success:
 - 5-6 SUCCESS! Circumstance might differentiate between levels of success.
-- 4 `Devil's Bargain`: the player describes a reasonable success or failure—the GM describes the other, then negotiate and balance between the two.
+- 4 `Devil's Bargain`: the player describes a reasonable success or failure; the GM describes the other, then negotiate and balance between the two.
 - 1-3 nuanced failure.
 
 **Lower die** suggests impact. Use it to scale the result or ignore based on the fiction:
@@ -125,7 +125,7 @@ Casting requires speech and your touch.
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
 - The higher die determines success (see #DICE)
 - The lower suggests impact or consequence
-- A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid—immediately, in time or both.
+- A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid; immediately, in time or both.
 - Rolling snake-eyes invokes both failure _and_ a `Burden`
 - Magi who take on 3 `Burdens` become lost in the world
 
@@ -141,7 +141,7 @@ The GM and player negotiate requirements based on scope and relationship. Ask: *
 
 **Examples:**
 * **Cursing an enemy with illness:** Something personal (hair, possession). Learn their vulnerabilities (when, where). Something that knows sickness (grave earth, their hound's heart, plague-touched cloth).
-* **Warding a village:** Mark the boundary in your blood. Gather protections: salt, thorns, hearth ash. Cast at protective hours (dawn, full moon). The land forgets—wards need renewal.
+* **Warding a village:** Mark the boundary in your blood. Gather protections: salt, thorns, hearth ash. Cast at protective hours (dawn, full moon). The land forgets; wards need renewal.
   
 #### Summoning
 
@@ -184,7 +184,7 @@ At the end of each session, go around the table and reflect on each character. G
 - **Corvus** (`Shadow Walker, Brother’s Keeper`)
 
 > **GM:** "The Bone Knight advances, his armor clicking like old teeth. What do you do?"<br>
-> **Serra:** "I want to engage him directly – blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
+> **Serra:** "I want to engage him directly; blade to blade. As a Former Royal Guard, I recognize his stance and know these > types of warriors."<br>
 > **GM:** "Roll with two dice since your Royal Guard training applies here."<br>
 > *Rolls: 2d6 → 5, 3*<br>
 > **GM:** "With a 5, you succeed! You strike true, but the impact is minor; he’s Bruised."<br>
@@ -206,7 +206,7 @@ At the end of each session, go around the table and reflect on each character. G
 * **Kael** (`Lock Breaker, Hunted, Owes the Guild`)
 
 > **Kael:** “I ask the metal to remember when it was ore, before it was shaped.”
-> **GM:** “The lock softens, opens. But it stays soft—melted like wax. It can never be made secure again.”
+> **GM:** “The lock softens, opens. But it stays soft; melted like wax. It can never be made secure again.”
 > **Kael:** “Anyone can get in now?”
 > **GM:** “Anyone. Including whatever’s chasing you.”
 
@@ -215,7 +215,7 @@ At the end of each session, go around the table and reflect on each character. G
 * **Senna** (`Shadow Whisperer, Former Thief`)
 
 > **Senna:** “I ask the shadows to hold the assassin.”
-> **GM:** “They writhe up from the floor and bind him. Everyone in the square sees it—sees you command them.”
+> **GM:** “They writhe up from the floor and bind him. Everyone in the square sees it; sees you command them.”
 > **Senna:** “Shit.”
 > **GM:** “By morning, the city knows: you consort with darkness. People will act accordingly.”
 
@@ -224,16 +224,16 @@ At the end of each session, go around the table and reflect on each character. G
 * **Mira** (`Rain Speaker, Searching for Her Sister`)
 
 > **Mira:** “I ask the rain to show me where they took the hostages.”
-> **GM:** “The rain shows you—vivid, clear. The old mill by the river.”
+> **GM:** “The rain shows you; vivid, clear. The old mill by the river.”
 > **Mira:** “Perfect.”
-> **GM:** “But the rain lingers on your skin, waiting. It expects something equal in return—a secret, a truth. Until you pay, it won’t answer you again, and it will remember the silence.”
+> **GM:** “But the rain lingers on your skin, waiting. It expects something equal in return; a secret, a truth. Until you pay, it won’t answer you again, and it will remember the silence.”
 
 #### Burdens
 
 - **Thistle** (`Hedge Witch of the Vale, Grandmother’s Student`)
 
 > **GM:** "The plague spirits swarm through the village. What do you do?"<br>
-> **Thistle:** "I need to create a barrier. I pull out my bundle of dried thornberry branches – my Totem – and begin to whisper the old words my grandmother taught me about boundaries and protection."<br>
+> **Thistle:** "I need to create a barrier. I pull out my bundle of dried thornberry branches–my Totem–and begin to whisper the old words my grandmother taught me about boundaries and protection."<br>
 > **GM:** "Roll your casting."<br>
 > *Rolls: 2d6 → 2, 1*<br>
 > **GM:** "Ooh, both low. The magic resists and the spirits are descending on the villagers. You can accept the failed spell or take a Burden to make it succeed."<br>
