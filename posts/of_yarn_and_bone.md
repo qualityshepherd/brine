@@ -64,14 +64,14 @@ When a character does something risky—when the cost might be meaningful—roll
 - **Bruised:** punch, winded, fall, kicked in the tender bits. You might feel this in the morning but rub some dirt on it and you'll shake it off in a few minutes.
 - **Bloodied:** stab, cut, internal bleeding. Requires a good night’s rest and treatment; take too many and you'll bleed out.
 - **Broken:** rib, limb, concussed, you're done for the day; maybe the week.
-- **Buried:** You’re dead, but maybe you can bargain with Death to earn a new `Name`? I'm sure it'll be fine... Death is a nice guy?
+- **Buried:** You’re dead, but maybe you can bargain with Death to earn a new `Name`? It'll be fine... Death is a nice guy?
 
 #### Help
 After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable `Names`) and both characters share the consequences.
 
 #### Die of Fate
 
-The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine morale or any number of other things. You will roll this often!
+The `Die of Fate` might be rolled to establish the weather, indicate an NPC's attitude, determine morale or any number of other things.
 
 Roll 1D6:
 - 5-6 something good!
@@ -110,7 +110,7 @@ Promises are the simplest spells. Often dismissed as cheap tricks, a clever mage
 
 Advanced spells require a `Totem`: something you can physically touch that connects you to what you're petitioning; a relationship. 
 
-Touch the thing itself: a vine to ensnare, sand to shift, fire to envelop. Or something that remembers the whole: blood remembers the blade, stone recalls the wall, hair remains of its owner, a dead flower knows death. Can't reach the moon? The ocean's tides may introduce you.
+Touch the thing itself: a vine to ensnare, sand to shift, fire to envelop. Or something that remembers the whole: blood remembers the blade, hair remains of its owner, a dead flower knows death. Can't reach the moon? The ocean's tides may introduce you.
 
 Casting requires speech and your touch.
 
@@ -119,8 +119,8 @@ Casting requires speech and your touch.
 - A king's slipper knows the king intimately  
 - Dead flowers know death
 - Saliva carries a language; share it to bridge tongues
-- A hanging tree knows how to take life
-- Ash remembers the fire 
+- A hanging tree has taken life
+- Ash mourns what was lost 
 
 **To Cast**, roll `2d6` (or `3d6` for `Legendary Name`):
 - The higher die determines success (see #DICE)
