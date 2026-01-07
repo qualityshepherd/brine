@@ -33,6 +33,8 @@ Your character is a product of the world; they start with three `Names` that des
 
 Your character has typical gear based on their `Names`. Consider making extravagant gear a `Name`.
 
+_The GM represents the world. When uncertain, talk it through._
+
 <break>
 
 #### Legendary Names
@@ -116,7 +118,7 @@ Casting requires speech and your touch.
 - Stone remembers the wall
 - A king's slipper knows the king intimately  
 - Dead flowers know death
-- Saliva carries a language. Share it to bridge tongues
+- Saliva carries a language; share it to bridge tongues
 - A hanging tree knows how to take life
 - Ash remembers the fire 
 
@@ -135,7 +137,7 @@ Casting requires speech and your touch.
 
 Rituals yield unparalleled power but demand patience. Substantial magic takes days, weeks, or months. Rituals change things permanently. A river moved stays moved. The world remembers your working.
 
-The GM and player negotiate requirements based on scope and relationship. Ask: **What connections does the mage lack?** Without connection, the magic is impossible. Then: **Why should the world care?** Balance, revenge, or restoration may ease the path. Selfish will requires more. Each requirement is its own quest. What can't be undone?
+The GM and player negotiate requirements based on scope and relationship. Ask: **What connections does the mage lack?** Without connection, the magic is impossible. Then: _Why should the world care?_ Balance, revenge, or restoration may ease the path. Selfish will requires more. Each requirement is its own quest. What can't be undone?
 
 **Examples:**
 * **Cursing an enemy with illness:** Something personal (hair, possession). Learn their vulnerabilities (when, where). Something that knows sickness (grave earth, their hound's heart, plague-touched cloth).
