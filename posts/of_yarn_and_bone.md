@@ -81,18 +81,19 @@ Roll 1D6:
 
 ### MAGIC
 
-Magi are born with a gift that requires development. Some learn spells from tomes and scrolls while others may intuit them. Magic is like music: some can, some can't; some read, some intuit.
+Magi are born with a gift that requires development. Some learn from tomes and scrolls while others resonate with the world. Magic is like music: some can, some can't; some read, some intuit.
 
-The world is full of magic and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for favors. Given their relationship is in good standing, the world is likely to comply.
+The world is alive and a mage communes with it. Air, tree, stone, ocean, star; all allies of the mage. With proper knowledge, a mage may petition the world for favors. Given their relationship is in good standing, the world is likely to comply.
 
-A mage asks the world to do what it wants to do, _deliberately_. Stones gather. Air stills. Water reflects. Moon watches. Vines tangle. Fire consumes. Ask the world to act against its nature and risk refusal.
+A mage asks the world to do what it wants to do, _deliberately_. 
+- **Stone collects:** Ask it to gather and hold.
+- **Air carries:** Ask it to steal a voice.
+- **Water remembers:** Ask it to reflect what it has seen.
+- **Moon reveals:** Ask it to fix its gaze.
+- **Vines hunger:** Ask them to claim what lingers.
+- **Fire consumes:** Ask it to leave nothing but ash.
 
-- ask a stone to gather its brethren and create a road
-- ask the air to withhold itself from a creature until it is unconscious
-- ask a still lake to reflect a scene it's been witness to
-- ask the moon to hold back the tide
-- ask vines to ensnare a foe
-- ask a flame to cage a foe
+_The world grants favors by exaggerating its nature, not by obeying intent._
 
 #### Promises
 
@@ -118,7 +119,7 @@ Casting requires speech and your touch.
 - Stone remembers the wall
 - A king's slipper knows the king intimately  
 - Dead flowers know death
-- Saliva carries a language; share it to bridge tongues
+- Saliva carries a language
 - A hanging tree has taken life
 - Ash mourns what was lost 
 
@@ -127,7 +128,7 @@ Casting requires speech and your touch.
 - The lower suggests impact or consequence
 - A mage feeling a spell failing may accept a `Burden` and have it succeed instead. `Burdens` are an imbalance in the world and represented by a random Tarot card. Player and GM use the Tarot card and circumstance to negotiate how the Burden is satisfied. The world _will_ be repaid; immediately, in time or both.
 - Rolling snake-eyes invokes both failure _and_ a `Burden`
-- Magi who take on 3 `Burdens` become lost in the world
+- Magi who take on three `Burdens` become lost in the world
 
 #### Enhancement Spells
 
@@ -137,19 +138,23 @@ Casting requires speech and your touch.
 
 Rituals yield unparalleled power but demand patience. Substantial magic takes days, weeks, or months. Rituals change things permanently. A river moved stays moved. The world remembers your working.
 
-The GM and player negotiate requirements based on scope and relationship. Ask: **What connections does the mage lack?** Without connection, the magic is impossible. Then: _Why should the world care?_ Balance, revenge, or restoration may ease the path. Selfish will requires more. Each requirement is its own quest. What can't be undone?
+The GM and player negotiate requirements based on scope and relationship. Ask: **What connections does the mage lack?** Without connection, the magic is impossible. 
 
 **Examples:**
-* **Cursing an enemy with illness:** Something personal (hair, possession). Learn their vulnerabilities (when, where). Something that knows sickness (grave earth, their hound's heart, plague-touched cloth).
-* **Warding a village:** Mark the boundary in your blood. Gather protections: salt, thorns, hearth ash. Cast at protective hours (dawn, full moon). The land forgets; wards need renewal.
-  
+
+- **Cursing an enemy:** connection to the target (hair, possession). Their vulnerability (when, where). What knows sickness (grave earth, plague-touched cloth).  
+
+- **Warding a village:** connection to the boundary (stone from the church, villagers' blood/piss). Gather what protects (salt, thorns, hearth ash, iron). Cast at protective hours (dawn, full moon). 
+
+- **Raising a storm:** connection to the vessel (timber, sail). Gather what knows the heights (lightning-struck wood) and what knows the deep (crushed shell, whale bone). Coordinate at the convergence (new moon, peak tides).
+
 #### Summoning
 
 The Fae are the most knowledgeable in magic and enjoy the deepest bonds with the world. If their magic has boundaries, none are known. But with long life comes madness.
 
 Summoning requires an `Offering` worthy of their attention: a vintage bottle from a destroyed vineyard, a coin that bought a life, a wedding ring never worn, a bottle of silence from a cathedral, or a shadow cut from a thief.
 
-Once present, the Fae will name their price for the work. A Name. Your shadow. Pieces of yourself you didn't know you could lose. That price is not negotiable. Refusal may be worse than acceptance. GOOD LUCK!
+Once present, the Fae will name their price for the work. A Name. Your shadow. A piece of yourself you didn't know you could lose. That price is not negotiable. Refusal may be worse than acceptance. GOOD LUCK!
 
 _Only the Fae can restore life to the dead._
 
@@ -214,8 +219,8 @@ At the end of each session, go around the table and reflect on each character. G
 
 * **Senna** (`Shadow Whisperer, Former Thief`)
 
-> **Senna:** “I ask the shadows to hold the assassin.”
-> **GM:** “They writhe up from the floor and bind him. Everyone in the square sees it; sees you command them.”
+> **Senna:** “I ask the vines to snare the wolf.”
+> **GM:** “They writhe up from the brush and bind him. Everyone in the square sees it; sees you command them.”
 > **Senna:** “Shit.”
 > **GM:** “By morning, the city knows: you consort with darkness. People will act accordingly.”
 
@@ -268,5 +273,5 @@ At the end of each session, go around the table and reflect on each character. G
 > **Rowan:** I'll use the smoke itself. Ask it to billow and shroud me as I slip out toward the forest.
 > **GM:** Smart. Roll your casting with Stone Speaker. Smoke isn't quite your specialty but you're working with natural elements.
 
-_v1.1.22_ by brine <br>
+_v1.1.23_ by brine <br>
 _much love to: [Wightbred](https://wightbred.itch.io/named-toolkit), [WoDu](https://johnharper.itch.io/world-of-dungeons), [JS&MR](https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell), [AWoE](https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea?ref=nav_sb_ss_1_15)_
