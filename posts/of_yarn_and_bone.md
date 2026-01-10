@@ -67,7 +67,7 @@ When a character does something risky—when the cost might be meaningful—roll
 - **Buried:** You’re dead, but maybe you can bargain with Death to earn a new `Name`? It'll be fine... Death is a nice guy?
 
 #### Help
-After a roll, if the fiction dictates, a character may ask another character for help. The helping player rolls (including any applicable `Names`) and both characters share the consequences.
+After a roll, a character may ask another character for help. The helping player rolls (including any applicable `Names`) and both characters share the consequences.
 
 #### Die of Fate
 
