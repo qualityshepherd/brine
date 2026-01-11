@@ -11,7 +11,7 @@ I bumped into [this thread from Vincent Baker](http://lumpley.com/index.php/anyw
 
 > _"He's got some immediate evident qualities: his gun, his attention to his surroundings, his energy/adrenaline/capacity for violence/will to action, and it looks like maybe he's done this thing more than once before."_
 
-Mr. Baker (I mean, it's _Vincent Baker_... RESPECT! So yes, _Mr._) explains how RPG design should handle three types of character qualities: effectiveness, resource, and positioning. Yes. Cool. But then Mr. Baker fucks up and suggests translating all that into a character sheet. 
+Mr. Baker (I mean, it's _Vincent Baker_... RESPECT! So yes, _Mr._) explains how RPG design should handle three types of character qualities: effectiveness, resource, and positioning. Yes. Cool. But then Mr. Baker fucks up and suggests we translate all that into a character sheet. 
 
 False. 
 
