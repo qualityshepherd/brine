@@ -11,7 +11,7 @@ I bumped into [this thread from Vincent Baker](http://lumpley.com/index.php/anyw
 
 > _"He's got some immediate evident qualities: his gun, his attention to his surroundings, his energy/adrenaline/capacity for violence/will to action, and it looks like maybe he's done this thing more than once before."_
 
-Mr. Baker (I mean, it's Vincent Baker... RESPECT! So yes, _Mr._) explains how RPG design should handle three types of character qualities: effectiveness, resource, and positioning. Yes. Cool. But then Mr. Baker fucks up. He says you need to translate all that into a character sheet. 
+Mr. Baker (I mean, it's _Vincent Baker_... RESPECT! So yes, _Mr._) explains how RPG design should handle three types of character qualities: effectiveness, resource, and positioning. Yes. Cool. But then Mr. Baker fucks up and suggests translating all that into a character sheet. 
 
 False. 
 
@@ -30,7 +30,7 @@ This is attempting to solve a problem _you_ created in step 2.
 
 ### Names are Images
 
-My friend [Wightbred's game Named](https://wightbred.itch.io/named) gives us the concept of `Names` (which I stole for my game [OYAB](https://brine.dev/#post?s=of_yarn_and_bone)). Characters have Names: `Reluctant Captain, Mail Order Medic, Disappointment`. 
+My friend [Wightbred's game, Named](https://wightbred.itch.io/named) gives us the concept of `Names` (which I stole for my game [OYAB](https://brine.dev/#post?s=of_yarn_and_bone)). Characters have Names: `Reluctant Captain, Mail Order Medic, Disappointment`. 
 
 These work exactly the same as the image; just in text form. Which makes them better for conversational games.
 
@@ -52,4 +52,4 @@ OYAB's `Totems` work the same way. "Blood remembers the blade" isn't a rule, it'
 
 Conversational spark? I absolve myself.
 
-The photo _IS_ the character sheet.
+The image _IS_ the character sheet.
