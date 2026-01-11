@@ -22,6 +22,7 @@
     "server": "npm start && http-server -s -p 4242",
     "kill": "lsof -ti :4242 | xargs kill -9",
     "pretty": "standard --fix",
+    "update": "npx npm-check-updates -u && npm install",
     "purge": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/$BRINE_TOKEN/purge_cache\" -H \"Authorization: Bearer $BEARER\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
   },
   "devDependencies": {
@@ -29,6 +30,6 @@
     "standard": "^17.1.2"
   },
   "dependencies": {
-    "marked": "^16.4.1"
+    "marked": "^17.0.1"
   }
 }

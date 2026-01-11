@@ -46,7 +46,7 @@ That's it.
 
 Names work for conversation. `Reluctant Captain` isn't character data, it's a conversation hook. It suggests backstory; it prompts questions. The GM asks "Why don't you want this?" or an NPC says "Captain, the crew's looking to you..." and everyone knows the tension without checking the rules.
 
-OYAB's `Totems` work the same way. "Blood remembers the blade" isn't a rule, it's an image that sparks conversation about what magic means right now. The table riffs on it together.
+OYAB's `Totems` work the same way. _"Blood remembers the blade"_ isn't a rule, it's an image that sparks conversation about what magic means right now. The table riffs on it together.
 
 `Burdens` use Tarot. Yeah, requiring a deck is a conversational sin. But it earns its place by doing work. Drawing The Tower doesn't dictate outcomes, it gives the table something to interpret together. What does magical imbalance look like? How can we resolve it? What is the cost for succeeding when the world said no?  
 
