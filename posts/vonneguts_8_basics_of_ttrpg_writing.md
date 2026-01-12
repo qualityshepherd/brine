@@ -19,7 +19,7 @@ I just sat here for a minute thinking back and yes, it's usually an NPC that suc
 
 **3. Every character should want something, even if it is only a glass of water.**
 
-This is _adventure writing 101_ advice and rock solid. That being said, when I repurposed my old NPC generator into [Rando](https://rando.brine.dev), I ditched the `want` part. The main reason being: I found myself not using the `want`. I'm not totally sure why... :thinking: I suppose, given a random NPC generator, I'm not really looking for `want`? Or at least that's how it played out. In Rando, I went with three epithets ala [Named](https://wightbred.itch.io/named-toolkit) for NPCs; which I love (`@wightbred`, you ruined me for other ways... thus far). But I also use Rando while writing and just add `wants` that make sense with the other moving pieces.
+Core RPG advice. Every NPC needs a want - it's the hook that makes them real and gives GMs friction to work with. When I built [Rando](https://rando.brine.dev), I initially ditched wants for three epithets (à la [Named](https://wightbred.itch.io/named-toolkit)). Mistake. Epithets give flavor, but wants give purpose. Now I add wants that connect to the other moving pieces in the fiction. Want drives everything. It's what makes NPCs more than cardboard.
 
 **4. Every sentence must do one of two things—reveal character or advance the action.**
 
@@ -42,4 +42,3 @@ I struggle with this one. I don't write for _one person_. Kurt wrote for his sis
 **8. Give your readers as much information as possible as soon as possible. To heck with suspense. Readers should have such complete understanding of what is going on, where and why, that they could finish the story themselves, should cockroaches eat the last few pages.**
 
 This is more classic RPG advice perhaps most famously from Chris McDowall's post [Expose Your Prep](https://www.bastionland.com/2018/07/expose-your-prep.html). But for all I know, Chris stole it from Vonnegut :D
-
