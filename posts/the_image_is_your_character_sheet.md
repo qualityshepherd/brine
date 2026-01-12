@@ -2,7 +2,7 @@
 title: The Image IS Your Character Sheet
 date: 2026-01-11
 description:  Character sheets reduce what images or Names communicate perfectly...
-tags: words, design
+tags: words, design, love letter to Mr. Baker
 ---
 
 ![center](assets/images/posts/gun-guy.jpg)
