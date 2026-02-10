@@ -36,7 +36,8 @@ export const aboutPageTemplate = () => `
     <a href="https://brine.dev/#post?s=of_yarn_and_bone">Of Yarn and Bone</a> is my current WIP system.<br>
     <a href="https://rando.brine.dev/">Rando</a> is my random generator that I use for just about everything.<br>
     <a href="https://casadeocio.itch.io/the-steep-mage">The Steep Mage</a> is my most recent published scenario.<br>
-    <p>Email me if you have something to say! <code>ack at brine dot dev</code></p>
+    <p>Email me: <code>ack at brine dot dev</code></p>
+    <p>Follow me on the Fediverse: @brine.dev@web.brid.gy</p>
     <div class="social">
       <a href='&#109;a&#105;l&#116;o&#58;m%65%4&#48;b&#114;&#105;n%65&#46;%64e&#118;' title="email"><img src="assets/images/social/email.png" alt="email"></a>
       <a href="https://casadeocio.itch.io/" title="games on itch"><img src="assets/images/social/itch-io.png" alt="my publications on itch"></a>
