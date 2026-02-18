@@ -41,15 +41,15 @@ The Southern Coast is a system-neutral, regional setting designed for sandbox ex
 
 2. The Isle of Wights is aptly named. It's overrun with wights looking to add to their number. Nobody comes back from that wretched place.
 1. Some crazy druid up in the mountains has got himself a harem and is performing miracles!
-1. Yagul Fane's original towers got swallowed by the desert. The new ones stand atop but shrink a little each year. Some still know the way down.
+1. Yagul Fane's original towers got swallowed by the sand. The new ones stand atop but shrink a bit each year. "Some of my people still know the way down. Wouldn't go myself... but valuable things down there, they say."
 1. Have you ever known purveyors of magic and religion to get along? There's tension between Yagul Fane and the monastery... count on it.
-1. Greever's Lighthouse is full of ghosts. They activate the old light to summon a spectral ship from the depths.
-1. The mountain mists are the breath of dragons who once ruled this place. The Lost Druid says they'll return once their food source is replenished.
-1. Word is the Council of Six in Yagul Fane are trying to unseat the Fae Court; appointing "more cooperative" officials.
-1. Maude's bees make special honey from Moonlight Mushrooms. The Monastery pays triple for those jars; say it helps 'em _see more clearly_.
-1. Fellstead's abbess and Mon's warden are friendly. VERY friendly if you know what I mean...
-1. Watch for runes in the dunes. Nomads call them _twilight portals_. But careful! You might end up leagues away... or worse.
-1. Some of those 'stones' in the Bone Cairn? Them's dragon eggs! That's why they fidget at night; they're gonna hatch!
+1. "Laugh. Go on. I've been in that tower. You know how many poor girls have jumped from those rocks?" She looks you dead in the eye. "And they always get the blood off them stones by morning. Them ghosts light that beacon; call that wretched ship right up from the depths". 
+1. "The mists are their breath. The Lost Druid says they'll return once their food source is replenished. Dragons! Can you believe it?" He says it like it's good news. "I came to see it happen."
+1. "Council's looking to put friendlier faces on the Fae Court... if you get my meaning." He refills your cup without being asked. "My employer finds this... very interesting... and so do I."
+1. "Oh, Maude's honey? Ones with the mushroom jars? Monastery pays triple for those." Leans in. "Say it helps 'em see more clearly." Laughs. "Fucking Monks!"
+1. "The Abbess? She rides up that mountain more than God requires. Warden's a handsome man, I'll give him that."
+1. "Watch for runes in the dunes. Nomads call them _twilight portals_. But careful! You might end up leagues away... or worse".
+1. "Stones?  That Bone Cairn's hiding dragon eggs! That's why they fidget at night. And they're gonna hatch!"
 
 <break>
 
@@ -64,7 +64,7 @@ Stretches of forest lie burned to ash, creating an eerie beauty in the devastati
  2d6 | Freemoon Forest Encounters
 :---:|:--------------------
  2   | **Shadow Dragon** A dragon that is nearly indistinguishable from natural shadows. Only visible when breathing fire, at twilight, or when it wishes to be. It communes with the imprisoned Hag Kalg through shadow-speech. She preaches patience but its instinct is to consume.
- 3   | **Druid Followers** (2d6) demand an offering to the land.
+ 3   | **Druid Followers** (2d6) demand an offering to the land. Who they serve determines what that means and what refusing costs.
  4   | **Redcaps** (d6+1) If you see one, it's because they want you to or you're marked. Once they outnumber you, out come the razors. Fresh blood for their caps! These are getting drunk and throwing an axe at a mortal tied to a rotting stump. First one to "hit" loses. The more they drink the closer they get.
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for its target to follow. They do not relent and those that break one, become one. This one has been commissioned by Lady Goodknight, to lead outsiders to the Fae Court for judgment.
  6   | **Fae Court** The air shimmers and a court materializes around the party. They are immediately found guilty of stealing a fae trinket and banished from Freemoon Forest. Roll d6 for their task: <ul style="margin-bottom: 0px;"><li>1-2: Return the Nymph's Tear from The River [#0502] </li><li>3-4: Retrieve the Sylph Ring from the shipwreck [#1508] </li><li>5-6: Recover the Dryad's Branch from the Boat Hag [#1506]</li></ul>
@@ -96,14 +96,14 @@ Nomadic tribes lay claim to certain areas, and conflicts over resources are not 
  2d6 | Sorrow Mountains Encounters
 :---:|:--------------------
  2   | **Bears** (d6)deceptively quick for their size. Their burst speed and reach catch most prey off guard. You'll only underestimate them once.
- 3   | **Wolves** (2d6) hunt with cunning and keen senses. Their pack mentality means you're likely surrounded before you know it. You might want to stay close to a fire... or a spear.
+ 3   | **Wolves** (2d6) A wounded wolf limps across the path; one leg caught in a trap. Keen eyes watch from the treeline. The pack remembers kindness or betrayal.
  4   | **Ledger Crow** a black-feathered creature with a man’s voice blocks the path, reading names from a weathered ledger. It stops at yours. "Payment required: coin, blood, or memory. _Debts unpaid accrue interest."_
  5   | **Lamp Boy** A small figure with silver coins for eyes and a darkened brass lamp beckons silently for its target to follow. They do not relent and those that break one, become one. This one has been commissioned by prison officials. Those bearing proper prison documents or official business are led safely to Mon's gates. Others... directly to the Jailers.
- 6   | **Abandoned Campsite** with scattered belongings, bloodstains, and tracks leading into a copse of trees. Embers still smoke in the fire pit.
+ 6   | **Abandoned Campsite** Three bedrolls, a fire gone cold, and a pot of partially eaten breakfast. Three sets of tracks lead into the brush; two sets returned. Whatever came back left in a hurry; one laced boot left behind.
  7   | **Fighting Giants** duel with boulder, echoing like thunder through the mountains. One takes a devastating hit to the knee; his roar of pain shaking the valley. Who's next?
  8 | **A Flock of Goats** bleat and traverse the steep cliffs with amazing ease. Their bells are pure silver, and their herder is suspiciously absent.
  9   | **A Distressed Griffon** caught in a bear trap, its proud head thrashing in pain. Voices approach from the distance... likely the poachers who set the trap. Time for a choice.
- 10  | **Waterfall Pool** reveals scattered silver coins shimmering from beneath 20' of freezing water
+ 10  | **Waterfall Pool** reveals scattered silver coins shimmering from beneath 20' of _freezing_ water. They're old, scattered and stamped with King Theric's stag. 
  11+ | No encounter
 
 **Starwoods** An ancient forest nestled along the coast, where tangled briars and gnarled roots clutch the dirt like fingers. A dense canopy diffuses sunlight, casting a mesmerizing play of light and shadow upon the forest floor. Towering behemoths, prized for their unmatched durability, dominate the landscape and fetch a handsome price.
@@ -146,17 +146,17 @@ Legend speaks of a guardian of the woods—a creature part beast and part spirit
 **0101 Dark Tower**
 A pale stone tower rises from overgrown grass, its stones etched with fading runes. No path leads to its door; windows dark and silent. Even in bright sun, the tower casts no shadow. **Varjo** (`Shadow Mage, Hermit, Compulsive Counter`), dwells within the tower's _shadow_ (not the tower itself), writing a book he believes will make him immortal. He can't abide trespassers. He yells from his dark tower to any who come too close: _"you there... do fuck off!"_
 
-**0102 Razor's Edge**: A mountain stream violently slashes a path, waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the 50' chasm. It looks unlikely to bear anything heavier than a whisper.
+**0102 Razor's Edge**: A mountain stream violently slashes a path; waters churning with deadly fury. A single weathered bridge—more rope and rotting planks than structure—spans the 50' chasm. It looks unlikely to bear anything heavier than a whisper. Halfway across, stands a pack mule, ears flat, unmoving. Its owner is nowhere to be seen. 
 
-**0103 The Alarum Fields** Rare orange flowers, called Alarums, emit a soft, high-pitched hum when approached, warning of unseen dangers. Locals harvest and dry them to make natural alarms, or brew a tea famed for sharpening wits and bolstering resolve.
+**0103 The Alarum Fields** Rare orange flowers, called Alarums, emit a soft, high-pitched hum when approached; warning of unseen dangers. Locals harvest and dry them to make natural alarms, or brew a tea famed for sharpening wits and bolstering resolve. Moving through the field sets them off; each flower a different pitch, together loud enough to carry. Everyone knows you're here. 
 
-**0104 Respite Grove** A peaceful grove of orange-barked trees, constantly falling leaves carpet the ground. Serene hum urges reflection. Resting here doubles any healing.
+**0104 Respite Grove** A peaceful grove of orange-barked trees, constantly falling leaves carpet the ground. Serene hum urges reflection. A bedroll left behind, neatly folded. Whoever rested here didn't take it when they left. Resting here doubles any healing.
 
-**0105 Shadow Dragon Lair** The Dragon communicates with imprisoned Hag Kalg via shadow-speech, plotting her escape from the Prison of Mon. Moonlight mushrooms dimly illuminate the cave entrance, their glow nearly indistinguishable from the dragon's shifting form.
+**0105 Shadow Dragon Lair** Moonlight mushrooms cluster at the cave mouth. Their glow betrays shifting darkness within. The air smells of char and something older. No bones. No tracks. Just the sense of darkness watching back.
 
-**0106 The Scorched Hollow** A barren landscape of blackened trees and ash, where a forest once stood. Charred stumps pierce the lifeless ground. Constant winds stir ghostly patterns in the ash: wings, scales, fire. Nothing grows here. Nothing moves. Only silence.
+**0106 The Scorched Hollow** Charred stumps pierce lifeless ground where a forest once stood. Constant winds stir ghostly patterns in the ash: wings, scales, fire. Nothing grows. Nothing moves. Only silence.
 
-**0107 The Ashen Thicket** A fire-ravaged forest of charred, brittle trees standing over grey ash. Beneath the devastation, faint luminescent shoots struggle through the scorched earth. At night, tiny winged fae move between the burned branches, their soft glows hinting at slow, patient restoration.
+**0107 The Ashen Thicket** Charred, brittle trees loom over dark grey ash. Beneath this devastation, faint luminescent shoots struggle through the scorched earth. Tiny winged fae flit between the burned branches; soft glows hint at slow, patient restoration.
 
 **0108 The Smoldering Path** A fire-scarred track winds through the fae forest, air thick with burnt wood. From the devastation, a white tree pierces through fresh earth; its bark smooth as bone. Its trunk curves like a dragon's neck, branches spread like wings, adorned with shimmering silver leaves. A wondrous thing of strange beauty.
 
@@ -170,11 +170,11 @@ Turn a key in the air, and somewhere, a distant lock clicks; but what opens rema
 
 > One key is marked with runes matching those at the Shrine of Brine [#0706]
 
-**0112 The Wishing Tide** Where a winding river meets the sea, the estuary shifts with each tide; fresh water curling through salt, channels never the same twice. At low tide, pools glisten across the flats, some deep, some vanishing in moments.
+**0112 The Wishing Tide** Where winding river and sea meet. This estuary shifts with each tide. At low tide, pools glisten across the flats; some deep, some vanishing in moments.
 
 In one, a single iridescent shell turns with the current. Speak a wish aloud, and the water ripples, showing a fleeting glimpse of its fulfillment. But nothing changes. The tide will return, and with it, the promise of the wish; only the sea knows when.
 
-**0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. Only the feeling of something watching from just beyond sight.
+**0201 Quiet Holler** A small valley nestled between hills, bisected by a stream flowing south. It is unnaturally quiet here. No birdsong. No wind. A half eaten deer lies in the grass... still warm.
 
 **0202 Keelspire** A hermit astronomer (`Starstruck, Prophetic, Rambling`) has built an observatory from salvaged shipwrecks, improbably perched on a narrow mountain precipice. The upturned keel of a great ship juts skyward, forming the spine of the structure, while rusted hulls and weatherworn timbers cling precariously to the rock. The old iron groans beneath the devastating beauty of the night sky.
 
@@ -204,7 +204,7 @@ Ida and the other ghosts light the beacon at night, calling a ship from the dept
 
 **0211 Smoked Hamlet** Charred beams and blackened stones mark where a fishing hamlet once stood. A young noble, **Rhys Winthrop** (`Entrepreneur, Visionary, Narcissist`) bought the land for more wealth than the villagers had ever seen. In the fine print: _no sea access_. Now, they watch a new manor house rise from _their_ ashes, trapped between scorched earth and an unreachable tide. Some now beg for work; others _sharpen knives_.
 
-**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Dirty Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit.
+**0301 The Fever Downs** Unnaturally warm hills ripple with heat. Rare herbs grow in perfect concentric circles reaching 30', their stems trembling without wind. A traveling healer named **Hergest** (`Healer, Dirty Old Codger, Opinionated`) harvests plants to brew remedies for body and spirit. He'll help if he can but won't say what the rings are for... only that he'd prefer it if you didn't step inside them.
 
 **0302 Lost Druid's Grove** lies nestled amidst the craggy embrace of the Sorrow Mountains. A weathered stone circle spanning 40' shows signs of countless ceremonies. 13 followers maintain sacred rites despite their leader's imprisonment in Mon. Each bears ritual scars and would die before breaking their vigil. They tolerate respectful visitors to the grove but ceremony days are _strictly_ private.
 
@@ -248,9 +248,9 @@ At the cairn's base, the sand is always cool to touch despite the desert heat. T
 
 **0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only shear stone. Rusted climbing gear litters the base.
 
-**0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Something watches from beyond sight.
+**0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Fresh chalk covers their faces. Someone was here this morning.
 
-**0403 Mountain's Spine** Sheer rock walls split by a single path; no wider than a goat in many places. Stones feel warm to the touch, despite the altitude.
+**0403 Mountain's Spine** A single path slices through sheer rock. No wider than a goat in places. Stones warm to the touch despite the altitude. The path winds between massive formations that, from a distance, look almost like ribs.
 
 **0404 Stone Spine** Razor-backed ridges thrust toward the sky. Wind screams through its granite teeth. A single vulture circles but there is little to die in a place where nothing can live.
 
@@ -501,15 +501,15 @@ The monastery boasts a famed library, produces fine milk and cheese from their g
 - **Lady Isolde** (`Noble, Graceful, Weary Heiress`) - sought sanctuary from the pressures of court life
 - 24 Monks, 6 Pilgrims
 
-**1202 The Skyroot Sentinels** Towering, ancient trees grow impossibly tall here, their roots gripping stone, binding the mountain in place. Their bark is scarred with old battle wounds. Those who listen closely hear faint warnings or welcomes, depending on intent.
+**1202 The Skyroot Sentinels** Ancient trees grow impossibly tall here. Their roots grip stone and bind the mountain in place. Bark scarred with old battle wounds; not by axes, by hands. Thousands of them. Those who listen hear something: not quite a warning and not quite a welcome. The forest waits to see what you do next.
 
-**1203 The Broken Stair** A weathered stone staircase, half-swallowed by trees and moss, climbs partway up the mountainside before vanishing into ruin. No one knows who built it, but the air around it hums with a strange energy. Some believe it once led to a forgotten temple, while others suspect it was abandoned for good reason.
+**1203 The Broken Stair** Stone steps climb the mountainside and stop mid-air; no landing, no ruin, just an abrupt end forty feet up. Built with purpose and abandoned in haste. The bottom steps are worn smooth with use — someone still comes here. The top step has a name carved into it. Just a name. No date, no epitaph.
 
-**1204 The Black Fangs** Jagged rock formations jut from the treeline like the teeth of some enormous beast. The stone is unnaturally dark, almost obsidian, and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Sometimes, a deep, reverberating hum can be heard from within the earth, like the growl of something waiting to rise.
+**1204 The Black Fangs** Jagged rock formations jut from the treeline like the teeth from an enormous beast. The stone is dark as dried blood and warm to the touch. Local hunters avoid the area, muttering about strange figures seen moving between the spires at dusk. Something _breathes_ from below. You can feel through still boots. 
 
-**1205 The Hollow Roost** An immense tree clings to the mountainside, its trunk wide enough to house a small dwelling. Inside, the walls are lined with countless empty nests, though no birds have been seen here in generations. Instead, on certain nights, ghostly wings flicker through the air, and the wind carries the sound of distant, echoing caws. Those who sleep beneath the Roost report dreams of flying over endless forests; sometimes pleasant, sometimes nightmarish.
+**1205 The Hollow Roost** An immense tree, its trunk wide enough to house a family. Inside, the walls are lined with empty nests; not abandoned, emptied. Something took what was in them. Those who sleep here dream of flying. Not all of them wake.
 
-**1208 The Leaning Stones** Stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
+**1208 The Leaning Stones** Stone pillars, worn smooth by time, lean at impossible angles. Strange markings spiral up their sides. Not runes. Not Fae. Something older. Even the monastery's goats avoid grazing among them, despite the unusually thick grass.
 
 **1302 The Mistwell** A hidden spring high in the forest, perpetually cloaked in mist. Its water is clear but strangely heavy, and those who drink from it report vivid dreams; sometimes prophetic, sometimes terrifying.
 
@@ -631,7 +631,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v1.0.4_ by brine <br>
+_v1.0.9_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) if you need a system <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for hexcrawl procedures <br>
