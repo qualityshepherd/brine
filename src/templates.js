@@ -38,13 +38,6 @@ export const aboutPageTemplate = () => `
     <a href="https://casadeocio.itch.io/the-steep-mage">The Steep Mage</a> is my most recent published scenario.<br>
     <p>Email me: <code>ack at brine dot dev</code></p>
     <p>On the Fediverse: @brine.dev@brine.dev</p>
-    <div class="social">
-      <a href='&#109;a&#105;l&#116;o&#58;m%65%4&#48;b&#114;&#105;n%65&#46;%64e&#118;' title="email"><img src="assets/images/social/email.png" alt="email"></a>
-      <a href="https://casadeocio.itch.io/" title="games on itch"><img src="assets/images/social/itch-io.png" alt="my publications on itch"></a>
-      <a href="https://podcasts.apple.com/us/podcast/world-of-brine/id1547081865" title="World of Brine"><img src="assets/images/social/podcast.png" alt="World of Brine on Apple"></a>
-      <a href="https://www.youtube.com/channel/UCy0_3iGguFBabUOdQ2o_ZUQ" title="youtube"><img src="assets/images/social/youtube.png" alt="youtube"></a>
-      <a href="/assets/rss/blog.xml"><img src="assets/images/social/rss.png" title="blog rss" alt="blog rss"></a>
-    </div>
   </div>
 `
 
