@@ -246,7 +246,7 @@ Yagul Fane maintains the binding runes while Fellstead Monastery provides rotati
 
 At the cairn's base, the sand is always cool to touch despite the desert heat. The bones themselves are sun-bleached but unmarked by weather or age. No one has identified what manner of creatures they came from.
 
-**0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only shear stone. Rusted climbing gear litters the base.
+**0401 Impossible Peaks** Mountain fangs rip the sky. No path exists; only sheer stone. Rusted climbing gear litters the base: a broken crampon, frayed rope, initials scratched into a piton, _CP_ [#1108]. Among the gear, a single dried Acony Bell. High above is a hidden alpine clearing where Acony Bells bloom through snow before spring has any right to arrive. 50-100s per bloom minimum. 
 
 **0402 Lost Druid's Threshold** Tall grass ripples in patterns no wind could shape. Standing stones peek through the green, their edges worn smooth. Fresh chalk covers their faces. Someone was here this morning.
 
@@ -499,6 +499,7 @@ The monastery boasts a famed library, produces fine milk and cheese from their g
 - **Brother Estabar** (`Monk, True Believer, Gentle`) - master goat herder
 - **Sir Ealdred** (`Knight, The Daring, Haunted`) - seeks spiritual clarity after long and brutal campaigns
 - **Lady Isolde** (`Noble, Graceful, Weary Heiress`) - sought sanctuary from the pressures of court life
+- **Cass Duvall** (`Broke on the Mountain, Knows the Way, One Leg`) - found an Acony Bell meadow among the cliffs in [#0401] but fell on the way down. Will sell the route or guide for the right price.
 - 24 Monks, 6 Pilgrims
 
 **1202 The Skyroot Sentinels** Ancient trees grow impossibly tall here. Their roots grip stone and bind the mountain in place. Bark scarred with old battle wounds; not by axes, by hands. Thousands of them. Those who listen hear something: not quite a warning and not quite a welcome. The forest waits to see what you do next.
@@ -631,7 +632,7 @@ D66 | Treasure
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
-_v1.0.9_ by brine <br>
+_v1.0.10_ by brine <br>
 [map by Watabou](https://watabou.github.io/perilous-shores/?seed=945645879&tags=perilous,woodland,difficult,coast,chaotic,highland&w=1300&h=1300&hexes=2) <br>
 [Of Yarn and Bone](https://brine.dev/#post?s=of_yarn_and_bone) if you need a system <br>
 [Hexcrawls Rule!](https://casadeocio.itch.io/hexcrawls-rule) for hexcrawl procedures <br>
