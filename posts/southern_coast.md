@@ -551,29 +551,25 @@ Boss hired a former druid to help navigate these tensions, but her true loyaltie
 - **"Cookie"** (`Terrible Cook, One-Armed, Former Logger`) - lost his arm to "tree-bite"
 - ~~12~~ 10 loggers
 
-**1407 Blackfish Point** A sheltered cove where prized blackfish school. Village fishermen claim the beach; their boats marked with crooked copper nails; wards from the Boat Hag. **"Cheeks" Allnut** (`Brawler, Lucky, Rusty Boot Shank`) "educates" strangers that this is a private beach and that charter fees start at 100s; no haggling.
+**1407 Blackfish Point** A sheltered cove where prized blackfish school. Village fishermen claim the beach, their boats marked with crooked copper nails—wards from the Boat Hag. **"Cheeks" Allnut** (`Brawler, Lucky, Rusty Boot Shank`) "educates" strangers that this is a private beach and that charter fees start at 100s; no haggling.
 
-**1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray.
-
-The hut nearest the sea belongs to Pesh (`Fisherman, Generous, Paranoid`), a fourth-generation fisherman known for his anonymous donations to the monastery. None question how a simple fisherman can afford such charity. Beneath Pesh's hut lies a chest of 10,000 silver coins; salvaged from the pirate wreck in seven midnight diving trips. The weight of his secret is heavier than the chest.
+**1408 Fishing Hamlet** A handful of wooden huts cling to the coast, their weathered walls dark with salt spray. The hut nearest the sea belongs to Pesh (`Fisherman, Generous, Paranoid`), a fourth-generation fisherman who makes anonymous donations to the monastery. Beneath his hut lies a chest of 10,000 silver coins, salvaged from the pirate wreck in seven midnight diving trips. The weight of his secret is heavier than the chest.
 
 The hamlet folk avoid the nearby Boat Hag [#1506], claiming her presence spoils their catches. Rotten fish regularly appear on her doorstep, though no one admits to leaving them.
 
-**1503 Split Oak** A massive oak tree, split by siege engines during the battle, still stands - both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
+**1503 Split Oak** A massive oak, split by siege engines during the battle, still stands — both halves alive and growing apart. Moss-covered stones from the war machines lie scattered at its base.
 
-**1505 The Tree of the Hollow Sister** A massive oak, hollowed from within, its trunk split and blackened by decay. Its fall cursed the land. From here to the sea, trees stand withered, their roots severed, their bark peeling away. Yet, the Hollow Sister lives.
+**1505 The Tree of the Hollow Sister** A massive oak, hollowed from within, its trunk split and blackened by decay. Its fall cursed the land. From here to the sea, trees stand withered, their roots severed, their bark peeling away. Yet the Hollow Sister lives.
 
-**1506 The Boat Hag** An overturned fishing boat serves as dwelling, its weathered hull grown thick with moss and marsh vines. Smoke from strange herbs seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door; they say rotten fish draws darker things away.
+**1506 The Boat Hag** An overturned fishing boat serves as a dwelling, its weathered hull grown thick with moss and marsh vines. Herb smoke seeps through the cracks while marsh birds deliver messages in exchange for scraps. Locals leave offerings at her door: they say rotten fish draws darker things away. Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
 
-Among her treasures is the **Dryad's Whispering Branch**, _acquired_ from the Fae Court. It allows the wielder to communicate with woodland creatures and plants, though using it risks drawing attention from its former owner.
-
-**1508 Pirate Shipwreck** lies just off the coast, its remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes, camouflaged among the coral, hunt in the wreckage.
+**1508 Pirate Shipwreck** lies just off the coast; remains jutting from the water. Barnacles cling to its splintered boards, broken masts, and rusting cannons. Venomous reef snakes—camouflaged among the coral—hunt in the wreckage.
 
 Among its treasures was a **Sylph Ring**; a pewter band marked with the fae rune for air that summons gentle winds. Carved on a board just above the waterline is "Pesh was here" [#1405].
 
-**1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, creating a haunting melody. The song tells the tale of the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost, unsettling the fallen dead.
+**1601: The Bone-Wind Chimes:** Animal bones hang from dead trees, playing in the wind. Their song is the Battle of Mistwood. Disturb their precise arrangement, and the melody is lost, unsettling the fallen.
 
-**1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay. The ground shifts subtly beneath its massive form, as though the creature only slumbers. The marsh hums with an ancient presence; the air growing dense, sweet with rot and forgotten blood. Some say it died in battle, others that the land itself caught it. Approach, and feel the creature's strange, silent pull.
+**1602 Mammoth Maw** A hillside splits open, revealing an enormous mammoth half-buried in swamp mud. Its gnarled tusks rise like fallen trees, fur matted and thick with decay. The ground shifts subtly beneath its massive form, as though the creature only slumbers. The marsh hums with a presence; the air growing dense, sweet with rot and blood. Some say it died in battle, others that the land itself caught it. Approach, and feel a strange, silent pull.
 
 **1603 Old Pete's Boggery** Wooden walkways wind through the marsh, connecting islands of relatively solid ground. **Pete** (`Bog-Strong, Handy with a Peat Spade, Quality Human Being`) and his twelve workers harvest peat from carefully managed bogs; fuel that keeps the region's hearths burning. The work is hard, but the marsh provides for those who know its ways.
 
@@ -627,8 +623,7 @@ D66 | Treasure
 63 | Crystal perfume bottle with lingering scent (18s)
 64 | Fine wool cloak with fox fur trim (28s)
 65 | Silver thimble that smells of rare spices (14s)
-66 | An engraved solid silver storm lantern signed: _To Jane, love Tom_ (420s)
-
+66 | An engraved solid silver storm lantern signed: To Jane, love Tom (180s)
 
 ![#image](/assets/images/southern_coast/southern_coast.png)
 
