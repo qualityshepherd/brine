@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>feedi</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A vanilla js, single page blog...">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="http://lvh.me:4242/">
+   <meta property="og:description" content="A single page blog written in vanilla js...">
+ <meta property="og:image" content="http://lvh.me:4242/images/ipsum.jpg">
+  <meta property="og:image:width" content="360">
+  <meta property="og:image:height" content="360">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="assets/rss/sitemap.xml">
+  <link rel="preload" href="/assets/fonts/Oswald-Regular.ttf" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="favicon.png">
+  <link rel="me" href="https://fed.brid.gy/feedi.brine-flare.workers.dev">
+</head>
+<body>
+
+<header>
+  <img src="assets/images/catface.svg">
+  <nav>
+    <div id="menu" role="button" aria-label="menu">&#8801;</div>
+    <div id="links">
+      <a href="/" class="active">Blog</a>
+      <a href="/about">About</a>
+      <a href="/archive">Archive</a>
+      <a href="/feeds">Feeds</a>
+      <form aria-label="search">
+        <input id="search" name="q" type="text" placeholder="search...">
+      </form>
+  </div>
+  </nav>
+</header>
+
+<!-- hidden: just for seo -->
+<h1>feedi</h1>
+
+<div class="container">
+  <main><!-- content will be inserted here --></main>
+  <button id="load-more">Load more</button>
+</div>
+
+<footer>
+</footer>
+
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+node_modules/
+test/
+worker/
+.github/
+posts/
+lib/
+*.toml
+*.md
+testpup.js
+private.pem
+public.pem
+.wrangler/
+package.json
+package-lock.json

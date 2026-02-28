@@ -1,0 +1,33 @@
+{
+  "name": "feedi",
+  "version": "3.0.0",
+  "description": "Feedi - federated blog + RSS reader",
+  "type": "module",
+  "author": "brine",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "build:index": "node ./gen/genr8Index.js",
+    "build:feeds": "node ./gen/genr8Feeds.js",
+    "rss:blog": "node ./gen/genr8Blog.js",
+    "rss:pod": "# optional: node ./gen/genr8Pod.js",
+    "rss:sitemap": "node ./gen/genr8Sitemap.js",
+    "start": "npm run build:index && npm run build:feeds && npm run rss:blog && npm run rss:sitemap",
+    "test": "start-server-and-test server http://localhost:4242 \"node --test --test-reporter spec 'test/**/*.test.js'\"",
+    "test:unit": "node --test --test-reporter spec 'test/unit/**/*.test.js'",
+    "test:e2e": "start-server-and-test server http://localhost:4242 \"node --test --test-concurrency=4 --test-reporter spec 'test/e2e/**/*.test.js'\"",
+    "test:debug": "HEADLESS=0 SLOWMO=100 start-server-and-test server http://localhost:4242 \"node --test --test-reporter spec 'test/e2e/**/*.test.js'\"",
+    "server": "npm start && sirv . --port 4242 --single --quiet",
+    "kill": "pkill -f chromium",
+    "pretty": "standard --fix"
+  },
+  "devDependencies": {
+    "sirv-cli": "^3.0.0",
+    "puppeteer": "^24.3.1",
+    "standard": "^17.1.2",
+    "start-server-and-test": "^2.0.12"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}

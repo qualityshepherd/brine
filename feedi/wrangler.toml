@@ -1,0 +1,14 @@
+name = "feedi"
+main = "worker/index.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "."
+not_found_handling = "single-page-application"
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "31af68a490ad48a2a5a92248ca0cf957"
+
+

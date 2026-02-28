@@ -1,0 +1,4 @@
+[
+  { "url": "https://www.example.com/feed.xml" },
+  { "url": "https://another.example.com/rss", "limit": 5 }
+]

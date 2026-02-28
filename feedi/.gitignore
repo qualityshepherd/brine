@@ -1,0 +1,6 @@
+node_modules/
+test/errors/
+test/screenshots/
+index.json
+aggregated.json
+assets/rss/
