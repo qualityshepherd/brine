@@ -5,7 +5,7 @@ description:  Character sheets reduce what images or Names communicate perfectly
 tags: words, design, love letter to Mr. Baker
 ---
 
-![center](/assets/images/posts/gun-guy.jpg)
+![center](/assets/images/posts/gun-guy2.jpg)
 
 I bumped into [this thread from Vincent Baker](http://lumpley.com/index.php/anyway/thread/497) about character sheets. In it, he shows an image of a character and then brilliantly defines the character from the image:
 
