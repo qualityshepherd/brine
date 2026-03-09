@@ -16,6 +16,8 @@ const config = {
   r2Bucket: 'brine-dev', // must match bucket_name in wrangler.toml
 
   podcast: {
+    title: 'World of Brine',
+    description: 'World of Brine is a ttrpg podcast of words and worlds; meandering conversations and actual play games. #oyab #named #fkr #ttrpg #rpg',
     author: 'brine',
     email: 'ack@brine.dev',
     explicit: 'true',

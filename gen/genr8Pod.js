@@ -49,9 +49,9 @@ export const buildPodItem = (podcast, cfg, length = 0) => {
 export const buildPodFeed = (podcasts, cfg, lengths = {}) => {
   const baseUrl = `https://${cfg.domain}`
   const pod = {
-    title: cfg.title,
+    title: cfg.podcast?.title || cfg.title,
     link: baseUrl,
-    description: cfg.description,
+    description: cfg.podcast?.description || cfg.description,
     image: cfg.podcast?.image || (cfg.image ? `${baseUrl}${cfg.image}` : `${baseUrl}/assets/images/default.svg`),
     author: cfg.podcast?.author || cfg.author,
     explicit: cfg.podcast?.explicit || 'false',
@@ -87,7 +87,8 @@ export const buildPodFeed = (podcasts, cfg, lengths = {}) => {
   <itunes:owner>
     <itunes:email>${pod.email}</itunes:email>
   </itunes:owner>
-  <atom:link href="${pod.podRss}" rel="self" type="application/rss+xml" />${items}
+  <atom:link href="${pod.podRss}" rel="self" type="application/rss+xml" />
+  <itunes:new-feed-url>${pod.podRss}</itunes:new-feed-url>${items}
 </channel>
 </rss>`
 }
