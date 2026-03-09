@@ -84,7 +84,7 @@ const routeHandlers = {
   },
 
   [ROUTES.ARCHIVE]: () => {
-    renderArchive(getPosts())
+    renderArchive(filterOutTag(getPosts(), 'podcast'))
   },
 
   // /search is not a nav route — URL state set by handleSearch via replaceState.

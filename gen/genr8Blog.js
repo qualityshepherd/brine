@@ -10,6 +10,7 @@ const url = `https://${config.domain}`
     const allPosts = JSON.parse(raw)
     const sorted = sortByDate(allPosts)
     const posts = removeFuturePosts(sorted)
+      .filter(p => !p.meta?.tags?.some(t => t.toLowerCase() === 'podcast'))
 
     let feed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
