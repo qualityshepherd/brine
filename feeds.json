@@ -1,0 +1,14 @@
+[
+  { "url": "https://www.reddit.com/r/Fkr/.rss", "limit": 4 },
+  { "url": "https://dice.camp/@Wightbred.rss", "limit": 4 },
+  { "url": "https://deepvoices.substack.com/feed", "limit": 4 },
+  { "url": "https://dailyclassicart.substack.com/feed", "limit": 4 },
+  { "url": "https://monsterbrains.blogspot.com/feeds/posts/default", "limit": 4 },
+  { "url": "https://publicdomainreview.tumblr.com/rss", "limit": 4 },
+  { "url": "https://everybodysdummy.blogspot.com/feeds/posts/default", "limit": 4 },
+  { "url": "https://worldof.brine.dev/assets/rss/pod.xml", "limit": 4 },
+  { "url": "https://doomandgloomfromthetomb.tumblr.com/rss", "limit": 4 },
+  { "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA", "limit": 4 },
+  { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 4 },
+  { "url": "https://brine.dev/assets/rss/blog.xml", "limit": 4 }
+]
