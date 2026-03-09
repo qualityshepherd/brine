@@ -12,3 +12,4 @@ public.pem
 .wrangler/
 package.json
 package-lock.json
+.git
