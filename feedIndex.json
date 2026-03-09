@@ -198,6 +198,17 @@
     }
   },
   {
+    "title": "E5 Let's Not Talk About AI",
+    "url": "https://brine.dev/posts/e5_lets_not_talk_about_ai",
+    "date": "Wed, 18 Feb 2026 00:00:00 GMT",
+    "content": "<p><img src=\"https://brine.dev//assets/images/brine_square.jpg\" alt=\"thumb\">\nWightbred and Brine definitely don&#39;t talk about AI, zine page counts, future warfare weapons that make you a wizard, whether Dark Secrets needs a hopeful counterpart and migrating off Discord. They also don&#39;t talk about AI some more.</p>\n<ul>\n<li><a href=\"https://wightbred.itch.io/\">Wightbred</a></li>\n<li><a href=\"https://brine.dev/\">Brine</a></li>\n<li><a href=\"https://wightbred.itch.io/unnamedworlds\">Unnamed Worlds</a></li>\n<li><a href=\"https://buriedwithoutceremony.com/worlds-without-master\">Worlds Without Master</a></li>\n<li><a href=\"https://lumpley.itch.io/dogs-in-the-vineyard\">Dogs in the Vineyard</a></li>\n<li><a href=\"https://www.gartner.com/en/research/methodologies/gartner-hype-cycle\">Gartner Hype Cycle</a></li>\n</ul>\n<p><audio controls src=\"https://ia903206.us.archive.org/16/items/e5_lets_not_talk_about_ai/e5_lets_not_talk_about_ai.mp3\"></audio></p>",
+    "author": "",
+    "feed": {
+      "title": "brine",
+      "url": "https://brine.dev/assets/rss/blog.xml"
+    }
+  },
+  {
     "title": "Pan-American Funky Highway: Latin &amp; Brazilian Grooves with Sonido Tupinamba",
     "url": "https://www.youtube.com/watch?v=eTMCAdTikVA",
     "date": "2026-02-15T09:35:18+00:00",
@@ -275,6 +286,17 @@
     }
   },
   {
+    "title": "The Image IS Your Character Sheet",
+    "url": "https://brine.dev/posts/the_image_is_your_character_sheet",
+    "date": "Sun, 11 Jan 2026 00:00:00 GMT",
+    "content": "<p><img src=\"https://brine.dev//assets/images/posts/gun-guy2.jpg\" alt=\"center\"></p>\n<p>I bumped into <a href=\"http://lumpley.com/index.php/anyway/thread/497\">this thread from Vincent Baker</a> about character sheets. In it, he shows an image of a character and then brilliantly defines the character from the image:</p>\n<blockquote>\n<p><em>&quot;He&#39;s got some immediate evident qualities: his gun, his attention to his surroundings, his energy/adrenaline/capacity for violence/will to action, and it looks like maybe he&#39;s done this thing more than once before.&quot;</em></p>\n</blockquote>\n<p>Mr. Baker (I mean, it&#39;s <em>Vincent Baker</em>... RESPECT! So yes, <em>Mr.</em>) explains how RPG design should handle three types of character qualities: effectiveness, resource, and positioning. Yes. Cool. But then Mr. Baker fucks up and suggests we translate all that into a character sheet. </p>\n<p>False. </p>\n<p>The image already contains and communicates everything perfectly. The stance, the tension, the weapon, the context, the whole situation: effectiveness, resource, and positioning unified in a single image. It works perfectly as-is.</p>\n<h3>Lost in translation</h3>\n<p>Translating the image to a character sheet reduces it. At best it&#39;s a photocopy of the original? </p>\n<ol>\n<li>Consider an image </li>\n<li>Break it down into stats and mechanics</li>\n<li>Build &quot;currency&quot; relationships between those mechanics  </li>\n<li>Try to make the currency produce fiction that resembles the original photo</li>\n</ol>\n<p>This is attempting to solve a problem <em>you</em> created in step 2.</p>\n<h3>Names are Images</h3>\n<p>My friend <a href=\"https://wightbred.itch.io/named\">Wightbred&#39;s game, Named</a> gives us the concept of <code>Names</code> (which I stole for my game <a href=\"https://brine.dev/#post?s=of_yarn_and_bone\">OYAB</a>). Characters have Names: <code>Reluctant Captain, Mail Order Medic, Disappointment</code>. </p>\n<p>These work exactly the same as the image; just in text form. Which makes them better for conversational games.</p>\n<p><code>Reluctant Captain</code> gives you everything: leadership capability (or perhaps <em>incapability</em>), nautical experience, doesn&#39;t want the job, probably inherited it or got stuck with it, crew dynamics, pressure. All right there. Unified. Interpretable.</p>\n<p>Names function as images. <code>Reluctant Captain</code> hits your brain the same way that image does: as one thing that means more than its parts, but never <em>everything</em>. Coherent but inviting interpretation. </p>\n<p>Not STR 14, Leadership +3, Naval Combat (Expert), Morale Penalty -2. The Name stays whole. When you roll with an applicable Name, you&#39;re asking &quot;does this relevant thing about you help in this situation?&quot; </p>\n<p>That&#39;s it.</p>\n<h3>Conversation, Not Calculation</h3>\n<p>Names work for conversation. <code>Reluctant Captain</code> isn&#39;t character data, it&#39;s a conversation hook. It suggests backstory; it prompts questions. The GM asks &quot;Why don&#39;t you want this?&quot; or an NPC says &quot;Captain, the crew&#39;s looking to you...&quot; and everyone knows the tension without checking the rules.</p>\n<p>OYAB&#39;s <code>Totems</code> work the same way. <em>&quot;Blood remembers the blade&quot;</em> isn&#39;t a rule, it&#39;s an image that sparks conversation about what magic means right now. The table riffs on it together.</p>\n<p><code>Burdens</code> use Tarot. Yeah, requiring a deck is a conversational sin. But it earns its place by doing work. Drawing The Tower doesn&#39;t dictate outcomes, it gives the table something to interpret together. What does magical imbalance look like? How can we resolve it? What is the cost for succeeding when the world said no?  </p>\n<p>Conversational spark? I absolve myself...</p>\n<p>The image <em>IS</em> the character sheet.</p>",
+    "author": "",
+    "feed": {
+      "title": "brine",
+      "url": "https://brine.dev/assets/rss/blog.xml"
+    }
+  },
+  {
     "title": "E4 I Won the Podcast",
     "url": "https://worldof.brine.dev/#post?s=e4_i_won_the_podcast",
     "date": "Sat, 10 Jan 2026 00:08:42 GMT",
@@ -286,6 +308,17 @@
     }
   },
   {
+    "title": "E4 I Won the Podcast",
+    "url": "https://brine.dev/posts/e4_i_won_the_podcast",
+    "date": "Sat, 10 Jan 2026 00:00:00 GMT",
+    "content": "<p><img src=\"https://brine.dev//assets/images/brine_square.jpg\" alt=\"thumb\"></p>\n<p>Wightbred and Brine bring in the new year by talking about why systems are awesome! They then accidentally stress this point by <em>systemizing</em> the podcast itself. No spoilers on who won the podcast. By a lot.  </p>\n<ul>\n<li><a href=\"https://wightbred.itch.io/\">Wightbred</a></li>\n<li><a href=\"https://brine.dev/\">Brine</a></li>\n<li><a href=\"https://lumpley.itch.io/apocalypse-world\">Apocalypse World</a></li>\n<li><a href=\"http://www.dragonlance.d20.cz/diskuze/odborne-diskuze/52204.html\">50/50</a></li>\n<li><a href=\"https://www.diceexploder.com/\">Dice Exploder</a></li>\n</ul>\n<p><audio controls src=\"https://archive.org/download/e4_i_won_the_podcast/e4_i_won_the_podcast.mp3\"></audio></p>",
+    "author": "",
+    "feed": {
+      "title": "brine",
+      "url": "https://brine.dev/assets/rss/blog.xml"
+    }
+  },
+  {
     "title": "E3 System Bashing Matters",
     "url": "https://worldof.brine.dev/#post?s=e3_system_bashing_matters",
     "date": "Sat, 27 Dec 2025 00:08:42 GMT",
@@ -294,6 +327,17 @@
     "feed": {
       "title": "World of Brine",
       "url": "https://worldof.brine.dev/assets/rss/pod.xml"
+    }
+  },
+  {
+    "title": "E3 System Bashing Matters",
+    "url": "https://brine.dev/posts/e3_system_bashing_matters",
+    "date": "Sat, 27 Dec 2025 00:00:00 GMT",
+    "content": "<p><img src=\"https://brine.dev//assets/images/brine_square.jpg\" alt=\"thumb\"></p>\n<p>Wightbred and Brine get in the holiday spirit and wrap up 2025 by bashing systems. Coal for every stocking! But also our plea for the new year: unless you need the money, stop trying to fix D&amp;D and instead, make cool stuff we can steal!</p>\n<ul>\n<li><a href=\"https://wightbred.itch.io/\">Wightbred</a></li>\n<li><a href=\"https://brine.dev/\">Brine</a></li>\n<li><a href=\"https://brine.dev/#post?s=group_combat_rules\">Group Combat</a></li>\n<li><a href=\"https://wightbred.itch.io/named\">Named</a></li>\n<li><a href=\"https://brine.dev/#post?s=of_yarn_and_bone\">Of Yarn and Bone</a></li>\n<li><a href=\"https://lumpley.itch.io/apocalypse-world\">Apocalypse World</a></li>\n<li><a href=\"https://wightbred.itch.io/skypirates-of-jotnaar\">Jotnar</a></li>\n<li><a href=\"https://www.imdb.com/title/tt22202452/episodes/\">Pluribus</a></li>\n</ul>\n<p><audio controls src=\"https://archive.org/download/e3_system_bashing_matters/e3_system_bashing_matters.mp3\"></audio></p>",
+    "author": "",
+    "feed": {
+      "title": "brine",
+      "url": "https://brine.dev/assets/rss/blog.xml"
     }
   },
   {
