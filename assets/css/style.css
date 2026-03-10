@@ -175,9 +175,6 @@ nav a:hover {
   color: var(--color-accent);
 }
 
-nav form {
-}
-
 #search {
   width: 120px;
   font-size: var(--text-sm);

@@ -12,9 +12,7 @@ export const getLimitedPosts = (posts, limit) => posts.slice(0, Math.max(0, limi
 
 export const postMatchesSearch = (post, searchTerm) => {
   if (!searchTerm) return true
-
   const terms = searchTerm.toLowerCase().split(' ').filter(Boolean)
-
   return terms.every(term =>
     (post.meta.title || '').toLowerCase().includes(term) ||
     (post.markdown || '').toLowerCase().includes(term) ||
@@ -36,6 +34,11 @@ export const renderTags = (tags, path = '/tag') =>
 // test render functions via e2e tests...
 //
 
+export function toggleLoadMoreButton (shouldShow = false) {
+  if (!elements.loadMore) return
+  elements.loadMore.classList.toggle('show', shouldShow)
+}
+
 export function renderPosts (posts, limit = null) {
   const displayLimit = limit ?? getDisplayedPosts()
   const limited = getLimitedPosts(posts, displayLimit)
@@ -47,18 +50,22 @@ export function renderSinglePost (slug) {
   const posts = getPosts()
   const post = posts.find(p => p.meta.slug === slug)
   elements.main.innerHTML = post ? singlePostTemplate(post) : notFoundTemplate()
+  toggleLoadMoreButton(false)
 }
 
 export function renderAboutPage () {
   elements.main.innerHTML = aboutPageTemplate()
+  toggleLoadMoreButton(false)
 }
 
 export function renderArchive (posts) {
   elements.main.innerHTML = posts.map(archiveTemplate).join('')
+  toggleLoadMoreButton(false)
 }
 
 export function renderNotFoundPage () {
   elements.main.innerHTML = notFoundTemplate()
+  toggleLoadMoreButton(false)
 }
 
 export function renderFilteredPosts () {
@@ -67,17 +74,10 @@ export function renderFilteredPosts () {
   const filtered = posts.filter(post =>
     postMatchesSearch(post, searchTerm)
   )
-
-  // check if there are no filtered posts
   if (filtered.length === 0) {
     elements.main.innerHTML = notFoundTemplate('No results found for your search.')
-    toggleLoadMoreButton(false) // Hide load more button if no results
+    toggleLoadMoreButton(false)
   } else {
     renderPosts(filtered, filtered.length)
   }
-}
-
-export function toggleLoadMoreButton (shouldShow = false) {
-  if (!elements.loadMore) return
-  elements.loadMore.classList.toggle('show', shouldShow)
 }
