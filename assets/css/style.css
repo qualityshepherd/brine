@@ -166,7 +166,7 @@ nav {
 }
 
 nav a {
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
   color: var(--color-text-secondary);
   border: none;
 }
@@ -177,7 +177,7 @@ nav a:hover {
 
 #search {
   width: 120px;
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
   padding: 6px 8px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--color-border);
