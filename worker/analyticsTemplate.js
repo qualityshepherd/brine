@@ -35,8 +35,21 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .heatmap-labels.dow{grid-template-columns:repeat(7,1fr)}
 .heatmap-labels.hour{grid-template-columns:repeat(24,1fr)}
 .heatmap-labels span{font-size:55%;color:var(--alt1);text-align:center;font-family:mono}
-.log-row{display:grid;grid-template-columns:9rem 1.5rem 8rem 1fr;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
-.log-ts{color:var(--alt1)}.log-flag{text-align:center}.log-city{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.log-path{color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.log-row{display:grid;grid-template-columns:11rem 1.8rem 8rem 1fr;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
+.log-ts{color:var(--alt1);white-space:nowrap}
+.log-flag{text-align:center;font-size:1.2em}
+.log-city{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
+.log-city:hover{color:var(--alt3)}
+.log-city.active{color:var(--alt3)}
+.log-path{color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.filter-bar{display:flex;align-items:center;gap:1rem;margin:.5rem 0;font-size:85%;font-family:mono;min-height:1.5rem}
+.filter-bar span{color:var(--alt3)}
+.filter-bar a{color:var(--alt1);cursor:pointer;text-decoration:underline}
+@media(max-width:520px){
+  .log-row{grid-template-columns:auto 1.8rem 1fr;gap:.5rem}
+  .log-path{display:none}
+  .maps{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
@@ -47,6 +60,7 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
   <div class="summary" id="summary"></div>
   <div class="maps" id="maps"></div>
   <div id="charts"></div>
+  <div id="filter-bar" class="filter-bar"></div>
   <div id="logs"></div>
 </div>
 <script>
@@ -55,7 +69,23 @@ const days = parseInt(params.get('days') || '1')
 const secret = params.get('secret') || ''
 const DOW = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 
-// nav
+const COUNTRY_NAMES = {
+  AF:'Afghanistan',AL:'Albania',DZ:'Algeria',AR:'Argentina',AM:'Armenia',AU:'Australia',AT:'Austria',
+  AZ:'Azerbaijan',BH:'Bahrain',BD:'Bangladesh',BY:'Belarus',BE:'Belgium',BR:'Brazil',BG:'Bulgaria',
+  CA:'Canada',CL:'Chile',CN:'China',CO:'Colombia',HR:'Croatia',CZ:'Czech Republic',DK:'Denmark',
+  EG:'Egypt',EE:'Estonia',FI:'Finland',FR:'France',GE:'Georgia',DE:'Germany',GH:'Ghana',GR:'Greece',
+  HK:'Hong Kong',HU:'Hungary',IN:'India',ID:'Indonesia',IE:'Ireland',IL:'Israel',IT:'Italy',
+  JP:'Japan',JO:'Jordan',KZ:'Kazakhstan',KE:'Kenya',KR:'South Korea',KW:'Kuwait',LV:'Latvia',
+  LB:'Lebanon',LT:'Lithuania',MY:'Malaysia',MX:'Mexico',MA:'Morocco',NL:'Netherlands',NZ:'New Zealand',
+  NG:'Nigeria',NO:'Norway',OM:'Oman',PK:'Pakistan',PE:'Peru',PH:'Philippines',PL:'Poland',
+  PT:'Portugal',QA:'Qatar',RO:'Romania',RU:'Russia',SA:'Saudi Arabia',RS:'Serbia',SG:'Singapore',
+  SK:'Slovakia',ZA:'South Africa',ES:'Spain',SE:'Sweden',CH:'Switzerland',TW:'Taiwan',TH:'Thailand',
+  TR:'Turkey',UA:'Ukraine',AE:'United Arab Emirates',GB:'United Kingdom',US:'United States',
+  UZ:'Uzbekistan',VN:'Vietnam'
+}
+
+const countryName = code => COUNTRY_NAMES[code] || code
+
 const tokenParam = secret ? \`&secret=\${secret}\` : ''
 document.getElementById('hostname').textContent = location.hostname
 document.getElementById('nav').innerHTML = [1, 3, 7, 30, 365].map(d => {
@@ -66,14 +96,15 @@ document.getElementById('nav').innerHTML = [1, 3, 7, 30, 365].map(d => {
 const flag = (code) => {
   if (!code || code === '?') return ''
   const f = code.toUpperCase().replace(/./g, c => String.fromCodePoint(0x1F1E6 + c.charCodeAt(0) - 65))
-  return \`<span title="\${code}">\${f}</span> \`
+  return \`<span title="\${countryName(code)}">\${f}</span> \`
 }
 
 const flagWithRegion = (code, region) => {
   if (!code || code === '?') return ''
   const f = code.toUpperCase().replace(/./g, c => String.fromCodePoint(0x1F1E6 + c.charCodeAt(0) - 65))
-  const label = (region && region !== '?') ? \`\${region}, \${code}\` : code
-  return \`<span title="\${label}">\${f}</span> \`
+  const name = countryName(code)
+  const label = (region && region !== '?') ? \`\${region}, \${name}\` : name
+  return \`<span title="\${label}">\${f}</span>\`
 }
 
 const fmtTs = (ts) => {
@@ -82,12 +113,14 @@ const fmtTs = (ts) => {
   return date + d.toLocaleTimeString('en', { hour: 'numeric', minute: '2-digit' })
 }
 
-const bars = (items, isCountry = false) => items.map(([name, count]) =>
-  \`<div class="bar-wrap" title="\${name}">\` +
-  \`<span class="label">\${isCountry ? flag(name) : ''}\${name}</span>\` +
-  \`<div class="bar" style="width:\${Math.round(count / (items[0]?.[1] || 1) * 120)}px"></div>\` +
-  \`<span class="count">\${count}</span></div>\`
-).join('')
+const bars = (items, isCountry = false) => items.map(([name, count]) => {
+  const label = isCountry ? \`\${flag(name)}\${countryName(name)}\` : name
+  const title = isCountry ? countryName(name) : name
+  return \`<div class="bar-wrap" title="\${title}">\` +
+    \`<span class="label">\${label}</span>\` +
+    \`<div class="bar" style="width:\${Math.round(count / (items[0]?.[1] || 1) * 120)}px"></div>\` +
+    \`<span class="count">\${count}</span></div>\`
+}).join('')
 
 const heatmap = (data, labels, cls) => {
   const max = Math.max(...data, 1)
@@ -99,7 +132,6 @@ const heatmap = (data, labels, cls) => {
     \`<div class="heatmap-labels \${cls}">\${labels.map(l => \`<span>\${l}</span>\`).join('')}</div>\`
 }
 
-// aggregate across all days
 const aggregate = (allData) => {
   let totalHits = 0, totalBots = 0, totalUniques = 0
   const byPath = {}, byCountry = {}, byReferrer = {}
@@ -110,7 +142,9 @@ const aggregate = (allData) => {
     if (!data) continue
     totalHits += data.totalHits || 0
     totalBots += data.bots || 0
-    totalUniques += data.uniques || 0
+    // fix: uniques may be array (R2 backup) or number (today DO)
+    const u = data.uniques
+    totalUniques += Array.isArray(u) ? u.length : (typeof u === 'number' ? u : 0)
     for (const [k, v] of Object.entries(data.byPath || {})) byPath[k] = (byPath[k] || 0) + v
     for (const [k, v] of Object.entries(data.byCountry || {})) byCountry[k] = (byCountry[k] || 0) + v
     for (const [k, v] of Object.entries(data.byReferrer || {})) byReferrer[k] = (byReferrer[k] || 0) + v
@@ -123,8 +157,39 @@ const aggregate = (allData) => {
   return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byHour, byDow, recentHits }
 }
 
+let activeCity = null
+let allHits = []
+
+const renderLogs = () => {
+  const filtered = activeCity ? allHits.filter(h => h.city === activeCity) : allHits
+  const filterBar = document.getElementById('filter-bar')
+  filterBar.innerHTML = activeCity
+    ? \`<span>📍 \${activeCity}</span> <a onclick="clearFilter()">clear</a>\`
+    : ''
+
+  const logsHtml = filtered.slice(0, 100).map(h =>
+    \`<div class="log-row">\` +
+    \`<span class="log-ts">\${fmtTs(h.ts)}</span>\` +
+    \`<span class="log-flag">\${flagWithRegion(h.country, h.region)}</span>\` +
+    \`<span class="log-city\${activeCity === h.city ? ' active' : ''}" onclick="filterCity('\${h.city}')" title="\${h.city}">\${h.city || '?'}</span>\` +
+    \`<span class="log-path" title="\${h.path}">\${h.path}</span>\` +
+    \`</div>\`
+  ).join('')
+  document.getElementById('logs').innerHTML = logsHtml ? \`<h2>recent hits</h2>\${logsHtml}\` : ''
+}
+
+window.filterCity = (city) => {
+  activeCity = activeCity === city ? null : city
+  renderLogs()
+}
+window.clearFilter = () => {
+  activeCity = null
+  renderLogs()
+}
+
 const render = (allData) => {
   const s = aggregate(allData)
+  allHits = s.recentHits
   const topPaths = Object.entries(s.byPath).sort((a, b) => b[1] - a[1]).slice(0, 20)
   const topCountries = Object.entries(s.byCountry).sort((a, b) => b[1] - a[1]).slice(0, 10)
   const topRefs = Object.entries(s.byReferrer).sort((a, b) => b[1] - a[1]).slice(0, 10)
@@ -144,17 +209,9 @@ const render = (allData) => {
   document.getElementById('charts').innerHTML =
     \`<h2>top pages</h2><div>\${bars(topPaths)}</div>\` +
     \`<h2>top countries</h2><div>\${bars(topCountries, true)}</div>\` +
-    \`<h2>top referrers</h2><div>\${bars(topRefs)}</div>\`
+    (topRefs.length ? \`<h2>top referrers</h2><div>\${bars(topRefs)}</div>\` : '')
 
-  const logsHtml = s.recentHits.slice(0, 100).map(h =>
-    \`<div class="log-row">\` +
-    \`<span class="log-ts">\${fmtTs(h.ts)}</span>\` +
-    \`<span class="log-flag">\${flagWithRegion(h.country, h.region)}</span>\` +
-    \`<span class="log-city">\${h.city || '?'}</span>\` +
-    \`<span class="log-path">\${h.path}</span>\` +
-    \`</div>\`
-  ).join('')
-  document.getElementById('logs').innerHTML = logsHtml ? \`<h2>recent hits</h2>\${logsHtml}\` : ''
+  renderLogs()
 }
 
 fetch(\`/api/analytics?days=\${days}\${tokenParam}\`)
