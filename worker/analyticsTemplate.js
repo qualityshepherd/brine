@@ -167,7 +167,7 @@ const renderLogs = () => {
     ? \`<span>📍 \${activeCity}</span> <a onclick="clearFilter()">clear</a>\`
     : ''
 
-  const logsHtml = filtered.slice(0, 100).map(h =>
+  const logsHtml = filtered.slice(0, 420).map(h =>
     \`<div class="log-row">\` +
     \`<span class="log-ts">\${fmtTs(h.ts)}</span>\` +
     \`<span class="log-flag">\${flagWithRegion(h.country, h.region)}</span>\` +

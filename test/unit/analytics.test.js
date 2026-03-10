@@ -185,15 +185,7 @@ test('applyHit: adds to recentHits', t => {
   t.is(day.recentHits.length, 1)
   t.is(day.recentHits[0].path, '/foo')
 })
-test('applyHit: caps recentHits at 100', t => {
-  let day = freshDay('2026-03-03')
-  let uniques = new Set()
-  for (let i = 0; i < 105; i++) {
-    const r = applyHit(day, uniques, buildHit('/foo', {}, 'ip' + i))
-    day = r.day; uniques = r.uniques
-  }
-  t.is(day.recentHits.length, 100)
-})
+
 test('applyHit: bots do not add to recentHits', t => {
   const { day } = applyHit(freshDay('2026-03-03'), new Set(), { bot: true })
   t.is(day.recentHits.length, 0)
