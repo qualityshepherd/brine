@@ -166,7 +166,7 @@ nav {
 }
 
 nav a {
-  font-size: var(--text-md);
+  font-size: var(--text-sm);
   color: var(--color-text-secondary);
   border: none;
 }
@@ -175,9 +175,12 @@ nav a:hover {
   color: var(--color-accent);
 }
 
+nav form {
+}
+
 #search {
   width: 120px;
-  font-size: var(--text-md);
+  font-size: var(--text-sm);
   padding: 6px 8px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--color-border);
@@ -305,6 +308,20 @@ ul li {
 .tags {
   margin-top: 15px;
   font-style: italic;
+}
+
+.rss-subscribe {
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  font-style: normal;
+  border: none;
+  margin-left: var(--space-3);
+  opacity: 0.7;
+}
+
+.rss-subscribe:hover {
+  opacity: 1;
+  color: var(--color-accent-hover);
 }
 
 audio {

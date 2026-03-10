@@ -4,6 +4,7 @@ export default `<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>analytics</title>
+<link rel="icon" href="/favicon.png" />
 <style>
 @font-face{font-family:header;src:url(/assets/fonts/Oswald-Regular.ttf) format(truetype)}
 @font-face{font-family:Inter;src:url(/assets/fonts/Inter-Regular.woff2) format(woff2)}

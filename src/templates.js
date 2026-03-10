@@ -2,6 +2,15 @@ import { renderTags } from './ui.js'
 import { stripHtml, processContent, truncateContent } from './feedRules.js'
 import config from '../feedi.config.js'
 
+const isPodcast = post => post.meta.tags?.some(t => t.toLowerCase() === 'podcast')
+
+const subscribeLink = post => {
+  const feed = isPodcast(post)
+    ? { href: '/assets/rss/pod.xml', title: 'Subscribe to World of Brine podcast' }
+    : { href: '/assets/rss/blog.xml', title: 'Subscribe to brine.dev blog' }
+  return `<a class="rss-subscribe" href="${feed.href}" title="${feed.title}">&#x25C6; subscribe</a>`
+}
+
 export const postsTemplate = post => {
   const [preview, fullContent] = post.html.split('<break>')
   const hasBreak = fullContent !== undefined
@@ -15,7 +24,7 @@ export const postsTemplate = post => {
       ${hasBreak ? preview : post.html}
       ${hasBreak ? `<div class="post-break"><span class="read-more"><a href="/posts/${post.meta.slug}">Read more...</a></span></div>` : ''}
     </div>
-    <div class="tags">${renderTags(post.meta.tags)}</div>
+    <div class="tags">${renderTags(post.meta.tags)} ${subscribeLink(post)}</div>
   </div>
   `
 }
@@ -25,7 +34,7 @@ export const singlePostTemplate = post => `
     <h2>${post.meta.title}</h2>
     <div class="date">${post.meta.date}</div>
     <div class="post-content">${post.html}</div>
-    <div class="tags">${renderTags(post.meta.tags)}</div>
+    <div class="tags">${renderTags(post.meta.tags)} ${subscribeLink(post)}</div>
   </article>
 `
 
