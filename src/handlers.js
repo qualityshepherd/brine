@@ -161,7 +161,7 @@ export function handleLoadMore () {
     const feeds = getCachedFeeds()
     if (feeds) renderFeedsItems(feeds)
   } else {
-    const posts = getPosts()
+    const posts = filterOutTag(getPosts(), 'podcast')
     renderPosts(posts, displayedCount)
     toggleLoadMoreButton(displayedCount < posts.length)
   }
