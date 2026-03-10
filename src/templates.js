@@ -52,6 +52,10 @@ export const aboutPageTemplate = () => `
       <a href="https://casadeocio.itch.io/the-steep-mage">The Steep Mage</a> is my most recent published scenario.<br>
       <p>Email me: <code>ack at brine dot dev</code></p>
       <p>On the Fediverse: @brine.dev@brine.dev</p>
+      <p class="rss-links">
+        <a class="rss-subscribe" href="/assets/rss/blog.xml" title="Subscribe to brine.dev blog" target="_blank" rel="noopener noreferrer">◆ subscribe to blog</a>
+        <a class="rss-subscribe" href="/assets/rss/pod.xml" title="Subscribe to World of Brine podcast" target="_blank" rel="noopener noreferrer">◆ subscribe to podcast</a>
+      </p>
     </div>
   </div>
 `
@@ -85,10 +89,8 @@ export const feedsItemTemplate = (item) => {
   const domain = feedDomain(url)
   const avatar = domain ? `https://icons.duckduckgo.com/ip3/${domain}.ico` : ''
   const dateStr = formatDate(item.date)
-
   return `
   <div class="post feed-post">
-
     ${url
       ? `<a class="feed-meta" href="${url}" target="_blank" rel="noopener noreferrer">`
       : '<div class="feed-meta">'}
@@ -96,13 +98,10 @@ export const feedsItemTemplate = (item) => {
       <span>${item.author ? `${item.author} · ` : ''}${item.feed?.title || domain}</span>
       <span class="date">${dateStr}</span>
     ${url ? '</a>' : '</div>'}
-
     ${item.title
       ? `${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">` : ''}<h2 class="post-title">${stripHtml(item.title)}</h2>${url ? '</a>' : ''}`
       : ''}
-
     ${item.content ? `<div class="feed-content">${processContent(truncateContent(item.content, url, config.contentLength ?? 3000), item.feed?.url)}</div>` : ''}
-
   </div>
   `
 }
