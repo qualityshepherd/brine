@@ -8,7 +8,7 @@ const subscribeLink = post => {
   const feed = isPodcast(post)
     ? { href: '/assets/rss/pod.xml', title: 'Subscribe to World of Brine podcast' }
     : { href: '/assets/rss/blog.xml', title: 'Subscribe to brine.dev blog' }
-  return `<a class="rss-subscribe" href="${feed.href}" title="${feed.title}">&#x25C6; subscribe</a>`
+  return `<a class="rss-subscribe" href="${feed.href}" title="${feed.title}" target="_blank" rel="noopener noreferrer">◆ subscribe</a>`
 }
 
 export const postsTemplate = post => {
