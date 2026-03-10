@@ -5,7 +5,7 @@ description: How rewriting my blog software accidentally led me to the IndieWeb.
 tags: feedi, indieweb, blog update, 
 ---
 
-For the past week I've been rewriting the software I use to run this blog. Yes... I'm _that_ kind of dummy. The kind that writes their own blog software. ¯\_(ツ)_/¯ For years, this blog has been a static website, written in markdown and hosted on Github Pages. Total cost: $0. 
+For the past week I've been rewriting the software I use to run this blog. Yes... I'm _that_ kind of dummy. The kind that writes their own blog software. ¯\\\_(ツ)_/¯ For years, this blog has been a static website, written in markdown and hosted on Github Pages. Total cost: $0. 
 
 Discord's latest enshitification scare—the one where they assume we're all teenagers unless we give them our face/ID—got me peeking around the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) again. Tl;dr: it's still a ghost town and not overly interesting. BUT, maybe the tools are interesting? So I started setting up [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) and [Webfinger](https://en.wikipedia.org/wiki/WebFinger) and [.well-known](https://en.wikipedia.org/wiki/Well-known_URI) and connecting my little blog to the Fediverse. I got it into a workable state and then discovered something...
 
