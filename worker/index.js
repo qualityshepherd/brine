@@ -11,10 +11,7 @@ export default {
     const path = url.pathname
 
     if (path === '/.well-known/webfinger') {
-      const bridgyUrl = `https://web.brid.gy/.well-known/webfinger${url.search}`
-      return fetch(bridgyUrl, {
-        headers: { 'Accept': req.headers.get('Accept') || 'application/jrd+json' }
-      })
+      return Response.redirect(`https://fed.brid.gy/.well-known/webfinger${url.search}`, 301)
     }
 
     if (path === '/api/analytics') {
