@@ -120,6 +120,10 @@ let isInitialLoad = true
 
 export function handleRouting () {
   const { route, params } = getRouteParams()
+  // length and recursion check: no 200 char urls or that repeat the same directory pattern
+  if (route.length > 200 || /\/([^/]+)\/(?:[^/]+\/)*\1(?:\/|$)/.test(route)) {
+    return // don't track, don't render, just stop.
+  }
   setSearchTerm('')
   window.scrollTo(0, 0) // top of page
   // tell the worker about SPA navigation — worker is blind to client-side route changes
