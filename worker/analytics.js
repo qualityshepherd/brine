@@ -14,27 +14,28 @@ const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlr
   'v2/_catalog', 'v2/api-docs', 'v3/api-docs', 'trace.axd',
   '@vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
   'ediscovery', 'ecp/current', 'https%3a',
-  '${', '%7b', '%24']
+  '${', '%7b', '%24', 'package.json', 'composer.json', 'requirements.txt', '.npmrc',
+  'metadata/', 'computemetadata', 'latest/meta-data', 'credentials']
 const BOT_UAS = ['python', 'curl', 'wget', 'go-http', 'libwww', 'node-fetch', 'axios',
   'urllib', 'headless', 'phantom', 'crawler', 'spider', 'bot', 'preview', 'linkexpander',
   'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
 
 // Datacenter ASNs — real readers don't come from these networks
 const BOT_ASNS = new Set([
-  24940,  // Hetzner
-  16276,  // OVH
-  14618,  // AWS
-  16509,  // AWS
-  8075,   // Microsoft Azure
-  15169,  // Google Cloud
-  13335,  // Cloudflare
-  36351,  // SoftLayer/IBM
-  20473,  // Vultr
-  63949,  // Linode/Akamai
-  14061,  // DigitalOcean
+  24940, // Hetzner
+  16276, // OVH
+  14618, // AWS
+  16509, // AWS
+  8075, // Microsoft Azure
+  15169, // Google Cloud
+  13335, // Cloudflare
+  36351, // SoftLayer/IBM
+  20473, // Vultr
+  63949, // Linode/Akamai
+  14061, // DigitalOcean
   396982, // Google Cloud
-  19551,  // Incapsula
-  9009,   // M247 (common crawler host)
+  19551, // Incapsula
+  9009 // M247 (common crawler host)
 ])
 
 export const isBot = (path, ua = '') =>
