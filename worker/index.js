@@ -11,7 +11,7 @@ export default {
     const path = url.pathname
 
     if (path === '/.well-known/webfinger') {
-      return Response.redirect(`https://fed.brid.gy/.well-known/webfinger${url.search}`, 301)
+      return Response.redirect(`https://fed.brid.gy/.well-known/webfinger${url.search}`, 302)
     }
 
     if (path === '/api/analytics') {
