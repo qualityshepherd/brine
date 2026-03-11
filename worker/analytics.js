@@ -17,10 +17,30 @@ const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlr
   '${', '%7b', '%24']
 const BOT_UAS = ['python', 'curl', 'wget', 'go-http', 'libwww', 'node-fetch', 'axios', 'urllib']
 
+// Datacenter ASNs — real readers don't come from these networks
+const BOT_ASNS = new Set([
+  24940,  // Hetzner
+  16276,  // OVH
+  14618,  // AWS
+  16509,  // AWS
+  8075,   // Microsoft Azure
+  15169,  // Google Cloud
+  13335,  // Cloudflare
+  36351,  // SoftLayer/IBM
+  20473,  // Vultr
+  63949,  // Linode/Akamai
+  14061,  // DigitalOcean
+  396982, // Google Cloud
+  19551,  // Incapsula
+  9009,   // M247 (common crawler host)
+])
+
 export const isBot = (path, ua = '') =>
   BOT_PATHS.some(p => path.toLowerCase().includes(p)) ||
   SKIP_EXTENSIONS.some(e => path.toLowerCase().split('?')[0].endsWith(e)) ||
   BOT_UAS.some(b => ua.toLowerCase().includes(b))
+
+export const isDatacenter = (asn) => asn && BOT_ASNS.has(Number(asn))
 
 export const countryFlag = (code) => {
   if (!code || code === '?') return ''
@@ -128,7 +148,7 @@ export const applyHit = (day, uniques, hit) => {
   next.recentHits = [
     { ts: hit.ts, path: hit.path, country: hit.country, region: hit.region, city: hit.city },
     ...(next.recentHits || [])
-  ].slice(0, 420)
+  ].slice(0, 100)
 
   return { day: next, uniques: nextUniques }
 }
@@ -249,9 +269,9 @@ export class AnalyticsDO {
 
 // classifies a request path+ua.
 // Returns 'skip' | 'bot' | 'hit'
-export const classifyHit = (path, ua = '') => {
+export const classifyHit = (path, ua = '', asn = null) => {
   if (SKIP_PATHS.some(p => path.startsWith(p))) return 'skip'
-  if (isBot(path, ua)) return 'bot'
+  if (isBot(path, ua) || isDatacenter(asn)) return 'bot'
   return 'hit'
 }
 
@@ -261,7 +281,8 @@ export async function trackHit (req, env) {
   const path = url.searchParams.get('path') || (url.pathname + (url.search || ''))
   const ip = req.headers.get('cf-connecting-ip') || ''
   const ua = req.headers.get('user-agent') || ''
-  const kind = classifyHit(path, ua)
+  const asn = req.cf?.asn ?? null
+  const kind = classifyHit(path, ua, asn)
   if (path.length > 500) return
 
   if (kind === 'skip') return
