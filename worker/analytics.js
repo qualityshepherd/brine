@@ -21,20 +21,20 @@ const BOT_UAS = ['python', 'curl', 'wget', 'go-http', 'libwww', 'node-fetch', 'a
 
 // Datacenter ASNs — real readers don't come from these networks
 const BOT_ASNS = new Set([
-  24940, // Hetzner
-  16276, // OVH
-  14618, // AWS
-  16509, // AWS
-  8075, // Microsoft Azure
-  15169, // Google Cloud
-  13335, // Cloudflare
-  36351, // SoftLayer/IBM
-  20473, // Vultr
-  63949, // Linode/Akamai
-  14061, // DigitalOcean
+  24940,  // Hetzner
+  16276,  // OVH
+  14618,  // AWS
+  16509,  // AWS
+  8075,   // Microsoft Azure
+  15169,  // Google Cloud
+  13335,  // Cloudflare
+  36351,  // SoftLayer/IBM
+  20473,  // Vultr
+  63949,  // Linode/Akamai
+  14061,  // DigitalOcean
   396982, // Google Cloud
-  19551, // Incapsula
-  9009 // M247 (common crawler host)
+  19551,  // Incapsula
+  9009,   // M247 (common crawler host)
 ])
 
 export const isBot = (path, ua = '') =>
@@ -150,7 +150,7 @@ export const applyHit = (day, uniques, hit) => {
   next.recentHits = [
     { ts: hit.ts, path: hit.path, country: hit.country, region: hit.region, city: hit.city },
     ...(next.recentHits || [])
-  ].slice(0, 100)
+  ].slice(0, 420)
 
   return { day: next, uniques: nextUniques }
 }
