@@ -2,7 +2,7 @@
 title: Accidental IndieWeb
 date: 2026-03-10
 description: How rewriting my blog software accidentally led me to the IndieWeb.
-tags: feedi, indieweb, blog update, 
+tags: feedi, indieweb, blog update
 ---
 
 For the past week I've been rewriting the software I use to run this blog. Yes... I'm _that_ kind of dummy. The kind that writes their own blog software. ¯\\\_(ツ)_/¯ For years, this blog has been a static website, written in markdown and hosted on Github Pages. Total cost: $0. 

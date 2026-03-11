@@ -2,7 +2,7 @@
 title: Accidental FKR
 date: 2022-5-12
 description: FKR is gaming as the KISS theory is to everything else?
-tags: acronym, rules, words
+tags: acronym, rules, words, ttrpg
 ---
 
 My game has been unintentionally _molting_ toward **FKR**. It started before ever hearing the term. It just kinda happened and I continue to enjoy its inherent permission for further mutations.

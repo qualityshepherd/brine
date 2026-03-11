@@ -2,7 +2,7 @@
 title: Black Jenny and her Gang of Miscreant Sons
 date: 2021-7-4
 description: Those adorable little miscreants!
-tags: npcs
+tags: npcs, ttrpg
 ---
 
 I like to weave pre-written modules into my campaigns (parts of them, anyway). The different tones and ideas keep my players guessing and oftentimes end up becoming part of our lore. Case in point: when I threw [Prison of the Hated Pretender](http://dungeonofsigns.blogspot.com/2012/08/prison-of-hated-pretender-pdf.html) into my longrunning campaign. I had previously run it as a one-shot when one of my players was unavailable. It ended in a TPK 🙄.

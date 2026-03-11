@@ -2,7 +2,7 @@
 title: D66 Spark Table Generator
 date: 2022-2-16
 description: Spark tables are a great way to induce creativity...
-tags: spark, tools
+tags: spark, tools, ttrpg
 ---
 
 I've been playing around with **spark tables**; a concept taken from [Chris McDowall](https://www.bastionland.com). The concept is quite simple: given two numbered tables/lists of evocative words, roll on both, and use the words together to spark an idea.

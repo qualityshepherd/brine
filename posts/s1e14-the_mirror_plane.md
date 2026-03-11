@@ -1,7 +1,7 @@
 ---
 title: S1E14 The Mirror Plane
 date: 2020-8-9
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: Welcome to the _Mirror Plane_! The crew meet a shiny spider...
 image: /assets/images/season1/image.png
 ---

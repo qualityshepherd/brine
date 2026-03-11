@@ -2,7 +2,7 @@
 title: A TTRPG Manifesto
 date: 2023-10-1
 description: A TTRPG Manifesto
-tags: words
+tags: words, ttrpg
 ---
 
 We are exploring different approaches to TTRPGs. Through play we have come to value:

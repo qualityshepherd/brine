@@ -1,7 +1,7 @@
 ---
 title: S0E2 Tower of the Time Wizard
 date: 2020-1-26
-tags: podcast, tower_of_the_time_wizard, season0, wodu
+tags: podcast, tower_of_the_time_wizard, season0, wodu, ttrpg
 description: The players make it to the 2nd floor of the tower and...
 image: /assets/images/season0/image.jpg
 ---

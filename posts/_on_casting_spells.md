@@ -1,7 +1,7 @@
 ---
 title: On Casting Spells
 date: 9999-2-13
-tags: magic, oyab
+tags: magic, oyab, ttrpg
 description: 
 ---
 

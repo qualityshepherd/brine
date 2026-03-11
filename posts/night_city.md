@@ -2,7 +2,7 @@
 title: Night City - One Shot
 date: 2024-03-05
 image: /assets/images/night_city/night_city_square.png
-tags: podcast, oneshot, named
+tags: podcast, oneshot, named, ttrpg
 description: Amongst the jukebox joints and DJ dives, there are only four lounges left in downtown **Night City** where a  band can get a regular gig. At least, one that will keep the landlord at bay for another month.
 
 Tension is building in the flea hotels and flophouses where local musicians count their pennies and try to sleep out the days, and the Gracie Mathews’ Experience should be watching their back. To add to the insult, they even stole your old drummer Dennis “the Rat” Rushmore - he was a piece of human flotsom, but he could actually play.

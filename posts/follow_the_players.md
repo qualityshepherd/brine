@@ -2,7 +2,7 @@
 title: <s>HOW TO GM</s> Follow The Players
 date: 2025-11-14
 description: Follow your players and let the story happen...
-tags: note to self
+tags: note to self, ttrpg
 ---
 
 ### Setup

@@ -2,7 +2,7 @@
 title: 2023 - A Gaming Year in Review
 date: 2024-1-5
 description:
-tags: words
+tags: words, ttrpg
 ---
 
 With 2023 in the rear-view, I began to reflect on the year from a gaming perspective. It turns out there are a number of things worthy of a shout-out!

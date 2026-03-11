@@ -1,7 +1,7 @@
 ---
 title: S1E9 Cloud City
 date: 2020-5-10
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: The crew lands in Cloud City! Gorath is being followed by a Black Dog; they run into _Little Baby Drekel_; and they learn about a murder mystery...
 image: /assets/images/season1/image.png
 ---

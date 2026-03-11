@@ -2,7 +2,7 @@
 title: Delve of the Handsome Repeater
 date: 2022-1-12
 description: A short fantasy adventure for Beasts & Barrows
-tags: my_stuff, bnb, adventures
+tags: my_stuff, bnb, adventures, ttrpg
 ---
 
 [![center](/assets/images/dothr-630x500.png)](https://casadeocio.itch.io/delve-of-the-handsome-repeater)

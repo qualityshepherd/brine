@@ -5,7 +5,8 @@
       "date": "9999-2-13",
       "tags": [
         "magic",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "",
       "slug": "_on_casting_spells"
@@ -19,7 +20,8 @@
       "date": "2999-3-23",
       "tags": [
         "magic",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "",
       "slug": "_a_confession"
@@ -34,7 +36,8 @@
       "description": "A scenario for Of Yarn and Bone or any system Compatible With Roleplaying",
       "tags": [
         "scenario",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "slug": "_letter_from_a_friend"
     },
@@ -47,7 +50,8 @@
       "date": "2099-4-2",
       "tags": [
         "magic",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "",
       "slug": "_missive"
@@ -61,7 +65,8 @@
       "date": "2099-3-23",
       "description": "",
       "tags": [
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "_necromancer"
     },
@@ -76,8 +81,7 @@
       "tags": [
         "feedi",
         "indieweb",
-        "blog update",
-        ""
+        "blog update"
       ],
       "slug": "accidental_indieweb"
     },
@@ -91,7 +95,8 @@
       "image": "/assets/images/brine_square.jpg",
       "tags": [
         "podcast",
-        "wob"
+        "wob",
+        "ttrpg"
       ],
       "description": "Wightbred and Brine definitely don't talk about AI, zine page counts, future warfare weapons that make you a wizard, whether Dark Secrets needs a hopeful counterpart and migrating off Discord. They also don't talk about AI some more.",
       "slug": "e5_lets_not_talk_about_ai"
@@ -107,7 +112,8 @@
       "tags": [
         "words",
         "design",
-        "love letter to Mr. Baker"
+        "love letter to Mr. Baker",
+        "ttrpg"
       ],
       "slug": "the_image_is_your_character_sheet"
     },
@@ -121,7 +127,8 @@
       "image": "/assets/images/brine_square.jpg",
       "tags": [
         "podcast",
-        "wob"
+        "wob",
+        "ttrpg"
       ],
       "description": "Wightbred and Brine bring in the new year by talking about why systems are awesome! They then accidentally stress this point by _systemizing_ the podcast itself. No spoilers on who won the podcast. By a lot.",
       "slug": "e4_i_won_the_podcast"
@@ -136,7 +143,8 @@
       "image": "/assets/images/brine_square.jpg",
       "tags": [
         "podcast",
-        "wob"
+        "wob",
+        "ttrpg"
       ],
       "description": "Wightbred and Brine get in the holiday spirit and wrap up 2025 by bashing systems. Coal for every stocking! But also our plea for the new year - unless you need the money, stop trying to fix D&D and instead, make cool stuff we can steal!",
       "slug": "e3_system_bashing_matters"
@@ -150,7 +158,8 @@
       "date": "2025-12-12",
       "description": "",
       "tags": [
-        "rules"
+        "rules",
+        "ttrpg"
       ],
       "slug": "group_combat_rules"
     },
@@ -165,7 +174,8 @@
       "tags": [
         "podcast",
         "wob",
-        "trust"
+        "trust",
+        "ttrpg"
       ],
       "description": "Wightbred and Brine talk about trust... why real trust at the table isn't about verification or \"high trust\" frameworks... it's about creating a normal conversational environment where everyone collaborates to tell interesting stories together. We're NOT talking about story games... though we do talk about story games 🤔",
       "slug": "e2_too_high_to_trust"
@@ -181,7 +191,8 @@
       "tags": [
         "scenario",
         "oyab",
-        "one-shot"
+        "one-shot",
+        "ttrpg"
       ],
       "slug": "the_steep_mage"
     },
@@ -197,7 +208,8 @@
         "conversation-first",
         "named",
         "oyab",
-        "unnammed worlds"
+        "unnammed worlds",
+        "ttrpg"
       ],
       "slug": "conversation-first_roleplaying"
     },
@@ -213,7 +225,8 @@
         "podcast",
         "wob",
         "named",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "This is the first episode in a new series of conversations between myself, Wightbred and whomever else. We talk about Wightbred's new zine, Unnammed Worlds; the magic system in brine's game Of Yarn and Bone; why we like narrative-first, conversation-driven ttrpgs, and a number of other rambling topics.",
       "slug": "e1_unnamed_worlds"
@@ -228,7 +241,8 @@
       "description": "Searching for your peeps? Maybe send up some signal flares?",
       "tags": [
         "blather",
-        "community"
+        "community",
+        "ttrpg"
       ],
       "slug": "signal_flares"
     },
@@ -241,7 +255,8 @@
       "date": "2025-11-14",
       "description": "Follow your players and let the story happen...",
       "tags": [
-        "note to self"
+        "note to self",
+        "ttrpg"
       ],
       "slug": "follow_the_players"
     },
@@ -255,7 +270,8 @@
       "description": "",
       "tags": [
         "oyab",
-        "unfamiliar"
+        "unfamiliar",
+        "ttrpg"
       ],
       "slug": "an_unfamiliar_world"
     },
@@ -268,7 +284,8 @@
       "date": "2025-10-23",
       "tags": [
         "OYAB",
-        "rules"
+        "rules",
+        "ttrpg"
       ],
       "papersize": "a5",
       "margin": "",
@@ -289,7 +306,8 @@
       "date": "2025-8-24",
       "tags": [
         "magic",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "A magic system that feels _magical_?",
       "slug": "updating_my_magic_system"
@@ -307,7 +325,8 @@
         "hexy",
         "adventures",
         "sandbox",
-        "soco"
+        "soco",
+        "ttrpg"
       ],
       "papersize": "a5",
       "margin": "",
@@ -329,7 +348,8 @@
       "description": "When my songwriting and gaming worlds collide...",
       "tags": [
         "songwriting",
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "who_comes_calling_tonight"
     },
@@ -341,7 +361,8 @@
       "title": "Dybuk Letters",
       "date": "2024-7-29",
       "tags": [
-        "situations"
+        "situations",
+        "ttrpg"
       ],
       "description": "a dybuk sits down to write a letter...",
       "slug": "dybuk_letters"
@@ -357,7 +378,8 @@
       "tags": [
         "podcast",
         "oneshot",
-        "named"
+        "named",
+        "ttrpg"
       ],
       "description": "Amongst the jukebox joints and DJ dives, there are only four lounges left in downtown **Night City** where a  band can get a regular gig. At least, one that will keep the landlord at bay for another month.",
       "slug": "night_city"
@@ -371,7 +393,8 @@
       "date": "2024-2-13",
       "tags": [
         "magic",
-        "oyab"
+        "oyab",
+        "ttrpg"
       ],
       "description": "My ongoing search for a magic system that feels _magical_...",
       "slug": "on_magical_magic"
@@ -386,7 +409,8 @@
       "tags": [
         "podcast",
         "butchers",
-        "actual-play"
+        "actual-play",
+        "ttrpg"
       ],
       "image": "/assets/images/butchers/delta_queen.webp",
       "description": "Welcome aboard the Delta Queen, your ticket to cosmic extravagance and discovery! This interstellar marvel stands as one of only two remaining Halo Class Cosmos Cruisers in the galaxy, promising a journey unlike any other. Glide through the stars in unparalleled style and grace, surrounded by timeless elegance at every turn. And when hunger strikes, prepare your taste buds for a culinary odyssey courtesy of the legendary Chef Xanathor, whose creations will leave you starry-eyed with delight. So come, embark on the adventure of a lifetime aboard the Delta Queen, where each voyage is a cosmic escapade into the great unknown of space!",
@@ -401,7 +425,8 @@
       "date": "2024-02-01",
       "tags": [
         "podcast",
-        "lounge"
+        "lounge",
+        "ttrpg"
       ],
       "image": "/assets/images/butchers/delta_queen.webp",
       "description": "This is session 0 for a new Traveller/Named game. If you were ever curious about \"how the sausage gets made\", you're in luck! And that's _TWO Ls_.",
@@ -416,7 +441,8 @@
       "date": "2024-1-31",
       "description": "",
       "tags": [
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "incarnates"
     },
@@ -430,7 +456,8 @@
       "description": "Kurt Vonnegut gave some great advice on writing RPGs...",
       "tags": [
         "words",
-        "writing"
+        "writing",
+        "ttrpg"
       ],
       "slug": "vonneguts_8_basics_of_ttrpg_writing"
     },
@@ -444,7 +471,8 @@
       "description": "A single page",
       "tags": [
         "rando",
-        "tools"
+        "tools",
+        "ttrpg"
       ],
       "slug": "rando-an_imagination_spark_generator"
     },
@@ -457,7 +485,8 @@
       "date": "2024-1-5",
       "description": "",
       "tags": [
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "2023_a_gaming_year_in_review"
     },
@@ -472,7 +501,8 @@
         "podcast",
         "actual-play",
         "named",
-        "stamford-bridge"
+        "stamford-bridge",
+        "ttrpg"
       ],
       "description": "The final chapter in our Stamford Bridge adventure. Does Jens make it aboard one of twenty four ships that returned to Norway? NO SPOILERS!",
       "image": "/assets/images/stamford_bridge/stamford_bridge_thumb.webp",
@@ -489,7 +519,8 @@
         "podcast",
         "actual-play",
         "named",
-        "stamford-bridge"
+        "stamford-bridge",
+        "ttrpg"
       ],
       "description": "Jens awakes on the banks of the river Derwent. The Battle of Stamford Bridge is over. It was a battle of Harolds and Jens' Harold has fallen. What now?",
       "image": "/assets/images/stamford_bridge/stamford_bridge_thumb.webp",
@@ -506,7 +537,8 @@
         "podcast",
         "actual-play",
         "oyab",
-        "south-coast"
+        "south-coast",
+        "ttrpg"
       ],
       "description": "In our final episode of The Southern Coast, Hergest leaves the Prison of Mon and finds not one, but two familiar faces... or is it three?",
       "image": "/assets/images/southern_coast/prison_of_mon.webp",
@@ -522,7 +554,8 @@
       "tags": [
         "podcast",
         "actual-play",
-        "skypirates-of-jotnaar"
+        "skypirates-of-jotnaar",
+        "ttrpg"
       ],
       "description": "The final session of Skypirates of Jotnaar... NO SPOILERS!!!1!",
       "image": "/assets/images/skypirates_of_jatnaar_square.png",
@@ -538,7 +571,8 @@
       "tags": [
         "podcast",
         "actual-play",
-        "skypirates-of-jotnaar"
+        "skypirates-of-jotnaar",
+        "ttrpg"
       ],
       "description": "The captains head to Last Drinks to concoct Rainsborough's \"simple\" plan. Logistics consume everyone's time until news comes over the skwawkbox...",
       "image": "/assets/images/skypirates_of_jatnaar_square.png",
@@ -555,7 +589,8 @@
         "podcast",
         "actual-play",
         "oyab",
-        "south-coast"
+        "south-coast",
+        "ttrpg"
       ],
       "description": "Hergest travels alone to The Prison of Mon to find help with a fell beast. He hopes The Hag Kalg--a prisoner there--might provide some answers. Two comrades remain at the logger's camp; infected with an insatiable hunger. Using magic, Hergest has taken on part of their burden.",
       "image": "/assets/images/southern_coast/prison_of_mon.webp",
@@ -571,7 +606,8 @@
       "tags": [
         "podcast",
         "actual-play",
-        "skypirates-of-jotnaar"
+        "skypirates-of-jotnaar",
+        "ttrpg"
       ],
       "description": "Dalt buys lacy shirts for all three captains as they plot against Hexspire.",
       "image": "/assets/images/skypirates_of_jatnaar_square.png",
@@ -588,7 +624,8 @@
         "podcast",
         "actual-play",
         "oyab",
-        "south-coast"
+        "south-coast",
+        "ttrpg"
       ],
       "description": "Hergest travels to Fellstead Monastery on the Southern Coast. He's asked to check in on a Logger's Camp in need of healing. He is accompanied by Sir Ealdred, and Brother Estabar, and on their way, they meet _The Mad Monk_...",
       "image": "/assets/images/southern_coast/prison_of_mon.webp",
@@ -604,7 +641,8 @@
       "tags": [
         "podcast",
         "actual-play",
-        "skypirates-of-jotnaar"
+        "skypirates-of-jotnaar",
+        "ttrpg"
       ],
       "description": "The crew returns to Hag's Knife full of helium and two captured ships. During the ensuing celebration, Captain \"Lacy\" Rainsborough wakes grasping a map... to a treasure of dark secrets.",
       "image": "/assets/images/skypirates_of_jatnaar_square.png",
@@ -620,7 +658,8 @@
       "tags": [
         "podcast",
         "actual-play",
-        "skypirates-of-jotnaar"
+        "skypirates-of-jotnaar",
+        "ttrpg"
       ],
       "description": "an actual play, in which Captain \"Lacy\" Rainsborough gets the answer to the penultimate question -- are we warriors or worriers?",
       "image": "/assets/images/skypirates_of_jatnaar_square.png",
@@ -635,7 +674,8 @@
       "date": "2023-10-1",
       "description": "A TTRPG Manifesto",
       "tags": [
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "a_ttrpg_manifesto"
     },
@@ -649,7 +689,8 @@
       "description": "Simple rules and procedures for running hexcrawl rpgs",
       "tags": [
         "hexcrawl",
-        "hexy"
+        "hexy",
+        "ttrpg"
       ],
       "slug": "hexcrawls_rule!"
     },
@@ -662,7 +703,8 @@
       "date": "2023-1-16",
       "description": "What the FKR?",
       "tags": [
-        "acronym"
+        "acronym",
+        "ttrpg"
       ],
       "slug": "fkr"
     },
@@ -676,7 +718,8 @@
       "image": "/assets/images/frost_spire/image.png",
       "tags": [
         "podcast",
-        "1420"
+        "1420",
+        "ttrpg"
       ],
       "description": "It's PCs vs Polar Bear... my money is on the _bed_. Don't lose your hand!",
       "slug": "the_frost_spire-part4"
@@ -691,7 +734,8 @@
       "image": "/assets/images/frost_spire/image.png",
       "tags": [
         "podcast",
-        "1420"
+        "1420",
+        "ttrpg"
       ],
       "description": "While ascending the Frost Spire, the crew come upon a ~~roadblock~~ knight in non-shining armor. As Wrath would tell you, returning from the dead is easy compared to climbing an ice tower in full plate. But the crew ties a rope around him and schleps him along (lest be stuck waiting for his slow-ass). Revenants--come to find out--like throwing rocks and hitting things... who knew :shrug:",
       "slug": "the_frost_spire-part3"
@@ -706,7 +750,8 @@
       "image": "/assets/images/frost_spire/image.png",
       "tags": [
         "podcast",
-        "1420"
+        "1420",
+        "ttrpg"
       ],
       "description": "Oh no! He's hot! A frozen sea is no place for a himbo... I mean, if there is nobody around to gaze lovingly into the eyes; strong jawline and moonstruck mustache of a handsome man... is he really handsome? Oh, and there's some wolves or something... whatever. Now MOVE! You're blocking his moonlight.",
       "slug": "the_frost_spire-part2"
@@ -721,7 +766,8 @@
       "image": "/assets/images/frost_spire/image.png",
       "tags": [
         "podcast",
-        "1420"
+        "1420",
+        "ttrpg"
       ],
       "description": "The Arson Crew find themselves in the middle of an old fey tale. \"The Ice Prince\" is legend. A prince lives who travels the seas in a castle of ice; his wives feasting on children who misbehave.",
       "slug": "the_frost_spire-part1"
@@ -737,7 +783,8 @@
       "tags": [
         "acronym",
         "rules",
-        "words"
+        "words",
+        "ttrpg"
       ],
       "slug": "accidental_fkr"
     },
@@ -751,7 +798,8 @@
       "description": "Spark tables are a great way to induce creativity...",
       "tags": [
         "spark",
-        "tools"
+        "tools",
+        "ttrpg"
       ],
       "slug": "d66_spark_table_generator"
     },
@@ -766,7 +814,8 @@
       "tags": [
         "my_stuff",
         "bnb",
-        "adventures"
+        "adventures",
+        "ttrpg"
       ],
       "slug": "delve_of_the_handosme_repeater"
     },
@@ -782,7 +831,8 @@
         "words",
         "bnb",
         "rules",
-        "magic"
+        "magic",
+        "ttrpg"
       ],
       "slug": "on_vancian_magic"
     },
@@ -797,7 +847,8 @@
       "tags": [
         "my_stuff",
         "bnb",
-        "game_design"
+        "game_design",
+        "ttrpg"
       ],
       "slug": "i_published_a_thing"
     },
@@ -811,7 +862,8 @@
       "description": "**Beasts & Barrows** is an uncomplicated fantasy role-playing game (RPG) that values role-play, simplicity and flexibility.",
       "tags": [
         "BnB",
-        "rules"
+        "rules",
+        "ttrpg"
       ],
       "slug": "beasts_and_barrows"
     },
@@ -825,7 +877,8 @@
       "description": "A list of skills and special abilities that we use in World of Brine; based on World of Dungeon rules.",
       "tags": [
         "wodu",
-        "rules"
+        "rules",
+        "ttrpg"
       ],
       "slug": "skills_and_special_abilities"
     },
@@ -838,7 +891,8 @@
       "date": "2021-7-4",
       "description": "Those adorable little miscreants!",
       "tags": [
-        "npcs"
+        "npcs",
+        "ttrpg"
       ],
       "slug": "black_jenny_and_her_gang_of_miscreant_sons"
     },
@@ -853,7 +907,8 @@
       "tags": [
         "magic",
         "rules",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "slug": "a_magic_system"
     },
@@ -867,7 +922,8 @@
       "tags": [
         "podcast",
         "season1",
-        "bnb"
+        "bnb",
+        "ttrpg"
       ],
       "description": "THE SEASON 1 FINALE IS HERE! `No spoilers` but Death returns... good luck, crew!",
       "image": "/assets/images/season1/image.png",
@@ -883,7 +939,8 @@
       "tags": [
         "podcast",
         "season1",
-        "bnb"
+        "bnb",
+        "ttrpg"
       ],
       "description": "Are three McMuffins better than one? We find out in this episode! Also, _what's with the bowl of fish?_ Yulia meets The Lady of Light and gets the answers to her heart's desires.",
       "image": "/assets/images/season1/image.png",
@@ -899,7 +956,8 @@
       "tags": [
         "podcast",
         "season1",
-        "bnb"
+        "bnb",
+        "ttrpg"
       ],
       "description": "The Scooby crew break into **The Temple of the Lady of Light**. McMuffin concocts a _cunning plan_ to dress up as delivery men, while Yulia battles an evil broom closet!",
       "image": "/assets/images/season1/image.png",
@@ -915,7 +973,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Gorath and Yulia walk into a mirror... but are instead whisked away by a rift in time. They meet a nice man inside a salt circle... nothing to see here.",
       "image": "/assets/images/season1/image.png",
@@ -931,7 +990,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Watch out, you might get what you're after; cool Birdy, that lighter's getting lighter; this voodoo... looks a lot like me",
       "image": "/assets/images/season1/image.png",
@@ -947,7 +1007,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "We all have skeletons in our closets...",
       "image": "/assets/images/season1/image.png",
@@ -963,7 +1024,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "\"This color guard has teeth! The Crew face off with _Louie Bluie_ and his colorful friends... honestly the cat statue may have given them more of a problem\"",
       "image": "/assets/images/season1/image.png",
@@ -979,7 +1041,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The crew execute their _cunning plan_ and snoop around the **The Temple of the Lady of Light**. And they would have gotten away with it too _if it wasn't for that pesky cat statue_.",
       "image": "/assets/images/season1/image.png",
@@ -995,7 +1058,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Our heroes navigate the mirror plane back to Malik Maxwell's (aka _The Tanpire). They rest up; have some funky dreams; do a little snooping; ask _all_ the questions; and formulate a plan!",
       "image": "/assets/images/season1/image.png",
@@ -1011,7 +1075,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Gorath visits the _little orc's room_ and then he crew travels through the mirror plane, looking for Malik's house. They meet some shiny ravens...",
       "image": "/assets/images/season1/image.png",
@@ -1027,7 +1092,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Welcome to the _Mirror Plane_! The crew meet a shiny spider...",
       "image": "/assets/images/season1/image.png",
@@ -1043,7 +1109,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Naven Mag returns! The crew find themselves back in _The Time Wizard's_ tower. More delicious tea; more _complicated_. They also fine out that _they can mirrorwalk_!",
       "image": "/assets/images/season1/image.png",
@@ -1059,7 +1126,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Malik and the crew take on a **Black Dog**... then go for a swim in the **Infinity Fountain**.",
       "image": "/assets/images/season1/image.png",
@@ -1075,7 +1143,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The crew visit the home of Malik Maxwell; noted, local business man and borrower of magic books and expensive booze collector. And they tell him _every. thing.",
       "image": "/assets/images/season1/image.png",
@@ -1091,7 +1160,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "In this episode we learn about orc mating rituals when Gorath presents a dead dog to Yulia :shrug:. They meet with Sister Malora, the Hight Priestess of the Lady of Light. And they tell here _every. thing._",
       "image": "/assets/images/season1/image.png",
@@ -1107,7 +1177,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The crew lands in Cloud City! Gorath is being followed by a Black Dog; they run into _Little Baby Drekel_; and they learn about a murder mystery...",
       "image": "/assets/images/season1/image.png",
@@ -1123,7 +1194,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The Toucan crew is back on the board with Santo but but make an emergency landing. Not for more beer (though :thinking:) but because of a storm. They build a fire right by an Owl Bear nest and McMuffin realizes _he has a musket_ and he's not afraid to use it!",
       "image": "/assets/images/season1/image.png",
@@ -1139,7 +1211,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The crew fly through a stitch in time and find themselves... well... dead. We are also introduced to _Breakfast Donuts_!",
       "image": "/assets/images/season1/image.png",
@@ -1155,7 +1228,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "In order to save his parents, our _reluctant sailor_, McMuffin dies and bargains with Death!",
       "image": "/assets/images/season1/image.png",
@@ -1171,7 +1245,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The crew travel by balloon to McMufin's home town of ~~Hissy Fit~~ **Hsifilet**.",
       "image": "/assets/images/season1/image.png",
@@ -1187,7 +1262,8 @@
       "tags": [
         "podcast",
         "season1",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Wait... McMuffin has a bird? In this first episode of **Season 1**, we meet McMuffin's pet toucan, **Birdie**; which has _somehow_ always been sitting on his shoulder? Whatever. We are also introduced to **Santo Regulus Dumont**; a professional drinker and aeronaut hobbyist.",
       "image": "/assets/images/season1/image.png",
@@ -1204,7 +1280,8 @@
         "podcast",
         "tower_of_the_time_wizard",
         "season0",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Today on GorathCast...",
       "image": "/assets/images/season0/image.jpg",
@@ -1221,7 +1298,8 @@
         "podcast",
         "tower_of_the_time_wizard",
         "season0",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "Death becomes us! The 3rd floor puzzles the party and the 4th... well... it's complected.",
       "image": "/assets/images/season0/image.jpg",
@@ -1238,7 +1316,8 @@
         "podcast",
         "tower_of_the_time_wizard",
         "season0",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "The players make it to the 2nd floor of the tower and...",
       "image": "/assets/images/season0/image.jpg",
@@ -1255,7 +1334,8 @@
         "podcast",
         "tower_of_the_time_wizard",
         "season0",
-        "wodu"
+        "wodu",
+        "ttrpg"
       ],
       "description": "This was the very first session of what was _supposed to be_ just a oneshot... but would become a full campaign.",
       "image": "/assets/images/season0/image.jpg",

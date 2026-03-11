@@ -1,7 +1,7 @@
 ---
 title: A Confession
 date: 2999-3-23
-tags: magic, oyab
+tags: magic, oyab, ttrpg
 description:
 ---
 

@@ -2,7 +2,7 @@
 title: A Necromancer
 date: 2099-3-23
 description:
-tags: words
+tags: words, ttrpg
 ---
 
  ## Nekros Manteia

@@ -1,7 +1,7 @@
 ---
 title: Southern Coast - 01 The Mad Monk
 date: 2023-11-26
-tags: podcast, actual-play, oyab, south-coast
+tags: podcast, actual-play, oyab, south-coast, ttrpg
 description: Hergest travels to Fellstead Monastery on the Southern Coast. He's asked to check in on a Logger's Camp in need of healing. He is accompanied by Sir Ealdred, and Brother Estabar, and on their way, they meet _The Mad Monk_...
 image: /assets/images/southern_coast/prison_of_mon.webp
 ---

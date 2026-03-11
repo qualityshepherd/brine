@@ -1,7 +1,7 @@
 ---
 title: S1E12 Black Dog
 date: 2020-7-26
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: Malik and the crew take on a **Black Dog**... then go for a swim in the **Infinity Fountain**.
 image: /assets/images/season1/image.png
 ---

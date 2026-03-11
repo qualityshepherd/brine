@@ -1,7 +1,7 @@
 ---
 title: Stamford Bridge - 02 Rather Be Lucky Than Good
 date: 2024-1-1
-tags: podcast, actual-play, named, stamford-bridge
+tags: podcast, actual-play, named, stamford-bridge, ttrpg
 description: The final chapter in our Stamford Bridge adventure. Does Jens make it aboard one of twenty four ships that returned to Norway? NO SPOILERS!
 image: /assets/images/stamford_bridge/stamford_bridge_thumb.webp
 ---

@@ -1,7 +1,7 @@
 ---
 title: S1E6 A Debt for the Dead - Part 1
 date: 2020-4-19
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: The crew fly through a stitch in time and find themselves... well... dead. We are also introduced to _Breakfast Donuts_!
 image: /assets/images/season1/image.png
 ---

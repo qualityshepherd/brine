@@ -1,7 +1,7 @@
 ---
 title: Updating My Magic System
 date: 2025-8-24
-tags: magic, oyab
+tags: magic, oyab, ttrpg
 description: A magic system that feels _magical_?
 ---
 

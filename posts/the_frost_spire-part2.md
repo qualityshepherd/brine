@@ -2,7 +2,7 @@
 title: The Frost Spire - Part 2
 date: 2022-5-29
 image: /assets/images/frost_spire.png
-tags: podcast, 1420
+tags: podcast, 1420, ttrpg
 description: Oh no! He's hot! A frozen sea is no place for a himbo... I mean, if there is nobody around to gaze lovingly into the eyes; strong jawline and moonstruck mustache of a handsome man... is he really handsome? Oh, and there's some wolves or something... whatever. Now MOVE! You're blocking his moonlight.
 image: /assets/images/frost_spire/image.png
 ---

@@ -2,7 +2,7 @@
 title: E4 I Won the Podcast
 date: 2026-01-10
 image: /assets/images/brine_square.jpg
-tags: podcast, wob
+tags: podcast, wob, ttrpg
 description: Wightbred and Brine bring in the new year by talking about why systems are awesome! They then accidentally stress this point by _systemizing_ the podcast itself. No spoilers on who won the podcast. By a lot.
 ---
 

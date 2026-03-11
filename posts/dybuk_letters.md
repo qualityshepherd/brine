@@ -1,7 +1,7 @@
 ---
 title: Dybuk Letters
 date: 2024-7-29
-tags: situations
+tags: situations, ttrpg
 description: a dybuk sits down to write a letter...
 ---
 

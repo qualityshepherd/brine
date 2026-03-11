@@ -1,7 +1,7 @@
 ---
 title: S1E10 Sister Malora - Lady of Light High Priestess
 date: 2020-5-24
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: In this episode we learn about orc mating rituals when Gorath presents a dead dog to Yulia :shrug:. They meet with Sister Malora, the Hight Priestess of the Lady of Light. And they tell here _every. thing._
 image: /assets/images/season1/image.png
 ---

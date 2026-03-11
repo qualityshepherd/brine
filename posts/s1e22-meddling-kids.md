@@ -1,7 +1,7 @@
 ---
 title: S1E22 Meddling Kids
 date: 2020-11-22
-tags: podcast, season1, bnb
+tags: podcast, season1, bnb, ttrpg
 description: The Scooby crew break into **The Temple of the Lady of Light**. McMuffin concocts a _cunning plan_ to dress up as delivery men, while Yulia battles an evil broom closet!
 image: /assets/images/season1/image.png
 ---

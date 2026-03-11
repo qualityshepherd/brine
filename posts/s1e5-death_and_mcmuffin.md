@@ -1,7 +1,7 @@
 ---
 title: S1E5 Death and McMuffin
 date: 2020-4-12
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: In order to save his parents, our _reluctant sailor_, McMuffin dies and bargains with Death!
 image: /assets/images/season1/image.png
 ---

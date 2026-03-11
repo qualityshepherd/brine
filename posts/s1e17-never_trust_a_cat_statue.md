@@ -1,7 +1,7 @@
 ---
 title: S1E17 Never Trust a Cat Statue
 date: 2020-10-4
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: The crew execute their _cunning plan_ and snoop around the **The Temple of the Lady of Light**. And they would have gotten away with it too _if it wasn't for that pesky cat statue_.
 image: /assets/images/season1/image.png
 ---

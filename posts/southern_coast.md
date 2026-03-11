@@ -2,7 +2,7 @@
 title: The Southern Coast
 date: 2025-2-21
 description: A system-neutral, regional setting designed for sandbox exploration and adventure.
-tags: hexcrawl, hexy, adventures, sandbox, soco
+tags: hexcrawl, hexy, adventures, sandbox, soco, ttrpg
 papersize: a5
 margin:
   x: 1.4cm

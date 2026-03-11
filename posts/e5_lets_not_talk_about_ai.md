@@ -2,7 +2,7 @@
 title: E5 Let's Not Talk About AI
 date: 2026-02-18
 image: /assets/images/brine_square.jpg
-tags: podcast, wob
+tags: podcast, wob, ttrpg
 description: Wightbred and Brine definitely don't talk about AI, zine page counts, future warfare weapons that make you a wizard, whether Dark Secrets needs a hopeful counterpart and migrating off Discord. They also don't talk about AI some more.
 ---
 ![thumb](/assets/images/brine_square.jpg)

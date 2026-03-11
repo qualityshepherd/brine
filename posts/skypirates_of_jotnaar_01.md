@@ -1,7 +1,7 @@
 ---
 title: Skypirates of Jotnaar - 01 Are We Warriors or Worriers?
 date: 2023-10-14
-tags: podcast, actual-play, skypirates-of-jotnaar
+tags: podcast, actual-play, skypirates-of-jotnaar, ttrpg
 description: an actual play, in which Captain "Lacy" Rainsborough gets the answer to the penultimate question -- are we warriors or worriers?
 image: /assets/images/skypirates_of_jatnaar_square.png
 ---

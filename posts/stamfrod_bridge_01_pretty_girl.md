@@ -1,7 +1,7 @@
 ---
 title: Stamford Bridge - 01 Pretty Girl
 date: 2023-12-24
-tags: podcast, actual-play, named, stamford-bridge
+tags: podcast, actual-play, named, stamford-bridge, ttrpg
 description: Jens awakes on the banks of the river Derwent. The Battle of Stamford Bridge is over. It was a battle of Harolds and Jens' Harold has fallen. What now?
 image: /assets/images/stamford_bridge/stamford_bridge_thumb.webp
 ---

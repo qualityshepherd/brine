@@ -2,7 +2,7 @@
 title: Letter From A Friend
 date: 2999-01-01
 description: A scenario for Of Yarn and Bone or any system Compatible With Roleplaying
-tags: scenario, oyab
+tags: scenario, oyab, ttrpg
 ---
 
 [![thumb](/assets/images/drawrings/veshna_cemetary2.jpg)](/assets/images/drawrings/veshna_cemetary2.jpg)

@@ -1,7 +1,7 @@
 ---
 title: Skypirates of Jotnaar - 02 Hexspire Marks the Spot
 date: 2023-11-5
-tags: podcast, actual-play, skypirates-of-jotnaar
+tags: podcast, actual-play, skypirates-of-jotnaar, ttrpg
 description: The crew returns to Hag's Knife full of helium and two captured ships. During the ensuing celebration, Captain "Lacy" Rainsborough wakes grasping a map... to a treasure of dark secrets.
 image: /assets/images/skypirates_of_jatnaar_square.png
 ---

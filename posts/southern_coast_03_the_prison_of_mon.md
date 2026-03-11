@@ -1,7 +1,7 @@
 ---
 title: Southern Coast - 03 The Prison of Mon
 date: 2023-12-1
-tags: podcast, actual-play, oyab, south-coast
+tags: podcast, actual-play, oyab, south-coast, ttrpg
 description: Hergest travels alone to The Prison of Mon to find help with a fell beast. He hopes The Hag Kalg--a prisoner there--might provide some answers. Two comrades remain at the logger's camp; infected with an insatiable hunger. Using magic, Hergest has taken on part of their burden.
 image: /assets/images/southern_coast/prison_of_mon.webp
 ---

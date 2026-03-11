@@ -1,7 +1,7 @@
 ---
 title: S1E2 Hissy Fit
 date: 2020-3-15
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: The crew travel by balloon to McMufin's home town of ~~Hissy Fit~~ **Hsifilet**.
 image: /assets/images/season1/image.png
 ---

@@ -2,7 +2,7 @@
 title: Group Combat Rules!
 date: 2025-12-12
 description:
-tags: rules
+tags: rules, ttrpg
 ---
 
 A character was fighting a bunch of wraiths and found my regular combat rules weren't cutting it. I just threw something together for the meantime but later crafted them into this...

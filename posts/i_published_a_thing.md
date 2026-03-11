@@ -2,7 +2,7 @@
 title: I Published a Thing
 date: 2021-12-4
 description: We hack because we care; we publish because we hack?
-tags: my_stuff, bnb, game_design
+tags: my_stuff, bnb, game_design, ttrpg
 ---
 
 [![center](/assets/images/bnb-630x500.png)](https://casadeocio.itch.io/beasts-barrows)

@@ -2,7 +2,7 @@
 title: Conversation-First Roleplaying
 date: 2025-11-25
 description: Conversation-First Roleplaying is an approach that flips traditional TTRPG design by prioritizing the conversation and adding rules only when needed.
-tags: conversation-first, named, oyab, unnammed worlds
+tags: conversation-first, named, oyab, unnammed worlds, ttrpg
 ---
 
 After a hiatus, I'm back [podcasting about TTRPGs](https://brine.dev). I'll continue to post actual plays I'm part of, but I've also launched a new series centered around what [Whitebred](https://wightbred.itch.io) and I refer to as **Conversation-First Roleplaying**.

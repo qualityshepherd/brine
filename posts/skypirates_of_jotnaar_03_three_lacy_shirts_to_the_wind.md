@@ -1,7 +1,7 @@
 ---
 title: Skypirates of Jotnaar - 03 Three Lacy Shirts to the Wind
 date: 2023-11-30
-tags: podcast, actual-play, skypirates-of-jotnaar
+tags: podcast, actual-play, skypirates-of-jotnaar, ttrpg
 description: Dalt buys lacy shirts for all three captains as they plot against Hexspire.
 image: /assets/images/skypirates_of_jatnaar_square.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: S1E1 A Balloon for Gorath
 date: 2020-3-8
-tags: podcast, season1, wodu
+tags: podcast, season1, wodu, ttrpg
 description: Wait... McMuffin has a bird? In this first episode of **Season 1**, we meet McMuffin's pet toucan, **Birdie**; which has _somehow_ always been sitting on his shoulder? Whatever. We are also introduced to **Santo Regulus Dumont**; a professional drinker and aeronaut hobbyist.
 image: /assets/images/season1/image.png
 ---

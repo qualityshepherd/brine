@@ -2,7 +2,7 @@
 title: FKR
 date: 2023-1-16
 description: What the FKR?
-tags: acronym
+tags: acronym, ttrpg
 ---
 
 **FKR** (Free Kriegsspiel Roleplaying) is an approach to playing tabletop roleplaying games. Its popular catchphrase, _"play worlds not rules"_ , is as reasonable as any catchphrase. Play requires the following:

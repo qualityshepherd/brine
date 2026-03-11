@@ -1,7 +1,7 @@
 ---
 title: Of Yarn and Bone
 date: 2025-10-23
-tags: OYAB, rules
+tags: OYAB, rules, ttrpg
 papersize: a5
 margin:
   x: 1.4cm

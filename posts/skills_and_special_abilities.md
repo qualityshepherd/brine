@@ -2,7 +2,7 @@
 title: Skills and Special Abilities
 date: 2021-7-25
 description: A list of skills and special abilities that we use in World of Brine; based on World of Dungeon rules. 
-tags: wodu, rules
+tags: wodu, rules, ttrpg
 ---
 
 _v 1.3_

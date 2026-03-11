@@ -2,7 +2,7 @@
 title: Incarnates
 date: 2024-1-31
 description:
-tags: words
+tags: words, ttrpg
 ---
 
 At any one time, there are exactly 42 Incarnates in the world; give or take 9 months. I suppose it depends if being in the womb is considered _in the world_. I've been in a womb 100 times; I say it counts.

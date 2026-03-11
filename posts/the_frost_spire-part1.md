@@ -2,7 +2,7 @@
 title: The Frost Spire - Part 1
 date: 2022-5-22
 image: /assets/images/frost_spire.png
-tags: podcast, 1420
+tags: podcast, 1420, ttrpg
 description: The Arson Crew find themselves in the middle of an old fey tale. "The Ice Prince" is legend. A prince lives who travels the seas in a castle of ice; his wives feasting on children who misbehave.
 image: /assets/images/frost_spire/image.png
 ---

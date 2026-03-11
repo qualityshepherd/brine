@@ -2,7 +2,7 @@
 title: Hexcralws Rule!
 date: 2023-7-8
 description: Simple rules and procedures for running hexcrawl rpgs
-tags: hexcrawl, hexy
+tags: hexcrawl, hexy, ttrpg
 ---
 _v1.4_
 

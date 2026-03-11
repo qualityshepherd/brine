@@ -1,7 +1,7 @@
 ---
 title: Southern Coast - 04 A Better Door than a Window
 date: 2023-12-23
-tags: podcast, actual-play, oyab, south-coast
+tags: podcast, actual-play, oyab, south-coast, ttrpg
 description: In our final episode of The Southern Coast, Hergest leaves the Prison of Mon and finds not one, but two familiar faces... or is it three?
 image: /assets/images/southern_coast/prison_of_mon.webp
 ---

@@ -1,7 +1,7 @@
 ---
 title: S1E24 Shot Through The Heart And You're To Blame
 date: 2020-12-13
-tags: podcast, season1, bnb
+tags: podcast, season1, bnb, ttrpg
 description: THE SEASON 1 FINALE IS HERE! `No spoilers` but Death returns... good luck, crew!
 image: /assets/images/season1/image.png
 ---

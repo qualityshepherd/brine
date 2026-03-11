@@ -2,7 +2,7 @@
 title: Vonnegut's 8 Basics of RPG Writing
 date: 2024-1-30
 description: Kurt Vonnegut gave some great advice on writing RPGs...
-tags: words, writing
+tags: words, writing, ttrpg
 ---
 
 Kurt Vonnegut is my fav author. I've been re-reading all his books including his workshops on writing. It occurred to me that his advice for creative writing was hilariously inline with rpg writing; which makes sense but still; interesting.

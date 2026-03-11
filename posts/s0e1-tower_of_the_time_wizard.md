@@ -1,7 +1,7 @@
 ---
 title: S0E1 Tower of the Time Wizard
 date: 2020-1-19
-tags: podcast, tower_of_the_time_wizard, season0, wodu
+tags: podcast, tower_of_the_time_wizard, season0, wodu, ttrpg
 description: This was the very first session of what was _supposed to be_ just a oneshot... but would become a full campaign.
 image: /assets/images/season0/image.jpg
 ---

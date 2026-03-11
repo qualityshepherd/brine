@@ -1,7 +1,7 @@
 ---
 title: S1E23 Eat Your Heart Out
 date: 2020-12-6
-tags: podcast, season1, bnb
+tags: podcast, season1, bnb, ttrpg
 description: Are three McMuffins better than one? We find out in this episode! Also, _what's with the bowl of fish?_ Yulia meets The Lady of Light and gets the answers to her heart's desires.
 image: /assets/images/season1/image.png
 ---

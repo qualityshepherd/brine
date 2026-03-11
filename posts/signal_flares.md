@@ -2,7 +2,7 @@
 title: Signal Flares
 date: 2025-11-17
 description: Searching for your peeps? Maybe send up some signal flares?
-tags: blather, community
+tags: blather, community, ttrpg
 ---
 
 > _"I never want to belong to any club that would have me as a member." ~Groucho_

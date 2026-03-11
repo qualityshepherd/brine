@@ -1,7 +1,7 @@
 ---
 title: Butchers - 01 The Butcher, The Baker and The Clandestine Faker
 date: 2024-2-12
-tags: podcast, butchers, actual-play
+tags: podcast, butchers, actual-play, ttrpg
 image: /assets/images/butchers/delta_queen.webp
 description: Welcome aboard the Delta Queen, your ticket to cosmic extravagance and discovery! This interstellar marvel stands as one of only two remaining Halo Class Cosmos Cruisers in the galaxy, promising a journey unlike any other. Glide through the stars in unparalleled style and grace, surrounded by timeless elegance at every turn. And when hunger strikes, prepare your taste buds for a culinary odyssey courtesy of the legendary Chef Xanathor, whose creations will leave you starry-eyed with delight. So come, embark on the adventure of a lifetime aboard the Delta Queen, where each voyage is a cosmic escapade into the great unknown of space!
 ---

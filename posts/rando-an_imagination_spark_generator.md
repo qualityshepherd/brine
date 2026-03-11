@@ -2,7 +2,7 @@
 title: Rando - An Imagination Spark Generator
 date: 2024-1-11
 description: A single page
-tags: rando, tools
+tags: rando, tools, ttrpg
 ---
 
 I love me some random generators but mine were showing my neglect and kinda all over the place. My friend [Wightbred](https://wightbred.itch.io/) turned me onto [GM's Apprentice Cards](https://www.drivethrurpg.com/product/125685/The-GameMasters-Apprentice-Base-Deck), which inspired me to refactor and extend my own generators into a single web app. Thus, [Rando](https://rando.brine.dev) was born.

@@ -1,7 +1,7 @@
 ---
 title: To The Northern Kings
 date: 2099-4-2
-tags: magic, oyab
+tags: magic, oyab, ttrpg
 description:
 ---
 

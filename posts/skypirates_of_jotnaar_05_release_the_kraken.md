@@ -1,7 +1,7 @@
 ---
 title: Skypirates of Jotnaar - 05 Release The Kraken
 date: 2023-12-12
-tags: podcast, actual-play, skypirates-of-jotnaar
+tags: podcast, actual-play, skypirates-of-jotnaar, ttrpg
 description: The final session of Skypirates of Jotnaar... NO SPOILERS!!!1!
 image: /assets/images/skypirates_of_jatnaar_square.png
 ---

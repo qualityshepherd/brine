@@ -2,7 +2,7 @@
 title: The Frost Spire - Part 4
 date: 2022-6-9
 image: /assets/images/frost_spire.png
-tags: podcast, 1420
+tags: podcast, 1420, ttrpg
 description: It's PCs vs Polar Bear... my money is on the _bed_. Don't lose your hand!
 image: /assets/images/frost_spire/image.png
 ---

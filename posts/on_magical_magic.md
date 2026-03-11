@@ -1,7 +1,7 @@
 ---
 title: On Magical Magic
 date: 2024-2-13
-tags: magic, oyab
+tags: magic, oyab, ttrpg
 description: My ongoing search for a magic system that feels _magical_...
 ---
 

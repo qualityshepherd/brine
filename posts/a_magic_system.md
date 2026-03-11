@@ -2,7 +2,7 @@
 title: A Magic System
 date: 2021-5-2
 description: A simple magic system for any game... but intended as an alternative to the system in World of Dungeons.
-tags: magic, rules, wodu
+tags: magic, rules, wodu, ttrpg
 ---
 
 _v 1.6_

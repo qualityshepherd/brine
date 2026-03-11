@@ -2,7 +2,7 @@
 title: An Unfamiliar World
 date: 2025-11-9
 description:
-tags: oyab, unfamiliar
+tags: oyab, unfamiliar, ttrpg
 ---
 
 > _Based on Richard Williams' [Unfamiliar](https://featurecreep.itch.io/unfamiliar) and adapted for use with [Of Yarn and Bone](/#post?s=of_yarn_and_bone)_.

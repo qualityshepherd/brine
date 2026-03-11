@@ -1,7 +1,7 @@
 ---
 title: Skypirates of Jotnaar - 04 Hexspire Strikes Back
 date: 2023-12-8
-tags: podcast, actual-play, skypirates-of-jotnaar
+tags: podcast, actual-play, skypirates-of-jotnaar, ttrpg
 description: The captains head to Last Drinks to concoct Rainsborough's "simple" plan. Logistics consume everyone's time until news comes over the skwawkbox...
 image: /assets/images/skypirates_of_jatnaar_square.png
 ---
