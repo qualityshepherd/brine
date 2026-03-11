@@ -121,7 +121,7 @@ let isInitialLoad = true
 export function handleRouting () {
   const { route, params } = getRouteParams()
   setSearchTerm('')
-
+  window.scrollTo(0, 0) // top of page
   // tell the worker about SPA navigation — worker is blind to client-side route changes
   // skip initial load since the worker already tracked that request directly
   if (!isInitialLoad && route !== '/search') {
