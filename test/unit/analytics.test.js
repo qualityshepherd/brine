@@ -13,8 +13,6 @@ test('Analytics: isBot detects graphql probe', t => { t.ok(isBot('/graphql')) })
 test('Analytics: isBot returns false for normal path', t => { t.falsy(isBot('/posts/my-post')) })
 test('Analytics: isBot returns false for root', t => { t.falsy(isBot('/')) })
 test('Analytics: isBot is case insensitive', t => { t.ok(isBot('/XMLRPC.PHP')) })
-test('Analytics: isBot detects python UA', t => { t.ok(isBot('/', 'python-requests/2.28.0')) })
-test('Analytics: isBot detects curl UA', t => { t.ok(isBot('/', 'curl/7.88.1')) })
 test('Analytics: isBot allows real browser UA', t => { t.falsy(isBot('/', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)')) })
 
 // .DS_Store case-insensitive bug

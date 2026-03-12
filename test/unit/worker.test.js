@@ -3,11 +3,6 @@ import { classifyHit } from '../../worker/analytics.js'
 import { isAuthorized } from '../../worker/index.js'
 
 // classifyHit — covers all branching in trackHit without touching CF infra
-
-test('classifyHit: bot ua returns bot', t => {
-  t.is(classifyHit('/posts/foo', 'python-requests/2.28'), 'bot')
-})
-
 test('classifyHit: bot path returns bot', t => {
   t.is(classifyHit('/wp-login.php', 'Mozilla/5.0'), 'bot')
 })

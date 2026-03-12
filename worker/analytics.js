@@ -16,9 +16,7 @@ const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlr
   'ediscovery', 'ecp/current', 'https%3a',
   '${', '%7b', '%24', 'package.json', 'composer.json', 'requirements.txt', '.npmrc',
   'metadata/', 'computemetadata', 'latest/meta-data', 'credentials']
-const BOT_UAS = ['python', 'curl', 'wget', 'go-http', 'libwww', 'node-fetch', 'axios',
-  'urllib', 'headless', 'phantom', 'crawler', 'spider', 'bot', 'preview', 'linkexpander',
-  'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
+const BOT_UAS = ['preview', 'linkexpander', 'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
 
 // Datacenter ASNs — real readers don't come from these networks
 const BOT_ASNS = new Set([
