@@ -26,7 +26,6 @@ const BOT_ASNS = new Set([
   16509, // AWS
   8075, // Microsoft Azure
   15169, // Google Cloud
-  13335, // Cloudflare
   36351, // SoftLayer/IBM
   20473, // Vultr
   63949, // Linode/Akamai
