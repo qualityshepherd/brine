@@ -23,7 +23,7 @@ const BOT_ASNS = new Set([
   24940, // Hetzner
   16276, // OVH
   35540, // OVH
-  5410,  // OVH
+  5410, // OVH
   12876, // OVH/Scaleway
   14618, // AWS
   16509, // AWS

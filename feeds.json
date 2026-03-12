@@ -5,7 +5,7 @@
   { "url": "https://old.reddit.com/r/news/.rss", "limit": 3 },
   { "url": "https://rss.slashdot.org/Slashdot/slashdotMain", "limit": 4 },
   { "url": "https://publicdomainreview.tumblr.com/rss", "limit": 4 },
-  { "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml", "limit": r },
+  { "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml", "limit": 6 },
   { "url": "https://doomandgloomfromthetomb.tumblr.com/rss", "limit": 3 },
   { "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA", "limit": 3 },
   { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 3 },
