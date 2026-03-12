@@ -12,7 +12,7 @@ const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlr
   'swagger', 'actuator', 'graphql', 'telescope',
   'security.txt', 'console/', 'server-status', 'login.action',
   'v2/_catalog', 'v2/api-docs', 'v3/api-docs', 'trace.axd',
-  '@vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
+  '@vite', '%40vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
   'ediscovery', 'ecp/current', 'https%3a',
   '${', '%7b', '%24', 'package.json', 'composer.json', 'requirements.txt', '.npmrc',
   'metadata/', 'computemetadata', 'latest/meta-data', 'credentials']
@@ -22,6 +22,9 @@ const BOT_UAS = ['preview', 'linkexpander', 'facebookexternalhit', 'twitterbot',
 const BOT_ASNS = new Set([
   24940, // Hetzner
   16276, // OVH
+  35540, // OVH
+  5410,  // OVH
+  12876, // OVH/Scaleway
   14618, // AWS
   16509, // AWS
   8075, // Microsoft Azure
