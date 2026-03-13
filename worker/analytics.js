@@ -20,22 +20,22 @@ const BOT_UAS = ['preview', 'linkexpander', 'facebookexternalhit', 'twitterbot',
 
 // Datacenter ASNs — real readers don't come from these networks
 const BOT_ASNS = new Set([
-  24940, // Hetzner
-  16276, // OVH
-  35540, // OVH
-  5410,  // OVH
-  12876, // OVH/Scaleway
+  // 24940, // Hetzner
+  // 16276, // OVH
+  // 35540, // OVH
+  // 5410,  // OVH
+  // 12876, // OVH/Scaleway
+  // 15169, // Google Cloud
+  // 36351, // SoftLayer/IBM
+  // 20473, // Vultr
+  // 63949, // Linode/Akamai
+  // 396982, // Google Cloud
+  // 9009,   // M247 (common crawler host)
+  8075,  // Microsoft Azure
   14618, // AWS
   16509, // AWS
-  8075,  // Microsoft Azure
-  15169, // Google Cloud
-  36351, // SoftLayer/IBM
-  20473, // Vultr
-  63949, // Linode/Akamai
   14061, // DigitalOcean
-  396982, // Google Cloud
-  19551, // Incapsula
-  9009   // M247 (common crawler host)
+  19551 // Incapsula
 ])
 
 export const isBot = (path, ua = '') =>
