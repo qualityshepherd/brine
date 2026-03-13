@@ -12,29 +12,30 @@ const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlr
   'swagger', 'actuator', 'graphql', 'telescope',
   'security.txt', 'console/', 'server-status', 'login.action',
   'v2/_catalog', 'v2/api-docs', 'v3/api-docs', 'trace.axd',
-  '@vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
+  '@vite', '%40vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
   'ediscovery', 'ecp/current', 'https%3a',
-  '${', '%7b', '%24']
-const BOT_UAS = ['python', 'curl', 'wget', 'go-http', 'libwww', 'node-fetch', 'axios',
-  'urllib', 'headless', 'phantom', 'crawler', 'spider', 'bot', 'preview', 'linkexpander',
-  'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
+  '${', '%7b', '%24', 'package.json', 'composer.json', 'requirements.txt', '.npmrc',
+  'metadata/', 'computemetadata', 'latest/meta-data', 'credentials', '../', '..\\']
+const BOT_UAS = ['preview', 'linkexpander', 'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
 
 // Datacenter ASNs — real readers don't come from these networks
 const BOT_ASNS = new Set([
-  24940,  // Hetzner
-  16276,  // OVH
-  14618,  // AWS
-  16509,  // AWS
-  8075,   // Microsoft Azure
-  15169,  // Google Cloud
-  13335,  // Cloudflare
-  36351,  // SoftLayer/IBM
-  20473,  // Vultr
-  63949,  // Linode/Akamai
-  14061,  // DigitalOcean
+  24940, // Hetzner
+  16276, // OVH
+  35540, // OVH
+  5410,  // OVH
+  12876, // OVH/Scaleway
+  14618, // AWS
+  16509, // AWS
+  8075,  // Microsoft Azure
+  15169, // Google Cloud
+  36351, // SoftLayer/IBM
+  20473, // Vultr
+  63949, // Linode/Akamai
+  14061, // DigitalOcean
   396982, // Google Cloud
-  19551,  // Incapsula
-  9009,   // M247 (common crawler host)
+  19551, // Incapsula
+  9009   // M247 (common crawler host)
 ])
 
 export const isBot = (path, ua = '') =>
@@ -99,13 +100,11 @@ export const deserializeDay = (stored) => {
   return { day, uniques: new Set(_uniqueArr || []) }
 }
 
-// load stored data as-is
 export const loadDay = (stored, today) => {
   if (stored) return deserializeDay(stored)
   return { day: freshDay(today || new Date().toISOString().slice(0, 10)), uniques: new Set() }
 }
 
-// advance to next day
 export const resetDay = (stored) => {
   const { day } = deserializeDay(stored)
   const next = new Date(day.date)
@@ -155,7 +154,6 @@ export const applyHit = (day, uniques, hit) => {
   return { day: next, uniques: nextUniques }
 }
 
-// build R2 backup payload from raw storage.
 export const buildR2Backup = (stored) => {
   if (!stored) return null
   const { day, uniques } = deserializeDay(stored)
@@ -261,7 +259,6 @@ export class AnalyticsDO {
       }
     }
 
-    // Only reset AFTER successful R2 write
     const next = resetDay(stored)
     await this.state.storage.put('today', serializeDay(next.day, next.uniques))
     await this.state.storage.setAlarm(nextMidnight())
@@ -273,7 +270,8 @@ export class AnalyticsDO {
 // Returns 'skip' | 'bot' | 'hit'
 export const classifyHit = (path, ua = '', asn = null) => {
   if (SKIP_PATHS.some(p => path.startsWith(p))) return 'skip'
-  if (isBot(path, ua) || isDatacenter(asn)) return 'bot'
+  const decoded = (() => { try { return decodeURIComponent(path) } catch { return path } })()
+  if (isBot(decoded, ua) || isDatacenter(asn)) return 'bot'
   return 'hit'
 }
 
