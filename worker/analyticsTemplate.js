@@ -218,7 +218,7 @@ const renderLogs = () => {
   }
 
   filterBar.innerHTML = ''
-  const html = allSessions.slice(0, 999).map(s => {
+  const html = allSessions.slice(0, 200).map(s => {
     const count = s.paths.length
     const firstPath = s.paths[0] || ''
     const firstRef = s.pathRefs && s.pathRefs[0] ? (() => { try { return new URL(s.pathRefs[0]).hostname } catch { return '' } })() : ''
@@ -239,7 +239,7 @@ window.clearFilter = () => { activeIp = null; renderLogs() }
 const render = (allData) => {
   const s = aggregate(allData)
   allSessions = groupSessions(s.recentHits)
-  const topPaths = Object.entries(s.byPath).sort((a, b) => b[1] - a[1]).slice(0, 20)
+  const topPaths = Object.entries(s.byPath).sort((a, b) => b[1] - a[1]).slice(0, 10)
   const topCountries = Object.entries(s.byCountry).sort((a, b) => b[1] - a[1]).slice(0, 10)
   const topRefs = Object.entries(s.byReferrer).sort((a, b) => b[1] - a[1]).slice(0, 10)
 
