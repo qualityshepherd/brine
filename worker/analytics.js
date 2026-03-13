@@ -150,7 +150,7 @@ export const applyHit = (day, uniques, hit) => {
   next.recentHits = [
     { ts: hit.ts, path: hit.path, country: hit.country, region: hit.region, city: hit.city, ip: hit.ip, referrer: hit.referrer || '' },
     ...(next.recentHits || [])
-  ].slice(0, 420)
+  ].slice(0, 999)
 
   return { day: next, uniques: nextUniques }
 }

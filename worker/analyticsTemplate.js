@@ -218,7 +218,7 @@ const renderLogs = () => {
   }
 
   filterBar.innerHTML = ''
-  const html = allSessions.slice(0, 200).map(s => {
+  const html = allSessions.slice(0, 999).map(s => {
     const count = s.paths.length
     const firstPath = s.paths[0] || ''
     const firstRef = s.pathRefs && s.pathRefs[0] ? (() => { try { return new URL(s.pathRefs[0]).hostname } catch { return '' } })() : ''
