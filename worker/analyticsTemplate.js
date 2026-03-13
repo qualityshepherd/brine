@@ -35,19 +35,23 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .heatmap-labels.dow{grid-template-columns:repeat(7,1fr)}
 .heatmap-labels.hour{grid-template-columns:repeat(24,1fr)}
 .heatmap-labels span{font-size:55%;color:var(--alt1);text-align:center;font-family:mono}
-.log-row{display:grid;grid-template-columns:11rem 1.8rem 8rem 1fr;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
+.session-header{display:grid;grid-template-columns:11rem 1.8rem 10rem 1fr 8rem;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
+.session-header:hover .log-city{color:var(--alt3)}
 .log-ts{color:var(--alt1);white-space:nowrap}
 .log-flag{text-align:center;font-size:1.2em}
 .log-city{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
 .log-city:hover{color:var(--alt3)}
 .log-city.active{color:var(--alt3)}
 .log-path{color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.log-ref{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;opacity:.6;font-size:80%}
+.log-count{color:var(--alt1);font-family:mono;text-align:right;white-space:nowrap}
 .filter-bar{display:flex;align-items:center;gap:1rem;margin:.5rem 0;font-size:85%;font-family:mono;min-height:1.5rem}
 .filter-bar span{color:var(--alt3)}
 .filter-bar a{color:var(--alt1);cursor:pointer;text-decoration:underline}
 @media(max-width:520px){
-  .log-row{grid-template-columns:auto 1.8rem 1fr;gap:.5rem}
+  .session-header{grid-template-columns:auto 1.8rem 1fr auto}
   .log-path{display:none}
+  .session-paths{padding-left:0}
   .maps{grid-template-columns:1fr}
 }
 </style>
@@ -68,6 +72,7 @@ const params = new URLSearchParams(location.search)
 const days = parseInt(params.get('days') || '1')
 const secret = params.get('secret') || ''
 const DOW = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+const SESSION_GAP = 30 * 60 * 1000 // 30 minutes
 
 const COUNTRY_NAMES = {
   AF:'Afghanistan',AL:'Albania',DZ:'Algeria',AR:'Argentina',AM:'Armenia',AU:'Australia',AT:'Austria',
@@ -132,6 +137,35 @@ const heatmap = (data, labels, cls) => {
     \`<div class="heatmap-labels \${cls}">\${labels.map(l => \`<span>\${l}</span>\`).join('')}</div>\`
 }
 
+const groupSessions = (hits) => {
+  const byIp = {}
+  for (const h of hits) {
+    if (!byIp[h.ip]) byIp[h.ip] = []
+    byIp[h.ip].push(h)
+  }
+  const sessions = []
+  for (const ipHits of Object.values(byIp)) {
+    ipHits.sort((a, b) => a.ts - b.ts)
+    let session = null
+    for (const h of ipHits) {
+      const sameDay = session && new Date(h.ts).toDateString() === new Date(session.ts).toDateString()
+      const withinGap = session && (h.ts - session.lastTs <= SESSION_GAP)
+      // today view: group by 30min gap. multi-day: group by IP+day
+      const inSession = days === 1 ? withinGap : sameDay
+      if (!session || !inSession) {
+        session = { ts: h.ts, lastTs: h.ts, ip: h.ip, country: h.country, region: h.region, city: h.city, referrer: h.referrer || '', paths: [], pathTs: [], pathRefs: [] }
+        sessions.push(session)
+      }
+      session.lastTs = h.ts
+      session.paths.push(h.path)
+      session.pathTs.push(h.ts)
+      session.pathRefs.push(h.referrer || '')
+    }
+  }
+  sessions.sort((a, b) => b.ts - a.ts)
+  return sessions
+}
+
 const aggregate = (allData) => {
   let totalHits = 0, totalBots = 0, totalUniques = 0
   const byPath = {}, byCountry = {}, byReferrer = {}
@@ -142,7 +176,6 @@ const aggregate = (allData) => {
     if (!data) continue
     totalHits += data.totalHits || 0
     totalBots += data.bots || 0
-    // fix: uniques may be array (R2 backup) or number (today DO)
     const u = data.uniques
     totalUniques += Array.isArray(u) ? u.length : (typeof u === 'number' ? u : 0)
     for (const [k, v] of Object.entries(data.byPath || {})) byPath[k] = (byPath[k] || 0) + v
@@ -157,39 +190,55 @@ const aggregate = (allData) => {
   return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byHour, byDow, recentHits }
 }
 
-let activeCity = null
-let allHits = []
+let activeIp = null
+let allSessions = []
 
 const renderLogs = () => {
-  const filtered = activeCity ? allHits.filter(h => h.city === activeCity) : allHits
   const filterBar = document.getElementById('filter-bar')
-  filterBar.innerHTML = activeCity
-    ? \`<span>📍 \${activeCity}</span> <a onclick="clearFilter()">clear</a>\`
-    : ''
 
-  const logsHtml = filtered.slice(0, 420).map(h =>
-    \`<div class="log-row">\` +
-    \`<span class="log-ts">\${fmtTs(h.ts)}</span>\` +
-    \`<span class="log-flag">\${flagWithRegion(h.country, h.region)}</span>\` +
-    \`<span class="log-city\${activeCity === h.city ? ' active' : ''}" onclick="filterCity('\${h.city}')" title="\${h.city}">\${h.city || '?'}</span>\` +
-    \`<span class="log-path" title="\${h.path}">\${h.path}</span>\` +
-    \`</div>\`
-  ).join('')
-  document.getElementById('logs').innerHTML = logsHtml ? \`<h2>recent hits</h2>\${logsHtml}\` : ''
+  if (activeIp) {
+    const sessions = allSessions.filter(s => s.ip === activeIp)
+    const s = sessions[0]
+    const ref = s && s.referrer ? (() => { try { return new URL(s.referrer).hostname } catch { return '' } })() : ''
+    filterBar.innerHTML = s ? \`<span>\${flagWithRegion(s.country, s.region)} \${s.city || '?'}\${ref ? \` · \${ref}\` : ''}</span> <a onclick="clearFilter()">✕ clear</a>\` : ''
+    const html = sessions.flatMap(s =>
+      s.paths.map((p, j) => {
+        const r = s.pathRefs && s.pathRefs[j] ? (() => { try { return new URL(s.pathRefs[j]).hostname } catch { return '' } })() : ''
+        return \`<div class="session-header" onclick="clearFilter()" style="cursor:pointer">\` +
+        \`<span class="log-ts">\${fmtTs(s.pathTs ? s.pathTs[j] : s.ts)}</span>\` +
+        \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
+        \`<span class="log-city">\${s.city || '?'}</span>\` +
+        \`<span class="log-path" title="\${p}">\${p}</span>\` +
+        \`<span class="log-ref">\${r}</span>\` +
+        \`</div>\`
+      })
+    ).join('')
+    document.getElementById('logs').innerHTML = html ? \`<h2>recent hits</h2>\${html}\` : ''
+    return
+  }
+
+  filterBar.innerHTML = ''
+  const html = allSessions.slice(0, 200).map(s => {
+    const count = s.paths.length
+    const firstPath = s.paths[0] || ''
+    const firstRef = s.pathRefs && s.pathRefs[0] ? (() => { try { return new URL(s.pathRefs[0]).hostname } catch { return '' } })() : ''
+    return \`<div class="session-header">\` +
+      \`<span class="log-ts">\${fmtTs(s.ts)}</span>\` +
+      \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
+      \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${s.city}">\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
+      \`<span class="log-path" title="\${firstPath}">\${firstPath}</span>\` +
+      \`<span class="log-ref">\${firstRef}</span>\` +
+      \`</div>\`
+  }).join('')
+  document.getElementById('logs').innerHTML = html ? \`<h2>recent hits</h2>\${html}\` : ''
 }
 
-window.filterCity = (city) => {
-  activeCity = activeCity === city ? null : city
-  renderLogs()
-}
-window.clearFilter = () => {
-  activeCity = null
-  renderLogs()
-}
+window.filterIp = (ip) => { activeIp = ip; renderLogs() }
+window.clearFilter = () => { activeIp = null; renderLogs() }
 
 const render = (allData) => {
   const s = aggregate(allData)
-  allHits = s.recentHits
+  allSessions = groupSessions(s.recentHits)
   const topPaths = Object.entries(s.byPath).sort((a, b) => b[1] - a[1]).slice(0, 20)
   const topCountries = Object.entries(s.byCountry).sort((a, b) => b[1] - a[1]).slice(0, 10)
   const topRefs = Object.entries(s.byReferrer).sort((a, b) => b[1] - a[1]).slice(0, 10)
@@ -208,8 +257,7 @@ const render = (allData) => {
 
   document.getElementById('charts').innerHTML =
     \`<h2>top pages</h2><div>\${bars(topPaths)}</div>\` +
-    \`<h2>top countries</h2><div>\${bars(topCountries, true)}</div>\` +
-    (topRefs.length ? \`<h2>top referrers</h2><div>\${bars(topRefs)}</div>\` : '')
+    \`<h2>top countries</h2><div>\${bars(topCountries, true)}</div>\`
 
   renderLogs()
 }
