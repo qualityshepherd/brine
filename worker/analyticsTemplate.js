@@ -37,7 +37,7 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .heatmap-labels span{font-size:55%;color:var(--alt1);text-align:center;font-family:mono}
 .session-header{display:grid;grid-template-columns:11rem 1.8rem 10rem 1fr 8rem;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
 .session-header:hover .log-city{color:var(--alt3)}
-.log-ts{color:var(--alt1);white-space:nowrap}
+.log-ts{color:var(--alt1);white-space:nowrap;cursor:default}
 .log-flag{text-align:center;font-size:1.2em}
 .log-city{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
 .log-city:hover{color:var(--alt3)}
@@ -118,11 +118,13 @@ const fmtTs = (ts) => {
   return date + d.toLocaleTimeString('en', { hour: 'numeric', minute: '2-digit' })
 }
 
-const bars = (items, isCountry = false) => items.map(([name, count]) => {
+const bars = (items, isCountry = false, pathBots = {}) => items.map(([name, count]) => {
   const label = isCountry ? \`\${flag(name)}\${countryName(name)}\` : name
   const title = isCountry ? countryName(name) : name
+  const botInfo = !isCountry && pathBots[name]
+  const botTag = botInfo ? \` <span title="AS\${botInfo.asn || '?'}" style="cursor:default">🤖</span>\` : ''
   return \`<div class="bar-wrap" title="\${title}">\` +
-    \`<span class="label">\${label}</span>\` +
+    \`<span class="label">\${label}\${botTag}</span>\` +
     \`<div class="bar" style="width:\${Math.round(count / (items[0]?.[1] || 1) * 120)}px"></div>\` +
     \`<span class="count">\${count}</span></div>\`
 }).join('')
@@ -150,7 +152,6 @@ const groupSessions = (hits) => {
     for (const h of ipHits) {
       const sameDay = session && new Date(h.ts).toDateString() === new Date(session.ts).toDateString()
       const withinGap = session && (h.ts - session.lastTs <= SESSION_GAP)
-      // today view: group by 30min gap. multi-day: group by IP+day
       const inSession = days === 1 ? withinGap : sameDay
       if (!session || !inSession) {
         session = { ts: h.ts, lastTs: h.ts, ip: h.ip, country: h.country, region: h.region, city: h.city, referrer: h.referrer || '', paths: [], pathTs: [], pathRefs: [] }
@@ -168,7 +169,7 @@ const groupSessions = (hits) => {
 
 const aggregate = (allData) => {
   let totalHits = 0, totalBots = 0, totalUniques = 0
-  const byPath = {}, byCountry = {}, byReferrer = {}
+  const byPath = {}, byCountry = {}, byReferrer = {}, byPathBots = {}
   const byHour = Array(24).fill(0), byDow = Array(7).fill(0)
   const recentHits = []
 
@@ -181,13 +182,18 @@ const aggregate = (allData) => {
     for (const [k, v] of Object.entries(data.byPath || {})) byPath[k] = (byPath[k] || 0) + v
     for (const [k, v] of Object.entries(data.byCountry || {})) byCountry[k] = (byCountry[k] || 0) + v
     for (const [k, v] of Object.entries(data.byReferrer || {})) byReferrer[k] = (byReferrer[k] || 0) + v
+    for (const [k, v] of Object.entries(data.byPathBots || {})) {
+      if (!byPathBots[k]) byPathBots[k] = { count: 0, asn: v.asn }
+      byPathBots[k].count += v.count
+      if (!byPathBots[k].asn) byPathBots[k].asn = v.asn
+    }
     ;(data.byHour || []).forEach((c, i) => { byHour[i] += c })
     ;(data.byDow || []).forEach((c, i) => { byDow[i] += c })
     recentHits.push(...(data.recentHits || []))
   }
 
   recentHits.sort((a, b) => b.ts - a.ts)
-  return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byHour, byDow, recentHits }
+  return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byPathBots, byHour, byDow, recentHits }
 }
 
 let activeIp = null
@@ -205,7 +211,7 @@ const renderLogs = () => {
       s.paths.map((p, j) => {
         const r = s.pathRefs && s.pathRefs[j] ? (() => { try { return new URL(s.pathRefs[j]).hostname } catch { return '' } })() : ''
         return \`<div class="session-header" onclick="clearFilter()" style="cursor:pointer">\` +
-        \`<span class="log-ts">\${fmtTs(s.pathTs ? s.pathTs[j] : s.ts)}</span>\` +
+        \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.pathTs ? s.pathTs[j] : s.ts)}</span>\` +
         \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
         \`<span class="log-city">\${s.city || '?'}</span>\` +
         \`<span class="log-path" title="\${p}">\${p}</span>\` +
@@ -223,7 +229,7 @@ const renderLogs = () => {
     const firstPath = s.paths[0] || ''
     const firstRef = s.pathRefs && s.pathRefs[0] ? (() => { try { return new URL(s.pathRefs[0]).hostname } catch { return '' } })() : ''
     return \`<div class="session-header">\` +
-      \`<span class="log-ts">\${fmtTs(s.ts)}</span>\` +
+      \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.ts)}</span>\` +
       \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
       \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${s.city}">\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
       \`<span class="log-path" title="\${firstPath}">\${firstPath}</span>\` +
@@ -256,7 +262,7 @@ const render = (allData) => {
     \`<div>\${heatmap(s.byHour, hourLabels, 'hour')}</div>\`
 
   document.getElementById('charts').innerHTML =
-    \`<h2>top pages</h2><div>\${bars(topPaths)}</div>\` +
+    \`<h2>top paths</h2><div>\${bars(topPaths, false, s.byPathBots)}</div>\` +
     \`<h2>top countries</h2><div>\${bars(topCountries, true)}</div>\`
 
   renderLogs()

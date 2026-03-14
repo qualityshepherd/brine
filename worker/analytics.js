@@ -75,7 +75,9 @@ export const freshDay = (date) => ({
   byCountry: {},
   byCity: {},
   byReferrer: {},
-  recentHits: []
+  byPathBots: {},
+  recentHits: [],
+  recentBots: []
 })
 
 export const buildHit = (path, cf = {}, ipHash, referrer = '', ts = Date.now()) => ({
@@ -86,6 +88,7 @@ export const buildHit = (path, cf = {}, ipHash, referrer = '', ts = Date.now()) 
   country: (cf && cf.country) || '?',
   region: (cf && cf.region) || '?',
   city: (cf && cf.city) || '?',
+  asn: (cf && cf.asn) || null,
   referrer
 })
 
@@ -116,17 +119,27 @@ export const applyHit = (day, uniques, hit) => {
   const next = {
     ...day,
     byPath: { ...day.byPath },
+    byPathBots: { ...(day.byPathBots || {}) },
     byCountry: { ...day.byCountry },
     byCity: { ...day.byCity },
     byReferrer: { ...day.byReferrer },
     byHour: [...day.byHour],
     byDow: [...day.byDow],
-    recentHits: [...(day.recentHits || [])]
+    recentHits: [...(day.recentHits || [])],
+    recentBots: [...(day.recentBots || [])]
   }
   const nextUniques = new Set(uniques)
 
   if (hit.bot) {
     next.bots++
+    next.recentBots = [
+      { ts: hit.ts || Date.now(), path: hit.path || '?', country: hit.country || '?', city: hit.city || '?', ip: hit.ip || '?', asn: hit.asn || null },
+      ...next.recentBots
+    ].slice(0, 999)
+    if (hit.path) {
+      const prev = next.byPathBots[hit.path] || { count: 0, asn: null }
+      next.byPathBots[hit.path] = { count: prev.count + 1, asn: hit.asn || prev.asn }
+    }
     return { day: next, uniques: nextUniques }
   }
 
@@ -293,8 +306,20 @@ export async function trackHit (req, env) {
     const cache = caches.default
     if (await cache.match(cacheKey)) return
     await cache.put(cacheKey, new Response('1', { headers: { 'Cache-Control': 'max-age=600' } }))
+    const cf = req.cf || {}
     const stub = getSiteStub(req, env)
-    await stub.fetch('https://do.local/hit', { method: 'POST', body: JSON.stringify({ bot: true }) })
+    await stub.fetch('https://do.local/hit', {
+      method: 'POST',
+      body: JSON.stringify({
+        bot: true,
+        path,
+        ip: ipHash,
+        country: cf.country || '?',
+        city: cf.city || '?',
+        asn,
+        ts: Date.now()
+      })
+    })
     return
   }
 
