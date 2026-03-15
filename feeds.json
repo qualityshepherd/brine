@@ -6,7 +6,6 @@
   { "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA", "limit": 3 },
   { "url": "https://paulkerr.wordpress.com/feed/", "limit": 3 },
   { "url": "https://social.ayjay.org/feed.xml", "limit": 3 },
-  { "url": "https://edithzimmerman.substack.com/feed", "limit": 3 },
   { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 3 },
   { "url": "https://klofmag.com/feed/", "limit": 3 },
   { "url": "https://aftermath.site/feed", "limit": 3 },
