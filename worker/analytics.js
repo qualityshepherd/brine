@@ -11,8 +11,8 @@ const SKIP_EXTENSIONS = [
 ]
 
 const BOT_PREFIXES = [
-  '/account', '/billing', '/checkout', '/cgi-bin/', '/donate',
-  '/etc/', '/order', '/plans', '/proc/', '/register',
+  '/account', '/bak', '/back', '/billing', '/checkout', '/cgi-bin/', '/donate',
+  '/etc/', '/order', '/old', '/plans', '/proc/', '/register',
   '/shop', '/subscribe', '/v2/', '/v3/', '/wp-'
 ]
 
@@ -29,7 +29,7 @@ const BOT_PATHS = [
   'passwd', 'pom.properties', 'requirements.txt',
   'security.txt', 'server-status', 'setup', 'shell',
   'statistics.json', 'swagger', 'telescope',
-  'trace.axd', 'wp-', 'xmlrpc'
+  'trace.axd', 'wp-', 'xmlrpc', 'application.zip', 'latest.zip', 'public_html.rar'
 ]
 
 const BOT_UAS = [

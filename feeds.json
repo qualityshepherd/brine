@@ -1,6 +1,5 @@
 [
   { "url": "https://www.reddit.com/r/Fkr/.rss", "limit": 3 },
-  { "url": "https://dice.camp/@Wightbred.rss", "limit": 3 },
   { "url": "https://drewdevault.com/blog/index.xml", "limit": 3 },
   { "url": "https://publicdomainreview.tumblr.com/rss", "limit": 3 },
   { "url": "https://doomandgloomfromthetomb.tumblr.com/rss", "limit": 3 },
