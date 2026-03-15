@@ -14,6 +14,13 @@ test('Analytics: isBot returns false for normal path', t => { t.falsy(isBot('/po
 test('Analytics: isBot returns false for root', t => { t.falsy(isBot('/')) })
 test('Analytics: isBot is case insensitive', t => { t.ok(isBot('/XMLRPC.PHP')) })
 test('Analytics: isBot allows real browser UA', t => { t.falsy(isBot('/', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)')) })
+test('isBot: detects /proc/ prefix', t => { t.ok(isBot('/proc/self/environ')) })
+test('isBot: detects /etc/ prefix', t => { t.ok(isBot('/etc/passwd')) })
+test('isBot: detects /wp- prefix', t => { t.ok(isBot('/wp-login')) })
+test('isBot: detects /register prefix', t => { t.ok(isBot('/register')) })
+test('isBot: detects /checkout prefix', t => { t.ok(isBot('/checkout')) })
+test('isBot: detects /account prefix', t => { t.ok(isBot('/account/settings')) })
+test('isBot: does not flag /processing as a prefix match', t => { t.falsy(isBot('/processing')) })
 
 // .DS_Store case-insensitive bug
 test('Analytics: isBot detects .DS_Store anywhere in path', t => { t.ok(isBot('/posts/.DS_Store')) })

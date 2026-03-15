@@ -1,47 +1,58 @@
 import config from '../feedi.config.js'
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
+import { is404Bot, increment404, WINDOW } from './ratelimit.js'
 
 const SKIP_PATHS = [
-  '/.well-known', '/actor', '/api', '/favicon', '/robots.txt',
-  '/index.json', '/feedIndex.json', '/feeds.json', '/sitemap', '/nodeinfo',
-  '/src'
+  '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feedIndex.json',
+  '/index.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
 ]
-const SKIP_EXTENSIONS = ['.png', '.jpg', '.svg', '.ico', '.woff', '.woff2', '.otf', '.ttf', '.css', '.js']
-const BOT_PATHS = ['.aws', '.php', '.asp', '.aspx', '.env', '.git', 'wp-', 'xmlrpc', 'shell', 'setup',
-  'config', 'admin', 'backup', '.sql', 'passwd', 'cgi-bin', 'statistics.json',
-  'swagger', 'actuator', 'graphql', 'telescope',
-  'security.txt', 'console/', 'server-status', 'login.action',
-  'v2/_catalog', 'v2/api-docs', 'v3/api-docs', 'trace.axd',
-  '@vite', '%40vite', '.vscode', '.ds_store', 'meta-inf', 'pom.properties',
-  'ediscovery', 'ecp/current', 'https%3a',
-  '${', '%7b', '%24', 'package.json', 'composer.json', 'requirements.txt', '.npmrc',
-  'metadata/', 'computemetadata', 'latest/meta-data', 'credentials', '../', '..\\']
-const BOT_UAS = ['preview', 'linkexpander', 'facebookexternalhit', 'twitterbot', 'slackbot', 'discordbot']
 
-// Datacenter ASNs — real readers don't come from these networks
+const SKIP_EXTENSIONS = [
+  '.css', '.ico', '.jpg', '.js', '.otf', '.png', '.svg', '.ttf', '.woff', '.woff2'
+]
+
+const BOT_PREFIXES = [
+  '/account', '/billing', '/checkout', '/cgi-bin/', '/donate',
+  '/etc/', '/order', '/plans', '/proc/', '/register',
+  '/shop', '/subscribe', '/v2/', '/v3/', '/wp-'
+]
+
+const BOT_PATHS = [
+  '%24', '%40vite', '%7b', '${', '../', '..\\',
+  '.asp', '.aspx', '.aws', '.ds_store', '.env',
+  '.git', '.npmrc', '.php', '.sql', '.vscode',
+  '@vite', 'actuator', 'admin', 'backup',
+  'cgi-bin', 'composer.json', 'computemetadata', 'config',
+  'console/', 'credentials', 'debug.log',
+  'ediscovery', 'ecp/current', 'graphql',
+  'https%3a', 'latest/meta-data', 'login.action',
+  'meta-inf', 'metadata/', 'package.json',
+  'passwd', 'pom.properties', 'requirements.txt',
+  'security.txt', 'server-status', 'setup', 'shell',
+  'statistics.json', 'swagger', 'telescope',
+  'trace.axd', 'wp-', 'xmlrpc'
+]
+
+const BOT_UAS = [
+  'discordbot', 'facebookexternalhit', 'linkexpander',
+  'preview', 'slackbot', 'twitterbot'
+]
+
 const BOT_ASNS = new Set([
-  // 24940, // Hetzner
-  // 16276, // OVH
-  // 35540, // OVH
-  // 5410,  // OVH
-  // 12876, // OVH/Scaleway
-  // 15169, // Google Cloud
-  // 36351, // SoftLayer/IBM
-  // 20473, // Vultr
-  // 63949, // Linode/Akamai
-  // 396982, // Google Cloud
-  // 9009,   // M247 (common crawler host)
   8075,  // Microsoft Azure
+  14061, // DigitalOcean
   14618, // AWS
   16509, // AWS
-  14061, // DigitalOcean
-  19551 // Incapsula
+  19551  // Incapsula
 ])
 
-export const isBot = (path, ua = '') =>
-  BOT_PATHS.some(p => path.toLowerCase().includes(p)) ||
-  SKIP_EXTENSIONS.some(e => path.toLowerCase().split('?')[0].endsWith(e)) ||
-  BOT_UAS.some(b => ua.toLowerCase().includes(b))
+export const isBot = (path, ua = '') => {
+  const lower = path.toLowerCase()
+  return BOT_PREFIXES.some(p => lower.startsWith(p)) ||
+    BOT_PATHS.some(p => lower.includes(p)) ||
+    SKIP_EXTENSIONS.some(e => lower.split('?')[0].endsWith(e)) ||
+    BOT_UAS.some(b => ua.toLowerCase().includes(b))
+}
 
 export const isDatacenter = (asn) => asn && BOT_ASNS.has(Number(asn))
 
@@ -193,6 +204,17 @@ const nextMidnight = () => {
   return d.getTime()
 }
 
+export const track404 = async (ipHash, cache) => {
+  const key = new Request('https://404-count.local/' + ipHash)
+  const existing = await cache.match(key)
+  const count = existing ? parseInt(await existing.text()) : 0
+  const next = increment404(count)
+  await cache.put(key, new Response(String(next), {
+    headers: { 'Cache-Control': `max-age=${WINDOW}` }
+  }))
+  return is404Bot(next)
+}
+
 export class AnalyticsDO {
   constructor (state, env) {
     this.state = state
@@ -279,8 +301,6 @@ export class AnalyticsDO {
   }
 }
 
-// classifies a request path+ua.
-// Returns 'skip' | 'bot' | 'hit'
 export const classifyHit = (path, ua = '', asn = null) => {
   if (SKIP_PATHS.some(p => path.startsWith(p))) return 'skip'
   const decoded = (() => { try { return decodeURIComponent(path) } catch { return path } })()
@@ -288,7 +308,7 @@ export const classifyHit = (path, ua = '', asn = null) => {
   return 'hit'
 }
 
-export async function trackHit (req, env) {
+export async function trackHit (req, env, status = 200) {
   if (!config.analytics) return
   const url = new URL(req.url)
   const path = url.searchParams.get('path') || (url.pathname + (url.search || ''))
@@ -297,34 +317,37 @@ export async function trackHit (req, env) {
   const asn = req.cf?.asn ?? null
   const kind = classifyHit(path, ua, asn)
   if (path.length > 500) return
-
   if (kind === 'skip') return
 
+  const ipHash = await hashIp(ip)
+  const cache = caches.default
+
+  if (status === 404) {
+    const isBot404 = await track404(ipHash, cache)
+    if (!isBot404) return
+    const cf = req.cf || {}
+    const stub = getSiteStub(req, env)
+    await stub.fetch('https://do.local/hit', {
+      method: 'POST',
+      body: JSON.stringify({ bot: true, path, ip: ipHash, country: cf.country || '?', city: cf.city || '?', asn, ts: Date.now() })
+    })
+    return
+  }
+
   if (kind === 'bot') {
-    const ipHash = await hashIp(ip)
     const cacheKey = new Request('https://bot-throttle.local/' + ipHash)
-    const cache = caches.default
     if (await cache.match(cacheKey)) return
     await cache.put(cacheKey, new Response('1', { headers: { 'Cache-Control': 'max-age=600' } }))
     const cf = req.cf || {}
     const stub = getSiteStub(req, env)
     await stub.fetch('https://do.local/hit', {
       method: 'POST',
-      body: JSON.stringify({
-        bot: true,
-        path,
-        ip: ipHash,
-        country: cf.country || '?',
-        city: cf.city || '?',
-        asn,
-        ts: Date.now()
-      })
+      body: JSON.stringify({ bot: true, path, ip: ipHash, country: cf.country || '?', city: cf.city || '?', asn, ts: Date.now() })
     })
     return
   }
 
   const cf = req.cf || {}
-  const ipHash = await hashIp(ip)
   const referer = req.headers.get('referer') || ''
   let referrer = ''
   try {
