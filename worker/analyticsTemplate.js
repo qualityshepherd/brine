@@ -48,6 +48,12 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .filter-bar{display:flex;align-items:center;gap:1rem;margin:.5rem 0;font-size:85%;font-family:mono;min-height:1.5rem}
 .filter-bar span{color:var(--alt3)}
 .filter-bar a{color:var(--alt1);cursor:pointer;text-decoration:underline}
+.has-tip{position:relative;cursor:default}
+.has-tip .tip{display:none;position:absolute;bottom:calc(100% + .5rem);left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:.5rem .75rem;white-space:nowrap;font-size:75%;font-family:mono;color:var(--text);z-index:10;pointer-events:none}
+.has-tip:hover .tip{display:block}
+.tip-row{display:flex;gap:1rem;justify-content:space-between;padding:.1rem 0}
+.tip-row span{color:var(--alt1)}
+.tip-row strong{color:var(--alt3)}
 @media(max-width:520px){
   .session-header{grid-template-columns:auto 1.8rem 1fr auto}
   .log-path{display:none}
@@ -75,18 +81,24 @@ const DOW = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 const SESSION_GAP = 30 * 60 * 1000 // 30 minutes
 
 const COUNTRY_NAMES = {
-  AF:'Afghanistan',AL:'Albania',DZ:'Algeria',AR:'Argentina',AM:'Armenia',AU:'Australia',AT:'Austria',
-  AZ:'Azerbaijan',BH:'Bahrain',BD:'Bangladesh',BY:'Belarus',BE:'Belgium',BR:'Brazil',BG:'Bulgaria',
-  CA:'Canada',CL:'Chile',CN:'China',CO:'Colombia',HR:'Croatia',CZ:'Czech Republic',DK:'Denmark',
-  EG:'Egypt',EE:'Estonia',FI:'Finland',FR:'France',GE:'Georgia',DE:'Germany',GH:'Ghana',GR:'Greece',
-  HK:'Hong Kong',HU:'Hungary',IN:'India',ID:'Indonesia',IE:'Ireland',IL:'Israel',IT:'Italy',
-  JP:'Japan',JO:'Jordan',KZ:'Kazakhstan',KE:'Kenya',KR:'South Korea',KW:'Kuwait',LV:'Latvia',
-  LB:'Lebanon',LT:'Lithuania',MY:'Malaysia',MX:'Mexico',MA:'Morocco',NL:'Netherlands',NZ:'New Zealand',
-  NG:'Nigeria',NO:'Norway',OM:'Oman',PK:'Pakistan',PE:'Peru',PH:'Philippines',PL:'Poland',
-  PT:'Portugal',QA:'Qatar',RO:'Romania',RU:'Russia',SA:'Saudi Arabia',RS:'Serbia',SG:'Singapore',
-  SK:'Slovakia',ZA:'South Africa',ES:'Spain',SE:'Sweden',CH:'Switzerland',TW:'Taiwan',TH:'Thailand',
-  TR:'Turkey',UA:'Ukraine',AE:'United Arab Emirates',GB:'United Kingdom',US:'United States',
-  UZ:'Uzbekistan',VN:'Vietnam'
+  AF:'Afghanistan',AL:'Albania',DZ:'Algeria',AO:'Angola',AR:'Argentina',AM:'Armenia',AU:'Australia',AT:'Austria',
+  AZ:'Azerbaijan',BH:'Bahrain',BD:'Bangladesh',BY:'Belarus',BE:'Belgium',BO:'Bolivia',BA:'Bosnia',BR:'Brazil',
+  BG:'Bulgaria',KH:'Cambodia',CM:'Cameroon',CA:'Canada',CL:'Chile',CN:'China',CO:'Colombia',CD:'Congo',
+  CR:'Costa Rica',HR:'Croatia',CU:'Cuba',CY:'Cyprus',CZ:'Czech Republic',DK:'Denmark',DO:'Dominican Republic',
+  EC:'Ecuador',EG:'Egypt',SV:'El Salvador',EE:'Estonia',ET:'Ethiopia',FI:'Finland',FR:'France',
+  GE:'Georgia',DE:'Germany',GH:'Ghana',GR:'Greece',GT:'Guatemala',HN:'Honduras',HK:'Hong Kong',
+  HU:'Hungary',IS:'Iceland',IN:'India',ID:'Indonesia',IQ:'Iraq',IE:'Ireland',IL:'Israel',IT:'Italy',
+  JM:'Jamaica',JP:'Japan',JO:'Jordan',KZ:'Kazakhstan',KE:'Kenya',KR:'South Korea',KW:'Kuwait',
+  LV:'Latvia',LB:'Lebanon',LY:'Libya',LT:'Lithuania',LU:'Luxembourg',MK:'North Macedonia',
+  MY:'Malaysia',MX:'Mexico',MD:'Moldova',MN:'Mongolia',MA:'Morocco',MZ:'Mozambique',MM:'Myanmar',
+  NP:'Nepal',NL:'Netherlands',NZ:'New Zealand',NI:'Nicaragua',NG:'Nigeria',NO:'Norway',
+  OM:'Oman',PK:'Pakistan',PA:'Panama',PY:'Paraguay',PE:'Peru',PH:'Philippines',PL:'Poland',
+  PT:'Portugal',QA:'Qatar',RO:'Romania',RU:'Russia',SA:'Saudi Arabia',SN:'Senegal',RS:'Serbia',
+  SG:'Singapore',SK:'Slovakia',SI:'Slovenia',ZA:'South Africa',ES:'Spain',LK:'Sri Lanka',
+  SD:'Sudan',SE:'Sweden',CH:'Switzerland',SY:'Syria',TW:'Taiwan',TJ:'Tajikistan',TZ:'Tanzania',
+  TH:'Thailand',TN:'Tunisia',TR:'Turkey',TM:'Turkmenistan',UG:'Uganda',UA:'Ukraine',
+  AE:'United Arab Emirates',GB:'United Kingdom',US:'United States',UY:'Uruguay',
+  UZ:'Uzbekistan',VE:'Venezuela',VN:'Vietnam',YE:'Yemen',ZM:'Zambia',ZW:'Zimbabwe'
 }
 
 const countryName = code => COUNTRY_NAMES[code] || code
@@ -118,13 +130,27 @@ const fmtTs = (ts) => {
   return date + d.toLocaleTimeString('en', { hour: 'numeric', minute: '2-digit' })
 }
 
+const ASN_NAMES = {
+  8075: 'Microsoft Azure', 14061: 'DigitalOcean', 14618: 'AWS',
+  15169: 'Google Cloud', 16276: 'OVH', 16509: 'AWS',
+  19551: 'Incapsula', 20473: 'Vultr', 24940: 'Hetzner',
+  63949: 'Linode', 396982: 'Google Cloud'
+}
+
+const asnTag = (asn) => {
+  const name = ASN_NAMES[asn] || 'unknown'
+  return \`<span title="AS\${asn} · \${name}" style="cursor:default">🤖</span>\`
+}
+
 const bars = (items, isCountry = false, pathBots = {}) => items.map(([name, count]) => {
   const label = isCountry ? \`\${flag(name)}\${countryName(name)}\` : name
   const title = isCountry ? countryName(name) : name
   const botInfo = !isCountry && pathBots[name]
-  const botTag = botInfo ? \` <span title="AS\${botInfo.asn || '?'}" style="cursor:default">🤖</span>\` : ''
+  const botTags = botInfo && botInfo.asns && botInfo.asns.length
+    ? botInfo.asns.map(asnTag).join('')
+    : botInfo ? \`<span title="AS?" style="cursor:default">🤖</span>\` : ''
   return \`<div class="bar-wrap" title="\${title}">\` +
-    \`<span class="label">\${label}\${botTag}</span>\` +
+    \`<span class="label">\${label}\${botTags ? \` \${botTags}\` : ''}</span>\` +
     \`<div class="bar" style="width:\${Math.round(count / (items[0]?.[1] || 1) * 120)}px"></div>\` +
     \`<span class="count">\${count}</span></div>\`
 }).join('')
@@ -183,9 +209,11 @@ const aggregate = (allData) => {
     for (const [k, v] of Object.entries(data.byCountry || {})) byCountry[k] = (byCountry[k] || 0) + v
     for (const [k, v] of Object.entries(data.byReferrer || {})) byReferrer[k] = (byReferrer[k] || 0) + v
     for (const [k, v] of Object.entries(data.byPathBots || {})) {
-      if (!byPathBots[k]) byPathBots[k] = { count: 0, asn: v.asn }
+      if (!byPathBots[k]) byPathBots[k] = { count: 0, asns: [] }
       byPathBots[k].count += v.count
-      if (!byPathBots[k].asn) byPathBots[k].asn = v.asn
+      for (const asn of (v.asns || [])) {
+        if (!byPathBots[k].asns.includes(asn)) byPathBots[k].asns.push(asn)
+      }
     }
     ;(data.byHour || []).forEach((c, i) => { byHour[i] += c })
     ;(data.byDow || []).forEach((c, i) => { byDow[i] += c })
@@ -251,11 +279,19 @@ const render = (allData) => {
 
   const hourLabels = Array.from({length: 24}, (_, i) => i === 0 ? '12a' : i < 12 ? \`\${i}a\` : i === 12 ? '12p' : \`\${i-12}p\`)
 
+  const topBotPaths = Object.entries(s.byPathBots).sort((a, b) => b[1].count - a[1].count).slice(0, 5)
+  const botTip = topBotPaths.length
+    ? topBotPaths.map(([p, v]) => {
+        const heads = v.asns && v.asns.length ? v.asns.map(asnTag).join('') : '🤖'
+        return \`<div class="tip-row"><span>\${p}</span><strong>\${v.count} \${heads}</strong></div>\`
+      }).join('')
+    : \`<div class="tip-row"><span>no bots yet</span></div>\`
+
   document.getElementById('summary').innerHTML =
     \`<div><strong>\${s.totalHits}</strong><span>hits</span></div>\` +
     \`<div><strong>\${s.totalUniques}</strong><span>unique</span></div>\` +
     \`<div><strong>\${allData.length}</strong><span>days</span></div>\` +
-    \`<div><strong>\${s.totalBots}</strong><span>🤖 bots</span></div>\`
+    \`<div class="has-tip"><strong>\${s.totalBots}</strong><span>🤖 bots</span><div class="tip">\${botTip}</div></div>\`
 
   document.getElementById('maps').innerHTML =
     \`<div>\${heatmap(s.byDow, DOW, 'dow')}</div>\` +

@@ -1,6 +1,5 @@
 import config from '../feedi.config.js'
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
-import { is404Bot, increment404, WINDOW } from './ratelimit.js'
 
 const SKIP_PATHS = [
   '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feedIndex.json',
@@ -39,11 +38,17 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075,  // Microsoft Azure
+  8075, // Microsoft Azure
   14061, // DigitalOcean
   14618, // AWS
+  15169, // Google Cloud
+  16276, // OVH
   16509, // AWS
-  19551  // Incapsula
+  19551, // Incapsula
+  20473, // Vultr
+  24940, // Hetzner
+  63949, // Linode/Akamai
+  396982 // Google Cloud
 ])
 
 export const isBot = (path, ua = '') => {
@@ -74,6 +79,13 @@ export const countryFlagWithRegion = (code, region) => {
 }
 
 export const backupKey = (date) => `analytics/${date}.json`
+
+export const historicalDates = (days, now = new Date()) =>
+  Array.from({ length: days - 1 }, (_, i) => {
+    const d = new Date(now)
+    d.setUTCDate(d.getUTCDate() - (i + 1))
+    return d.toISOString().slice(0, 10)
+  })
 
 export const freshDay = (date) => ({
   date,
@@ -148,8 +160,11 @@ export const applyHit = (day, uniques, hit) => {
       ...next.recentBots
     ].slice(0, 999)
     if (hit.path) {
-      const prev = next.byPathBots[hit.path] || { count: 0, asn: null }
-      next.byPathBots[hit.path] = { count: prev.count + 1, asn: hit.asn || prev.asn }
+      const prev = next.byPathBots[hit.path] || { count: 0, asns: [] }
+      const asns = hit.asn && !prev.asns.includes(hit.asn)
+        ? [...prev.asns, hit.asn]
+        : prev.asns
+      next.byPathBots[hit.path] = { count: prev.count + 1, asns }
     }
     return { day: next, uniques: nextUniques }
   }
@@ -202,17 +217,6 @@ const nextMidnight = () => {
   d.setUTCDate(d.getUTCDate() + 1)
   d.setUTCHours(0, 0, 0, 0)
   return d.getTime()
-}
-
-export const track404 = async (ipHash, cache) => {
-  const key = new Request('https://404-count.local/' + ipHash)
-  const existing = await cache.match(key)
-  const count = existing ? parseInt(await existing.text()) : 0
-  const next = increment404(count)
-  await cache.put(key, new Response(String(next), {
-    headers: { 'Cache-Control': `max-age=${WINDOW}` }
-  }))
-  return is404Bot(next)
 }
 
 export class AnalyticsDO {
@@ -308,7 +312,7 @@ export const classifyHit = (path, ua = '', asn = null) => {
   return 'hit'
 }
 
-export async function trackHit (req, env, status = 200) {
+export async function trackHit (req, env) {
   if (!config.analytics) return
   const url = new URL(req.url)
   const path = url.searchParams.get('path') || (url.pathname + (url.search || ''))
@@ -320,21 +324,9 @@ export async function trackHit (req, env, status = 200) {
   if (kind === 'skip') return
 
   const ipHash = await hashIp(ip)
-  const cache = caches.default
-
-  if (status === 404) {
-    const isBot404 = await track404(ipHash, cache)
-    if (!isBot404) return
-    const cf = req.cf || {}
-    const stub = getSiteStub(req, env)
-    await stub.fetch('https://do.local/hit', {
-      method: 'POST',
-      body: JSON.stringify({ bot: true, path, ip: ipHash, country: cf.country || '?', city: cf.city || '?', asn, ts: Date.now() })
-    })
-    return
-  }
 
   if (kind === 'bot') {
+    const cache = caches.default
     const cacheKey = new Request('https://bot-throttle.local/' + ipHash)
     if (await cache.match(cacheKey)) return
     await cache.put(cacheKey, new Response('1', { headers: { 'Cache-Control': 'max-age=600' } }))
@@ -377,16 +369,10 @@ export async function handleAnalytics (req, env, hostname) {
   const result = [{ date: todayData.date, data: todayData }]
 
   if (env.R2) {
-    const promises = []
-    for (let i = 1; i < days; i++) {
-      const d = new Date()
-      d.setDate(d.getDate() - i)
-      const dateStr = d.toISOString().slice(0, 10)
-      promises.push(
-        env.R2.get(backupKey(dateStr))
-          .then(obj => obj ? obj.json().then(data => ({ date: dateStr, data })) : null)
-      )
-    }
+    const promises = historicalDates(days).map(dateStr =>
+      env.R2.get(backupKey(dateStr))
+        .then(obj => obj ? obj.json().then(data => ({ date: dateStr, data })) : null)
+    )
     const historical = (await Promise.all(promises)).filter(Boolean)
     result.push(...historical)
   }
