@@ -1,10 +1,22 @@
 [
   { "url": "https://www.reddit.com/r/Fkr/.rss", "limit": 3 },
   { "url": "https://dice.camp/@Wightbred.rss", "limit": 3 },
-  { "url": "https://abq.news/feed", "limit": 3 },
-  { "url": "https://publicdomainreview.tumblr.com/rss", "limit": 4 },
+  { "url": "https://drewdevault.com/blog/index.xml", "limit": 3 },
+  { "url": "https://publicdomainreview.tumblr.com/rss", "limit": 3 },
   { "url": "https://doomandgloomfromthetomb.tumblr.com/rss", "limit": 3 },
   { "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA", "limit": 3 },
+  { "url": "https://paulkerr.wordpress.com/feed/", "limit": 3 },
+  { "url": "https://social.ayjay.org/feed.xml", "limit": 3 },
+  { "url": "https://edithzimmerman.substack.com/feed", "limit": 3 },
   { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 3 },
-  { "url": "https://brine.dev/assets/rss/blog.xml", "limit": 3 }
+  { "url": "https://klofmag.com/feed/", "limit": 3 },
+  { "url": "https://aftermath.site/feed", "limit": 3 },
+  { "url": "http://www.duckswithpants.com/1/feed", "limit": 3 },
+  { "url": "https://social.ayjay.org/feed.xml", "limit": 3 },
+  { "url": "https://thecreativeindependent.com/rss.xml", "limit": 3 },
+  { "url": "https://www.caughtbytheriver.net/feed/", "limit": 3 },
+  { "url": "https://www.fleetfoxes.co/news?format=rss", "limit": 3 },
+  { "url": "https://theoldweirdamerica.blogspot.com/feeds/posts/default", "limit": 3 },
+  { "url": "https://www.dragcity.com/rss/news", "limit": 3 },
+  { "url": "https://100r.ca/links/rss.xml", "limit": 3 }
 ]
