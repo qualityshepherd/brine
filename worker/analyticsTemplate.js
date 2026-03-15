@@ -49,9 +49,9 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .filter-bar span{color:var(--alt3)}
 .filter-bar a{color:var(--alt1);cursor:pointer;text-decoration:underline}
 .has-tip{position:relative;cursor:default}
-.has-tip .tip{display:none;position:absolute;bottom:calc(100% + .5rem);left:50%;transform:translateX(-50%);background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:4px;padding:.5rem .75rem;white-space:nowrap;font-size:75%;font-family:mono;color:var(--text);z-index:10;pointer-events:none}
+.has-tip .tip{display:none;position:absolute;top:calc(100% + .35rem);right:0;background:#1a1a1a;border:1px solid rgba(255,255,255,.1);border-radius:3px;padding:.3rem .5rem;white-space:nowrap;font-size:70%;font-family:mono;color:var(--text);z-index:10;pointer-events:none}
 .has-tip:hover .tip{display:block}
-.tip-row{display:flex;gap:1rem;justify-content:space-between;padding:.1rem 0}
+.tip-row{display:flex;gap:.75rem;justify-content:space-between;padding:.05rem 0}
 .tip-row span{color:var(--alt1)}
 .tip-row strong{color:var(--alt3)}
 @media(max-width:520px){
@@ -282,8 +282,8 @@ const render = (allData) => {
   const topBotPaths = Object.entries(s.byPathBots).sort((a, b) => b[1].count - a[1].count).slice(0, 5)
   const botTip = topBotPaths.length
     ? topBotPaths.map(([p, v]) => {
-        const heads = v.asns && v.asns.length ? v.asns.map(asnTag).join('') : '🤖'
-        return \`<div class="tip-row"><span>\${p}</span><strong>\${v.count} \${heads}</strong></div>\`
+        const asnNote = v.asns && v.asns.length ? \` · \${v.asns.map(a => \`AS\${a}\`).join(' ')}\` : ''
+        return \`<div class="tip-row"><span>🤖 \${p}\${asnNote}</span></div>\`
       }).join('')
     : \`<div class="tip-row"><span>no bots yet</span></div>\`
 
