@@ -83,6 +83,7 @@ export const sanitizeContent = (str) => {
         .replace(/<!--[\s\S]*?-->/g, '')
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
         // strip on* event attributes, srcset, sizes from any tag
         .replace(/\s+on\w+="[^"]*"/gi, '')
         .replace(/\s+on\w+='[^']*'/gi, '')
