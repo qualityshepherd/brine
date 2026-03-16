@@ -11,9 +11,9 @@ const SKIP_EXTENSIONS = [
 ]
 
 const BOT_PREFIXES = [
-  '/account', '/bak', '/back', '/billing', '/checkout', '/cgi-bin/', '/donate',
-  '/etc/', '/order', '/old', '/plans', '/proc/', '/register',
-  '/shop', '/subscribe', '/v2/', '/v3/', '/wp-'
+  '/account/', '/bak/', '/back/', '/billing/', '/checkout/', '/cgi-bin/', '/donate/',
+  '/etc/', '/files/', '/fileupload/', '/file-upload/', '/import/', '/old/', '/order/', '/plans/', '/proc/', '/register/',
+  '/shop/', '/subscribe/', '/upload/', '/v1/', '/v2/', '/v3/', '/webhook/', '/wp-'
 ]
 
 const BOT_PATHS = [
