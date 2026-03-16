@@ -4,7 +4,7 @@
   "description": "Feedi - federated blog + RSS reader",
   "type": "module",
   "author": "brine",
-  "license": "MIT",
+  "license": "AGPL",
   "main": "app.js",
   "standard": {
     "env": [
