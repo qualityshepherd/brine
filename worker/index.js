@@ -35,7 +35,8 @@ export default {
     // Safety net: if the DO alarm misfired, force a backup via cron
     ctx.waitUntil((async () => {
       try {
-        const hostname = new URL(`https://${env.ASSETS_HOST || 'feedi.brine.dev'}`).hostname
+        const hostname = env.DOMAIN_NAME
+        if (!hostname) { console.error('DOMAIN_NAME not set — skipping alarm check'); return }
         const id = env.ANALYTICS.idFromName(hostname)
         const stub = env.ANALYTICS.get(id)
         await stub.fetch('https://do.local/ensureAlarm', { method: 'POST' })

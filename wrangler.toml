@@ -31,3 +31,6 @@ enabled = true
 
 [observability.logs]
 enabled = true
+
+[vars]
+DOMAIN_NAME = "brine.dev"
