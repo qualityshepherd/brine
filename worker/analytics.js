@@ -13,8 +13,8 @@ const SKIP_EXTENSIONS = [
 const BOT_PREFIXES = [
   '/account/', '/bak/', '/back/', '/billing/', '/checkout/', '/cgi-bin/', '/conf.d/',
   '/donate/', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
-  '/import/', '/log/', '/old/', '/opt/', '/order/', '/plans/', '/proc/', '/register/',
-  '/rest/', '/root/', '/shop/', '/storage/', '/subscribe/', '/upload/', '/v1/', '/v2/',
+  '/import/', '/log/', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/proc/', '/register/',
+  '/rest/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe/', '/upload/', '/v1/', '/v2/',
   '/v3/', '/var/', '/webhook/', '/wp-'
 ]
 
