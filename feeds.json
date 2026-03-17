@@ -19,5 +19,6 @@
   { "url": "https://klofmag.com/category/albums/feed/", "limit": 3 },
   { "url": "https://wolfinasuit.com/category/genre/indie-folk/feed/", "limit": 3 },
   { "url": "https://maggieappleton.com/rss.xml", "limit": 3 },
+  { "url": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss", "limit": 3 },
   { "url": "https://100r.ca/links/rss.xml", "limit": 3 }
 ]
