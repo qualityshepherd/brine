@@ -7,20 +7,20 @@ const SKIP_PATHS = [
 ]
 
 const SKIP_EXTENSIONS = [
-  '.css', '.ico', '.jpg', '.js', '.otf', '.png', '.svg', '.ttf', '.woff', '.woff2'
+  '.css', '.ico', '.jpg', '.js', '.mp3', '.otf', '.png', '.svg', '.ttf', '.woff', '.woff2'
 ]
 
 const BOT_PREFIXES = [
-  '/account/', '/bak/', '/back/', '/billing/', '/checkout/', '/cgi-bin/', '/conf.d/',
-  '/donate/', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
-  '/import/', '/log/', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/proc/', '/register/',
-  '/rest/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe/', '/upload/', '/v1/', '/v2/',
-  '/v3/', '/var/', '/webhook/', '/wp-'
+  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/',
+  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
+  '/import/', '/log/', '/login', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/proc/',
+  '/register', '/rest/', '/restore/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe',
+  '/upload/', '/v1/', '/v2/', '/v3/', '/var/', '/wallet/', '/webhook/', '/wp-'
 ]
 
 const BOT_PATHS = [
-  '%24', '%40vite', '%7b', '${', '../', '..\\',
-  '.asp', '.aspx', '.aws', '.ds_store', '.env',
+  '%24', '%40vite', '%7b', '${', '../', '..\\'
+  , '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
   '@vite', 'actuator', 'admin', 'backup',
   'cgi-bin', 'composer.json', 'computemetadata', 'config',
@@ -40,24 +40,23 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075, // Microsoft Azure
-  14061, // DigitalOcean
-  14618, // AWS
-  15169, // Google Cloud
-  16276, // OVH
-  16509, // AWS
-  19551, // Incapsula
-  20473, // Vultr
-  24940, // Hetzner
-  63949, // Linode/Akamai
-  396982 // Google Cloud
+  8075,   // Microsoft Azure
+  14061,  // DigitalOcean
+  14618,  // AWS
+  15169,  // Google Cloud
+  16276,  // OVH
+  16509,  // AWS
+  19551,  // Incapsula
+  20473,  // Vultr
+  24940,  // Hetzner
+  63949,  // Linode/Akamai
+  396982  // Google Cloud
 ])
 
 export const isBot = (path, ua = '') => {
   const lower = path.toLowerCase()
   return BOT_PREFIXES.some(p => lower.startsWith(p)) ||
     BOT_PATHS.some(p => lower.includes(p)) ||
-    SKIP_EXTENSIONS.some(e => lower.split('?')[0].endsWith(e)) ||
     BOT_UAS.some(b => ua.toLowerCase().includes(b))
 }
 
@@ -309,6 +308,8 @@ export class AnalyticsDO {
 
 export const classifyHit = (path, ua = '', asn = null) => {
   if (SKIP_PATHS.some(p => path.startsWith(p))) return 'skip'
+  const lower = path.toLowerCase().split('?')[0]
+  if (SKIP_EXTENSIONS.some(e => lower.endsWith(e))) return 'skip'
   const decoded = (() => { try { return decodeURIComponent(path) } catch { return path } })()
   if (isBot(decoded, ua) || isDatacenter(asn)) return 'bot'
   return 'hit'
