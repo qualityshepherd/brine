@@ -195,10 +195,9 @@ const groupSessions = (hits) => {
 
 const aggregate = (allData) => {
   let totalHits = 0, totalBots = 0, totalUniques = 0
-  const byPath = {}, byCountry = {}, byReferrer = {}, byPathBots = {}
+  const byPath = {}, byCountry = {}, byReferrer = {}, byPathBots = {}, byRss = {}, byDevice = { mobile: 0, desktop: 0 }
   const byHour = Array(24).fill(0), byDow = Array(7).fill(0)
   const recentHits = []
-
   for (const { data } of allData) {
     if (!data) continue
     totalHits += data.totalHits || 0
@@ -211,17 +210,22 @@ const aggregate = (allData) => {
     for (const [k, v] of Object.entries(data.byPathBots || {})) {
       if (!byPathBots[k]) byPathBots[k] = { count: 0, asns: [] }
       byPathBots[k].count += v.count
-      for (const asn of (v.asns || [])) {
-        if (!byPathBots[k].asns.includes(asn)) byPathBots[k].asns.push(asn)
-      }
+      for (const asn of (v.asns || [])) { if (!byPathBots[k].asns.includes(asn)) byPathBots[k].asns.push(asn) }
     }
+    for (const [feed, v] of Object.entries(data.byRss || {})) {
+      if (!byRss[feed]) byRss[feed] = { hits: 0, subscribers: 0, aggregators: {} }
+      byRss[feed].hits += v.hits || 0
+      byRss[feed].subscribers = Math.max(byRss[feed].subscribers, v.subscribers || 0)
+      for (const [agg, count] of Object.entries(v.aggregators || {})) byRss[feed].aggregators[agg] = (byRss[feed].aggregators[agg] || 0) + count
+    }
+    byDevice.mobile += data.byDevice?.mobile || 0
+    byDevice.desktop += data.byDevice?.desktop || 0
     ;(data.byHour || []).forEach((c, i) => { byHour[i] += c })
     ;(data.byDow || []).forEach((c, i) => { byDow[i] += c })
     recentHits.push(...(data.recentHits || []))
   }
-
   recentHits.sort((a, b) => b.ts - a.ts)
-  return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byPathBots, byHour, byDow, recentHits }
+  return { totalHits, totalBots, totalUniques, byPath, byCountry, byReferrer, byPathBots, byRss, byDevice, byHour, byDow, recentHits }
 }
 
 let activeIp = null
@@ -287,11 +291,25 @@ const render = (allData) => {
       }).join('')
     : \`<div class="tip-row"><span>no bots yet</span></div>\`
 
+  const rssFeeds = Object.entries(s.byRss).sort((a, b) => b[1].subscribers - a[1].subscribers)
+  const totalSubscribers = rssFeeds.reduce((sum, [, v]) => sum + v.subscribers, 0)
+  const rssTip = rssFeeds.length
+    ? rssFeeds.map(([feed, v]) => {
+        const aggs = Object.keys(v.aggregators).join(', ')
+        return \`<div class="tip-row"><span>\${feed}</span><strong>\${v.subscribers} \${aggs ? \`· \${aggs}\` : ''}</strong></div>\`
+      }).join('')
+    : \`<div class="tip-row"><span>no rss subscribers yet</span></div>\`
+
+  const totalDevices = s.byDevice.mobile + s.byDevice.desktop
+  const mobilePct = totalDevices > 0 ? Math.round((s.byDevice.mobile / totalDevices) * 100) : null
+
   document.getElementById('summary').innerHTML =
     \`<div><strong>\${s.totalHits}</strong><span>hits</span></div>\` +
     \`<div><strong>\${s.totalUniques}</strong><span>unique</span></div>\` +
     \`<div><strong>\${allData.length}</strong><span>days</span></div>\` +
-    \`<div class="has-tip"><strong>\${s.totalBots}</strong><span>🤖 bots</span><div class="tip">\${botTip}</div></div>\`
+    \`<div class="has-tip"><strong>\${s.totalBots}</strong><span>🤖 bots</span><div class="tip">\${botTip}</div></div>\` +
+    (mobilePct !== null ? \`<div><strong>\${mobilePct}%</strong><span>📱 mobile</span></div>\` : '') +
+    (totalSubscribers > 0 || rssFeeds.length > 0 ? \`<div class="has-tip"><strong>\${totalSubscribers}</strong><span>📡 rss</span><div class="tip">\${rssTip}</div></div>\` : '')
 
   document.getElementById('maps').innerHTML =
     \`<div>\${heatmap(s.byDow, DOW, 'dow')}</div>\` +

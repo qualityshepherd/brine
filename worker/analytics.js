@@ -3,7 +3,7 @@ import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
 
 const SKIP_PATHS = [
   '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feedIndex.json',
-  '/index.json', '/nodeinfo', '/robots.txt', '/rss/', '/sitemap', '/src'
+  '/index.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
 ]
 
 const SKIP_EXTENSIONS = [
@@ -11,16 +11,16 @@ const SKIP_EXTENSIONS = [
 ]
 
 const BOT_PREFIXES = [
-  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/', '/debug/',
-  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/file-manager/', '/form/',
+  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/',
+  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
   '/import/', '/log/', '/login', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/proc/',
   '/register', '/rest/', '/restore/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe',
   '/upload/', '/v1/', '/v2/', '/v3/', '/var/', '/wallet/', '/webhook/', '/wp-'
 ]
 
 const BOT_PATHS = [
-  '%24', '%40vite', '%7b', '${', '../', '..\\',
-  '.asp', '.aspx', '.aws', '.ds_store', '.env',
+  '%24', '%40vite', '%7b', '${', '../', '..\\'
+  , '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
   '@vite', 'actuator', 'admin', 'backup',
   'cgi-bin', 'composer.json', 'computemetadata', 'config',
@@ -40,18 +40,43 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075, // Microsoft Azure
-  14061, // DigitalOcean
-  14618, // AWS
-  15169, // Google Cloud
-  16276, // OVH
-  16509, // AWS
-  19551, // Incapsula
-  20473, // Vultr
-  24940, // Hetzner
-  63949, // Linode/Akamai
-  396982 // Google Cloud
+  8075,   // Microsoft Azure
+  14061,  // DigitalOcean
+  14618,  // AWS
+  15169,  // Google Cloud
+  16276,  // OVH
+  16509,  // AWS
+  19551,  // Incapsula
+  20473,  // Vultr
+  24940,  // Hetzner
+  63949,  // Linode/Akamai
+  396982  // Google Cloud
 ])
+
+// Known RSS aggregator UA patterns that include subscriber counts
+const RSS_SUBSCRIBER_PATTERNS = [
+  { re: /Feedbin feed-id:\S+ - (\d+) subscribers?/i, name: 'Feedbin' },
+  { re: /NewsBlur\/(\d+) subscribers?/i, name: 'NewsBlur' },
+  { re: /inoreader\.com[^)]*\+(\d+) subscribers?\)/i, name: 'Inoreader' },
+  { re: /The Old Reader.*?(\d+) subscribers?/i, name: 'TheOldReader' },
+  { re: /Feedly\/1\.0 \((\d+) subscribers?/i, name: 'Feedly' }
+]
+
+export const parseRssSubscribers = (ua) => {
+  if (!ua) return null
+  for (const { re, name } of RSS_SUBSCRIBER_PATTERNS) {
+    const match = ua.match(re)
+    if (match) return { aggregator: name, subscribers: parseInt(match[1], 10) }
+  }
+  return null
+}
+
+const MOBILE_RE = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile/i
+
+export const parseDevice = (ua) => {
+  if (!ua) return 'desktop'
+  return MOBILE_RE.test(ua) ? 'mobile' : 'desktop'
+}
 
 export const isBot = (path, ua = '') => {
   const lower = path.toLowerCase()
@@ -100,11 +125,13 @@ export const freshDay = (date) => ({
   byCity: {},
   byReferrer: {},
   byPathBots: {},
+  byDevice: { mobile: 0, desktop: 0 },
+  byRss: {},
   recentHits: [],
   recentBots: []
 })
 
-export const buildHit = (path, cf = {}, ipHash, referrer = '', ts = Date.now()) => ({
+export const buildHit = (path, cf = {}, ipHash, referrer = '', ts = Date.now(), device = 'desktop') => ({
   path,
   ts,
   ip: ipHash,
@@ -113,7 +140,8 @@ export const buildHit = (path, cf = {}, ipHash, referrer = '', ts = Date.now()) 
   region: (cf && cf.region) || '?',
   city: (cf && cf.city) || '?',
   asn: (cf && cf.asn) || null,
-  referrer
+  referrer,
+  device
 })
 
 export const serializeDay = (day, uniques) => ({
@@ -147,6 +175,8 @@ export const applyHit = (day, uniques, hit) => {
     byCountry: { ...day.byCountry },
     byCity: { ...day.byCity },
     byReferrer: { ...day.byReferrer },
+    byDevice: { mobile: 0, desktop: 0, ...(day.byDevice || {}) },
+    byRss: { ...(day.byRss || {}) },
     byHour: [...day.byHour],
     byDow: [...day.byDow],
     recentHits: [...(day.recentHits || [])],
@@ -170,6 +200,20 @@ export const applyHit = (day, uniques, hit) => {
     return { day: next, uniques: nextUniques }
   }
 
+  // RSS hit — track separately, don't count as a page hit
+  if (hit.rss) {
+    const { feed, subscribers, aggregator } = hit.rss
+    const prev = next.byRss[feed] || { hits: 0, subscribers: 0, aggregators: {} }
+    next.byRss[feed] = {
+      hits: prev.hits + 1,
+      subscribers: Math.max(prev.subscribers, subscribers || 0),
+      aggregators: aggregator
+        ? { ...prev.aggregators, [aggregator]: (prev.aggregators[aggregator] || 0) + 1 }
+        : prev.aggregators
+    }
+    return { day: next, uniques: nextUniques }
+  }
+
   next.totalHits++
   nextUniques.add(hit.ip)
   next.uniques = nextUniques.size
@@ -185,9 +229,11 @@ export const applyHit = (day, uniques, hit) => {
       next.byReferrer[ref] = (next.byReferrer[ref] || 0) + 1
     } catch {}
   }
+  const device = hit.device || 'desktop'
+  next.byDevice[device] = (next.byDevice[device] || 0) + 1
 
   next.recentHits = [
-    { ts: hit.ts, path: hit.path, country: hit.country, region: hit.region, city: hit.city, ip: hit.ip, referrer: hit.referrer || '' },
+    { ts: hit.ts, path: hit.path, country: hit.country, region: hit.region, city: hit.city, ip: hit.ip, referrer: hit.referrer || '', device },
     ...(next.recentHits || [])
   ].slice(0, 999)
 
@@ -322,8 +368,29 @@ export async function trackHit (req, env) {
   const ip = req.headers.get('cf-connecting-ip') || ''
   const ua = req.headers.get('user-agent') || ''
   const asn = req.cf?.asn ?? null
-  const kind = classifyHit(path, ua, asn)
+
   if (path.length > 500) return
+
+  // RSS feed hit — intercept before classifyHit (which skips .xml extensions)
+  if (path.startsWith('/assets/rss/') && path.endsWith('.xml')) {
+    const feed = path.split('/').pop()
+    const parsed = parseRssSubscribers(ua)
+    const ipHash = await hashIp(ip)
+    try {
+      const stub = getSiteStub(req, env)
+      await stub.fetch('https://do.local/hit', {
+        method: 'POST',
+        body: JSON.stringify({
+          rss: { feed, subscribers: parsed?.subscribers || 0, aggregator: parsed?.aggregator || null },
+          ip: ipHash,
+          ts: Date.now()
+        })
+      })
+    } catch (err) { console.error('RSS analytics write failed:', err) }
+    return
+  }
+
+  const kind = classifyHit(path, ua, asn)
   if (kind === 'skip') return
 
   const ipHash = await hashIp(ip)
@@ -348,7 +415,8 @@ export async function trackHit (req, env) {
   try {
     if (referer && new URL(referer).hostname !== new URL(req.url).hostname) referrer = referer
   } catch {}
-  const hit = buildHit(path, cf, ipHash, referrer)
+  const device = parseDevice(ua)
+  const hit = buildHit(path, cf, ipHash, referrer, Date.now(), device)
   try {
     const stub = getSiteStub(req, env)
     await stub.fetch('https://do.local/hit', { method: 'POST', body: JSON.stringify(hit) })
