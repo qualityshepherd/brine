@@ -9,6 +9,9 @@ function applyNav () {
   if (!nav.showFeeds) {
     document.getElementById('feeds-nav-link')?.remove()
   }
+  if (!nav.showPods) {
+    document.getElementById('pods-nav-link')?.remove()
+  }
 }
 
 function setEventListeners () {

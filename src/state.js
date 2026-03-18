@@ -38,18 +38,11 @@ export async function readSiteIndex (pathToIndex) {
 
     const index = await res.json()
 
-    return sortByDate(
-      removeFuturePosts(index)
-    )
+    return sortByDate(index)
   } catch (err) {
     console.error('Failed to load index.json:', err)
     return []
   }
-}
-
-export function removeFuturePosts (posts) {
-  const now = new Date()
-  return posts.filter(post => parseDate(post.meta.date) <= now)
 }
 
 export function sortByDate (posts, desc = true) {
@@ -61,7 +54,7 @@ export function sortByDate (posts, desc = true) {
 }
 
 function parseDate (str) {
-  return new Date(str.replace(/-/g, '/'))
+  return str ? new Date(str.replace(/-/g, '/')) : new Date(0)
 }
 
 function validateResponse (res) {

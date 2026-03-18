@@ -1,3 +1,4 @@
 export const buildNav = (config) => ({
-  showFeeds: !!config.separateFeeds
+  showFeeds: !!config.separateFeeds,
+  showPods: !!config.separatePods
 })

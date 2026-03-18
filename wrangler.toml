@@ -34,3 +34,25 @@ enabled = true
 
 [vars]
 DOMAIN_NAME = "brine.dev"
+
+[env.staging]
+name = "brine-dev-staging"
+
+[[env.staging.kv_namespaces]]
+binding = "KV"
+id = "c869c6328e8845fbb3d90f4e9b6d300e"
+
+[[env.staging.durable_objects.bindings]]
+name = "ANALYTICS"
+class_name = "AnalyticsDO"
+
+[[env.staging.migrations]]
+tag = "v1"
+new_sqlite_classes = ["AnalyticsDO"]
+
+[[env.staging.r2_buckets]]
+binding = "R2"
+bucket_name = "brine-dev"
+
+[env.staging.vars]
+DOMAIN_NAME = "brine.dev"

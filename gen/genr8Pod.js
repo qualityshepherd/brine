@@ -1,4 +1,3 @@
-import { removeFuturePosts } from '../src/state.js'
 import { promises as fs } from 'fs'
 import config from '../feedi.config.js'
 import { fileURLToPath } from 'url'
@@ -88,7 +87,8 @@ export const buildPodFeed = (podcasts, cfg, lengths = {}) => {
     <itunes:email>${pod.email}</itunes:email>
   </itunes:owner>
   <atom:link href="${pod.podRss}" rel="self" type="application/rss+xml" />
-  <itunes:new-feed-url>${pod.podRss}</itunes:new-feed-url>${items}
+  <itunes:new-feed-url>${pod.podRss}</itunes:new-feed-url>
+${items}
 </channel>
 </rss>`
 }
@@ -137,12 +137,12 @@ export const validatePodFeed = (xml) => {
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   (async () => {
     try {
+      // read slugs from pods/ folder to identify podcast posts in index.json
+      const podFiles = await fs.readdir('./pods').catch(() => [])
+      const podSlugs = new Set(podFiles.filter(f => f.endsWith('.md')).map(f => f.replace('.md', '')))
+
       const raw = await fs.readFile('./index.json', 'utf8')
-      const posts = removeFuturePosts(JSON.parse(raw))
-      const podcasts = posts.filter(({ meta }) =>
-        Array.isArray(meta.tags) &&
-      meta.tags.some(tag => tag.toLowerCase() === 'podcast')
-      )
+      const podcasts = JSON.parse(raw).filter(p => podSlugs.has(p.meta.slug))
 
       // get file sizes for local audio files
       const lengths = {}

@@ -3,17 +3,21 @@ import { marked } from 'marked'
 import { sortByDate } from '../src/state.js'
 
 const genr8Index = {
-  async siteIndex (pathToSiteIndex, pathToPostsFolder) {
-    const posts = await this.readPosts(pathToPostsFolder)
-    const json = await this.parseMarkdownFiles(posts, pathToPostsFolder)
-    await this.writeSiteJson(pathToSiteIndex, json)
+  async siteIndex (pathToSiteIndex, postsFolders, pageFolders = [], podFolders = []) {
+    const posts = await Promise.all(
+      (Array.isArray(postsFolders) ? postsFolders : [postsFolders]).map(f => this.readFolder(f))
+    )
+    const pages = await Promise.all(pageFolders.map(f => this.readFolder(f, { page: true })))
+    const pods = await Promise.all(podFolders.map(f => this.readFolder(f, { pod: true })))
+    await this.writeSiteJson(pathToSiteIndex, [...posts.flat(), ...pages.flat(), ...pods.flat()])
   },
 
-  async readPosts (path) {
-    const files = await fs.readdir(path, { withFileTypes: true })
-    return files
-      .filter(file => file.isFile())
-      .map(file => file.name)
+  async readFolder (folder, extraMeta = {}) {
+    const files = await fs.readdir(folder, { withFileTypes: true })
+    const names = files.filter(f => f.isFile()).map(f => f.name)
+    const posts = await this.parseMarkdownFiles(names, folder)
+    if (Object.keys(extraMeta).length) posts.forEach(p => Object.assign(p.meta, extraMeta))
+    return posts
   },
 
   parseFrontmatter (content) {
@@ -24,26 +28,31 @@ const genr8Index = {
     const metadata = {}
 
     frontmatter.split('\n').forEach(line => {
-      const [key, ...values] = line.split(':')
-      if (key && values.length) {
-        const value = values.join(':').trim()
-        if (key === 'tags') {
-          metadata[key] = value.split(',').map(tag => tag.trim())
-        } else {
-          metadata[key] = value
-        }
+      const colonIdx = line.indexOf(':')
+      if (colonIdx === -1) return
+      const key = line.slice(0, colonIdx).trim()
+      const value = line.slice(colonIdx + 1).trim()
+      if (!key) return
+
+      // tags: supports both "tag1, tag2" and "[tag1, tag2]"
+      if (key === 'tags') {
+        const cleaned = value.replace(/^\[|\]$/g, '')
+        metadata[key] = cleaned.split(',').map(t => t.trim()).filter(Boolean)
+      } else {
+        metadata[key] = value
       }
     })
 
     return { metadata, content: markdown.trim() }
   },
 
-  async parseMarkdownFiles (fileArray, path) {
-    return Promise.all(
+  async parseMarkdownFiles (fileArray, folder) {
+    const now = new Date()
+    const results = await Promise.all(
       fileArray
         .filter(file => file.endsWith('.md'))
         .map(async file => {
-          const raw = await fs.readFile(`${path}/${file}`, 'utf8')
+          const raw = await fs.readFile(`${folder}/${file}`, 'utf8')
           const parsed = this.parseFrontmatter(raw)
 
           if (!parsed) {
@@ -52,16 +61,19 @@ const genr8Index = {
           }
 
           const { metadata, content } = parsed
+
+          // future-dated posts are drafts — skip at build time
+          if (metadata.date && new Date(metadata.date.replace(/-/g, '/')) > now) {
+            return null
+          }
+
           metadata.slug = file.replace('.md', '')
           const html = marked(content)
 
-          return {
-            meta: metadata,
-            markdown: content,
-            html
-          }
+          return { meta: metadata, markdown: content, html }
         })
-    ).then(results => results.filter(Boolean)) // filter out nulls
+    )
+    return results.filter(Boolean)
   },
 
   async writeSiteJson (path, data) {
@@ -75,7 +87,7 @@ export default genr8Index
 
 ;(async () => {
   try {
-    await genr8Index.siteIndex('./index.json', './posts')
+    await genr8Index.siteIndex('./index.json', ['./posts'], ['./pages'], ['./pods'])
   } catch (err) {
     console.error('Failed to generate site index:', err)
   }

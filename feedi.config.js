@@ -13,6 +13,7 @@ const config = {
   // features
   analytics: true,
   separateFeeds: true, // true = /feeds page + nav link; false = feeds shown at /
+  separatePods: true, // true = /pods page + nav link
   r2Bucket: 'brine-dev', // must match bucket_name in wrangler.toml
 
   podcast: {

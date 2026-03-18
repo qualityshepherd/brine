@@ -11,16 +11,16 @@ const SKIP_EXTENSIONS = [
 ]
 
 const BOT_PREFIXES = [
-  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/',
-  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
+  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/', '/debug/',
+  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/file-manager/', '/form/',
   '/import/', '/log/', '/login', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/proc/',
   '/register', '/rest/', '/restore/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe',
   '/upload/', '/v1/', '/v2/', '/v3/', '/var/', '/wallet/', '/webhook/', '/wp-'
 ]
 
 const BOT_PATHS = [
-  '%24', '%40vite', '%7b', '${', '../', '..\\'
-  , '.asp', '.aspx', '.aws', '.ds_store', '.env',
+  '%24', '%40vite', '%7b', '${', '../', '..\\',
+  '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
   '@vite', 'actuator', 'admin', 'backup',
   'cgi-bin', 'composer.json', 'computemetadata', 'config',
@@ -40,17 +40,17 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075,   // Microsoft Azure
-  14061,  // DigitalOcean
-  14618,  // AWS
-  15169,  // Google Cloud
-  16276,  // OVH
-  16509,  // AWS
-  19551,  // Incapsula
-  20473,  // Vultr
-  24940,  // Hetzner
-  63949,  // Linode/Akamai
-  396982  // Google Cloud
+  8075, // Microsoft Azure
+  14061, // DigitalOcean
+  14618, // AWS
+  15169, // Google Cloud
+  16276, // OVH
+  16509, // AWS
+  19551, // Incapsula
+  20473, // Vultr
+  24940, // Hetzner
+  63949, // Linode/Akamai
+  396982 // Google Cloud
 ])
 
 export const isBot = (path, ua = '') => {

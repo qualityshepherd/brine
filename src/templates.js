@@ -2,13 +2,13 @@ import { renderTags } from './ui.js'
 import { stripHtml, processContent, truncateContent } from './feedRules.js'
 import config from '../feedi.config.js'
 
-const isPodcast = post => post.meta.tags?.some(t => t.toLowerCase() === 'podcast')
+const isPodcast = post => post.meta.pod === true
 
 const subscribeLink = post => {
-  const feed = isPodcast(post)
-    ? { href: '/assets/rss/pod.xml', title: 'Subscribe to World of Brine podcast' }
-    : { href: '/assets/rss/blog.xml', title: 'Subscribe to brine.dev blog' }
-  return `<a class="rss-subscribe" href="${feed.href}" title="${feed.title}" target="_blank" rel="noopener noreferrer">◆ subscribe</a>`
+  if (post.meta.page) return '' // no link on pages
+  const href = isPodcast(post) ? '/assets/rss/pod.xml' : '/assets/rss/blog.xml'
+  const title = isPodcast(post) ? 'Subscribe to podcast feed' : 'Subscribe to blog feed'
+  return `<a class="rss-subscribe" href="${href}" title="${title}" target="_blank" rel="noopener noreferrer">◆ subscribe</a>`
 }
 
 export const postsTemplate = post => {
@@ -40,24 +40,6 @@ export const singlePostTemplate = post => `
 
 export const notFoundTemplate = (message = 'No results found.') => `
   <h2 class="not-found">${message}</h2>
-`
-
-export const aboutPageTemplate = () => `
-  <div class="post">
-    <h2>About</h2>
-    <div class="center">
-      <p>I'm a blabby nerd that lives in the desert. I have a habit of creating things and releasing them to the world without notice ¯\\_(ツ)_/¯</p>
-      <a href="/posts/of_yarn_and_bone">Of Yarn and Bone</a> is my current WIP system.<br>
-      <a href="https://rando.brine.dev/">Rando</a> is my random generator that I use for just about everything.<br>
-      <a href="https://casadeocio.itch.io/the-steep-mage">The Steep Mage</a> is my most recent published scenario.<br>
-      <p>Email me: <code>ack at brine dot dev</code></p>
-      <p>On the Fediverse: @brine.dev@brine.dev</p>
-      <p class="rss-links">
-        <a class="rss-subscribe" href="/assets/rss/blog.xml" title="Subscribe to brine.dev blog" target="_blank" rel="noopener noreferrer">◆ subscribe to blog</a>
-        <a class="rss-subscribe" href="/assets/rss/pod.xml" title="Subscribe to World of Brine podcast" target="_blank" rel="noopener noreferrer">◆ subscribe to podcast</a>
-      </p>
-    </div>
-  </div>
 `
 
 export const archiveTemplate = post => `

@@ -1,4 +1,5 @@
 import { trackHit, handleAnalytics, AnalyticsDO } from './analytics.js'
+import { handleFeeds, refreshFeeds } from './feeds.js'
 
 export { AnalyticsDO }
 
@@ -25,6 +26,10 @@ export default {
       return new Response('ok')
     }
 
+    if (path === '/api/feeds') {
+      return handleFeeds(env)
+    }
+
     // Fire analytics in background for initial page loads
     ctx.waitUntil(trackHit(req, env))
 
@@ -32,17 +37,8 @@ export default {
   },
 
   async scheduled (event, env, ctx) {
-    // Safety net: if the DO alarm misfired, force a backup via cron
-    ctx.waitUntil((async () => {
-      try {
-        const hostname = env.DOMAIN_NAME
-        if (!hostname) { console.error('DOMAIN_NAME not set — skipping alarm check'); return }
-        const id = env.ANALYTICS.idFromName(hostname)
-        const stub = env.ANALYTICS.get(id)
-        await stub.fetch('https://do.local/ensureAlarm', { method: 'POST' })
-      } catch (err) {
-        console.error('Scheduled alarm check failed:', err)
-      }
-    })())
+    ctx.waitUntil(
+      refreshFeeds(env).catch(err => console.error('Scheduled feed refresh failed:', err))
+    )
   }
 }

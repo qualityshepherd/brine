@@ -10,7 +10,6 @@ import {
   setSearchTerm,
   incrementDisplayedPosts,
   updateState,
-  removeFuturePosts,
   resetState
 } from '../../src/state.js'
 
@@ -98,15 +97,6 @@ test('State: state updates should be immutable', t => {
 
   t.ok(JSON.stringify(getState()) !== JSON.stringify(initialState))
   t.is(initialState.posts.length, 0)
-})
-
-test('State: removeFuturePosts should filter out future posts', t => {
-  const fakePosts = [
-    { meta: { date: '2050-01-01', title: 'Future Post' } },
-    { meta: { date: '2020-01-01', title: 'Past Post' } }
-  ]
-
-  t.is(removeFuturePosts(fakePosts).length, 1)
 })
 
 test('State: resetState should restore initial state', t => {

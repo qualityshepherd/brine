@@ -84,6 +84,11 @@ export const sanitizeContent = (str) => {
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
         .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<u>([\s\S]*?)<\/u>/gi, '$1')
+        .replace(/<ins>([\s\S]*?)<\/ins>/gi, '$1')
+        .replace(/\s+style=(["'])[\s\S]*?\1/gi, '')
+        .replace(/<(base|input|object|embed|form|button|select|option|textarea|marquee|blink)[^>]*>[\s\S]*?<\/\1>/gi, '')
+        .replace(/<(base|input)[^>]*\/?>/gi, '')
         // strip on* event attributes, srcset, sizes from any tag
         .replace(/\s+on\w+="[^"]*"/gi, '')
         .replace(/\s+on\w+='[^']*'/gi, '')
@@ -119,7 +124,7 @@ export const linkifyHashtags = (str, feedOrigin = null) => {
 // Linkifies @mentions not already inside an <a>.
 export const linkifyMentions = (str, feedOrigin = null) => {
   if (!str) return ''
-  return str.replace(/([=/"w@]?)@([a-zA-Z0-9_]+)(?:@([a-zA-Z0-9._-]+\.[a-zA-Z]{2,}))?/g, (match, prefix, user, instance) => {
+  return str.replace(/([=/"@]?)@([a-zA-Z0-9_]+)(?:@([a-zA-Z0-9._-]+\.[a-zA-Z]{2,}))?/g, (match, prefix, user, instance) => {
     if (prefix) return match
     if (instance) return `<a href="https://${instance}/@${user}" target="_blank" rel="noopener noreferrer">${match}</a>`
     if (!feedOrigin) return match

@@ -4,9 +4,11 @@ import {
   postsTemplate,
   singlePostTemplate,
   notFoundTemplate,
-  aboutPageTemplate,
   archiveTemplate
 } from './templates.js'
+
+export const isSpecialPost = post => post.meta.page === true
+export const isPod = post => post.meta.pod === true
 
 export const getLimitedPosts = (posts, limit) => posts.slice(0, Math.max(0, limit))
 
@@ -40,10 +42,11 @@ export function toggleLoadMoreButton (shouldShow = false) {
 }
 
 export function renderPosts (posts, limit = null) {
+  const filtered = posts.filter(p => !isSpecialPost(p))
   const displayLimit = limit ?? getDisplayedPosts()
-  const limited = getLimitedPosts(posts, displayLimit)
+  const limited = getLimitedPosts(filtered, displayLimit)
   elements.main.innerHTML = limited.map(postsTemplate).join('')
-  toggleLoadMoreButton(displayLimit < posts.length)
+  toggleLoadMoreButton(displayLimit < filtered.length)
 }
 
 export function renderSinglePost (slug) {
@@ -53,13 +56,8 @@ export function renderSinglePost (slug) {
   toggleLoadMoreButton(false)
 }
 
-export function renderAboutPage () {
-  elements.main.innerHTML = aboutPageTemplate()
-  toggleLoadMoreButton(false)
-}
-
 export function renderArchive (posts) {
-  elements.main.innerHTML = posts.map(archiveTemplate).join('')
+  elements.main.innerHTML = posts.filter(p => !isSpecialPost(p) && !isPod(p)).map(archiveTemplate).join('')
   toggleLoadMoreButton(false)
 }
 
