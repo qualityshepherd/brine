@@ -37,12 +37,13 @@ const parseRssItem = (itemXml, feedMeta, isPodcast = false) => {
   const content = extractCdata(
     extractTag(itemXml, 'content:encoded') || extractTag(itemXml, 'description')
   )
-  // only inject audio player for actual podcast feeds (itunes namespace)
   const audioTag = enclosureUrl && isPodcast && isAudioEnclosure && !content.includes('<audio')
     ? `<audio controls src="${enclosureUrl}" style="width:100%;margin-top:1em;"></audio>`
     : ''
+  const rawTitle = extractCdata(extractTag(itemXml, 'title'))
+  const title = rawTitle || content.replace(/<[^>]+>/g, '').trim().slice(0, 100)
   return {
-    title: extractCdata(extractTag(itemXml, 'title')),
+    title,
     url: extractCdata(extractTag(itemXml, 'link')).replace(/<[^>]+>/g, '').trim(),
     date: extractTag(itemXml, 'pubDate') || extractTag(itemXml, 'dc:date') || '',
     content: content + audioTag,
