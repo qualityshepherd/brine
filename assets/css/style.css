@@ -267,8 +267,7 @@ th {
   background: var(--color-surface-1);
 }
 
-ul,
-ol {
+ul {
   margin-bottom: var(--space-6);
   margin-left: 15px;
   padding-left: 0;
@@ -277,6 +276,11 @@ ol {
 ul li {
   list-style-type: '\2726';
   padding-left: 10px;
+}
+
+ol {
+  margin-bottom: var(--space-6);
+  padding-left: 25px;
 }
 
 /* ── posts ───────────────────────────────────────── */
