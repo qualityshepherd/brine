@@ -17,8 +17,12 @@ export const isAtom = (xml) =>
   xml.includes('xmlns="http://www.w3.org/2005/Atom"') ||
   xml.trimStart().startsWith('<feed')
 
-export const parseFeedTitle = (xml) =>
-  extractCdata(extractTag(xml, 'title'))
+export const parseFeedTitle = (xml, url = '') => {
+  const title = extractCdata(extractTag(xml, 'title'))
+  if (title) return title
+  const tagMatch = url.match(/\/tags\/([^./]+)/)
+  return tagMatch ? `#${tagMatch[1]}` : ''
+}
 
 // RSS
 
@@ -41,7 +45,7 @@ const parseRssItem = (itemXml, feedMeta, isPodcast = false) => {
     ? `<audio controls src="${enclosureUrl}" style="width:100%;margin-top:1em;"></audio>`
     : ''
   const rawTitle = extractCdata(extractTag(itemXml, 'title'))
-  const title = rawTitle || content.replace(/<[^>]+>/g, '').trim().slice(0, 100)
+  const title = rawTitle || feedMeta.title || ''
   return {
     title,
     url: extractCdata(extractTag(itemXml, 'link')).replace(/<[^>]+>/g, '').trim(),
@@ -81,7 +85,7 @@ const parseAtomEntry = (entryXml, feedMeta) => {
 // Public API
 
 export const parseFeed = (xml, feedConfig) => {
-  const feedMeta = { title: parseFeedTitle(xml), url: feedConfig.url }
+  const feedMeta = { title: parseFeedTitle(xml, feedConfig.url), url: feedConfig.url }
   const isPodcast = xml.includes('xmlns:itunes')
   return isAtom(xml)
     ? splitEntries(xml).map(e => parseAtomEntry(e, feedMeta))

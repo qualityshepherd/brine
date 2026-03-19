@@ -6,12 +6,10 @@
   { "url": "https://paulkerr.wordpress.com/feed/", "limit": 3 },
   { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 3 },
   { "url": "https://mysoundposter.blog/genres/indie-folk/feed/", "limit": 3 },
-  { "url": "https://thecreativeindependent.com/rss.xml", "limit": 3 },
   { "url": "https://stationarytravels.wordpress.com/feed/", "limit": 3 },
   { "url": "https://theoldweirdamerica.blogspot.com/feeds/posts/default", "limit": 3 },
-  { "url": "https://www.dragcity.com/rss/news", "limit": 3 },
   { "url": "https://posttowire.com/category/indie-folk/feed/", "limit": 3 },
-  { "url": "https://4d2.social/tags/indieweb.rss", "limit": 4 },
+  { "url": "https://techhub.social/tags/indieweb.rss", "limit": 4 },
   { "url": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss", "limit": 3 },
   { "url": "https://100r.ca/links/rss.xml", "limit": 3 }
 ]
