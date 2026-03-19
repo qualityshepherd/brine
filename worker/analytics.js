@@ -7,7 +7,7 @@ const SKIP_PATHS = [
 ]
 
 const SKIP_EXTENSIONS = [
-  '.css', '.ico', '.jpg', '.js', '.mp3', '.otf', '.png', '.svg', '.ttf', '.woff', '.woff2'
+  '.css', '.ico', '.gz', '.jpg', '.js', '.mp3', '.otf', '.png', '.rar', '.svg', '.ttf', '.woff', '.woff2', '.zip'
 ]
 
 const BOT_PREFIXES = [
