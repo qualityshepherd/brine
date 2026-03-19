@@ -26,6 +26,13 @@ export default {
       return handleFeeds(env)
     }
 
+    if (path === '/api/feeds/refresh' && req.method === 'POST') {
+      const secret = url.searchParams.get('secret')
+      if (!isAuthorized(secret, env.ADMIN_SECRET)) return new Response('Unauthorized', { status: 401 })
+      await refreshFeeds(env)
+      return new Response('ok')
+    }
+
     // Fire analytics in background for initial page loads
     ctx.waitUntil(trackHit(req, env))
 
