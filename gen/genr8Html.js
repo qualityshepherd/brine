@@ -18,8 +18,6 @@ export const buildHtml = (template, cfg) => {
       `$1${base}${cfg.image}$2`)
     .replace(/(<link rel="alternate"[^>]*title=")[^"]*(")/g,
       `$1${cfg.title}$2`)
-    .replace(/<link rel="me" href="[^"]*"\s*\/?>/,
-      `<link rel="me" href="https://fed.brid.gy/${cfg.domain}">`)
 }
 
 const isMain = process.argv[1] === fileURLToPath(import.meta.url)

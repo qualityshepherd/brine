@@ -17,7 +17,6 @@ const template = `<!doctype html>
   <meta property="og:description" content="old og description" />
   <meta property="og:image" content="https://feedi.brine.dev/assets/images/feedi_logo.svg" />
   <link rel="alternate" type="application/rss+xml" href="assets/rss/blog.xml" title="old title" />
-  <link rel="me" href="https://fed.brid.gy/feedi.brine.dev" />
 </head>
 <body></body>
 </html>`
@@ -44,10 +43,6 @@ test('genr8Html: buildHtml stamps og:image with domain', t => {
 
 test('genr8Html: buildHtml stamps rss link title', t => {
   t.match(buildHtml(template, cfg), /title="My Site"/)
-})
-
-test('genr8Html: buildHtml stamps rel=me with domain', t => {
-  t.match(buildHtml(template, cfg), /href="https:\/\/fed\.brid\.gy\/example\.com"/)
 })
 
 test('genr8Html: buildHtml does not contain old domain', t => {

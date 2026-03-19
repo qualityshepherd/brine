@@ -11,10 +11,6 @@ export default {
     const url = new URL(req.url)
     const path = url.pathname
 
-    if (path === '/.well-known/webfinger') {
-      return Response.redirect(`https://fed.brid.gy/.well-known/webfinger${url.search}`, 302)
-    }
-
     if (path === '/api/analytics') {
       const secret = url.searchParams.get('secret')
       if (!isAuthorized(secret, env.ADMIN_SECRET)) return new Response('Unauthorized', { status: 401 })

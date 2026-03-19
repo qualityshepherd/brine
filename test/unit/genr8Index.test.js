@@ -37,8 +37,6 @@ test('genr8Index: parseFrontmatter returns null for missing frontmatter', t => {
 
 test('genr8Index: parseMarkdownFiles skips future-dated files', async t => {
   const futureDate = new Date(Date.now() + 1000 * 60 * 60 * 24 * 7).toISOString().slice(0, 10)
-  const files = ['future.md']
-  // simulate by overriding readFile — we pass raw content via array trick
   // use a temp dir approach: write to /tmp and read back
   const { promises: fs } = await import('fs')
   await fs.mkdir('/tmp/feedi-test', { recursive: true })

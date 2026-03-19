@@ -1,7 +1,7 @@
 export const aggregate = (allData) => {
-  let totalHits = 0, totalBots = 0, totalUniques = 0
-  const byPath = {}, byCountry = {}, byReferrer = {}, byPathBots = {}, byRss = {}, byDevice = { mobile: 0, desktop: 0 }
-  const byHour = Array(24).fill(0), byDow = Array(7).fill(0)
+  let totalHits = 0; let totalBots = 0; let totalUniques = 0
+  const byPath = {}; const byCountry = {}; const byReferrer = {}; const byPathBots = {}; const byRss = {}; const byDevice = { mobile: 0, desktop: 0 }
+  const byHour = Array(24).fill(0); const byDow = Array(7).fill(0)
   const recentHits = []
 
   for (const { data } of allData) {

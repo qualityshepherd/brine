@@ -19,8 +19,8 @@ const BOT_PREFIXES = [
 ]
 
 const BOT_PATHS = [
-  '%24', '%40vite', '%7b', '${', '../', '..\\'
-  , '.asp', '.aspx', '.aws', '.ds_store', '.env',
+  '%24', '%40vite', '%7b', '${', '../', '..\\',
+  '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
   '@vite', 'actuator', 'admin', 'backup',
   'cgi-bin', 'composer.json', 'computemetadata', 'config',
@@ -40,17 +40,17 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075,   // Microsoft Azure
-  14061,  // DigitalOcean
-  14618,  // AWS
-  15169,  // Google Cloud
-  16276,  // OVH
-  16509,  // AWS
-  19551,  // Incapsula
-  20473,  // Vultr
-  24940,  // Hetzner
-  63949,  // Linode/Akamai
-  396982  // Google Cloud
+  8075, // Microsoft Azure
+  14061, // DigitalOcean
+  14618, // AWS
+  15169, // Google Cloud
+  16276, // OVH
+  16509, // AWS
+  19551, // Incapsula
+  20473, // Vultr
+  24940, // Hetzner
+  63949, // Linode/Akamai
+  396982 // Google Cloud
 ])
 
 // Known RSS aggregator UA patterns that include subscriber counts
