@@ -4,6 +4,8 @@ import puppeteer from 'puppeteer'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
+// https://github.com/qualityshepherd/testpup
+
 function assertDsl (t) {
   t.is = (a, b, msg) => assert.strictEqual(a, b, msg)
   t.not = (a, b, msg) => assert.notStrictEqual(a, b, msg)
