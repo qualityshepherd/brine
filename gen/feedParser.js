@@ -45,7 +45,7 @@ const parseRssItem = (itemXml, feedMeta, isPodcast = false) => {
     ? `<audio controls src="${enclosureUrl}" style="width:100%;margin-top:1em;"></audio>`
     : ''
   const rawTitle = extractCdata(extractTag(itemXml, 'title'))
-  const title = rawTitle || feedMeta.title || ''
+  const title = rawTitle || ''
   return {
     title,
     url: extractCdata(extractTag(itemXml, 'link')).replace(/<[^>]+>/g, '').trim(),
