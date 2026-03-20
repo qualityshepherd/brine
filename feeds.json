@@ -9,7 +9,7 @@
   { "url": "https://stationarytravels.wordpress.com/feed/", "limit": 3 },
   { "url": "https://theoldweirdamerica.blogspot.com/feeds/posts/default", "limit": 3 },
   { "url": "https://posttowire.com/category/indie-folk/feed/", "limit": 3 },
-  { "url": "https://techhub.social/tags/indieweb.rss", "limit": 4 },
+  { "url": "https://techhub.social/tags/tomwaits.rss", "limit": 3 },
   { "url": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss", "limit": 3 },
   { "url": "https://100r.ca/links/rss.xml", "limit": 3 }
 ]
