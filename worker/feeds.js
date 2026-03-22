@@ -4,7 +4,12 @@ const KV_KEY = 'feeds:aggregated'
 const KV_TTL = 60 * 60 // 1 hour in seconds
 
 const fetchFeed = async (feedConfig) => {
-  const res = await fetch(feedConfig.url)
+  const res = await fetch(feedConfig.url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; BrineRSS/1.0; +https://brine.dev)',
+      'Accept': 'application/atom+xml,application/rss+xml,application/xml,text/xml;q=0.9,*/*;q=0.8'
+    }
+  })
   if (!res.ok) throw new Error(`${res.status} ${feedConfig.url}`)
   const xml = await res.text()
   return { posts: parseFeed(xml, feedConfig), config: feedConfig }
