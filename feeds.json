@@ -13,7 +13,6 @@
   { "url": "https://blogs.loc.gov/folklife/feed/", "limit": 2 },
   { "url": "https://pluralistic.net/feed/", "limit": 2 },
   { "url": "https://www.ambientblog.net/blog/feed/", "limit": 2 },
-  { "url": "https://solar.lowtechmagazine.com/posts/index.xml", "limit": 2 },
   { "url": "https://www.bastionland.com/feeds/posts/default", "limit": 2 },
   { "url": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss", "limit": 2 },
   { "url": "https://100r.ca/links/rss.xml", "limit": 3 }
