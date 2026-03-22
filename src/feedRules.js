@@ -84,11 +84,17 @@ export const sanitizeContent = (str) => {
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
         .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
-        .replace(/<u>([\s\S]*?)<\/u>/gi, '$1')
-        .replace(/<ins>([\s\S]*?)<\/ins>/gi, '$1')
-        .replace(/\s+style=(["'])[\s\S]*?\1/gi, '')
-        .replace(/<(base|input|object|embed|form|button|select|option|textarea|marquee|blink)[^>]*>[\s\S]*?<\/\1>/gi, '')
-        .replace(/<(base|input)[^>]*\/?>/gi, '')
+        // strip tags that look like links or cause layout abuse
+        .replace(/<\/?u>/gi, '')
+        .replace(/<\/?ins>/gi, '')
+        .replace(/\s+style=(["'])[^"']*\1/gi, '')
+        // strip interactive/dangerous elements entirely
+        .replace(/<base[^>]*\/?>/gi, '')
+        .replace(/<input[^>]*\/?>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[^>]*\/?>/gi, '')
+        // strip tags but keep inner content
+        .replace(/<\/?(form|button|select|option|textarea|marquee|blink)[^>]*>/gi, '')
         // strip on* event attributes, srcset, sizes from any tag
         .replace(/\s+on\w+="[^"]*"/gi, '')
         .replace(/\s+on\w+='[^']*'/gi, '')
@@ -96,6 +102,8 @@ export const sanitizeContent = (str) => {
         .replace(/\s+sizes=(["'])[\s\S]*?\1/gi, '')
         // drop <img> with relative src (external feeds won't resolve them)
         .replace(/<img[^>]*src="(?!https?:\/\/)[^"]*"[^>]*\/?>/gi, '')
+        // fix headings that go wrong...
+        .replace(/<(\/?)h[1-6][^>]*>/gi, '<$1strong>')
         // rewrite <a> tags — safe hrefs get target/rel, unsafe drop to inner text
         .replace(/<a([^>]*)>([\s\S]*?)<\/a>/gi, (_, attrs, inner) => {
           const hrefMatch = attrs.match(/href=["']([^"']*)["']/i)
