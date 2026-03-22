@@ -11,11 +11,13 @@ const SKIP_EXTENSIONS = [
 ]
 
 const BOT_PREFIXES = [
-  '/account/', '/bak/', '/back/', '/billing/', '/checkout', '/cgi-bin/', '/conf.d/',
-  '/donate', '/error/', '/etc/', '/files/', '/file-upload/', '/fileupload/', '/form/',
-  '/import/', '/log/', '/login', '/mcp', '/old/', '/opt/', '/order/', '/plans/', '/phpinfo', '/php-cgi',
-  '/proc/', '/register', '/rest/', '/restore/', '/root/', '/shop/', '/sse', '/storage/', '/subscribe',
-  '/upload/', '/v1/', '/v2/', '/v3/', '/var/', '/wallet/', '/webhook/', '/wp-'
+  '/account/', '/api/v1', '/back/', '/bak/', '/billing/', '/cgi-bin/', '/checkout',
+  '/conf.d/', '/donate', '/error/', '/etc/', '/file-upload', '/fileupload',
+  '/files/', '/form/', '/import/', '/info', '/log/', '/login',
+  '/mcp', '/old/', '/opt/', '/order/', '/php-cgi', '/phpinfo', '/plans/',
+  '/proc/', '/register', '/rest/', '/restore/', '/root/', '/shop/', '/sse',
+  '/storage/', '/subscribe', '/temp', '/test', '/tmp', '/upload',
+  '/v1/', '/v2/', '/v3/', '/var/', '/vendor', '/wallet/', '/webhook/', '/wp-'
 ]
 
 const BOT_PATHS = [
