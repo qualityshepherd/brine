@@ -42,17 +42,20 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075, // Microsoft Azure
-  14061, // DigitalOcean
-  14618, // AWS
-  15169, // Google Cloud
-  16276, // OVH
-  16509, // AWS
-  19551, // Incapsula
-  20473, // Vultr
-  24940, // Hetzner
-  63949, // Linode/Akamai
-  396982 // Google Cloud
+  8075,   // Microsoft Azure
+  14061,  // DigitalOcean
+  14618,  // AWS
+  15169,  // Google Cloud
+  16276,  // OVH
+  16509,  // AWS
+  19551,  // Incapsula
+  20473,  // Vultr
+  24940,  // Hetzner
+  51167,  // — Contabo (very common scanner source)
+  9009,   // — M247 (Romanian provider, tons of scanner traffic)
+  63949,  // Linode/Akamai
+  211590, // Scaleway - Paris scanner
+  396982  // Google Cloud
 ])
 
 // Known RSS aggregator UA patterns that include subscriber counts
