@@ -4,7 +4,12 @@ test/
 worker/
 .github/
 posts/
+pods/
+pages/
+gen/
 lib/
+feeds.json
+feedIndex.json
 *.toml
 *.md
 testpup.js

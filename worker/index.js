@@ -33,6 +33,16 @@ export default {
       return new Response('ok')
     }
 
+    const PRIVATE = [
+      '/worker/', '/gen/', '/test/', '/node_modules/',
+      '/posts/', '/pages/', '/pods/',
+      '/wrangler.toml', '/package.json', '/package-lock.json',
+      '/README.md', '/LICENSE', '/feeds.json', '/feedIndex.json'
+    ]
+    if (PRIVATE.some(p => path === p || path.startsWith(p))) {
+      return new Response('Not found', { status: 404 })
+    }
+
     // Fire analytics in background for initial page loads
     ctx.waitUntil(trackHit(req, env))
 
