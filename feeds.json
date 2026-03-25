@@ -6,6 +6,7 @@
   { "url": "https://paulkerr.wordpress.com/feed/", "limit": 2 },
   { "url": "https://tenfootpole.org/ironspike/?feed=rss2", "limit": 2 },
   { "url": "https://mysoundposter.blog/genres/indie-folk/feed/", "limit": 3 },
+  { "url": "https://designthinking.lol/feed/", "limit": 2 },
   { "url": "https://stationarytravels.wordpress.com/feed/", "limit": 4 },
   { "url": "https://theoldweirdamerica.blogspot.com/feeds/posts/default", "limit": 2 },
   { "url": "https://posttowire.com/feed/", "limit": 4 },
