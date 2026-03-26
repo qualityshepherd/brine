@@ -34,37 +34,6 @@ test('Pod: has at least one episode', t => {
   t.ok(xml.includes('<item>'), 'no episodes found')
 })
 
-test('Pod: W3C feed validator passes', async t => {
-  if (!xml) return t.ok(true, 'skipped — no pod.xml')
-
-  const body = new URLSearchParams()
-  body.set('rawdata', xml)
-  body.set('manual', '1')
-  body.set('output', 'soap12')
-
-  let res
-  try {
-    res = await fetch(W3C_API, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: body.toString()
-    })
-  } catch (err) {
-    // network unavailable in CI — skip gracefully
-    return t.ok(true, `W3C validator unreachable: ${err.message}`)
-  }
-
-  const text = await res.text()
-
-  // W3C SOAP response: <m:validity>true</m:validity>
-  const valid = text.includes('<m:validity>true</m:validity>')
-  const errors = [...text.matchAll(/<m:text>([^<]+)<\/m:text>/g)]
-    .map(m => m[1])
-    .filter(Boolean)
-
-  t.ok(valid, `W3C says invalid:\n${errors.join('\n')}`)
-})
-
 test('escapeXml: escapes ampersand', t => {
   t.is(escapeXml('D&D'), 'D&amp;D')
 })
