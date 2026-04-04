@@ -12,7 +12,7 @@
   { "url": "https://posttowire.com/feed/", "limit": 4 },
   { "url": "https://dice.camp/@Wightbred.rss", "limit": 2 },
   { "url": "https://blogs.loc.gov/folklife/feed/", "limit": 2 },
-  { "url": "https://heathercoxrichardson.substack.com/feed", "limit": 2 },
+  { "url": "https://heathercoxrichardson.substack.com/feed", "limit": 4 },
   { "url": "https://pluralistic.net/feed/", "limit": 2 },
   { "url": "https://www.ambientblog.net/blog/feed/", "limit": 2 },
   { "url": "https://www.bastionland.com/feeds/posts/default", "limit": 2 },
