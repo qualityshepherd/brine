@@ -63,6 +63,38 @@ const linkifyImages = (str) => {
   return str
 }
 
+const isWhitelistedEmbed = (src) => {
+  try {
+    const u = new URL(src)
+    const h = u.hostname
+    if (h === 'youtube.com' || h === 'www.youtube.com') return true
+    if (h === 'player.vimeo.com' || h === 'vimeo.com') return true
+    if (u.pathname.startsWith('/videos/embed/')) return true // PeerTube
+    return false
+  } catch { return false }
+}
+
+const youtubePoster = (src) => {
+  try {
+    const id = new URL(src).pathname.split('/').filter(Boolean).pop()
+    return id ? `https://img.youtube.com/vi/${id}/hqdefault.jpg` : ''
+  } catch { return '' }
+}
+
+export const embedToLazy = (html) => {
+  if (!html) return ''
+  return html.replace(/<iframe([^>]*)>[\s\S]*?<\/iframe>/gi, (_, attrs) => {
+    const m = attrs.match(/src=["']([^"']+)["']/i)
+    if (!m || !isWhitelistedEmbed(m[1])) return ''
+    const src = m[1]
+    const poster = youtubePoster(src)
+    return `<div class="video-embed" data-src="${src}">
+      ${poster ? `<img src="${poster}" alt="" loading="lazy">` : '<div class="video-embed-placeholder"></div>'}
+      <button class="video-play-btn" aria-label="Play video">▶</button>
+    </div>`
+  })
+}
+
 export const sanitizeContent = (str) => {
   if (!str) return ''
   return stripSubstackFooter(linkifyImages(
@@ -71,7 +103,10 @@ export const sanitizeContent = (str) => {
         .replace(/<!--[\s\S]*?-->/g, '')
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<iframe([^>]*)>[\s\S]*?<\/iframe>/gi, (match, attrs) => {
+          const m = attrs.match(/src=["']([^"']+)["']/i)
+          return m && isWhitelistedEmbed(m[1]) ? match : ''
+        })
         .replace(/<(\/?)[h][1-6][^>]*>/gi, '<$1strong>')
         .replace(/<\/?u>/gi, '')
         .replace(/<\/?ins>/gi, '')
@@ -127,26 +162,16 @@ export const processContent = (str, feedUrl = null) => {
   return linkifyMentions(linkifyHashtags(sanitizeContent(str), origin), origin)
 }
 
-export const truncateContent = (str, url, maxLen = 3000) => {
-  if (!str) return ''
-  if (stripHtml(str).length <= maxLen) return str
-  let count = 0
-  let i = 0
-  let lastSafe = 0
-  while (i < str.length && count < maxLen) {
-    if (str[i] === '<') {
-      lastSafe = i
-      while (i < str.length && str[i] !== '>') i++
-      i++
-    } else {
-      count++
-      i++
-      if (count % 50 === 0) lastSafe = i
-    }
-  }
-  const cut = str.slice(0, lastSafe)
-    .replace(/\s+$/, '')
-    .replace(/<[^/][^>]*>[^<]*$/, '')
-    .replace(/\s+$/, '')
-  return `${cut}… ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">read on site →</a>` : ''}`
+export const blurb = (html, maxLen = 420) => {
+  const text = stripHtml(html).trim()
+  if (text.length <= maxLen) return text
+  const cut = text.slice(0, maxLen)
+  const last = Math.max(cut.lastIndexOf('.'), cut.lastIndexOf('!'), cut.lastIndexOf('?'))
+  return last > maxLen * 0.5 ? text.slice(0, last + 1) : cut.trimEnd() + '…'
+}
+
+export const extractFirstImage = (html) => {
+  if (!html) return ''
+  const m = html.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["'][^>]*/i)
+  return m ? m[1] : ''
 }

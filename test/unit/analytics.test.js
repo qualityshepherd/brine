@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { applyHit, backupKey, buildHit, buildR2Backup, countryFlag, classifyHit, deserializeDay, freshDay, historicalDates, isBot, loadDay, resetDay, serializeDay } from '../../worker/analytics.js'
+import { applyHit, backupKey, buildHit, buildR2Backup, countryFlag, classifyHit, deserializeDay, freshDay, historicalDates, isBot, loadDay, resetDay, serializeDay, parseRssSubscribers, parseDevice } from '../../worker/analytics.js'
 
 // isBot
 test('Analytics: isBot detects php probe', t => { t.ok(isBot('/wp-login.php')) })
@@ -332,4 +332,109 @@ test('historicalDates: does not drift at UTC midnight boundary', t => {
 test('historicalDates: days=1 returns empty (today only, no history)', t => {
   const now = new Date('2026-03-15T10:00:00Z')
   t.is(historicalDates(1, now).length, 0)
+})
+
+// parseRssSubscribers
+
+test('parseRssSubscribers: parses Feedbin UA', t => {
+  const result = parseRssSubscribers('Feedbin feed-id:123 - 42 subscribers')
+  t.is(result.aggregator, 'Feedbin')
+  t.is(result.subscribers, 42)
+})
+
+test('parseRssSubscribers: parses NewsBlur UA', t => {
+  const result = parseRssSubscribers('NewsBlur/8 subscribers')
+  t.is(result.aggregator, 'NewsBlur')
+  t.is(result.subscribers, 8)
+})
+
+test('parseRssSubscribers: parses Inoreader UA', t => {
+  const result = parseRssSubscribers('Mozilla/5.0 (inoreader.com +15 subscribers)')
+  t.is(result.aggregator, 'Inoreader')
+  t.is(result.subscribers, 15)
+})
+
+test('parseRssSubscribers: returns null for unknown UA', t => {
+  t.is(parseRssSubscribers('curl/7.0'), null)
+})
+
+test('parseRssSubscribers: returns null for empty UA', t => {
+  t.is(parseRssSubscribers(''), null)
+  t.is(parseRssSubscribers(null), null)
+})
+
+// parseDevice
+
+test('parseDevice: detects iPhone as mobile', t => {
+  t.is(parseDevice('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0)'), 'mobile')
+})
+
+test('parseDevice: detects Android as mobile', t => {
+  t.is(parseDevice('Mozilla/5.0 (Linux; Android 14; Pixel 8)'), 'mobile')
+})
+
+test('parseDevice: detects desktop Mac as desktop', t => {
+  t.is(parseDevice('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'), 'desktop')
+})
+
+test('parseDevice: empty UA defaults to desktop', t => {
+  t.is(parseDevice(''), 'desktop')
+  t.is(parseDevice(null), 'desktop')
+})
+
+// byDevice in applyHit
+
+test('applyHit: increments byDevice for mobile hit', t => {
+  const hit = { path: '/', ts: Date.now(), ip: 'abc', hour: 12, country: 'US', city: 'NY', device: 'mobile' }
+  const result = applyHit(freshDay('2026-01-01'), new Set(), hit)
+  t.is(result.day.byDevice.mobile, 1)
+  t.is(result.day.byDevice.desktop, 0)
+})
+
+test('applyHit: increments byDevice for desktop hit', t => {
+  const hit = { path: '/', ts: Date.now(), ip: 'abc', hour: 12, country: 'US', city: 'NY', device: 'desktop' }
+  const result = applyHit(freshDay('2026-01-01'), new Set(), hit)
+  t.is(result.day.byDevice.desktop, 1)
+})
+
+test('applyHit: defaults to desktop when device missing', t => {
+  const hit = { path: '/', ts: Date.now(), ip: 'abc', hour: 12, country: 'US', city: 'NY' }
+  const result = applyHit(freshDay('2026-01-01'), new Set(), hit)
+  t.is(result.day.byDevice.desktop, 1)
+})
+
+// byRss in applyHit
+
+test('applyHit: tracks RSS hit in byRss', t => {
+  const hit = { rss: { feed: 'blog.xml', subscribers: 42, aggregator: 'Feedbin' }, ip: 'abc', ts: Date.now() }
+  const result = applyHit(freshDay('2026-01-01'), new Set(), hit)
+  t.is(result.day.byRss['blog.xml'].hits, 1)
+  t.is(result.day.byRss['blog.xml'].subscribers, 42)
+  t.is(result.day.byRss['blog.xml'].aggregators.Feedbin, 1)
+})
+
+test('applyHit: RSS hit does not increment totalHits', t => {
+  const hit = { rss: { feed: 'blog.xml', subscribers: 42, aggregator: 'Feedbin' }, ip: 'abc', ts: Date.now() }
+  const result = applyHit(freshDay('2026-01-01'), new Set(), hit)
+  t.is(result.day.totalHits, 0)
+})
+
+test('applyHit: RSS keeps max subscribers across hits', t => {
+  const day = freshDay('2026-01-01')
+  const hit1 = { rss: { feed: 'blog.xml', subscribers: 10, aggregator: 'Feedbin' }, ip: 'a', ts: Date.now() }
+  const hit2 = { rss: { feed: 'blog.xml', subscribers: 42, aggregator: 'Feedbin' }, ip: 'b', ts: Date.now() }
+  const r1 = applyHit(day, new Set(), hit1)
+  const r2 = applyHit(r1.day, r1.uniques, hit2)
+  t.is(r2.day.byRss['blog.xml'].subscribers, 42)
+  t.is(r2.day.byRss['blog.xml'].hits, 2)
+})
+
+test('applyHit: RSS tracks multiple feeds independently', t => {
+  const day = freshDay('2026-01-01')
+  const hit1 = { rss: { feed: 'blog.xml', subscribers: 42, aggregator: 'Feedbin' }, ip: 'a', ts: Date.now() }
+  const hit2 = { rss: { feed: 'pod.xml', subscribers: 8, aggregator: 'NewsBlur' }, ip: 'b', ts: Date.now() }
+  const r1 = applyHit(day, new Set(), hit1)
+  const r2 = applyHit(r1.day, r1.uniques, hit2)
+  t.is(r2.day.byRss['blog.xml'].subscribers, 42)
+  t.is(r2.day.byRss['pod.xml'].subscribers, 8)
 })

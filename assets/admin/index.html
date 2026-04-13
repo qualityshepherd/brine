@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>feedi admin</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <h2 class="site-brand"><a href="/"><svg id="site-logo-svg" class="site-logo" aria-label="feedi" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1357 713"><g transform="matrix(1.5484313144900101,0,0,1.5484313144900106,-152.26991666531322,-60.62157460555493)"><g><g style="paint-order: stroke fill markers;"><path d="M 187.18615625 146.12275L 187.18615625 146.12275Q 199.3271875 146.12275 208.537625 148.63468749999998Q 217.7480625 151.14662499999997 223.60925 154.07721875L 223.60925 154.07721875L 216.0734375 182.54584375000002Q 210.21224999999998 179.61525 203.93240624999999 178.14995312499997Q 197.6525625 176.68465625 190.53540625 176.68465625L 190.53540625 176.68465625Q 180.9063125 176.68465625 174.62646875000002 180.03390624999997Q 168.34662500000002 183.38315625 164.997375 189.24434374999998Q 161.648125 195.10553125 160.39215625 203.26932812500002Q 159.1361875 211.43312500000002 159.1361875 220.6435625L 159.1361875 220.6435625L 159.1361875 251.20546875L 215.65478124999998 251.20546875L 215.65478124999998 282.18603125L 159.1361875 282.18603125L 159.1361875 471L 123.13175000000001 471L 123.13175000000001 220.6435625Q 123.13175000000001 185.05778125 139.0406875 165.59026562499997Q 154.949625 146.12275 187.18615625 146.12275ZZM 376.000125 371.77846875L 271.75471875 371.77846875Q 272.17337499999996 387.68740625 274.6853125 400.875078125Q 277.19725 414.06275 282.849109375 423.901171875Q 288.50096874999997 433.73959375 297.920734375 439.182125Q 307.3405 444.62465625 321.99346875 444.62465625L 321.99346875 444.62465625Q 334.1345 444.62465625 344.391578125 441.066078125Q 354.64865625 437.5075 359.253875 434.9955625L 359.253875 434.9955625L 365.95237499999996 463.88284375Q 360.50984374999996 467.65075 347.740828125 472.046640625Q 334.9718125 476.44253125 317.38824999999997 476.44253125L 317.38824999999997 476.44253125Q 294.36215625 476.44253125 278.662546875 468.06940625Q 262.9629375 459.69628125 253.124515625 444.62465625Q 243.28609375 429.55303125 239.09953124999998 408.62021875Q 234.91296875 387.68740625 234.91296875 362.56803125L 234.91296875 362.56803125Q 234.91296875 301.86287500000003 255.00846875 273.81290624999997Q 275.10396875 245.7629375 308.17781249999996 245.7629375L 308.17781249999996 245.7629375Q 345.43821875000003 245.7629375 360.9285 273.81290624999997Q 376.41878125 301.86287500000003 376.41878125 352.52028125L 376.41878125 352.52028125Q 376.41878125 357.1255 376.41878125 361.940046875Q 376.41878125 366.75459375 376.000125 371.77846875L 376.000125 371.77846875ZZM 308.17781249999996 276.32484375L 308.17781249999996 276.32484375Q 290.17559374999996 276.32484375 282.01179687499996 294.3270625Q 273.848 312.32928125 272.17337499999996 342.47253125L 272.17337499999996 342.47253125L 338.73971875 342.47253125Q 338.73971875 311.910625 332.459875 294.117734375Q 326.18003125 276.32484375 308.17781249999996 276.32484375ZZM 558.5342499999999 371.77846875L 454.28884374999996 371.77846875Q 454.7075 387.68740625 457.21943749999997 400.875078125Q 459.73137499999996 414.06275 465.383234375 423.901171875Q 471.03509375 433.73959375 480.45485937499996 439.182125Q 489.874625 444.62465625 504.52759375 444.62465625L 504.52759375 444.62465625Q 516.668625 444.62465625 526.9257031249999 441.066078125Q 537.18278125 437.5075 541.788 434.9955625L 541.788 434.9955625L 548.4865 463.88284375Q 543.04396875 467.65075 530.274953125 472.046640625Q 517.5059375 476.44253125 499.922375 476.44253125L 499.922375 476.44253125Q 476.89628125 476.44253125 461.196671875 468.06940625Q 445.49706249999997 459.69628125 435.658640625 444.62465625Q 425.82021875 429.55303125 421.63365625 408.62021875Q 417.44709374999996 387.68740625 417.44709374999996 362.56803125L 417.44709374999996 362.56803125Q 417.44709374999996 301.86287500000003 437.54259375 273.81290624999997Q 457.63809375 245.7629375 490.7119375 245.7629375L 490.7119375 245.7629375Q 527.9723437499999 245.7629375 543.462625 273.81290624999997Q 558.95290625 301.86287500000003 558.95290625 352.52028125L 558.95290625 352.52028125Q 558.95290625 357.1255 558.95290625 361.940046875Q 558.95290625 366.75459375 558.5342499999999 371.77846875L 558.5342499999999 371.77846875ZZM 490.7119375 276.32484375L 490.7119375 276.32484375Q 472.70971875 276.32484375 464.545921875 294.3270625Q 456.382125 312.32928125 454.7075 342.47253125L 454.7075 342.47253125L 521.27384375 342.47253125Q 521.27384375 311.910625 514.994 294.117734375Q 508.71415625 276.32484375 490.7119375 276.32484375ZZM 706.7385625 441.6940625L 706.7385625 284.2793125Q 694.59753125 277.5808125 680.781875 277.5808125L 680.781875 277.5808125Q 670.31546875 277.5808125 662.361 281.767375Q 654.40653125 285.9539375 648.754671875 295.58303125Q 643.1028125 305.212125 640.17221875 321.1210625Q 637.241625 337.03 637.241625 360.47475L 637.241625 360.47475Q 637.241625 405.689625 649.173328125 425.157140625Q 661.10503125 444.62465625 685.38709375 444.62465625L 685.38709375 444.62465625Q 689.9923125 444.62465625 695.43484375 443.996671875Q 700.877375 443.3686875 706.7385625 441.6940625L 706.7385625 441.6940625ZZM 706.7385625 252.88009375L 706.7385625 152.40259375L 742.7429999999999 146.12275L 742.7429999999999 465.1388125Q 731.020625 470.1626875 715.9490000000001 473.302609375Q 700.877375 476.44253125 685.38709375 476.44253125L 685.38709375 476.44253125Q 640.17221875 476.44253125 619.867390625 447.55525Q 599.5625625 418.66796875 599.5625625 360.47475L 599.5625625 360.47475Q 599.5625625 334.09940625 603.958453125 312.957265625Q 608.35434375 291.81512499999997 617.774109375 276.952828125Q 627.193875 262.09053125 641.84684375 253.926734375Q 656.4998125 245.7629375 676.5953125 245.7629375L 676.5953125 245.7629375Q 686.22440625 245.7629375 693.132234375 247.646890625Q 700.0400625 249.53084375 706.7385625 252.88009375L 706.7385625 252.88009375ZZM 843.63915625 251.20546875L 843.63915625 471L 807.63471875 471L 807.63471875 251.20546875L 843.63915625 251.20546875ZZM 825.6369375 212.2704375L 825.6369375 212.2704375Q 816.00784375 212.2704375 809.1000156250001 205.781265625Q 802.1921875 199.29209375 802.1921875 188.40703125L 802.1921875 188.40703125Q 802.1921875 177.52196874999998 809.1000156250001 171.03279687499997Q 816.00784375 164.54362500000002 825.6369375 164.54362500000002L 825.6369375 164.54362500000002Q 835.2660312500001 164.54362500000002 842.173859375 171.03279687499997Q 849.0816875 177.52196874999998 849.0816875 188.40703125L 849.0816875 188.40703125Q 849.0816875 199.29209375 842.173859375 205.781265625Q 835.2660312500001 212.2704375 825.6369375 212.2704375Z" style="fill: currentColor;"/></g></g></g><path style="fill: none; stroke: currentColor; mix-blend-mode: source-over; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 34;" d="M0 0.01 C24 0.01 35 -1 56 15 77 31 76.62 72.68 76.62 72.68 " transform="matrix(1.5484313144900101,0,0,1.5484313144900106,1101.6904293174503,139.31724697133538)"/><path style="fill: none; stroke: currentColor; mix-blend-mode: source-over; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 34;" d="M0 0 C24 0 70 8.99 98 37.99 126 66.99 127 124 127 124 " transform="matrix(1.5484313144900101,0,0,1.5484313144900106,1101.6904293174503,56.71865800292967)"/></svg><img id="site-logo-img" class="site-logo hidden" alt=""></a></h2>
+    <div class="nav-links">
+      <a href="#new" id="nav-new" class="hidden">+ new</a>
+      <a href="#list" id="nav-posts" class="hidden">posts</a>
+      <a href="#pages" id="nav-pages" class="hidden">pages</a>
+      <a href="#feeds" id="nav-feeds" class="hidden">feeds</a>
+      <a href="#analytics" id="nav-analytics" class="hidden">analytics</a>
+      <a href="#settings" id="nav-settings" class="hidden nav-icon" title="settings" aria-label="settings">⚙</a>
+      <span id="nav-user" class="muted hidden"></span>
+    </div>
+  </header>
+
+  <!-- login -->
+  <div id="view-login">
+    <h2>sign in</h2>
+
+    <div id="login-unconfigured" class="hidden">
+      <p class="muted field">no owner configured. enter a passphrase to derive your pubkey, then add it to <code>wrangler.toml</code> as <code>OWNER</code> and redeploy.</p>
+      <div class="field">
+        <label for="setup-passphrase">passphrase</label>
+        <div class="input-wrap">
+          <input type="password" id="setup-passphrase" placeholder="enter your passphrase" autocomplete="new-password">
+          <button type="button" class="eye-btn" aria-label="Show/hide passphrase" data-target="setup-passphrase"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></button>
+        </div>
+        <div class="passphrase-strength hidden" id="strength-display"></div>
+      </div>
+      <button class="btn btn-primary" id="btn-derive">derive pubkey</button>
+      <div id="pubkey-result" class="hidden field mt-4">
+        <label for="pubkey-display">your pubkey — copy this into wrangler.toml</label>
+        <input type="text" id="pubkey-display" readonly onclick="this.select()">
+      </div>
+    </div>
+
+    <div id="login-existing" class="hidden">
+      <div class="field">
+        <label for="login-passphrase">passphrase</label>
+        <div class="input-wrap">
+          <input type="password" id="login-passphrase" placeholder="your passphrase" autocomplete="current-password">
+          <button type="button" class="eye-btn" aria-label="Show/hide passphrase" data-target="login-passphrase"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></button>
+        </div>
+      </div>
+      <button class="btn btn-primary" id="btn-login">sign in</button>
+    </div>
+
+    <div class="error hidden" id="login-error"></div>
+  </div>
+
+  <!-- posts -->
+  <div id="view-list" class="hidden">
+    <div class="view-header">
+      <h2 class="view-title"><a href="/">posts</a></h2>
+      <a href="#new" class="btn btn-sm">+ new post</a>
+    </div>
+    <div id="post-list" class="post-list"></div>
+  </div>
+
+  <!-- pages -->
+  <div id="view-pages" class="hidden">
+    <div class="view-header">
+      <h2 class="view-title">pages</h2>
+      <a href="#new-page" class="btn btn-sm">+ new page</a>
+    </div>
+    <div id="page-list" class="post-list"></div>
+  </div>
+
+
+  <!-- feeds -->
+  <div id="view-feeds" class="hidden">
+    <div class="view-header">
+      <h2 class="view-title"><a href="/feeds">feeds</a></h2>
+    </div>
+    <div class="row field">
+      <div class="field" style="flex:3">
+        <label for="feed-url-input">feed url (rss/atom)</label>
+        <input type="url" id="feed-url-input" placeholder="https://example.com/feed.xml">
+      </div>
+      <div class="field" style="flex:2">
+        <label for="feed-title-input">title (optional)</label>
+        <input type="text" id="feed-title-input" placeholder="Site name">
+      </div>
+      <div class="field" style="flex:1">
+        <label for="feed-limit-input">limit</label>
+        <input type="number" id="feed-limit-input" value="10" min="1" max="50">
+      </div>
+    </div>
+    <button class="btn btn-primary field" id="btn-add-feed">add feed</button>
+    <div class="error hidden" id="feeds-error"></div>
+    <div id="feeds-list" class="post-list"></div>
+  </div>
+
+  <!-- analytics -->
+  <div id="view-analytics" class="hidden">
+    <div class="view-header">
+      <h2 class="view-title">analytics</h2>
+      <nav class="a-nav">
+        <a data-days="1">today</a>
+        <a data-days="2">2d</a>
+        <a data-days="7">week</a>
+        <a data-days="30">30d</a>
+        <a data-days="365">year</a>
+      </nav>
+    </div>
+    <div id="analytics-body"></div>
+  </div>
+
+  <!-- settings -->
+  <div id="view-settings" class="hidden">
+    <h2 class="view-title field">settings</h2>
+
+    <div class="row field" style="max-width:480px">
+      <div class="field">
+        <label for="page-size-input">posts per page <span class="label-note">home feed</span></label>
+        <input type="number" id="page-size-input" class="input-xs" min="1" max="100">
+      </div>
+      <div class="field">
+        <label for="feed-max-items">max feed items <span class="label-note">per source</span></label>
+        <input type="number" id="feed-max-items" min="1" class="input-sm">
+      </div>
+    </div>
+
+    <div class="settings-field field">
+      <label for="site-image-input">default post image <span class="label-note">— fallback thumbnail (full or relative url)</span></label>
+      <input type="text" id="site-image-input" placeholder="/uploads/default.jpg or https://...">
+    </div>
+
+    <div class="settings-field mt-6 field">
+      <label>rss</label>
+      <div class="flex gap-3 items-center flex-wrap">
+        <a class="btn btn-sm" id="validate-blog" href="#" target="_blank" rel="noopener">validate blog</a>
+        <a class="btn btn-sm" id="validate-pod" href="#" target="_blank" rel="noopener">validate podcast</a>
+        <a class="btn btn-sm" id="validate-all" href="#" target="_blank" rel="noopener">validate all</a>
+      </div>
+    </div>
+
+    <div class="settings-field mt-6 field">
+      <label>cache</label>
+      <div class="flex gap-3 items-center flex-wrap">
+        <button class="btn btn-sm" id="btn-cache-bust" title="Clear the cached post index — next page load rebuilds it">bust cache</button>
+        <span class="muted">forces a fresh index rebuild on next page load</span>
+      </div>
+    </div>
+
+    <div class="settings-field mt-6 field">
+      <label>export / import</label>
+      <div class="flex gap-3 items-center flex-wrap">
+        <button class="btn btn-sm" id="btn-backup">backup</button>
+        <button class="btn btn-sm" id="btn-import-json">import json</button>
+        <button class="btn btn-sm" id="btn-import-md">import zip</button>
+        <input type="file" id="import-json-file" accept=".json" class="hidden">
+        <input type="file" id="import-md-file" accept=".zip" class="hidden">
+        <span class="muted" id="backup-status"></span>
+      </div>
+      <div class="muted hidden" id="import-status"></div>
+    </div>
+
+    <div class="mt-8">
+      <button class="btn btn-danger" id="btn-logout">logout</button>
+    </div>
+
+    <div class="mt-8">
+      <button class="btn btn-danger" id="btn-delete-all">delete all posts</button>
+      <div id="delete-all-confirm" class="confirm-box hidden">
+        <p>This will permanently delete all posts and pages. Consider exporting first.</p>
+        <div class="flex gap-3 flex-wrap mb-3">
+          <button class="btn btn-sm" id="btn-export-before-delete">backup first</button>
+        </div>
+        <div class="flex gap-3">
+          <button class="btn btn-danger" id="btn-delete-all-confirm">yes, delete everything</button>
+          <button class="btn btn-sm" id="btn-delete-all-cancel">cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- editor -->
+  <div id="view-editor" class="hidden">
+    <h2 id="editor-title">new post</h2>
+    <div class="row">
+      <div class="field">
+        <label for="editor-title-input" id="editor-title-label">title</label>
+        <input type="text" id="editor-title-input" placeholder="Post title">
+        <div id="editor-url-preview" class="url-preview muted hidden"></div>
+      </div>
+      <div class="field" id="editor-date-field">
+        <label for="editor-date">date</label>
+        <input type="date" id="editor-date">
+      </div>
+    </div>
+    <div class="field" id="editor-description-field">
+      <label for="editor-description">description <span class="muted label-note">— optional. used in rss feed and link previews</span></label>
+      <input type="text" id="editor-description" placeholder="A short summary...">
+    </div>
+    <div class="field">
+      <div class="flex justify-between items-center mb-2">
+        <label for="editor-content">markdown</label>
+        <div class="flex gap-2">
+          <button class="btn btn-sm" id="btn-insert-break" aria-label="Insert read-more break" title="Insert &lt;break&gt; — truncates post on home feed, shows full post on permalink"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><polyline points="8 8 3 12 8 16"/></svg></button>
+          <button class="btn btn-sm" id="btn-attach" aria-label="Attach image" title="Upload image (drag &amp; drop or paste also work)"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></button>
+          <input type="file" id="attach-file" accept="image/*" class="hidden">
+          <button class="btn btn-sm" id="btn-preview-toggle" aria-label="Toggle preview" title="Toggle markdown preview"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></button>
+        </div>
+      </div>
+      <textarea id="editor-content" rows="20" placeholder="Write markdown..."></textarea>
+      <div class="preview-pane hidden" id="preview-pane"></div>
+    </div>
+    <div class="field" id="editor-tags-field">
+      <label for="editor-tags">tags</label>
+      <input type="text" id="editor-tags" placeholder="tag1, tag2">
+    </div>
+    <div class="field" id="editor-audio-field">
+      <label for="editor-audio">podcast audio url <span class="muted label-note">— setting this makes the post a podcast (can be relative: /uploads/ep1.mp3)</span></label>
+      <input type="text" id="editor-audio" placeholder="/uploads/ep1.mp3 or https://...">
+    </div>
+    <div class="editor-actions">
+      <button class="btn btn-primary" id="btn-publish">publish</button>
+      <button class="btn" id="btn-draft">save draft</button>
+      <button class="btn" id="btn-export-md">export .md</button>
+      <a class="btn hidden" id="btn-view-live" href="#" target="_blank" rel="noopener">view live</a>
+      <button class="btn btn-danger hidden" id="btn-delete">delete</button>
+      <span class="error hidden" id="editor-error"></span>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/admin/admin.js"></script>
+</body>
+</html>

@@ -7,6 +7,7 @@ export const locators = {
   notFoundMessage: '.not-found',
   aboutLink: 'a[href="/about"]',
   archiveLink: 'a[href="/archive"]',
+  archiveItem: '.archive',
   feedsPost: '.feed-post',
   tagLink: '.tag',
   loadMoreButton: '#load-more',

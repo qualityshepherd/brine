@@ -1,4 +1,3 @@
-import config from '../feedi.config.js'
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
 
 const SKIP_PATHS = [
@@ -42,20 +41,20 @@ const BOT_UAS = [
 ]
 
 const BOT_ASNS = new Set([
-  8075,   // Microsoft Azure
-  14061,  // DigitalOcean
-  14618,  // AWS
-  15169,  // Google Cloud
-  16276,  // OVH
-  16509,  // AWS
-  19551,  // Incapsula
-  20473,  // Vultr
-  24940,  // Hetzner
-  51167,  // — Contabo (very common scanner source)
-  9009,   // — M247 (Romanian provider, tons of scanner traffic)
-  63949,  // Linode/Akamai
+  8075, // Microsoft Azure
+  14061, // DigitalOcean
+  14618, // AWS
+  15169, // Google Cloud
+  16276, // OVH
+  16509, // AWS
+  19551, // Incapsula
+  20473, // Vultr
+  24940, // Hetzner
+  51167, // — Contabo (very common scanner source)
+  9009, // — M247 (Romanian provider, tons of scanner traffic)
+  63949, // Linode/Akamai
   211590, // Scaleway - Paris scanner
-  396982  // Google Cloud
+  396982 // Google Cloud
 ])
 
 // Known RSS aggregator UA patterns that include subscriber counts
@@ -367,7 +366,6 @@ export const classifyHit = (path, ua = '', asn = null) => {
 }
 
 export async function trackHit (req, env) {
-  if (!config.analytics) return
   const url = new URL(req.url)
   const path = url.searchParams.get('path') || (url.pathname + (url.search || ''))
   const ip = req.headers.get('cf-connecting-ip') || ''

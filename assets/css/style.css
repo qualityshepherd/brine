@@ -46,9 +46,9 @@
 }
 
 :root {
-  --color-bg: #363636;
-  --color-surface-1: #333333;
-  --color-surface-2: #414141;
+  --color-bg: #2e2e2e;
+  --color-surface-1: #323232;
+  --color-surface-2: #3a3a3a;
   --color-bg-darkest: #222222;
 
   --color-text-primary: #A0A0A2;
@@ -64,7 +64,8 @@
   --font-heading: "header", system-ui, sans-serif;
   --font-mono: "mono", monospace;
 
-  --text-sm: 0.9rem;
+  --text-xs: 0.85rem;
+  --text-sm: 1rem;
   --text-md: 1.21rem;
   --text-lg: 1.3rem;
   --text-xl: 1.6rem;
@@ -88,6 +89,8 @@
 *::after {
   box-sizing: border-box;
 }
+
+[hidden] { display: none !important; }
 
 html,
 body {
@@ -116,7 +119,6 @@ img {
 a {
   color: var(--color-text-secondary);
   text-decoration: none;
-  border-bottom: 1.2px solid var(--color-border);
 }
 
 a:hover,
@@ -135,13 +137,13 @@ h1 {
 }
 
 .container {
-  max-width: 70ch;
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   padding: 0 var(--space-4);
 }
 
-/* ── banner header ───────────────────────────────── */
+/* ── banner header ────────────────────────────────── */
 
 header {
   margin-bottom: 30px;
@@ -175,6 +177,76 @@ nav a:hover {
   color: var(--color-accent);
 }
 
+.nav-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.nav-icon-btn:hover {
+  color: var(--color-accent);
+}
+
+.nav-rss-wrap,
+.nav-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: calc(100% + var(--space-2));
+  right: 0;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-2) 0;
+  min-width: 240px;
+  z-index: 100;
+}
+
+.nav-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+}
+
+.nav-dropdown-label {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.nav-dropdown-url {
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.nav-dropdown-copy {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.nav-dropdown-copy:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
 #search {
   width: 120px;
   font-size: var(--text-md);
@@ -200,7 +272,7 @@ nav a:hover {
   clip-path: polygon(20% 0%,0% 20%,30% 50%,0% 80%,20% 100%,50% 70%,80% 100%,100% 80%,70% 50%,100% 20%,80% 0%,50% 30%);
 }
 
-/* ── typography ──────────────────────────────────── */
+/* ── typography ────────────────────────────────────── */
 
 h1,
 h2,
@@ -236,6 +308,23 @@ h4 {
 
 h5 {
   font-size: 115%;
+}
+
+/* feed reader: match feedi font sizes */
+.feed-post {
+  padding-bottom: 0;
+  font-size: 1.1rem;
+  --text-sm: 1rem;
+}
+
+.feed-body .post-title {
+  font-size: var(--text-2xl);
+  text-align: left;
+  margin: 0;
+}
+
+.feed-modal-body hr {
+  margin: var(--space-3) 0;
 }
 
 blockquote {
@@ -283,7 +372,7 @@ ol {
   padding-left: 25px;
 }
 
-/* ── posts ───────────────────────────────────────── */
+/* ── posts ───────────────────────────────────────────── */
 
 .post {
   padding-bottom: var(--space-7);
@@ -346,14 +435,17 @@ audio {
 
 #load-more.show {
   display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* ── image alts ──────────────────────────────────── */
+/* ── image alts ──────────────────────────────────────── */
 
 img[alt="thumb"] {
   float: right;
   margin: 15px;
-  width: 320px;
+  width: 200px;
   border: 1px solid var(--color-border);
   background-color: var(--color-surface-1);
   padding: 5px;
@@ -374,13 +466,13 @@ img[alt="round"] {
   border-radius: 50%;
 }
 
-/* ── feeds ───────────────────────────────────────── */
+/* ── feeds ───────────────────────────────────────────── */
 
 .feed-meta {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   color: var(--color-text-muted);
   margin-bottom: 4px;
   text-decoration: none;
@@ -392,6 +484,8 @@ a.feed-meta:hover {
 
 .feed-meta .date {
   margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .feed-avatar {
@@ -404,7 +498,179 @@ a.feed-meta:hover {
   line-height: 1.6;
 }
 
-/* ── brine-specific ──────────────────────────────── */
+.feed-source-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.feed-body {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+}
+
+.feed-body:hover .post-title {
+  color: var(--color-accent);
+}
+
+.feed-body-text .post-title {
+  margin-top: 0;
+  line-height: 1;
+}
+
+.feed-thumb {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.feed-body-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.feed-blurb {
+  margin: var(--space-1) 0 0;
+  line-height: 1.5;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+/* ── feed modal ──────────────────────────────────────── */
+
+.feed-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.feed-modal-overlay.hidden {
+  display: none;
+}
+
+.feed-modal {
+  background: var(--color-surface-1);
+  border-radius: 6px;
+  max-width: 680px;
+  width: 100%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-modal-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.feed-modal-title {
+  flex: 1;
+  font-weight: 600;
+  font-size: var(--text-md);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.feed-modal-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 4px;
+}
+
+.feed-modal-close:hover {
+  color: var(--color-text-primary);
+}
+
+.feed-modal-body {
+  padding: var(--space-4);
+  overflow-y: auto;
+  flex: 1;
+  line-height: 1.7;
+  font-size: var(--text-sm);
+}
+
+.feed-modal-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feed-modal-footer {
+  padding: var(--space-3) var(--space-4);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.feed-modal-original {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  border: none;
+}
+
+.feed-modal-original:hover {
+  color: var(--color-accent);
+}
+
+.feed-modal-subscribe {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  border: none;
+}
+
+.feed-modal-subscribe:hover {
+  color: var(--color-accent);
+}
+
+/* ── archive ──────────────────────────────────────────── */
+
+.archive-filters {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.archive-filter {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  padding: 2px 10px;
+  text-transform: uppercase;
+}
+
+.archive-filter:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-text-muted);
+}
+
+.archive-filter.active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* ── brine-specific ────────────────────────────────── */
 
 .social img {
   opacity: .33;
@@ -470,9 +736,12 @@ a.feed-meta:hover {
 
 hr {
   margin: 50px 0;
+  border: none;
+  border-top: 1px solid var(--color-border);
+  opacity: 0.5;
 }
 
-/* ── footer ──────────────────────────────────────── */
+/* ── footer ──────────────────────────────────────────── */
 
 footer {
   margin-top: var(--space-7);
@@ -492,7 +761,7 @@ footer img {
   display: block;
 }
 
-/* ── responsive ──────────────────────────────────── */
+/* ── responsive ──────────────────────────────────────── */
 
 @media (max-width: 600px) {
   nav {

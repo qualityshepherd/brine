@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>brine.dev</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="blabby nerd in the desert"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="alternate" type="application/rss+xml" href="/rss/blog" title="brine.dev blog" />
+    <link rel="alternate" type="application/rss+xml" href="/rss/all" title="brine.dev all posts" />
+    <link rel="alternate" type="application/rss+xml" href="/rss/pod" title="brine.dev podcast" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link
+      rel="preload"
+      href="/fonts/Oswald-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <a href="/"><img class="banner" src="/images/brine_wide.webp" alt="brine.dev" /></a>
+
+      <nav>
+        <a href="/">Home</a>
+        <a id="feeds-nav-link" href="/feeds" hidden>Feeds</a>
+        <a href="/archive">Archive</a>
+        <a href="/about">About</a>
+        <a href="https://rando.brine.dev" target="_blank" rel="noopener">Rando</a>
+
+        <div class="nav-rss-wrap">
+          <button class="nav-icon-btn" id="btn-rss" aria-label="RSS feeds" title="RSS feeds">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><circle cx="5" cy="19" r="2"/><path d="M4 4v3a13 13 0 0 1 13 13h3A16 16 0 0 0 4 4z"/><path d="M4 11v3a6 6 0 0 1 6 6h3a9 9 0 0 0-9-9z"/></svg>
+          </button>
+          <div class="nav-dropdown" id="rss-dropdown" hidden>
+            <div class="nav-dropdown-item">
+              <span class="nav-dropdown-label">blog</span>
+              <code class="nav-dropdown-url">/rss/blog</code>
+              <button class="nav-dropdown-copy" data-path="/rss/blog">copy</button>
+            </div>
+            <div class="nav-dropdown-item" id="rss-pod-row" hidden>
+              <span class="nav-dropdown-label">pod</span>
+              <code class="nav-dropdown-url">/rss/pod</code>
+              <button class="nav-dropdown-copy" data-path="/rss/pod">copy</button>
+            </div>
+            <div class="nav-dropdown-item">
+              <span class="nav-dropdown-label">all</span>
+              <code class="nav-dropdown-url">/rss/all</code>
+              <button class="nav-dropdown-copy" data-path="/rss/all">copy</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-search-wrap">
+          <button class="nav-icon-btn" id="btn-search" aria-label="Search" title="Search">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+          <form aria-label="search" id="search-form" hidden>
+            <input id="search" name="q" type="search" placeholder="search" />
+          </form>
+        </div>
+
+        <a id="nav-admin" href="/admin" hidden class="nav-icon-btn" title="Admin" aria-label="Admin">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.49.49 0 0 0-.59-.22l-2.39.96a7.01 7.01 0 0 0-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54a7.3 7.3 0 0 0-1.62.94l-2.39-.96a.48.48 0 0 0-.59.22L2.74 8.87a.47.47 0 0 0 .12.61l2.03 1.58c-.05.3-.07.63-.07.94s.02.64.07.94l-2.03 1.58a.47.47 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.36 1.04.67 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54a7.3 7.3 0 0 0 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32a.47.47 0 0 0-.12-.61l-2.01-1.58zM12 15.6a3.6 3.6 0 1 1 0-7.2 3.6 3.6 0 0 1 0 7.2z"/></svg>
+        </a>
+      </nav>
+    </header>
+
+    <!-- hidden: just for seo -->
+    <h1>brine.dev</h1>
+
+    <div class="container">
+      <main><!-- content will be inserted here --></main>
+      <button id="load-more">Load more</button>
+    </div>
+    <footer>
+      <a href="https://ko-fi.com/qualityshepherd" target="_blank" rel="noopener"><img src="/images/kofi.png" alt="Ko-fi" height="36" /></a>
+      powered by <a href="https://github.com/qualityshepherd/feedi">feedi</a>
+    </footer>
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

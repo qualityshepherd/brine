@@ -9,7 +9,8 @@ import {
   limitFeed,
   sortByDate,
   aggregateFeeds
-} from '../../gen/feedParser.js'
+} from '../../worker/feedParser.js'
+import { extractFirstImage } from '../../assets/src/feedRules.js'
 
 // fixtures
 
@@ -258,6 +259,35 @@ test('FeedParser: aggregateFeeds sorts combined posts by date newest first', t =
 
 test('FeedParser: aggregateFeeds handles empty feed results', t => {
   t.deepEqual(aggregateFeeds([]), [])
+})
+
+// image pipeline
+
+test('FeedParser: parseFeed includes media:content image in content', t => {
+  const xml = `<rss version="2.0"><channel><title>Blog</title>
+    <item>
+      <title>Post</title>
+      <link>https://example.com/post</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>text</p>]]></description>
+      <media:content url="https://example.com/hero.jpg" medium="image"/>
+    </item>
+  </channel></rss>`
+  const [post] = parseFeed(xml, { url: 'https://example.com/feed.xml' })
+  t.ok(post.content.includes('https://example.com/hero.jpg'))
+})
+
+test('FeedParser: parseFeed img in content:encoded is found by extractFirstImage', t => {
+  const xml = `<rss version="2.0"><channel><title>Blog</title>
+    <item>
+      <title>Post</title>
+      <link>https://example.com/post</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<img src="https://example.com/hero.jpg"><p>text</p>]]></content:encoded>
+    </item>
+  </channel></rss>`
+  const [post] = parseFeed(xml, { url: 'https://example.com/feed.xml' })
+  t.is(extractFirstImage(post.content), 'https://example.com/hero.jpg')
 })
 
 test('FeedParser: aggregateFeeds deduplicates posts by url', t => {

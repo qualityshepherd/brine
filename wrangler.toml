@@ -3,12 +3,21 @@ main = "worker/index.js"
 compatibility_date = "2025-01-01"
 
 [assets]
-directory = "."
+directory = "assets"
 not_found_handling = "single-page-application"
 binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+DOMAIN_NAME = "brine.dev"
+SITE_TITLE = "brine.dev"
+SITE_DESCRIPTION = "blabby nerd in the desert"
+OWNER = ""  # paste your pubkey here after deriving it at /admin
+PODCAST_IMAGE = ""
+PODCAST_CATEGORY = "Arts"
 
 [[kv_namespaces]]
-binding = "KV"
+binding = "BRINE_KV"
 id = "99b8f35602ae44869d80637281295546"
 
 [[durable_objects.bindings]]
@@ -24,7 +33,7 @@ binding = "R2"
 bucket_name = "brine-dev"
 
 [triggers]
-crons = ["0 2 * * *"]
+crons = ["0 * * * *"]
 
 [observability]
 enabled = true
@@ -32,27 +41,33 @@ enabled = true
 [observability.logs]
 enabled = true
 
-[vars]
+# DEV
+
+[env.dev]
+name = "brine-dev-dev"
+[env.dev.triggers]
+crons = []
+
+[env.dev.vars]
 DOMAIN_NAME = "brine.dev"
+SITE_TITLE = "brine.dev"
+SITE_DESCRIPTION = "blabby nerd in the desert"
+OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"  # paste your pubkey here after deriving it at /admin
+PODCAST_IMAGE = ""
+PODCAST_CATEGORY = "Arts"
 
-[env.staging]
-name = "brine-dev-staging"
-
-[[env.staging.kv_namespaces]]
-binding = "KV"
+[[env.dev.kv_namespaces]]
+binding = "BRINE_KV"
 id = "c869c6328e8845fbb3d90f4e9b6d300e"
 
-[[env.staging.durable_objects.bindings]]
+[[env.dev.durable_objects.bindings]]
 name = "ANALYTICS"
 class_name = "AnalyticsDO"
 
-[[env.staging.migrations]]
+[[env.dev.migrations]]
 tag = "v1"
 new_sqlite_classes = ["AnalyticsDO"]
 
-[[env.staging.r2_buckets]]
+[[env.dev.r2_buckets]]
 binding = "R2"
 bucket_name = "brine-dev"
-
-[env.staging.vars]
-DOMAIN_NAME = "brine.dev"

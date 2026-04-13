@@ -5,15 +5,14 @@ import {
   getPosts,
   getDisplayedPosts,
   getSearchTerm,
+  getPageSize,
   setPosts,
   setDisplayedPosts,
   setSearchTerm,
   incrementDisplayedPosts,
   updateState,
   resetState
-} from '../../src/state.js'
-
-// readSiteIndex requires a live server — tested in e2e/posts.test.js
+} from '../../assets/src/state.js'
 
 const posts = [
   { meta: { date: '2023-01-01', title: 'A' } },
@@ -122,6 +121,41 @@ test('State: state getters should return copies to prevent mutation', t => {
 
   t.is(getPosts().length, 2)
   t.is(posts2.length, 2)
+})
+
+test('State: getPageSize returns default of 10 when localStorage unavailable', t => {
+  t.is(getPageSize(), 10)
+})
+
+test('State: incrementDisplayedPosts defaults to page size', t => {
+  resetState()
+  setDisplayedPosts(5)
+  incrementDisplayedPosts()
+  t.is(getDisplayedPosts(), 5 + getPageSize())
+})
+
+test('State: initialState displayedPosts equals page size', t => {
+  resetState()
+  t.is(getDisplayedPosts(), getPageSize())
+})
+
+test('State: load-more: shows all posts when count >= total', t => {
+  // toggleLoadMoreButton logic: should show when displayedCount < posts.length
+  const posts = Array.from({ length: 15 }, (_, i) => ({ meta: { slug: `post-${i}`, date: '2024-01-01' } }))
+  const pageSize = 10
+  const shouldShow = pageSize < posts.length
+  t.ok(shouldShow) // 10 < 15, show button
+
+  const displayedAll = posts.length
+  t.falsy(displayedAll < posts.length) // 15 < 15 = false, hide button
+})
+
+test('State: load-more: incrementing past total should not show button', t => {
+  resetState()
+  const totalPosts = 8
+  setDisplayedPosts(totalPosts)
+  incrementDisplayedPosts(10)
+  t.ok(getDisplayedPosts() > totalPosts) // displayed > total → no more button
 })
 
 test('State: state should handle edge cases gracefully', t => {

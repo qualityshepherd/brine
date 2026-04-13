@@ -35,10 +35,9 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 .heatmap-labels.dow{grid-template-columns:repeat(7,1fr)}
 .heatmap-labels.hour{grid-template-columns:repeat(24,1fr)}
 .heatmap-labels span{font-size:55%;color:var(--alt1);text-align:center;font-family:mono}
-.session-header{display:grid;grid-template-columns:11rem 1.8rem 10rem 1fr 8rem;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:85%;font-family:mono}
+.session-header{display:grid;grid-template-columns:11rem 11rem 1fr 8rem;gap:.75rem;padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:92%;font-family:mono}
 .session-header:hover .log-city{color:var(--alt3)}
 .log-ts{color:var(--alt1);white-space:nowrap;cursor:default}
-.log-flag{text-align:center;font-size:1.2em}
 .log-city{color:var(--alt1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
 .log-city:hover{color:var(--alt3)}
 .log-city.active{color:var(--alt3)}
@@ -76,7 +75,7 @@ h2{margin:3rem 0 .75rem;font-size:82.5%;color:var(--alt1);letter-spacing:.15em;t
 <script>
 const params = new URLSearchParams(location.search)
 const days = parseInt(params.get('days') || '1')
-const secret = params.get('secret') || ''
+const token = localStorage.getItem('feedi_token') || ''
 const DOW = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 const SESSION_GAP = 30 * 60 * 1000 // 30 minutes
 
@@ -103,17 +102,21 @@ const COUNTRY_NAMES = {
 
 const countryName = code => COUNTRY_NAMES[code] || code
 
-const tokenParam = secret ? \`&secret=\${secret}\` : ''
 document.getElementById('hostname').textContent = location.hostname
-document.getElementById('nav').innerHTML = [1, 3, 7, 30, 365].map(d => {
-  const label = d === 1 ? 'today' : d === 3 ? '3d' : d === 7 ? 'week' : d === 30 ? 'month' : 'year'
-  return \`<a href="?days=\${d}\${tokenParam}"\${days === d ? ' class="active"' : ''}>\${label}</a>\`
+document.getElementById('nav').innerHTML = [1, 2, 7, 30, 365].map(d => {
+  const label = d === 1 ? 'today' : d === 2 ? '2d' : d === 7 ? 'week' : d === 30 ? '30d' : 'year'
+  return \`<a href="?days=\${d}"\${days === d ? ' class="active"' : ''}>\${label}</a>\`
 }).join('')
 
 const flag = (code) => {
   if (!code || code === '?') return ''
   const f = code.toUpperCase().replace(/./g, c => String.fromCodePoint(0x1F1E6 + c.charCodeAt(0) - 65))
   return \`<span title="\${countryName(code)}">\${f}</span> \`
+}
+
+const flagEmoji = (code) => {
+  if (!code || code === '?') return ''
+  return code.toUpperCase().replace(/./g, c => String.fromCodePoint(0x1F1E6 + c.charCodeAt(0) - 65))
 }
 
 const flagWithRegion = (code, region) => {
@@ -242,10 +245,10 @@ const renderLogs = () => {
     const html = sessions.flatMap(s =>
       s.paths.map((p, j) => {
         const r = s.pathRefs && s.pathRefs[j] ? (() => { try { return new URL(s.pathRefs[j]).hostname } catch { return '' } })() : ''
-        return \`<div class="session-header" onclick="clearFilter()" style="cursor:pointer">\` +
+        const locTipF = [s.city, s.region && s.region !== '?' ? s.region : null, countryName(s.country)].filter(Boolean).join(', ')
+      return \`<div class="session-header" onclick="clearFilter()" style="cursor:pointer">\` +
         \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.pathTs ? s.pathTs[j] : s.ts)}</span>\` +
-        \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
-        \`<span class="log-city">\${s.city || '?'}</span>\` +
+        \`<span class="log-city" title="\${locTipF}">\${s.country ? flagEmoji(s.country) + ' ' : ''}\${s.city || '?'}</span>\` +
         \`<span class="log-path" title="\${p}">\${p}</span>\` +
         \`<span class="log-ref">\${r}</span>\` +
         \`</div>\`
@@ -260,10 +263,10 @@ const renderLogs = () => {
     const count = s.paths.length
     const firstPath = s.paths[0] || ''
     const firstRef = s.pathRefs && s.pathRefs[0] ? (() => { try { return new URL(s.pathRefs[0]).hostname } catch { return '' } })() : ''
+    const locTip = [s.city, s.region && s.region !== '?' ? s.region : null, countryName(s.country)].filter(Boolean).join(', ')
     return \`<div class="session-header">\` +
       \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.ts)}</span>\` +
-      \`<span class="log-flag">\${flagWithRegion(s.country, s.region)}</span>\` +
-      \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${s.city}">\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
+      \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${locTip}">\${s.country ? flagEmoji(s.country) + ' ' : ''}\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
       \`<span class="log-path" title="\${firstPath}">\${firstPath}</span>\` +
       \`<span class="log-ref">\${firstRef}</span>\` +
       \`</div>\`
@@ -322,14 +325,14 @@ const render = (allData) => {
   renderLogs()
 }
 
-fetch(\`/api/analytics?days=\${days}\${tokenParam}\`)
+fetch(\`/api/analytics?days=\${days}\`, { headers: token ? { Authorization: \`Bearer \${token}\` } : {} })
   .then(r => {
     if (r.status === 401) throw new Error('unauthorized')
     if (!r.ok) throw new Error(\`\${r.status}\`)
     return r.json()
   })
   .then(render)
-  .catch(err => { document.getElementById('summary').textContent = err.message === 'unauthorized' ? '🔒 add ?secret= to the URL' : 'failed to load' })
+  .catch(err => { document.getElementById('summary').textContent = err.message === 'unauthorized' ? '🔒 log in at /admin first' : 'failed to load' })
 </script>
 </body>
 </html>

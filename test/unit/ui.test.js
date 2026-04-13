@@ -1,5 +1,25 @@
 import { unit as test } from '../testpup.js'
-import { getLimitedPosts, postMatchesSearch, renderTags } from '../../src/ui.js'
+import { isSpecialPost, isPod, getLimitedPosts, postMatchesSearch, renderTags } from '../../assets/src/ui.js'
+
+test('UI: isSpecialPost returns true for posts with meta.page = true', t => {
+  t.ok(isSpecialPost({ meta: { page: true, slug: 'about' } }))
+})
+
+test('UI: isSpecialPost returns false for regular posts', t => {
+  t.falsy(isSpecialPost({ meta: { slug: 'my-post' } }))
+})
+
+test('UI: isPod returns true for posts with meta.audioUrl set', t => {
+  t.ok(isPod({ meta: { audioUrl: 'https://example.com/ep1.mp3', slug: 'ep1' } }))
+})
+
+test('UI: isPod returns false for regular posts', t => {
+  t.falsy(isPod({ meta: { slug: 'my-post' } }))
+})
+
+test('UI: isPod returns false for pages', t => {
+  t.falsy(isPod({ meta: { page: true, slug: 'about' } }))
+})
 
 function fakeIndex () {
   return [
@@ -37,11 +57,11 @@ test('UI: postMatchesSearch should return posts with matching title', t => {
   t.is(result[0].meta.title, 'Post One')
 })
 
-test('UI: postMatchesSearch should return posts with matching markdown', t => {
+test('UI: postMatchesSearch should return posts with matching content', t => {
   const posts = fakeIndex()
   const result = posts.filter(post => postMatchesSearch(post, 'Post Two'))
 
-  t.ok(result[0].markdown.includes('Post Two'))
+  t.ok(result[0].html.includes('Post Two'))
 })
 
 test('UI: postMatchesSearch should return posts with matching tag', t => {

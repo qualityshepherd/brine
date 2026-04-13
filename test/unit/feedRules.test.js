@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { sanitizeContent, stripHtml, linkifyHashtags, linkifyMentions, processContent, truncateContent } from '../../src/feedRules.js'
+import { sanitizeContent, stripHtml, linkifyHashtags, linkifyMentions, processContent, blurb, extractFirstImage } from '../../assets/src/feedRules.js'
 
 // stripHtml — titles only
 
@@ -67,6 +67,53 @@ test('sanitizeContent: strips style tags', t => {
   const result = sanitizeContent('<style>.x{color:red}</style>hello')
   t.falsy(result.includes('style'))
   t.ok(result.includes('hello'))
+})
+
+test('sanitizeContent: strips <u> tags but keeps content', t => {
+  const result = sanitizeContent('<p>this is <u>underlined</u> text</p>')
+  t.falsy(result.includes('<u>'))
+  t.ok(result.includes('underlined'))
+})
+
+test('sanitizeContent: strips <ins> tags but keeps content', t => {
+  const result = sanitizeContent('<p>this is <ins>inserted</ins> text</p>')
+  t.falsy(result.includes('<ins>'))
+  t.ok(result.includes('inserted'))
+})
+
+test('sanitizeContent: strips inline style attributes', t => {
+  const result = sanitizeContent('<p style="color:red;display:none">hello</p>')
+  t.falsy(result.includes('style='))
+  t.ok(result.includes('hello'))
+})
+
+test('sanitizeContent: strips form, input, button, select, textarea', t => {
+  const result = sanitizeContent('<form><input type="text"><button>go</button><select><option>x</option></select></form>')
+  t.falsy(result.includes('<form'))
+  t.falsy(result.includes('<input'))
+  t.falsy(result.includes('<button'))
+  t.falsy(result.includes('<select'))
+})
+
+test('sanitizeContent: strips <base> tag', t => {
+  const result = sanitizeContent('<base href="https://evil.com"><p>hello</p>')
+  t.falsy(result.includes('<base'))
+  t.ok(result.includes('hello'))
+})
+
+test('sanitizeContent: strips <object> and <embed>', t => {
+  const result = sanitizeContent('<object data="x.swf"></object><embed src="y.swf"><p>hello</p>')
+  t.falsy(result.includes('<object'))
+  t.falsy(result.includes('<embed'))
+  t.ok(result.includes('hello'))
+})
+
+test('sanitizeContent: strips <marquee> and <blink> but keeps content', t => {
+  const result = sanitizeContent('<marquee>scrolling</marquee> and <blink>blinking</blink>')
+  t.falsy(result.includes('<marquee'))
+  t.falsy(result.includes('<blink'))
+  t.ok(result.includes('scrolling'))
+  t.ok(result.includes('blinking'))
 })
 
 test('sanitizeContent: decodes &#39; to apostrophe', t => {
@@ -198,52 +245,51 @@ test('processContent: returns empty string for falsy', t => {
   t.is(processContent(''), '')
 })
 
-// truncateContent
-const longPlain = 'x'.repeat(3001)
-const longHtml = '<p>' + 'x'.repeat(3001) + '</p>'
-
-test('truncateContent: returns content unchanged when under maxLen', t => {
-  const short = '<p>hello world</p>'
-  t.is(truncateContent(short, 'https://example.com'), short)
+// blurb
+test('blurb: returns plain text unchanged when under maxLen', t => {
+  t.is(blurb('<p>hello world</p>'), 'hello world')
 })
 
-test('truncateContent: returns empty string for falsy', t => {
-  t.is(truncateContent(null, 'https://example.com'), '')
-  t.is(truncateContent('', 'https://example.com'), '')
+test('blurb: returns empty string for falsy', t => {
+  t.is(blurb(null), '')
+  t.is(blurb(''), '')
 })
 
-test('truncateContent: truncates long plain text and appends read-on link', t => {
-  const result = truncateContent(longPlain, 'https://example.com')
-  t.ok(result.includes('…'))
-  t.ok(result.includes('href="https://example.com"'))
-  t.ok(result.includes('read on site →'))
+test('blurb: ends on sentence boundary when available', t => {
+  const text = 'x'.repeat(350) + '. ' + 'x'.repeat(100)
+  const result = blurb(`<p>${text}</p>`)
+  t.ok(result.endsWith('.'))
+  t.ok(result.length <= 420)
 })
 
-test('truncateContent: visible text is at or under maxLen', t => {
-  const result = truncateContent(longPlain, null)
-  const visibleLen = result.replace(/….*$/, '').replace(/<[^>]*>/g, '').length
-  t.ok(visibleLen <= 3000)
+test('blurb: hard cuts with ellipsis when no sentence boundary in first half', t => {
+  const result = blurb('<p>' + 'x'.repeat(500) + '</p>')
+  t.ok(result.endsWith('…'))
+  t.ok(result.length <= 421)
 })
 
-test('truncateContent: respects custom maxLen', t => {
-  const str = 'x'.repeat(200)
-  const result = truncateContent(str, null, 100)
-  t.ok(result.includes('…'))
+test('blurb: respects custom maxLen', t => {
+  const result = blurb('<p>' + 'x'.repeat(200) + '</p>', 100)
+  t.ok(result.endsWith('…'))
+  t.ok(result.length <= 101)
 })
 
-test('truncateContent: does not cut inside an HTML tag', t => {
-  const result = truncateContent(longHtml, 'https://example.com')
-  t.falsy(result.match(/<[^>]*$/)) // no dangling open tag
+// extractFirstImage
+test('extractFirstImage: returns src of first https image', t => {
+  const html = '<p>text</p><img src="https://example.com/pic.jpg" alt="x"><img src="https://example.com/other.jpg">'
+  t.is(extractFirstImage(html), 'https://example.com/pic.jpg')
 })
 
-test('truncateContent: read-on link opens in new tab', t => {
-  const result = truncateContent(longPlain, 'https://example.com')
-  t.ok(result.includes('target="_blank"'))
-  t.ok(result.includes('rel="noopener noreferrer"'))
+test('extractFirstImage: returns empty string when no image', t => {
+  t.is(extractFirstImage('<p>no images here</p>'), '')
 })
 
-test('truncateContent: no read-on link when url is null', t => {
-  const result = truncateContent(longPlain, null)
-  t.ok(result.includes('…'))
-  t.falsy(result.includes('<a'))
+test('extractFirstImage: returns empty string for falsy', t => {
+  t.is(extractFirstImage(null), '')
+  t.is(extractFirstImage(''), '')
+})
+
+test('extractFirstImage: skips relative src images', t => {
+  const html = '<img src="/local/image.jpg"><img src="https://example.com/remote.jpg">'
+  t.is(extractFirstImage(html), 'https://example.com/remote.jpg')
 })
