@@ -185,9 +185,8 @@ async function showEdit (slug) {
 async function showFeeds () {
   if (!token) return showLogin()
   showView('view-feeds'); showNav()
-  const config = await api('GET', '/api/feeds/config')
   const lastLimit = localStorage.getItem('feedi_feed_limit')
-  $('feed-limit-input').value = lastLimit ?? config.defaultLimit ?? 5
+  $('feed-limit-input').value = lastLimit ?? 5
   await renderFeeds()
 }
 

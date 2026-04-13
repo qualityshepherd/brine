@@ -31,22 +31,7 @@ const fetchFeed = async (feedConfig) => {
 }
 
 export const refreshFeeds = async (env) => {
-  let feeds = await env.BRINE_KV.get('feeds:list', { type: 'json' })
-
-  // one-time migration from static feeds.json
-  if (feeds === null) {
-    try {
-      const raw = await env.ASSETS.fetch(new Request('https://do.local/feeds.json'))
-      feeds = await raw.json()
-      if (Array.isArray(feeds) && feeds.length) {
-        await env.BRINE_KV.put('feeds:list', JSON.stringify(feeds))
-        console.log(`[feeds] migrated ${feeds.length} feeds from static feeds.json to KV`)
-      }
-    } catch (err) {
-      console.warn(`[feeds] migration from feeds.json failed: ${err.message}`)
-    }
-    feeds = feeds || []
-  }
+  const feeds = await env.BRINE_KV.get('feeds:list', { type: 'json' }) || []
 
   if (!feeds.length) {
     await env.BRINE_KV.delete(KV_KEY)

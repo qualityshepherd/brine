@@ -12,7 +12,7 @@ run_worker_first = true
 DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
 SITE_DESCRIPTION = "blabby nerd in the desert"
-OWNER = ""  # paste your pubkey here after deriving it at /admin
+OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"  # paste your pubkey here after deriving it at /admin
 PODCAST_IMAGE = ""
 PODCAST_CATEGORY = "Arts"
 
