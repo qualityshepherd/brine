@@ -668,6 +668,24 @@ $('btn-add-feed').addEventListener('click', async () => {
   await renderFeeds()
 })
 
+$('btn-import-feeds').addEventListener('click', () => $('import-feeds-file').click())
+$('import-feeds-file').addEventListener('change', async () => {
+  const file = $('import-feeds-file').files[0]
+  if (!file) return
+  $('import-feeds-file').value = ''
+  let data
+  try { data = JSON.parse(await file.text()) } catch { showError('feeds-error', 'invalid json file'); return }
+  if (!Array.isArray(data)) { showError('feeds-error', 'expected a json array'); return }
+  const statusEl = $('feeds-import-status')
+  statusEl.textContent = 'importing…'
+  statusEl.classList.remove('hidden')
+  $('feeds-error').classList.add('hidden')
+  const res = await api('POST', '/api/feeds/import', data)
+  if (res.error) { showError('feeds-error', res.error); statusEl.classList.add('hidden'); return }
+  statusEl.textContent = `added ${res.added}, skipped ${res.skipped} duplicates`
+  await renderFeeds()
+})
+
 // ── analytics ─────────────────────────────────────────────────────────────────
 let analyticsDays = 1
 let analyticsActiveIp = null

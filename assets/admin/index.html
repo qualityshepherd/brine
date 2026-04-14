@@ -95,7 +95,12 @@
         <input type="number" id="feed-limit-input" value="10" min="1" max="50">
       </div>
     </div>
-    <button class="btn btn-primary field" id="btn-add-feed">add feed</button>
+    <div class="flex gap-3 items-center field flex-wrap">
+      <button class="btn btn-primary" id="btn-add-feed">add feed</button>
+      <button class="btn btn-sm" id="btn-import-feeds">import feeds json</button>
+      <input type="file" id="import-feeds-file" accept=".json" class="hidden">
+      <span class="muted hidden" id="feeds-import-status"></span>
+    </div>
     <div class="error hidden" id="feeds-error"></div>
     <div id="feeds-list" class="post-list"></div>
   </div>

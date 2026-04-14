@@ -6,6 +6,8 @@ import { toggleLoadMoreButton } from './ui.js'
 
 let cachedFeeds = null
 let feedItems = new Map()
+let feedList = []
+let currentIndex = -1
 let modalReady = false
 
 const readAggregated = async (path) => {
@@ -24,11 +26,11 @@ const closeModal = () => {
   modal.querySelector('.feed-modal-body').innerHTML = ''
 }
 
-const openModal = (item) => {
-  const modal = document.getElementById('feed-modal')
+const renderModalItem = (modal, item) => {
   modal.querySelector('.feed-modal-title').textContent = item.title || ''
   modal.querySelector('.feed-modal-body').innerHTML =
     embedToLazy(processContent(item.content || '', item.feed?.url))
+  modal.querySelector('.feed-modal-body').scrollTop = 0
   modal.querySelector('.feed-modal-original').href = item.url || '#'
   const subscribeEl = modal.querySelector('.feed-modal-subscribe')
   if (item.feed?.url) {
@@ -37,6 +39,20 @@ const openModal = (item) => {
   } else {
     subscribeEl.classList.add('hidden')
   }
+  modal.querySelector('.feed-modal-prev').disabled = currentIndex <= 0
+  modal.querySelector('.feed-modal-next').disabled = currentIndex >= feedList.length - 1
+}
+
+const navigateTo = (index) => {
+  if (index < 0 || index >= feedList.length) return
+  currentIndex = index
+  renderModalItem(document.getElementById('feed-modal'), feedList[index])
+}
+
+const openModal = (item) => {
+  currentIndex = feedList.findIndex(i => i.url === item.url)
+  const modal = document.getElementById('feed-modal')
+  renderModalItem(modal, item)
   modal.classList.remove('hidden')
   document.body.style.overflow = 'hidden'
 }
@@ -51,7 +67,9 @@ const initModal = () => {
   modal.innerHTML = `
     <div class="feed-modal">
       <div class="feed-modal-header">
+        <button class="feed-modal-prev" aria-label="Previous">←</button>
         <span class="feed-modal-title"></span>
+        <button class="feed-modal-next" aria-label="Next">→</button>
         <button class="feed-modal-close" aria-label="Close">✕</button>
       </div>
       <div class="feed-modal-body"></div>
@@ -64,8 +82,28 @@ const initModal = () => {
   document.body.appendChild(modal)
 
   modal.querySelector('.feed-modal-close').addEventListener('click', closeModal)
+  modal.querySelector('.feed-modal-prev').addEventListener('click', () => navigateTo(currentIndex - 1))
+  modal.querySelector('.feed-modal-next').addEventListener('click', () => navigateTo(currentIndex + 1))
   modal.addEventListener('click', e => { if (e.target === modal) closeModal() })
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal() })
+  document.addEventListener('keydown', e => {
+    if (modal.classList.contains('hidden')) return
+    if (e.key === 'Escape') closeModal()
+    if (e.key === 'ArrowRight') navigateTo(currentIndex + 1)
+    if (e.key === 'ArrowLeft') navigateTo(currentIndex - 1)
+  })
+
+  let touchStartX = 0; let touchStartY = 0
+  modal.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX
+    touchStartY = e.touches[0].clientY
+  }, { passive: true })
+  modal.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - touchStartX
+    const dy = e.changedTouches[0].clientY - touchStartY
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) {
+      dx < 0 ? navigateTo(currentIndex + 1) : navigateTo(currentIndex - 1)
+    }
+  }, { passive: true })
 
   modal.addEventListener('click', e => {
     const btn = e.target.closest('.video-play-btn')
@@ -92,6 +130,7 @@ export const renderFeedsItems = (items) => {
     toggleLoadMoreButton(false)
     return
   }
+  feedList = items
   feedItems = new Map(items.map(i => [i.url, i]))
   const limit = getDisplayedPosts()
   elements.main.innerHTML = items.slice(0, limit).map(feedsItemTemplate).join('')

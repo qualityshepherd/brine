@@ -65,8 +65,8 @@
   --font-mono: "mono", monospace;
 
   --text-xs: 0.85rem;
-  --text-sm: 1rem;
-  --text-md: 1.21rem;
+  --text-sm: 1.05rem;
+  --text-md: 1.2rem;
   --text-lg: 1.3rem;
   --text-xl: 1.6rem;
   --text-2xl: 1.9rem;
@@ -295,8 +295,8 @@ h2 {
   margin-bottom: var(--space-3);
 }
 
-h3, .names, .archive {
-  font-size: 180%;
+h3, .archive {
+  font-size: 160%;
   margin-bottom: 15px;
   margin-top: 60px;
 }
@@ -545,7 +545,8 @@ a.feed-meta:hover {
 .feed-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(4px);
   z-index: 200;
   display: flex;
   align-items: center;
@@ -560,9 +561,9 @@ a.feed-meta:hover {
 .feed-modal {
   background: var(--color-surface-1);
   border-radius: 6px;
-  max-width: 680px;
+  max-width: 760px;
   width: 100%;
-  max-height: 80vh;
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
 }
@@ -584,7 +585,9 @@ a.feed-meta:hover {
   white-space: nowrap;
 }
 
-.feed-modal-close {
+.feed-modal-close,
+.feed-modal-prev,
+.feed-modal-next {
   background: none;
   border: none;
   cursor: pointer;
@@ -592,10 +595,19 @@ a.feed-meta:hover {
   font-size: 1.2rem;
   line-height: 1;
   padding: 4px;
+  flex-shrink: 0;
 }
 
-.feed-modal-close:hover {
+.feed-modal-close:hover,
+.feed-modal-prev:hover,
+.feed-modal-next:hover {
   color: var(--color-text-primary);
+}
+
+.feed-modal-prev:disabled,
+.feed-modal-next:disabled {
+  opacity: 0.2;
+  cursor: default;
 }
 
 .feed-modal-body {
@@ -603,7 +615,7 @@ a.feed-meta:hover {
   overflow-y: auto;
   flex: 1;
   line-height: 1.7;
-  font-size: var(--text-sm);
+  font-size: var(--text-md);
 }
 
 .feed-modal-body img {

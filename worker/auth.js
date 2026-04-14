@@ -39,7 +39,8 @@ export const memberByToken = async (token, kv) => {
 }
 
 const writeSession = async (token, pubkey, expires, kv) => {
-  const ttl = Math.max(60, Math.ceil((expires - Date.now()) / 1000))
+  if (expires <= Date.now()) return
+  const ttl = Math.ceil((expires - Date.now()) / 1000)
   await kv.put(`session:${token}`, pubkey, { expirationTtl: ttl })
 }
 

@@ -172,6 +172,7 @@ export const blurb = (html, maxLen = 420) => {
 
 export const extractFirstImage = (html) => {
   if (!html) return ''
-  const m = html.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["'][^>]*/i)
+  const decoded = decodeEntities(html)
+  const m = decoded.match(/<img[^>]+src=["'](https?:\/\/[^"']+)["']/i)
   return m ? m[1] : ''
 }
