@@ -170,7 +170,7 @@ nav {
 nav a {
   font-size: var(--text-md);
   color: var(--color-text-secondary);
-  border: none;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -227,7 +227,7 @@ nav a:hover {
 
 .nav-dropdown-url {
   flex: 1;
-  font-size: 0.85rem;
+  font-size: var(--text-xs);
   color: var(--color-text-secondary);
 }
 
@@ -236,7 +236,7 @@ nav a:hover {
   border: 1px solid var(--color-border);
   border-radius: 3px;
   padding: 2px 8px;
-  font-size: 0.8rem;
+  font-size: var(--text-xs);
   cursor: pointer;
   color: var(--color-text-muted);
   flex-shrink: 0;
@@ -310,11 +310,8 @@ h5 {
   font-size: 115%;
 }
 
-/* feed reader: match feedi font sizes */
 .feed-post {
   padding-bottom: 0;
-  font-size: 1.1rem;
-  --text-sm: 1rem;
 }
 
 .feed-body .post-title {
@@ -566,6 +563,7 @@ a.feed-meta:hover {
   max-height: 90vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .feed-modal-header {
@@ -613,14 +611,10 @@ a.feed-meta:hover {
 .feed-modal-body {
   padding: var(--space-4);
   overflow-y: auto;
+  overflow-x: hidden;
   flex: 1;
   line-height: 1.7;
   font-size: var(--text-md);
-}
-
-.feed-modal-body img {
-  max-width: 100%;
-  height: auto;
 }
 
 .feed-modal-footer {
@@ -631,22 +625,14 @@ a.feed-meta:hover {
   gap: var(--space-4);
 }
 
-.feed-modal-original {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  border: none;
-}
-
-.feed-modal-original:hover {
-  color: var(--color-accent);
-}
-
+.feed-modal-original,
 .feed-modal-subscribe {
   font-size: var(--text-sm);
   color: var(--color-text-muted);
-  border: none;
+  text-decoration: none;
 }
 
+.feed-modal-original:hover,
 .feed-modal-subscribe:hover {
   color: var(--color-accent);
 }
@@ -720,7 +706,6 @@ a.feed-meta:hover {
   padding: 5px;
   width: 250px;
   height: 250px;
-  overflow: auto;
   background-color: #cdcbc9;
   filter: brightness(89%);
 }
@@ -730,7 +715,6 @@ a.feed-meta:hover {
   float: right;
   padding: 5px;
   max-width: 150px;
-  overflow: auto;
   filter: brightness(89%);
 }
 

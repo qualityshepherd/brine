@@ -6,6 +6,7 @@
   <title>feedi admin</title>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/admin.css">
+  <link rel="icon" href="/favicon.png" />
 </head>
 <body>
 <div id="app">
@@ -62,6 +63,14 @@
     <div class="view-header">
       <h2 class="view-title"><a href="/">posts</a></h2>
       <a href="#new" class="btn btn-sm">+ new post</a>
+    </div>
+    <div class="flex gap-3 items-center field flex-wrap">
+      <button class="btn btn-sm" id="btn-export-posts">export posts</button>
+      <button class="btn btn-sm" id="btn-import-json">import json</button>
+      <button class="btn btn-sm" id="btn-import-md">import zip</button>
+      <input type="file" id="import-json-file" accept=".json" class="hidden">
+      <input type="file" id="import-md-file" accept=".zip" class="hidden">
+      <span class="muted hidden" id="import-status"></span>
     </div>
     <div id="post-list" class="post-list"></div>
   </div>
@@ -158,16 +167,11 @@
     </div>
 
     <div class="settings-field mt-6 field">
-      <label>export / import</label>
+      <label>backup</label>
       <div class="flex gap-3 items-center flex-wrap">
-        <button class="btn btn-sm" id="btn-backup">backup</button>
-        <button class="btn btn-sm" id="btn-import-json">import json</button>
-        <button class="btn btn-sm" id="btn-import-md">import zip</button>
-        <input type="file" id="import-json-file" accept=".json" class="hidden">
-        <input type="file" id="import-md-file" accept=".zip" class="hidden">
+        <button class="btn btn-sm" id="btn-backup">full backup</button>
         <span class="muted" id="backup-status"></span>
       </div>
-      <div class="muted hidden" id="import-status"></div>
     </div>
 
     <div class="mt-8">

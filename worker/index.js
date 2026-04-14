@@ -130,6 +130,7 @@ export default {
       return handlePageRoute(req, env)
     }
 
+    if (path.includes('.')) return env.ASSETS.fetch(req)
     ctx.waitUntil(trackHit(req, env))
     return env.ASSETS.fetch(req)
   },

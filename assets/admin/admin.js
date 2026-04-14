@@ -458,6 +458,24 @@ $('btn-cache-bust').addEventListener('click', async () => {
   setTimeout(() => { $('btn-cache-bust').textContent = 'bust cache' }, 2000)
 })
 
+const exportPosts = async () => {
+  const btn = $('btn-export-posts')
+  btn.disabled = true
+  btn.textContent = 'exporting...'
+  try {
+    const posts = await api('GET', '/api/backup')
+    const blob = new Blob([JSON.stringify(posts, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    Object.assign(document.createElement('a'), { href: url, download: 'posts.json' }).click()
+    URL.revokeObjectURL(url)
+  } catch (err) {
+    setImportStatus(`export failed: ${err.message}`)
+  } finally {
+    btn.disabled = false
+    btn.textContent = 'export posts'
+  }
+}
+
 const doBackup = async () => {
   const btn = $('btn-backup')
   const status = $('backup-status')
@@ -465,9 +483,10 @@ const doBackup = async () => {
   btn.textContent = 'exporting...'
   status.textContent = ''
   try {
-    const [posts, feedsRaw, uploadsList] = await Promise.all([
+    const [posts, feedsRaw, settings, uploadsList] = await Promise.all([
       api('GET', '/api/backup'),
       api('GET', '/api/feeds'),
+      api('GET', '/api/settings'),
       api('GET', '/api/uploads')
     ])
     const { default: JSZip } = await import('https://cdn.jsdelivr.net/npm/jszip@3.10.1/+esm')
@@ -475,6 +494,7 @@ const doBackup = async () => {
 
     zip.file('posts.json', JSON.stringify(posts, null, 2))
     zip.file('feeds.json', JSON.stringify((feedsRaw || []).map(({ url, title, limit }) => ({ url, title, limit })), null, 2))
+    zip.file('settings.json', JSON.stringify(settings || {}, null, 2))
 
     if (Array.isArray(posts)) {
       posts.forEach(p => {
@@ -492,7 +512,7 @@ const doBackup = async () => {
 
     const blob = await zip.generateAsync({ type: 'blob' })
     const url = URL.createObjectURL(blob)
-    Object.assign(document.createElement('a'), { href: url, download: 'feedi-backup.zip' }).click()
+    Object.assign(document.createElement('a'), { href: url, download: 'brine-backup.zip' }).click()
     URL.revokeObjectURL(url)
     status.textContent = 'done'
     setTimeout(() => { status.textContent = '' }, 3000)
@@ -500,10 +520,11 @@ const doBackup = async () => {
     status.textContent = `export failed: ${err.message}`
   } finally {
     btn.disabled = false
-    btn.textContent = 'backup'
+    btn.textContent = 'full backup'
   }
 }
 
+$('btn-export-posts').addEventListener('click', exportPosts)
 $('btn-backup').addEventListener('click', doBackup)
 
 $('btn-delete-all').addEventListener('click', () => $('delete-all-confirm').classList.remove('hidden'))
