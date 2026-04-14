@@ -65,9 +65,9 @@
       <a href="#new" class="btn btn-sm">+ new post</a>
     </div>
     <div class="flex gap-3 items-center field flex-wrap">
-      <button class="btn btn-sm" id="btn-export-posts">export posts</button>
-      <button class="btn btn-sm" id="btn-import-json">import json</button>
-      <button class="btn btn-sm" id="btn-import-md">import zip</button>
+      <button class="btn btn-sm" id="btn-export-posts" title="Download all posts as posts.json">export posts</button>
+      <button class="btn btn-sm" id="btn-import-json" title="Restore posts from a posts.json backup file">import json</button>
+      <button class="btn btn-sm" id="btn-import-md" title="Import posts from a zip of .md files">import zip</button>
       <input type="file" id="import-json-file" accept=".json" class="hidden">
       <input type="file" id="import-md-file" accept=".zip" class="hidden">
       <span class="muted hidden" id="import-status"></span>
@@ -106,7 +106,7 @@
     </div>
     <div class="flex gap-3 items-center field flex-wrap">
       <button class="btn btn-primary" id="btn-add-feed">add feed</button>
-      <button class="btn btn-sm" id="btn-import-feeds">import feeds json</button>
+      <button class="btn btn-sm" id="btn-import-feeds" title="Import feeds from a JSON array — duplicates are skipped">import feeds json</button>
       <input type="file" id="import-feeds-file" accept=".json" class="hidden">
       <span class="muted hidden" id="feeds-import-status"></span>
     </div>
@@ -169,7 +169,7 @@
     <div class="settings-field mt-6 field">
       <label>backup</label>
       <div class="flex gap-3 items-center flex-wrap">
-        <button class="btn btn-sm" id="btn-backup">full backup</button>
+        <button class="btn btn-sm" id="btn-backup" title="Download a full zip: posts, feeds, settings, and all uploads">full backup</button>
         <span class="muted" id="backup-status"></span>
       </div>
     </div>
