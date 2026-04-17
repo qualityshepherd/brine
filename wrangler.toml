@@ -13,7 +13,7 @@ DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
 SITE_DESCRIPTION = "blabby nerd in the desert"
 OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"  # paste your pubkey here after deriving it at /admin
-PODCAST_IMAGE = ""
+PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
 
 [[kv_namespaces]]
@@ -53,7 +53,7 @@ DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
 SITE_DESCRIPTION = "blabby nerd in the desert"
 OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"  # paste your pubkey here after deriving it at /admin
-PODCAST_IMAGE = ""
+PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
 
 [[env.dev.kv_namespaces]]
