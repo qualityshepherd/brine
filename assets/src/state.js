@@ -1,18 +1,5 @@
-const DEFAULT_PAGE_SIZE = 10
-const storage = typeof localStorage !== 'undefined' ? localStorage : { getItem: () => null, setItem: () => {} }
-
-export const getPageSize = () => {
-  const n = parseInt(storage.getItem('feedi_page_size'), 10)
-  return (!isNaN(n) && n > 0) ? n : DEFAULT_PAGE_SIZE
-}
-
-export const setPageSize = (n) => {
-  if (!isNaN(n) && n > 0) storage.setItem('feedi_page_size', String(n))
-}
-
 const initialState = {
   posts: [],
-  displayedPosts: getPageSize(),
   searchTerm: ''
 }
 
@@ -20,7 +7,6 @@ let currentState = { ...initialState }
 
 export const getState = () => ({ ...currentState })
 export const getPosts = () => [...currentState.posts]
-export const getDisplayedPosts = () => currentState.displayedPosts
 export const getSearchTerm = () => currentState.searchTerm
 
 export const updateState = (updates) => {
@@ -29,10 +15,7 @@ export const updateState = (updates) => {
 }
 
 export const setPosts = (posts) => updateState({ posts: [...posts] })
-export const setDisplayedPosts = (count) => updateState({ displayedPosts: count })
 export const setSearchTerm = (term) => updateState({ searchTerm: term })
-export const incrementDisplayedPosts = (increment = getPageSize()) =>
-  updateState({ displayedPosts: currentState.displayedPosts + increment })
 
 export const resetState = () => {
   currentState = { ...initialState }
@@ -42,7 +25,7 @@ export const resetState = () => {
 export async function readSiteIndex (pathToIndex) {
   try {
     const res = await fetch(pathToIndex)
-    validateResponse(res)
+    if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`)
     const index = await res.json()
     return sortByDate(index)
   } catch (err) {
@@ -61,8 +44,4 @@ export function sortByDate (posts, desc = true) {
 
 function parseDate (str) {
   return str ? new Date(str.replace(/-/g, '/')) : new Date(0)
-}
-
-function validateResponse (res) {
-  if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`)
 }

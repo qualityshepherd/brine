@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { isSpecialPost, isPod, getLimitedPosts, postMatchesSearch, renderTags } from '../../assets/src/ui.js'
+import { isSpecialPost, isPod, postMatchesSearch, renderTags } from '../../assets/src/ui.js'
 
 test('UI: isSpecialPost returns true for posts with meta.page = true', t => {
   t.ok(isSpecialPost({ meta: { page: true, slug: 'about' } }))
@@ -36,19 +36,6 @@ function fakeIndex () {
   ]
 }
 
-test('UI: getLimitedPosts should return limited number of posts', t => {
-  const posts = fakeIndex()
-  t.is(getLimitedPosts(posts, 2).length, 2)
-  t.deepEqual(getLimitedPosts(posts, 2), posts.slice(0, 2))
-})
-
-test('UI: getLimitedPosts should handle edge cases', t => {
-  const posts = fakeIndex()
-  t.is(getLimitedPosts(posts, 100).length, posts.length)
-  t.is(getLimitedPosts(posts, 0).length, 0)
-  t.is(getLimitedPosts(posts, -1).length, 0)
-  t.is(getLimitedPosts([], 5).length, 0)
-})
 
 test('UI: postMatchesSearch should return posts with matching title', t => {
   const posts = fakeIndex()

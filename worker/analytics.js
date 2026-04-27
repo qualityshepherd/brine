@@ -444,7 +444,7 @@ export async function handleAnalytics (req, env, hostname) {
   const result = [{ date: todayData.date, data: todayData }]
 
   if (env.R2) {
-    const promises = historicalDates(days).map(dateStr =>
+    const promises = historicalDates(days, new Date(todayData.date + 'T12:00:00Z')).map(dateStr =>
       env.R2.get(backupKey(dateStr))
         .then(obj => obj ? obj.json().then(data => ({ date: dateStr, data })) : null)
     )

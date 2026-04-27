@@ -1,14 +1,14 @@
 import { elements } from './dom.js'
 import { feedsItemTemplate, notFoundTemplate } from './templates.js'
 import { processContent, embedToLazy } from './feedRules.js'
-import { getDisplayedPosts } from './state.js'
-import { toggleLoadMoreButton } from './ui.js'
+const PAGE = 20
 
 let cachedFeeds = null
 let feedItems = new Map()
 let feedList = []
 let currentIndex = -1
 let modalReady = false
+let feedObserver = null
 
 const readAggregated = async (path) => {
   const res = await fetch(path)
@@ -125,17 +125,39 @@ const initModal = () => {
 // ── render ────────────────────────────────────────────────────────────────────
 
 export const renderFeedsItems = (items) => {
+  if (feedObserver) { feedObserver.disconnect(); feedObserver = null }
+
   if (!items.length) {
     elements.main.innerHTML = notFoundTemplate('No feed posts found. Add feeds to feeds.json.')
-    toggleLoadMoreButton(false)
     return
   }
+
   feedList = items
   feedItems = new Map(items.map(i => [i.url, i]))
-  const limit = getDisplayedPosts()
-  elements.main.innerHTML = items.slice(0, limit).map(feedsItemTemplate).join('')
-  toggleLoadMoreButton(limit < items.length)
+
+  elements.main.innerHTML = ''
+  let rendered = 0
+
+  const renderMore = () => {
+    const batch = items.slice(rendered, rendered + PAGE)
+    if (!batch.length) return
+    const frag = document.createElement('div')
+    frag.innerHTML = batch.map(feedsItemTemplate).join('')
+    elements.main.appendChild(frag)
+    rendered += batch.length
+  }
+
+  renderMore()
   initModal()
+
+  const sentinel = document.createElement('div')
+  elements.main.appendChild(sentinel)
+  feedObserver = new IntersectionObserver(entries => {
+    if (!entries[0].isIntersecting) return
+    if (rendered >= items.length) { feedObserver.disconnect(); feedObserver = null; sentinel.remove(); return }
+    renderMore()
+  }, { rootMargin: '200px' })
+  feedObserver.observe(sentinel)
 }
 
 export const getCachedFeeds = () => cachedFeeds

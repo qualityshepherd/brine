@@ -14,6 +14,21 @@ export const isAuthorized = (secret, adminSecret) =>
 const json = (data, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json' } })
 
+const SEC_HEADERS = {
+  'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload',
+  'Content-Security-Policy': 'upgrade-insecure-requests',
+  'X-Content-Type-Options': 'nosniff',
+  'X-Frame-Options': 'SAMEORIGIN',
+  'Referrer-Policy': 'strict-origin-when-cross-origin'
+}
+
+const withSec = async (res) => {
+  const r = await res
+  const h = new Headers(r.headers)
+  for (const [k, v] of Object.entries(SEC_HEADERS)) h.set(k, v)
+  return new Response(r.body, { status: r.status, headers: h })
+}
+
 // These /api/* paths are intentionally public (no token required)
 const PUBLIC_API = new Set(['/api/challenge', '/api/login', '/api/me', '/api/hit'])
 
@@ -28,13 +43,14 @@ export default {
     const url = new URL(req.url)
     const path = url.pathname
 
+    ctx.waitUntil(trackHit(req, env))
+
     // Not configured — redirect root to /admin
     if (!env.OWNER && path === '/') {
       return new Response(null, { status: 302, headers: { Location: '/admin' } })
     }
 
     if (path === '/api/hit' && req.method === 'POST') {
-      ctx.waitUntil(trackHit(req, env))
       return new Response('ok')
     }
 
@@ -112,11 +128,11 @@ export default {
     }
 
     // Post pages — inject OG meta + fix direct URL navigation
-    if (path.startsWith('/posts/')) return handlePostRoute(req, env)
+    if (path.startsWith('/posts/')) return withSec(handlePostRoute(req, env))
 
     // Admin UI — serve single HTML file for all /admin routes (but pass through static assets)
     if (path === '/admin' || (path.startsWith('/admin/') && !path.includes('.'))) {
-      return env.ASSETS.fetch(new Request(new URL('/admin/index.html', req.url)))
+      return withSec(env.ASSETS.fetch(new Request(new URL('/admin/index.html', req.url))))
     }
 
     // Block private paths
@@ -127,12 +143,11 @@ export default {
     // Page routes (type:page posts at root level, e.g. /about)
     const segments = path.split('/').filter(Boolean)
     if (segments.length === 1 && !path.includes('.')) {
-      return handlePageRoute(req, env)
+      return withSec(handlePageRoute(req, env))
     }
 
     if (path.includes('.')) return env.ASSETS.fetch(req)
-    ctx.waitUntil(trackHit(req, env))
-    return env.ASSETS.fetch(req)
+    return withSec(env.ASSETS.fetch(req))
   },
 
   async scheduled (event, env, ctx) {

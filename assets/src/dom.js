@@ -5,6 +5,5 @@ export const elements = {
   get menu () { return document.querySelector('#menu') },
   get menuLinks () { return document.querySelector('nav #links') },
   get searchInput () { return document.querySelector('#search') },
-  get searchForm () { return document.querySelector('form[aria-label="search"]') },
-  get loadMore () { return document.querySelector('#load-more') }
+  get searchForm () { return document.querySelector('form[aria-label="search"]') }
 }

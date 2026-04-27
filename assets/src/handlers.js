@@ -1,20 +1,13 @@
 import { elements } from './dom.js'
-import {
-  getPosts,
-  getDisplayedPosts,
-  setDisplayedPosts,
-  setSearchTerm,
-  incrementDisplayedPosts
-} from './state.js'
+import { getPosts, setSearchTerm } from './state.js'
 import {
   renderArchive,
   renderFilteredPosts,
   renderNotFoundPage,
   renderPosts,
-  renderSinglePost,
-  toggleLoadMoreButton
+  renderSinglePost
 } from './ui.js'
-import { loadAndRenderFeeds, getCachedFeeds, renderFeedsItems } from './feeds.js'
+import { loadAndRenderFeeds } from './feeds.js'
 
 const ROUTES = {
   HOME: '/',
@@ -32,18 +25,10 @@ const getRouteParams = () => {
 const normalize = str => String(str || '').toLowerCase()
 
 const filterPostsByTag = (posts, tag) =>
-  posts.filter(post =>
-    post.meta.tags?.some(t => normalize(t) === normalize(tag))
-  )
+  posts.filter(post => post.meta.tags?.some(t => normalize(t) === normalize(tag)))
 
 const routeHandlers = {
-  [ROUTES.HOME]: () => {
-    if (getDisplayedPosts() === 0) setDisplayedPosts(10)
-    const posts = getPosts()
-    const displayedCount = getDisplayedPosts()
-    renderPosts(posts, displayedCount)
-    toggleLoadMoreButton(displayedCount < posts.length)
-  },
+  [ROUTES.HOME]: () => renderPosts(getPosts()),
 
   [ROUTES.POST]: () => {
     const slug = location.pathname.split('/')[2]
@@ -52,10 +37,7 @@ const routeHandlers = {
 
   [ROUTES.TAG]: ({ params }) => {
     const tag = params.get('t')
-    if (tag) {
-      const filtered = filterPostsByTag(getPosts(), tag)
-      renderPosts(filtered, filtered.length)
-    }
+    if (tag) renderPosts(filterPostsByTag(getPosts(), tag))
   },
 
   [ROUTES.ARCHIVE]: () => {
@@ -71,18 +53,15 @@ const routeHandlers = {
       renderFilteredPosts()
     } else {
       setSearchTerm('')
-      renderPosts(getPosts(), getPosts().length)
+      renderPosts(getPosts())
     }
   },
 
   [ROUTES.READER]: async () => {
-    setDisplayedPosts(100)
     await loadAndRenderFeeds()
   },
 
-  default: () => {
-    renderNotFoundPage()
-  }
+  default: () => renderNotFoundPage()
 }
 
 let isInitialLoad = true
@@ -125,17 +104,4 @@ export function handleSearch (e) {
   }
 
   renderFilteredPosts()
-}
-
-export async function handleLoadMore () {
-  incrementDisplayedPosts()
-  const displayedCount = getDisplayedPosts()
-  if (location.pathname === ROUTES.READER) {
-    const feeds = getCachedFeeds()
-    if (feeds) renderFeedsItems(feeds)
-  } else {
-    const posts = getPosts()
-    renderPosts(posts, displayedCount)
-    toggleLoadMoreButton(displayedCount < posts.length)
-  }
 }

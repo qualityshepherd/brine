@@ -1,11 +1,9 @@
-import { readSiteIndex, setPosts, setDisplayedPosts, getPageSize } from './state.js'
+import { readSiteIndex, setPosts } from './state.js'
 import { elements } from './dom.js'
-import { handleLoadMore, handleRouting, handleSearch } from './handlers.js'
+import { handleRouting, handleSearch } from './handlers.js'
 
 function setEventListeners () {
   elements.searchInput?.addEventListener('input', handleSearch)
-  elements.loadMore?.addEventListener('click', handleLoadMore)
-
   window.addEventListener('popstate', handleRouting)
 
   document.addEventListener('click', (e) => {
@@ -92,7 +90,6 @@ const show = id => { const el = document.getElementById(id); if (el) el.hidden =
 ;(async () => {
   const index = await readSiteIndex('/index.json')
   setPosts(index)
-  setDisplayedPosts(getPageSize())
   setEventListeners()
   handleRouting()
 
