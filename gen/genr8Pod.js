@@ -54,7 +54,7 @@ export const buildPodFeed = (podcasts, cfg, lengths = {}) => {
     image: cfg.podcast?.image || (cfg.image ? `${baseUrl}${cfg.image}` : `${baseUrl}/assets/images/default.svg`),
     author: cfg.podcast?.author || cfg.author,
     explicit: cfg.podcast?.explicit || 'no',
-    email: cfg.podcast?.email || '',
+    email: cfg.podcast?.email || 'ack@brine.dev',
     category: cfg.podcast?.category || 'Leisure',
     podRss: `${baseUrl}/assets/rss/pod.xml`
   }

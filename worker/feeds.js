@@ -135,7 +135,7 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     const existing = await kv.get('feeds:list', { type: 'json' }) || []
     if (existing.some(f => f.url === feedUrl)) return json({ error: 'feed already added' }, 409)
 
-    const limit = Math.max(1, Math.min(50, parseInt(body.limit) || 10))
+    const limit = Math.max(1, Math.min(999, parseInt(body.limit) || 100))
     const title = body.title?.trim() || parsed.hostname
     const updated = [...existing, { url: feedUrl, title, limit }]
     await kv.put('feeds:list', JSON.stringify(updated))
@@ -168,7 +168,7 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     }
 
     if (typeof body.title === 'string') existing[idx].title = body.title.trim()
-    if (body.limit !== undefined) existing[idx].limit = Math.max(1, Math.min(50, parseInt(body.limit) || 10))
+    if (body.limit !== undefined) existing[idx].limit = Math.max(1, Math.min(999, parseInt(body.limit) || 100))
 
     await kv.put('feeds:list', JSON.stringify(existing))
     return json({ ok: true })
@@ -189,7 +189,7 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
       let parsed
       try { parsed = new URL(feedUrl) } catch { continue }
       if (existingUrls.has(feedUrl)) continue
-      const limit = Math.max(1, Math.min(50, parseInt(item.limit) || 10))
+      const limit = Math.max(1, Math.min(999, parseInt(item.limit) || 100))
       const title = item.title?.trim() || parsed.hostname
       existing.push({ url: feedUrl, title, limit })
       existingUrls.add(feedUrl)

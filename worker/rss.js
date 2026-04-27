@@ -55,7 +55,13 @@ const podChannelOpen = (cfg, selfFullUrl) => `<?xml version="1.0" encoding="UTF-
   <itunes:author>${escXml(cfg.title)}</itunes:author>
   <itunes:summary>${escXml(stripTags(cfg.description))}</itunes:summary>
   <itunes:explicit>false</itunes:explicit>
-  <itunes:category text="${escXml(cfg.podcastCategory || 'Technology')}"/>${cfg.image ? `\n  <itunes:image href="${escXml(cfg.image)}"/>` : ''}`
+  <itunes:category text="${escXml(cfg.podcastCategory || 'Technology')}"/>${cfg.image ? `\n  <itunes:image href="${escXml(cfg.image)}"/>` : ''}${cfg.podcastEmail
+? `
+    <itunes:owner>
+      <itunes:name>${escXml(cfg.title)}</itunes:name>
+      <itunes:email>${escXml(cfg.podcastEmail)}</itunes:email>
+    </itunes:owner>`
+: ''}`
 
 const channelClose = () => '\n</channel>\n</rss>'
 
@@ -113,7 +119,8 @@ export const handleRss = async (req, env) => {
     domain: env.DOMAIN_NAME || '',
     language: 'en-us',
     image: env.PODCAST_IMAGE || '',
-    podcastCategory: env.PODCAST_CATEGORY || ''
+    podcastCategory: env.PODCAST_CATEGORY || '',
+    podcastEmail: env.PODCAST_EMAIL || ''
   }
   const base = `https://${cfg.domain}`
   const siteImage = settings.siteImage || ''

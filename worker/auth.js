@@ -83,7 +83,12 @@ export const handleAuth = async (req, env) => {
     await kv.delete(rlKey)
     const session = makeSession()
     await writeSession(session.token, pubkey, session.expires, kv)
-    return json({ token: session.token, expires: session.expires })
+    return new Response(JSON.stringify({ token: session.token, expires: session.expires }), {
+      headers: {
+        'Content-Type': 'application/json',
+        'Set-Cookie': 'brine_skip=1; Path=/; Max-Age=31536000; SameSite=Strict; Secure'
+      }
+    })
   }
 
   if (method === 'GET' && path === '/api/me') {

@@ -101,7 +101,7 @@ export const handlePostRoute = async (req, env) => {
   const url = `${base}/posts/${post.slug}`
   const title = post.title
   const description = post.description || stripTags(post.html || '').slice(0, 200).trim()
-  const image = extractFirstImage(post.html || '', base)
+  const image = extractFirstImage(post.html || '', base) || `${base}/images/brine_wide.webp`
 
   const meta = [
     `<title>${escXml(title)}</title>`,
@@ -110,7 +110,7 @@ export const handlePostRoute = async (req, env) => {
     '<meta property="og:type" content="article">',
     description ? `<meta property="og:description" content="${escXml(description)}">` : '',
     description ? `<meta name="description" content="${escXml(description)}">` : '',
-    image ? `<meta property="og:image" content="${escXml(image)}">` : '',
+    `<meta property="og:image" content="${escXml(image)}">`,
     post.date ? `<meta property="article:published_time" content="${escXml(post.date)}">` : ''
   ].filter(Boolean).join('\n  ')
 

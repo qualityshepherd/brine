@@ -2,7 +2,7 @@ import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
 
 const SKIP_PATHS = [
   '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feedIndex.json',
-  '/index.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
+  '/index.json', '/manifest.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
 ]
 
 const SKIP_EXTENSIONS = [
@@ -20,7 +20,7 @@ const BOT_PREFIXES = [
 ]
 
 const BOT_PATHS = [
-  '%24', '%40vite', '%7b', '${', '../', '..\\',
+  '%24', '%3c', '%3e', '%40vite', '%7b', '${', '../', '..\\', '<', '"/',
   '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
   '@vite', 'actuator', 'admin', 'backup',
@@ -373,6 +373,7 @@ export async function trackHit (req, env) {
   const asn = req.cf?.asn ?? null
 
   if (path.length > 500) return
+  if (req.headers.get('cookie')?.includes('brine_skip=1')) return
 
   // RSS feed hit — intercept before classifyHit (which skips .xml extensions)
   if (path.startsWith('/assets/rss/') && path.endsWith('.xml')) {
