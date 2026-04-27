@@ -1,12 +1,12 @@
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
 
 const SKIP_PATHS = [
-  '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feedIndex.json',
+  '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feeds/aggregated', '/feedIndex.json',
   '/index.json', '/manifest.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
 ]
 
 const SKIP_EXTENSIONS = [
-  '.bak', '.css', '.ico', '.gz', '.jpg', '.js', '.mp3', '.otf', '.png', '.rar', '.svg', '.tar', '.ttf', '.woff', '.woff2', '.zip'
+  '.bak', '.css', '.ico', '.gz', '.jpg', '.js', '.mp3', '.otf', '.png', '.rar', '.svg', '.tar', '.ttf', '.webp', '.woff', '.woff2', '.zip'
 ]
 
 const BOT_PREFIXES = [
