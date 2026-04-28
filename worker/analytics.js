@@ -375,8 +375,8 @@ export async function trackHit (req, env) {
   if (path.length > 500) return
   if (req.headers.get('cookie')?.includes('brine_skip=1')) return
 
-  // RSS feed hit — intercept before classifyHit (which skips .xml extensions)
-  if (path.startsWith('/assets/rss/') && path.endsWith('.xml')) {
+  // RSS feed hit — intercept before classifyHit
+  if (path.startsWith('/rss/')) {
     const feed = path.split('/').pop()
     const parsed = parseRssSubscribers(ua)
     const ipHash = await hashIp(ip)

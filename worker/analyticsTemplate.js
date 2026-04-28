@@ -294,14 +294,15 @@ const render = (allData) => {
       }).join('')
     : \`<div class="tip-row"><span>no bots yet</span></div>\`
 
-  const rssFeeds = Object.entries(s.byRss).sort((a, b) => b[1].subscribers - a[1].subscribers)
-  const totalSubscribers = rssFeeds.reduce((sum, [, v]) => sum + v.subscribers, 0)
+  const rssFeeds = Object.entries(s.byRss).sort((a, b) => b[1].hits - a[1].hits)
+  const totalRssHits = rssFeeds.reduce((sum, [, v]) => sum + v.hits, 0)
   const rssTip = rssFeeds.length
     ? rssFeeds.map(([feed, v]) => {
+        const subs = v.subscribers > 0 ? \` · \${v.subscribers} subs\` : ''
         const aggs = Object.keys(v.aggregators).join(', ')
-        return \`<div class="tip-row"><span>\${feed}</span><strong>\${v.subscribers} \${aggs ? \`· \${aggs}\` : ''}</strong></div>\`
+        return \`<div class="tip-row"><span>📡 \${feed}\${subs}\${aggs ? \` · \${aggs}\` : ''}</span><strong>\${v.hits}</strong></div>\`
       }).join('')
-    : \`<div class="tip-row"><span>no rss subscribers yet</span></div>\`
+    : \`<div class="tip-row"><span>no rss hits yet</span></div>\`
 
   const totalDevices = s.byDevice.mobile + s.byDevice.desktop
   const mobilePct = totalDevices > 0 ? Math.round((s.byDevice.mobile / totalDevices) * 100) : null
@@ -312,7 +313,7 @@ const render = (allData) => {
     \`<div><strong>\${allData.length}</strong><span>days</span></div>\` +
     \`<div class="has-tip"><strong>\${s.totalBots}</strong><span>🤖 bots</span><div class="tip">\${botTip}</div></div>\` +
     (mobilePct !== null ? \`<div><strong>\${mobilePct}%</strong><span>📱 mobile</span></div>\` : '') +
-    (totalSubscribers > 0 || rssFeeds.length > 0 ? \`<div class="has-tip"><strong>\${totalSubscribers}</strong><span>📡 rss</span><div class="tip">\${rssTip}</div></div>\` : '')
+    (totalRssHits > 0 ? \`<div class="has-tip"><strong>\${totalRssHits}</strong><span>📡 rss</span><div class="tip">\${rssTip}</div></div>\` : '')
 
   document.getElementById('maps').innerHTML =
     \`<div>\${heatmap(s.byDow, DOW, 'dow')}</div>\` +
