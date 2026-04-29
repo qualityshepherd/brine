@@ -27,9 +27,9 @@ export const postMatchesSearch = (post, searchTerm) => {
 export const renderTags = (tags, path = '/tag') =>
   Array.isArray(tags)
     ? tags.map(tag => {
-        const safeTag = encodeURIComponent(tag.toLowerCase())
-        return `<a href="${path}?t=${safeTag}" class="tag" role="button" aria-label="Filter by tag: ${tag}">${tag}</a>`
-      }).join(' ')
+      const safeTag = encodeURIComponent(tag.toLowerCase())
+      return `<a href="${path}?t=${safeTag}" class="tag" role="button" aria-label="Filter by tag: ${tag}">${tag}</a>`
+    }).join(' ')
     : ''
 
 const disconnectObserver = () => {
@@ -83,12 +83,14 @@ export function renderArchive (posts, filter = 'all', onFilter) {
       ? all.filter(isPod)
       : all
 
-  const filterBar = hasPods ? `
+  const filterBar = hasPods
+    ? `
     <div class="archive-filters">
       <button class="archive-filter${filter === 'all' ? ' active' : ''}" data-filter="all">all</button>
       <button class="archive-filter${filter === 'blog' ? ' active' : ''}" data-filter="blog">blog</button>
       <button class="archive-filter${filter === 'pod' ? ' active' : ''}" data-filter="pod">podcast</button>
-    </div>` : ''
+    </div>`
+    : ''
 
   elements.main.innerHTML = filterBar + visible.map(archiveTemplate).join('')
 

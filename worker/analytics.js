@@ -1,8 +1,8 @@
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
 
 const SKIP_PATHS = [
-  '/.well-known', '/actor', '/api', '/favicon', '/feeds.json', '/feeds/aggregated', '/feedIndex.json',
-  '/index.json', '/manifest.json', '/nodeinfo', '/robots.txt', '/sitemap', '/src'
+  '/.well-known', '/actor', '/api', '/assets/rss/', '/favicon', '/feeds.json', '/feeds/aggregated', '/feedIndex.json',
+  '/index.json', '/manifest.json', '/nodeinfo', '/robots.txt', '/rss/', '/sitemap', '/src'
 ]
 
 const SKIP_EXTENSIONS = [
@@ -368,12 +368,16 @@ export const classifyHit = (path, ua = '', asn = null) => {
 export async function trackHit (req, env) {
   const url = new URL(req.url)
   const path = url.searchParams.get('path') || (url.pathname + (url.search || ''))
-  const ip = req.headers.get('cf-connecting-ip') || ''
+  const ip = req.cf?.clientIp ||
+    req.headers.get('cf-connecting-ip') ||
+    req.headers.get('x-forwarded-for')?.split(',')[0].trim() ||
+    null
   const ua = req.headers.get('user-agent') || ''
   const asn = req.cf?.asn ?? null
 
   if (path.length > 500) return
   if (req.headers.get('cookie')?.includes('brine_skip=1')) return
+  if (!ip) return
 
   // RSS feed hit — intercept before classifyHit
   if (path.startsWith('/rss/') || (path.startsWith('/assets/rss/') && path.endsWith('.xml'))) {

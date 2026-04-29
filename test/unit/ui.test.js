@@ -36,7 +36,6 @@ function fakeIndex () {
   ]
 }
 
-
 test('UI: postMatchesSearch should return posts with matching title', t => {
   const posts = fakeIndex()
   const result = posts.filter(post => postMatchesSearch(post, 'Post One'))

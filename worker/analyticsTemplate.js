@@ -179,7 +179,8 @@ const groupSessions = (hits) => {
     ipHits.sort((a, b) => a.ts - b.ts)
     let session = null
     for (const h of ipHits) {
-      const sameDay = session && new Date(h.ts).toDateString() === new Date(session.ts).toDateString()
+      const utcDay = ts => new Date(ts).toISOString().slice(0, 10)
+      const sameDay = session && utcDay(h.ts) === utcDay(session.ts)
       const withinGap = session && (h.ts - session.lastTs <= SESSION_GAP)
       const inSession = days === 1 ? withinGap : sameDay
       if (!session || !inSession) {
