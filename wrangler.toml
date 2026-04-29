@@ -11,7 +11,7 @@ run_worker_first = true
 [vars]
 DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
-SITE_DESCRIPTION = "I'm a blabby nerd that lives in the desert..."
+SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
 OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"  # paste your pubkey here after deriving it at /admin
 PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
@@ -52,7 +52,7 @@ crons = []
 [env.dev.vars]
 DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
-SITE_DESCRIPTION = "blabby nerd in the desert"
+SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
 OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"  # paste your pubkey here after deriving it at /admin
 PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"

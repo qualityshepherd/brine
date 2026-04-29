@@ -3,8 +3,7 @@ import { memberByToken, isOwnerPubkey } from './auth.js'
 
 const KV_KEY = 'feeds:aggregated'
 const KV_TTL = 60 * 60
-// Cache aggregated feeds for ~25h: hourly refresh means one missed cron still serves stale content
-const FEED_CACHE_TTL = KV_TTL * 25
+const FEED_CACHE_TTL = KV_TTL * 2
 // Keep feed status for 7 days so history survives missed refreshes
 const FEED_STATUS_TTL = KV_TTL * 24 * 7
 
