@@ -138,20 +138,22 @@ export const renderFeedsItems = (items) => {
   elements.main.innerHTML = ''
   let rendered = 0
 
+  // sentinel sits at the bottom; items are inserted before it so it stays at
+  // the end. IntersectionObserver fires when it enters the viewport to load the next batch.
+  const sentinel = document.createElement('div')
+  elements.main.appendChild(sentinel)
+
   const renderMore = () => {
     const batch = items.slice(rendered, rendered + PAGE)
     if (!batch.length) return
     const frag = document.createElement('div')
     frag.innerHTML = batch.map(feedsItemTemplate).join('')
-    elements.main.appendChild(frag)
+    elements.main.insertBefore(frag, sentinel)
     rendered += batch.length
   }
 
   renderMore()
   initModal()
-
-  const sentinel = document.createElement('div')
-  elements.main.appendChild(sentinel)
   feedObserver = new IntersectionObserver(entries => {
     if (!entries[0].isIntersecting) return
     if (rendered >= items.length) { feedObserver.disconnect(); feedObserver = null; sentinel.remove(); return }

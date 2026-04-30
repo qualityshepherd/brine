@@ -3,6 +3,7 @@
 // then copy it to discover and rando. Edit here only for brine-specific paths or RSS matchers.
 
 import ANALYTICS_TEMPLATE from './analyticsTemplate.js'
+import { isBot, isDatacenter, parseRssSubscribers, parseDevice, buildHit, hashIp, getSiteStub, handleAnalytics as _handleAnalytics } from './analytics-core.js'
 export {
   AnalyticsDO,
   parseRssSubscribers, parseDevice, isBot, isDatacenter,
@@ -10,7 +11,6 @@ export {
   backupKey, historicalDates,
   freshDay, buildHit, serializeDay, deserializeDay, loadDay, resetDay, applyHit, buildR2Backup
 } from './analytics-core.js'
-import { isBot, isDatacenter, parseRssSubscribers, parseDevice, buildHit, hashIp, getSiteStub, handleAnalytics as _handleAnalytics } from './analytics-core.js'
 
 const SKIP_PATHS = [
   '/.well-known', '/actor', '/api', '/assets/rss/', '/favicon', '/feeds.json', '/feeds/aggregated', '/feedIndex.json',

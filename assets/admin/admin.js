@@ -613,11 +613,13 @@ const ICON_TRASH = '<svg viewBox="0 0 24 24" width="18" height="18" fill="curren
 const ICON_CHECK = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>'
 const ICON_CLOSE = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>'
 
+const feedHostname = (url) => { try { return new URL(url).hostname } catch { return url } }
+
 const feedRow = (f) => `
   <div class="post-row feed-row" data-feed-url="${escHtml(f.url)}">
     ${statusDot(f.status)}
     <div class="post-row-title truncate">
-      <a href="${escHtml(f.url)}" target="_blank" rel="noopener" title="${escHtml(f.url)}" class="truncate">${escHtml(f.title || f.url)}</a>
+      <a href="${escHtml(f.url)}" target="_blank" rel="noopener" title="${escHtml(f.url)}" class="truncate">${escHtml(feedHostname(f.url))}</a>
     </div>
     <span class="post-row-meta">limit ${f.limit}</span>
     <div class="post-row-actions">
@@ -630,7 +632,6 @@ const feedRowEdit = (f) => `
   <div class="post-row" data-feed-url="${escHtml(f.url)}" data-editing="true">
     ${statusDot(f.status)}
     <input type="url" class="feed-edit-url" value="${escHtml(f.url)}" placeholder="https://...">
-    <input type="text" class="feed-edit-title" value="${escHtml(f.title || '')}" placeholder="title (optional)">
     <input type="number" class="feed-edit-limit" value="${f.limit}" min="1" max="50">
     <div class="post-row-actions">
       <button class="icon-btn" data-action="save" aria-label="Save">${ICON_CHECK}</button>
@@ -657,9 +658,8 @@ function bindFeedRows (el, feeds) {
       if (action === 'cancel') { row.outerHTML = feedRow(feed); bindFeedRows(el, feeds) }
       if (action === 'save') {
         const newUrl = row.querySelector('.feed-edit-url').value.trim()
-        const title = row.querySelector('.feed-edit-title').value.trim()
         const limit = parseInt(row.querySelector('.feed-edit-limit').value) || feed.limit
-        const body = { url, title, limit }
+        const body = { url, limit }
         if (newUrl && newUrl !== url) body.newUrl = newUrl
         const res = await api('PATCH', '/api/feeds', body)
         if (res.error) { showError('feeds-error', res.error); return }
@@ -675,17 +675,22 @@ function bindFeedRows (el, feeds) {
 }
 
 $('feed-url-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('btn-add-feed').click() })
-$('feed-title-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('btn-add-feed').click() })
 $('feed-limit-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('btn-add-feed').click() })
 $('btn-add-feed').addEventListener('click', async () => {
   const url = $('feed-url-input').value.trim()
   if (!url) return
   $('feeds-error').classList.add('hidden')
-  const res = await api('POST', '/api/feeds', { url, title: $('feed-title-input').value.trim(), limit: parseInt($('feed-limit-input').value) || 10 })
+  const res = await api('POST', '/api/feeds', { url, limit: parseInt($('feed-limit-input').value) || 10 })
   if (res.error) { showError('feeds-error', res.error); return }
   localStorage.setItem('feedi_feed_limit', $('feed-limit-input').value)
   $('feed-url-input').value = ''
-  $('feed-title-input').value = ''
+  await renderFeeds()
+})
+
+$('btn-delete-all-feeds').addEventListener('click', async () => {
+  if (!confirm('Delete all feeds? This cannot be undone.')) return
+  const res = await api('DELETE', '/api/feeds/all')
+  if (res.error) { showError('feeds-error', res.error); return }
   await renderFeeds()
 })
 
@@ -702,6 +707,27 @@ $('import-feeds-file').addEventListener('change', async () => {
   statusEl.classList.remove('hidden')
   $('feeds-error').classList.add('hidden')
   const res = await api('POST', '/api/feeds/import', data)
+  if (res.error) { showError('feeds-error', res.error); statusEl.classList.add('hidden'); return }
+  statusEl.textContent = `added ${res.added}, skipped ${res.skipped} duplicates`
+  await renderFeeds()
+})
+
+$('btn-import-opml').addEventListener('click', () => $('import-opml-file').click())
+$('import-opml-file').addEventListener('change', async () => {
+  const file = $('import-opml-file').files[0]
+  if (!file) return
+  $('import-opml-file').value = ''
+  const xml = await file.text()
+  const statusEl = $('feeds-import-status')
+  statusEl.textContent = 'importing…'
+  statusEl.classList.remove('hidden')
+  $('feeds-error').classList.add('hidden')
+  const defaultLimit = parseInt($('feed-limit-input').value) || 10
+  const res = await fetch(`/api/feeds/import/opml?limit=${defaultLimit}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'text/xml', Authorization: `Bearer ${token}` },
+    body: xml
+  }).then(r => r.json())
   if (res.error) { showError('feeds-error', res.error); statusEl.classList.add('hidden'); return }
   statusEl.textContent = `added ${res.added}, skipped ${res.skipped} duplicates`
   await renderFeeds()
