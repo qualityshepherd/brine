@@ -46,10 +46,16 @@ export const refreshFeeds = async (env) => {
     return
   }
 
-  const settled = await Promise.allSettled(feeds.map(fetchFeed))
-  const results = settled.map((s, i) =>
-    s.status === 'fulfilled' ? s.value : { posts: null, config: feeds[i], code: null, error: String(s.reason) }
-  )
+  // Cloudflare caps subrequests at 50/invocation — batch to stay well under
+  const BATCH = 40
+  const results = []
+  for (let i = 0; i < feeds.length; i += BATCH) {
+    const batch = feeds.slice(i, i + BATCH)
+    const settled = await Promise.allSettled(batch.map(fetchFeed))
+    results.push(...settled.map((s, j) =>
+      s.status === 'fulfilled' ? s.value : { posts: null, config: batch[j], code: null, error: String(s.reason) }
+    ))
+  }
 
   // store per-feed status only if something changed
   const now = new Date().toISOString()
