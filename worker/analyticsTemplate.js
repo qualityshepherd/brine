@@ -249,7 +249,7 @@ const renderLogs = () => {
         const locTipF = [s.city, s.region && s.region !== '?' ? s.region : null, countryName(s.country)].filter(Boolean).join(', ')
       return \`<div class="session-header" onclick="clearFilter()" style="cursor:pointer">\` +
         \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.pathTs ? s.pathTs[j] : s.ts)}</span>\` +
-        \`<span class="log-city" title="\${locTipF}">\${s.country ? flagEmoji(s.country) + ' ' : ''}\${s.city || '?'}</span>\` +
+        \`<span class="log-city" title="\${locTipF}">\${s.country ? \`<a href="https://maps.google.com/?q=\${encodeURIComponent(locTipF)}" target="_blank" onclick="event.stopPropagation()">\${flagEmoji(s.country)}</a> \` : ''}\${s.city || '?'}</span>\` +
         \`<span class="log-path" title="\${p}">\${p}</span>\` +
         \`<span class="log-ref">\${r}</span>\` +
         \`</div>\`
@@ -267,7 +267,7 @@ const renderLogs = () => {
     const locTip = [s.city, s.region && s.region !== '?' ? s.region : null, countryName(s.country)].filter(Boolean).join(', ')
     return \`<div class="session-header">\` +
       \`<span class="log-ts" title="\${s.ip || ''}">\${fmtTs(s.ts)}</span>\` +
-      \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${locTip}">\${s.country ? flagEmoji(s.country) + ' ' : ''}\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
+      \`<span class="log-city\${count > 1 ? ' active' : ''}" \${count > 1 ? \`onclick="filterIp('\${s.ip}')"\` : ''} style="\${count > 1 ? 'cursor:pointer' : ''}" title="\${locTip}">\${s.country ? \`<a href="https://maps.google.com/?q=\${encodeURIComponent(locTip)}" target="_blank" onclick="event.stopPropagation()">\${flagEmoji(s.country)}</a> \` : ''}\${s.city || '?'}\${count > 1 ? \` (\${count})\` : ''}</span>\` +
       \`<span class="log-path" title="\${firstPath}">\${firstPath}</span>\` +
       \`<span class="log-ref">\${firstRef}</span>\` +
       \`</div>\`

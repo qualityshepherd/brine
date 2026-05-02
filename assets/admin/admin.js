@@ -843,7 +843,7 @@ const analyticsRenderSessions = () => {
       const clickable = analyticsActiveIp || count > 1
       const onclick = analyticsActiveIp ? 'analyticsFilterIp(null)' : `analyticsFilterIp('${escHtml(s.ip)}')`
       const locTip = [city, region && region !== '?' ? region : null, country].filter(Boolean).join(', ')
-      const flagHtml = country ? `<span class="a-flag-emoji" title="${escHtml(locTip)}">${flag(country)}</span> ` : ''
+      const flagHtml = country ? `<a href="https://maps.google.com/?q=${encodeURIComponent(locTip)}" target="_blank" onclick="event.stopPropagation()"><span class="a-flag-emoji" title="${escHtml(locTip)}">${flag(country)}</span></a> ` : ''
       return `<div class="a-hit">
         <span class="a-ts" title="${escHtml(ip || '')}">${tsStr}</span>
         <span class="a-city${clickable ? ' multi' : ''}" onclick="${clickable ? onclick : ''}" title="${escHtml(locTip)}">${flagHtml}${escHtml(city || '?')}${count > 1 ? ` (${count})` : ''}</span>
