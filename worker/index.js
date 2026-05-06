@@ -4,7 +4,7 @@ import { handleRss } from './rss.js'
 import { handleUpload, handleServeUpload, handleListUploads } from './upload.js'
 import { handleAuth, memberByToken, isOwnerPubkey } from './auth.js'
 import { handlePosts, handleIndex } from './posts.js'
-import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute } from './seo.js'
+import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute, handleHomeRoute, handleArchiveRoute, handleTagRoute } from './seo.js'
 
 export { AnalyticsDO }
 
@@ -127,6 +127,9 @@ export default {
       return new Response(null, { status: 301, headers: { Location: path.replace('/assets/images/', '/images/') } })
     }
 
+    // Home page SSR
+    if (path === '/') return withSec(handleHomeRoute(req, env))
+
     // Post pages — inject OG meta + fix direct URL navigation
     if (path.startsWith('/posts/')) return withSec(handlePostRoute(req, env))
 
@@ -139,6 +142,12 @@ export default {
     if (PRIVATE.some(p => path === p || path.startsWith(p))) {
       return new Response('Not found', { status: 404 })
     }
+
+    // Archive SSR
+    if (path === '/archive') return withSec(handleArchiveRoute(req, env))
+
+    // Tag filter SSR
+    if (path === '/tag') return withSec(handleTagRoute(req, env))
 
     // Page routes (type:page posts at root level, e.g. /about)
     const segments = path.split('/').filter(Boolean)

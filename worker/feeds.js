@@ -198,8 +198,7 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     for (const item of body) {
       const feedUrl = item.url?.trim()
       if (!feedUrl) continue
-      let parsed
-      try { parsed = new URL(feedUrl) } catch { continue }
+      if (!URL.canParse(feedUrl)) continue
       if (existingUrls.has(feedUrl)) continue
       const limit = Math.max(1, Math.min(999, parseInt(item.limit) || 10))
       existing.push({ url: feedUrl, limit })
@@ -225,7 +224,7 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     const existingUrls = new Set(existing.map(f => f.url))
     const added = []
     for (const feedUrl of items) {
-      try { new URL(feedUrl) } catch { continue }
+      if (!URL.canParse(feedUrl)) continue
       if (existingUrls.has(feedUrl)) continue
       existing.push({ url: feedUrl, limit: defaultLimit })
       existingUrls.add(feedUrl)

@@ -159,6 +159,6 @@ const rssResponse = (xml) =>
   new Response(xml, {
     headers: {
       'Content-Type': 'application/rss+xml; charset=utf-8',
-      'Cache-Control': 'public, max-age=3600'
+      'Cache-Control': 'no-store'
     }
   })
