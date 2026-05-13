@@ -17,7 +17,7 @@ const BOT_PATHS = [
   '%24', '%3c', '%3e', '%40vite', '%7b', '${', '../', '..\\', '<', '"/',
   '.asp', '.aspx', '.aws', '.ds_store', '.env',
   '.git', '.npmrc', '.php', '.sql', '.vscode',
-  '@vite', 'actuator', 'admin', 'backup',
+  '@vite', 'actuator', 'admin', 'alvin9999', 'backup',
   'cgi-bin', 'composer.json', 'computemetadata', 'config',
   'console/', 'credentials', 'debug.log',
   'ediscovery', 'ecp/current', 'graphql',
