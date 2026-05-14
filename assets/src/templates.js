@@ -3,6 +3,8 @@ import { stripHtml, blurb, extractFirstImage } from './feedRules.js'
 
 const isPodcast = post => !!post.meta.audioUrl
 
+const fmtDate = str => str ? str.slice(0, 10) : ''
+
 const subscribeLink = post => {
   if (post.meta.page) return '' // no link on pages
   const href = isPodcast(post) ? '/rss/pod' : '/rss/blog'
@@ -21,7 +23,7 @@ export const postsTemplate = post => {
     <a href="/posts/${post.meta.slug}" role="button" aria-label="post-title">
       <h2 class="post-title">${post.meta.title}</h2>
     </a>
-    ${post.meta.page ? '' : `<div class="date">${post.meta.date}</div>`}
+    ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div>${preview}</div>
     ${truncated ? `<div class="post-break"><a class="read-more" href="/posts/${post.meta.slug}">read more</a></div>` : ''}
     ${!truncated && post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:0.5rem 0 1rem"></audio>` : ''}
@@ -33,7 +35,7 @@ export const postsTemplate = post => {
 export const singlePostTemplate = post => `
   <article class="post">
     <h2>${post.meta.title}</h2>
-    ${post.meta.page ? '' : `<div class="date">${post.meta.date}</div>`}
+    ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
     ${post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:1rem 0"></audio>` : ''}
     ${post.meta.page ? '' : `<div class="tags">${renderTags(post.meta.tags)} ${subscribeLink(post)}</div>`}
@@ -47,7 +49,7 @@ export const notFoundTemplate = (message = 'No results found.') => `
 export const archiveTemplate = post => `
   <p${post.meta.audioUrl ? ' class="archive-pod"' : ''}>
     <a href="/posts/${post.meta.slug}"><span class="archive">${post.meta.title}</span></a>
-    <span class="date">${post.meta.date}</span>
+    <span class="date">${fmtDate(post.meta.date)}</span>
   </p>
 `
 

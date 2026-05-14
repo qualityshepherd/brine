@@ -108,7 +108,7 @@ export const handlePosts = async (req, env) => {
     const existing = await getPost(kv, slug)
     if (existing) return json({ error: 'slug already exists' }, 409)
 
-    const now = new Date().toISOString().slice(0, 10)
+    const now = new Date().toISOString()
     const post = {
       slug,
       title,
@@ -149,7 +149,7 @@ export const handlePosts = async (req, env) => {
       tags: tags ?? post.tags,
       date: date || post.date,
       status: status ?? post.status,
-      updatedAt: new Date().toISOString().slice(0, 10),
+      updatedAt: new Date().toISOString(),
       audioUrl: audioUrl !== undefined ? audioUrl.trim() : (post.audioUrl || ''),
       type: type === 'page' ? 'page' : (post.type || 'post')
     }
@@ -224,7 +224,7 @@ export const handlePosts = async (req, env) => {
     try { posts = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
     if (!Array.isArray(posts)) return json({ error: 'expected array of posts' }, 400)
 
-    const now = new Date().toISOString().slice(0, 10)
+    const now = new Date().toISOString()
     let imported = 0
     const errors = []
 
