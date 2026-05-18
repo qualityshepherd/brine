@@ -157,7 +157,7 @@ const refreshDraftItems = () => {
     container.className = 'draft-items'
     card.appendChild(container)
   }
-  container.innerHTML = draftRowsHtml(drafts)
+  container.innerHTML = `<div class="draft-label">${drafts.length} draft${drafts.length === 1 ? '' : 's'}</div>` + draftRowsHtml(drafts)
 }
 
 const uploadImage = async (file) => {
@@ -217,7 +217,13 @@ const openBlogEdit = async (preloadSlug = null) => {
   renderEditorView(preloadSlug)
 }
 
+const hasUnsavedChanges = () => {
+  const ta = document.getElementById('blog-editor')
+  return ta && ta.value.trim() !== editorState.original.trim()
+}
+
 const closeBlogEdit = (reload = false) => {
+  if (!reload && hasUnsavedChanges() && !confirm('You have unsaved changes. Close anyway?')) return
   const returnPath = editorState.returnPath || '/'
   editorState.returnPath = '/'
   if (reload) {
@@ -292,7 +298,16 @@ export function initEditor () {
     location.reload()
   })
 
+  window.addEventListener('beforeunload', e => {
+    if (document.getElementById('blog-edit-card') && hasUnsavedChanges()) e.preventDefault()
+  })
+
   document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.key === 'S') {
+      e.preventDefault()
+      if (document.getElementById('blog-edit-card')) handleBlogSave('draft')
+      return
+    }
     if (e.key !== 'Escape') return
     if (document.getElementById('blog-edit-card')) { closeBlogEdit(); return }
     closeSettingsCard()

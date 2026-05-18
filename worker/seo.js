@@ -48,7 +48,7 @@ const singlePostHtml = (post) => `
 const archiveItemHtml = (post) => `
   <p${post.meta.audioUrl ? ' class="archive-pod"' : ''}>
     <a href="/posts/${post.meta.slug}"><span class="archive">${post.meta.title}</span></a>
-    <span class="date">${post.meta.date}</span>
+    <span class="date">${fmtDate(post.meta.date)}</span>
   </p>`
 
 const injectContent = (html, contentHtml) =>
