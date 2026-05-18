@@ -22,8 +22,8 @@ export const postsTemplate = post => {
 }
 
 export const singlePostTemplate = post => `
-  <article class="post${post.meta.page ? ' is-page' : ''}" data-slug="${post.meta.slug}">
-    <h2 class="${post.meta.page ? '' : 'single-title'}">${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
+  <article class="post" data-slug="${post.meta.slug}">
+    <h2>${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
   </article>
@@ -67,7 +67,7 @@ const safeUrl = (url) => {
 export const feedsItemTemplate = (item) => {
   const url = safeUrl(item.url)
   const domain = feedDomain(url)
-  const avatar = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=16` : ''
+  const avatar = domain ? `https://icons.duckduckgo.com/ip3/${domain}.ico` : ''
   const dateStr = formatDate(item.date)
   const thumb = item.imageUrl || extractFirstImage(item.content || '') || thumbPlaceholder(domain)
   const text = blurb(item.content || '')

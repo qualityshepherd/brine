@@ -1,6 +1,11 @@
 import { getAllPosts, getPostBySlug, buildIndex, renderHtml } from './posts.js'
 import { escXml, stripTags } from './utils.js'
+
 const fmtDate = str => str ? str.slice(0, 10) : ''
+const resolveUrl = (url, base) => {
+  if (!url) return ''
+  return url.startsWith('http://') || url.startsWith('https://') ? url : `${base}${url.startsWith('/') ? '' : '/'}${url}`
+}
 
 const getAllPublished = async (db) => {
   const posts = await getAllPosts(db)
@@ -72,6 +77,7 @@ export const handlePageRoute = async (req, env) => {
   const base = new URL(req.url).origin
   const entry = toIndexEntry(post)
   const description = post.description || stripTags(entry.html).slice(0, 200).trim()
+  const image = resolveUrl(post.imageUrl, base) || extractFirstImage(entry.html, base)
 
   const meta = [
     `<title>${escXml(post.title)}</title>`,
@@ -79,7 +85,8 @@ export const handlePageRoute = async (req, env) => {
     `<meta property="og:url" content="${escXml(`${base}/${post.slug}`)}">`,
     '<meta property="og:type" content="article">',
     description ? `<meta property="og:description" content="${escXml(description)}">` : '',
-    description ? `<meta name="description" content="${escXml(description)}">` : ''
+    description ? `<meta name="description" content="${escXml(description)}">` : '',
+    image ? `<meta property="og:image" content="${escXml(image)}">` : ''
   ].filter(Boolean).join('\n  ')
 
   return new Response(injectContent(html
@@ -138,7 +145,7 @@ export const handlePostRoute = async (req, env) => {
   const base = new URL(req.url).origin
   const entry = toIndexEntry(post)
   const description = post.description || stripTags(entry.html).slice(0, 200).trim()
-  const image = extractFirstImage(entry.html, base)
+  const image = resolveUrl(post.imageUrl, base) || extractFirstImage(entry.html, base)
 
   const meta = [
     `<title>${escXml(post.title)}</title>`,

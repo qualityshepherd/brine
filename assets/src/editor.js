@@ -262,12 +262,13 @@ const handleBlogSave = async (action) => {
 
   if (btn) { btn.textContent = 'saved!'; setTimeout(() => syncActions(), 1500) }
 
+  const prevSlug = editorState.slug
   const slug = result.slug
   editorState.slug = slug
   editorState.original = markdown
-  const idx = editorState.list.findIndex(p => p.slug === slug)
+  const idx = editorState.list.findIndex(p => p.slug === prevSlug || p.slug === slug)
   if (idx !== -1) {
-    editorState.list[idx] = { ...editorState.list[idx], markdown, title: result.title, type, status }
+    editorState.list[idx] = { ...editorState.list[idx], slug, markdown, title: result.title, type, status }
   } else {
     editorState.list.push(result)
   }
