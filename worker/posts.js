@@ -1,6 +1,6 @@
 import { marked } from 'marked'
 import { memberByToken, isOwnerPubkey } from './auth.js'
-import { json } from './utils.js'
+import { json, getTokenFromRequest } from './utils.js'
 
 export const slugify = (title) =>
   title
@@ -198,9 +198,11 @@ const updatePost = async (req, env, slug, pubkey, isOwner) => {
   const newSlug = slugify(title) || slug
   const newStatus = status ?? post.status
   const now = new Date().toISOString()
-  const publishDate = bodyDate
-    ? new Date(bodyDate + 'T00:00:00Z').toISOString()
-    : post.date || (newStatus === 'published' ? now : null)
+  const publishDate = (() => {
+    if (!bodyDate) return post.date || (newStatus === 'published' ? now : null)
+    if (bodyDate === post.date?.slice(0, 10)) return post.date
+    return new Date(bodyDate + 'T00:00:00Z').toISOString()
+  })()
 
   await env.DB.prepare(`
     UPDATE posts SET slug = ?, title = ?, markdown = ?, html = ?, description = ?, image_url = ?,
@@ -304,8 +306,7 @@ export const handlePosts = async (req, env) => {
   const path = url.pathname
   const method = req.method
 
-  const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-  const pubkey = await memberByToken(token, env.DB)
+  const pubkey = await memberByToken(getTokenFromRequest(req), env.DB)
   if (!pubkey) return json({ error: 'unauthorized' }, 401)
 
   const isOwner = isOwnerPubkey(pubkey, env)

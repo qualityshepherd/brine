@@ -3,6 +3,7 @@ import { handleFeeds, refreshFeeds, handleFeedsAdmin } from './feeds.js'
 import { handleRss, refreshRss } from './rss.js'
 import { handleUpload, handleServeUpload } from './upload.js'
 import { handleAuth, memberByToken, isOwnerPubkey, timingSafeEqual } from './auth.js'
+import { getTokenFromRequest } from './utils.js'
 import { handlePosts, handleIndex, getSettings } from './posts.js'
 import { handleFullBackup } from './backup.js'
 import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute, handleHomeRoute, handleArchiveRoute, handleTagRoute } from './seo.js'
@@ -14,7 +15,7 @@ const json = (data, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json' } })
 
 // These /api/* paths are intentionally public (no token required)
-const PUBLIC_API = new Set(['/api/challenge', '/api/login', '/api/me', '/api/hit', '/api/analytics/migrate'])
+const PUBLIC_API = new Set(['/api/challenge', '/api/login', '/api/logout', '/api/me', '/api/hit', '/api/analytics/migrate'])
 
 const PRIVATE = [
   '/worker/', '/test/', '/node_modules/',
@@ -76,8 +77,7 @@ async function handleRequest (req, env, ctx) {
   let _pubkey
   const getAuth = async () => {
     if (_pubkey === undefined) {
-      const token = req.headers.get('authorization')?.replace('Bearer ', '')
-      _pubkey = token ? await memberByToken(token, env.DB) : null
+      _pubkey = await memberByToken(getTokenFromRequest(req), env.DB)
     }
     return _pubkey
   }
@@ -126,7 +126,7 @@ async function handleRequest (req, env, ctx) {
   }
 
   // Auth routes
-  if (path === '/api/challenge' || path === '/api/login' || path === '/api/me') {
+  if (path === '/api/challenge' || path === '/api/login' || path === '/api/logout' || path === '/api/me') {
     return handleAuth(req, env)
   }
 

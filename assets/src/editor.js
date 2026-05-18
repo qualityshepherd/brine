@@ -3,19 +3,16 @@ import { getPosts } from './state.js'
 import { elements } from './dom.js'
 import { marked } from 'marked'
 
-const getToken = () => localStorage.getItem('feedi_token')
-
 const apiFetch = async (path, method, body) => {
-  const token = getToken()
-  const opts = { method, headers: { Authorization: `Bearer ${token}` } }
+  const opts = { method }
   if (body) {
-    opts.headers['Content-Type'] = 'application/json'
+    opts.headers = { 'Content-Type': 'application/json' }
     opts.body = JSON.stringify(body)
   }
   try {
     const res = await fetch(path, opts)
     const data = await res.json()
-    if (res.status === 401) { localStorage.removeItem('feedi_token'); location.reload(); return { error: 'unauthorized' } }
+    if (res.status === 401) { location.reload(); return { error: 'unauthorized' } }
     if (!res.ok) return { error: data.error || `HTTP ${res.status}` }
     return data
   } catch (err) {
@@ -75,7 +72,7 @@ const syncActions = () => {
   if (publishBtn) publishBtn.textContent = post?.status === 'published' ? 'update' : 'publish'
   if (draftBtn) {
     draftBtn.hidden = !!(isPage)
-    if (!draftBtn.hidden) draftBtn.textContent = post?.status === 'published' ? 'make draft' : 'save draft'
+    if (!draftBtn.hidden) draftBtn.textContent = post?.status === 'published' ? 'unpublish' : 'save draft'
   }
   if (deleteBtn) deleteBtn.hidden = !editorState.slug
 }
@@ -179,7 +176,7 @@ const refreshDraftItems = () => {
 const uploadImage = async (file) => {
   const form = new FormData()
   form.append('file', file)
-  const res = await fetch('/api/upload', { method: 'POST', headers: { Authorization: `Bearer ${getToken()}` }, body: form })
+  const res = await fetch('/api/upload', { method: 'POST', body: form })
   const data = await res.json()
   if (!res.ok) throw new Error(data.error || `upload failed ${res.status}`)
   return data.url
@@ -341,9 +338,8 @@ async function downloadBackup (btn) {
   btn.disabled = true
   btn.textContent = 'backing up…'
   try {
-    const token = getToken()
-    const res = await fetch('/api/backup/full', { headers: { Authorization: `Bearer ${token}` } })
-    if (res.status === 401) { localStorage.removeItem('feedi_token'); location.reload(); return }
+    const res = await fetch('/api/backup/full')
+    if (res.status === 401) { location.reload(); return }
     if (!res.ok) throw new Error(`server error ${res.status}`)
     const blob = await res.blob()
     const ts = new Date().toISOString().slice(0, 10)
@@ -502,8 +498,6 @@ export function initLoginModal () {
         body: JSON.stringify({ pubkey, challenge, sig })
       }).then(r => r.json())
       if (res.error) throw new Error(res.error)
-      localStorage.setItem('feedi_token', res.token)
-      localStorage.setItem('feedi_pubkey', pubkey)
       close()
       initEditor()
     } catch (e) {
@@ -522,8 +516,6 @@ export function initBlogCog () {
 }
 
 export function initEditor () {
-  if (!getToken()) return
-
   document.body.classList.add('is-owner')
   document.getElementById('kebab-owner-items').hidden = false
   document.getElementById('kebab-guest-items').hidden = true
@@ -537,9 +529,8 @@ export function initEditor () {
     openSettingsCard()
   })
 
-  document.getElementById('btn-sign-out')?.addEventListener('click', () => {
-    localStorage.removeItem('feedi_token')
-    document.cookie = 'feedi_skip=1; path=/; max-age=0'
+  document.getElementById('btn-sign-out')?.addEventListener('click', async () => {
+    await fetch('/api/logout', { method: 'POST' }).catch(() => {})
     location.reload()
   })
 

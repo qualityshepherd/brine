@@ -2,6 +2,7 @@ import {
   verifyChallenge, makeSession, isSessionValid,
   isValidToken, scorePassphrase
 } from '../assets/lib/keys.js'
+import { getTokenFromRequest } from './utils.js'
 
 export { scorePassphrase, isValidToken, makeSession, isSessionValid }
 
@@ -25,8 +26,7 @@ export const isOwnerPubkey = (pubkey, env) =>
   !!(pubkey && env.OWNER && pubkey === env.OWNER.trim())
 
 export const requireOwner = async (req, env) => {
-  const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-  const pubkey = token ? await memberByToken(token, env.DB) : null
+  const pubkey = await memberByToken(getTokenFromRequest(req), env.DB)
   return (pubkey && isOwnerPubkey(pubkey, env)) ? pubkey : null
 }
 
@@ -102,18 +102,24 @@ export const handleAuth = async (req, env) => {
     await db.prepare('DELETE FROM rate_limits WHERE key = ?').bind(rlKey).run()
     const session = makeSession()
     await writeSession(session.token, pubkey, session.expires, db)
-    return new Response(JSON.stringify({ token: session.token, expires: session.expires }), {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Set-Cookie': 'feedi_skip=1; Path=/; Max-Age=31536000; SameSite=Strict; Secure'
-      }
-    })
+    const maxAge = Math.floor((session.expires - Date.now()) / 1000)
+    const headers = new Headers({ 'Content-Type': 'application/json' })
+    headers.append('Set-Cookie', `feedi_token=${session.token}; Path=/; Max-Age=${maxAge}; SameSite=Strict; Secure; HttpOnly`)
+    headers.append('Set-Cookie', `feedi_skip=1; Path=/; Max-Age=${maxAge}; SameSite=Strict; Secure`)
+    return new Response(JSON.stringify({ ok: true, expires: session.expires }), { status: 200, headers })
+  }
+
+  if (method === 'POST' && path === '/api/logout') {
+    const token = getTokenFromRequest(req)
+    if (token) await db.prepare('DELETE FROM sessions WHERE token = ?').bind(token).run().catch(() => {})
+    const headers = new Headers({ 'Content-Type': 'application/json' })
+    headers.append('Set-Cookie', 'feedi_token=; Path=/; Max-Age=0; SameSite=Strict; Secure; HttpOnly')
+    headers.append('Set-Cookie', 'feedi_skip=1; Path=/; Max-Age=0; SameSite=Strict; Secure')
+    return new Response(JSON.stringify({ ok: true }), { status: 200, headers })
   }
 
   if (method === 'GET' && path === '/api/me') {
-    const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-    const pubkey = await memberByToken(token, db)
+    const pubkey = await memberByToken(getTokenFromRequest(req), db)
     if (!pubkey) return json({ error: 'unauthorized' }, 401)
     return json({ pubkey, isOwner: isOwnerPubkey(pubkey, env) })
   }

@@ -43,7 +43,10 @@ export function sortByDate (posts, desc = true) {
 }
 
 function parseDate (str) {
-  return str ? new Date(str.replace(/-/g, '/')) : new Date(0)
+  if (!str) return new Date(0)
+  const normalized = /^\d{4}-\d{2}-\d{2}$/.test(str) ? str + 'T00:00:00Z' : str
+  const d = new Date(normalized)
+  return isNaN(d) ? new Date(0) : d
 }
 
 function validateResponse (res) {
