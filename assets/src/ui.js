@@ -98,7 +98,7 @@ export function renderArchive (posts, filter = 'all', onFilter) {
     </div>`
     : ''
 
-  const isOwner = !!localStorage.getItem('feedi_token')
+  const isOwner = document.cookie.includes('feedi_skip=1')
   elements.main.innerHTML = '<h2>archive</h2>' + filterBar + visible.map(p => archiveTemplate(p, isOwner)).join('')
 
   if (onFilter) {

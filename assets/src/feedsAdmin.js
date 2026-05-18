@@ -1,18 +1,6 @@
 import { loadAndRenderFeeds, resetFeedsCache, setCachedFeeds } from './feeds.js'
 import { elements } from './dom.js'
-
-const getToken = () => localStorage.getItem('feedi_token')
-
-const apiFetch = async (path, method, body) => {
-  const token = getToken()
-  const opts = { method, headers: { Authorization: `Bearer ${token}` } }
-  if (body !== undefined) {
-    opts.headers['Content-Type'] = 'application/json'
-    opts.body = JSON.stringify(body)
-  }
-  const res = await fetch(path, opts)
-  return res.json()
-}
+import { apiFetch } from './api.js'
 
 const hostname = url => { try { return new URL(url).hostname } catch { return url } }
 
@@ -157,11 +145,8 @@ const handleImportOpml = () => {
     const file = input.files[0]
     if (!file) return
     const xml = await file.text()
-    const result = await fetch('/api/feeds/import/opml', {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${getToken()}`, 'Content-Type': 'text/xml' },
-      body: xml
-    }).then(r => r.json())
+    const res = await fetch('/api/feeds/import/opml', { method: 'POST', headers: { 'Content-Type': 'text/xml' }, body: xml })
+    const result = await res.json()
     if (result.error) { alert(result.error); return }
     const data = await apiFetch('/api/feeds', 'GET')
     feedsList = Array.isArray(data) ? data : []

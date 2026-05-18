@@ -1,31 +1,29 @@
-const initialState = {
-  posts: [],
-  searchTerm: ''
-}
+let posts = []
+let searchTerm = ''
 
-let currentState = { ...initialState }
+export const getPosts = () => [...posts]
+export const getSearchTerm = () => searchTerm
+export const getState = () => ({ posts: [...posts], searchTerm })
 
-export const getState = () => ({ ...currentState })
-export const getPosts = () => [...currentState.posts]
-export const getSearchTerm = () => currentState.searchTerm
+export const setPosts = (p) => { posts = [...p] }
+export const setSearchTerm = (t) => { searchTerm = t }
 
 export const updateState = (updates) => {
-  currentState = { ...currentState, ...updates }
+  if (updates.posts !== undefined) posts = [...updates.posts]
+  if (updates.searchTerm !== undefined) searchTerm = updates.searchTerm
   return getState()
 }
 
-export const setPosts = (posts) => updateState({ posts: [...posts] })
-export const setSearchTerm = (term) => updateState({ searchTerm: term })
-
 export const resetState = () => {
-  currentState = { ...initialState }
+  posts = []
+  searchTerm = ''
   return getState()
 }
 
 export async function readSiteIndex (pathToIndex) {
   try {
     const res = await fetch(pathToIndex, { cache: 'no-store' })
-    validateResponse(res)
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const index = await res.json()
     return sortByDate(index)
   } catch (err) {
@@ -47,8 +45,4 @@ function parseDate (str) {
   const normalized = /^\d{4}-\d{2}-\d{2}$/.test(str) ? str + 'T00:00:00Z' : str
   const d = new Date(normalized)
   return isNaN(d) ? new Date(0) : d
-}
-
-function validateResponse (res) {
-  if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`)
 }

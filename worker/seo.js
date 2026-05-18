@@ -1,5 +1,6 @@
 import { getAllPosts, getPostBySlug, buildIndex, renderHtml } from './posts.js'
 import { escXml, stripTags } from './utils.js'
+const fmtDate = str => str ? str.slice(0, 10) : ''
 
 const getAllPublished = async (db) => {
   const posts = await getAllPosts(db)
@@ -19,7 +20,7 @@ const toIndexEntry = (post) => ({
     audioUrl: post.audioUrl || '',
     page: post.type === 'page'
   },
-  html: renderHtml(post.markdown)
+  html: post.html || renderHtml(post.markdown)
 })
 
 const postCardHtml = (post) => {
@@ -31,7 +32,7 @@ const postCardHtml = (post) => {
     <a href="/posts/${post.meta.slug}" role="button" aria-label="post-title">
       <h2 class="post-title">${post.meta.title}</h2>
     </a>
-    ${post.meta.page ? '' : `<div class="date">${post.meta.date}</div>`}
+    ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div>${preview}</div>
     ${truncated ? `<div class="post-break"><a class="read-more" href="/posts/${post.meta.slug}">read more</a></div>` : ''}
   </div>`
@@ -39,8 +40,8 @@ const postCardHtml = (post) => {
 
 const singlePostHtml = (post) => `
   <article class="post">
-    <h2 class="${post.meta.page ? '' : 'single-title'}">${post.meta.title}</h2>
-    ${post.meta.page ? '' : `<div class="date">${post.meta.date}</div>`}
+    <h2>${post.meta.title}</h2>
+    ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
   </article>`
 

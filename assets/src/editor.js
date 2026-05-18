@@ -5,7 +5,7 @@ import { marked } from 'marked'
 import { apiFetch } from './api.js'
 import {
   openSettingsCard, closeSettingsCard,
-  cacheBust, saveSettings,
+  saveSettings,
   downloadBackup, restoreBackup, deleteAllPosts
 } from './settings.js'
 
@@ -107,7 +107,7 @@ const readMeta = () => ({
   imageUrl: document.getElementById('meta-image')?.value?.trim() || undefined
 })
 
-const autoSave = async () => {
+const saveDraftOnSwitch = async () => {
   const ta = document.getElementById('blog-editor')
   if (!ta) return
   const markdown = ta.value.trim()
@@ -319,7 +319,7 @@ export function initEditor () {
       resetNewPost()
       return
     }
-    if (action === 'load-draft') { await autoSave(); populateEditor(btn.dataset.slug); return }
+    if (action === 'load-draft') { await saveDraftOnSwitch(); populateEditor(btn.dataset.slug); return }
     if (action === 'backup') { downloadBackup(btn); return }
     if (action === 'upload-post-image') {
       const input = document.createElement('input')
@@ -347,7 +347,6 @@ export function initEditor () {
     }
     if (action === 'restore') { restoreBackup(btn); return }
     if (action === 'delete-all') { await deleteAllPosts(btn); return }
-    if (action === 'cache-bust') { await cacheBust(btn); return }
     if (action === 'save-settings') { await saveSettings(); return }
     if (action === 'blog-preview') {
       const ta = document.getElementById('blog-editor')

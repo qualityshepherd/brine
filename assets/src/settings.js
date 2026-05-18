@@ -1,4 +1,5 @@
 import { apiFetch } from './api.js'
+import { elements } from './dom.js'
 
 export const settingsCardHtml = (s = {}) => `
   <div id="settings-card">
@@ -7,7 +8,6 @@ export const settingsCardHtml = (s = {}) => `
       <button class="settings-btn settings-btn-primary" data-action="save-settings">save</button>
     </div>
     <div class="settings-utils">
-      <button class="settings-btn settings-btn-muted" data-action="cache-bust">bust cache</button>
       <button class="settings-btn settings-btn-muted" data-action="backup">full backup</button>
       <button class="settings-btn settings-btn-muted" data-action="restore">import posts</button>
       <button class="settings-btn settings-btn-danger" data-action="delete-all">delete all posts</button>
@@ -39,21 +39,12 @@ export const settingsCardHtml = (s = {}) => `
   </div>`
 
 export async function openSettingsCard () {
-  const { elements } = await import('./dom.js')
   const settings = await apiFetch('/api/settings', 'GET')
   elements.main.innerHTML = settingsCardHtml(settings?.error ? {} : settings)
 }
 
 export function closeSettingsCard () {
   window.dispatchEvent(new PopStateEvent('popstate'))
-}
-
-export async function cacheBust (btn) {
-  btn.disabled = true
-  const orig = btn.textContent
-  await apiFetch('/api/cache/bust', 'POST')
-  btn.textContent = 'busted!'
-  setTimeout(() => { btn.textContent = orig; btn.disabled = false }, 2000)
 }
 
 export async function saveSettings () {
