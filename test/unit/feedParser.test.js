@@ -127,7 +127,6 @@ test('FeedParser: parseFeed rss item has correct url', t => {
 
 test('FeedParser: parseFeed rss item has feed metadata', t => {
   const [first] = parseFeed(rssXml, feedConfig)
-  t.is(first.feed.title, 'Test Blog')
   t.is(first.feed.url, feedConfig.url)
 })
 
@@ -263,7 +262,7 @@ test('FeedParser: aggregateFeeds handles empty feed results', t => {
 
 // image pipeline
 
-test('FeedParser: parseFeed includes media:content image in content', t => {
+test('FeedParser: parseFeed includes media:content image in imageUrl', t => {
   const xml = `<rss version="2.0"><channel><title>Blog</title>
     <item>
       <title>Post</title>
@@ -274,7 +273,7 @@ test('FeedParser: parseFeed includes media:content image in content', t => {
     </item>
   </channel></rss>`
   const [post] = parseFeed(xml, { url: 'https://example.com/feed.xml' })
-  t.ok(post.content.includes('https://example.com/hero.jpg'))
+  t.is(post.imageUrl, 'https://example.com/hero.jpg')
 })
 
 test('FeedParser: parseFeed img in content:encoded is found by extractFirstImage', t => {

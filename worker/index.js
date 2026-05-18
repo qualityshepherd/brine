@@ -1,6 +1,6 @@
 import { trackHit, handleAnalytics, handleAnalyticsMigrate } from './analytics.js'
 import { handleFeeds, refreshFeeds, handleFeedsAdmin } from './feeds.js'
-import { handleRss } from './rss.js'
+import { handleRss, refreshRss } from './rss.js'
 import { handleUpload, handleServeUpload } from './upload.js'
 import { handleAuth, memberByToken, isOwnerPubkey, timingSafeEqual } from './auth.js'
 import { handlePosts, handleIndex, getSettings } from './posts.js'
@@ -22,10 +22,21 @@ const PRIVATE = [
   '/README.md', '/LICENSE'
 ]
 
+const addSecurityHeaders = (res) => {
+  if (!res) return res
+  const ct = res.headers.get('Content-Type') || ''
+  if (!ct.includes('text/html')) return res
+  const h = new Headers(res.headers)
+  h.set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src * data: blob:; media-src *; connect-src 'self'; frame-src https://www.youtube.com https://player.vimeo.com; frame-ancestors 'none'")
+  h.set('X-Content-Type-Options', 'nosniff')
+  h.set('Referrer-Policy', 'strict-origin-when-cross-origin')
+  return new Response(res.body, { status: res.status, headers: h })
+}
+
 export default {
   async fetch (req, env, ctx) {
     try {
-      return await handleRequest(req, env, ctx)
+      return addSecurityHeaders(await handleRequest(req, env, ctx))
     } catch (err) {
       console.error('Worker error:', err)
       return new Response(JSON.stringify({ error: err.message || 'internal error' }), {
@@ -39,6 +50,7 @@ export default {
     const now = Date.now()
     ctx.waitUntil(Promise.all([
       refreshFeeds(env).catch(err => console.error('Feed refresh failed:', err)),
+      refreshRss(env).catch(err => console.error('RSS refresh failed:', err)),
       env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
       env.DB.prepare('DELETE FROM rate_limits WHERE reset_at < ?').bind(now).run().catch(() => {}),
       env.DB.prepare('DELETE FROM hits WHERE ts < ?').bind(now - 365 * 86400000).run().catch(() => {})
@@ -95,7 +107,7 @@ async function handleRequest (req, env, ctx) {
   }
 
   if (path.startsWith('/rss/')) {
-    return handleRss(req, env)
+    return handleRss(req, env, ctx)
   }
 
   if (path === '/api/upload' && req.method === 'POST') {
@@ -130,7 +142,9 @@ async function handleRequest (req, env, ctx) {
 
   // Posts API (authed)
   if (path === '/api/posts' || path.startsWith('/api/posts/') || path === '/api/backup' || path === '/api/settings') {
-    return handlePosts(req, env)
+    const res = await handlePosts(req, env)
+    if (res && req.method !== 'GET') ctx.waitUntil(refreshRss(env))
+    return res
   }
 
   // Worker-generated index (replaces static index.json)

@@ -51,7 +51,7 @@ const splitItems = (xml) => {
   return items
 }
 
-const parseRssItem = (itemXml, feedMeta, isPodcast = false) => {
+const parseRssItem = (itemXml, feedMeta) => {
   const enclosureUrl = extractAttr(itemXml, 'enclosure', 'url')
   const enclosureType = extractAttr(itemXml, 'enclosure', 'type') || ''
   const isAudioEnclosure = enclosureType.startsWith('audio/')
@@ -65,17 +65,15 @@ const parseRssItem = (itemXml, feedMeta, isPodcast = false) => {
     : (enclosureUrl && isImageEnclosure && !content.includes(enclosureUrl))
         ? enclosureUrl
         : ''
-  const imgTag = imgUrl ? `<img src="${imgUrl}" loading="lazy" style="max-width:100%;display:block;margin-top:0.5em;">` : ''
-  const audioTag = enclosureUrl && isPodcast && isAudioEnclosure && !content.includes('<audio')
-    ? `<audio controls src="${enclosureUrl}" style="width:100%;margin-top:1em;"></audio>`
-    : ''
   const rawTitle = decodeEntities(extractCdata(extractTag(itemXml, 'title')))
   const title = rawTitle || feedMeta.title || ''
   return {
     title,
     url: extractCdata(extractTag(itemXml, 'link')).replace(/<[^>]+>/g, '').trim(),
     date: extractTag(itemXml, 'pubDate') || extractTag(itemXml, 'dc:date') || '',
-    content: content + imgTag + audioTag,
+    content,
+    imageUrl: imgUrl,
+    audioUrl: enclosureUrl && isAudioEnclosure ? enclosureUrl : '',
     author: extractCdata(extractTag(itemXml, 'dc:creator') || extractTag(itemXml, 'author')),
     feed: feedMeta
   }
@@ -97,11 +95,18 @@ const parseAtomEntry = (entryXml, feedMeta) => {
     ? `<a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" loading="lazy" style="max-width:100%;display:block;margin:0 auto;"></a>`
     : ''
   const content = extractCdata(extractTag(entryXml, 'content') || extractTag(entryXml, 'summary'))
+  const enclosureUrl =
+    entryXml.match(/<link[^>]*rel=["']enclosure["'][^>]*href=["']([^"']+)["']/i)?.[1] ||
+    entryXml.match(/<link[^>]*href=["']([^"']+)["'][^>]*rel=["']enclosure["']/i)?.[1] || ''
+  const enclosureType =
+    entryXml.match(/<link[^>]*rel=["']enclosure["'][^>]*type=["']([^"']+)["']/i)?.[1] ||
+    entryXml.match(/<link[^>]*type=["']([^"']+)["'][^>]*rel=["']enclosure["']/i)?.[1] || ''
   return {
     title: decodeEntities(extractCdata(extractTag(entryXml, 'title'))),
     url: extractAtomLink(entryXml) || extractCdata(extractTag(entryXml, 'link')),
     date: extractTag(entryXml, 'published') || extractTag(entryXml, 'updated') || '',
     content: thumbnail + content,
+    audioUrl: enclosureUrl && enclosureType.startsWith('audio/') ? enclosureUrl : '',
     author: extractCdata(extractTag(extractTag(entryXml, 'author'), 'name')),
     feed: feedMeta
   }
@@ -110,11 +115,10 @@ const parseAtomEntry = (entryXml, feedMeta) => {
 // Public API
 
 export const parseFeed = (xml, feedConfig) => {
-  const feedMeta = { title: parseFeedTitle(xml, feedConfig.url), url: feedConfig.url }
-  const isPodcast = xml.includes('xmlns:itunes')
+  const feedMeta = { url: feedConfig.url }
   return isAtom(xml)
     ? splitEntries(xml).map(e => parseAtomEntry(e, feedMeta))
-    : splitItems(xml).map(i => parseRssItem(i, feedMeta, isPodcast))
+    : splitItems(xml).map(i => parseRssItem(i, feedMeta))
 }
 
 export const limitFeed = (posts, limit = 10) =>

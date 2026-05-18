@@ -17,7 +17,6 @@ export const postsTemplate = post => {
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div>${preview}</div>
     ${truncated ? `<div class="post-break"><a class="read-more" href="/posts/${post.meta.slug}">read more</a></div>` : ''}
-    ${!truncated && post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:0.5rem 0 1rem"></audio>` : ''}
   </div>
 `
 }
@@ -27,7 +26,6 @@ export const singlePostTemplate = post => `
     <h2 class="${post.meta.page ? '' : 'single-title'}">${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
-    ${post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:1rem 0"></audio>` : ''}
   </article>
 `
 
@@ -71,9 +69,10 @@ export const feedsItemTemplate = (item) => {
   const domain = feedDomain(url)
   const avatar = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=16` : ''
   const dateStr = formatDate(item.date)
-  const thumb = extractFirstImage(item.content || '') || thumbPlaceholder(item.feed?.title || domain)
+  const thumb = item.imageUrl || extractFirstImage(item.content || '') || thumbPlaceholder(domain)
   const text = blurb(item.content || '')
-  const sourceLabel = `${item.author ? `${item.author} · ` : ''}${item.feed?.title || domain}`
+  const sourceLabel = item.feed?.url || domain
+  const audioUrl = safeUrl(item.audioUrl || '')
 
   return `
   <div class="post feed-post" data-url="${url}">
@@ -91,6 +90,7 @@ export const feedsItemTemplate = (item) => {
         ${text ? `<p class="feed-blurb">${text}</p>` : ''}
       </div>
     </div>
+    ${audioUrl ? `<audio controls src="${audioUrl}" preload="metadata" style="width:100%;margin-top:0.5em;"></audio>` : ''}
   </div>
   `
 }

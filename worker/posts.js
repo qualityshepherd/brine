@@ -10,6 +10,13 @@ export const slugify = (title) =>
     .replace(/[\s-]+/g, '-')
     .replace(/^-+|-+$/g, '')
 
+const extractTitle = (markdown) => {
+  const m = (markdown || '').match(/^#\s+(.+)$/m)
+  if (m) return m[1].trim()
+  const first = (markdown || '').split('\n').find(l => l.trim())
+  return first?.trim() || `untitled-${Date.now()}`
+}
+
 const extractHashtags = (markdown) => {
   const matches = [...(markdown || '').matchAll(/(?<![="/>@#a-zA-Z0-9])#([a-zA-Z0-9_]+)/g)]
   return [...new Set(matches.map(m => m[1].toLowerCase()))]
@@ -57,6 +64,7 @@ const rowToPost = (row) => ({
   slug: row.slug,
   title: row.title,
   markdown: row.markdown,
+  html: row.html || '',
   description: row.description,
   status: row.status,
   type: row.type,
@@ -82,6 +90,27 @@ export const getPostBySlug = async (db, slug) => {
 export const getAllPosts = async (db) => {
   const { results } = await db.prepare(POST_QUERY + ' GROUP BY p.id ORDER BY p.date DESC').all()
   return results.map(rowToPost)
+}
+
+export const getRssPosts = async (db) => {
+  const { results } = await db.prepare(`
+    SELECT p.id, p.slug, p.title, p.html, p.description, p.status, p.type,
+           p.date, p.audio_url, p.image_url, GROUP_CONCAT(pt.tag) as tag_list
+    FROM posts p
+    LEFT JOIN post_tags pt ON pt.post_id = p.id
+    WHERE p.status = 'published' AND p.type != 'page'
+    GROUP BY p.id ORDER BY p.date DESC
+  `).all()
+  return results.map(row => ({
+    slug: row.slug,
+    title: row.title,
+    html: row.html || '',
+    description: row.description,
+    date: row.date,
+    audioUrl: row.audio_url,
+    imageUrl: row.image_url || '',
+    tags: row.tag_list ? row.tag_list.split(',') : []
+  }))
 }
 
 export const buildIndex = (posts) =>
@@ -110,185 +139,189 @@ export const handleIndex = async (env) => {
   })
 }
 
+// Route handlers
+
+const getPost = async (env, slug) => {
+  const post = await getPostBySlug(env.DB, slug)
+  if (!post) return json({ error: 'not found' }, 404)
+  return json(post)
+}
+
+const listPosts = async (env) => json(await getAllPosts(env.DB))
+
+const createPost = async (req, env, pubkey) => {
+  let body
+  try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
+
+  const markdown = (body.markdown || body.content || '').trim()
+  if (!markdown) return json({ error: 'markdown required' }, 400)
+
+  const title = extractTitle(markdown)
+  const slug = slugify(title)
+  if (!slug) return json({ error: 'could not derive slug from title' }, 400)
+
+  const { status, type, description, imageUrl, date: bodyDate } = body
+  const now = new Date().toISOString()
+  const postDate = bodyDate ? new Date(bodyDate + 'T00:00:00Z').toISOString() : now
+
+  const result = await env.DB.prepare(`
+    INSERT OR REPLACE INTO posts (slug, title, markdown, html, description, image_url, status, type, date, updated_at, author, audio_url)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `).bind(
+    slug, title, markdown, renderHtml(markdown),
+    (description || '').trim(),
+    (imageUrl || '').trim(),
+    status === 'published' ? 'published' : 'draft',
+    type === 'page' ? 'page' : 'post',
+    postDate, now, pubkey,
+    extractAudioUrl(markdown)
+  ).run()
+
+  await savePostTags(env.DB, result.meta.last_row_id, markdown)
+  return json(await getPostBySlug(env.DB, slug), 201)
+}
+
+const updatePost = async (req, env, slug, pubkey, isOwner) => {
+  const post = await getPostBySlug(env.DB, slug)
+  if (!post) return json({ error: 'not found' }, 404)
+  if (post.author !== pubkey && !isOwner) return json({ error: 'forbidden' }, 403)
+
+  let body
+  try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
+
+  const markdown = (body.markdown ?? body.content) !== undefined
+    ? (body.markdown || body.content || '').trim()
+    : post.markdown
+  const { status, type, description, imageUrl, date: bodyDate } = body
+
+  const title = extractTitle(markdown)
+  const newSlug = slugify(title) || slug
+  const newStatus = status ?? post.status
+  const now = new Date().toISOString()
+  const publishDate = bodyDate
+    ? new Date(bodyDate + 'T00:00:00Z').toISOString()
+    : post.date || (newStatus === 'published' ? now : null)
+
+  await env.DB.prepare(`
+    UPDATE posts SET slug = ?, title = ?, markdown = ?, html = ?, description = ?, image_url = ?,
+      status = ?, type = ?, date = ?, updated_at = ?, audio_url = ?
+    WHERE id = ?
+  `).bind(
+    newSlug, title, markdown, renderHtml(markdown),
+    description !== undefined ? description.trim() : post.description,
+    imageUrl !== undefined ? imageUrl.trim() : post.imageUrl,
+    newStatus,
+    type === 'page' ? 'page' : (post.type || 'post'),
+    publishDate, now,
+    extractAudioUrl(markdown),
+    post.id
+  ).run()
+
+  await savePostTags(env.DB, post.id, markdown)
+  return json(await getPostBySlug(env.DB, newSlug))
+}
+
+const deletePost = async (env, slug, pubkey, isOwner) => {
+  const post = await getPostBySlug(env.DB, slug)
+  if (!post) return json({ error: 'not found' }, 404)
+  if (post.author !== pubkey && !isOwner) return json({ error: 'forbidden' }, 403)
+  await env.DB.prepare('DELETE FROM posts WHERE id = ?').bind(post.id).run()
+  return json({ ok: true })
+}
+
+const deleteAllPosts = async (env, isOwner) => {
+  if (!isOwner) return json({ error: 'forbidden' }, 403)
+  const { meta } = await env.DB.prepare('DELETE FROM posts').run()
+  return json({ deleted: meta.changes })
+}
+
+const getBackup = async (env, isOwner) => {
+  if (!isOwner) return json({ error: 'forbidden' }, 403)
+  const posts = await getAllPosts(env.DB)
+  return new Response(JSON.stringify(posts, null, 2), {
+    headers: {
+      'Content-Type': 'application/json',
+      'Content-Disposition': 'attachment; filename="feedi-backup.json"'
+    }
+  })
+}
+
+const restoreBackup = async (req, env, pubkey, isOwner) => {
+  if (!isOwner) return json({ error: 'forbidden' }, 403)
+  let posts
+  try { posts = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
+  if (!Array.isArray(posts)) return json({ error: 'expected array of posts' }, 400)
+
+  const now = new Date().toISOString()
+  let imported = 0
+  const errors = []
+
+  for (const p of posts) {
+    try {
+      const markdown = p.markdown || p.content || ''
+      const title = p.title || extractTitle(markdown)
+      if (!title) { errors.push({ title: '(missing)', error: 'title required' }); continue }
+      const slug = p.slug || slugify(title)
+      if (!slug) { errors.push({ title, error: 'invalid title' }); continue }
+
+      const result = await env.DB.prepare(`
+        INSERT OR REPLACE INTO posts (slug, title, markdown, html, description, status, type, date, updated_at, author, audio_url)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `).bind(
+        slug, title, markdown, p.html || renderHtml(markdown),
+        (p.description || '').trim(),
+        p.status || 'draft',
+        p.type === 'page' ? 'page' : 'post',
+        p.date || now, now,
+        p.author || pubkey,
+        p.audioUrl || extractAudioUrl(markdown)
+      ).run()
+
+      await savePostTags(env.DB, result.meta.last_row_id, markdown)
+      imported++
+    } catch (err) {
+      errors.push({ title: p.title || '(missing)', error: err.message })
+    }
+  }
+
+  return json({ imported, errors })
+}
+
+const getSettingsRoute = async (env, isOwner) => {
+  if (!isOwner) return json({ error: 'forbidden' }, 403)
+  return json(await getSettings(env.DB))
+}
+
+const updateSettingsRoute = async (req, env, isOwner) => {
+  if (!isOwner) return json({ error: 'forbidden' }, 403)
+  let body
+  try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
+  return json(await saveSettings(env.DB, body))
+}
+
 export const handlePosts = async (req, env) => {
   const url = new URL(req.url)
   const path = url.pathname
   const method = req.method
-  const db = env.DB
 
   const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-  const pubkey = await memberByToken(token, db)
+  const pubkey = await memberByToken(token, env.DB)
   if (!pubkey) return json({ error: 'unauthorized' }, 401)
 
   const isOwner = isOwnerPubkey(pubkey, env)
   const slugMatch = path.match(/^\/api\/posts\/([^/]+)$/)
+  const slug = slugMatch?.[1]
 
-  // GET /api/posts/:slug
-  if (method === 'GET' && slugMatch) {
-    const post = await getPostBySlug(db, slugMatch[1])
-    if (!post) return json({ error: 'not found' }, 404)
-    return json(post)
-  }
-
-  // GET /api/posts
-  if (method === 'GET' && path === '/api/posts') {
-    return json(await getAllPosts(db))
-  }
-
-  // POST /api/posts — create
-  if (method === 'POST' && path === '/api/posts') {
-    let body
-    try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
-    const { title, content, status, type, description, imageUrl, slug: bodySlug, date: bodyDate } = body
-    if (!title) return json({ error: 'title required' }, 400)
-
-    const slug = bodySlug || slugify(title)
-    if (!slug) return json({ error: 'invalid title' }, 400)
-
-    const now = new Date().toISOString()
-    const markdown = content || ''
-    const isPublished = status === 'published'
-    const postDate = bodyDate ? new Date(bodyDate + 'T00:00:00Z').toISOString() : now
-
-    const result = await db.prepare(`
-      INSERT OR REPLACE INTO posts (slug, title, markdown, description, image_url, status, type, date, updated_at, author, audio_url)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `).bind(
-      slug, title, markdown,
-      (description || '').trim(),
-      (imageUrl || '').trim(),
-      isPublished ? 'published' : 'draft',
-      type === 'page' ? 'page' : 'post',
-      postDate, now, pubkey,
-      extractAudioUrl(markdown)
-    ).run()
-    const postId = result.meta.last_row_id
-
-    await savePostTags(db, postId, markdown)
-    return json(await getPostBySlug(db, slug), 201)
-  }
-
-  // PATCH /api/posts/:slug — edit
-  if (method === 'PATCH' && slugMatch) {
-    const post = await getPostBySlug(db, slugMatch[1])
-    if (!post) return json({ error: 'not found' }, 404)
-    if (post.author !== pubkey && !isOwner) return json({ error: 'forbidden' }, 403)
-
-    let body
-    try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
-    const { title, content, status, type, description, imageUrl, slug: newSlug, date: bodyDate } = body
-
-    const markdown = content ?? post.markdown
-    const slug = newSlug || post.slug
-    const newStatus = status ?? post.status
-    const now = new Date().toISOString()
-    const publishDate = bodyDate
-      ? new Date(bodyDate + 'T00:00:00Z').toISOString()
-      : post.date || (newStatus === 'published' ? now : null)
-
-    await db.prepare(`
-      UPDATE posts SET slug = ?, title = ?, markdown = ?, description = ?, image_url = ?,
-        status = ?, type = ?, date = ?, updated_at = ?, audio_url = ?
-      WHERE id = ?
-    `).bind(
-      slug,
-      title ?? post.title,
-      markdown,
-      description !== undefined ? description.trim() : post.description,
-      imageUrl !== undefined ? imageUrl.trim() : post.imageUrl,
-      newStatus,
-      type === 'page' ? 'page' : (post.type || 'post'),
-      publishDate, now,
-      extractAudioUrl(markdown),
-      post.id
-    ).run()
-
-    await savePostTags(db, post.id, markdown)
-    return json(await getPostBySlug(db, slug))
-  }
-
-  // DELETE /api/posts/:slug
-  if (method === 'DELETE' && slugMatch) {
-    const post = await getPostBySlug(db, slugMatch[1])
-    if (!post) return json({ error: 'not found' }, 404)
-    if (post.author !== pubkey && !isOwner) return json({ error: 'forbidden' }, 403)
-    await db.prepare('DELETE FROM posts WHERE id = ?').bind(post.id).run()
-    return json({ ok: true })
-  }
-
-  // DELETE /api/posts — delete all
-  if (method === 'DELETE' && path === '/api/posts') {
-    if (!isOwner) return json({ error: 'forbidden' }, 403)
-    const { meta } = await db.prepare('DELETE FROM posts').run()
-    return json({ deleted: meta.changes })
-  }
-
-  // GET /api/backup
-  if (method === 'GET' && path === '/api/backup') {
-    if (!isOwner) return json({ error: 'forbidden' }, 403)
-    const posts = await getAllPosts(db)
-    return new Response(JSON.stringify(posts, null, 2), {
-      headers: {
-        'Content-Type': 'application/json',
-        'Content-Disposition': 'attachment; filename="feedi-backup.json"'
-      }
-    })
-  }
-
-  // POST /api/backup — bulk import (overwrites by slug)
-  if (method === 'POST' && path === '/api/backup') {
-    if (!isOwner) return json({ error: 'forbidden' }, 403)
-    let posts
-    try { posts = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
-    if (!Array.isArray(posts)) return json({ error: 'expected array of posts' }, 400)
-
-    const now = new Date().toISOString()
-    let imported = 0
-    const errors = []
-
-    for (const p of posts) {
-      try {
-        if (!p.title) { errors.push({ title: '(missing)', error: 'title required' }); continue }
-        const slug = p.slug || slugify(p.title)
-        if (!slug) { errors.push({ title: p.title, error: 'invalid title' }); continue }
-        const markdown = p.markdown || p.content || ''
-
-        const result = await db.prepare(`
-          INSERT OR REPLACE INTO posts (slug, title, markdown, description, status, type, date, updated_at, author, audio_url)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        `).bind(
-          slug, p.title, markdown,
-          (p.description || '').trim(),
-          p.status || 'draft',
-          p.type === 'page' ? 'page' : 'post',
-          p.date || now, now,
-          p.author || pubkey,
-          p.audioUrl || extractAudioUrl(markdown)
-        ).run()
-
-        await savePostTags(db, result.meta.last_row_id, markdown)
-        imported++
-      } catch (err) {
-        errors.push({ title: p.title || '(missing)', error: err.message })
-      }
-    }
-
-    return json({ imported, errors })
-  }
-
-  // GET /api/settings
-  if (method === 'GET' && path === '/api/settings') {
-    if (!isOwner) return json({ error: 'forbidden' }, 403)
-    return json(await getSettings(db))
-  }
-
-  // PATCH /api/settings
-  if (method === 'PATCH' && path === '/api/settings') {
-    if (!isOwner) return json({ error: 'forbidden' }, 403)
-    let body
-    try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
-    return json(await saveSettings(db, body))
-  }
+  if (method === 'GET' && slug) return getPost(env, slug)
+  if (method === 'GET' && path === '/api/posts') return listPosts(env)
+  if (method === 'POST' && path === '/api/posts') return createPost(req, env, pubkey)
+  if (method === 'PATCH' && slug) return updatePost(req, env, slug, pubkey, isOwner)
+  if (method === 'DELETE' && slug) return deletePost(env, slug, pubkey, isOwner)
+  if (method === 'DELETE' && path === '/api/posts') return deleteAllPosts(env, isOwner)
+  if (method === 'GET' && path === '/api/backup') return getBackup(env, isOwner)
+  if (method === 'POST' && path === '/api/backup') return restoreBackup(req, env, pubkey, isOwner)
+  if (method === 'GET' && path === '/api/settings') return getSettingsRoute(env, isOwner)
+  if (method === 'PATCH' && path === '/api/settings') return updateSettingsRoute(req, env, isOwner)
 
   return null
 }

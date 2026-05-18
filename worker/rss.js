@@ -1,4 +1,4 @@
-import { getAllPosts, getSettings } from './posts.js'
+import { getRssPosts, getSettings } from './posts.js'
 import { escXml, stripTags } from './utils.js'
 
 const extractFirstImg = (html = '') => {
@@ -25,7 +25,7 @@ const rfc822 = (dateStr) => {
   return `${DAYS[d.getUTCDay()]}, ${dd} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()} ${hh}:${mm}:${ss} GMT`
 }
 
-const channelOpen = (cfg, selfFullUrl) => `<?xml version="1.0" encoding="UTF-8"?>
+const channelOpen = (cfg, selfUrl) => `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>${escXml(cfg.title)}</title>
@@ -33,9 +33,9 @@ const channelOpen = (cfg, selfFullUrl) => `<?xml version="1.0" encoding="UTF-8"?
   <description>${escXml(cfg.description)}</description>
   <language>${escXml(cfg.language || 'en-us')}</language>
   <lastBuildDate>${rfc822()}</lastBuildDate>
-  <atom:link href="${escXml(selfFullUrl)}" rel="self" type="application/rss+xml"/>`
+  <atom:link href="${escXml(selfUrl)}" rel="self" type="application/rss+xml"/>`
 
-const podChannelOpen = (cfg, selfFullUrl) => `<?xml version="1.0" encoding="UTF-8"?>
+const podChannelOpen = (cfg, selfUrl) => `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>${escXml(cfg.title)}</title>
@@ -43,7 +43,7 @@ const podChannelOpen = (cfg, selfFullUrl) => `<?xml version="1.0" encoding="UTF-
   <description>${escXml(cfg.description)}</description>
   <language>${escXml(cfg.language || 'en-us')}</language>
   <lastBuildDate>${rfc822()}</lastBuildDate>
-  <atom:link href="${escXml(selfFullUrl)}" rel="self" type="application/rss+xml"/>
+  <atom:link href="${escXml(selfUrl)}" rel="self" type="application/rss+xml"/>
   <itunes:author>${escXml(cfg.title)}</itunes:author>
   <itunes:summary>${escXml(stripTags(cfg.description))}</itunes:summary>
   <itunes:explicit>false</itunes:explicit>
@@ -101,10 +101,9 @@ const podItem = (post, baseUrl) => {
   </item>`
 }
 
-export const handleRss = async (req, env) => {
-  const reqUrl = new URL(req.url)
-  const path = reqUrl.pathname
-  const settings = await getSettings(env.DB)
+export const refreshRss = async (env) => {
+  if (!env.R2) return
+  const [settings, allPosts] = await Promise.all([getSettings(env.DB), getRssPosts(env.DB)])
   const cfg = {
     title: env.SITE_TITLE || 'feedi',
     description: env.SITE_DESCRIPTION || '',
@@ -118,40 +117,65 @@ export const handleRss = async (req, env) => {
   const base = `https://${cfg.domain}`
   const siteImage = cfg.siteImage
 
-  const allPosts = (await getAllPosts(env.DB))
-    .filter(p => p.status === 'published' && p.type !== 'page')
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+  const blog = allPosts.filter(p => !p.audioUrl)
+  const pod = allPosts.filter(p => p.audioUrl)
+
+  const xmlBlog = channelOpen(cfg, `${base}/rss/blog`) + blog.map(p => postItem(p, base, siteImage)).join('') + channelClose()
+  const xmlPod = podChannelOpen(cfg, `${base}/rss/pod`) + pod.map(p => podItem(p, base)).join('') + channelClose()
+  const xmlAll = channelOpen(cfg, `${base}/rss/all`) + allPosts.map(p => postItem(p, base, siteImage)).join('') + channelClose()
+
+  await Promise.all([
+    env.R2.put('rss/blog.xml', xmlBlog, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } }),
+    env.R2.put('rss/pod.xml', xmlPod, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } }),
+    env.R2.put('rss/all.xml', xmlAll, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } })
+  ])
+}
+
+export const handleRss = async (req, env, ctx) => {
+  const path = new URL(req.url).pathname
+  const key = path === '/rss/blog'
+    ? 'rss/blog.xml'
+    : path === '/rss/pod'
+      ? 'rss/pod.xml'
+      : path === '/rss/all'
+        ? 'rss/all.xml'
+        : null
+  if (!key) return null
+
+  if (env.R2) {
+    const obj = await env.R2.get(key)
+    if (obj) return new Response(obj.body, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'public, max-age=300' } })
+  }
+
+  // R2 miss — generate inline and seed R2 for next time
+  if (ctx) ctx.waitUntil(refreshRss(env))
+  const reqUrl = new URL(req.url)
+  const [settings, allPosts] = await Promise.all([getSettings(env.DB), getRssPosts(env.DB)])
+  const cfg = {
+    title: env.SITE_TITLE || 'feedi',
+    description: env.SITE_DESCRIPTION || '',
+    domain: env.DOMAIN_NAME || '',
+    language: 'en-us',
+    image: settings.podcastImage || env.PODCAST_IMAGE || '',
+    siteImage: settings.siteImage || '',
+    podcastCategory: settings.podcastCategory || env.PODCAST_CATEGORY || '',
+    podcastEmail: settings.podcastEmail || env.PODCAST_EMAIL || ''
+  }
+  const base = `https://${cfg.domain}`
+  const siteImage = cfg.siteImage
 
   if (path === '/rss/blog') {
-    const posts = allPosts.filter(p => !p.audioUrl)
-    const xml = channelOpen(cfg, reqUrl.href) +
-      posts.map(p => postItem(p, base, siteImage)).join('') +
-      channelClose()
-    return rssResponse(xml)
+    const xml = channelOpen(cfg, reqUrl.href) + allPosts.filter(p => !p.audioUrl).map(p => postItem(p, base, siteImage)).join('') + channelClose()
+    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
   }
-
   if (path === '/rss/pod') {
-    const posts = allPosts.filter(p => p.audioUrl)
-    const xml = podChannelOpen(cfg, reqUrl.href) +
-      posts.map(p => podItem(p, base)).join('') +
-      channelClose()
-    return rssResponse(xml)
+    const xml = podChannelOpen(cfg, reqUrl.href) + allPosts.filter(p => p.audioUrl).map(p => podItem(p, base)).join('') + channelClose()
+    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
   }
-
   if (path === '/rss/all') {
-    const xml = channelOpen(cfg, reqUrl.href) +
-      allPosts.map(p => postItem(p, base, siteImage)).join('') +
-      channelClose()
-    return rssResponse(xml)
+    const xml = channelOpen(cfg, reqUrl.href) + allPosts.map(p => postItem(p, base, siteImage)).join('') + channelClose()
+    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
   }
 
   return null
 }
-
-const rssResponse = (xml) =>
-  new Response(xml, {
-    headers: {
-      'Content-Type': 'application/rss+xml; charset=utf-8',
-      'Cache-Control': 'no-store'
-    }
-  })
