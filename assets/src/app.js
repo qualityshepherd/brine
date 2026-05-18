@@ -98,17 +98,19 @@ const show = id => { const el = document.getElementById(id); if (el) el.hidden =
 
   fetch('/api/settings').then(r => r.json()).catch(() => ({})).then(settings => {
     const nav = document.querySelector('nav')
-    const searchWrap = document.querySelector('.nav-search-wrap')
-    nav.querySelectorAll(':scope > a').forEach(a => a.remove())
+    const searchWrap = nav.querySelector('.nav-search-wrap')
+    const kebabWrap = nav.querySelector('.nav-kebab-wrap')
     const md = settings.nav || '[Home](/) [Archive](/archive)'
     const isOwner = !!localStorage.getItem('feedi_token')
+    const links = []
     for (const [, text, url] of md.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)) {
       if (url.trim() === '/analytics' && !isOwner) continue
       const a = document.createElement('a')
       a.href = url.trim()
       a.textContent = text
-      nav.insertBefore(a, searchWrap)
+      links.push(a)
     }
+    nav.replaceChildren(...links, searchWrap, kebabWrap)
   })
 
   if (index.some(p => p.meta.audioUrl)) show('rss-pod-row')
