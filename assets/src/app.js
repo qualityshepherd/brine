@@ -103,9 +103,9 @@ const show = id => { const el = document.getElementById(id); if (el) el.hidden =
     const md = settings.nav || '[Home](/) [Archive](/archive)'
     const isOwner = !!localStorage.getItem('feedi_token')
     for (const [, text, url] of md.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)) {
-      if (url === '/analytics' && !isOwner) continue
+      if (url.trim() === '/analytics' && !isOwner) continue
       const a = document.createElement('a')
-      a.href = url
+      a.href = url.trim()
       a.textContent = text
       nav.insertBefore(a, searchWrap)
     }
