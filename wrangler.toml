@@ -38,33 +38,3 @@ enabled = true
 
 [observability.logs]
 enabled = true
-
-# ── dev ────────────────────────────────────────────────────────────────────────
-
-[env.dev]
-name = "brine-dev-dev"
-
-[env.dev.vars]
-DOMAIN_NAME = "brine.dev"
-SITE_TITLE = "brine.dev"
-SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
-OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"
-PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
-PODCAST_CATEGORY = "Arts"
-PODCAST_EMAIL = "ack@brine.dev"
-
-[[env.dev.migrations]]
-tag = "v2"
-deleted_classes = ["AnalyticsDO"]
-
-[[env.dev.d1_databases]]
-binding = "DB"
-database_name = "brine-dev"
-database_id = "68ef6268-e99f-407d-a81a-74c08fca150e"
-
-[[env.dev.r2_buckets]]
-binding = "R2"
-bucket_name = "brine-dev"
-
-[env.dev.triggers]
-crons = []
