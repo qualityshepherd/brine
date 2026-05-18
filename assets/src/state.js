@@ -24,8 +24,8 @@ export const resetState = () => {
 
 export async function readSiteIndex (pathToIndex) {
   try {
-    const res = await fetch(pathToIndex)
-    if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`)
+    const res = await fetch(pathToIndex, { cache: 'no-store' })
+    validateResponse(res)
     const index = await res.json()
     return sortByDate(index)
   } catch (err) {
@@ -44,4 +44,8 @@ export function sortByDate (posts, desc = true) {
 
 function parseDate (str) {
   return str ? new Date(str.replace(/-/g, '/')) : new Date(0)
+}
+
+function validateResponse (res) {
+  if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`)
 }

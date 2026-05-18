@@ -1,0 +1,582 @@
+[
+  {
+    "url": "https://100r.ca/links/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://adactio.com/journal/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://anderegg.ca/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://arnold.gamboa.ph/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://bitsplitting.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://blog.jim-nielsen.com/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://brainbaking.com/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://debuggingleadership.com/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://drewdevault.com/blog/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://hamatti.org/feed/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://hidde.blog/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://inessential.com/xml/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://jvns.ca/atom.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://macwright.com/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://marcjenkins.co.uk/feed/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://neilzone.co.uk/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://nolanlawson.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://numericcitizen.me/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://shkspr.mobi/blog/feed/atom/?cat=-1982",
+    "limit": 999
+  },
+  {
+    "url": "https://simonwillison.net/atom/everything",
+    "limit": 999
+  },
+  {
+    "url": "https://thatalexguy.dev/feed.php",
+    "limit": 999
+  },
+  {
+    "url": "https://thomasorus.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://vincentritter.com/feeds/all.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://www.baldurbjarnason.com/essays.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://3quarksdaily.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://a.wholelottanothing.org/rss/",
+    "limit": 999
+  },
+  {
+    "url": "https://activehistory.ca/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://daniel.industries/atom.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://doinghistoryinpublic.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://heathercoxrichardson.substack.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://howtosavetheworld.ca/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://linkage.lol/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://mssv.net/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://naturalplaceblog.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://protesilaos.com/master.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://ruk.ca/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://sentiers.media/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://taggart-tech.com/atom.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://themarginalian.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.joanwestenberg.com/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://www.noemamag.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.ribbonfarm.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "http://feeds.feedburner.com/IgnoreTheCode",
+    "limit": 999
+  },
+  {
+    "url": "https://anildash.com/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://axbom.com/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://carlbarenbrug.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://design-milk.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://designthinking.lol/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://jasonsantamaria.com/feed.atom",
+    "limit": 999
+  },
+  {
+    "url": "https://manualdousuario.net/en/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://manuelmoreale.com/feed/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://ohhelloana.blog/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://pxlnv.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://rachelandrew.co.uk/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://robinrendle.com/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://spyglass.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://tonsky.me/blog/atom.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://www.chrbutler.com/feed.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://blog.trilemma.com",
+    "limit": 999
+  },
+  {
+    "url": "https://tenfootpole.org/ironspike/?feed=rss2",
+    "limit": 999
+  },
+  {
+    "url": "https://www.bastionland.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "http://tinysubversions.com/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://feeds.feedburner.com/TheRhizomeBlogRss",
+    "limit": 999
+  },
+  {
+    "url": "https://maya.land/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://we-make-money-not-art.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://acoup.blog/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://blog.archive.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://blog.geocities.institute/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://buildingourpast.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://buildingsofnewengland.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://craney.uk/tag/Macro/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://dailymedieval.blogspot.com/feeds/posts/default?alt=rss",
+    "limit": 999
+  },
+  {
+    "url": "https://dulltooldimbulb.blogspot.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://florian.photo/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://internethistorypodcast.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://laststandonzombieisland.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://mediterraneanworld.wordpress.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://melbourneblogger.blogspot.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://publicdomainreview.org/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://righto.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://stevedoescomics.blogspot.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://www.johncoulthart.com/feuilleton/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.markbernstein.org/news.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://www.openculture.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.shadycharacters.co.uk/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8TZwtZ17WKFJSmwTZQpBTA",
+    "limit": 999
+  },
+  {
+    "url": "https://yunzi.co.uk/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://grist.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://hamishcampbell.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://humantransit.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://pedestrianobservations.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://reasonstobecheerful.world/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://solar.lowtechmagazine.com/posts/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://www.bldgblog.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.earthbound.report/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://feeds.feedburner.com/mcsweeneys",
+    "limit": 999
+  },
+  {
+    "url": "https://thisiscolossal.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://typewolf.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.swiss-miss.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.wellappointeddesk.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://xkcd.com/rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://blog.jimgrey.net/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://doomandgloomfromthetomb.tumblr.com/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://mccookerybook.blogspot.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://nodepression.org/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://paulkerr.wordpress.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://posttowire.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://theoldweirdamerica.blogspot.com/feeds/posts/default",
+    "limit": 999
+  },
+  {
+    "url": "https://bramadams.dev/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://btxx.org/index.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://cogdogblog.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://craphound.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://forkingmad.blog/feed/?type=rss",
+    "limit": 999
+  },
+  {
+    "url": "https://gordonbrander.com/feed.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://hayobethlehem.nl/feeds/all.atom",
+    "limit": 999
+  },
+  {
+    "url": "https://herman.bearblog.dev/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://jamesg.blog/feeds/posts.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://jlelse.blog/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://kaigulliksen.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://kevquirk.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://manuel.bearblog.dev/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://mnot.net/blog/index.atom",
+    "limit": 999
+  },
+  {
+    "url": "https://netzartist.de/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://notiz.blog/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://tomcritchlow.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://werd.io/rss",
+    "limit": 999
+  },
+  {
+    "url": "https://write.as/matt/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.gordonmclean.co.uk/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.nicksimson.com/posts/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://zylstra.org/blog/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://blast-o-rama.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://brennan.day/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://cafebedouin.org/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://canro91.github.io/atom.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://grumpywelshman.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://janlukas.blog/posts.rss",
+    "limit": 999
+  },
+  {
+    "url": "https://meadow.cafe/feeds/main_rss.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://mlich.eu/index.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://randomwire.com/feed/",
+    "limit": 999
+  },
+  {
+    "url": "https://theconvivialsociety.substack.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://val.demar.in/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.astralcodexten.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.iandick.com/feed",
+    "limit": 999
+  },
+  {
+    "url": "https://www.lesswrong.com/feed.xml",
+    "limit": 999
+  },
+  {
+    "url": "https://www.overcomingbias.com/feed",
+    "limit": 999
+  }
+]

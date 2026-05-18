@@ -1,5 +1,8 @@
 import { elements } from './dom.js'
-import { getPosts, setSearchTerm } from './state.js'
+import {
+  getPosts,
+  setSearchTerm
+} from './state.js'
 import {
   renderArchive,
   renderFilteredPosts,
@@ -8,6 +11,8 @@ import {
   renderSinglePost
 } from './ui.js'
 import { loadAndRenderFeeds } from './feeds.js'
+import { initFeedsAdmin } from './feedsAdmin.js'
+import { initBlogCog } from './editor.js'
 
 const ROUTES = {
   HOME: '/',
@@ -25,10 +30,15 @@ const getRouteParams = () => {
 const normalize = str => String(str || '').toLowerCase()
 
 const filterPostsByTag = (posts, tag) =>
-  posts.filter(post => post.meta.tags?.some(t => normalize(t) === normalize(tag)))
+  posts.filter(post =>
+    post.meta.tags?.some(t => normalize(t) === normalize(tag))
+  )
 
 const routeHandlers = {
-  [ROUTES.HOME]: () => renderPosts(getPosts()),
+  [ROUTES.HOME]: () => {
+    renderPosts(getPosts())
+    if (localStorage.getItem('feedi_token')) initBlogCog()
+  },
 
   [ROUTES.POST]: () => {
     const slug = location.pathname.split('/')[2]
@@ -37,7 +47,8 @@ const routeHandlers = {
 
   [ROUTES.TAG]: ({ params }) => {
     const tag = params.get('t')
-    if (tag) renderPosts(filterPostsByTag(getPosts(), tag))
+    renderPosts(tag ? filterPostsByTag(getPosts(), tag) : [])
+    if (localStorage.getItem('feedi_token')) initBlogCog()
   },
 
   [ROUTES.ARCHIVE]: () => {
@@ -59,15 +70,19 @@ const routeHandlers = {
 
   [ROUTES.READER]: async () => {
     await loadAndRenderFeeds()
+    if (localStorage.getItem('feedi_token')) initFeedsAdmin()
   },
 
-  default: () => renderNotFoundPage()
+  default: () => {
+    renderNotFoundPage()
+  }
 }
 
 let isInitialLoad = true
 
 export function handleRouting () {
   const { route, params } = getRouteParams()
+  if (route === '/analytics') return
   if (route.length > 200 || /\/([^/]+)\/(?:[^/]+\/)*\1(?:\/|$)/.test(route)) return
   setSearchTerm('')
   window.scrollTo(0, 0)

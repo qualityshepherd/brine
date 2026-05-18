@@ -16,9 +16,9 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link
       rel="preload"
-      href="/fonts/Oswald-Regular.ttf"
+      href="/fonts/Oswald-Regular.woff2"
       as="font"
-      type="font/ttf"
+      type="font/woff2"
       crossorigin
     />
     <link
@@ -29,43 +29,20 @@
       crossorigin
     />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/editor.css" />
     <link rel="icon" href="/favicon.png" />
-    <script>if(location.hash.startsWith('#post?s=')){location.replace('/posts/'+location.hash.replace('#post?s=','').replace(/_/g,'-'))}</script>
+    <script type="importmap">{"imports":{"marked":"/lib/marked.esm.js"}}</script>
   </head>
   <body>
     <header>
       <a href="/"><img class="banner" src="/images/brine_wide.webp" alt="brine.dev" /></a>
 
       <nav>
-        <a href="/">Home</a>
-        <a id="feeds-nav-link" href="/feeds" hidden>Feeds</a>
-        <a href="/archive">Archive</a>
-        <a href="/about">About</a>
-        <a href="https://discover.brine.dev">Discover</a>
-        <a href="https://rando.brine.dev" target="_blank" rel="noopener">Rando</a>
-
-        <div class="nav-rss-wrap">
-          <button class="nav-icon-btn" id="btn-rss" aria-label="RSS feeds" title="RSS feeds">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><circle cx="5" cy="19" r="2"/><path d="M4 4v3a13 13 0 0 1 13 13h3A16 16 0 0 0 4 4z"/><path d="M4 11v3a6 6 0 0 1 6 6h3a9 9 0 0 0-9-9z"/></svg>
-          </button>
-          <div class="nav-dropdown" id="rss-dropdown" hidden>
-            <div class="nav-dropdown-item">
-              <span class="nav-dropdown-label">blog</span>
-              <code class="nav-dropdown-url">/rss/blog</code>
-              <button class="nav-dropdown-copy" data-path="/rss/blog">copy</button>
-            </div>
-            <div class="nav-dropdown-item" id="rss-pod-row" hidden>
-              <span class="nav-dropdown-label">pod</span>
-              <code class="nav-dropdown-url">/rss/pod</code>
-              <button class="nav-dropdown-copy" data-path="/rss/pod">copy</button>
-            </div>
-            <div class="nav-dropdown-item">
-              <span class="nav-dropdown-label">all</span>
-              <code class="nav-dropdown-url">/rss/all</code>
-              <button class="nav-dropdown-copy" data-path="/rss/all">copy</button>
-            </div>
-          </div>
-        </div>
+        <a href="/">home</a>
+        <a href="/archive">archive</a>
+        <a href="/about">about</a>
+        <a href="https://discover.brine.dev">discover</a>
+        <a href="https://rando.brine.dev" target="_blank" rel="noopener">rando</a>
 
         <div class="nav-search-wrap">
           <button class="nav-icon-btn" id="btn-search" aria-label="Search" title="Search">
@@ -76,9 +53,31 @@
           </form>
         </div>
 
-        <a id="nav-admin" href="/admin" hidden class="nav-icon-btn" title="Admin" aria-label="Admin">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.49.49 0 0 0-.59-.22l-2.39.96a7.01 7.01 0 0 0-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54a7.3 7.3 0 0 0-1.62.94l-2.39-.96a.48.48 0 0 0-.59.22L2.74 8.87a.47.47 0 0 0 .12.61l2.03 1.58c-.05.3-.07.63-.07.94s.02.64.07.94l-2.03 1.58a.47.47 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.36 1.04.67 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54a7.3 7.3 0 0 0 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32a.47.47 0 0 0-.12-.61l-2.01-1.58zM12 15.6a3.6 3.6 0 1 1 0-7.2 3.6 3.6 0 0 1 0 7.2z"/></svg>
-        </a>
+        <div class="nav-kebab-wrap">
+          <button class="nav-icon-btn" id="btn-kebab" aria-label="Menu" title="Menu">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/>
+            </svg>
+          </button>
+          <div class="nav-dropdown" id="kebab-dropdown" hidden>
+            <div class="nav-dropdown-item">
+              <span class="nav-dropdown-label">rss:</span>
+              <button class="nav-dropdown-copy" data-path="/rss/blog">blog</button>
+              <button class="nav-dropdown-copy" id="rss-pod-row" data-path="/rss/pod" hidden>pod</button>
+              <button class="nav-dropdown-copy" data-path="/rss/all">all</button>
+            </div>
+            <div id="kebab-owner-items" hidden>
+              <div class="nav-dropdown-divider"></div>
+              <button class="kebab-action" id="btn-settings">settings</button>
+              <div class="nav-dropdown-divider"></div>
+              <button class="kebab-action" id="btn-sign-out">sign out</button>
+            </div>
+            <div id="kebab-guest-items">
+              <div class="nav-dropdown-divider"></div>
+              <button class="kebab-action" id="btn-sign-in">sign in</button>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -89,7 +88,7 @@
       <main><!-- content will be inserted here --></main>
     </div>
     <footer>
-      <a href="https://ko-fi.com/qualityshepherd" target="_blank" rel="noopener"><img src="/images/kofi.png" alt="Ko-fi" height="36" /></a>
+      <a href="https://ko-fi.com/qualityshepherd" target="_blank" rel="noopener"><img src="/images/kofi.png" alt="Ko-fi" /></a>
       powered by <a href="https://github.com/qualityshepherd/feedi">feedi</a>
     </footer>
 

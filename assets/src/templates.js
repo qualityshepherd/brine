@@ -1,16 +1,6 @@
-import { renderTags } from './ui.js'
 import { stripHtml, blurb, extractFirstImage } from './feedRules.js'
 
-const isPodcast = post => !!post.meta.audioUrl
-
 const fmtDate = str => str ? str.slice(0, 10) : ''
-
-const subscribeLink = post => {
-  if (post.meta.page) return '' // no link on pages
-  const href = isPodcast(post) ? '/rss/pod' : '/rss/blog'
-  const title = isPodcast(post) ? 'Subscribe to podcast feed' : 'Subscribe to blog feed'
-  return `<a class="rss-subscribe" href="${href}" title="${title}" target="_blank" rel="noopener noreferrer">◆ subscribe</a>`
-}
 
 const BREAK = '<break>'
 
@@ -19,26 +9,25 @@ export const postsTemplate = post => {
   const preview = parts[0]
   const truncated = parts.length > 1
   return `
-  <div class="post">
-    <a href="/posts/${post.meta.slug}" role="button" aria-label="post-title">
-      <h2 class="post-title">${post.meta.title}</h2>
-    </a>
+  <div class="post" data-slug="${post.meta.slug}">
+    <h2 class="post-title">
+      <a href="/posts/${post.meta.slug}" role="button" aria-label="post-title">${post.meta.title}</a>
+      <button class="post-edit-btn" title="Edit">✎</button>
+    </h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div>${preview}</div>
     ${truncated ? `<div class="post-break"><a class="read-more" href="/posts/${post.meta.slug}">read more</a></div>` : ''}
     ${!truncated && post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:0.5rem 0 1rem"></audio>` : ''}
-    <div class="tags">${renderTags(post.meta.tags)} ${subscribeLink(post)}</div>
   </div>
 `
 }
 
 export const singlePostTemplate = post => `
-  <article class="post">
-    <h2>${post.meta.title}</h2>
+  <article class="post${post.meta.page ? ' is-page' : ''}" data-slug="${post.meta.slug}">
+    <h2 class="${post.meta.page ? '' : 'single-title'}">${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
     ${post.meta.audioUrl ? `<audio controls src="${post.meta.audioUrl}" preload="metadata" style="width:100%;margin:1rem 0"></audio>` : ''}
-    ${post.meta.page ? '' : `<div class="tags">${renderTags(post.meta.tags)} ${subscribeLink(post)}</div>`}
   </article>
 `
 
@@ -46,10 +35,10 @@ export const notFoundTemplate = (message = 'No results found.') => `
   <h2 class="not-found">${message}</h2>
 `
 
-export const archiveTemplate = post => `
-  <p${post.meta.audioUrl ? ' class="archive-pod"' : ''}>
+export const archiveTemplate = (post, isOwner = false) => `
+  <p${post.meta.audioUrl ? ' class="archive-pod"' : ''} data-slug="${post.meta.slug}">
     <a href="/posts/${post.meta.slug}"><span class="archive">${post.meta.title}</span></a>
-    <span class="date">${fmtDate(post.meta.date)}</span>
+    <span class="date">${fmtDate(post.meta.date)}</span>${isOwner ? ' <button class="post-edit-btn" title="Edit">✎</button>' : ''}
   </p>
 `
 
@@ -84,16 +73,17 @@ export const feedsItemTemplate = (item) => {
   const dateStr = formatDate(item.date)
   const thumb = extractFirstImage(item.content || '') || thumbPlaceholder(item.feed?.title || domain)
   const text = blurb(item.content || '')
+  const sourceLabel = `${item.author ? `${item.author} · ` : ''}${item.feed?.title || domain}`
 
   return `
   <div class="post feed-post" data-url="${url}">
-    ${url
-      ? `<a class="feed-meta" href="${url}" target="_blank" rel="noopener noreferrer">`
-      : '<div class="feed-meta">'}
+    <div class="feed-meta">
       ${avatar ? `<img class="feed-avatar" src="${avatar}" alt="" onerror="this.style.display='none'">` : ''}
-      <span class="feed-source-name" title="${item.author ? `${item.author} · ` : ''}${item.feed?.title || domain}">${item.author ? `${item.author} · ` : ''}${item.feed?.title || domain}</span>
+      ${url
+        ? `<a class="feed-source-name" href="${url}" target="_blank" rel="noopener noreferrer" title="${sourceLabel}">${sourceLabel}</a>`
+        : `<span class="feed-source-name" title="${sourceLabel}">${sourceLabel}</span>`}
       <span class="date">${dateStr}</span>
-    ${url ? '</a>' : '</div>'}
+    </div>
     <div class="feed-body feed-open">
       <img class="feed-thumb" src="${thumb}" alt="" loading="lazy">
       <div class="feed-body-text">

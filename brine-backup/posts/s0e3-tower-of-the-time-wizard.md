@@ -1,0 +1,16 @@
+---
+title: S0E3 Tower of the Time Wizard
+date: 2020-02-09
+author: c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio
+tags: [podcast, tower_of_the_time_wizard, season0, wodu, ttrpg]
+status: published
+audioUrl: https://archive.org/download/s0e2-tower_of_the_time_wizard/s0e3-tower_of_the_time_wizard.mp3
+---
+![thumb](/images/season0/image.jpg)Death becomes us! The 3rd floor puzzles the party and the 4th... well... it's complected.
+
+### Cast
+- **Yulia** - human cleric
+- **Gorath** - orc fighter
+- **McMuffin** - human reluctant sailor
+- **Brine** - your _friendly_ GM
+

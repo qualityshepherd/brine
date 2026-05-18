@@ -24,6 +24,12 @@ export const timingSafeEqual = (a, b) => {
 export const isOwnerPubkey = (pubkey, env) =>
   !!(pubkey && env.OWNER && pubkey === env.OWNER.trim())
 
+export const requireOwner = async (req, env) => {
+  const token = req.headers?.get('authorization')?.replace('Bearer ', '')
+  const pubkey = token ? await memberByToken(token, env.DB) : null
+  return (pubkey && isOwnerPubkey(pubkey, env)) ? pubkey : null
+}
+
 export const isRateLimited = (record, now, maxAttempts) =>
   !!record && now < record.resetAt && record.count >= maxAttempts
 
@@ -32,25 +38,32 @@ export const incrementAttempt = (record, now, windowMs) => {
   return { count: record.count + 1, resetAt: record.resetAt }
 }
 
-// Returns pubkey string or null — sessions are the only KV auth state
-export const memberByToken = async (token, kv) => {
+export const memberByToken = async (token, db) => {
   if (!token) return null
-  return kv.get(`session:${token}`)
+  const row = await db.prepare(
+    'SELECT pubkey, expires_at FROM sessions WHERE token = ?'
+  ).bind(token).first()
+  if (!row) return null
+  if (row.expires_at < Date.now()) {
+    await db.prepare('DELETE FROM sessions WHERE token = ?').bind(token).run()
+    return null
+  }
+  return row.pubkey
 }
 
-const writeSession = async (token, pubkey, expires, kv) => {
+const writeSession = async (token, pubkey, expires, db) => {
   if (expires <= Date.now()) return
-  const ttl = Math.ceil((expires - Date.now()) / 1000)
-  await kv.put(`session:${token}`, pubkey, { expirationTtl: ttl })
+  await db.prepare(
+    'INSERT OR REPLACE INTO sessions (token, pubkey, expires_at) VALUES (?, ?, ?)'
+  ).bind(token, pubkey, expires).run()
 }
 
 export const handleAuth = async (req, env) => {
   const url = new URL(req.url)
   const path = url.pathname
   const method = req.method
-  const kv = env.BRINE_KV
+  const db = env.DB
 
-  // Challenge — also tells the UI whether OWNER is configured
   if (method === 'GET' && path === '/api/challenge') {
     const buf = new Uint8Array(32)
     crypto.getRandomValues(buf)
@@ -68,7 +81,10 @@ export const handleAuth = async (req, env) => {
     if (!isOwnerPubkey(pubkey, env)) return json({ error: 'unauthorized' }, 401)
 
     const rlKey = `ratelimit:login:${ip}`
-    const rlRecord = await kv.get(rlKey, { type: 'json' })
+    const rlRow = await db.prepare(
+      'SELECT count, reset_at FROM rate_limits WHERE key = ?'
+    ).bind(rlKey).first()
+    const rlRecord = rlRow ? { count: rlRow.count, resetAt: rlRow.reset_at } : null
     if (isRateLimited(rlRecord, Date.now(), 6)) {
       console.warn(`[rate-limit] login blocked ip=${ip}`)
       return json({ error: 'too many attempts' }, 429)
@@ -76,24 +92,28 @@ export const handleAuth = async (req, env) => {
 
     const valid = await verifyChallenge(challenge, sig, pubkey)
     if (!valid) {
-      await kv.put(rlKey, JSON.stringify(incrementAttempt(rlRecord, Date.now(), 12 * 60 * 1000)), { expirationTtl: 12 * 60 })
+      const next = incrementAttempt(rlRecord, Date.now(), 12 * 60 * 1000)
+      await db.prepare(
+        'INSERT OR REPLACE INTO rate_limits (key, count, reset_at) VALUES (?, ?, ?)'
+      ).bind(rlKey, next.count, next.resetAt).run()
       return json({ error: 'unauthorized' }, 401)
     }
 
-    await kv.delete(rlKey)
+    await db.prepare('DELETE FROM rate_limits WHERE key = ?').bind(rlKey).run()
     const session = makeSession()
-    await writeSession(session.token, pubkey, session.expires, kv)
+    await writeSession(session.token, pubkey, session.expires, db)
     return new Response(JSON.stringify({ token: session.token, expires: session.expires }), {
+      status: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Set-Cookie': 'brine_skip=1; Path=/; Max-Age=31536000; SameSite=Strict; Secure'
+        'Set-Cookie': 'feedi_skip=1; Path=/; Max-Age=31536000; SameSite=Strict; Secure'
       }
     })
   }
 
   if (method === 'GET' && path === '/api/me') {
     const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-    const pubkey = await memberByToken(token, kv)
+    const pubkey = await memberByToken(token, db)
     if (!pubkey) return json({ error: 'unauthorized' }, 401)
     return json({ pubkey, isOwner: isOwnerPubkey(pubkey, env) })
   }

@@ -12,29 +12,26 @@ run_worker_first = true
 DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
 SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
-OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"  # paste your pubkey here after deriving it at /admin
+OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"
 PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
 PODCAST_EMAIL = "ack@brine.dev"
 
-[[kv_namespaces]]
-binding = "BRINE_KV"
-id = "99b8f35602ae44869d80637281295546"
-
-[[durable_objects.bindings]]
-name = "ANALYTICS"
-class_name = "AnalyticsDO"
-
-[[migrations]]
-tag = "v1"
-new_sqlite_classes = ["AnalyticsDO"]
+[[d1_databases]]
+binding = "DB"
+database_name = "brine-dev"
+database_id = "68ef6268-e99f-407d-a81a-74c08fca150e"
 
 [[r2_buckets]]
 binding = "R2"
-bucket_name = "brine-dev"
+bucket_name = "brine"
+
+[[migrations]]
+tag = "v2"
+deleted_classes = ["AnalyticsDO"]
 
 [triggers]
-crons = ["0 * * * *"]
+crons = ["*/42 * * * *"]
 
 [observability]
 enabled = true
@@ -42,33 +39,32 @@ enabled = true
 [observability.logs]
 enabled = true
 
-# DEV
+# ── dev ────────────────────────────────────────────────────────────────────────
 
 [env.dev]
 name = "brine-dev-dev"
-[env.dev.triggers]
-crons = []
 
 [env.dev.vars]
 DOMAIN_NAME = "brine.dev"
 SITE_TITLE = "brine.dev"
 SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
-OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"  # paste your pubkey here after deriving it at /admin
+OWNER = "c31SFUfNZXuYWui-3RHrgDYwULR-YXhxLcC2WMlrHio"
 PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
-
-[[env.dev.kv_namespaces]]
-binding = "BRINE_KV"
-id = "c869c6328e8845fbb3d90f4e9b6d300e"
-
-[[env.dev.durable_objects.bindings]]
-name = "ANALYTICS"
-class_name = "AnalyticsDO"
+PODCAST_EMAIL = "ack@brine.dev"
 
 [[env.dev.migrations]]
-tag = "v1"
-new_sqlite_classes = ["AnalyticsDO"]
+tag = "v2"
+deleted_classes = ["AnalyticsDO"]
+
+[[env.dev.d1_databases]]
+binding = "DB"
+database_name = "brine-dev"
+database_id = "68ef6268-e99f-407d-a81a-74c08fca150e"
 
 [[env.dev.r2_buckets]]
 binding = "R2"
 bucket_name = "brine-dev"
+
+[env.dev.triggers]
+crons = []

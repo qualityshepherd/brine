@@ -1,6 +1,7 @@
 import { elements } from './dom.js'
 import { feedsItemTemplate, notFoundTemplate } from './templates.js'
 import { processContent, embedToLazy } from './feedRules.js'
+
 const PAGE = 20
 
 let cachedFeeds = null
@@ -11,12 +12,12 @@ let modalReady = false
 let feedObserver = null
 
 const readAggregated = async (path) => {
-  const res = await fetch(path)
+  const res = await fetch(path, { cache: 'no-store' })
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   return res.json()
 }
 
-// ── modal ─────────────────────────────────────────────────────────────────────
+// modal
 
 const closeModal = () => {
   const modal = document.getElementById('feed-modal')
@@ -25,6 +26,8 @@ const closeModal = () => {
   document.body.style.overflow = ''
   modal.querySelector('.feed-modal-body').innerHTML = ''
 }
+
+const feedDomain = url => { try { return new URL(url).hostname } catch { return '' } }
 
 const renderModalItem = (modal, item) => {
   modal.querySelector('.feed-modal-title').textContent = item.title || ''
@@ -41,6 +44,11 @@ const renderModalItem = (modal, item) => {
   }
   modal.querySelector('.feed-modal-prev').disabled = currentIndex <= 0
   modal.querySelector('.feed-modal-next').disabled = currentIndex >= feedList.length - 1
+
+  const domain = feedDomain(item.feed?.url || item.url || '')
+  const favicon = domain ? `<img src="https://www.google.com/s2/favicons?domain=${domain}&sz=16" class="feed-avatar" alt="" onerror="this.style.display='none'">` : ''
+  const feedName = item.feed?.title || domain || ''
+  modal.querySelector('.feed-modal-source').innerHTML = feedName ? `${favicon}<span>${feedName}</span>` : ''
 }
 
 const navigateTo = (index) => {
@@ -74,8 +82,11 @@ const initModal = () => {
       </div>
       <div class="feed-modal-body"></div>
       <div class="feed-modal-footer">
-        <a class="feed-modal-original" href="#" target="_blank" rel="noopener noreferrer">↗ visit website</a>
-        <a class="feed-modal-subscribe" href="#" target="_blank" rel="noopener noreferrer">+ subscribe ◆</a>
+        <div class="feed-modal-source"></div>
+        <div class="feed-modal-links">
+          <a class="feed-modal-original" href="#" target="_blank" rel="noopener noreferrer">↗ website</a>
+          <a class="feed-modal-subscribe hidden" href="#" target="_blank" rel="noopener noreferrer">rss</a>
+        </div>
       </div>
     </div>
   `
@@ -122,20 +133,20 @@ const initModal = () => {
   })
 }
 
-// ── render ────────────────────────────────────────────────────────────────────
+// render
 
-export const renderFeedsItems = (items) => {
+const renderFeedsItems = (items) => {
   if (feedObserver) { feedObserver.disconnect(); feedObserver = null }
 
   if (!items.length) {
-    elements.main.innerHTML = notFoundTemplate('No feed posts found. Add feeds to feeds.json.')
+    elements.main.innerHTML = notFoundTemplate('No feed posts yet...')
     return
   }
 
   feedList = items
   feedItems = new Map(items.map(i => [i.url, i]))
 
-  elements.main.innerHTML = ''
+  elements.main.innerHTML = '<h2>feeds</h2>'
   let rendered = 0
 
   // sentinel sits at the bottom; items are inserted before it so it stays at
@@ -163,10 +174,13 @@ export const renderFeedsItems = (items) => {
 }
 
 export const getCachedFeeds = () => cachedFeeds
+export const resetFeedsCache = () => { cachedFeeds = null }
+export const setCachedFeeds = (posts) => { cachedFeeds = posts }
 
 export const loadAndRenderFeeds = async () => {
   try {
     if (!cachedFeeds) {
+      elements.main.innerHTML = '<p class="muted">loading…</p>'
       cachedFeeds = await readAggregated('/feeds/aggregated')
     }
     renderFeedsItems(cachedFeeds)

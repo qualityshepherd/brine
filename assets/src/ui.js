@@ -7,9 +7,6 @@ import {
   archiveTemplate
 } from './templates.js'
 
-const PAGE = 20
-let postObserver = null
-
 export const isSpecialPost = post => post.meta.page === true
 export const isPod = post => !!post.meta.audioUrl
 
@@ -26,54 +23,63 @@ export const postMatchesSearch = (post, searchTerm) => {
 
 export const renderTags = (tags, path = '/tag') =>
   Array.isArray(tags)
-    ? tags.map(tag => {
-      const safeTag = encodeURIComponent(tag.toLowerCase())
-      return `<a href="${path}?t=${safeTag}" class="tag" role="button" aria-label="Filter by tag: ${tag}">${tag}</a>`
-    }).join(' ')
+    ? tags
+      .map(tag => {
+        const safeTag = encodeURIComponent(tag.toLowerCase())
+        return `<a href="${path}?t=${safeTag}" class="tag" role="button" aria-label="Filter by tag: ${tag}">${tag}</a>`
+      })
+      .join(' ')
     : ''
 
-const disconnectObserver = () => {
-  if (postObserver) { postObserver.disconnect(); postObserver = null }
-}
+//
+// test render functions via e2e tests...
+//
+
+const PAGE = 10
+let postsObserver = null
 
 export function renderPosts (posts) {
-  disconnectObserver()
   const filtered = posts.filter(p => !isSpecialPost(p))
+
+  if (postsObserver) { postsObserver.disconnect(); postsObserver = null }
   elements.main.innerHTML = ''
+
+  if (!filtered.length) { elements.main.innerHTML = notFoundTemplate(); return }
+
   let rendered = 0
+  const sentinel = document.createElement('div')
+  elements.main.appendChild(sentinel)
 
   const renderMore = () => {
     const batch = filtered.slice(rendered, rendered + PAGE)
     if (!batch.length) return
     const frag = document.createElement('div')
     frag.innerHTML = batch.map(postsTemplate).join('')
-    elements.main.appendChild(frag)
+    elements.main.insertBefore(frag, sentinel)
     rendered += batch.length
   }
 
   renderMore()
 
-  if (rendered < filtered.length) {
-    const sentinel = document.createElement('div')
-    elements.main.appendChild(sentinel)
-    postObserver = new IntersectionObserver(entries => {
-      if (!entries[0].isIntersecting) return
-      if (rendered >= filtered.length) { disconnectObserver(); sentinel.remove(); return }
-      renderMore()
-    }, { rootMargin: '200px' })
-    postObserver.observe(sentinel)
-  }
+  if (rendered >= filtered.length) { sentinel.remove(); return }
+
+  postsObserver = new IntersectionObserver(entries => {
+    if (!entries[0].isIntersecting) return
+    renderMore()
+    if (rendered >= filtered.length) {
+      postsObserver.disconnect(); postsObserver = null; sentinel.remove()
+    }
+  }, { rootMargin: '200px' })
+  postsObserver.observe(sentinel)
 }
 
 export function renderSinglePost (slug) {
-  disconnectObserver()
   const posts = getPosts()
   const post = posts.find(p => p.meta.slug === slug)
   elements.main.innerHTML = post ? singlePostTemplate(post) : notFoundTemplate()
 }
 
 export function renderArchive (posts, filter = 'all', onFilter) {
-  disconnectObserver()
   const all = posts.filter(p => !isSpecialPost(p))
   const hasPods = all.some(isPod)
 
@@ -92,7 +98,8 @@ export function renderArchive (posts, filter = 'all', onFilter) {
     </div>`
     : ''
 
-  elements.main.innerHTML = filterBar + visible.map(archiveTemplate).join('')
+  const isOwner = !!localStorage.getItem('feedi_token')
+  elements.main.innerHTML = '<h2>archive</h2>' + filterBar + visible.map(p => archiveTemplate(p, isOwner)).join('')
 
   if (onFilter) {
     elements.main.querySelectorAll('.archive-filter').forEach(btn => {
@@ -102,16 +109,16 @@ export function renderArchive (posts, filter = 'all', onFilter) {
 }
 
 export function renderNotFoundPage () {
-  disconnectObserver()
   elements.main.innerHTML = notFoundTemplate()
 }
 
 export function renderFilteredPosts () {
   const posts = getPosts()
   const searchTerm = getSearchTerm()
-  const filtered = posts.filter(post => postMatchesSearch(post, searchTerm))
+  const filtered = posts.filter(post =>
+    postMatchesSearch(post, searchTerm)
+  )
   if (filtered.length === 0) {
-    disconnectObserver()
     elements.main.innerHTML = notFoundTemplate('No results found for your search.')
   } else {
     renderPosts(filtered)

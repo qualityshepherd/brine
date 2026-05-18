@@ -1,11 +1,6 @@
-import { parseFeed, aggregateFeeds } from './feedParser.js'
-import { memberByToken, isOwnerPubkey } from './auth.js'
-
-const KV_KEY = 'feeds:aggregated'
-const KV_TTL = 60 * 60
-const FEED_CACHE_TTL = KV_TTL * 2
-// Keep feed status for 7 days so history survives missed refreshes
-const FEED_STATUS_TTL = KV_TTL * 24 * 7
+import { parseFeed } from './feedParser.js'
+import { requireOwner } from './auth.js'
+import { json } from './utils.js'
 
 const parseOpml = (xml) => {
   const urls = []
@@ -16,85 +11,64 @@ const parseOpml = (xml) => {
   return urls
 }
 
-const json = (data, status = 200) =>
-  new Response(JSON.stringify(data), {
-    status,
-    headers: { 'Content-Type': 'application/json' }
-  })
-
-const fetchFeed = async (feedConfig) => {
+const fetchFeed = async (url) => {
   let code = null
   try {
-    const res = await fetch(feedConfig.url, {
-      headers: { 'User-Agent': 'feedi/1.0 (+https://brine.dev; RSS reader)' }
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), 8000)
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'feedi/1.0 (+https://brine.dev; RSS reader)' },
+      signal: controller.signal
     })
+    clearTimeout(timer)
     code = res.status
-    if (!res.ok) throw new Error(`${res.status} ${feedConfig.url}`)
+    if (!res.ok) throw new Error(`${res.status} ${url}`)
     const xml = await res.text()
-    return { posts: parseFeed(xml, feedConfig), config: feedConfig, code }
+    return { posts: parseFeed(xml, { url }), code }
   } catch (err) {
     console.warn(`Feed failed: ${err.message}`)
-    return { posts: null, config: feedConfig, code, error: err.message }
+    return { posts: null, code, error: err.message }
   }
 }
 
 export const refreshFeeds = async (env) => {
-  const feeds = await env.BRINE_KV.get('feeds:list', { type: 'json' }) || []
+  const { results: feeds } = await env.DB.prepare(`
+    SELECT f.url
+    FROM feeds f
+    LEFT JOIN feed_status fs ON fs.feed_url = f.url
+    ORDER BY COALESCE(fs.fetched_at, '1970-01-01') ASC
+    LIMIT 24
+  `).all()
 
-  if (!feeds.length) {
-    await env.BRINE_KV.delete(KV_KEY)
-    return
-  }
+  if (!feeds.length) return
 
-  // Cloudflare caps subrequests at 50/invocation — batch to stay well under
-  const BATCH = 40
-  const results = []
-  for (let i = 0; i < feeds.length; i += BATCH) {
-    const batch = feeds.slice(i, i + BATCH)
-    const settled = await Promise.allSettled(batch.map(fetchFeed))
-    results.push(...settled.map((s, j) =>
-      s.status === 'fulfilled' ? s.value : { posts: null, config: batch[j], code: null, error: String(s.reason) }
-    ))
-  }
+  const settled = await Promise.allSettled(feeds.map(f => fetchFeed(f.url)))
+  const results = settled.map((s, i) =>
+    s.status === 'fulfilled' ? { ...s.value, url: feeds[i].url } : { posts: null, code: null, error: String(s.reason), url: feeds[i].url }
+  )
 
-  // store per-feed status only if something changed
   const now = new Date().toISOString()
-  const statusMap = {}
-  results.forEach(r => {
-    statusMap[r.config.url] = { code: r.code, fetched: now, ...(r.error ? { error: r.error } : {}) }
-  })
-  await env.BRINE_KV.put('feeds:status', JSON.stringify(statusMap), { expirationTtl: FEED_STATUS_TTL })
-
-  const settings = await env.BRINE_KV.get('settings', { type: 'json' }) || {}
-  const maxItems = settings.maxItems || 2000
-  const successful = results.filter(r => r.posts !== null)
-  const aggregated = aggregateFeeds(successful.map(r => ({ posts: r.posts, config: r.config }))).slice(0, maxItems)
-
-  if (aggregated.length === 0) {
-    console.warn('[feeds] no posts aggregated — keeping existing KV cache')
-    return
-  }
-
-  await env.BRINE_KV.put(KV_KEY, JSON.stringify(aggregated), { expirationTtl: FEED_CACHE_TTL })
-  console.log(`[feeds] cached ${aggregated.length} posts from ${successful.length}/${feeds.length} feeds`)
+  await env.DB.batch(
+    results.map(r => env.DB.prepare(
+      `INSERT INTO feed_status (feed_url, code, fetched_at, error, posts) VALUES (?, ?, ?, ?, ?)
+       ON CONFLICT(feed_url) DO UPDATE SET
+         code=excluded.code,
+         fetched_at=excluded.fetched_at,
+         error=excluded.error,
+         posts=COALESCE(excluded.posts, feed_status.posts)`
+    ).bind(r.url, r.code, now, r.error || null, r.posts ? JSON.stringify(r.posts) : null))
+  )
 }
 
 export const handleFeeds = async (env) => {
-  const cached = await env.BRINE_KV.get(KV_KEY)
-  if (cached) {
-    return new Response(cached, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Cache-Control': 'public, max-age=3600'
-      }
-    })
-  }
-
   try {
-    await refreshFeeds(env)
-    const fresh = await env.BRINE_KV.get(KV_KEY)
-    return new Response(fresh || '[]', {
-      headers: { 'Content-Type': 'application/json' }
+    const { results } = await env.DB.prepare(
+      'SELECT posts FROM feed_status WHERE posts IS NOT NULL'
+    ).all()
+    const allPosts = results.flatMap(row => { try { return JSON.parse(row.posts) } catch { return [] } })
+    allPosts.sort((a, b) => new Date(b.date) - new Date(a.date))
+    return new Response(JSON.stringify(allPosts), {
+      headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' }
     })
   } catch (err) {
     console.error('[feeds] handleFeeds error:', err)
@@ -106,17 +80,18 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
   const url = new URL(req.url)
   const path = url.pathname
   const method = req.method
-  const kv = env.BRINE_KV
+  const db = env.DB
 
-  const token = req.headers?.get('authorization')?.replace('Bearer ', '')
-  const pubkey = await memberByToken(token, kv)
-  if (!pubkey || !isOwnerPubkey(pubkey, env)) return json({ error: 'unauthorized' }, 401)
+  if (!await requireOwner(req, env)) return json({ error: 'unauthorized' }, 401)
 
   // GET /api/feeds — list with status
   if (method === 'GET' && path === '/api/feeds') {
-    const feeds = await kv.get('feeds:list', { type: 'json' }) || []
-    const status = await kv.get('feeds:status', { type: 'json' }) || {}
-    return json(feeds.map(f => ({ ...f, status: status[f.url] || null })))
+    const { results: feeds } = await db.prepare('SELECT url FROM feeds ORDER BY created_at ASC').all()
+    const { results: statuses } = await db.prepare('SELECT feed_url, code, fetched_at, error FROM feed_status').all()
+    const statusMap = Object.fromEntries(
+      statuses.map(s => [s.feed_url, { code: s.code, fetched: s.fetched_at, error: s.error || null }])
+    )
+    return json(feeds.map(f => ({ url: f.url, status: statusMap[f.url] || null })))
   }
 
   // POST /api/feeds — add a feed
@@ -146,18 +121,17 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
       return json({ error: 'could not reach feed url' }, 422)
     }
 
-    const existing = await kv.get('feeds:list', { type: 'json' }) || []
-    if (existing.some(f => f.url === feedUrl)) return json({ error: 'feed already added' }, 409)
+    const existing = await db.prepare('SELECT url FROM feeds WHERE url = ?').bind(feedUrl).first()
+    if (existing) return json({ error: 'feed already added' }, 409)
 
-    const limit = Math.max(1, Math.min(999, parseInt(body.limit) || 10))
-    const updated = [...existing, { url: feedUrl, limit }]
-    await kv.put('feeds:list', JSON.stringify(updated))
+    await db.prepare('INSERT INTO feeds (url, created_at) VALUES (?, ?)')
+      .bind(feedUrl, new Date().toISOString()).run()
 
     ctx.waitUntil(refreshFeeds(env))
-    return json({ ok: true, url: feedUrl, limit })
+    return json({ ok: true, url: feedUrl })
   }
 
-  // PATCH /api/feeds — update title, limit, or url
+  // PATCH /api/feeds — update url
   if (method === 'PATCH' && path === '/api/feeds') {
     let body
     try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
@@ -165,87 +139,82 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     const feedUrl = body.url?.trim()
     if (!feedUrl) return json({ error: 'url required' }, 400)
 
-    const existing = await kv.get('feeds:list', { type: 'json' }) || []
-    const idx = existing.findIndex(f => f.url === feedUrl)
-    if (idx === -1) return json({ error: 'feed not found' }, 404)
+    const feed = await db.prepare('SELECT url FROM feeds WHERE url = ?').bind(feedUrl).first()
+    if (!feed) return json({ error: 'feed not found' }, 404)
 
     const newUrl = body.newUrl?.trim()
-    if (newUrl && newUrl !== feedUrl) {
-      try { const parsed = new URL(newUrl); if (!parsed.hostname) throw new Error() } catch { return json({ error: 'invalid new url' }, 400) }
-      if (existing.some((f, i) => i !== idx && f.url === newUrl)) return json({ error: 'url already exists' }, 409)
-      // migrate status entry
-      const status = await kv.get('feeds:status', { type: 'json' }) || {}
-      if (status[feedUrl]) { status[newUrl] = status[feedUrl]; delete status[feedUrl] }
-      await kv.put('feeds:status', JSON.stringify(status))
-      existing[idx].url = newUrl
-    }
+    if (!newUrl || newUrl === feedUrl) return json({ ok: true })
 
-    if (body.limit !== undefined) existing[idx].limit = Math.max(1, Math.min(999, parseInt(body.limit) || 10))
+    try { const p = new URL(newUrl); if (!p.hostname) throw new Error() } catch { return json({ error: 'invalid new url' }, 400) }
+    const collision = await db.prepare('SELECT url FROM feeds WHERE url = ?').bind(newUrl).first()
+    if (collision) return json({ error: 'url already exists' }, 409)
 
-    await kv.put('feeds:list', JSON.stringify(existing))
+    await db.batch([
+      db.prepare('UPDATE feeds SET url = ? WHERE url = ?').bind(newUrl, feedUrl),
+      db.prepare('UPDATE feed_status SET feed_url = ? WHERE feed_url = ?').bind(newUrl, feedUrl)
+    ])
     return json({ ok: true })
   }
 
-  // POST /api/feeds/import — bulk import with dedup
+  // POST /api/feeds/import — bulk import
   if (method === 'POST' && path === '/api/feeds/import') {
     let body
     try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
     if (!Array.isArray(body)) return json({ error: 'expected array' }, 400)
 
-    const existing = await kv.get('feeds:list', { type: 'json' }) || []
-    const existingUrls = new Set(existing.map(f => f.url))
-    const added = []
+    const { results: existing } = await db.prepare('SELECT url FROM feeds').all()
+    const existingUrls = new Set(existing.map(r => r.url))
+    const toAdd = []
     for (const item of body) {
       const feedUrl = item.url?.trim()
-      if (!feedUrl) continue
-      if (!URL.canParse(feedUrl)) continue
-      if (existingUrls.has(feedUrl)) continue
-      const limit = Math.max(1, Math.min(999, parseInt(item.limit) || 10))
-      existing.push({ url: feedUrl, limit })
+      if (!feedUrl || !URL.canParse(feedUrl) || existingUrls.has(feedUrl)) continue
       existingUrls.add(feedUrl)
-      added.push(feedUrl)
+      toAdd.push(feedUrl)
     }
-
-    if (added.length) {
-      await kv.put('feeds:list', JSON.stringify(existing))
+    if (toAdd.length) {
+      const now = new Date().toISOString()
+      await db.batch(toAdd.map(u =>
+        db.prepare('INSERT OR IGNORE INTO feeds (url, created_at) VALUES (?, ?)').bind(u, now)
+      ))
       ctx.waitUntil(refreshFeeds(env))
     }
-    return json({ ok: true, added: added.length, skipped: body.length - added.length })
+    return json({ ok: true, added: toAdd.length, skipped: body.length - toAdd.length })
   }
 
-  // POST /api/feeds/import/opml — import from OPML file
+  // POST /api/feeds/import/opml
   if (method === 'POST' && path === '/api/feeds/import/opml') {
-    const defaultLimit = Math.max(1, Math.min(999, parseInt(url.searchParams.get('limit')) || 10))
     const xml = await req.text()
     const items = parseOpml(xml)
     if (!items.length) return json({ error: 'no feeds found in opml' }, 400)
 
-    const existing = await kv.get('feeds:list', { type: 'json' }) || []
-    const existingUrls = new Set(existing.map(f => f.url))
-    const added = []
+    const { results: existing } = await db.prepare('SELECT url FROM feeds').all()
+    const existingUrls = new Set(existing.map(r => r.url))
+    const toAdd = []
     for (const feedUrl of items) {
-      if (!URL.canParse(feedUrl)) continue
-      if (existingUrls.has(feedUrl)) continue
-      existing.push({ url: feedUrl, limit: defaultLimit })
+      if (!URL.canParse(feedUrl) || existingUrls.has(feedUrl)) continue
       existingUrls.add(feedUrl)
-      added.push(feedUrl)
+      toAdd.push(feedUrl)
     }
-
-    if (added.length) {
-      await kv.put('feeds:list', JSON.stringify(existing))
+    if (toAdd.length) {
+      const now = new Date().toISOString()
+      await db.batch(toAdd.map(u =>
+        db.prepare('INSERT OR IGNORE INTO feeds (url, created_at) VALUES (?, ?)').bind(u, now)
+      ))
       ctx.waitUntil(refreshFeeds(env))
     }
-    return json({ ok: true, added: added.length, skipped: items.length - added.length })
+    return json({ ok: true, added: toAdd.length, skipped: items.length - toAdd.length })
   }
 
-  // DELETE /api/feeds/all — remove all feeds
+  // DELETE /api/feeds/all
   if (method === 'DELETE' && path === '/api/feeds/all') {
-    await kv.put('feeds:list', JSON.stringify([]))
-    await kv.delete(KV_KEY)
+    await db.batch([
+      db.prepare('DELETE FROM feed_status'),
+      db.prepare('DELETE FROM feeds')
+    ])
     return json({ ok: true })
   }
 
-  // DELETE /api/feeds — remove a feed
+  // DELETE /api/feeds
   if (method === 'DELETE' && path === '/api/feeds') {
     let body
     try { body = await req.json() } catch { return json({ error: 'invalid json' }, 400) }
@@ -253,11 +222,35 @@ export const handleFeedsAdmin = async (req, env, ctx) => {
     const feedUrl = body.url?.trim()
     if (!feedUrl) return json({ error: 'url required' }, 400)
 
-    const existing = await kv.get('feeds:list', { type: 'json' }) || []
-    const updated = existing.filter(f => f.url !== feedUrl)
-    if (updated.length === existing.length) return json({ error: 'feed not found' }, 404)
+    const feed = await db.prepare('SELECT url FROM feeds WHERE url = ?').bind(feedUrl).first()
+    if (!feed) return json({ error: 'feed not found' }, 404)
 
-    await kv.put('feeds:list', JSON.stringify(updated))
+    await db.batch([
+      db.prepare('DELETE FROM feed_status WHERE feed_url = ?').bind(feedUrl),
+      db.prepare('DELETE FROM feeds WHERE url = ?').bind(feedUrl)
+    ])
+    return json({ ok: true })
+  }
+
+  // POST /api/feeds/refresh — one feed or all
+  if (method === 'POST' && path === '/api/feeds/refresh') {
+    let body = {}
+    try { body = await req.json() } catch {}
+    const feedUrl = body.url?.trim() || null
+    if (feedUrl) {
+      const result = await fetchFeed(feedUrl)
+      const now = new Date().toISOString()
+      await db.prepare(
+        `INSERT INTO feed_status (feed_url, code, fetched_at, error, posts) VALUES (?, ?, ?, ?, ?)
+         ON CONFLICT(feed_url) DO UPDATE SET
+           code=excluded.code,
+           fetched_at=excluded.fetched_at,
+           error=excluded.error,
+           posts=COALESCE(excluded.posts, feed_status.posts)`
+      ).bind(feedUrl, result.code, now, result.error || null, result.posts ? JSON.stringify(result.posts) : null).run()
+      return json({ ok: true, fetched: now, code: result.code, error: result.error || null, feedPosts: result.posts || null })
+    }
+    ctx.waitUntil(refreshFeeds(env))
     return json({ ok: true })
   }
 
