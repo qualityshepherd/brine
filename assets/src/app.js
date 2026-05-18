@@ -1,7 +1,8 @@
 import { readSiteIndex, setPosts } from './state.js'
 import { elements } from './dom.js'
 import { handleRouting, handleSearch } from './handlers.js'
-import { initEditor, initLoginModal } from './editor.js'
+import { initEditor } from './editor.js'
+import { initLoginModal } from './login.js'
 
 function setEventListeners () {
   elements.searchInput?.addEventListener('input', handleSearch)
