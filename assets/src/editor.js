@@ -141,7 +141,7 @@ const addBlogCog = (editing = false) => {
   const bar = document.createElement('div')
   bar.id = 'blog-cog-bar'
   bar.className = 'feeds-cog-bar'
-  bar.innerHTML = `<button class="feeds-cog-btn${editing ? ' is-active' : ''}" title="${editing ? 'Back to reading' : 'Write'}">${COG_SVG}</button>`
+  bar.innerHTML = `<button class="feeds-cog-btn${editing ? ' is-active' : ''}" title="${editing ? 'Back to reading' : 'New post'}">${editing ? COG_SVG : '+'}</button>`
   bar.querySelector('.feeds-cog-btn').addEventListener('click', editing ? () => closeBlogEdit() : () => openBlogEdit())
   elements.main.prepend(bar)
 }
