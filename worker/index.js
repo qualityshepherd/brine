@@ -142,7 +142,7 @@ async function handleRequest (req, env, ctx) {
 
   // Posts API (authed)
   if (path === '/api/posts' || path.startsWith('/api/posts/') || path === '/api/backup' || path === '/api/settings') {
-    const res = await handlePosts(req, env)
+    const res = await handlePosts(req, env, await getAuth())
     if (res && req.method !== 'GET') ctx.waitUntil(refreshRss(env))
     return res
   }
@@ -161,8 +161,14 @@ async function handleRequest (req, env, ctx) {
     return new Response(null, { status: 301, headers: { Location: path.replace('/assets/images/', '/images/') } })
   }
 
-  // Analytics page
-  if (path === '/analytics') return handleAnalytics(req, env, url.hostname)
+  // Analytics page (HTML shell is public; JSON data requires owner auth)
+  if (path === '/analytics') {
+    const accept = req.headers.get('accept') || ''
+    if (!accept.includes('text/html') && !isOwnerPubkey(await getAuth(), env)) {
+      return json({ error: 'unauthorized' }, 401)
+    }
+    return handleAnalytics(req, env, url.hostname)
+  }
 
   // Home page SSR
   if (path === '/') return handleHomeRoute(req, env)

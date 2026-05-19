@@ -182,6 +182,7 @@ const importOpml = async (req, env, ctx) => {
   const toAdd = []
   for (const feedUrl of items) {
     if (!URL.canParse(feedUrl) || existingUrls.has(feedUrl)) continue
+    if (new URL(feedUrl).protocol !== 'https:') continue
     existingUrls.add(feedUrl)
     toAdd.push(feedUrl)
   }

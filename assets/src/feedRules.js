@@ -135,7 +135,7 @@ export const sanitizeContent = (str) => {
 
 export const linkifyHashtags = (str, feedOrigin = null) => {
   if (!str) return ''
-  return str.replace(/([="/>@#]?)#([a-zA-Z0-9_]+)/g, (match, prefix, tag) => {
+  return str.replace(/([="/>@#a-zA-Z0-9]?)#([a-zA-Z0-9_]+)/g, (match, prefix, tag) => {
     if (prefix) return match
     const url = feedOrigin
       ? `${feedOrigin}/tags/${tag}`

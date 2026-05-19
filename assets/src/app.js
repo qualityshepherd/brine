@@ -92,7 +92,14 @@ function setEventListeners () {
 const show = id => { const el = document.getElementById(id); if (el) el.hidden = false }
 
 ;(async () => {
-  const index = await readSiteIndex('/index.json')
+  let index = []
+  try {
+    index = await readSiteIndex('/index.json')
+  } catch (err) {
+    console.error('Failed to load index.json:', err)
+    const main = document.querySelector('main')
+    if (main) main.innerHTML = '<p style="padding:2rem;color:var(--color-text-muted)">Failed to load posts. Please refresh.</p>'
+  }
   setPosts(index)
   setEventListeners()
   handleRouting()

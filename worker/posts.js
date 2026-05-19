@@ -1,6 +1,6 @@
 import { marked } from 'marked'
-import { memberByToken, isOwnerPubkey } from './auth.js'
-import { json, getTokenFromRequest } from './utils.js'
+import { isOwnerPubkey } from './auth.js'
+import { json } from './utils.js'
 
 export const slugify = (title) =>
   title
@@ -197,7 +197,7 @@ const updatePost = async (req, env, slug, pubkey, isOwner) => {
   const { status, type, description, imageUrl, date: bodyDate } = body
 
   const title = extractTitle(markdown)
-  const newSlug = slugify(title) || slug
+  const newSlug = slug
   const newStatus = status ?? post.status
   const now = new Date().toISOString()
   const publishDate = (() => {
@@ -269,7 +269,7 @@ const restoreBackup = async (req, env, pubkey, isOwner) => {
       if (!slug) { errors.push({ title, error: 'invalid title' }); continue }
 
       const result = await env.DB.prepare(`
-        INSERT OR REPLACE INTO posts (slug, title, markdown, html, description, status, type, date, updated_at, author, audio_url)
+        INSERT OR IGNORE INTO posts (slug, title, markdown, html, description, status, type, date, updated_at, author, audio_url)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
       `).bind(
         slug, title, markdown, p.html || renderHtml(markdown),
@@ -281,8 +281,10 @@ const restoreBackup = async (req, env, pubkey, isOwner) => {
         p.audioUrl || extractAudioUrl(markdown)
       ).run()
 
-      await savePostTags(env.DB, result.meta.last_row_id, markdown)
-      imported++
+      if (result.meta.changes > 0) {
+        await savePostTags(env.DB, result.meta.last_row_id, markdown)
+        imported++
+      }
     } catch (err) {
       errors.push({ title: p.title || '(missing)', error: err.message })
     }
@@ -303,12 +305,11 @@ const updateSettingsRoute = async (req, env, isOwner) => {
   return json(await saveSettings(env.DB, body))
 }
 
-export const handlePosts = async (req, env) => {
+export const handlePosts = async (req, env, pubkey) => {
   const url = new URL(req.url)
   const path = url.pathname
   const method = req.method
 
-  const pubkey = await memberByToken(getTokenFromRequest(req), env.DB)
   if (!pubkey) return json({ error: 'unauthorized' }, 401)
 
   const isOwner = isOwnerPubkey(pubkey, env)
