@@ -90,7 +90,7 @@ export const feedsItemTemplate = (item) => {
         ${text ? `<p class="feed-blurb">${text}</p>` : ''}
       </div>
     </div>
-    ${audioUrl ? `<audio controls src="${audioUrl}" preload="metadata" style="width:100%;margin-top:0.5em;"></audio>` : ''}
+    ${audioUrl ? `<audio controls src="${audioUrl}" preload="none" style="width:100%;margin-top:0.5em;"></audio>` : ''}
   </div>
   `
 }
