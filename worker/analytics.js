@@ -258,6 +258,7 @@ export async function handleAnalytics (req, env, hostname) {
         totalHits: 0,
         bots: 0,
         byPath: {},
+        byPathBots: {},
         byHour: Array(24).fill(0),
         byDow: Array(7).fill(0),
         byCountry: {},
@@ -293,6 +294,9 @@ export async function handleAnalytics (req, env, hostname) {
 
     if (h.is_bot) {
       day.bots++
+      if (!day.byPathBots[h.path]) day.byPathBots[h.path] = { count: 0, asns: [] }
+      day.byPathBots[h.path].count++
+      if (h.asn && !day.byPathBots[h.path].asns.includes(h.asn)) day.byPathBots[h.path].asns.push(h.asn)
       if (day.recentBots.length < 100) {
         day.recentBots.push({ ts: h.ts, path: h.path, country: h.country, city: h.city, ip: h.ip_hash, asn: h.asn })
       }
