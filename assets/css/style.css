@@ -629,11 +629,6 @@ footer img { width: 30px; height: auto; display: block; }
   border: 0;
 }
 
-.kofi img {
-  width: 30px;
-  height: auto;
-}
-
 .dim {
   filter: brightness(75%);
 }
