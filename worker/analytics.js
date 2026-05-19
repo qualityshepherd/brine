@@ -236,7 +236,10 @@ export async function handleAnalytics (req, env, hostname) {
     return new Response(html, { headers: { 'Content-Type': 'text/html;charset=UTF-8' } })
   }
 
-  const since = Date.now() - days * 86400000
+  const d = new Date()
+  d.setUTCHours(0, 0, 0, 0)
+  d.setUTCDate(d.getUTCDate() - (days - 1))
+  const since = d.getTime()
   let hits = []
   try {
     const { results } = await env.DB.prepare(
@@ -279,7 +282,8 @@ export async function handleAnalytics (req, env, hostname) {
 
   for (const h of hits) {
     const date = new Date(h.ts).toISOString().slice(0, 10)
-    const day = getDay(date)
+    if (!dayMap.has(date)) continue
+    const day = dayMap.get(date)
 
     if (h.rss_feed) {
       const prev = day.byRss[h.rss_feed] || { hits: 0, subscribers: 0 }
@@ -321,5 +325,5 @@ export async function handleAnalytics (req, env, hostname) {
       return { date, data: { ...rest, uniques: _ips.size } }
     })
 
-  return new Response(JSON.stringify(result, null, 2), { headers: { 'Content-Type': 'application/json' } })
+  return new Response(JSON.stringify(result, null, 2), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } })
 }

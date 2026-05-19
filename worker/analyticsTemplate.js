@@ -10,7 +10,6 @@ export default `
 <script>
 const params = new URLSearchParams(location.search)
 const days = parseInt(params.get('days') || '1')
-const token = localStorage.getItem('feedi_token') || ''
 const DOW = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 const SESSION_GAP = 30 * 60 * 1000
 
@@ -262,7 +261,7 @@ const render = (allData) => {
   renderLogs()
 }
 
-fetch(\`/api/analytics?days=\${days}\`, { headers: token ? { Authorization: \`Bearer \${token}\` } : {} })
+fetch(\`/api/analytics?days=\${days}\`)
   .then(r => {
     if (r.status === 401) throw new Error('unauthorized')
     if (!r.ok) throw new Error(\`\${r.status}\`)
