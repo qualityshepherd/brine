@@ -21,10 +21,15 @@ export const resetState = () => {
 }
 
 export async function readSiteIndex (pathToIndex) {
-  const res = await fetch(pathToIndex, { cache: 'no-store' })
-  if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  const index = await res.json()
-  return sortByDate(index)
+  try {
+    const res = await fetch(pathToIndex, { cache: 'no-store' })
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    const index = await res.json()
+    return sortByDate(index)
+  } catch (err) {
+    console.error('Failed to load index.json:', err)
+    return []
+  }
 }
 
 export function sortByDate (posts, desc = true) {

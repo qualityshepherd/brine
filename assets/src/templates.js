@@ -11,7 +11,7 @@ export const postsTemplate = post => {
   return `
   <div class="post" data-slug="${post.meta.slug}">
     <h2 class="post-title">
-      <a href="/posts/${post.meta.slug}">${post.meta.title}</a>
+      <a href="/posts/${post.meta.slug}" role="button" aria-label="post-title">${post.meta.title}</a>
       <button class="post-edit-btn" title="Edit">✎</button>
     </h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}

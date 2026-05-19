@@ -1,6 +1,6 @@
 {
-  "name": "feedi",
-  "version": "2.0.0",
+  "name": "brine",
+  "version": "3.0.0",
   "description": "Feedi - federated blog + RSS reader",
   "type": "module",
   "author": "brine",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "puppeteer": "^24.3.1",
+    "sirv-cli": "^3.0.0",
     "start-server-and-test": "^2.0.12"
   },
   "dependencies": {
