@@ -369,6 +369,8 @@ export function initEditor () {
     closeSettingsCard()
   })
 
+  if (sessionStorage.getItem('feedi_rescue_draft')) openBlogEdit()
+
   document.addEventListener('click', async (e) => {
     const editBtn = e.target.closest('.post-edit-btn')
     if (editBtn) {

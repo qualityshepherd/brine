@@ -160,15 +160,12 @@ const createPost = async (req, env, pubkey) => {
   const slug = slugify(title)
   if (!slug) return json({ error: 'could not derive slug from title' }, 400)
 
-  const existing = await getPostBySlug(env.DB, slug)
-  if (existing) return json({ error: 'a post with this title already exists' }, 409)
-
   const { status, type, description, imageUrl, date: bodyDate } = body
   const now = new Date().toISOString()
   const postDate = bodyDate ? new Date(bodyDate + 'T00:00:00Z').toISOString() : now
 
   const result = await env.DB.prepare(`
-    INSERT INTO posts (slug, title, markdown, html, description, image_url, status, type, date, updated_at, author, audio_url)
+    INSERT OR IGNORE INTO posts (slug, title, markdown, html, description, image_url, status, type, date, updated_at, author, audio_url)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `).bind(
     slug, title, markdown, renderHtml(markdown),
@@ -179,6 +176,8 @@ const createPost = async (req, env, pubkey) => {
     postDate, now, pubkey,
     extractAudioUrl(markdown)
   ).run()
+
+  if (result.meta.changes === 0) return json({ error: 'a post with this title already exists' }, 409)
 
   await savePostTags(env.DB, result.meta.last_row_id, markdown)
   return json(await getPostBySlug(env.DB, slug), 201)
