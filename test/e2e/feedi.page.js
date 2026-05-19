@@ -10,6 +10,7 @@ export const locators = {
   archiveItem: '.archive',
   feedsPost: '.feed-post',
   tagLink: '.tag',
+  loadMoreButton: '#load-more',
   externalLink: 'a[href^="http"]:not([href^="' + BASE + '"])',
   downloadLink: 'a[download]'
 }

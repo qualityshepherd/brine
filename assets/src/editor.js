@@ -18,7 +18,7 @@ export const extractTitle = (markdown) => {
 
 const COG_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
 
-const editorState = { list: [], slug: null, original: '', returnPath: '/' }
+const editorState = { list: [], slug: null, original: '', returnPath: '/', autosaveTimer: null }
 
 const draftRowsHtml = (drafts) => drafts.map(d => `
   <div class="draft-row" data-slug="${d.slug}">
@@ -30,13 +30,16 @@ const buildEditorView = (drafts = []) => `
   <div id="blog-edit-card">
     <div class="editor-actions">
       <button class="editor-btn" data-action="new-post">new</button>
-      <button class="editor-btn" data-action="blog-draft">save draft</button>
+      <button class="editor-btn" data-action="blog-draft" id="btn-save-draft">save draft</button>
       <button class="editor-btn" data-action="blog-preview">preview</button>
       <button class="editor-btn" data-action="upload-post-image" title="upload image">image</button>
       <button class="editor-btn editor-btn-danger" data-action="delete-post" hidden>delete</button>
       <button class="editor-btn editor-btn-publish editor-btn-right" data-action="blog-publish">publish</button>
     </div>
-    <textarea class="editor-textarea" id="blog-editor" placeholder="# Title&#10;&#10;Write in markdown...&#10;&#10;Use #hashtag to tag posts."></textarea>
+    <div class="editor-textarea-wrap">
+      <textarea class="editor-textarea" id="blog-editor" placeholder="# Title&#10;&#10;Write in markdown...&#10;&#10;Use #hashtag to tag posts."></textarea>
+      <span class="editor-autosave" id="editor-autosave"></span>
+    </div>
     <div class="editor-preview" id="blog-preview" hidden></div>
     <details class="post-meta">
       <summary class="post-meta-toggle">meta</summary>
@@ -199,14 +202,63 @@ const attachEditorDropZone = () => {
   })
 }
 
+const setAutosaveStatus = (msg) => {
+  const el = document.getElementById('editor-autosave')
+  if (el) el.textContent = msg
+}
+
+const startAutosave = () => {
+  if (editorState.autosaveTimer) clearInterval(editorState.autosaveTimer)
+  editorState.autosaveTimer = setInterval(async () => {
+    if (!hasUnsavedChanges()) return
+    const ta = document.getElementById('blog-editor')
+    const markdown = ta?.value.trim()
+    if (!markdown) return
+    setAutosaveStatus('saving…')
+    const type = document.getElementById('blog-page-check')?.checked ? 'page' : 'post'
+    const post = editorState.list.find(p => p.slug === editorState.slug)
+    const status = post?.status || 'draft'
+    const result = editorState.slug
+      ? await apiFetch(`/api/posts/${editorState.slug}`, 'PATCH', { markdown, status, type, ...readMeta() })
+      : await apiFetch('/api/posts', 'POST', { markdown, status: 'draft', type, ...readMeta() })
+    if (result.error) { setAutosaveStatus('save failed'); return }
+    editorState.original = markdown
+    if (!editorState.slug) {
+      editorState.slug = result.slug
+      editorState.list.push(result)
+      refreshDraftItems()
+    }
+    const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+    setAutosaveStatus(`saved ${now}`)
+  }, 20000)
+}
+
+const stopAutosave = () => {
+  if (editorState.autosaveTimer) { clearInterval(editorState.autosaveTimer); editorState.autosaveTimer = null }
+  setAutosaveStatus('')
+}
+
 const renderEditorView = (slug) => {
   const drafts = editorState.list.filter(p => p.status === 'draft').reverse()
   elements.main.innerHTML = buildEditorView(drafts)
   addBlogCog(true)
   document.getElementById('blog-page-check')?.addEventListener('change', syncActions)
   attachEditorDropZone()
-  if (slug) populateEditor(slug)
-  else { resetNewPost(); document.getElementById('blog-editor')?.focus() }
+  startAutosave()
+  const rescued = sessionStorage.getItem('feedi_rescue_draft')
+  if (rescued) {
+    sessionStorage.removeItem('feedi_rescue_draft')
+    const ta = document.getElementById('blog-editor')
+    if (ta) { ta.value = rescued; ta.focus() }
+    editorState.slug = null
+    editorState.original = ''
+    syncActions()
+  } else if (slug) {
+    populateEditor(slug)
+  } else {
+    resetNewPost()
+    document.getElementById('blog-editor')?.focus()
+  }
 }
 
 const openBlogEdit = async (preloadSlug = null) => {
@@ -224,6 +276,7 @@ const hasUnsavedChanges = () => {
 
 const closeBlogEdit = (reload = false) => {
   if (!reload && hasUnsavedChanges() && !confirm('You have unsaved changes. Close anyway?')) return
+  stopAutosave()
   const returnPath = editorState.returnPath || '/'
   editorState.returnPath = '/'
   if (reload) {
@@ -260,6 +313,8 @@ const handleBlogSave = async (action) => {
 
   if (action === 'publish') { closeBlogEdit(true); return }
 
+  const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  setAutosaveStatus(`saved ${now}`)
   if (btn) { btn.textContent = 'saved!'; setTimeout(() => syncActions(), 1500) }
 
   const prevSlug = editorState.slug
@@ -326,6 +381,7 @@ export function initEditor () {
     const action = btn.dataset.action
 
     if (action === 'new-post') {
+      if (hasUnsavedChanges() && !confirm('You have unsaved changes. Start a new post anyway?')) return
       const ta = document.getElementById('blog-editor')
       const preview = document.getElementById('blog-preview')
       const previewBtn = document.querySelector('[data-action="blog-preview"]')

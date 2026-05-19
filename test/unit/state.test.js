@@ -19,24 +19,28 @@ const extractDates = posts => posts.map(p => p.meta.date)
 
 test('State: sortByDate should sort posts descending by default', t => {
   const sortedDates = extractDates(sortByDate(posts))
+
   t.deepEqual(sortedDates, ['2024-01-01', '2023-01-01', '2022-01-01'])
 })
 
 test('State: sortByDate should sort posts ascending if desc is false', t => {
   const sortedDates = extractDates(sortByDate(posts, false))
+
   t.deepEqual(sortedDates, ['2022-01-01', '2023-01-01', '2024-01-01'])
 })
 
 test('State: sortByDate should not mutate input', t => {
   const clone = JSON.stringify(posts)
   sortByDate(posts)
+
   t.is(JSON.stringify(posts), clone)
 })
 
-test('State: setPosts should update posts', t => {
+test('State: setPosts should update posts and return new posts array', t => {
   resetState()
   const testPosts = [{ meta: { title: 'Test' } }]
   setPosts(testPosts)
+
   t.deepEqual(getPosts(), testPosts)
 })
 
@@ -54,6 +58,7 @@ test('State: updateState should update multiple properties at once', t => {
   const testPosts = [{ meta: { title: 'Test' } }]
   updateState({ posts: testPosts, searchTerm: 'test query' })
   const state = getState()
+
   t.deepEqual(state.posts, testPosts)
   t.is(state.searchTerm, 'test query')
 })
@@ -63,6 +68,7 @@ test('State: state updates should be immutable', t => {
   const initialState = getState()
   setPosts([{ meta: { title: 'New Post' } }])
   setSearchTerm('search')
+
   t.ok(JSON.stringify(getState()) !== JSON.stringify(initialState))
   t.is(initialState.posts.length, 0)
 })
@@ -72,6 +78,7 @@ test('State: resetState should restore initial state', t => {
   setSearchTerm('modified')
   const resetResult = resetState()
   const currentState = getState()
+
   t.is(currentState.posts.length, 0)
   t.is(currentState.searchTerm, '')
   t.deepEqual(resetResult, currentState)
@@ -84,6 +91,7 @@ test('State: state getters should return copies to prevent mutation', t => {
   const posts1 = getPosts()
   const posts2 = getPosts()
   posts1.push({ meta: { title: 'Hacked Post' } })
+
   t.is(getPosts().length, 2)
   t.is(posts2.length, 2)
 })

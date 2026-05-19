@@ -1,4 +1,4 @@
-name = "brine-dev"
+name = "feedi-brine-dev"
 main = "worker/index.js"
 compatibility_date = "2025-01-01"
 
@@ -9,26 +9,21 @@ binding = "ASSETS"
 run_worker_first = true
 
 [vars]
-DOMAIN_NAME = "brine.dev"
-SITE_TITLE = "brine.dev"
-SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
-OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"
-PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
-PODCAST_CATEGORY = "Arts"
-PODCAST_EMAIL = "ack@brine.dev"
+DOMAIN_NAME = "feedi.brine.dev"
+OWNER = "AMOCqVCs9-TMcPsayX9cF7l1veoEPgbzEIZRlPw_zp8"  # paste your pubkey here after deriving it at /admin
 
 [[d1_databases]]
 binding = "DB"
-database_name = "brine-dev"
-database_id = "68ef6268-e99f-407d-a81a-74c08fca150e"
-
-[[r2_buckets]]
-binding = "R2"
-bucket_name = "brine"
+database_name = "feedi"
+database_id = "b48c42cb-1781-49d0-a272-0fd86de4ce32"
 
 [[migrations]]
 tag = "v2"
 deleted_classes = ["AnalyticsDO"]
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "feedi-brine-dev"
 
 [triggers]
 crons = ["*/42 * * * *"]

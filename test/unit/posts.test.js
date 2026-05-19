@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { slugify, buildIndex, postToMd } from '../../worker/posts.js'
+import { slugify, buildIndex, renderHtml } from '../../worker/posts.js'
 
 // slugify
 test('slugify: lowercases title', t => {
@@ -79,9 +79,14 @@ test('buildIndex: meta contains expected fields', t => {
   t.deepEqual(entry.meta.tags, ['a', 'b'])
 })
 
-test('buildIndex: html is included from post', t => {
-  const [entry] = buildIndex([makePost({ html: '<p>hello</p>' })])
-  t.is(entry.html, '<p>hello</p>')
+test('buildIndex: uses stored html when present', t => {
+  const [entry] = buildIndex([makePost({ html: '<p>stored</p>' })])
+  t.ok(entry.html.includes('stored'))
+})
+
+test('buildIndex: falls back to rendering markdown when html is empty', t => {
+  const [entry] = buildIndex([makePost({ html: '', markdown: '# Hello' })])
+  t.ok(entry.html.includes('<h1>'))
 })
 
 test('buildIndex: markdown is not exposed in index', t => {
@@ -103,40 +108,27 @@ test('buildIndex: empty array returns empty array', t => {
   t.deepEqual(buildIndex([]), [])
 })
 
-// postToMd
-test('postToMd: includes title in frontmatter', t => {
-  const md = postToMd(makePost({ title: 'My Post' }))
-  t.ok(md.includes('title: My Post'))
+// renderHtml — inline hashtag linking
+
+test('renderHtml: linkifies hashtag to tag filter link', t => {
+  const html = renderHtml('hello #world')
+  t.ok(html.includes('href="/tag?t=world"'))
+  t.ok(html.includes('class="tag"'))
+  t.ok(html.includes('#world'))
 })
 
-test('postToMd: includes date in frontmatter', t => {
-  const md = postToMd(makePost({ date: '2026-01-15' }))
-  t.ok(md.includes('date: 2026-01-15'))
+test('renderHtml: linkifies multiple hashtags', t => {
+  const html = renderHtml('#test #panic')
+  t.ok(html.includes('href="/tag?t=test"'))
+  t.ok(html.includes('href="/tag?t=panic"'))
 })
 
-test('postToMd: includes tags in frontmatter', t => {
-  const md = postToMd(makePost({ tags: ['foo', 'bar'] }))
-  t.ok(md.includes('tags: [foo, bar]'))
+test('renderHtml: does not linkify hashtag inside html attribute', t => {
+  const html = renderHtml('[link](#anchor)')
+  t.ok(!html.includes('href="/tag?t=anchor"'))
 })
 
-test('postToMd: includes markdown content after frontmatter', t => {
-  const md = postToMd(makePost({ markdown: '## Hello\n\nworld' }))
-  t.ok(md.includes('## Hello'))
-  t.ok(md.includes('world'))
-})
-
-test('postToMd: wraps frontmatter in --- delimiters', t => {
-  const md = postToMd(makePost())
-  t.ok(md.startsWith('---\n'))
-  t.ok(md.includes('\n---\n'))
-})
-
-test('postToMd: includes author in frontmatter', t => {
-  const md = postToMd(makePost({ author: 'brine' }))
-  t.ok(md.includes('author: brine'))
-})
-
-test('postToMd: empty tags renders empty brackets', t => {
-  const md = postToMd(makePost({ tags: [] }))
-  t.ok(md.includes('tags: []'))
+test('renderHtml: lowercases tag in link href', t => {
+  const html = renderHtml('#MyTag')
+  t.ok(html.includes('href="/tag?t=mytag"'))
 })
