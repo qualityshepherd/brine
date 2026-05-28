@@ -23,7 +23,7 @@ export const postsTemplate = post => {
 
 export const singlePostTemplate = post => `
   <article class="post" data-slug="${post.meta.slug}">
-    <h2>${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
+    <h2 class="single-title">${post.meta.title}<button class="post-edit-btn" title="Edit">✎</button></h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
   </article>

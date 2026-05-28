@@ -311,7 +311,7 @@ const handleBlogSave = async (action) => {
   if (btn) btn.disabled = false
   if (result.error) { alert(result.error); return }
 
-  if (action === 'publish') { closeBlogEdit(true); return }
+  if (action === 'publish') { editorState.original = markdown; closeBlogEdit(true); return }
 
   const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
   setAutosaveStatus(`saved ${now}`)

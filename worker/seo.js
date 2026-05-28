@@ -45,7 +45,7 @@ const postCardHtml = (post) => {
 
 const singlePostHtml = (post) => `
   <article class="post">
-    <h2>${post.meta.title}</h2>
+    <h2 class="single-title">${post.meta.title}</h2>
     ${post.meta.page ? '' : `<div class="date">${fmtDate(post.meta.date)}</div>`}
     <div class="post-content">${post.html.replaceAll(BREAK, '')}</div>
   </article>`
