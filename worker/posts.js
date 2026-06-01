@@ -18,8 +18,12 @@ const extractTitle = (markdown) => {
 }
 
 const extractHashtags = (markdown) => {
-  const matches = [...(markdown || '').matchAll(/(?<![="/>@#a-zA-Z0-9])#([a-zA-Z0-9_]+)/g)]
-  return [...new Set(matches.map(m => m[1].toLowerCase()))]
+  const matches = [...(markdown || '').matchAll(/(?<![="/>@#&a-zA-Z0-9])#([a-zA-Z0-9_]+)/g)]
+  return [...new Set(
+    matches
+      .map(m => m[1].toLowerCase())
+      .filter(t => /[a-z]/.test(t))
+  )]
 }
 
 const extractAudioUrl = (markdown) => {
