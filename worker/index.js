@@ -1,12 +1,12 @@
-import { trackHit, handleAnalytics, handleAnalyticsMigrate } from './analytics.js'
+import { trackHit, handleAnalytics } from './analytics.js'
 import { handleFeeds, refreshFeeds, handleFeedsAdmin } from './feeds.js'
-import { handleRss, refreshRss } from './rss.js'
+import { handleRss } from './rss.js'
 import { handleUpload, handleServeUpload } from './upload.js'
 import { handleAuth, memberByToken, isOwnerPubkey, timingSafeEqual } from './auth.js'
 import { getTokenFromRequest } from './utils.js'
 import { handlePosts, handleIndex, getSettings } from './posts.js'
 import { handleFullBackup } from './backup.js'
-import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute, handleHomeRoute, handleArchiveRoute, handleTagRoute } from './seo.js'
+import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute } from './seo.js'
 
 export const isAuthorized = (secret, adminSecret) =>
   !!secret && !!adminSecret && timingSafeEqual(secret, adminSecret)
@@ -15,7 +15,7 @@ const json = (data, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json' } })
 
 // These /api/* paths are intentionally public (no token required)
-const PUBLIC_API = new Set(['/api/challenge', '/api/login', '/api/logout', '/api/me', '/api/hit', '/api/analytics/migrate'])
+const PUBLIC_API = new Set(['/api/challenge', '/api/login', '/api/logout', '/api/me', '/api/hit'])
 
 const PRIVATE = [
   '/worker/', '/test/', '/node_modules/',
@@ -51,8 +51,7 @@ export default {
     const now = Date.now()
     ctx.waitUntil(Promise.all([
       refreshFeeds(env).catch(err => console.error('Feed refresh failed:', err)),
-      refreshRss(env).catch(err => console.error('RSS refresh failed:', err)),
-      env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
+env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
       env.DB.prepare('DELETE FROM rate_limits WHERE reset_at < ?').bind(now).run().catch(() => {}),
       env.DB.prepare('DELETE FROM hits WHERE ts < ?').bind(now - 365 * 86400000).run().catch(() => {})
     ]))
@@ -85,15 +84,6 @@ async function handleRequest (req, env, ctx) {
   // Auth gate — all /api/* routes not in PUBLIC_API require a valid token
   if (path.startsWith('/api/') && !PUBLIC_API.has(path)) {
     if (!await getAuth()) return json({ error: 'unauthorized' }, 401)
-  }
-
-  // Analytics (owner-only)
-  if (path === '/api/analytics/migrate' && req.method === 'POST') {
-    const secret = url.searchParams.get('secret')
-    if (!isAuthorized(secret, env.ADMIN_SECRET) && !isOwnerPubkey(await getAuth(), env)) {
-      return json({ error: 'unauthorized' }, 401)
-    }
-    return handleAnalyticsMigrate(req, env)
   }
 
   if (path === '/api/analytics') {
@@ -142,9 +132,7 @@ async function handleRequest (req, env, ctx) {
 
   // Posts API (authed)
   if (path === '/api/posts' || path.startsWith('/api/posts/') || path === '/api/backup' || path === '/api/settings') {
-    const res = await handlePosts(req, env, await getAuth())
-    if (res && req.method !== 'GET') ctx.waitUntil(refreshRss(env))
-    return res
+    return handlePosts(req, env, await getAuth())
   }
 
   // Worker-generated index (replaces static index.json)
@@ -170,22 +158,13 @@ async function handleRequest (req, env, ctx) {
     return handleAnalytics(req, env, url.hostname)
   }
 
-  // Home page SSR
-  if (path === '/') return handleHomeRoute(req, env)
-
-  // Post pages — inject OG meta + fix direct URL navigation
+  // Post pages — inject OG meta
   if (path.startsWith('/posts/')) return handlePostRoute(req, env)
 
   // Block private paths
   if (PRIVATE.some(p => path === p || path.startsWith(p))) {
     return new Response('Not found', { status: 404 })
   }
-
-  // Archive SSR
-  if (path === '/archive') return handleArchiveRoute(req, env)
-
-  // Tag filter SSR
-  if (path === '/tag') return handleTagRoute(req, env)
 
   // Page routes (type:page posts at root level, e.g. /about)
   const segments = path.split('/').filter(Boolean)

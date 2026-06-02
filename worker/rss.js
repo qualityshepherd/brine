@@ -101,81 +101,36 @@ const podItem = (post, baseUrl) => {
   </item>`
 }
 
-export const refreshRss = async (env) => {
-  if (!env.R2) return
-  const [settings, allPosts] = await Promise.all([getSettings(env.DB), getRssPosts(env.DB)])
-  const cfg = {
-    title: env.SITE_TITLE || 'feedi',
-    description: env.SITE_DESCRIPTION || '',
-    domain: env.DOMAIN_NAME || '',
-    language: 'en-us',
-    image: settings.podcastImage || env.PODCAST_IMAGE || '',
-    siteImage: settings.siteImage || '',
-    podcastCategory: settings.podcastCategory || env.PODCAST_CATEGORY || '',
-    podcastEmail: settings.podcastEmail || env.PODCAST_EMAIL || ''
-  }
-  const base = `https://${cfg.domain}`
-  const siteImage = cfg.siteImage
+const buildCfg = (env, settings) => ({
+  title: env.SITE_TITLE || 'feedi',
+  description: env.SITE_DESCRIPTION || '',
+  domain: env.DOMAIN_NAME || '',
+  language: 'en-us',
+  image: settings.podcastImage || env.PODCAST_IMAGE || '',
+  siteImage: settings.siteImage || '',
+  podcastCategory: settings.podcastCategory || env.PODCAST_CATEGORY || '',
+  podcastEmail: settings.podcastEmail || env.PODCAST_EMAIL || ''
+})
 
-  const blog = allPosts.filter(p => !p.audioUrl)
-  const pod = allPosts.filter(p => p.audioUrl)
-
-  const xmlBlog = channelOpen(cfg, `${base}/rss/blog`) + blog.map(p => postItem(p, base, siteImage)).join('') + channelClose()
-  const xmlPod = podChannelOpen(cfg, `${base}/rss/pod`) + pod.map(p => podItem(p, base)).join('') + channelClose()
-  const xmlAll = channelOpen(cfg, `${base}/rss/all`) + allPosts.map(p => postItem(p, base, siteImage)).join('') + channelClose()
-
-  await Promise.all([
-    env.R2.put('rss/blog.xml', xmlBlog, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } }),
-    env.R2.put('rss/pod.xml', xmlPod, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } }),
-    env.R2.put('rss/all.xml', xmlAll, { httpMetadata: { contentType: 'application/rss+xml; charset=utf-8' } })
-  ])
-}
-
-export const handleRss = async (req, env, ctx) => {
+export const handleRss = async (req, env) => {
   const path = new URL(req.url).pathname
-  const key = path === '/rss/blog'
-    ? 'rss/blog.xml'
-    : path === '/rss/pod'
-      ? 'rss/pod.xml'
-      : path === '/rss/all'
-        ? 'rss/all.xml'
-        : null
-  if (!key) return null
+  if (path !== '/rss/blog' && path !== '/rss/pod' && path !== '/rss/all') return null
 
-  if (env.R2) {
-    const obj = await env.R2.get(key)
-    if (obj) return new Response(obj.body, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'public, max-age=300' } })
-  }
-
-  // R2 miss — generate inline and seed R2 for next time
-  if (ctx) ctx.waitUntil(refreshRss(env))
-  const reqUrl = new URL(req.url)
   const [settings, allPosts] = await Promise.all([getSettings(env.DB), getRssPosts(env.DB)])
-  const cfg = {
-    title: env.SITE_TITLE || 'feedi',
-    description: env.SITE_DESCRIPTION || '',
-    domain: env.DOMAIN_NAME || '',
-    language: 'en-us',
-    image: settings.podcastImage || env.PODCAST_IMAGE || '',
-    siteImage: settings.siteImage || '',
-    podcastCategory: settings.podcastCategory || env.PODCAST_CATEGORY || '',
-    podcastEmail: settings.podcastEmail || env.PODCAST_EMAIL || ''
-  }
+  const cfg = buildCfg(env, settings)
   const base = `https://${cfg.domain}`
-  const siteImage = cfg.siteImage
+  const selfUrl = `${base}${path}`
 
+  let xml
   if (path === '/rss/blog') {
-    const xml = channelOpen(cfg, reqUrl.href) + allPosts.filter(p => !p.audioUrl).map(p => postItem(p, base, siteImage)).join('') + channelClose()
-    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
-  }
-  if (path === '/rss/pod') {
-    const xml = podChannelOpen(cfg, reqUrl.href) + allPosts.filter(p => p.audioUrl).map(p => podItem(p, base)).join('') + channelClose()
-    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
-  }
-  if (path === '/rss/all') {
-    const xml = channelOpen(cfg, reqUrl.href) + allPosts.map(p => postItem(p, base, siteImage)).join('') + channelClose()
-    return new Response(xml, { headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'no-store' } })
+    xml = channelOpen(cfg, selfUrl) + allPosts.filter(p => !p.audioUrl).map(p => postItem(p, base, cfg.siteImage)).join('') + channelClose()
+  } else if (path === '/rss/pod') {
+    xml = podChannelOpen(cfg, selfUrl) + allPosts.filter(p => p.audioUrl).map(p => podItem(p, base)).join('') + channelClose()
+  } else {
+    xml = channelOpen(cfg, selfUrl) + allPosts.map(p => postItem(p, base, cfg.siteImage)).join('') + channelClose()
   }
 
-  return null
+  return new Response(xml, {
+    headers: { 'Content-Type': 'application/rss+xml; charset=utf-8', 'Cache-Control': 'public, max-age=300' }
+  })
 }
