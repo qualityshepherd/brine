@@ -139,9 +139,10 @@ export async function trackHit (req, env) {
   if (kind === 'skip') return
 
   if (kind === 'bot') {
+    const today = new Date(ts).toISOString().slice(0, 10)
     await env.DB.prepare(
-      'INSERT INTO hits (ts, path, country, city, region, device, referrer, ip_hash, is_bot, asn) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 1, ?)'
-    ).bind(ts, path, cf.country || '?', cf.city || '?', cf.region || '?', 'desktop', '', ipHash, asn).run().catch(() => {})
+      'INSERT INTO bot_counts (date, count) VALUES (?, 1) ON CONFLICT(date) DO UPDATE SET count = count + 1'
+    ).bind(today).run().catch(() => {})
     return
   }
 
@@ -173,14 +174,23 @@ export async function handleAnalytics (req, env, hostname) {
   d.setUTCDate(d.getUTCDate() - (days - 1))
   const since = d.getTime()
   let hits = []
+  let botCounts = []
   try {
-    const { results } = await env.DB.prepare(
-      'SELECT ts, path, country, city, region, device, referrer, ip_hash, is_bot, asn, rss_feed, rss_subs FROM hits WHERE ts >= ? ORDER BY ts DESC LIMIT 20000'
-    ).bind(since).all()
-    hits = results
+    const [hitsRes, botsRes] = await Promise.all([
+      env.DB.prepare(
+        'SELECT ts, path, country, city, region, device, referrer, ip_hash, is_bot, asn, rss_feed, rss_subs FROM hits WHERE ts >= ? ORDER BY ts DESC LIMIT 20000'
+      ).bind(since).all(),
+      env.DB.prepare(
+        'SELECT date, count FROM bot_counts WHERE date >= ? ORDER BY date DESC'
+      ).bind(new Date(since).toISOString().slice(0, 10)).all()
+    ])
+    hits = hitsRes.results
+    botCounts = botsRes.results
   } catch {
     return new Response(JSON.stringify([]), { headers: { 'Content-Type': 'application/json' } })
   }
+
+  const botCountMap = new Map(botCounts.map((r) => [r.date, r.count]))
 
   const dayMap = new Map()
   const getDay = (date) => {
@@ -188,9 +198,7 @@ export async function handleAnalytics (req, env, hostname) {
       dayMap.set(date, {
         date,
         totalHits: 0,
-        bots: 0,
         byPath: {},
-        byPathBots: {},
         byHour: Array(24).fill(0),
         byDow: Array(7).fill(0),
         byCountry: {},
@@ -199,7 +207,6 @@ export async function handleAnalytics (req, env, hostname) {
         byDevice: { mobile: 0, desktop: 0 },
         byRss: {},
         recentHits: [],
-        recentBots: [],
         _ips: new Set()
       })
     }
@@ -224,16 +231,7 @@ export async function handleAnalytics (req, env, hostname) {
       continue
     }
 
-    if (h.is_bot) {
-      day.bots++
-      if (!day.byPathBots[h.path]) day.byPathBots[h.path] = { count: 0, asns: [] }
-      day.byPathBots[h.path].count++
-      if (h.asn && !day.byPathBots[h.path].asns.includes(h.asn)) day.byPathBots[h.path].asns.push(h.asn)
-      if (day.recentBots.length < 100) {
-        day.recentBots.push({ ts: h.ts, path: h.path, country: h.country, city: h.city, ip: h.ip_hash, asn: h.asn })
-      }
-      continue
-    }
+    if (h.is_bot) continue
 
     day.totalHits++
     day._ips.add(h.ip_hash)
@@ -258,7 +256,7 @@ export async function handleAnalytics (req, env, hostname) {
     .sort((a, b) => (a[0] < b[0] ? 1 : -1))
     .map(([date, day]) => {
       const { _ips, ...rest } = day
-      return { date, data: { ...rest, uniques: _ips.size } }
+      return { date, data: { ...rest, bots: botCountMap.get(date) || 0, uniques: _ips.size } }
     })
 
   return new Response(JSON.stringify(result, null, 2), { headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' } })
