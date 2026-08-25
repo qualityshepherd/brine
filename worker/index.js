@@ -1,8 +1,8 @@
-import { trackHit, handleAnalytics } from './analytics.js'
+import { trackHit } from './hit.js'
 import { handleFeeds, refreshFeeds, handleFeedsAdmin } from './feeds.js'
 import { handleRss } from './rss.js'
 import { handleUpload, handleServeUpload } from './upload.js'
-import { handleAuth, memberByToken, isOwnerPubkey, timingSafeEqual } from './auth.js'
+import { handleAuth, memberByToken, timingSafeEqual } from './auth.js'
 import { getTokenFromRequest } from './utils.js'
 import { handlePosts, handleIndex, getSettings } from './posts.js'
 import { handleFullBackup } from './backup.js'
@@ -51,9 +51,8 @@ export default {
     const now = Date.now()
     ctx.waitUntil(Promise.all([
       refreshFeeds(env).catch(err => console.error('Feed refresh failed:', err)),
-env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
-      env.DB.prepare('DELETE FROM rate_limits WHERE reset_at < ?').bind(now).run().catch(() => {}),
-      env.DB.prepare('DELETE FROM hits WHERE ts < ?').bind(now - 365 * 86400000).run().catch(() => {})
+      env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
+      env.DB.prepare('DELETE FROM rate_limits WHERE reset_at < ?').bind(now).run().catch(() => {})
     ]))
   }
 }
@@ -84,11 +83,6 @@ async function handleRequest (req, env, ctx) {
   // Auth gate — all /api/* routes not in PUBLIC_API require a valid token
   if (path.startsWith('/api/') && !PUBLIC_API.has(path)) {
     if (!await getAuth()) return json({ error: 'unauthorized' }, 401)
-  }
-
-  if (path === '/api/analytics') {
-    if (!isOwnerPubkey(await getAuth(), env)) return json({ error: 'unauthorized' }, 401)
-    return handleAnalytics(req, env, url.hostname)
   }
 
   // RSS feeds
@@ -147,15 +141,6 @@ async function handleRequest (req, env, ctx) {
   // Compat redirect for old /assets/images/ paths baked into post content
   if (path.startsWith('/assets/images/')) {
     return new Response(null, { status: 301, headers: { Location: path.replace('/assets/images/', '/images/') } })
-  }
-
-  // Analytics page (HTML shell is public; JSON data requires owner auth)
-  if (path === '/analytics') {
-    const accept = req.headers.get('accept') || ''
-    if (!accept.includes('text/html') && !isOwnerPubkey(await getAuth(), env)) {
-      return json({ error: 'unauthorized' }, 401)
-    }
-    return handleAnalytics(req, env, url.hostname)
   }
 
   // Post pages — inject OG meta

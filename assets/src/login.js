@@ -79,7 +79,7 @@ export function initLoginModal () {
     const val = overlay.querySelector('#lm-setup-passphrase').value
     const el = overlay.querySelector('#lm-strength')
     if (!val) { el.classList.add('hidden'); return }
-    const { scorePassphrase } = await import('../../../../../../lib/keys.js')
+    const { scorePassphrase } = await import('../lib/keys.js')
     const { score, flavor } = scorePassphrase(val)
     el.className = `login-modal-strength strength-${score}`
     el.textContent = flavor
@@ -89,7 +89,7 @@ export function initLoginModal () {
   overlay.querySelector('#lm-btn-derive').addEventListener('click', async () => {
     const passphrase = overlay.querySelector('#lm-setup-passphrase').value.trim()
     if (!passphrase) return
-    const { deriveKeypair, scorePassphrase } = await import('../../../../../../lib/keys.js')
+    const { deriveKeypair, scorePassphrase } = await import('../lib/keys.js')
     const { score } = scorePassphrase(passphrase)
     if (score < 3) { showErr('passphrase too weak — aim for a long phrase'); return }
     hideErr()
@@ -103,7 +103,7 @@ export function initLoginModal () {
     if (!passphrase) return
     hideErr()
     try {
-      const { deriveKeypair, signChallenge } = await import('../../../../../../lib/keys.js')
+      const { deriveKeypair, signChallenge } = await import('../lib/keys.js')
       const { privateKey, pubkey } = await deriveKeypair(passphrase, location.hostname)
       const { challenge } = await fetch('/api/challenge').then(r => r.json())
       const sig = await signChallenge(challenge, privateKey)

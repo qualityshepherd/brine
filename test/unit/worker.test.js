@@ -1,30 +1,27 @@
 import { unit as test } from '../testpup.js'
-import { classifyHit } from '../../worker/analytics.js'
+import { shouldSkip } from '../../worker/hit.js'
 import { isAuthorized } from '../../worker/index.js'
 
-// classifyHit — covers all branching in trackHit without touching CF infra
-test('classifyHit: bot path returns bot', t => {
-  t.is(classifyHit('/wp-login.php', 'Mozilla/5.0'), 'bot')
+// shouldSkip — scope filtering only, covers the branching trackHit relies on
+// without touching CF infra. Bot classification now lives in chalk and is
+// tested there, not here.
+test('shouldSkip: normal path + browser ua is not skipped', t => {
+  t.falsy(shouldSkip('/posts/hello'))
 })
 
-test('classifyHit: normal path + browser ua returns hit', t => {
-  t.is(classifyHit('/posts/hello', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'), 'hit')
+test('shouldSkip: root path is not skipped', t => {
+  t.falsy(shouldSkip('/'))
 })
 
-test('classifyHit: root path returns hit', t => {
-  t.is(classifyHit('/', 'Mozilla/5.0'), 'hit')
+test('shouldSkip: path with query string is not skipped', t => {
+  t.falsy(shouldSkip('/?t=javascript'))
 })
 
-test('classifyHit: path with query string returns hit', t => {
-  t.is(classifyHit('/?t=javascript', 'Mozilla/5.0'), 'hit')
+test('shouldSkip: /api paths are skipped', t => {
+  t.ok(shouldSkip('/api/graphql'))
 })
 
-test('classifyHit: skip takes priority over bot path', t => {
-  // /api/something that also looks like a bot path should still skip
-  t.is(classifyHit('/api/graphql'), 'skip')
-})
-
-// isAuthorized — auth gate on /api/analytics
+// isAuthorized — auth gate on /feeds/refresh
 
 test('isAuthorized: matching secret returns true', t => {
   t.ok(isAuthorized('abc123', 'abc123'))
