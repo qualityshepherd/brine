@@ -24,23 +24,6 @@ const normalizeDate = (d) => {
   return `${y}-${m.padStart(2, '0')}-${day.padStart(2, '0')}`
 }
 
-const timeAgo = (iso) => {
-  const m = Math.floor((Date.now() - new Date(iso)) / 60000)
-  if (m < 1) return 'just now'
-  if (m < 60) return `${m}m ago`
-  const h = Math.floor(m / 60)
-  return h < 24 ? `${h}h ago` : `${Math.floor(h / 24)}d ago`
-}
-const statusDot = (s) => {
-  if (!s) return '<span class="status-dot status-null" title="never fetched"></span>'
-  if (s.code === null || s.code === 0) {
-    const title = s.error ? `error: ${s.error}` : 'never fetched'
-    return `<span class="status-dot status-error" title="${escHtml(title)}${s.fetched ? ` · ${timeAgo(s.fetched)}` : ''}"></span>`
-  }
-  const cls = s.code === 200 ? 'status-ok' : s.code === 429 ? 'status-warn' : s.code >= 400 ? 'status-error' : 'status-null'
-  const label = s.code === 429 ? '429 Rate Limited' : s.code >= 500 ? `${s.code} Server Error` : s.code >= 400 ? `${s.code} Error` : `${s.code} OK`
-  return `<span class="status-dot ${cls}" title="${label}${s.fetched ? ` · ${timeAgo(s.fetched)}` : ''}"></span>`
-}
 const parseMarkdown = (md) => md
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/^### (.+)$/gm, '<h3>$1</h3>')
@@ -63,7 +46,6 @@ const routes = {
   '#new': () => showNew('post'),
   '#new-page': () => showNew('page'),
   '#pages': showPages,
-  '#feeds': showFeeds,
   '#settings': showSettings
 }
 
@@ -78,8 +60,8 @@ const routeEditor = () => {
 window.addEventListener('hashchange', routeEditor)
 
 // ── views ─────────────────────────────────────────────────────────────────────
-const VIEWS = ['view-login', 'view-list', 'view-pages', 'view-feeds', 'view-settings', 'view-editor']
-const NAV_IDS = ['nav-new', 'nav-posts', 'nav-pages', 'nav-feeds', 'nav-settings']
+const VIEWS = ['view-login', 'view-list', 'view-pages', 'view-settings', 'view-editor']
+const NAV_IDS = ['nav-new', 'nav-posts', 'nav-pages', 'nav-settings']
 
 const showView = (id) => { VIEWS.forEach(v => $(v).classList.add('hidden')); $(id).classList.remove('hidden') }
 const showNav = () => NAV_IDS.forEach(id => $(id).classList.remove('hidden'))
@@ -179,14 +161,6 @@ async function showEdit (slug) {
     : null
   if (liveUrl) { $('btn-view-live').href = liveUrl; $('btn-view-live').classList.remove('hidden') } else $('btn-view-live').classList.add('hidden')
   showView('view-editor'); showNav()
-}
-
-async function showFeeds () {
-  if (!token) return showLogin()
-  showView('view-feeds'); showNav()
-  const lastLimit = localStorage.getItem('feedi_feed_limit')
-  $('feed-limit-input').value = lastLimit ?? 5
-  await renderFeeds()
 }
 
 // ── api ───────────────────────────────────────────────────────────────────────
@@ -298,14 +272,6 @@ async function renderPageList () {
       <div class="post-row-actions"><a href="#edit/${p.slug}" class="btn btn-sm">edit</a></div>
     </div>`).join('')
   bindToggles(el)
-}
-
-async function renderFeeds () {
-  const feeds = await api('GET', '/api/feeds')
-  const el = $('feeds-list')
-  if (!Array.isArray(feeds) || !feeds.length) { el.innerHTML = '<p class="muted">no feeds yet. add one above.</p>'; return }
-  el.innerHTML = feeds.map(feedRow).join('')
-  bindFeedRows(el, feeds)
 }
 
 // ── editor ────────────────────────────────────────────────────────────────────
@@ -476,9 +442,8 @@ const doBackup = async () => {
   btn.textContent = 'exporting...'
   status.textContent = ''
   try {
-    const [posts, feedsRaw, settings, uploadsList] = await Promise.all([
+    const [posts, settings, uploadsList] = await Promise.all([
       api('GET', '/api/backup'),
-      api('GET', '/api/feeds'),
       api('GET', '/api/settings'),
       api('GET', '/api/uploads')
     ])
@@ -486,7 +451,6 @@ const doBackup = async () => {
     const zip = new JSZip()
 
     zip.file('posts.json', JSON.stringify(posts, null, 2))
-    zip.file('feeds.json', JSON.stringify((feedsRaw || []).map(({ url, title, limit }) => ({ url, title, limit })), null, 2))
     zip.file('settings.json', JSON.stringify(settings || {}, null, 2))
 
     if (Array.isArray(posts)) {
@@ -598,132 +562,6 @@ $('import-md-file').addEventListener('change', async (e) => {
   if (res.error) { setImportStatus(res.error); return }
   setImportStatus(`imported ${res.imported} post${res.imported !== 1 ? 's' : ''}${res.errors?.length ? `, ${res.errors.length} failed` : ''}`)
   await renderList()
-})
-
-// ── feeds ─────────────────────────────────────────────────────────────────────
-const ICON_PENCIL = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>'
-const ICON_TRASH = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>'
-const ICON_CHECK = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>'
-const ICON_CLOSE = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>'
-
-const feedHostname = (url) => { try { return new URL(url).hostname } catch { return url } }
-
-const feedRow = (f) => `
-  <div class="post-row feed-row" data-feed-url="${escHtml(f.url)}">
-    ${statusDot(f.status)}
-    <div class="post-row-title truncate">
-      <a href="${escHtml(f.url)}" target="_blank" rel="noopener" title="${escHtml(f.url)}" class="truncate">${escHtml(feedHostname(f.url))}</a>
-    </div>
-    <span class="post-row-meta">limit ${f.limit}</span>
-    <div class="post-row-actions">
-      <button class="icon-btn" data-action="edit" aria-label="Edit feed">${ICON_PENCIL}</button>
-      <button class="icon-btn danger" data-action="remove" aria-label="Remove feed">${ICON_TRASH}</button>
-    </div>
-  </div>`
-
-const feedRowEdit = (f) => `
-  <div class="post-row" data-feed-url="${escHtml(f.url)}" data-editing="true">
-    ${statusDot(f.status)}
-    <input type="url" class="feed-edit-url" value="${escHtml(f.url)}" placeholder="https://...">
-    <input type="number" class="feed-edit-limit" value="${f.limit}" min="1" max="50">
-    <div class="post-row-actions">
-      <button class="icon-btn" data-action="save" aria-label="Save">${ICON_CHECK}</button>
-      <button class="icon-btn danger" data-action="cancel" aria-label="Cancel">${ICON_CLOSE}</button>
-    </div>
-  </div>`
-
-function bindFeedRows (el, feeds) {
-  el.querySelectorAll('[data-action]').forEach(btn => {
-    const row = btn.closest('[data-feed-url]')
-    const url = row.dataset.feedUrl
-    const feed = feeds.find(f => f.url === url)
-
-    if (row.dataset.editing) {
-      row.querySelectorAll('input').forEach(input => input.addEventListener('keydown', e => {
-        if (e.key === 'Enter') el.querySelector(`[data-feed-url="${row.dataset.feedUrl}"] [data-action="save"]`)?.click()
-        if (e.key === 'Escape') el.querySelector(`[data-feed-url="${row.dataset.feedUrl}"] [data-action="cancel"]`)?.click()
-      }))
-    }
-
-    btn.addEventListener('click', async () => {
-      const action = btn.dataset.action
-      if (action === 'edit') { row.outerHTML = feedRowEdit(feed); bindFeedRows(el, feeds) }
-      if (action === 'cancel') { row.outerHTML = feedRow(feed); bindFeedRows(el, feeds) }
-      if (action === 'save') {
-        const newUrl = row.querySelector('.feed-edit-url').value.trim()
-        const limit = parseInt(row.querySelector('.feed-edit-limit').value) || feed.limit
-        const body = { url, limit }
-        if (newUrl && newUrl !== url) body.newUrl = newUrl
-        const res = await api('PATCH', '/api/feeds', body)
-        if (res.error) { showError('feeds-error', res.error); return }
-        await renderFeeds()
-      }
-      if (action === 'remove') {
-        const res = await api('DELETE', '/api/feeds', { url })
-        if (res.error) { showError('feeds-error', res.error); return }
-        await renderFeeds()
-      }
-    })
-  })
-}
-
-$('feed-url-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('btn-add-feed').click() })
-$('feed-limit-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('btn-add-feed').click() })
-$('btn-add-feed').addEventListener('click', async () => {
-  const url = $('feed-url-input').value.trim()
-  if (!url) return
-  $('feeds-error').classList.add('hidden')
-  const res = await api('POST', '/api/feeds', { url, limit: parseInt($('feed-limit-input').value) || 10 })
-  if (res.error) { showError('feeds-error', res.error); return }
-  localStorage.setItem('feedi_feed_limit', $('feed-limit-input').value)
-  $('feed-url-input').value = ''
-  await renderFeeds()
-})
-
-$('btn-delete-all-feeds').addEventListener('click', async () => {
-  if (!confirm('Delete all feeds? This cannot be undone.')) return
-  const res = await api('DELETE', '/api/feeds/all')
-  if (res.error) { showError('feeds-error', res.error); return }
-  await renderFeeds()
-})
-
-$('btn-import-feeds').addEventListener('click', () => $('import-feeds-file').click())
-$('import-feeds-file').addEventListener('change', async () => {
-  const file = $('import-feeds-file').files[0]
-  if (!file) return
-  $('import-feeds-file').value = ''
-  let data
-  try { data = JSON.parse(await file.text()) } catch { showError('feeds-error', 'invalid json file'); return }
-  if (!Array.isArray(data)) { showError('feeds-error', 'expected a json array'); return }
-  const statusEl = $('feeds-import-status')
-  statusEl.textContent = 'importing…'
-  statusEl.classList.remove('hidden')
-  $('feeds-error').classList.add('hidden')
-  const res = await api('POST', '/api/feeds/import', data)
-  if (res.error) { showError('feeds-error', res.error); statusEl.classList.add('hidden'); return }
-  statusEl.textContent = `added ${res.added}, skipped ${res.skipped} duplicates`
-  await renderFeeds()
-})
-
-$('btn-import-opml').addEventListener('click', () => $('import-opml-file').click())
-$('import-opml-file').addEventListener('change', async () => {
-  const file = $('import-opml-file').files[0]
-  if (!file) return
-  $('import-opml-file').value = ''
-  const xml = await file.text()
-  const statusEl = $('feeds-import-status')
-  statusEl.textContent = 'importing…'
-  statusEl.classList.remove('hidden')
-  $('feeds-error').classList.add('hidden')
-  const defaultLimit = parseInt($('feed-limit-input').value) || 10
-  const res = await fetch(`/api/feeds/import/opml?limit=${defaultLimit}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'text/xml', Authorization: `Bearer ${token}` },
-    body: xml
-  }).then(r => r.json())
-  if (res.error) { showError('feeds-error', res.error); statusEl.classList.add('hidden'); return }
-  statusEl.textContent = `added ${res.added}, skipped ${res.skipped} duplicates`
-  await renderFeeds()
 })
 
 // ── init ──────────────────────────────────────────────────────────────────────

@@ -21,8 +21,6 @@ function setEventListeners () {
       return
     }
 
-    if (url.pathname === '/analytics') return
-
     e.preventDefault()
     history.pushState(null, '', url.pathname + url.search)
     handleRouting()
@@ -109,10 +107,8 @@ const show = id => { const el = document.getElementById(id); if (el) el.hidden =
     const searchWrap = nav.querySelector('.nav-search-wrap')
     const kebabWrap = nav.querySelector('.nav-kebab-wrap')
     const md = settings.nav || '[Home](/) [Archive](/archive)'
-    const isOwner = document.cookie.split(';').some(c => c.trim() === 'feedi_skip=1')
     const links = []
     for (const [, text, url] of md.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)) {
-      if (url.trim() === '/analytics' && !isOwner) continue
       const a = document.createElement('a')
       a.href = url.trim()
       a.textContent = text

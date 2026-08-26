@@ -504,28 +504,6 @@ label.label-inline {
   color: #e08080;
 }
 
-/* Status dots */
-.status-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  display: inline-block;
-  flex-shrink: 0;
-  cursor: default;
-}
-.status-ok {
-  background: #4a9a4a;
-}
-.status-warn {
-  background: #b89030;
-}
-.status-error {
-  background: #a04040;
-}
-.status-null {
-  background: #444;
-}
-
 /* Settings */
 .settings-field {
   max-width: 480px;
@@ -541,45 +519,6 @@ label.label-inline {
   font-size: 0.9rem;
 }
 
-/* Feeds */
-.post-row.feed-row {
-  flex-wrap: nowrap;
-}
-.feed-row .post-row-title {
-  min-width: 0;
-}
-.feed-row .post-row-title a {
-  display: block;
-}
-.feed-row .post-row-meta {
-  flex-shrink: 0;
-}
-.feed-row .post-row-actions {
-  flex-shrink: 0;
-}
-.feed-edit-url {
-  flex: 3;
-  min-width: 0;
-  font-size: 0.9rem !important;
-  padding: 4px 8px !important;
-}
-.feed-edit-title {
-  flex: 2;
-  min-width: 0;
-  font-size: 0.9rem !important;
-  padding: 4px 8px !important;
-}
-.feed-edit-limit {
-  width: 64px !important;
-  font-size: 0.9rem !important;
-  padding: 4px 8px !important;
-}
-#feed-default-limit,
-#feed-limit-input {
-  width: 64px;
-  font-size: 0.85rem;
-  padding: 3px 8px;
-}
 #feed-max-items {
   width: 72px;
   font-size: 0.85rem;

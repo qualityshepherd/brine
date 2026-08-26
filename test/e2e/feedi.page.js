@@ -8,7 +8,6 @@ export const locators = {
   aboutLink: 'a[href="/about"]',
   archiveLink: 'a[href="/archive"]',
   archiveItem: '.archive',
-  feedsPost: '.feed-post',
   tagLink: '.tag',
   externalLink: 'a[href^="http"]:not([href^="' + BASE + '"])',
   downloadLink: 'a[download]'

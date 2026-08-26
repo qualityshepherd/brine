@@ -16,7 +16,6 @@
       <a href="#new" id="nav-new" class="hidden">+ new</a>
       <a href="#list" id="nav-posts" class="hidden">posts</a>
       <a href="#pages" id="nav-pages" class="hidden">pages</a>
-      <a href="#feeds" id="nav-feeds" class="hidden">feeds</a>
       <a href="#settings" id="nav-settings" class="hidden nav-icon" title="settings" aria-label="settings">⚙</a>
       <span id="nav-user" class="muted hidden"></span>
     </div>
@@ -81,35 +80,6 @@
       <a href="#new-page" class="btn btn-sm">+ new page</a>
     </div>
     <div id="page-list" class="post-list"></div>
-  </div>
-
-
-  <!-- feeds -->
-  <div id="view-feeds" class="hidden">
-    <div class="view-header">
-      <h2 class="view-title"><a href="/feeds">feeds</a></h2>
-    </div>
-    <div class="row field">
-      <div class="field" style="flex:3">
-        <label for="feed-url-input">feed url (rss/atom)</label>
-        <input type="url" id="feed-url-input" placeholder="https://example.com/feed.xml">
-      </div>
-      <div class="field" style="flex:1">
-        <label for="feed-limit-input">limit</label>
-        <input type="number" id="feed-limit-input" value="10" min="1" max="50">
-      </div>
-    </div>
-    <div class="flex gap-3 items-center field flex-wrap">
-      <button class="btn btn-primary" id="btn-add-feed">add feed</button>
-      <button class="btn btn-sm" id="btn-import-feeds" title="Import feeds from a JSON array — duplicates are skipped">import feeds json</button>
-      <input type="file" id="import-feeds-file" accept=".json" class="hidden">
-      <button class="btn btn-sm" id="btn-import-opml" title="Import feeds from an OPML file — duplicates are skipped">import opml</button>
-      <input type="file" id="import-opml-file" accept=".opml,.xml" class="hidden">
-      <button class="btn btn-sm danger" id="btn-delete-all-feeds">delete all</button>
-      <span class="muted hidden" id="feeds-import-status"></span>
-    </div>
-    <div class="error hidden" id="feeds-error"></div>
-    <div id="feeds-list" class="post-list"></div>
   </div>
 
   <!-- settings -->

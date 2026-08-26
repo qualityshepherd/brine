@@ -10,16 +10,13 @@ import {
   renderPosts,
   renderSinglePost
 } from './ui.js'
-import { loadAndRenderFeeds } from './feeds.js'
-import { initFeedsAdmin } from './feedsAdmin.js'
 import { initBlogCog } from './editor.js'
 
 const ROUTES = {
   HOME: '/',
   POST: '/posts',
   TAG: '/tag',
-  ARCHIVE: '/archive',
-  READER: '/feeds'
+  ARCHIVE: '/archive'
 }
 
 const getRouteParams = () => {
@@ -68,11 +65,6 @@ const routeHandlers = {
     }
   },
 
-  [ROUTES.READER]: async () => {
-    await loadAndRenderFeeds()
-    if (document.cookie.includes('feedi_skip=1')) initFeedsAdmin()
-  },
-
   default: () => {
     renderNotFoundPage()
   }
@@ -82,7 +74,6 @@ let isInitialLoad = true
 
 export function handleRouting () {
   const { route, params } = getRouteParams()
-  if (route === '/analytics') return
   if (route.length > 200 || /\/([^/]+)\/(?:[^/]+\/)*\1(?:\/|$)/.test(route)) return
   setSearchTerm('')
   window.scrollTo(0, 0)

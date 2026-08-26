@@ -16,7 +16,7 @@ export const settingsCardHtml = (s = {}) => `
       <label class="settings-field">
         <span>nav</span>
         <input type="text" id="settings-nav" placeholder="[Home](/) [Archive](/archive)" value="${s.nav || ''}">
-        <span class="settings-hint"><em>built-in routes: / · /feeds · /archive · /analytics</em></span>
+        <span class="settings-hint"><em>built-in routes: / · /archive</em></span>
       </label>
       <label class="settings-field">
         <span>site image <span class="settings-hint">rss thumbnail fallback</span></span>

@@ -1,15 +1,11 @@
 import { trackHit } from './hit.js'
-import { handleFeeds, refreshFeeds, handleFeedsAdmin } from './feeds.js'
 import { handleRss } from './rss.js'
 import { handleUpload, handleServeUpload } from './upload.js'
-import { handleAuth, memberByToken, timingSafeEqual } from './auth.js'
+import { handleAuth, memberByToken } from './auth.js'
 import { getTokenFromRequest } from './utils.js'
 import { handlePosts, handleIndex, getSettings } from './posts.js'
 import { handleFullBackup } from './backup.js'
 import { handleRobots, handleSitemap, handlePostRoute, handlePageRoute } from './seo.js'
-
-export const isAuthorized = (secret, adminSecret) =>
-  !!secret && !!adminSecret && timingSafeEqual(secret, adminSecret)
 
 const json = (data, status = 200) =>
   new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json' } })
@@ -50,7 +46,6 @@ export default {
   async scheduled (event, env, ctx) {
     const now = Date.now()
     ctx.waitUntil(Promise.all([
-      refreshFeeds(env).catch(err => console.error('Feed refresh failed:', err)),
       env.DB.prepare('DELETE FROM sessions WHERE expires_at < ?').bind(now).run().catch(() => {}),
       env.DB.prepare('DELETE FROM rate_limits WHERE reset_at < ?').bind(now).run().catch(() => {})
     ]))
@@ -85,11 +80,6 @@ async function handleRequest (req, env, ctx) {
     if (!await getAuth()) return json({ error: 'unauthorized' }, 401)
   }
 
-  // RSS feeds
-  if (path === '/feeds/aggregated') {
-    return handleFeeds(env)
-  }
-
   if (path.startsWith('/rss/')) {
     return handleRss(req, env, ctx)
   }
@@ -102,21 +92,9 @@ async function handleRequest (req, env, ctx) {
     return handleServeUpload(req, env)
   }
 
-  if (path === '/feeds/refresh' && req.method === 'POST') {
-    const secret = url.searchParams.get('secret')
-    if (!isAuthorized(secret, env.ADMIN_SECRET)) return json({ error: 'unauthorized' }, 401)
-    await refreshFeeds(env)
-    return new Response('refreshed')
-  }
-
   // Auth routes
   if (path === '/api/challenge' || path === '/api/login' || path === '/api/logout' || path === '/api/me') {
     return handleAuth(req, env)
-  }
-
-  // Feeds admin (authed)
-  if (path === '/api/feeds' || path.startsWith('/api/feeds/')) {
-    return handleFeedsAdmin(req, env, ctx)
   }
 
   // Full backup (owner-only streaming ZIP)

@@ -53,25 +53,4 @@ const postResult = await post('/api/backup', posts)
 console.log(`  ✓ ${postResult.imported} imported, ${postResult.errors?.length ?? 0} errors`)
 if (postResult.errors?.length) console.log('  errors:', postResult.errors)
 
-// 3. Feeds
-console.log('Importing feeds...')
-const feeds = JSON.parse(readFileSync(join(backupDir, 'feeds.json'), 'utf8'))
-let feedOk = 0; let feedErr = 0
-for (const { url } of feeds) {
-  try {
-    await post('/api/feeds', { url })
-    feedOk++
-  } catch (e) {
-    console.log(`  skip ${url}: ${e.message}`)
-    feedErr++
-  }
-}
-console.log(`  ✓ ${feedOk} feeds imported, ${feedErr} skipped`)
-
-// 4. Analytics migrate (reads from R2 analytics/ prefix)
-console.log('Migrating analytics from R2...')
-const analyticsRes = await post('/api/analytics/migrate', {})
-console.log(`  ✓ ${analyticsRes.days} days, ${analyticsRes.imported} rows, ${analyticsRes.skipped} skipped`)
-if (analyticsRes.errors?.length) console.log('  errors:', analyticsRes.errors)
-
 console.log('\nDone.')
