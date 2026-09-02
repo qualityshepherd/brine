@@ -7,6 +7,7 @@ test('shouldSkip: skips static extensions', t => { t.ok(shouldSkip('/assets/css/
 test('shouldSkip: skips png', t => { t.ok(shouldSkip('/apple-touch-icon.png')) })
 test('shouldSkip: skips mp3', t => { t.ok(shouldSkip('/pods/episode.mp3')) })
 test('shouldSkip: skips js by extension', t => { t.ok(shouldSkip('/src/app.js')) })
+test('shouldSkip: skips js sourcemaps', t => { t.ok(shouldSkip('/src/app.js.map')) })
 test('shouldSkip: skips /api paths', t => { t.ok(shouldSkip('/api/posts')) })
 test('shouldSkip: skips /favicon paths', t => { t.ok(shouldSkip('/favicon.png')) })
 test('shouldSkip: skips /sitemap paths', t => { t.ok(shouldSkip('/sitemap.xml')) })

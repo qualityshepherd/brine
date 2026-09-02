@@ -10,7 +10,7 @@ const SKIP_PATHS = [
 
 const SKIP_EXTENSIONS = [
   '.avif', '.bak', '.css', '.gif', '.ico', '.gz', '.jpg', '.jpeg', '.js',
-  '.mp3', '.mp4', '.otf', '.pdf', '.png', '.rar', '.svg', '.tar', '.ttf',
+  '.map', '.mp3', '.mp4', '.otf', '.pdf', '.png', '.rar', '.svg', '.tar', '.ttf',
   '.webm', '.webp', '.woff', '.woff2', '.zip'
 ]
 
