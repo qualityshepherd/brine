@@ -63,6 +63,8 @@ export async function trackHit (req, env) {
       city: cf.city,
       region: cf.region,
       asn: cf.asn,
+      as_organization: cf.asOrganization,
+      http_protocol: cf.httpProtocol,
       rss_feed: rssFeed,
       ts: Date.now()
     })
