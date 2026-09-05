@@ -32,8 +32,10 @@ const extractAudioUrl = (markdown) => {
 }
 
 const linkifyTags = (html) =>
-  html.replace(/(?<![="/@#&a-zA-Z0-9_])#([a-zA-Z0-9_]+)/g, (_, tag) =>
-    `<a href="/tag?t=${encodeURIComponent(tag.toLowerCase())}" class="tag">#${tag}</a>`
+  html.replace(/(?<![="/@#&a-zA-Z0-9_])#([a-zA-Z0-9_]+)/g, (match, tag) =>
+    /[a-z]/.test(tag.toLowerCase())
+      ? `<a href="/tag?t=${encodeURIComponent(tag.toLowerCase())}" class="tag">#${tag}</a>`
+      : match
   )
 
 export const renderHtml = (markdown) => linkifyTags(marked(markdown || ''))

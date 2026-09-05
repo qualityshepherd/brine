@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { slugify, buildIndex, postToMd } from '../../worker/posts.js'
+import { slugify, buildIndex, postToMd, renderHtml } from '../../worker/posts.js'
 
 // slugify
 test('slugify: lowercases title', t => {
@@ -139,4 +139,21 @@ test('postToMd: includes author in frontmatter', t => {
 test('postToMd: empty tags renders empty brackets', t => {
   const md = postToMd(makePost({ tags: [] }))
   t.ok(md.includes('tags: []'))
+})
+
+// renderHtml / linkifyTags
+test('renderHtml: linkifies a word hashtag', t => {
+  const html = renderHtml('hello #ttrpg world')
+  t.ok(html.includes('<a href="/tag?t=ttrpg" class="tag">#ttrpg</a>'))
+})
+
+test('renderHtml: leaves a purely numeric hashtag unlinked', t => {
+  const html = renderHtml('continuing from #0209')
+  t.ok(html.includes('#0209'))
+  t.ok(!html.includes('/tag?t=0209'))
+})
+
+test('renderHtml: linkifies a mixed alphanumeric hashtag', t => {
+  const html = renderHtml('see #world1')
+  t.ok(html.includes('/tag?t=world1'))
 })
