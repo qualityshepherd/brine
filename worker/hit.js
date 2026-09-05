@@ -4,8 +4,9 @@
 // and identifies the personal RSS feed route — routing knowledge only this
 // app has.
 const SKIP_PATHS = [
-  '/api', '/assets', '/favicon', '/images',
-  '/index.json', '/robots.txt', '/sitemap', '/uploads'
+  '/api', '/assets', '/env', '/favicon', '/images',
+  '/index.json', '/nodeinfo', '/robots.txt', '/sitemap', '/uploads',
+  '/.well-known/nodeinfo'
 ]
 
 const SKIP_EXTENSIONS = [
