@@ -1,22 +1,17 @@
 import { unit as test } from '../testpup.js'
 import { shouldSkip, trackHit } from '../../worker/hit.js'
 
-// shouldSkip — app-specific "is this even a pageview" filtering. Bot/device/
-// RSS classification now happens in chalk, not here.
 test('shouldSkip: skips static extensions', t => { t.ok(shouldSkip('/assets/css/style.css')) })
 test('shouldSkip: skips png', t => { t.ok(shouldSkip('/apple-touch-icon.png')) })
 test('shouldSkip: skips mp3', t => { t.ok(shouldSkip('/pods/episode.mp3')) })
 test('shouldSkip: skips js by extension', t => { t.ok(shouldSkip('/src/app.js')) })
 test('shouldSkip: skips js sourcemaps', t => { t.ok(shouldSkip('/src/app.js.map')) })
 test('shouldSkip: skips /api paths', t => { t.ok(shouldSkip('/api/posts')) })
-test('shouldSkip: skips /favicon paths', t => { t.ok(shouldSkip('/favicon.png')) })
-test('shouldSkip: skips /sitemap paths', t => { t.ok(shouldSkip('/sitemap.xml')) })
+test('shouldSkip: does not skip /favicon locally (chalk classifies it centrally)', t => { t.falsy(shouldSkip('/favicon')) })
+test('shouldSkip: does not skip /sitemap.xml locally (chalk classifies it centrally)', t => { t.falsy(shouldSkip('/sitemap.xml')) })
 test('shouldSkip: skips /uploads paths', t => { t.ok(shouldSkip('/uploads/abc123.png')) })
 test('shouldSkip: skips /images paths', t => { t.ok(shouldSkip('/images/cover.jpg')) })
 test('shouldSkip: skips /index.json', t => { t.ok(shouldSkip('/index.json')) })
-test('shouldSkip: skips /env paths (scanner probes)', t => { t.ok(shouldSkip('/env')) })
-test('shouldSkip: skips /nodeinfo paths', t => { t.ok(shouldSkip('/nodeinfo/2.1')) })
-test('shouldSkip: skips /.well-known/nodeinfo', t => { t.ok(shouldSkip('/.well-known/nodeinfo')) })
 test('shouldSkip: normal path is not skipped', t => { t.falsy(shouldSkip('/')) })
 test('shouldSkip: extension check ignores query string', t => { t.ok(shouldSkip('/style.css?v=2')) })
 
