@@ -26,7 +26,7 @@ const identifyRssFeed = (path) => {
   return null
 }
 
-export async function trackHit (req, env) {
+export async function trackHit (req, env, status) {
   if (!env.CHALK_HIT_SECRET) return
 
   const url = new URL(req.url)
@@ -65,6 +65,7 @@ export async function trackHit (req, env) {
       as_organization: cf.asOrganization,
       http_protocol: cf.httpProtocol,
       rss_feed: rssFeed,
+      status,
       ts: Date.now()
     })
   }).catch(() => {})

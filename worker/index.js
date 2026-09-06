@@ -33,7 +33,9 @@ const addSecurityHeaders = (res) => {
 export default {
   async fetch (req, env, ctx) {
     try {
-      return addSecurityHeaders(await handleRequest(req, env, ctx))
+      const response = await handleRequest(req, env, ctx)
+      ctx.waitUntil(trackHit(req, env, response.status))
+      return addSecurityHeaders(response)
     } catch (err) {
       console.error('Worker error:', err)
       return new Response(JSON.stringify({ error: err.message || 'internal error' }), {
@@ -55,8 +57,6 @@ export default {
 async function handleRequest (req, env, ctx) {
   const url = new URL(req.url)
   const path = url.pathname
-
-  ctx.waitUntil(trackHit(req, env))
 
   if (path === '/api/hit' && req.method === 'POST') {
     return new Response('ok')

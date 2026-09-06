@@ -49,6 +49,19 @@ test('trackHit: forwards raw signal to chalk', async t => {
   t.is(body.rss_feed, null)
 })
 
+test('trackHit: forwards the response status when provided', async t => {
+  let captured = null
+  await withMockFetch(async (url, init) => { captured = init; return new Response('ok') }, async () => {
+    const req = new Request('https://brine.dev/nonexistent', {
+      headers: { 'cf-connecting-ip': '1.2.3.4' }
+    })
+    await trackHit(req, { CHALK_HIT_SECRET: 'secret', DOMAIN_NAME: 'brine.dev' }, 404)
+  })
+
+  const body = JSON.parse(captured.body)
+  t.is(body.status, 404)
+})
+
 test('trackHit: identifies personal rss feed paths', async t => {
   let captured = null
   await withMockFetch(async (url, init) => { captured = init; return new Response('ok') }, async () => {
