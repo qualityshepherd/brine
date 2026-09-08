@@ -1,0 +1,96 @@
+@page {
+  size: A5;
+  margin: 1.8cm;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/SpaceGrotesk.var.woff2") format("woff2");
+}
+
+@media print {
+  header,
+  footer,
+  nav,
+  .login-modal-overlay,
+  .post-edit-btn,
+  .archive-filters,
+  .post-break,
+  audio,
+  .video-embed,
+  .video-embed-placeholder {
+    display: none !important;
+  }
+
+  html { font-size: 12pt; }
+
+  body {
+    background: #fff;
+    color: #1a1a1a;
+    font-family: "Inter", "Arial", sans-serif;
+    line-height: 1.45;
+  }
+
+  .container {
+    max-width: none;
+    width: auto;
+    padding: 0;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  h2, h3, h4, .post-title, .single-title {
+    color: #1a1a1a;
+    font-family: "Space Grotesk", "header", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    break-after: avoid;
+  }
+
+  h2 { font-size: 17pt; margin-top: 1.6em; }
+  h3 { font-size: 14pt; margin-top: 1.4em; }
+  h4 { font-size: 13pt; }
+
+  div.post .post-title,
+  h2.single-title {
+    font-size: 26pt;
+    margin-bottom: 0.6em;
+  }
+
+  .date,
+  .post-content p:has(a.tag) {
+    display: none;
+  }
+
+  .post-content {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  p, li { orphans: 3; widows: 3; }
+  li { break-inside: avoid; text-align: left; }
+  ol, ul { break-inside: auto; margin-left: 0; margin-bottom: 1em; padding-left: 1.2em; list-style-position: outside; }
+
+  blockquote { border-left-color: #999; color: #333; }
+  code { background: #eee; color: #1a1a1a; }
+  table, th, td { border-color: #999; }
+  th { background: #eee; }
+
+  hr {
+    border: none;
+    text-align: center;
+    margin: 1.5em 0;
+    opacity: 1;
+  }
+  hr::after {
+    content: "•  •  •";
+    letter-spacing: 0.5em;
+    color: #999;
+  }
+
+  img[alt="thumb"] { float: none; display: block; margin: 1em auto; }
+}
