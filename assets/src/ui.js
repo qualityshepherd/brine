@@ -77,6 +77,11 @@ export function renderSinglePost (slug) {
   const posts = getPosts()
   const post = posts.find(p => p.meta.slug === slug)
   elements.main.innerHTML = post ? singlePostTemplate(post) : notFoundTemplate()
+  // mentions from discover - the exact embed script other blogs use,
+  // loaded in index.html with data-manual since posts render client-side
+  // here and an innerHTML-injected script tag would never execute
+  const article = elements.main.querySelector('article.post')
+  if (article) window.discoverMentions?.(article)
 }
 
 export function renderArchive (posts, filter = 'all', onFilter) {

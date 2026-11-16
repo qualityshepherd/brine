@@ -24,7 +24,7 @@ const addSecurityHeaders = (res) => {
   const ct = res.headers.get('Content-Type') || ''
   if (!ct.includes('text/html')) return res
   const h = new Headers(res.headers)
-  h.set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src * data: blob:; media-src *; connect-src 'self'; frame-src https://www.youtube.com https://player.vimeo.com; frame-ancestors 'none'")
+  h.set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline' https://discover.brine.dev; style-src 'self' 'unsafe-inline'; img-src * data: blob:; media-src *; connect-src 'self' https://discover.brine.dev; frame-src https://www.youtube.com https://player.vimeo.com; frame-ancestors 'none'")
   h.set('X-Content-Type-Options', 'nosniff')
   h.set('Referrer-Policy', 'strict-origin-when-cross-origin')
   return new Response(res.body, { status: res.status, headers: h })
