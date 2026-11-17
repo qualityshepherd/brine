@@ -10,7 +10,6 @@ import {
   renderPosts,
   renderSinglePost
 } from './ui.js'
-import { initBlogCog } from './editor.js'
 
 const ROUTES = {
   HOME: '/',
@@ -34,7 +33,6 @@ const filterPostsByTag = (posts, tag) =>
 const routeHandlers = {
   [ROUTES.HOME]: () => {
     renderPosts(getPosts())
-    if (document.cookie.includes('feedi_skip=1')) initBlogCog()
   },
 
   [ROUTES.POST]: () => {
@@ -45,7 +43,6 @@ const routeHandlers = {
   [ROUTES.TAG]: ({ params }) => {
     const tag = params.get('t')
     renderPosts(tag ? filterPostsByTag(getPosts(), tag) : [])
-    if (document.cookie.includes('feedi_skip=1')) initBlogCog()
   },
 
   [ROUTES.ARCHIVE]: () => {

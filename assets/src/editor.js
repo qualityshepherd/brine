@@ -139,13 +139,15 @@ const saveDraftOnSwitch = async () => {
   }
 }
 
-const addBlogCog = (editing = false) => {
+// only shown while editing, as the way back to reading. new and edit
+// live in the menu
+const addBlogCog = () => {
   document.getElementById('blog-cog-bar')?.remove()
   const bar = document.createElement('div')
   bar.id = 'blog-cog-bar'
   bar.className = 'feeds-cog-bar'
-  bar.innerHTML = `<button class="feeds-cog-btn${editing ? ' is-active' : ''}" title="${editing ? 'Back to reading' : 'New post'}">${editing ? COG_SVG : '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>'}</button>`
-  bar.querySelector('.feeds-cog-btn').addEventListener('click', editing ? () => closeBlogEdit() : () => openBlogEdit())
+  bar.innerHTML = `<button class="feeds-cog-btn is-active" title="Back to reading">${COG_SVG}</button>`
+  bar.querySelector('.feeds-cog-btn').addEventListener('click', () => closeBlogEdit())
   elements.main.prepend(bar)
 }
 
@@ -241,7 +243,7 @@ const stopAutosave = () => {
 const renderEditorView = (slug) => {
   const drafts = editorState.list.filter(p => p.status === 'draft').reverse()
   elements.main.innerHTML = buildEditorView(drafts)
-  addBlogCog(true)
+  addBlogCog()
   document.getElementById('blog-page-check')?.addEventListener('change', syncActions)
   attachEditorDropZone()
   startAutosave()
@@ -289,8 +291,8 @@ const closeBlogEdit = (reload = false) => {
     window.dispatchEvent(new PopStateEvent('popstate'))
     return
   }
+  document.getElementById('blog-cog-bar')?.remove()
   renderPosts(getPosts())
-  addBlogCog(false)
 }
 
 const handleBlogSave = async (action) => {
@@ -331,10 +333,6 @@ const handleBlogSave = async (action) => {
   refreshDraftItems()
 }
 
-export function initBlogCog () {
-  addBlogCog(false)
-}
-
 export function initEditor () {
   document.body.classList.add('is-owner')
   document.getElementById('kebab-owner-items').hidden = false
@@ -342,6 +340,28 @@ export function initEditor () {
 
   const kebabDropdown = document.getElementById('kebab-dropdown')
   const closeKebab = () => { if (kebabDropdown) kebabDropdown.hidden = true }
+
+  // edit only makes sense when the screen is one post or page - checked
+  // each time the menu opens rather than tracked across every route
+  const currentSlug = () => elements.main.querySelector('article.post[data-slug]')?.dataset.slug
+  document.getElementById('btn-kebab')?.addEventListener('click', () => {
+    const edit = document.getElementById('btn-edit-post')
+    if (edit) edit.hidden = !currentSlug()
+  })
+
+  document.getElementById('btn-new-post')?.addEventListener('click', () => {
+    closeKebab()
+    // already in the editor: same as its own new button, unsaved check and all
+    const inEditor = document.querySelector('[data-action="new-post"]')
+    if (inEditor) { inEditor.click(); return }
+    openBlogEdit()
+  })
+
+  document.getElementById('btn-edit-post')?.addEventListener('click', () => {
+    closeKebab()
+    const slug = currentSlug()
+    if (slug) openBlogEdit(slug)
+  })
 
   document.getElementById('btn-settings')?.addEventListener('click', () => {
     closeKebab()
