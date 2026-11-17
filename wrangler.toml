@@ -15,7 +15,7 @@ SITE_DESCRIPTION = "I'm a blabby nerd that lives in the high desert..."
 OWNER = "1cNgwq1reYmHBqkSvy46eFu3SkFFXTr0U_pGm8KrZns"
 PODCAST_IMAGE = "https://brine.dev/images/brine_square.jpg"
 PODCAST_CATEGORY = "Arts"
-PODCAST_EMAIL = "ack@brine.dev"
+PODCAST_EMAIL = "ping@brine.dev"
 
 [[d1_databases]]
 binding = "DB"

@@ -42,7 +42,7 @@ await patch('/api/settings', {
   maxItems: 420,
   podcastImage: 'https://brine.dev/images/brine_square.jpg',
   podcastCategory: 'Arts',
-  podcastEmail: 'ack@brine.dev'
+  podcastEmail: 'ping@brine.dev'
 })
 console.log('  ✓ settings')
 

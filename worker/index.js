@@ -80,8 +80,10 @@ async function handleRequest (req, env, ctx) {
     if (!await getAuth()) return json({ error: 'unauthorized' }, 401)
   }
 
+  // handleRss returns null for feeds it doesn't know - that used to fall out
+  // of here as a null response and blow up into a 500
   if (path.startsWith('/rss/')) {
-    return handleRss(req, env, ctx)
+    return (await handleRss(req, env, ctx)) || new Response('Not found', { status: 404 })
   }
 
   if (path === '/api/upload' && req.method === 'POST') {
