@@ -157,3 +157,13 @@ test('renderHtml: linkifies a mixed alphanumeric hashtag', t => {
   const html = renderHtml('see #world1')
   t.ok(html.includes('/tag?t=world1'))
 })
+
+test('renderHtml: keeps dashes inside a hashtag', t => {
+  const html = renderHtml('#sci-fi #setting')
+  t.ok(html.includes('<a href="/tag?t=sci-fi" class="tag">#sci-fi</a>'))
+})
+
+test('renderHtml: trailing dash is not part of the tag', t => {
+  const html = renderHtml('about #ttrpg- stuff')
+  t.ok(html.includes('<a href="/tag?t=ttrpg" class="tag">#ttrpg</a>-'))
+})

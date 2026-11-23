@@ -390,6 +390,17 @@ ul, ol { margin-bottom: var(--space-6); }
 
 .archive-filters { display: flex; gap: var(--space-2); margin-bottom: var(--space-5); }
 
+/* title, a line running out to the date, date */
+.archive-row { display: flex; align-items: baseline; gap: var(--space-3); }
+.archive-row > a { min-width: 0; }
+.archive-line {
+  flex: 1;
+  min-width: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+  transform: translateY(-0.35em);
+}
+.archive-row .date { flex-shrink: 0; }
+
 .archive-filter {
   background: none;
   border: 1px solid var(--color-border);
@@ -404,6 +415,23 @@ ul, ol { margin-bottom: var(--space-6); }
 }
 .archive-filter:hover { color: var(--color-text-primary); border-color: var(--color-text-muted); }
 .archive-filter.active { border-color: var(--color-accent); color: var(--color-accent); }
+
+.archive-reset { color: inherit; text-decoration: none; }
+.archive-reset:hover { color: var(--color-accent); }
+
+.archive-tags { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); margin-bottom: var(--space-5); }
+.archive-tag {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--text-sm);
+}
+.archive-tag:hover { color: var(--color-text-primary); }
+.archive-tag.active { color: var(--color-accent); }
+.archive-tag-count { font-size: 0.8em; }
 
 /* ── post edit button ─────────────────────────────────────────────────────────── */
 

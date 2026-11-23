@@ -4,6 +4,8 @@ import {
   setSearchTerm
 } from './state.js'
 import {
+  archiveUrl,
+  parseArchiveFilter,
   renderArchive,
   renderFilteredPosts,
   renderNotFoundPage,
@@ -23,13 +25,6 @@ const getRouteParams = () => {
   return { route: location.pathname, params }
 }
 
-const normalize = str => String(str || '').toLowerCase()
-
-const filterPostsByTag = (posts, tag) =>
-  posts.filter(post =>
-    post.meta.tags?.some(t => normalize(t) === normalize(tag))
-  )
-
 const routeHandlers = {
   [ROUTES.HOME]: () => {
     renderPosts(getPosts())
@@ -40,14 +35,21 @@ const routeHandlers = {
     if (slug) renderSinglePost(slug)
   },
 
+  // tag links baked into posts and feeds still say /tag?t=... - they land on
+  // the archive filtered to that tag, a list instead of every post in full.
+  // replaceState so Back doesn't bounce off /tag
   [ROUTES.TAG]: ({ params }) => {
-    const tag = params.get('t')
-    renderPosts(tag ? filterPostsByTag(getPosts(), tag) : [])
+    const url = archiveUrl(parseArchiveFilter(params))
+    history.replaceState(null, '', url)
+    routeHandlers[ROUTES.ARCHIVE]({ params: new URLSearchParams(url.split('?')[1] || '') })
   },
 
-  [ROUTES.ARCHIVE]: () => {
-    const render = (filter) => renderArchive(getPosts(), filter, render)
-    render('all')
+  [ROUTES.ARCHIVE]: ({ params }) => {
+    // a filter click is a real navigation: new url, history entry, hit
+    renderArchive(getPosts(), parseArchiveFilter(params), filter => {
+      history.pushState(null, '', archiveUrl(filter))
+      handleRouting()
+    })
   },
 
   '/search': ({ params }) => {

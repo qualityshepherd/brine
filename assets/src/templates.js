@@ -31,8 +31,9 @@ export const notFoundTemplate = (message = 'No results found.') => `
 `
 
 export const archiveTemplate = (post, isOwner = false) => `
-  <p${post.meta.audioUrl ? ' class="archive-pod"' : ''} data-slug="${post.meta.slug}">
+  <p class="archive-row${post.meta.audioUrl ? ' archive-pod' : ''}" data-slug="${post.meta.slug}">
     <a href="/posts/${post.meta.slug}"><span class="archive">${post.meta.title}</span></a>
+    <span class="archive-line" aria-hidden="true"></span>
     <span class="date">${fmtDate(post.meta.date)}</span>${isOwner ? ' <button class="post-edit-btn" title="Edit">✎</button>' : ''}
   </p>
 `

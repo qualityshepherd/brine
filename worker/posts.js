@@ -18,7 +18,7 @@ const extractTitle = (markdown) => {
 }
 
 const extractHashtags = (markdown) => {
-  const matches = [...(markdown || '').matchAll(/(?<![="/>@#&a-zA-Z0-9])#([a-zA-Z0-9_]+)/g)]
+  const matches = [...(markdown || '').matchAll(/(?<![="/>@#&a-zA-Z0-9])#([a-zA-Z0-9_]+(?:-[a-zA-Z0-9_]+)*)/g)]
   return [...new Set(
     matches
       .map(m => m[1].toLowerCase())
@@ -32,7 +32,7 @@ const extractAudioUrl = (markdown) => {
 }
 
 const linkifyTags = (html) =>
-  html.replace(/(?<![="/@#&a-zA-Z0-9_])#([a-zA-Z0-9_]+)/g, (match, tag) =>
+  html.replace(/(?<![="/@#&a-zA-Z0-9_])#([a-zA-Z0-9_]+(?:-[a-zA-Z0-9_]+)*)/g, (match, tag) =>
     /[a-z]/.test(tag.toLowerCase())
       ? `<a href="/tag?t=${encodeURIComponent(tag.toLowerCase())}" class="tag">#${tag}</a>`
       : match
