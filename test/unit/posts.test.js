@@ -1,5 +1,6 @@
 import { unit as test } from '../testpup.js'
-import { slugify, buildIndex, postToMd, renderHtml } from '../../worker/posts.js'
+import { slugify, buildIndex, postToMd, renderHtml, dropTitleHeading } from '../../worker/posts.js'
+import { stripTags, escXml } from '../../worker/utils.js'
 
 // slugify
 test('slugify: lowercases title', t => {
@@ -166,4 +167,26 @@ test('renderHtml: keeps dashes inside a hashtag', t => {
 test('renderHtml: trailing dash is not part of the tag', t => {
   const html = renderHtml('about #ttrpg- stuff')
   t.ok(html.includes('<a href="/tag?t=ttrpg" class="tag">#ttrpg</a>-'))
+})
+
+// dropTitleHeading
+test('dropTitleHeading: drops the leading title heading', t => {
+  const html = dropTitleHeading(renderHtml('# On Mixtapes\n\nCurating is fun.'))
+  t.is(html.trim(), '<p>Curating is fun.</p>')
+})
+
+test('dropTitleHeading: keeps an h1 that is not first', t => {
+  const html = dropTitleHeading(renderHtml('Intro.\n\n# Later'))
+  t.ok(html.includes('<h1>Later</h1>'))
+})
+
+// stripTags
+test('stripTags: apostrophes survive into an escaped description', t => {
+  const text = stripTags(renderHtml("you've added it"))
+  t.is(text, "you've added it")
+  t.is(escXml(text), "you've added it")
+})
+
+test('stripTags: decodes once, not twice', t => {
+  t.is(stripTags('<p>a &amp;#39; b &#x2014; c</p>'), 'a &#39; b — c')
 })

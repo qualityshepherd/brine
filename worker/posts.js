@@ -40,6 +40,11 @@ const linkifyTags = (html) =>
 
 export const renderHtml = (markdown) => linkifyTags(marked(markdown || ''))
 
+// the leading `# ` line is the post's title, which every view already prints.
+// left in, it's a hidden h1 that leaks into copied text and og descriptions.
+// done on read so stored posts get it too
+export const dropTitleHeading = (html) => (html || '').replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\s*/, '')
+
 export const postToMd = ({ title, date, author, tags, markdown }) =>
   `---\ntitle: ${title}\ndate: ${date}\nauthor: ${author}\ntags: [${(tags || []).join(', ')}]\n---\n${markdown}`
 
@@ -70,7 +75,7 @@ const rowToPost = (row) => ({
   slug: row.slug,
   title: row.title,
   markdown: row.markdown,
-  html: row.html || '',
+  html: dropTitleHeading(row.html),
   description: row.description,
   status: row.status,
   type: row.type,
@@ -110,7 +115,7 @@ export const getRssPosts = async (db) => {
   return results.map(row => ({
     slug: row.slug,
     title: row.title,
-    html: row.html || '',
+    html: dropTitleHeading(row.html),
     description: row.description,
     date: row.date,
     audioUrl: row.audio_url,
@@ -135,7 +140,7 @@ export const buildIndex = (posts) =>
         image: post.imageUrl || '',
         page: post.type === 'page'
       },
-      html: post.html || renderHtml(post.markdown)
+      html: post.html || dropTitleHeading(renderHtml(post.markdown))
     }))
 
 export const handleIndex = async (env) => {
