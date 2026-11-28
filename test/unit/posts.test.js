@@ -1,5 +1,5 @@
 import { unit as test } from '../testpup.js'
-import { slugify, buildIndex, postToMd, renderHtml, dropTitleHeading } from '../../worker/posts.js'
+import { slugify, buildIndex, newestFirst, postToMd, renderHtml, dropTitleHeading, extractHashtags } from '../../worker/posts.js'
 import { stripTags, escXml } from '../../worker/utils.js'
 
 // slugify
@@ -189,4 +189,35 @@ test('stripTags: apostrophes survive into an escaped description', t => {
 
 test('stripTags: decodes once, not twice', t => {
   t.is(stripTags('<p>a &amp;#39; b &#x2014; c</p>'), 'a &#39; b — c')
+})
+
+// extractHashtags
+test('extractHashtags: real hashtags, lowercased, once each', t => {
+  t.assert.deepStrictEqual(extractHashtags('a #TTRPG b #ttrpg #sci-fi'), ['ttrpg', 'sci-fi'])
+})
+
+test('extractHashtags: skips # in image alt, link targets and code', t => {
+  const md = '![#image](/a.png)\n\n[magic](#post?s=x) and [more](#spellTags?t=y)\n\nold `#post?s=my_post` routing'
+  t.assert.deepStrictEqual(extractHashtags(md), [])
+})
+
+test('extractHashtags: skips purely numeric tags', t => {
+  t.assert.deepStrictEqual(extractHashtags('from #0209 and #world1'), ['world1'])
+})
+
+test('renderHtml: leaves hashtags in code alone', t => {
+  const html = renderHtml('`#post` and\n\n```\n#nope\n```\n\n#yes')
+  t.assert.ok(!html.includes('/tag?t=post'))
+  t.assert.ok(!html.includes('/tag?t=nope'))
+  t.assert.ok(html.includes('/tag?t=yes'))
+})
+
+test('newestFirst: unpadded dates sort by date, not as strings', t => {
+  const posts = [
+    { slug: 'feb', date: '2025-2-21' },
+    { slug: 'dec', date: '2025-12-12' },
+    { slug: 'aug', date: '2025-8-24' },
+    { slug: 'now', date: '2026-11-27T14:41:13.122Z' }
+  ]
+  t.deepEqual(newestFirst(posts).map(p => p.slug), ['now', 'dec', 'aug', 'feb'])
 })

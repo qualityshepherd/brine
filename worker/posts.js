@@ -17,28 +17,31 @@ const extractTitle = (markdown) => {
   return first?.trim() || `untitled-${Date.now()}`
 }
 
-const extractHashtags = (markdown) => {
-  const matches = [...(markdown || '').matchAll(/(?<![="/>@#&a-zA-Z0-9])#([a-zA-Z0-9_]+(?:-[a-zA-Z0-9_]+)*)/g)]
-  return [...new Set(
-    matches
-      .map(m => m[1].toLowerCase())
-      .filter(t => /[a-z]/.test(t))
-  )]
-}
-
 const extractAudioUrl = (markdown) => {
   const m = (markdown || '').match(/<audio[^>]+src=["']([^"']+)["']/i)
   return m ? m[1] : ''
 }
 
-const linkifyTags = (html) =>
+const linkifyText = (html) =>
   html.replace(/(?<![="/@#&a-zA-Z0-9_])#([a-zA-Z0-9_]+(?:-[a-zA-Z0-9_]+)*)/g, (match, tag) =>
     /[a-z]/.test(tag.toLowerCase())
       ? `<a href="/tag?t=${encodeURIComponent(tag.toLowerCase())}" class="tag">#${tag}</a>`
       : match
   )
 
+// code is code: `#post?s=x` stays literal
+const linkifyTags = (html) =>
+  html.split(/(<(pre|code)\b[\s\S]*?<\/\2>)/i)
+    .map((part, i) => i % 3 === 0 ? linkifyText(part) : i % 3 === 1 ? part : '')
+    .join('')
+
 export const renderHtml = (markdown) => linkifyTags(marked(markdown || ''))
+
+// tags are whatever got linkified, so # in links, image alt text and code
+// never becomes a tag. one rule, not two regexes drifting apart
+export const extractHashtags = (markdown) => [...new Set(
+  [...renderHtml(markdown).matchAll(/class="tag">#([^<]+)</g)].map(m => m[1].toLowerCase())
+)]
 
 // the leading `# ` line is the post's title, which every view already prints.
 // left in, it's a hidden h1 that leaks into copied text and og descriptions.
@@ -87,6 +90,11 @@ const rowToPost = (row) => ({
   tags: row.tag_list ? row.tag_list.split(',') : []
 })
 
+// sort by real date, not the string: older posts have dates like 2025-8-24,
+// which sql sorts after 2025-12-12
+export const newestFirst = (posts) =>
+  [...posts].sort((a, b) => new Date(b.date) - new Date(a.date))
+
 const POST_QUERY = `
   SELECT p.*, GROUP_CONCAT(pt.tag) as tag_list
   FROM posts p
@@ -112,7 +120,7 @@ export const getRssPosts = async (db) => {
     WHERE p.status = 'published' AND p.type != 'page'
     GROUP BY p.id ORDER BY p.date DESC
   `).all()
-  return results.map(row => ({
+  return newestFirst(results.map(row => ({
     slug: row.slug,
     title: row.title,
     html: dropTitleHeading(row.html),
@@ -121,13 +129,11 @@ export const getRssPosts = async (db) => {
     audioUrl: row.audio_url,
     imageUrl: row.image_url || '',
     tags: row.tag_list ? row.tag_list.split(',') : []
-  }))
+  })))
 }
 
 export const buildIndex = (posts) =>
-  posts
-    .filter(p => p.status === 'published')
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
+  newestFirst(posts.filter(p => p.status === 'published'))
     .map(post => ({
       meta: {
         slug: post.slug,
